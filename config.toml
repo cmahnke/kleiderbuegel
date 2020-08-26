@@ -1,0 +1,43 @@
+baseURL = "https://kleiderbuegel.projektemacher.org/"
+languageCode = "de"
+title = "Kleiderbügel"
+publishDir = "docs"
+canonifyurls = true
+languagecode = "de"
+defaultcontentlanguage = "de"
+rssLimit = 25
+
+[params]
+    author = "Christian Mahnke"
+    keywords = "Kleiderbügel"
+    description = "Eine Auswahl an alten Kleiderbügeln"
+
+[menu]
+    [[menu.main]]
+        name = "Start"
+        weight = 1
+        url = "/"
+
+    [[menu.main]]
+        name = "Über"
+        weight = 2
+        url = "about/"
+
+[module]
+    [[module.mounts]]
+        source = "assets/scss"
+        target = "assets/scss"
+
+    [[module.mounts]]
+        source = "node_modules/flipster/dist"
+        target = "assets/css/flipster"
+
+    [[module.mounts]]
+        source = "static"
+        target = "static"
+
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe= true

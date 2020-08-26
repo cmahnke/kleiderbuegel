@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="{{ .Site.Language.Lang }}">
+    {{ if hasPrefix .Page.Name "404" }}
+        <meta http-equiv="refresh" content="15; URL={{ .Site.BaseURL }}">
+    {{ end }}
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    <meta name="description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}">
+    <meta name="keywords" content="{{ (delimit .Keywords ",") | default .Site.Params.keywords }}">
+
+     {{ hugo.Generator }}
+  </head>
+
+     {{ $class := "" }}
+     {{ if hasPrefix .Page.File.Path "about" }}
+         {{ $class = "about" }}
+     {{ end }}
+     {{ if .Params.metaPage }}
+         {{ $class = printf "%s %s" $class "meta" }}
+     {{ end }}
+     <body class="{{ $class }}">
+       <div id="page">
+         {{ partial "header.html" . }}
+         <div id="main">
+             {{ block "content" . }}{{ end }}
+             {{ partial "footer.html" . }}
+         </div>
+       </div>
+   </body>
+ </html>

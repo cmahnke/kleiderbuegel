@@ -1,0 +1,17 @@
+<div class="post">
+    <div class="content">
+         {{ .Content }}
+     </div>
+    <div class="meta">
+        <div class="tags">
+            {{ if isset .Params "tags" }}
+                {{ range $tag := .Params.tags }}
+                    <a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">{{ $tag }}</a>
+                {{ end }}
+            {{ end }}
+        </div>
+        <div class="date">
+            <a href="{{ .RelPermalink }}">{{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}</a><br />
+        </div>
+    </div>
+</div>

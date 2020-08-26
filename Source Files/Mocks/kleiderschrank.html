@@ -8,74 +8,63 @@
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/jquery.flipster/dist/jquery.flipster.min.js"></script>
     <style media="screen">
-        body {
-            margin: unset;
-        }
+    body {
+        margin: unset;
+    }
 
-        #schrank {
-            position: relative;
-        }
+    #schrank {
+        position: relative;
+    }
 
-        #kleiderstange {
-            width: 100vw;
-            height: 2em;
-            position: absolute;
-            top: 2em;
-            background-image: url(./img/rod.png);
-            background-repeat: no-repeat;
-            background-size:  100vw 25px;
-        }
+    #kleiderstange {
+        width: 100vw;
+        height: 2em;
+        position: absolute;
+        top: 2em;
+        background-image: url(../../../static/images/rod.png);
+        background-repeat: no-repeat;
+        background-size: 100vw 25px;
+    }
 
-        #klamotten {
-            padding-top: 2em;
+    #klamotten {
+        padding-top: 2em;
+    }
 
-        }
+    .buegel {
+        width: 300px;
+        transition: 0.2s;
+    }
 
-        .buegel {
-            width: 300px;
-            transition: 0.2s;
-        }
-
-        .buegel:hover {
-                transform: scale(1.1);
-        }
-
-
-.flipster__item {
-    vertical-align: top;
-}
-        .flipster--coverflow .flipster__item--past .flipster__item__content {
-            transform: scale(.95) rotateY(-65deg) !important;
-        }
-
-        .flipster--coverflow .flipster__item--past .flipster__item__content:hover {
-            transform: scale(1.1);
-        }
-
-        .flipster--coverflow .flipster__item--future .flipster__item__content {
-            transform: scale(.95) rotateY(65deg) !important;
-        }
-/*
-        .flipster--coverflow .flipster__item--future .flipster__item__content {
-
-        }
-*/
-
-        .flipster--coverflow .flipster__item__content {
-            box-reflect: unset;
-            -webkit-box-reflect: unset;
-            transform: scale(1.1);
-        }
-
-        /* flipster__item--current */
+    .buegel:hover {
+        transform: scale(1.1);
+    }
 
 
+    .flipster__item {
+        vertical-align: top;
+    }
+    .flipster--coverflow .flipster__item--past .flipster__item__content {
+        transform: scale(.95) rotateY(-65deg) !important;
+    }
+
+    .flipster--coverflow .flipster__item--past .flipster__item__content:hover {
+        transform: scale(1.1);
+    }
+
+    .flipster--coverflow .flipster__item--future .flipster__item__content {
+        transform: scale(.95) rotateY(65deg) !important;
+    }
+
+    .flipster--coverflow .flipster__item__content {
+        box-reflect: unset;
+        -webkit-box-reflect: unset;
+        transform: scale(1.1);
+    }
     </style>
 </head>
 
 <body>
     <div id="schrank">
-
         <div id="klamotten">
             <div id="kleiderstange"></div>
             <ul>
@@ -89,8 +78,6 @@
         $('#klamotten').flipster({
             spacing: -0.7
         });
-        var canvas = document.getElementById('kleiderstange');
-
     </script>
 </body>
 

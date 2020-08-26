@@ -1,0 +1,5 @@
+{{ with .Site.Menus.main}}
+    {{ range sort . }}
+        <a class="navigation-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+    {{ end }}
+{{ end }}

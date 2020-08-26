@@ -1,0 +1,54 @@
+body {
+    margin: unset;
+}
+
+#schrank {
+    position: relative;
+}
+
+#kleiderstange {
+    width: 100vw;
+    height: 2em;
+    position: absolute;
+    top: 2em;
+    background-image: url("/images/rod.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 25px;
+}
+
+#klamotten {
+    padding-top: 2em;
+}
+
+.buegel {
+    width: 300px;
+    transition: 0.2s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.flipster__item {
+    vertical-align: top;
+}
+
+.flipster--coverflow {
+    .flipster__item--past .flipster__item__content {
+        transform: scale(.95) rotateY(-65deg) !important;
+    }
+
+    .flipster__item--past .flipster__item__content:hover {
+        transform: scale(1.1);
+    }
+
+    .flipster__item--future .flipster__item__content {
+        transform: scale(.95) rotateY(65deg) !important;
+    }
+
+    .flipster__item__content {
+        box-reflect: unset;
+        -webkit-box-reflect: unset;
+        transform: scale(1.1);
+    }
+}

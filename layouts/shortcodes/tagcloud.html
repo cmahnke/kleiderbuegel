@@ -1,0 +1,27 @@
+{{/* Inspired by https://github.com/gohugoio/hugoThemesSite/blob/ff2c51f118fe932525715002895eda1f036877d7/layouts/partials/tag-cloud.html */}}
+<div class="tagcloud">
+    {{ $tags := $.Site.Taxonomies.tags.ByCount }}
+    {{ $filtered := where $tags "Count" ">=" 3 }}
+    {{ $filtered = where $filtered "Term" "not in" (slice "hugo" "tags" "rss") }}
+    {{ $highest := (index $filtered 0).Count }}
+    {{ $lowest :=  (index (last 1 $filtered) 0).Count }}
+    {{ $max := 48 }}
+    {{ $min := 12 }}
+    {{ $count := 0 }}
+    {{ range $filtered }}
+        {{ $count = add $count .Count }}
+    {{ end }}
+
+    {{ range $filtered }}
+        {{ if .Term }}
+            {{ $tagURL := printf "tags/%s" .Term | relURL }}
+            {{/* See http://www.johann-oberdorfer.eu/blog/2020/02/23/20-02-23_tag_cloud_for_hugo/ */}}
+            {{ $fontStep := div (sub (math.Log .Count) (math.Log $lowest)) (sub (math.Log $highest) (math.Log $lowest)) }}
+            {{ $fontSize := add $min (mul (sub $max $min) $fontStep) }}
+            {{ $fontSize = math.Floor $fontSize }}
+            <a href="{{ $tagURL }}" class="btn btn-default cloud-tag" role="button" style="font-size: {{ $fontSize }}px;">
+                {{ .Term }} <span class="badge">({{ .Count }})</span>
+            </a>
+        {{ end }}
+    {{ end }}
+</div>
