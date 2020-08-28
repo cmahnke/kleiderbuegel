@@ -36,6 +36,10 @@ rssLimit = 25
         source = "static"
         target = "static"
 
+[mediaTypes]
+    [mediaTypes."application/json"]
+        suffixes = ["json"]
+
 
 [markup]
     [markup.goldmark]

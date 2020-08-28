@@ -1,0 +1,2 @@
+{   'meta': {'date': '{{ .Date }}', 'title': '{{ .Title }}', 'type': '{{ .Params.type }}' },
+    'content': '{{ .Content }}'}
