@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Kleiderbügel</title>
+    <link>https://kleiderbuegel.projektemacher.org/tags/</link>
+    <description>Recent content in Tags on Kleiderbügel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Fri, 28 Aug 2020 18:42:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://kleiderbuegel.projektemacher.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Offenburg</title>
+      <link>https://kleiderbuegel.projektemacher.org/tags/offenburg/</link>
+      <pubDate>Fri, 28 Aug 2020 18:42:44 +0200</pubDate>
+      
+      <guid>https://kleiderbuegel.projektemacher.org/tags/offenburg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jülich</title>
+      <link>https://kleiderbuegel.projektemacher.org/tags/j%C3%BClich/</link>
+      <pubDate>Fri, 28 Aug 2020 18:32:44 +0200</pubDate>
+      
+      <guid>https://kleiderbuegel.projektemacher.org/tags/j%C3%BClich/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Göttingen</title>
+      <link>https://kleiderbuegel.projektemacher.org/tags/g%C3%B6ttingen/</link>
+      <pubDate>Fri, 28 Aug 2020 18:22:44 +0200</pubDate>
+      
+      <guid>https://kleiderbuegel.projektemacher.org/tags/g%C3%B6ttingen/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
