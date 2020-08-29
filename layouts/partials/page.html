@@ -1,17 +1,25 @@
-<div class="post">
+{{ $class := .Params.type }}
+<div class="post {{ $class }}">
     <div class="content">
-         {{ .Content }}
+      {{ if eq $class "hanger" }}
+        <div class="hanger-front">
+          {{- $front := .Resources.GetMatch "front*" -}}
+          {{- $large := $front.Resize "1600x" -}}
+          <img class="buegel-large" src="{{ $large.RelPermalink }}" alt="{{ .Title }}"/>
+        </div>
+      {{ end }}
+      {{ .Content }}
      </div>
     <div class="meta">
+      <div class="date">
+          <a href="{{ .RelPermalink }}">{{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}</a><br />
+      </div>
         <div class="tags">
             {{ if isset .Params "tags" }}
                 {{ range $tag := .Params.tags }}
-                    <a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">{{ $tag }}</a>
+                    <a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">#{{ $tag }}</a>
                 {{ end }}
             {{ end }}
-        </div>
-        <div class="date">
-            <a href="{{ .RelPermalink }}">{{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}</a><br />
         </div>
     </div>
 </div>

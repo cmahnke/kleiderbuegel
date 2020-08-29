@@ -29,7 +29,11 @@ rssLimit = 25
         target = "assets/scss"
 
     [[module.mounts]]
-        source = "node_modules/flipster/dist"
+        source = "assets/js"
+        target = "assets/js"
+
+    [[module.mounts]]
+        source = "node_modules/jquery.flipster/dist"
         target = "assets/css/flipster"
 
     [[module.mounts]]

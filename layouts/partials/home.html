@@ -1,0 +1,51 @@
+{{ $hangers := .Site.Pages }}
+<div id="schrank">
+    <div id="klamotten">
+        <div id="kleiderstange"></div>
+        <ul>
+          {{- range  where $hangers "Params.type" "eq" "hanger"  -}}
+            {{- $title := .Params.title -}}
+            {{- $front := .Resources.GetMatch "front*" -}}
+            {{- $thumb := $front.Resize "330x" -}}
+            {{- $large := $front.Resize "1600x" -}}
+            {{- $content := (partial "page.html" .) -}}
+            {{- $id := delimit (shuffle (seq 1 9)) "" -}}
+            <li>
+              <div class="hanger-post-content" id="{{ $id }}" style="display: none;">{{ $content | safeHTML }}</div>
+              <img class="buegel" src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" data-image="{{ $large.RelPermalink }}" data-content-id="{{ $id }}"/>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+      <div id="kleidungsstueck">
+        </div>
+      <script>
+        initFlipster(document.getElementById('klamotten'));
+      </script>
+</div>
+
+{{- $pages := where (where .Site.Pages "Params.displayInList" "!=" false) "Params.type" "eq" "text" -}}
+
+{{- $paginator := .Paginate $pages -}}
+<div class="post-list">
+  {{- range $paginator.Pages  -}}
+      {{ partial "page.html" . }}
+  {{ end }}
+</div>
+{{ if or ($paginator.HasPrev) ($paginator.HasNext) -}}
+  <div class="navi">
+      <div class="pagination">
+          <div>
+            {{ if $paginator.HasNext }}
+              <a class="next" href="{{ $paginator.Next.URL }}">&laquo;Vorige Seite</a>
+            {{ end }}
+            {{ $currentPage := $paginator.PageNumber }}
+            {{ $totalPages := $paginator.TotalPages }}
+            <span id="page">Seite {{ $currentPage }} von {{ $totalPages }}</span>
+            {{ if $paginator.HasPrev }}
+              <a class="previous" href="{{ $paginator.Prev.URL }}">Nächste Seite&raquo;</a>
+            {{ end }}
+        </div>
+    </div>
+  </div>
+{{- end }}

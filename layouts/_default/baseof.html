@@ -12,7 +12,21 @@
     <meta name="description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}">
     <meta name="keywords" content="{{ (delimit .Keywords ",") | default .Site.Params.keywords }}">
 
-     {{ hugo.Generator }}
+    {{ $defines := dict "process.env.NODE_ENV" `"production"` }}
+    {{ $opts := dict "targetPath" "js/main.js" "defines" $defines "minify" false }}
+    {{ $flipster := resources.Get "js/main.js" | js.Build $opts }}
+    {{- $js := slice $flipster | resources.Concat "js/concated.js" | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+
+    {{- $flipsterStyle := resources.Get "css/flipster/jquery.flipster.min.css" -}}
+    {{ $options := (dict "targetPath" "base.css" "outputStyle" "compressed") -}}
+    {{- $ourTemplate := resources.Get "scss/base.scss" -}}
+    {{- $ourStyle := $ourTemplate | resources.ExecuteAsTemplate "scss/base.scss" . | toCSS $options -}}
+    {{- $style := slice $flipsterStyle $ourStyle | resources.Concat "css/concated.css" | minify | fingerprint -}}
+    <link href="{{ $style.RelPermalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}">
+
+
+    {{ hugo.Generator }}
   </head>
 
      {{ $class := "" }}

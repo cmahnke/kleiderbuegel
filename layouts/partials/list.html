@@ -1,6 +1,6 @@
 {{ $pages := .Pages }}
 {{ $paginator := .Paginate (where $pages "Params.displayinlist" "!=" false) -}}
-{{- range $paginator.Pages -}}
+{{- range $paginator.Pages  -}}
     {{ partial "page.html" . }}
 {{ end }}
 {{ if or ($paginator.HasPrev) ($paginator.HasNext) -}}
