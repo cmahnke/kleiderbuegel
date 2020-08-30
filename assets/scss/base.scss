@@ -5,6 +5,9 @@ body {
 #head {
   width: 80%;
   margin: auto;
+  text-align: center;
+
+  .menu {}
 
   nav.top {
     margin: auto;
@@ -62,6 +65,39 @@ body {
     -webkit-box-reflect: unset;
     transform: scale(1.1);
   }
+
+  .flipster__container {
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+}
+
+#kleidungsstueck {
+  width: 100vw;
+  transition: 0.2s;
+  min-height: 50vh;
+
+  .post.hanger {
+    width: 80%;
+    margin: auto;
+
+    .content {
+      position: relative;
+      .close-hanger {
+        display: block;
+        position: absolute;
+        top: 1em;
+        right: 1em;
+      }
+
+      .hanger-front {
+        img {
+          max-width: 100%;
+          padding-bottom: 1em;
+        }
+      }
+    }
+  }
 }
 
 #main {
@@ -72,10 +108,11 @@ body {
 
   .post {
     .content {
-      .hanger-front {
-        width: 80%;
-        margin: auto;
-      }
+      .close-hanger {
+        display: none;
+
+          }
+
     }
 
     .meta {
@@ -88,4 +125,12 @@ body {
       }
     }
   }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }

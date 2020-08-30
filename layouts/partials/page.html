@@ -1,6 +1,7 @@
 {{ $class := .Params.type }}
 <div class="post {{ $class }}">
     <div class="content">
+      <button class="close-hanger">X</button>
       {{ if eq $class "hanger" }}
         <div class="hanger-front">
           {{- $front := .Resources.GetMatch "front*" -}}
