@@ -6107,6 +6107,11 @@
         var id = $(this).data("content-id");
         var content = $("#" + id).html();
         $("#kleidungsstueck").html(content);
+        $("#kleidungsstueck").css("visibility", "visible");
+        $(".close-hanger").on("click", function() {
+          $("#kleidungsstueck").css("visibility", "hidden");
+          $("#kleidungsstueck").html("");
+        });
       });
     });
   };
