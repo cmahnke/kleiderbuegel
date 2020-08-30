@@ -1,0 +1,12 @@
+---
+date: 2020-09-11T19:12:44+02:00
+title: "Karstadt Göttingen"
+tags:
+- Göttingen
+- Warenhaus
+- Karstadt
+type: hanger
+---
+Karstadt Göttingen
+
+Die gute Herrenkleidung

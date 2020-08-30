@@ -25,6 +25,10 @@
     {{- $style := slice $flipsterStyle $ourStyle | resources.Concat "css/concated.css" | minify | fingerprint -}}
     <link href="{{ $style.RelPermalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}">
 
+    {{/* External Styles - Fonts etc */}}
+    {{ range .Site.Params.stylesheets -}}
+    <link href="{{ . }}" rel="stylesheet">
+    {{- end -}}
 
     {{ hugo.Generator }}
   </head>

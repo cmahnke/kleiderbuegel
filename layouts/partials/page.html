@@ -6,9 +6,13 @@
         <div class="hanger-front">
           {{- $front := .Resources.GetMatch "front*" -}}
           {{- $large := $front.Resize "1600x" -}}
-          <img class="buegel-large" src="{{ $large.RelPermalink }}" alt="{{ .Title }}"/>
+          <img class="buegel-font hanger-img" src="{{ $large.RelPermalink }}" alt="{{ .Title }}"/>
         </div>
-      {{ end }}
+        {{- with .Resources.GetMatch "back*" -}}
+            {{- $largeBack := .Resize "1600x" -}}
+            <img class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ .Title }}"/>
+        {{- end }}
+      {{- end -}}
       {{ .Content }}
      </div>
     <div class="meta">

@@ -10,7 +10,6 @@ window.initFlipster = function(elem) {
         var id = $(this).data('content-id');
         var content = $('#' + id).html();
         $('#kleidungsstueck').html(content);
-        //$('#kleidungsstueck').append('<button class="close-hanger">X</button>');
         $('#kleidungsstueck').css('visibility', 'visible')
         $('.close-hanger').on('click', function () {
           $('#kleidungsstueck').css('visibility', 'hidden')

@@ -20,3 +20,16 @@ exiftool -all= *.jpg
 ```
 
 **Note:** If the image has been rotated just using metadata, this information will be lost!
+
+## Create and compress PNG images
+
+### Install PNG compressor
+
+```
+brew install zopfli
+```
+
+### Convert from Photoshop
+
+```
+find . -name '*.psd' -exec convert {} {}.png \;
