@@ -1,0 +1,9 @@
+[submodule "redirects/xn--kleiderbgel-06a41a"]
+	path = redirects/xn--kleiderbgel-06a41a
+	url = https://github.com/cmahnke/xn--kleiderbgel-06a41a.git
+[submodule "redirects/kleiderbuegel-qmb"]
+	path = redirects/kleiderbuegel-qmb
+	url = https://github.com/cmahnke/kleiderbuegel-qmb.git
+[submodule "redirects/kleiderbuegel-06a41a"]
+	path = redirects/kleiderbuegel-06a41a
+	url = https://github.com/cmahnke/kleiderbuegel-06a41a.git

@@ -33,3 +33,17 @@ brew install zopfli
 
 ```
 find . -name '*.psd' -exec convert {} {}.png \;
+find . -name '*-0.png' -exec zopflipng -m {} {}-c.png \;
+```
+
+# Redirects
+
+The canonical name is [https://kleiderbügel.blaufusstölpel.de](kleiderbügel.blaufusstölpel.de) or `xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de`.
+
+See also [IDN-Web-Converter](https://www.denic.de/service/tools/idn-web-converter/)
+
+| IDN URL                         | URL                                           | Repository             |
+|---------------------------------|-----------------------------------------------|------------------------|
+| kleiderbügel.blaufußtölpel.de   | xn--kleiderbgel-0hb.xn--blaufutlpel-06a41a.de | xn--kleiderbgel-06a41a |
+| kleiderbuegel.blaufußtölpel.de  | kleiderbuegel.xn--blaufutlpel-06a41a.de       | kleiderbuegel-06a41a   |
+| kleiderbuegel.blaufusstölpel.de | kleiderbuegel.xn--blaufusstlpel-qmb.de        | kleiderbuegel-qmb      |
