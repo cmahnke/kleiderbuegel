@@ -57,25 +57,37 @@ strong {
     font-weight: 900
 }
 
-.navigation-link {
-  padding:  1rem;
-}
-
 #head {
-    width: 80%;
-    margin: auto;
+    //width: 80%;
+    //margin: auto;
     text-align: center;
     color: #654321;
 
     .menu {}
 
     nav.top {
-        margin: 1rem auto;
+        padding: 1rem auto;
+
+        .navigation-link {
+          padding:  1rem;
+        }
+
     }
 
     h1 {
       margin-bottom: 1.6em;
     }
+}
+
+@media screen and (max-width: 740px) {
+  #head {
+    nav {
+      background-color: rgba(0, 0, 0, .2);
+      font-size: larger;
+      padding: 1em;
+
+    }
+  }
 }
 
 #schrank {
@@ -218,6 +230,12 @@ $kleidungsstueck-border-radius:  10px;
     }
 }
 
+  @media screen and (max-width: 740px) {
+    #kleidungsstueck {
+      width:85%;
+    }
+}
+
 #main {
 
     h1 {
@@ -235,8 +253,6 @@ $kleidungsstueck-border-radius:  10px;
         .post {
 
         .content {
-          //padding: 1.5em 1.5em;
-
           margin: auto;
           border-top-right-radius: 5px;
           border-top-left-radius: 5px;
@@ -250,11 +266,7 @@ $kleidungsstueck-border-radius:  10px;
     }
 
     .post {
-/*
-      &.text {
-        padding: 1rem;
-      }
-      */
+
       &.text, &.hanger {
         p, h2 {
           margin: 0 1rem;
@@ -327,6 +339,23 @@ $kleidungsstueck-border-radius:  10px;
           text-align: center;
         }
     }
+
+      @media screen and (max-width: 740px) {
+        .post {
+
+          .content {
+            width: 95%;
+          }
+          .meta {width:95%;}
+        }
+        .post.spacer {
+
+          width: 95%;
+        }
+        .footer {
+          width:95%;
+        }
+      }
 }
 
 .home #main {
@@ -362,6 +391,12 @@ background-color: unset;
         width: unset;
       }
     }
+
+  @media screen and (max-width: 740px) {
+    .post-list {
+      width: 95%;
+    }
+  }
   }
 
   .post.spacer {
