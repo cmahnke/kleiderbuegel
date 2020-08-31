@@ -1,7 +1,9 @@
+<div class="kleiderstange"></div>
 {{ $class := .Params.type }}
 <div class="post {{ $class }}">
     <div class="content">
       <button class="close-hanger">X</button>
+      <h1 class="post-title">{{ .Title }}</h1>
       {{ if eq $class "hanger" }}
         <div class="hanger-front">
           {{- $front := .Resources.GetMatch "front*" -}}
@@ -17,14 +19,15 @@
      </div>
     <div class="meta">
       <div class="date">
-          <a href="{{ .RelPermalink }}">{{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}</a><br />
+          <a href="{{ .RelPermalink }}">{{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}</a>
       </div>
-        <div class="tags">
-            {{ if isset .Params "tags" }}
-                {{ range $tag := .Params.tags }}
-                    <a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">#{{ $tag }}</a>
-                {{ end }}
-            {{ end }}
-        </div>
+      <div class="meta-spacer"> </div>
+      {{ if isset .Params "tags" }}
+          <div class="tags">
+              {{ range $tag := .Params.tags }}
+                  <a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">#{{ $tag }}</a><br />
+              {{ end }}
+          </div>
+      {{ end }}
     </div>
 </div>

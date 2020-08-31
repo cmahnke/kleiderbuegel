@@ -1,7 +1,7 @@
 {{ $hangers := .Site.Pages }}
 <div id="schrank">
     <div id="klamotten">
-        <div id="kleiderstange"></div>
+        <div class="kleiderstange home"></div>
         <ul>
           {{- range  where $hangers "Params.type" "eq" "hanger"  -}}
             {{- $title := .Params.title -}}

@@ -1,5 +1,5 @@
 ---
-title: "Spinoff Gestartet"
+title: 'Spinoff "Kleiderbügel" gestartet'
 date: 2020-08-28T07:30:07+02:00
 type: text
 ---

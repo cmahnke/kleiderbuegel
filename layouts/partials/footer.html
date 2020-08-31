@@ -1,0 +1,9 @@
+<div class="footer">
+  <div class="colophon">
+      {{ if .Site.Params.copyrightYears }}
+          <p>&copy; {{ .Site.Title }} {{ .Site.Params.copyrightYears }}</p>
+      {{ end }}
+      <p class="projektemacher">
+          {{ .Site.Title }} {{ i18n "projektemacher" | safeHTML }}
+      </p>
+</div>
