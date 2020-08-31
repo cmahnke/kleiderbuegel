@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Kleiderbügel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Sat, 29 Aug 2020 18:22:44 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 18:32:44 +0200</lastBuildDate>
     
 	<atom:link href="https://kleiderbuegel.projektemacher.org/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bekleidungshaus Junge</title>
+      <link>https://kleiderbuegel.projektemacher.org/post/2/</link>
+      <pubDate>Sun, 30 Aug 2020 18:32:44 +0200</pubDate>
+      
+      <guid>https://kleiderbuegel.projektemacher.org/post/2/</guid>
+      <description>Bekleidungshaus Jöris, Jülich Düsseldorferstr.</description>
+    </item>
     
     <item>
       <title>Bekleidungshaus Junge</title>
@@ -21,7 +30,7 @@
     </item>
     
     <item>
-      <title>Spinoff Gestartet</title>
+      <title>Spinoff &#34;Kleiderbügel&#34; gestartet</title>
       <link>https://kleiderbuegel.projektemacher.org/post/spinoff-gestartet/</link>
       <pubDate>Fri, 28 Aug 2020 07:30:07 +0200</pubDate>
       
