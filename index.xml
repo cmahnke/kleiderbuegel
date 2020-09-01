@@ -6,10 +6,19 @@
     <description>Recent content on Kleiderbügel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Mon, 31 Aug 2020 18:42:44 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2020 18:52:44 +0200</lastBuildDate>
     
 	<atom:link href="https://kleiderbuegel.projektemacher.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gut gekleidet von Karstadt</title>
+      <link>https://kleiderbuegel.projektemacher.org/post/4/</link>
+      <pubDate>Tue, 01 Sep 2020 18:52:44 +0200</pubDate>
+      
+      <guid>https://kleiderbuegel.projektemacher.org/post/4/</guid>
+      <description>Gut gekleidet von Karstadt</description>
+    </item>
     
     <item>
       <title>August Boschert</title>
@@ -44,7 +53,8 @@
       <pubDate>Fri, 28 Aug 2020 07:30:07 +0200</pubDate>
       
       <guid>https://kleiderbuegel.projektemacher.org/post/spinoff-gestartet/</guid>
-      <description>&amp;ldquo;Kleiderbügel&amp;rdquo; ist als Spinoff des Blaufußtölpels gestartet.</description>
+      <description>&amp;ldquo;Kleiderbügel&amp;rdquo; ist als Spinoff des Blaufußtölpels gestartet: Irgendwann ist auch die angesagteste Mode reif für den Schrank, ihre Halbwertszeit überschritten oder schlicht abgesagt. Dann schlägt die Stunde des Kleiderbügels. Einiger dieser praktischen Helfer aus vergangenen Tagen sollen hier dokumentiert werden. Viele der hier gezeigten Exemplare bieten als Werbeträger auch einen Einblick in die lokale Wirtschaftsgeschichte und in die vergangene Vielfalt des Einzelhandels.
+Auch fragwürdige Exemplare werden sicher ihren Weg in diesen Kleiderschrank finden - sieht ja eh keiner&amp;hellip;</description>
     </item>
     
     <item>
@@ -53,7 +63,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kleiderbuegel.projektemacher.org/about/</guid>
-      <description>  </description>
+      <description>Dieses Blog bietet einen Blick auf alte Kleiderbügel und ist ein Teil des Blaufußtölpels.
+Schlagworte Die verwendeten Schlagworte beschreiben in der Regel den Ort und die Art des beworbenen Unternehmens. Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
+ Meine anderen Blogs Meine anderen Blogs sind nun auf Projektemacher.org verzeichnet.
+Kolophon Diese Seite wurde mit Hugo generiert.
+Als Schriftarten kommen Libre Baskerville und Raleway zum Einsatz.
+Als Javascript Framework kommt jQuery mit dem Plugin jQuery.</description>
     </item>
     
   </channel>
