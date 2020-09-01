@@ -20,7 +20,7 @@
             {{ $fontSize := add $min (mul (sub $max $min) $fontStep) }}
             {{ $fontSize = math.Floor $fontSize }}
             <a href="{{ $tagURL }}" class="btn btn-default cloud-tag" role="button" style="font-size: {{ $fontSize }}px;">
-                {{ .Term }} <span class="badge">({{ .Count }})</span>
+                {{ .Term | humanize}} <span class="badge">({{ .Count }})</span>
             </a>
         {{ end }}
     {{ end }}

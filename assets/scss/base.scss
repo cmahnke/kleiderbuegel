@@ -32,15 +32,17 @@ body {
     }
 
 &.about {
-    background-position: 97% 10em;
+
+  .content {
+    background-position: 97% 2em;
     background-image: url("/images/cm.svg");
     background-repeat: no-repeat;
+  }
 
 
-
-.meta {
-  display: none !important;
-}
+  .meta {
+    display: none !important;
+  }
 
 }
 }
@@ -58,15 +60,14 @@ strong {
 }
 
 #head {
-    //width: 80%;
-    //margin: auto;
     text-align: center;
     color: #654321;
 
     .menu {}
 
     nav.top {
-        padding: 1rem auto;
+        padding-top: 2em;
+        padding-bottom: 1em;
 
         .navigation-link {
           padding:  1rem;
@@ -81,9 +82,10 @@ strong {
 
 @media screen and (max-width: 740px) {
   #head {
-    nav {
+    nav.top {
       background-color: rgba(0, 0, 0, .2);
       font-size: larger;
+      padding-top: 1em;
       padding: 1em;
 
     }
@@ -95,7 +97,6 @@ strong {
 }
 
 .kleiderstange {
-  //  width: 100vw;
     height: 1.1em;
     background-image: url("/images/rod.png");
     background-repeat: no-repeat;
