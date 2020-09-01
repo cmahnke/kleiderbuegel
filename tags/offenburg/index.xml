@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Offenburg on Kleiderbügel</title>
+    <link>https://kleiderbuegel.projektemacher.org/tags/offenburg/</link>
+    <description>Recent content in Offenburg on Kleiderbügel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 31 Aug 2020 18:42:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://kleiderbuegel.projektemacher.org/tags/offenburg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>August Boschert</title>
+      <link>https://kleiderbuegel.projektemacher.org/post/3/</link>
+      <pubDate>Mon, 31 Aug 2020 18:42:44 +0200</pubDate>
+      
+      <guid>https://kleiderbuegel.projektemacher.org/post/3/</guid>
+      <description>August Boschert, Offenburg, Steinstrasse 10</description>
+    </item>
+    
+  </channel>
+</rss>
