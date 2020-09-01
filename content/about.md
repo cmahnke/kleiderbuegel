@@ -4,7 +4,7 @@ displayInList: false
 metaPage: true
 ---
 
-Dieses Blog bietet einen Blick auf alte Kleiderbügel und ist ein Teil des [Blaufußtölpels](https://xn--blaufusstlpel-qmb.de).
+Dieses Blog bietet einen Blick auf alte Kleiderbügel und ist ein Teil des [Blaufußtölpels](https://xn--blaufusstlpel-qmb.de). Die abgebildeten Kleiderbügel sind verschlagwortet und werden ansonsten nicht kommentiert, auch die nicht, die vielleicht einer Distanzierung bedürften.
 
 
 # Schlagworte
@@ -19,7 +19,7 @@ Meine anderen Blogs sind nun auf [Projektemacher.org](https://projektemacher.org
 
 # Kolophon
 
-Diese Seite wurde mit [Hugo](https://gohugo.io/) generiert.
+Diese Seite wird mit [Hugo](https://gohugo.io/) generiert und von [GitHub](https://github.com/) gehosted.
 
 Als Schriftarten kommen [Libre Baskerville](www.impallari.com/projects/overview/libre-baskerville) und [Raleway](https://github.com/impallari/Raleway/) zum Einsatz.
 
