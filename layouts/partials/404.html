@@ -1,12 +1,11 @@
-<div id="content">
-    <div class="narrow">
-        <div class="title">
-            <h1>404</h1>
-            <h1>Nicht gefunden</h1>
-        </div>
-        <div class="caption">
-           <p>Die angeforderte URL konnte auf dem Server nicht gefunden werden.</p>
-           <p>Du kannst hier zurück zur <a href="{{ .Site.BaseURL | safeHTML }}">Startseite</a>.</p>
-    	</div>
-    </div>
-</div>
+<div class="kleiderstange"></div>
+<div class="post error404">
+    <div class="content">
+        <h1>
+           <a href="{{ "/" | relURL }}">404 Seite nicht gefunden!</a>
+        </h1>
+        <img src="/images/blaufusstoelpel.svg" alt="Der Blaufußtölpel hat nichts gefunden!"/>
+        <p>Die angeforderte URL konnte auf dem Server nicht gefunden werden.</p>
+        <p><a href="{{ .Site.BaseURL | safeHTML }}">Du kannst hier zurück zur Startseite.</a></p>
+     </div>
+ </div>

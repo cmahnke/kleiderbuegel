@@ -11,9 +11,8 @@ rssLimit = 25
     author = "Christian Mahnke"
     keywords = "Kleiderbügel, coat hangers"
     description = "Eine Auswahl an alten Kleiderbügeln"
-    copyrightYears = "2020" 
-    stylesheets = ["https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;0,900;1,400&display=swap"]
-
+    copyrightYears = "2020"
+    stylesheets = ["https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Raleway:ital,wght@0,400;0,700;0,900;1,400&display=swap"]
 
 [menu]
     [[menu.main]]

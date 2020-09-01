@@ -2,7 +2,7 @@
 {{ $class := .Params.type }}
 <div class="post {{ $class }}">
     <div class="content">
-      <button class="close-hanger">X</button>
+      <button class="close-hanger"></button>
       <h1 class="post-title">{{ .Title }}</h1>
       {{ if eq $class "hanger" }}
         <div class="hanger-front">

@@ -15,9 +15,9 @@ $background: "data:image/svg+xml;utf8,%3C%3Fxml version='1.0' encoding='UTF-8' s
 
 html {
     background: url($background);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: top;
-    background-size: cover;
+    background-size: 100%;
     /* background-color: #d6bd9c; */
 }
 
@@ -38,9 +38,41 @@ body {
     &.about {
 
         .content {
-            background-position: 97% 2em;
+            background-position: 97% 3%;
             background-image: url("/images/cm.svg");
             background-repeat: no-repeat;
+
+            h1, h2, h3 {
+                font-family: 'Libre Baskerville', serif;
+                font-style: italic;
+            }
+
+            p, h1, h2, h3, .tagcloud {
+                text-align: left !important;
+                width: 60%;
+                margin: auto;
+            }
+
+            img {
+                margin: 3em auto;
+                max-width: 50%;
+                display: block;
+            }
+
+            .tagcloud {
+                margin: 1em auto;
+            }
+
+            @media screen and (max-width: 740px) {
+                p, h1, h2, h3, .tagcloud {
+                    width: unset;
+                }
+
+                img {
+                    margin: 1.5em auto;
+                    max-width: 100%;
+                }
+            }
         }
 
         .meta {
@@ -54,6 +86,10 @@ h1,
 h2,
 h3,
 h4 {
+    /*
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    */
     color: $font-color-heading;
 }
 
@@ -64,6 +100,10 @@ strong {
 #head {
     text-align: center;
     color: #654321;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: larger;
 
     .menu {}
 
@@ -84,7 +124,7 @@ strong {
     #head {
         nav.top {
             background-color: rgba(0, 0, 0, .2);
-            font-size: larger;
+
             padding-top: 1em;
             padding: 1em;
 
@@ -126,20 +166,6 @@ strong {
     &:hover {
         transform: scale(1.1);
     }
-}
-
-.icon:before {
-    content: ' ';
-    display: block;
-    background-size: 80% 80%;
-    height: 24px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.icon.close {
-    background-image: url($close-icon);
-    /* content: 'X'; */
 }
 
 .flipster__item {
@@ -195,6 +221,7 @@ $kleidungsstueck-border-radius: 10px;
             width: 80%;
             position: relative;
             padding-bottom: 1em;
+            font-family: 'Raleway', sans-serif;
 
             p {
                 text-align: center;
@@ -214,6 +241,14 @@ $kleidungsstueck-border-radius: 10px;
                 border: 0;
                 cursor: pointer;
                 border-radius: 3px;
+                background-image: url($close-icon);
+                background-size: 80% 80%;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .close-hanger:hover {
+                transform: scale(1.1);
+                transition: 0.1s;
             }
         }
 
@@ -260,6 +295,17 @@ $kleidungsstueck-border-radius: 10px;
         }
     }
 
+    .error404 {
+        h1, p {
+            text-align: center;
+        }
+        img {
+            display: block;
+            max-width: 60%;
+            margin: 3em auto;
+        }
+    }
+
     .post {
         &.hanger,
         &.text {
@@ -299,7 +345,7 @@ $kleidungsstueck-border-radius: 10px;
             background-color: $content-bg-color;
             box-sizing: border-box;
             width: 80%;
-            padding: 1em;
+            padding: 2.5em;
             display: flex;
             margin: auto;
 
@@ -325,9 +371,21 @@ $kleidungsstueck-border-radius: 10px;
         background-color: $content-bg-color;
         box-sizing: border-box;
 
-        p {
-            text-align: center;
+        .colophon {
+            margin: auto;
+            width: 70%;
+            border-top-color: $font-color-body;
+            border-top-width: 1px;
+            border-top-style: solid;
+            margin-top: 1rem;
+
+            p {
+                margin: .4rem;
+                text-align: center;
+            }
         }
+
+
     }
     @media screen and (max-width: 740px) {
         .post {
@@ -346,6 +404,10 @@ $kleidungsstueck-border-radius: 10px;
 
         .footer {
             width: 95%;
+
+            .colophon {
+                width: 90%;
+            }
         }
     }
 }
@@ -362,6 +424,7 @@ $kleidungsstueck-border-radius: 10px;
         border-top-left-radius: 5px;
         min-height: 100%;
         background-color: $content-bg-color;
+        text-align: justify;
 
         .kleiderstange {
             display: none;
@@ -391,6 +454,10 @@ $kleidungsstueck-border-radius: 10px;
     }
 }
 
+.about {
+
+}
+
 .post.spacer {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -401,8 +468,12 @@ $kleidungsstueck-border-radius: 10px;
 }
 
 .tagcloud {
-    padding: 0.6rem;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 5px;
     line-height: initial;
+    background-color: rgba(255,255,255,0.5);
+    box-sizing: border-box;
 
     a {
         text-decoration: none;
