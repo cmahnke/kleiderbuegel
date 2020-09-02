@@ -21,7 +21,7 @@ rssLimit = 25
         url = "/"
 
     [[menu.main]]
-        name = "Über"
+        name = "Über diese Seite"
         weight = 2
         url = "about/"
 
