@@ -4,7 +4,7 @@ displayInList: false
 metaPage: true
 ---
 
-Dieses Blog bietet einen Blick auf alte Kleiderbügel und ist ein Teil des [Blaufußtölpels](https://xn--blaufusstlpel-qmb.de). Die abgebildeten Kleiderbügel sind verschlagwortet und werden ansonsten nicht kommentiert, auch die nicht, die vielleicht einer Distanzierung bedürften.
+Dieses Blog bietet einen Blick auf alte [Kleiderbügel](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel) und ist ein Teil des [Blaufußtölpels](https://xn--blaufusstlpel-qmb.de). Die abgebildeten Kleiderbügel sind verschlagwortet und werden ansonsten nicht kommentiert, auch die nicht, die vielleicht einer Distanzierung bedürften.
 
 
 # Schlagworte
@@ -21,7 +21,7 @@ Meine anderen Blogs sind nun auf [Projektemacher.org](https://projektemacher.org
 
 Diese Seite wird mit [Hugo](https://gohugo.io/) generiert und von [GitHub](https://github.com/) gehosted.
 
-Als Schriftarten kommen [Libre Baskerville](www.impallari.com/projects/overview/libre-baskerville) und [Raleway](https://github.com/impallari/Raleway/) zum Einsatz.
+Als Schriftarten kommen [Libre Baskerville](www.impallari.com/projects/overview/libre-baskerville) und [Nuntio](https://github.com/googlefonts/nunito) zum Einsatz.
 
 Als Javascript Framework kommt [jQuery](https://jquery.com/) mit dem Plugin [jQuery.Flipster](https://github.com/drien/jquery-flipster) zum Einsatz.
 

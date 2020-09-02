@@ -47,3 +47,10 @@ See also [IDN-Web-Converter](https://www.denic.de/service/tools/idn-web-converte
 | kleiderbügel.blaufußtölpel.de   | xn--kleiderbgel-0hb.xn--blaufutlpel-06a41a.de | xn--kleiderbgel-06a41a |
 | kleiderbuegel.blaufußtölpel.de  | kleiderbuegel.xn--blaufutlpel-06a41a.de       | kleiderbuegel-06a41a   |
 | kleiderbuegel.blaufusstölpel.de | kleiderbuegel.xn--blaufusstlpel-qmb.de        | kleiderbuegel-qmb      |
+
+
+# Debugging `static` mounts
+
+```
+/usr/local/bin/hugo server -D -F --debug --disableFastRender --renderToDisk
+```
