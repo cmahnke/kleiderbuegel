@@ -138,6 +138,17 @@ strong {
             max-width: calc(100% - 2rem);
         }
     }
+
+    body {
+        &.about {
+            .content {
+                background-position: 95% 1%;
+                background-image: url("/images/cm.svg");
+                background-repeat: no-repeat;
+                background-size: 30%;
+            }
+        }
+    }
 }
 
 #schrank {
