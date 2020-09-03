@@ -133,6 +133,10 @@ strong {
             padding: 1em;
 
         }
+        .header-logo {
+            box-sizing: border-box;
+            max-width: calc(100% - 2rem);
+        }
     }
 }
 
