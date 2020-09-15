@@ -1,7 +1,8 @@
 ---
-date: 2020-10-02T19:12:44+02:00
-title: "Union für Kostüme"
+date: 2020-10-26T18:45:44+02:00
+title: "Färberei Kotzenberg"
 tags:
+- Reinigung
 type: hanger
 ---
-Union für Kostüme
+Chem. Reinigung Färberei Kotzenberg Kleiderbad
