@@ -25,6 +25,15 @@
     {{- $style := slice $flipsterStyle $ourStyle | resources.Concat "css/concated.css" | minify | fingerprint -}}
     <link href="{{ $style.RelPermalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}">
 
+    <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_32 | default "/images/favicon-32.png" | absURL }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_16 | default "/images/favicon-16.png" | absURL }}" sizes="16x16">
+    {{ if .Site.Params.favicon_svg }}
+        <link rel="icon" type="image/svg+xml" href="{{ .Site.Params.favicon_svg }}">
+    {{ end }}
+
+    <link rel="shortcut icon" href="{{ "img/favicon.ico" | absURL }}" type="image/x-icon">
+    <link rel="icon" href="{{ "img/favicon.ico" | absURL }}" type="image/x-icon">
+
     {{/* External Styles - Fonts etc */}}
     {{ range .Site.Params.stylesheets -}}
     <link href="{{ . }}" rel="stylesheet">

@@ -3,7 +3,7 @@
     <div id="klamotten">
         <div class="kleiderstange home"></div>
         <ul>
-          {{- range  where $hangers "Params.type" "eq" "hanger"  -}}
+          {{- range where $hangers "Params.type" "eq" "hanger" -}}
             {{- $title := .Params.title -}}
             {{- $front := .Resources.GetMatch "front*" -}}
             {{- $thumb := $front.Resize "330x" -}}
@@ -39,8 +39,8 @@
             {{ if $paginator.HasNext }}
               <a class="next" href="{{ $paginator.Next.URL }}">&laquo;Vorige Seite</a>
             {{ end }}
-            {{ $currentPage := $paginator.PageNumber }}
-            {{ $totalPages := $paginator.TotalPages }}
+            {{- $currentPage := $paginator.PageNumber -}}
+            {{- $totalPages := $paginator.TotalPages -}}
             <span id="page">Seite {{ $currentPage }} von {{ $totalPages }}</span>
             {{ if $paginator.HasPrev }}
               <a class="previous" href="{{ $paginator.Prev.URL }}">Nächste Seite&raquo;</a>
