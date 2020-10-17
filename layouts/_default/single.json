@@ -3,6 +3,8 @@
             {{- $front := .Resources.GetMatch "front*" -}}
             {{- $large := $front.Resize "1600x" -}}
             "front": {"src": "{{ $large.RelPermalink }}", "alt": "{{ .Title | safeJS }}" }
+            {{- $thumb := $front.Resize "330x" -}}
+            , "thumb": {"src": "{{ $thumb.RelPermalink }}"}
           {{- with .Resources.GetMatch "back*" -}}
               {{- $largeBack := .Resize "1600x" -}}
               , "back": {"src": "{{ $largeBack.RelPermalink }}", "alt": "{{ .Title | safeJS }}" }
