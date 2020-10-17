@@ -46,3 +46,6 @@ rssLimit = 25
 
 [imaging]
     quality = 95
+
+[outputs]
+    page = ["HTML", "JSON"]
