@@ -1,0 +1,19 @@
+{"meta": {"date": "0001-01-01 00:00:00 +0000 UTC", "title": "Über diese Seite", "type": "<no value>" }, "images": {}, "content": "<p>Dieses Blog bietet einen Blick auf alte <a href="https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel">Kleiderbügel</a> und ist ein Teil des <a href="https://xn--blaufusstlpel-qmb.de">Blaufußtölpels</a>. Die abgebildeten Kleiderbügel sind verschlagwortet und werden ansonsten nicht kommentiert, auch die nicht, die vielleicht einer Distanzierung bedürften.</p>
+<h1 id="schlagworte">Schlagworte</h1>
+<p>Die verwendeten Schlagworte beschreiben in der Regel den Ort und die Art des beworbenen Unternehmens. Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
+<div class="tagcloud"><a href="/tags/g%c3%b6ttingen" class="btn btn-default cloud-tag" role="button" style="font-size: 48px;">
+                    Göttingen <span class="badge">(8)</span>
+                </a><a href="/tags/bekleidungsgesch%c3%a4ft" class="btn btn-default cloud-tag" role="button" style="font-size: 12px;">
+                    Bekleidungsgeschäft <span class="badge">(5)</span>
+                </a></div>
+<h1 id="meine-anderen-blogs">Meine anderen Blogs</h1>
+<p>Meine anderen Blogs sind nun auf <a href="https://projektemacher.org/blogs/">Projektemacher.org</a> verzeichnet.</p>
+<h1 id="kolophon">Kolophon</h1>
+<p>Diese Seite wird mit <a href="https://gohugo.io/">Hugo</a> generiert und von <a href="https://github.com/">GitHub</a> gehosted.</p>
+<p>Als Schriftarten kommen <a href="www.impallari.com/projects/overview/libre-baskerville">Libre Baskerville</a> und <a href="https://github.com/googlefonts/nunito">Nuntio</a> zum Einsatz.</p>
+<p>Als Javascript Framework kommt <a href="https://jquery.com/">jQuery</a> mit dem Plugin <a href="https://github.com/drien/jquery-flipster">jQuery.Flipster</a> zum Einsatz.</p>
+<p>Das <a href="https://gitlab.com/kaushalmodi/hugo-theme-refined/blob/master/layouts/shortcodes/figure.html">Einbinden der Bilder</a>, die <a href="http://www.johann-oberdorfer.eu/blog/2020/02/23/20-02-23_tag_cloud_for_hugo/">Tagcloud</a> und die <a href="https://pfischbeck.de/en/posts/multilingual-dates-in-hugo/">Anzeige des deutschen Datumformats</a> sind aus den jeweils angebenen Quellen übernommen.</p>
+<h1 id="kontakt">Kontakt</h1>
+<p>&ldquo;Kleiderbügel&rdquo; ist ein Projekt von <strong>Christian Mahnke</strong>.</p>
+<p>Kontakt ist via <a href="mailto:kleiderbuegel@projektemacher.org">E-Mail</a> möglich.</p>
+<p><img src="/images/blaufusstoelpel.svg" alt="Blaufußtölpel"></p>"}
