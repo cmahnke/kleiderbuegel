@@ -18,11 +18,10 @@
     {{- $js := slice $flipster | resources.Concat "js/concated.js" | minify | fingerprint -}}
     <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
-    {{- $flipsterStyle := resources.Get "css/flipster/jquery.flipster.min.css" -}}
-    {{ $options := (dict "targetPath" "base.css" "outputStyle" "compressed") -}}
+    {{ $options := (dict "targetPath" "base.css" "outputStyle" "compressed" "includePaths" (slice "node_modules/jquery.flipster/dist")) -}}
     {{- $ourTemplate := resources.Get "scss/base.scss" -}}
     {{- $ourStyle := $ourTemplate | resources.ExecuteAsTemplate "scss/base.scss" . | toCSS $options -}}
-    {{- $style := slice $flipsterStyle $ourStyle | resources.Concat "css/concated.css" | minify | fingerprint -}}
+    {{- $style := slice $ourStyle | resources.Concat "css/concated.css" | minify | fingerprint -}}
     <link href="{{ $style.RelPermalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}">
 
     <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_32 | default "/images/favicon-32.png" | absURL }}" sizes="32x32">

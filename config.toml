@@ -36,10 +36,6 @@ rssLimit = 25
         target = "assets/js"
 
     [[module.mounts]]
-        source = "node_modules/jquery.flipster/dist"
-        target = "assets/css/flipster"
-
-    [[module.mounts]]
         source = "static"
         target = "static"
 
@@ -47,3 +43,6 @@ rssLimit = 25
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe= true
+
+[imaging]
+    quality = 95
