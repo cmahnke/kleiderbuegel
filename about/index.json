@@ -18,6 +18,6 @@
 <p>Als Javascript Framework kommt <a href="https://jquery.com/">jQuery</a> mit dem Plugin <a href="https://github.com/drien/jquery-flipster">jQuery.Flipster</a> zum Einsatz.</p>
 <p>Das <a href="https://gitlab.com/kaushalmodi/hugo-theme-refined/blob/master/layouts/shortcodes/figure.html">Einbinden der Bilder</a>, die <a href="http://www.johann-oberdorfer.eu/blog/2020/02/23/20-02-23_tag_cloud_for_hugo/">Tagcloud</a> und die <a href="https://pfischbeck.de/en/posts/multilingual-dates-in-hugo/">Anzeige des deutschen Datumformats</a> sind aus den jeweils angebenen Quellen übernommen.</p>
 <h1 id="kontakt">Kontakt</h1>
-<p>&ldquo;Kleiderbügel&rdquo; ist ein Projekt von <strong>Christian Mahnke</strong>.</p>
+<p>&ldquo;Kleiderbügel&rdquo; ist ein <a href="https://projektemacher.org">Projekt</a> von <strong>Christian Mahnke</strong>.</p>
 <p>Kontakt ist via <a href="mailto:kleiderbuegel@projektemacher.org">E-Mail</a> möglich.</p>
 <p><img src="/images/blaufusstoelpel.svg" alt="Blaufußtölpel"></p>"}
