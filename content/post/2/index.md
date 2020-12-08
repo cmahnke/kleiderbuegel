@@ -7,3 +7,5 @@ tags:
 - Bekleidungsgeschäft
 ---
 Bekleidungshaus Jöris, Jülich Düsseldorferstr.
+
+<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

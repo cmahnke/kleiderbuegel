@@ -6,6 +6,9 @@ metaPage: true
 
 Dieses Blog bietet einen Blick auf alte [Kleiderbügel](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel) und ist ein Teil des [Blaufußtölpels](https://xn--blaufusstlpel-qmb.de). Die abgebildeten Kleiderbügel sind verschlagwortet und werden ansonsten nicht kommentiert, auch die nicht, die vielleicht einer Distanzierung bedürften.
 
+Bei einigen Kleiderbügeln ist auch die Quelle angegeben, allerdings habe ich es gerade bei Exemplaren, die schon länger in meiner Sammlung sind, auch inzwischen vergessen. Ebenfalls ohne Quellenangabe sind die Exemplare, die ich auf diversen Flohmärkten erstanden habe.
+
+An dieser Stelle einen herzlichen Dank an Gwen von [KiM Göttingen](https://www.neue-arbeit-brockensammlung.de/zweigstelle-kim/) für ihre Unterstützung!
 
 # Schlagworte
 

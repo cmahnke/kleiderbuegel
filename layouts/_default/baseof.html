@@ -42,7 +42,7 @@
   </head>
 
      {{ $class := "" }}
-     {{ if hasPrefix .Page.File.Path "about" }}
+     {{ if hasPrefix .Page.File.Path "/about" }}
          {{ $class = "about" }}
      {{ end }}
      {{ if .IsHome }}

@@ -6,3 +6,5 @@ tags:
 - Offenburg
 ---
 August Boschert, Offenburg, Steinstrasse 10
+
+<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

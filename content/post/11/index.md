@@ -10,3 +10,5 @@ type: hanger
 Karstadt Göttingen
 
 Die gute Herrenkleidung
+
+<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

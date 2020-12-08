@@ -554,10 +554,6 @@ $kleidungsstueck-border-radius: 10px;
     }
 }
 
-.about {
-
-}
-
 .post.spacer {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -582,5 +578,16 @@ $kleidungsstueck-border-radius: 10px;
 
     .cloud-tag {
         padding: 0.4rem;
+    }
+}
+
+.source {
+    font-size: small;
+    text-align: right;
+    margin: 1.5em;
+    color: lighten($font-color-body, 20%);
+
+    a {
+        color: lighten($font-color-body, 20%);
     }
 }

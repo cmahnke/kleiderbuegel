@@ -7,3 +7,5 @@ tags:
 type: hanger
 ---
 Fleischmann Göttingen Der Spezialist für Herren- und Knabenkleidung
+
+<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

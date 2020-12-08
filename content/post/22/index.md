@@ -9,3 +9,6 @@ type: hanger
 Schröder & Zn.
 Amstelveenseweg 29
 Amsterdam
+
+
+<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

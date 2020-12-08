@@ -8,3 +8,5 @@ type: hanger
 ---
 Nur bei Karstadt
 Die Kleidung mit allen guten Eigenschaften
+
+<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>
