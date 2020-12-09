@@ -3,6 +3,7 @@ date: 2020-09-08T19:12:44+02:00
 title: "Josef Henn Kürschnermeister"
 tags:
 - Göttingen
+- Pelze
 type: hanger
 ---
 Schillerstr. 30 Josef Henn Kürschnermeister Göttingen

@@ -32,8 +32,8 @@ brew install zopfli
 ### Convert from Photoshop
 
 ```
-find . -name '*.psd' -exec convert {} {}.png \;
-find . -name '*-0.png' -exec zopflipng -m {} {}-c.png \;
+find . -name '*.psd' -print -exec convert {} {}.png \;
+find . -name '*-0.png' -print -exec zopflipng -m {} {}-c.png \;
 ```
 
 # Redirects
