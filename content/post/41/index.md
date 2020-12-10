@@ -7,3 +7,5 @@ type: hanger
 ---
 Union Jon-Jon
 D. B. Wz.
+
+<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

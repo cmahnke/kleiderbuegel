@@ -10,6 +10,13 @@ Bei einigen Kleiderbügeln ist auch die Quelle angegeben, allerdings habe ich es
 
 An dieser Stelle einen herzlichen Dank an Gwen von [KiM Göttingen](https://www.neue-arbeit-brockensammlung.de/zweigstelle-kim/) für ihre Unterstützung!
 
+Die Kleiderbügel auf dieser Seite stehen nicht zum Verkauf! Allerdings bin ich bereit zu tauschen oder zu spenden, wenn eine der folgenden Kriterien auf die Anfrage zutrifft:
+
+* Private Sammler: Sie haben eine renommierte Sammlung (nachgewiesen durch Medienberichterstattung) oder stellen ihre Sammlung öffentlich recherchierbar (z.B. durch Online-Katalog) bereit. Zusätzlich bieten sie ein gleichwertiges Objekt zum Tausch an.
+* Öffentliche Einrichtungen (wie Archive und Museen): Sie stellen das Objekt (digitalisiert und mit Metadaten ausgestattet) kurzfristig in ein über das Web zugängliches Rechercheportal (wie "[Archivportal D](https://www.archivportal-d.de/)") ein und nennen in den Metadaten den Spender.
+
+Bitte gehen sie bei Anfragen auf diese Punkte ein.
+
 # Schlagworte
 
 Die verwendeten Schlagworte beschreiben in der Regel den Ort und die Art des beworbenen Unternehmens. Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.

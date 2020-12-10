@@ -1,0 +1,13 @@
+---
+date: 2021-03-01T12:32:44+02:00
+title: "Hasse & Söhne"
+type: hanger
+tags:
+- Northeim
+- Bekleidungsgeschäft
+draft: true
+---
+Northeim
+Hasse & Söhne Hosen u. Berufsbekleidung
+
+<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>
