@@ -5,7 +5,6 @@ tags:
 - Kassel
 - Bekleidungsgeschäft
 type: hanger
-draft: true
 ---
 Overmeyer Kassel, am Königsplatz
 

@@ -1,11 +1,11 @@
 ---
-date: 2020-09-18T19:12:44+02:00
-title: "H. Hettlage, Göttingen"
-tags:
-- Göttingen
-- Hettlage
+date: 2021-03-10T12:32:44+02:00
+title: "Jordan"
 type: hanger
+tags:
+- Bremerhaven
+- Bekleidungsgeschäft
 ---
-H. Hettlage, Göttingen
+„Herrenausstatter“ Jordan  Bremerhaven-G. Ruf 21332
 
 <div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

@@ -1,11 +1,10 @@
 ---
-date: 2021-03-01T12:32:44+02:00
+date: 2021-03-04T12:32:44+02:00
 title: "Hasse & Söhne"
 type: hanger
 tags:
 - Northeim
 - Bekleidungsgeschäft
-draft: true
 ---
 Northeim
 Hasse & Söhne Hosen u. Berufsbekleidung

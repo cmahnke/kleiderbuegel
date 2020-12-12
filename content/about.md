@@ -6,6 +6,8 @@ metaPage: true
 
 Dieses Blog bietet einen Blick auf alte [Kleiderbügel](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel) und ist ein Teil des [Blaufußtölpels](https://xn--blaufusstlpel-qmb.de). Die abgebildeten Kleiderbügel sind verschlagwortet und werden ansonsten nicht kommentiert, auch die nicht, die vielleicht einer Distanzierung bedürften.
 
+Kleiderbügel fristen heutzutage zwar ein Leben im Schrank, sind aber auch ein Teil von lokaler Wirtschaftsgeschichte. Als Werbeträger, die ihren Funktionswert nicht so schnell einbüßen wie ein eingetrockneter Kugelschreiber oder ein leeres Feuerzeug, bieten sie einen Einblick in eine Zeit, als der Bekleidungsmarkt und Dienstleistungen dazu noch nicht so sehr von größeren Unternehmen dominiert wurden. 
+
 Bei einigen Kleiderbügeln ist auch die Quelle angegeben, allerdings habe ich es gerade bei Exemplaren, die schon länger in meiner Sammlung sind, auch inzwischen vergessen. Ebenfalls ohne Quellenangabe sind die Exemplare, die ich auf diversen Flohmärkten erstanden habe.
 
 An dieser Stelle einen herzlichen Dank an Gwen von [KiM Göttingen](https://www.neue-arbeit-brockensammlung.de/zweigstelle-kim/) für ihre Unterstützung!
@@ -19,7 +21,9 @@ Bitte gehen sie bei Anfragen auf diese Punkte ein.
 
 # Schlagworte
 
-Die verwendeten Schlagworte beschreiben in der Regel den Ort und die Art des beworbenen Unternehmens. Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
+Die verwendeten Schlagworte beschreiben in der Regel den Ort und die Art des beworbenen Unternehmens.
+Dabei werden z.B. Wäschereien und Reinigungen zu "Reinigung", Pelzhandlungen und Kürschnermeister zu "Pelze", Herrenausstatter und dergleichen zu "Bekleidungsgeschäft" und Kauf- und Warenhäuser zu "Warenhaus" zusammengefasst. Größere Unternehmen oder verschiedene Unternehmen im Besitz von Zweigen einer Familie werden nochmal extra verschlagwortet.
+Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
 
 {{< tagcloud >}}
 

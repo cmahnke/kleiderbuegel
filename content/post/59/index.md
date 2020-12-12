@@ -1,11 +1,12 @@
 ---
-date: 2021-03-01T12:32:44+02:00
+date: 2021-03-07T12:32:44+02:00
 title: "Fischer · Hettlage · Lampe"
 type: hanger
 tags:
 - Dortmund
 - Hagen
 - Bekleidungsgeschäft
+- Hettlage
 draft: true
 ---
 50 Jahre  Dortmund  Fischer · Hettlage · Lampe  Hagen I.W.  50 Jahre

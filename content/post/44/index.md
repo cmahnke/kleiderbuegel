@@ -4,7 +4,6 @@ title: "Theo Schrader"
 tags:
 - Osterode
 type: hanger
-draft: true
 ---
 Theo Schrader Osterode/Harz
 
