@@ -7,7 +7,6 @@ tags:
 - Hagen
 - Bekleidungsgeschäft
 - Hettlage
-draft: true
 ---
 50 Jahre  Dortmund  Fischer · Hettlage · Lampe  Hagen I.W.  50 Jahre
 

@@ -128,7 +128,7 @@ body {
                 font-style: italic;
             }
 
-            p, h1, h2, h3, .tagcloud {
+            p, ul, h1, h2, h3, .tagcloud {
                 text-align: left !important;
                 width: 60%;
                 margin: auto;
@@ -145,7 +145,7 @@ body {
             }
 
             @media screen and (max-width: 740px) {
-                p, h1, h2, h3, .tagcloud {
+                p, ul, h1, h2, h3, .tagcloud {
                     width: unset;
                 }
 
