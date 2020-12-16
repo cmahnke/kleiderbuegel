@@ -161,6 +161,12 @@ body {
         }
 
     }
+
+    &.meta {
+        .date {
+            display: none;
+        }
+    }
 }
 
 .header-logo {
@@ -589,5 +595,16 @@ $kleidungsstueck-border-radius: 10px;
 
     a {
         color: lighten($font-color-body, 20%);
+    }
+}
+
+.navi {
+    .pagination {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    
+    #page {
+        display: block;
     }
 }

@@ -22,8 +22,13 @@ rssLimit = 25
         url = "/"
 
     [[menu.main]]
-        name = "Über diese Seite"
+        name = "Listenansicht"
         weight = 2
+        url = "list/"
+
+    [[menu.main]]
+        name = "Über diese Seite"
+        weight = 3
         url = "about/"
 
 [module]

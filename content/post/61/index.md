@@ -5,7 +5,6 @@ type: hanger
 tags:
 - Göttingen
 - Bekleidungsgeschäft
-draft: true
 ---
 Ernst Fricke Inh. Aug. Albrecht Göttingen Zindelstr. 6
 

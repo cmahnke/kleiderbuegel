@@ -1,0 +1,31 @@
+{{ define "title" }}
+  {{- .Title }} · {{ .Site.Title -}}
+{{ end }}
+{{ define "content" }}
+    <div class="kleiderstange"></div>
+    <div class="post-list">
+        {{ $pages := .Pages }}
+        {{ $paginator := .Paginate (where $pages "Params.displayinlist" "!=" false) -}}
+        {{- range $paginator.Pages  -}}
+            {{ partial "page.html" . }}
+        {{ end }}
+        {{ if or ($paginator.HasPrev) ($paginator.HasNext) -}}
+          <div class="navi">
+              <div class="pagination">
+                  <div>
+                    {{ if $paginator.HasNext }}
+                      <a class="next" href="{{ $paginator.Next.URL }}">&laquo;Vorige Seite</a>
+                    {{ end }}
+                    {{ $currentPage := $paginator.PageNumber }}
+                    {{ $totalPages := $paginator.TotalPages }}
+                    <span id="page">Seite {{ $currentPage }} von {{ $totalPages }}</span>
+                    {{ if $paginator.HasPrev }}
+                      <a class="previous" href="{{ $paginator.Prev.URL }}">Nächste Seite&raquo;</a>
+                    {{ end }}
+                </div>
+            </div>
+          </div>
+        {{- end }}
+    </div>
+    <div class="post spacer"></div>
+{{ end }}
