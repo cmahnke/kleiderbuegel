@@ -1,0 +1,6 @@
+{{- $section := .Get "section" -}}
+{{- $type := .Get "type" -}}
+
+{{- $hangers := (where (where .Site.Pages "Section" $section) "Params.type" $type).Reverse -}}
+
+{{- len $hangers -}}

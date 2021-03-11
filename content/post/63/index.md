@@ -12,3 +12,6 @@ Included in the price of every Twiggy dress is the original Twiggy hanger.
 Mit dem Kauf dieses Twiggy-Kleids gehört ihnen auch der originelle, gesetzlich geschützte Twiggy-Bügel
 
 Distributed by: London Girl Koch & Co., Bremen, Germany. (DBGM ang.)
+
+
+[Auch Rückseite]

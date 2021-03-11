@@ -364,6 +364,13 @@ $kleidungsstueck-border-radius: 10px;
             background-color: rgba(214, 189, 136, 0.6);
             border-bottom-right-radius: $kleidungsstueck-border-radius;
             border-bottom-left-radius: $kleidungsstueck-border-radius;
+
+            .number {
+                text-align: center;
+                margin: auto;
+                display: block;
+            }
+
         }
     }
 }

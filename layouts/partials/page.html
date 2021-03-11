@@ -21,7 +21,19 @@
       <div class="date">
           <a href="{{ .RelPermalink }}">{{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}</a>
       </div>
-      <div class="meta-spacer"> </div>
+      <div class="meta-spacer">
+          {{ if eq $class "hanger" }}
+            {{- $hangers := (where (where .Site.Pages "Section" "post") "Params.type" "hanger").Reverse -}}
+            {{- $position := 0 -}}
+            {{- $search := .RelPermalink -}}
+            {{- range $index, $element := $hangers -}}
+                {{- if eq $search $element.RelPermalink -}}
+                    {{- $position = add $index 1 -}}
+                {{- end -}}
+            {{- end -}}
+            <div class="number"> {{ $position }} / {{ len $hangers }}</div>
+          {{- end -}}
+      </div>
       {{ if isset .Params "tags" }}
           <div class="tags">
               {{ range $tag := .Params.tags }}
