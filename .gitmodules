@@ -7,3 +7,6 @@
 [submodule "redirects/kleiderbuegel-06a41a"]
 	path = redirects/kleiderbuegel-06a41a
 	url = https://github.com/cmahnke/kleiderbuegel-06a41a.git
+[submodule "themes/projektemacher-base"]
+	path = themes/projektemacher-base
+	url = https://github.com/cmahnke/projektemacher-base.git

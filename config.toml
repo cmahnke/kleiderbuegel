@@ -6,6 +6,7 @@ canonifyurls = true
 languagecode = "de"
 defaultcontentlanguage = "de"
 rssLimit = 25
+theme = ["projektemacher-base"]
 
 [params]
     author = "Christian Mahnke"
