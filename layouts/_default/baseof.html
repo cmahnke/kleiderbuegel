@@ -14,7 +14,7 @@
     {{ hugo.Generator }}
 
     {{ $defines := dict "process.env.NODE_ENV" `"production"` }}
-    {{ $opts := dict "targetPath" "js/main.js" "defines" $defines "minify" true }}
+    {{ $opts := dict "targetPath" "js/main.js" "defines" $defines "minify" false }}
     {{ $flipster := resources.Get "js/main.js" | js.Build $opts }}
     {{- $js := slice $flipster | resources.Concat "js/concated.js" | minify | fingerprint -}}
     <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
