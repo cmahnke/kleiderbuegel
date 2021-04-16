@@ -4,14 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Language" content="{{ .Site.Language.Lang }}">
-    {{ if hasPrefix .Page.Name "404" }}
-        <meta http-equiv="refresh" content="15; URL={{ .Site.BaseURL }}">
-    {{ end }}
-    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-    <meta name="description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}">
-    <meta name="keywords" content="{{ (delimit .Keywords ",") | default .Site.Params.keywords }}">
-    {{ hugo.Generator }}
+    {{ partial "html/head/meta.html" . }}
 
     {{ $defines := dict "process.env.NODE_ENV" `"production"` }}
     {{ $opts := dict "targetPath" "js/main.js" "defines" $defines "minify" false }}

@@ -1,7 +1,9 @@
 @import "jquery.flipster";
 
-@import "fonts/nunito.scss";
-@import "fonts/libre-baskerville.scss";
+@import "footer";
+
+@import "fonts/nunito";
+@import "fonts/libre-baskerville";
 
 /* Fonts */
 $font-color-heading: #342211;
@@ -409,13 +411,14 @@ $kleidungsstueck-border-radius: 10px;
         background-color: $content-bg-color;
         box-sizing: border-box;
 
-        .colophon {
+        .footer-container {
             margin: auto;
             width: 70%;
             border-top-color: $font-color-body;
             border-top-width: 1px;
             border-top-style: solid;
             margin-top: 1rem;
+            font-size: unset;
 
             p {
                 margin: .4rem;
