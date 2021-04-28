@@ -1,31 +1,32 @@
 @import "jquery.flipster";
-
 @import "footer";
 
 /* Icons */
 @import "icons";
-
 @import "fonts/nunito";
 @import "fonts/libre-baskerville";
 
 /* Fonts */
 $font-color-heading: #342211;
-$font-color-body: #412B15;
+$font-color-body: #412b15;
 
 /* Content area */
 $content-width: 80%;
-$content-bg-color: rgba(255, 255, 255, .7);
+$content-bg-color: rgba(255, 255, 255, 0.7);
 
 /* Background settings */
 $wood-texture-opacity: 0.5;
+
 @import "textures/wood";
 $background: $wood-light;
 
 html {
     background: url($background);
+
     /* background-repeat: no-repeat; */
     background-position: top;
     background-size: 100%;
+
     /* background-color: #d6bd9c; */
 }
 
@@ -44,18 +45,24 @@ body {
     }
 
     &.about {
-
         .content {
             background-position: 97% 3%;
             background-image: url("/images/cm.svg");
             background-repeat: no-repeat;
 
-            h1, h2, h3 {
+            h1,
+            h2,
+            h3 {
                 font-family: 'Libre Baskerville', serif;
                 font-style: italic;
             }
 
-            p, ul, h1, h2, h3, .tagcloud {
+            p,
+            ul,
+            h1,
+            h2,
+            h3,
+            .tagcloud {
                 text-align: left !important;
                 width: 60%;
                 margin: auto;
@@ -72,7 +79,12 @@ body {
             }
 
             @media screen and (max-width: 740px) {
-                p, ul, h1, h2, h3, .tagcloud {
+                p,
+                ul,
+                h1,
+                h2,
+                h3,
+                .tagcloud {
                     width: unset;
                 }
 
@@ -86,7 +98,6 @@ body {
         .meta {
             display: none !important;
         }
-
     }
 
     &.meta {
@@ -97,7 +108,7 @@ body {
 }
 
 .header-logo {
-      margin: 1rem;
+    margin: 1rem;
 }
 
 h1,
@@ -138,15 +149,15 @@ strong {
         margin-bottom: 1.6em;
     }
 }
+
 @media screen and (max-width: 740px) {
     #head {
         nav.top {
-            background-color: rgba(0, 0, 0, .2);
-
+            background-color: rgba(0, 0, 0, 0.2);
             padding-top: 1em;
             padding: 1em;
-
         }
+
         .header-logo {
             box-sizing: border-box;
             max-width: calc(100% - 2rem);
@@ -208,7 +219,7 @@ strong {
 
 .flipster--coverflow {
     .flipster__item--past .flipster__item__content {
-        transform: scale(.95) rotateY(-65deg) !important;
+        transform: scale(0.95) rotateY(-65deg) !important;
     }
 
     .flipster__item--past .flipster__item__content:hover {
@@ -216,7 +227,7 @@ strong {
     }
 
     .flipster__item--future .flipster__item__content {
-        transform: scale(.95) rotateY(65deg) !important;
+        transform: scale(0.95) rotateY(65deg) !important;
     }
 
     .flipster__item__content {
@@ -280,6 +291,7 @@ $kleidungsstueck-border-radius: 10px;
                 background-repeat: no-repeat;
                 background-position: center;
             }
+
             .close-hanger:hover {
                 transform: scale(1.1);
                 transition: 0.1s;
@@ -297,10 +309,10 @@ $kleidungsstueck-border-radius: 10px;
                 margin: auto;
                 display: block;
             }
-
         }
     }
 }
+
 @media screen and (max-width: 740px) {
     #kleidungsstueck {
         width: 85%;
@@ -337,9 +349,11 @@ $kleidungsstueck-border-radius: 10px;
     }
 
     .error404 {
-        h1, p {
+        h1,
+        p {
             text-align: center;
         }
+
         img {
             display: block;
             max-width: 60%;
@@ -422,13 +436,12 @@ $kleidungsstueck-border-radius: 10px;
             font-size: unset;
 
             p {
-                margin: .4rem;
+                margin: 0.4rem;
                 text-align: center;
             }
         }
-
-
     }
+
     @media screen and (max-width: 740px) {
         .post {
             .content {
@@ -489,6 +502,7 @@ $kleidungsstueck-border-radius: 10px;
             width: unset;
         }
     }
+
     @media screen and (max-width: 740px) {
         .post-list {
             width: 95%;
@@ -510,7 +524,7 @@ $kleidungsstueck-border-radius: 10px;
     padding: 1em;
     border-radius: 5px;
     line-height: initial;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     box-sizing: border-box;
 
     a {
