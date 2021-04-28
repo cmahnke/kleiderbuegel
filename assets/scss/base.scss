@@ -30,6 +30,17 @@ html {
     /* background-color: #d6bd9c; */
 }
 
+h1,
+h2,
+h3,
+h4 {
+    /*
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    */
+    color: $font-color-heading;
+}
+
 body {
     margin: unset;
     font-family: 'Nunito', sans-serif;
@@ -109,17 +120,6 @@ body {
 
 .header-logo {
     margin: 1rem;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    /*
-    font-family: 'Libre Baskerville', serif;
-    font-style: italic;
-    */
-    color: $font-color-heading;
 }
 
 strong {
@@ -231,7 +231,6 @@ strong {
     }
 
     .flipster__item__content {
-        box-reflect: unset;
         -webkit-box-reflect: unset;
         transform: scale(1.1);
     }
@@ -478,7 +477,6 @@ $kleidungsstueck-border-radius: 10px;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
         min-height: 100%;
-        background-color: $content-bg-color;
         text-align: justify;
 
         .kleiderstange {
