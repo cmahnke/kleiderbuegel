@@ -47,6 +47,18 @@ copyright = "Kleiderbügel"
         source = "static"
         target = "static"
 
+[mediaTypes]
+  [mediaTypes."application/geo+json"]
+    suffixes = ["geojson", "gjson"]
+
+[outputFormats]
+  [outputFormats.geojson]
+    mediaType = "application/geo+json"
+    isPlainText = true
+    isHTML = false
+    baseName = "map"
+    notAlternative = true
+
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]
