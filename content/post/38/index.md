@@ -6,5 +6,9 @@ tags:
 - Pelze
 - Heiligenstadt
 type: hanger
+geojson:
+  coordinates:
+  - 10.1332671
+  - 51.3774433
 ---
 Kaufhaus J.G. Lurch, Heiligenstadt, Pelzwaren

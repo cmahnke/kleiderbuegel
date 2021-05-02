@@ -4,5 +4,7 @@ title: "Moritz Cahn"
 tags:
 - Halle / Saale
 type: hanger
+#51.485458,11.9687569
+#https://www.perladesa.de/altes-halle.htm
 ---
 Moritz Cahn, Halle a.S.
