@@ -5,6 +5,11 @@ tags:
 - Berlin
 - Bekleidungsgeschäft
 type: hanger
+geojson:
+  coordinates:
+  - 13.3346602
+  - 52.4728929
+# https://de.wikipedia.org/wiki/Willi_Ebbinghaus
 ---
 Berlin hat es längst heraus . . . .
 

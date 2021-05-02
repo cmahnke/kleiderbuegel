@@ -5,6 +5,10 @@ tags:
 - Pforzheim
 - Versand
 type: hanger
+geojson:
+  coordinates:
+  - 8.6813651
+  - 48.8929882
 ---
 Bader Moden
 Pforzheim

@@ -4,6 +4,10 @@ title: "Brahms, Emden"
 tags:
 - Emden
 type: hanger
+geojson:
+  coordinates:
+  - 7.2031394
+  - 53.368366
 ---
 Brahms, Emden
 

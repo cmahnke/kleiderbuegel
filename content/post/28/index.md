@@ -6,6 +6,10 @@ tags:
 - Karstadt
 - Warenhaus
 type: hanger
+geojson:
+  coordinates:
+  - 9.9331461
+  - 51.5320512
 ---
 Lagerbügel Karstadt, Göttingen
 

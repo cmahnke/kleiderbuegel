@@ -5,6 +5,10 @@ type: hanger
 tags:
 - Bremerhaven
 - Bekleidungsgeschäft
+geojson:
+  coordinates:
+  - 8.5869922
+  - 53.53217
 ---
 „Herrenausstatter“ Jordan  Bremerhaven-G. Ruf 21332
 

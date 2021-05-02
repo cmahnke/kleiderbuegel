@@ -5,6 +5,11 @@ tags:
 - Kassel
 - Bekleidungsgeschäft
 type: hanger
+geojson:
+  coordinates:
+  - 9.4979349
+  - 51.3152471
+#http://regiowiki.hna.de/Overmeyer-Haus
 ---
 Overmeyer Kassel, am Königsplatz
 

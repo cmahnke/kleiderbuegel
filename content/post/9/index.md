@@ -5,6 +5,10 @@ tags:
 - Göttingen
 - Pelze
 type: hanger
+geojson:
+  coordinates:
+  - 9.9365913
+  - 51.5250647
 ---
 Schillerstr. 30 Josef Henn Kürschnermeister Göttingen
 

@@ -17,7 +17,7 @@ jobs:
 
       - name: Install required dependencies
         run: |
-          ./themes/projektemacher-base/scripts/github/setup-dependendies.sh
+          ./themes/projektemacher-base/scripts/github/setup-dependencies.sh
 
       - name: Setup Node.js
         uses: actions/setup-node@v2.1.5

@@ -1,0 +1,2 @@
+{{- $features := where .CurrentSection.Pages ".Page.Params.geojson" "!=" nil -}}
+{{- partial "geojson/featureCollection.geojson" $features -}}

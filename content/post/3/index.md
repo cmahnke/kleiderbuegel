@@ -4,6 +4,10 @@ title: "August Boschert"
 type: hanger
 tags:
 - Offenburg
+geojson:
+  coordinates:
+  - 7.9422713
+  - 48.46902
 ---
 August Boschert, Offenburg, Steinstrasse 10
 

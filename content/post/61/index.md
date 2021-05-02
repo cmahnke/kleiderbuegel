@@ -5,6 +5,10 @@ type: hanger
 tags:
 - Göttingen
 - Bekleidungsgeschäft
+geojson:
+  coordinates:
+  - 9.9320614
+  - 51.5323115
 ---
 Ernst Fricke Inh. Aug. Albrecht Göttingen Zindelstr. 6
 

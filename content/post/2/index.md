@@ -1,10 +1,14 @@
 ---
 date: 2020-08-30T18:32:44+02:00
-title: "Bekleidungshaus Junge"
+title: "Bekleidungshaus Jöris"
 type: hanger
 tags:
 - Jülich
 - Bekleidungsgeschäft
+geojson:
+  coordinates:
+  - 6.3564177
+  - 50.9226904
 ---
 Bekleidungshaus Jöris, Jülich Düsseldorferstr.
 

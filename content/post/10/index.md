@@ -5,6 +5,10 @@ tags:
 - Göttingen
 - Bekleidungsgeschäft
 type: hanger
+geojson:
+  coordinates:
+  - 9.9373265
+  - 51.5333756
 ---
 Fleischmann Göttingen Der Spezialist für Herren- und Knabenkleidung
 

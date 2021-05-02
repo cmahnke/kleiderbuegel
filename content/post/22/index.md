@@ -4,6 +4,10 @@ title: "Schröder & Zn."
 tags:
 - Amsterdam
 type: hanger
+geojson:
+  coordinates:
+  - 4.8527235
+  - 52.3568069
 ---
 
 Schröder & Zn.

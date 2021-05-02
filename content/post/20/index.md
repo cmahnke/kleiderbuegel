@@ -4,6 +4,7 @@ title: "Rob'. Eucken, Schillerstr. 1"
 tags:
 - Bekleidungsgeschäft
 type: hanger
+# TODO Find place / town
 ---
 Rob'. Eucken, Schillerstr. 1 Ecke W.havenerstr,
 Uniformen-Zivil-Maßkonfektion

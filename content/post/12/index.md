@@ -5,6 +5,7 @@ tags:
 - Göttingen
 - Hettlage
 type: hanger
+#TODO: Link https://de.wikipedia.org/wiki/Boecker_KG
 ---
 H. Hettlage, Göttingen
 

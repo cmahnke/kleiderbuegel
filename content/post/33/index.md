@@ -5,6 +5,10 @@ tags:
 - Göttingen
 - Pelze
 type: hanger
+geojson:
+  coordinates:
+  - 9.9342113
+  - 51.54579
 ---
 Pelz
 Quentin
