@@ -1,0 +1,364 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+  "type": "Feature",
+  "properties": {
+      "name": "Ernst Fricke",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ernst Fricke\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eErnst Fricke Inh. Aug. Albrecht Göttingen Zindelstr. 6\u003c/p\u003e\n\u003cp\u003eDas Haus der guten Herrenkleidung\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/61/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.932061","51.532311"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Franz Fahning",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Franz Fahning\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eFranz Fahning Hamburg Neuerwall\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/48/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.989632","53.551938"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Modehaus Schulz",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Modehaus Schulz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eModehaus Schulz Kassel\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/46/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.489544","51.313911"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Overmeyer",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Overmeyer\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eOvermeyer Kassel, am Königsplatz\u003c/p\u003e\n\u003cp\u003e\u0026ldquo;Herren- und Knabenbekleidung\u0026rdquo;\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/45/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.497935","51.315247"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Theo Schrader",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Theo Schrader\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eTheo Schrader Osterode/Harz\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/44/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["10.251107","51.728280"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Modehaus Stark",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Modehaus Stark\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eModehaus Stark Osterode/Harz\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/43/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["10.250821","51.727600"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Kaufhaus J.G. Lurch",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Kaufhaus J.G. Lurch\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Kaufhaus J.G. Lurch, Heiligenstadt, Pelzwaren\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/38/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["10.133267","51.377443"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Bader Moden",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bader Moden\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Bader Moden\nPforzheim\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/37/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["8.681365","48.892988"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Ebbinghaus",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ebbinghaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBerlin hat es längst heraus . . . .\u003c/p\u003e\n\u003cp\u003eFür gute Kleidung Ebbinghaus\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/35/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["13.334660","52.472893"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Pelz Quentin",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Pelz Quentin\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003ePelz\nQuentin\nKürschnermeister\nGöttingen, Gosslerstr. 42\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/33/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.934211","51.545790"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Lagerbügel",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Lagerbügel\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eLagerbügel Karstadt, Göttingen\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/28/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.933146","51.532051"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Rudolf Karstadt A.G.",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Rudolf Karstadt A.G.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Rudolf Karstadt A.G., Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/27/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.933146","51.532051"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Schröder & Zn.",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Schröder \u0026amp; Zn.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eSchröder \u0026amp; Zn.\nAmstelveenseweg 29\nAmsterdam\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/22/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["4.852723","52.356807"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Brahms, Emden",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Brahms, Emden\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBrahms, Emden\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"http://www.zeitzeug.de/\"\u003eZeitzeug\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/13/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["7.203139","53.368366"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Karstadt Göttingen",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Karstadt Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eKarstadt Göttingen\u003c/p\u003e\n\u003cp\u003eDie gute Herrenkleidung\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/11/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.933146","51.532051"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Fleischmann Göttingen",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Fleischmann Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eFleischmann Göttingen Der Spezialist für Herren- und Knabenkleidung\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/10/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.937326","51.533376"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Josef Henn Kürschnermeister",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Josef Henn Kürschnermeister\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eSchillerstr. 30 Josef Henn Kürschnermeister Göttingen\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/9/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.936591","51.525065"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Rock - Hache",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Rock - Hache\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Röcke Damenhosen Rock - Hache Gö. Nikolaistr. 20\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/7/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.932120","51.530975"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Hotel Deus",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel Deus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eHotel Deus, Oldenburg\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/6/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["8.220011","53.143028"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Wäscherei - Reinigung Hübener & Kurre",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei - Reinigung Hübener \u0026amp; Kurre\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Wäscherei - Reinigung Hübener \u0026amp; Kurre - Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/5/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.935620","51.534866"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "August Boschert",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        August Boschert\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eAugust Boschert, Offenburg, Steinstrasse 10\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/3/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["7.942271","48.469020"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Bekleidungshaus Jöris",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus Jöris\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBekleidungshaus Jöris, Jülich Düsseldorferstr.\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/2/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["6.356418","50.922690"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Bekleidungshaus Junge",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus Junge\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBekleidungshaus Junge, Gegenüber Hauptpostamt Göttingen\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/1/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.939250","51.534152"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Jordan",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Jordan\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003e„Herrenausstatter“ Jordan  Bremerhaven-G. Ruf 21332\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/60/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["8.586992","53.532170"]
+  }
+}
+
+
+
+
+]
+}
