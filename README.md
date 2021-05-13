@@ -19,6 +19,11 @@ brew install exiftool
 exiftool -all= *.jpg
 ```
 
+A better solution which keeps the ICC profile would be, [see](https://exiftool.org/forum/index.php?topic=2829.0):
+```
+exiftool -all= -tagsfromfile @ -icc_profile FILE
+```
+
 **Note:** If the image has been rotated just using metadata, this information will be lost!
 
 ## Create and compress PNG images

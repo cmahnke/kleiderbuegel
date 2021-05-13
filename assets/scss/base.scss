@@ -1,6 +1,5 @@
 @import "jquery.flipster";
 @import "footer";
-
 /* Icons */
 @import "icons";
 @import "fonts/nunito";
@@ -12,6 +11,7 @@ $font-color-body: #412b15;
 
 /* Content area */
 $content-width: 80%;
+$max-width: 64em;
 $content-bg-color: rgba(255, 255, 255, 0.7);
 
 /* Background settings */
@@ -75,18 +75,15 @@ body {
             h3,
             .tagcloud {
                 text-align: left !important;
-                width: 60%;
+                width: 90%;
                 margin: auto;
+                margin: 1em auto;
             }
 
             img {
                 margin: 3em auto;
                 max-width: 50%;
                 display: block;
-            }
-
-            .tagcloud {
-                margin: 1em auto;
             }
 
             @media screen and (max-width: 740px) {
@@ -262,7 +259,7 @@ $kleidungsstueck-border-radius: 10px;
         margin: auto auto 2em;
 
         .content {
-            width: 80%;
+            /* width: 80%; */
             position: relative;
             padding-bottom: 1em;
             font-family: 'Raleway', sans-serif;
@@ -327,6 +324,8 @@ $kleidungsstueck-border-radius: 10px;
 
     .post-list {
         box-sizing: border-box;
+        max-width: $max-width;
+        margin: auto;
 
         .kleiderstange {
             display: none;
@@ -345,6 +344,11 @@ $kleidungsstueck-border-radius: 10px;
             border-bottom-left-radius: 5px;
             margin-bottom: 1.5em !important;
         }
+    }
+
+    &>.post {
+        max-width: $max-width;
+        margin: auto;
     }
 
     .error404 {
@@ -380,7 +384,7 @@ $kleidungsstueck-border-radius: 10px;
             background-color: $content-bg-color;
             border-top-right-radius: 5px;
             border-top-left-radius: 5px;
-            width: 80%;
+            /* width: 80%; */
             margin: auto;
             box-sizing: border-box;
             padding: 1.5em;
@@ -398,7 +402,7 @@ $kleidungsstueck-border-radius: 10px;
         .meta {
             background-color: $content-bg-color;
             box-sizing: border-box;
-            width: 80%;
+            /* width: 80%; */
             padding: 2.5em;
             display: flex;
             margin: auto;
@@ -424,6 +428,7 @@ $kleidungsstueck-border-radius: 10px;
         width: $content-width;
         background-color: $content-bg-color;
         box-sizing: border-box;
+        max-width: $max-width;
 
         .footer-container {
             margin: auto;
@@ -478,6 +483,7 @@ $kleidungsstueck-border-radius: 10px;
         border-top-left-radius: 5px;
         min-height: 100%;
         text-align: justify;
+        max-width: $max-width;
 
         .kleiderstange {
             display: none;
