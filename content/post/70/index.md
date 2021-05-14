@@ -1,6 +1,6 @@
 ---
 date: 2021-05-23T12:47:44+02:00
-title: ""
+title: "Hotel Bachmair am See"
 type: hanger
 tags:
 - Rottach - Egern

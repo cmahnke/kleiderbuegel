@@ -1,7 +1,6 @@
 ---
 date: 2021-05-02T12:47:44+02:00
-title: ""
-draft: true
+title: "Wäschepflege TESTORP"
 type: hanger
 tags:
 - Hamburg

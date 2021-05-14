@@ -1,6 +1,6 @@
 ---
 date: 2021-05-09T12:47:44+02:00
-title: ""
+title: "Bekleidungshaus BUCHMANN Wolfhagen"
 type: hanger
 tags:
 - Wolfhagen

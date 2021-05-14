@@ -1,6 +1,6 @@
 ---
 date: 2021-06-27T12:47:44+02:00
-title: ""
+title: "Theaterkunst GMBH."
 type: hanger
 tags:
 - Berlin

@@ -1,6 +1,6 @@
 ---
 date: 2021-04-18T12:47:44+02:00
-title: ""
+title: "C. Louis Weber Hannover"
 type: hanger
 tags:
 - Hannover

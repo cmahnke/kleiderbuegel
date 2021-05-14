@@ -1,6 +1,6 @@
 ---
 date: 2021-07-04T12:47:44+02:00
-title: ""
+title: "Schnellreinigung W. Freitag Hildesheim"
 type: hanger
 tags:
 - Hildesheim

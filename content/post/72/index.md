@@ -1,6 +1,6 @@
 ---
 date: 2021-06-06T12:47:44+02:00
-title: ""
+title: "Klinik Wetterau der BfA"
 type: hanger
 tags:
 - Bad Nauheim

@@ -1,6 +1,6 @@
 ---
 date: 2021-04-25T12:47:44+02:00
-title: ""
+title: "Hotel - Pension Kardell"
 type: hanger
 tags:
 - Berlin

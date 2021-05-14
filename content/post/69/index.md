@@ -1,6 +1,6 @@
 ---
 date: 2021-05-16T12:47:44+02:00
-title: ""
+title: "Breitling Stuttgart"
 type: hanger
 tags:
 - Stuttgart
