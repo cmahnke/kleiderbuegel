@@ -109,8 +109,8 @@ body {
     }
 
     &.meta {
-        .date {
-            display: none;
+        .number {
+            text-align: center;
         }
     }
 }
@@ -406,9 +406,15 @@ $kleidungsstueck-border-radius: 10px;
             padding: 2.5em;
             display: flex;
             margin: auto;
+            flex-wrap: wrap;
 
             .date {
                 float: left;
+                width: 15%
+            }
+
+            .number {
+                text-align: center;
             }
 
             .meta-spacer {
@@ -417,6 +423,12 @@ $kleidungsstueck-border-radius: 10px;
 
             .tags {
                 float: right;
+                width: 15%
+            }
+
+            .permalink {
+                flex-basis: 100%;
+                text-align: center;
             }
         }
     }

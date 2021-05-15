@@ -1,4 +1,13 @@
+
 [params]
+    author = "Christian Mahnke"
+    keywords = "Kleiderbügel, coat hangers"
+    description = "Eine Auswahl an alten Kleiderbügeln"
+    copyrightYears = "MMXXI"
+    cc = false
+    #stylesheets = ["https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Nunito:ital,wght@0,400;0,700;0,900;1,400&display=swap"]
+    stylesheets = []
+
     [params.preview]
         outputPrefix = "preview"
         format =  "svg"
@@ -9,15 +18,3 @@
             width = 1200
         [params.preview.svg]
             template = "./Source Files/Other/preview-template.svg"
-
-
-#png:
-#  font:
-#    location: ./themes/projektemacher-base/static/fonts/nunito-v14-latin-ext_latin-regular.ttf
-#    size: 100
-#    color: black
-#  text:
-#    margin: 30
-#    position:
-#      top:
-#      left:

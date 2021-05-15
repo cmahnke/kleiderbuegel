@@ -19,7 +19,7 @@
      </div>
     <div class="meta">
       <div class="date">
-          <a href="{{ .RelPermalink }}">{{- partial "date.html" (dict "date" .Date "language" $.Page.Language "months" $.Site.Data.months) -}}</a>
+          <a href="{{ .RelPermalink }}">{{- partial "date.html" . -}}</a>
       </div>
       <div class="meta-spacer">
           {{ if eq $class "hanger" }}
@@ -41,5 +41,6 @@
               {{ end }}
           </div>
       {{ end }}
+      <div class="permalink"><a href="{{ .RelPermalink }}">Permalink</a></div> 
     </div>
 </div>
