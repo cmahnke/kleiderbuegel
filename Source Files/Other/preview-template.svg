@@ -20,7 +20,10 @@
                 font-family: 'Nunito';
                 font-style: normal;
                 font-weight: 400;
-                src: url("../../themes/projektemacher-base/static/fonts/nunito-v14-latin-ext_latin-regular.woff2") format('woff2'), url("../../themes/projektemacher-base/static/fonts/nunito-v14-latin-ext_latin-regular.woff") format('woff'), url("../../themes/projektemacher-base/static/fonts/nunito-v14-latin-ext_latin-regular.ttf") format('truetype');
+                src: local('Nunito'),
+                     url("../../themes/projektemacher-base/static/fonts/nunito-v14-latin-ext_latin-regular.woff2") format('woff2'),
+                     url("../../themes/projektemacher-base/static/fonts/nunito-v14-latin-ext_latin-regular.woff") format('woff'),
+                     url("../../themes/projektemacher-base/static/fonts/nunito-v14-latin-ext_latin-regular.ttf") format('truetype');
             }
         </style>
     </defs>
@@ -28,7 +31,7 @@
 
     <image id="site-logo" xlink:href="../Logo/Header.svg" preserveAspectRatio="none" width="246.79829" height="100" x="100" y="56.402187"/>
     <image id="logo" xlink:href="../../themes/projektemacher-base/static/images/cm.svg" preserveAspectRatio="none" width="97.251564" height="100" x="1000" y="57.415752"/>
-    <image id="hanger" xlink:href="../../content/post/1/front.png" y="50" x="100" style="image-rendering:optimizeQuality" preserveAspectRatio="xMidYMid meet" height="400" width="1000"/>
+    <image id="preview-image" xlink:href="../../content/post/1/front.png" y="50" x="100" style="image-rendering:optimizeQuality" preserveAspectRatio="xMidYMid meet" height="400" width="1000"/>
     <text id="text-container" xml:space="preserve" style="shape-inside:url(#textbox);font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:Nunito;text-align:center;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;text-align:center;" >
     </text>
 </svg>

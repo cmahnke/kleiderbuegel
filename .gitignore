@@ -6,4 +6,4 @@ static/images/favicon*
 static/images/kleiderbuegel.png
 static/images/header.svg
 resources
-content/**/preview*.*g
+content/**/ogPreview*.*g

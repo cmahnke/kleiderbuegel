@@ -6,7 +6,8 @@
     cc = false
 
     [params.preview]
-        outputPrefix = "preview"
+        outputPrefix = "ogPreview"
+        outputSuffix = ".jpg"
         format =  "svg"
         image = "front.png"
         source = "file"
