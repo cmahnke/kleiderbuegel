@@ -15,10 +15,16 @@ jobs:
         with:
           submodules: true
 
+      - name: Set up Python
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: 3.9
+
       - name: Install required dependencies
         run: |
           ./themes/projektemacher-base/scripts/github/setup-dependencies.sh
           ./themes/projektemacher-base/scripts/github/setup-inkscape.sh
+          ./themes/projektemacher-base/scripts/github/python-dependencies.sh
 
       - name: Setup Node.js
         uses: actions/setup-node@v2.1.5
