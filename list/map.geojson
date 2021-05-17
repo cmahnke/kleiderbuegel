@@ -3,12 +3,72 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Breitling Stuttgart",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Breitling Stuttgart\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBreitling\nDas Haus der guten Kleidung\nStuttgart\nHerrenbekleidung Damenbekleidung\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/69/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.178986","48.774875"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Hotel - Pension Kardell",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel - Pension Kardell\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eHotel - Pension Kardell 8875032\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/66/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["13.295191","52.502120"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "C. Louis Weber Hannover",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        C. Louis Weber Hannover\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eC. Louis Weber Hannover\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/65/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["9.731188","52.376074"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Ernst Fricke",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ernst Fricke\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eErnst Fricke Inh. Aug. Albrecht Göttingen Zindelstr. 6\u003c/p\u003e\n\u003cp\u003eDas Haus der guten Herrenkleidung\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/61/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
     "coordinates": ["9.932061","51.532311"]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Jordan",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Jordan\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003e„Herrenausstatter“ Jordan  Bremerhaven-G. Ruf 21332\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/60/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": ["8.586992","53.532170"]
   }
 }
 
@@ -339,21 +399,6 @@
   "geometry": {
     "type": "Point",
     "coordinates": ["9.939250","51.534152"]
-  }
-}
-
-
-
-
-,{
-  "type": "Feature",
-  "properties": {
-      "name": "Jordan",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Jordan\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003e„Herrenausstatter“ Jordan  Bremerhaven-G. Ruf 21332\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/60/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": ["8.586992","53.532170"]
   }
 }
 
