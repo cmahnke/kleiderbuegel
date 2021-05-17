@@ -16,3 +16,4 @@
             width = 1200
         [params.preview.svg]
             template = "./Source Files/Other/preview-template.svg"
+            removeMissing = true
