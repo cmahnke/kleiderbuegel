@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 9.9979289
   - 51.705316
+  precision: exact
 ---
 
 Damen-Moden W. Renneberg Northeim

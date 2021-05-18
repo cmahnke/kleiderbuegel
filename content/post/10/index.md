@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 9.9373265
   - 51.5333756
+  precision: exact
 ---
 Fleischmann Göttingen Der Spezialist für Herren- und Knabenkleidung
 

@@ -10,6 +10,7 @@ tags:
 #  coordinates:
 #  - 9.9320614
 #  - 51.5323115
+#  precision: exact
 ---
 
 am besten gleich zu U&B

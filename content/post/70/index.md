@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 11.76398
   - 47.695456
+  precision: exact
 ---
 
 Hotel Bachmair am See Rottach - Egern / Tegernsee

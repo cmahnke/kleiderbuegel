@@ -9,6 +9,7 @@ tags:
 #  coordinates:
 #  - 9.9320614
 #  - 51.5323115
+#  precision: exact
 # https://www.wp.de/staedte/siegerland/vor-75-jahren-ss-maenner-zuenden-synagoge-an-id8649528.html
 ---
 

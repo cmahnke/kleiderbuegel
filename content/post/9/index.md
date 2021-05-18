@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 9.9365913
   - 51.5250647
+  precision: exact
 ---
 Schillerstr. 30 Josef Henn Kürschnermeister Göttingen
 

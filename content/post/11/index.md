@@ -10,6 +10,7 @@ geojson:
   coordinates:
   - 9.9331461
   - 51.5320512
+  precision: exact
 ---
 Karstadt Göttingen
 

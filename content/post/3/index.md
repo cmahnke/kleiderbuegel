@@ -8,6 +8,7 @@ geojson:
   coordinates:
   - 7.9422713
   - 48.46902
+  precision: exact
 ---
 August Boschert, Offenburg, Steinstrasse 10
 

@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 8.2200109
   - 53.1430279
+  precision: exact
 ---
 Hotel Deus, Oldenburg
 

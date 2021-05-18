@@ -9,5 +9,6 @@ geojson:
   coordinates:
   - 9.9321196
   - 51.5309751
+  precision: exact
 ---
 Röcke Damenhosen Rock - Hache Gö. Nikolaistr. 20

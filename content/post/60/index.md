@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 8.5869922
   - 53.53217
+  precision: exact
 ---
 „Herrenausstatter“ Jordan  Bremerhaven-G. Ruf 21332
 

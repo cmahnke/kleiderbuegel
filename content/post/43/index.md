@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 10.2508213
   - 51.7276
+  precision: exact
 #https://www.archiv-vegelahn.de/index.php/osterode-am-harz/12-osteroder-reklame/6535-stark-modehaus
 ---
 Modehaus Stark Osterode/Harz

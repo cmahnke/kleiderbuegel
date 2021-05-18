@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 9.9909485
   - 53.5497924
+  precision: exact
 ---
 
 Damen-Bekleidung Hamburg J.Braun Gr. Johannisstraße 3 Herren-Bekleidung

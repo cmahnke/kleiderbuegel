@@ -10,6 +10,7 @@ geojson:
   coordinates:
   - 13.3048677
   - 52.4912242
+  precision: exact
 # https://de.wikipedia.org/wiki/Theaterkunst
 ---
 

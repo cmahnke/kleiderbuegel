@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 6.3564177
   - 50.9226904
+  precision: exact
 ---
 Bekleidungshaus Jöris, Jülich Düsseldorferstr.
 

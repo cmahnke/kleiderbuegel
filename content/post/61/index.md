@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 9.9320614
   - 51.5323115
+  precision: exact
 ---
 Ernst Fricke Inh. Aug. Albrecht Göttingen Zindelstr. 6
 

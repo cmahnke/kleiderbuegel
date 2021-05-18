@@ -9,6 +9,7 @@ tags:
 #  coordinates:
 #  - 9.9320614
 #  - 51.5323115
+#  precision: exact
 ---
 
 Wäschepflege TESTORP Ruf 221244

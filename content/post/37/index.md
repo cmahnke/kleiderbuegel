@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 8.6813651
   - 48.8929882
+  precision: exact
 ---
 Bader Moden
 Pforzheim

@@ -10,5 +10,6 @@ geojson:
   coordinates:
   - 10.1332671
   - 51.3774433
+  precision: exact
 ---
 Kaufhaus J.G. Lurch, Heiligenstadt, Pelzwaren

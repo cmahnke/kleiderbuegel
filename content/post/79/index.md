@@ -6,7 +6,6 @@ tags:
 - Bekleidungsgeschäft
 - Brenninkmayer
 - C&A
-draft: true
 ---
 
 C&A -„formtreu“-Kleidung - veredelte Kleidung! C&A

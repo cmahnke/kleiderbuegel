@@ -8,6 +8,7 @@ geojson:
   coordinates:
   - 4.8527235
   - 52.3568069
+  precision: exact
 ---
 
 Schröder & Zn.

@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 9.1789861
   - 48.774875
+  precision: exact
 ---
 Breitling
 Das Haus der guten Kleidung

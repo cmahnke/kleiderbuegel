@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 9.7311875
   - 52.3760738
+  precision: exact
 ---
 
 C. Louis Weber Hannover

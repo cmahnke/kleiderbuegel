@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 13.2951914
   - 52.5021202
+  precision: exact
 ---
 
 Hotel - Pension Kardell 8875032

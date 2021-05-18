@@ -8,6 +8,7 @@ geojson:
   coordinates:
   - 10.2511071
   - 51.7282798
+  precision: exact
 #https://www.archiv-vegelahn.de/index.php/osterode-am-harz/12-osteroder-reklame/6786-schrader-theo-herrenausstattung
 ---
 Theo Schrader Osterode/Harz

@@ -6,6 +6,7 @@ geojson:
   coordinates:
   - 9.9392501
   - 51.5341524
+  precision: exact
 tags:
 - Göttingen
 - Bekleidungsgeschäft

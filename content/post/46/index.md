@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 9.4895439
   - 51.3139111
+  precision: exact
 #https://orka.bibliothek.uni-kassel.de/viewer/image/1382947338432_1963/490/
 ---
 Modehaus Schulz Kassel

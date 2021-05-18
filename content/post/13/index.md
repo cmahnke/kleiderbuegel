@@ -8,6 +8,7 @@ geojson:
   coordinates:
   - 7.2031394
   - 53.368366
+  precision: exact
 ---
 Brahms, Emden
 

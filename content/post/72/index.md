@@ -9,6 +9,7 @@ geojson:
   coordinates:
   - 8.74474
   - 50.35916
+  precision: exact
 ---
 
 [Klinik Wetterau der BfA](https://wetterau.deutsche-rentenversicherung-reha-zentren.de/)
