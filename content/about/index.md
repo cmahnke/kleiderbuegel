@@ -43,7 +43,7 @@ Das [Einbinden der Bilder](https://gitlab.com/kaushalmodi/hugo-theme-refined/blo
 
 # Kontakt
 
-"Kleiderbügel" ist ein [Projekt](https://projektemacher.org) von **Christian Mahnke**.
+"Kleiderbügel" ist ein [Projekt](https://projektemacher.org) von **[Christian Mahnke](https://christianmahnke.de/)**.
 
 Kontakt ist via [E-Mail](mailto:kleiderbuegel@projektemacher.org) möglich.
 
