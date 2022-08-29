@@ -3,7 +3,7 @@
     "svgo": "node_modules/.bin/svgo -i Source\\ Files/Logo/Header.svg -o static/images/header.svg"
   },
   "dependencies": {
-    "jquery": "^3.6.0",
+    "jquery": "^3.6.1",
     "jquery.flipster": "^1.1.5"
   },
   "devDependencies": {
