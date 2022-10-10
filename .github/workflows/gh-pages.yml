@@ -27,9 +27,10 @@ jobs:
           ./themes/projektemacher-base/scripts/github/python-dependencies.sh
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3.5.0
         with:
-          node-version: lts/fermium
+          node-version-file: '.nvmrc'
+
       - name: Install Node dependencies
         run: |
           yarn install
