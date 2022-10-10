@@ -3,6 +3,7 @@ patches
 node_modules
 docs
 .hugo_build.lock
+hugo_stats.json
 static/images/favicon*
 static/images/kleiderbuegel.png
 static/images/header.svg
