@@ -45,7 +45,7 @@ jobs:
           hugo-version: '0.104.3'
           extended: true
       - name: Build Hugo site
-        run: hugo --printI18nWarnings
+        run: hugo --printI18nWarnings --printUnusedTemplates
 
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3.8.0
