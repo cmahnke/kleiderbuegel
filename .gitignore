@@ -10,3 +10,4 @@ static/images/header.svg
 static/pdfjs/**
 resources
 content/**/ogPreview*.*g
+**/.DS_Store
