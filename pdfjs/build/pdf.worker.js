@@ -24365,8 +24365,8 @@ function normalizeFontName(name) {
 
 __w_pdfjs_require__.r(__webpack_exports__);
 /* harmony export */ __w_pdfjs_require__.d(__webpack_exports__, {
-/* harmony export */   "getDingbatsGlyphsUnicode": () => (/* binding */ getDingbatsGlyphsUnicode),
-/* harmony export */   "getGlyphsUnicode": () => (/* binding */ getGlyphsUnicode)
+/* harmony export */   getDingbatsGlyphsUnicode: () => (/* binding */ getDingbatsGlyphsUnicode),
+/* harmony export */   getGlyphsUnicode: () => (/* binding */ getGlyphsUnicode)
 /* harmony export */ });
 /* harmony import */ var _core_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __w_pdfjs_require__(6);
 
@@ -33436,13 +33436,13 @@ const getDingbatsGlyphsUnicode = (0,_core_utils_js__WEBPACK_IMPORTED_MODULE_0__.
 
 __w_pdfjs_require__.r(__webpack_exports__);
 /* harmony export */ __w_pdfjs_require__.d(__webpack_exports__, {
-/* harmony export */   "clearUnicodeCaches": () => (/* binding */ clearUnicodeCaches),
-/* harmony export */   "getCharUnicodeCategory": () => (/* binding */ getCharUnicodeCategory),
-/* harmony export */   "getNormalizedUnicodes": () => (/* binding */ getNormalizedUnicodes),
-/* harmony export */   "getUnicodeForGlyph": () => (/* binding */ getUnicodeForGlyph),
-/* harmony export */   "getUnicodeRangeFor": () => (/* binding */ getUnicodeRangeFor),
-/* harmony export */   "mapSpecialUnicodeValues": () => (/* binding */ mapSpecialUnicodeValues),
-/* harmony export */   "reverseIfRtl": () => (/* binding */ reverseIfRtl)
+/* harmony export */   clearUnicodeCaches: () => (/* binding */ clearUnicodeCaches),
+/* harmony export */   getCharUnicodeCategory: () => (/* binding */ getCharUnicodeCategory),
+/* harmony export */   getNormalizedUnicodes: () => (/* binding */ getNormalizedUnicodes),
+/* harmony export */   getUnicodeForGlyph: () => (/* binding */ getUnicodeForGlyph),
+/* harmony export */   getUnicodeRangeFor: () => (/* binding */ getUnicodeRangeFor),
+/* harmony export */   mapSpecialUnicodeValues: () => (/* binding */ mapSpecialUnicodeValues),
+/* harmony export */   reverseIfRtl: () => (/* binding */ reverseIfRtl)
 /* harmony export */ });
 /* harmony import */ var _core_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __w_pdfjs_require__(6);
 
