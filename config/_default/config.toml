@@ -2,7 +2,7 @@
     author = "Christian Mahnke"
     keywords = "Kinderbücher, Children's books"
     description = "Alte, schöne und fragwürdige Kinderbücher"
-    copyrightYears = "MMXXI"
+    copyrightYears = "MMXXI - MMXXIII"
     cc = false
 
     [params.preview]
