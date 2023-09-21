@@ -33,15 +33,16 @@ jobs:
         run: |
           yarn install
 
-      - name: Generate Files
-        run: |
-          ./scripts/setup.sh
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.6.0
         with:
           hugo-version: '0.118.2'
           extended: true
+
+      - name: Generate Files
+        run: |
+          ./scripts/setup.sh
+
       - name: Build Hugo site
         run: hugo --printI18nWarnings --printUnusedTemplates
 
