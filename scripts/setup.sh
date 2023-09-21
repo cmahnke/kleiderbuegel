@@ -22,3 +22,5 @@ SOURCE="static/images/kleiderbuegel.png" OPTIONS="-resize 128x128 -transparent w
 
 yarn install
 yarn svgo
+
+./scripts/map.sh
