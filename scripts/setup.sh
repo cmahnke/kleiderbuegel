@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 convert "Source Files/Logo/Logo.psd[0]" -flatten -layers merge static/images/kleiderbuegel.png
 
 # Generate Previews
