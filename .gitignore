@@ -11,3 +11,6 @@ static/pdfjs/**
 resources
 content/**/ogPreview*.*g
 **/.DS_Store
+assets/css
+static/fonts
+static/images/geomarker.svg
