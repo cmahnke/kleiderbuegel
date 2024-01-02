@@ -24,3 +24,4 @@ yarn install
 yarn svgo
 
 ./scripts/map.sh
+./scripts/svgo.sh
