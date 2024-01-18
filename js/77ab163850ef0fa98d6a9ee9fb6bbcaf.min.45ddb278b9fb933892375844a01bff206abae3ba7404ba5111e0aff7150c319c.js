@@ -16,5 +16,5 @@ jquery/dist/jquery.js:
    *)
 
 jquery.flipster/dist/jquery.flipster.min.js:
-  (*! jQuery.Flipster, v1.1.5 (built 2020-10-17) *)
+  (*! jQuery.Flipster, v1.1.6 (built 2024-01-17) *)
 */
