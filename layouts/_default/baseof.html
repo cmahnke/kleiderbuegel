@@ -29,16 +29,18 @@
 
   </head>
 
-     {{- $class := "" }}
-     {{- if or (hasPrefix .Page.File.Path "about") (hasPrefix .Page.File.Path "/about") -}}
-         {{- $class = "about" -}}
-     {{- end -}}
-     {{- if .IsHome -}}
-         {{- $class = "home" -}}
-     {{- end -}}
-     {{- if .Params.metaPage -}}
-         {{- $class = printf "%s %s" $class "meta" -}}
-     {{- end -}}
+    {{- $class := "" }}
+    {{- if and (ne .Page.File nil) (ne .Page.File.Path nil) -}}
+      {{- if or (hasPrefix .Page.File.Path "about") (hasPrefix .Page.File.Path "/about") -}}
+        {{- $class = "about" -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if .IsHome -}}
+      {{- $class = "home" -}}
+    {{- end -}}
+    {{- if .Params.metaPage -}}
+      {{- $class = printf "%s %s" $class "meta" -}}
+    {{- end -}}
      <body class="{{ $class }}">
        <div id="page">
          {{ partial "header.html" . }}

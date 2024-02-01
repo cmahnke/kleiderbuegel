@@ -5,6 +5,7 @@
     copyrightYears = "MMXXI - MMXXIII"
     cc = false
     disableScale = true
+    debug = false
 
     [params.preview]
         outputPrefix = "ogPreview"
