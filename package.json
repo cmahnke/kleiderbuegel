@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "jquery": "^3.7.1",
-    "jquery.flipster": "^1.1.5"
+    "jquery.flipster": "^1.1.6"
   }
 }
