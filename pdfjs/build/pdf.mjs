@@ -22,7 +22,7 @@
 
 /******/ var __webpack_modules__ = ({
 
-/***/ 640:
+/***/ 184:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 
@@ -35,11 +35,11 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: ./src/shared/util.js
-var util = __webpack_require__(266);
+var util = __webpack_require__(336);
 // EXTERNAL MODULE: ./src/display/display_utils.js
-var display_utils = __webpack_require__(473);
+var display_utils = __webpack_require__(256);
 // EXTERNAL MODULE: ./src/display/annotation_storage.js
-var annotation_storage = __webpack_require__(780);
+var annotation_storage = __webpack_require__(640);
 ;// CONCATENATED MODULE: ./src/shared/scripting_utils.js
 function makeColorComp(n) {
   return Math.floor(Math.max(0, Math.min(1, n)) * 255).toString(16).padStart(2, "0");
@@ -100,7 +100,7 @@ class ColorConverters {
 }
 
 // EXTERNAL MODULE: ./src/display/xfa_layer.js
-var xfa_layer = __webpack_require__(160);
+var xfa_layer = __webpack_require__(251);
 ;// CONCATENATED MODULE: ./src/display/annotation_layer.js
 
 
@@ -2502,7 +2502,7 @@ class AnnotationLayer {
 
 /***/ }),
 
-/***/ 780:
+/***/ 640:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -2510,9 +2510,9 @@ class AnnotationLayer {
 /* harmony export */   PrintAnnotationStorage: () => (/* binding */ PrintAnnotationStorage),
 /* harmony export */   SerializableEmpty: () => (/* binding */ SerializableEmpty)
 /* harmony export */ });
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
-/* harmony import */ var _editor_editor_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(115);
-/* harmony import */ var _shared_murmurhash3_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(825);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
+/* harmony import */ var _editor_editor_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(96);
+/* harmony import */ var _shared_murmurhash3_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(908);
 
 
 
@@ -2667,7 +2667,7 @@ class PrintAnnotationStorage extends AnnotationStorage {
 
 /***/ }),
 
-/***/ 406:
+/***/ 824:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
@@ -2679,21 +2679,21 @@ __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependen
 /* harmony export */   version: () => (/* binding */ version)
 /* harmony export */ });
 /* unused harmony exports DefaultCanvasFactory, DefaultCMapReaderFactory, DefaultFilterFactory, DefaultStandardFontDataFactory, LoopbackPort, PDFDocumentLoadingTask, PDFDocumentProxy, PDFPageProxy, PDFWorkerUtil, RenderTask */
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
-/* harmony import */ var _annotation_storage_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(780);
-/* harmony import */ var _display_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(473);
-/* harmony import */ var _font_loader_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(742);
-/* harmony import */ var display_node_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(738);
-/* harmony import */ var _canvas_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(250);
-/* harmony import */ var _worker_options_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(368);
-/* harmony import */ var _shared_message_handler_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(694);
-/* harmony import */ var _metadata_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(472);
-/* harmony import */ var _optional_content_config_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(890);
-/* harmony import */ var _transport_stream_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(92);
-/* harmony import */ var display_fetch_stream__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(171);
-/* harmony import */ var display_network__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(474);
-/* harmony import */ var display_node_stream__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(498);
-/* harmony import */ var _xfa_text_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(521);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
+/* harmony import */ var _annotation_storage_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(640);
+/* harmony import */ var _display_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(256);
+/* harmony import */ var _font_loader_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(664);
+/* harmony import */ var display_node_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(168);
+/* harmony import */ var _canvas_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(685);
+/* harmony import */ var _worker_options_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(704);
+/* harmony import */ var _shared_message_handler_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(444);
+/* harmony import */ var _metadata_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(804);
+/* harmony import */ var _optional_content_config_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(932);
+/* harmony import */ var _transport_stream_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(632);
+/* harmony import */ var display_fetch_stream__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(64);
+/* harmony import */ var display_network__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(752);
+/* harmony import */ var display_node_stream__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(976);
+/* harmony import */ var _xfa_text_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(975);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([display_node_utils__WEBPACK_IMPORTED_MODULE_4__, display_node_stream__WEBPACK_IMPORTED_MODULE_13__]);
 ([display_node_utils__WEBPACK_IMPORTED_MODULE_4__, display_node_stream__WEBPACK_IMPORTED_MODULE_13__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -4557,7 +4557,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 822:
+/***/ 36:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -4567,7 +4567,7 @@ __webpack_async_result__();
 /* harmony export */   BaseSVGFactory: () => (/* binding */ BaseSVGFactory),
 /* harmony export */   BaseStandardFontDataFactory: () => (/* binding */ BaseStandardFontDataFactory)
 /* harmony export */ });
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
 
 class BaseFilterFactory {
   constructor() {
@@ -4716,7 +4716,7 @@ class BaseSVGFactory {
 
 /***/ }),
 
-/***/ 250:
+/***/ 685:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 
@@ -4726,9 +4726,9 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: ./src/shared/util.js
-var util = __webpack_require__(266);
+var util = __webpack_require__(336);
 // EXTERNAL MODULE: ./src/display/display_utils.js
-var display_utils = __webpack_require__(473);
+var display_utils = __webpack_require__(256);
 ;// CONCATENATED MODULE: ./src/display/pattern_helper.js
 
 
@@ -7482,7 +7482,7 @@ for (const op in util.OPS) {
 
 /***/ }),
 
-/***/ 473:
+/***/ 256:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -7511,8 +7511,8 @@ for (const op in util.OPS) {
 /* harmony export */   setLayerDimensions: () => (/* binding */ setLayerDimensions)
 /* harmony export */ });
 /* unused harmony export deprecated */
-/* harmony import */ var _base_factory_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(822);
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(266);
+/* harmony import */ var _base_factory_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(36);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(336);
 
 
 const SVG_NS = "http://www.w3.org/2000/svg";
@@ -8161,14 +8161,14 @@ function setLayerDimensions(div, viewport, mustFlip = false, mustRotate = true) 
 
 /***/ }),
 
-/***/ 423:
+/***/ 696:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   DrawLayer: () => (/* binding */ DrawLayer)
 /* harmony export */ });
-/* harmony import */ var _display_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(473);
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(266);
+/* harmony import */ var _display_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(256);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(336);
 
 
 class DrawLayer {
@@ -8334,7 +8334,7 @@ class DrawLayer {
 
 /***/ }),
 
-/***/ 629:
+/***/ 68:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 
@@ -8344,13 +8344,13 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: ./src/shared/util.js
-var util = __webpack_require__(266);
+var util = __webpack_require__(336);
 // EXTERNAL MODULE: ./src/display/editor/editor.js + 2 modules
-var editor_editor = __webpack_require__(115);
+var editor_editor = __webpack_require__(96);
 // EXTERNAL MODULE: ./src/display/editor/tools.js
-var tools = __webpack_require__(812);
+var tools = __webpack_require__(480);
 // EXTERNAL MODULE: ./src/display/annotation_layer.js + 1 modules
-var annotation_layer = __webpack_require__(640);
+var annotation_layer = __webpack_require__(184);
 ;// CONCATENATED MODULE: ./src/display/editor/freetext.js
 
 
@@ -8863,9 +8863,9 @@ class FreeTextEditor extends editor_editor.AnnotationEditor {
 }
 
 // EXTERNAL MODULE: ./src/display/editor/color_picker.js
-var color_picker = __webpack_require__(97);
+var color_picker = __webpack_require__(224);
 // EXTERNAL MODULE: ./src/display/editor/outliner.js
-var editor_outliner = __webpack_require__(405);
+var editor_outliner = __webpack_require__(312);
 ;// CONCATENATED MODULE: ./src/display/editor/highlight.js
 
 
@@ -9207,7 +9207,7 @@ class HighlightEditor extends editor_editor.AnnotationEditor {
 }
 
 // EXTERNAL MODULE: ./src/display/display_utils.js
-var display_utils = __webpack_require__(473);
+var display_utils = __webpack_require__(256);
 ;// CONCATENATED MODULE: ./src/display/editor/ink.js
 
 
@@ -10993,15 +10993,15 @@ class AnnotationEditorLayer {
 
 /***/ }),
 
-/***/ 97:
+/***/ 224:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ColorPicker: () => (/* binding */ ColorPicker)
 /* harmony export */ });
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
-/* harmony import */ var _tools_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(812);
-/* harmony import */ var _display_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(473);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
+/* harmony import */ var _tools_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(480);
+/* harmony import */ var _display_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(256);
 
 
 
@@ -11158,7 +11158,7 @@ class ColorPicker {
 
 /***/ }),
 
-/***/ 115:
+/***/ 96:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 
@@ -11168,11 +11168,11 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: ./src/display/editor/tools.js
-var tools = __webpack_require__(812);
+var tools = __webpack_require__(480);
 // EXTERNAL MODULE: ./src/shared/util.js
-var util = __webpack_require__(266);
+var util = __webpack_require__(336);
 // EXTERNAL MODULE: ./src/display/display_utils.js
-var display_utils = __webpack_require__(473);
+var display_utils = __webpack_require__(256);
 ;// CONCATENATED MODULE: ./src/display/editor/alt_text.js
 
 class AltText {
@@ -12415,7 +12415,7 @@ class FakeEditor extends AnnotationEditor {
 
 /***/ }),
 
-/***/ 405:
+/***/ 312:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -12616,7 +12616,7 @@ class Outliner {
 
 /***/ }),
 
-/***/ 812:
+/***/ 480:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -12627,8 +12627,8 @@ class Outliner {
 /* harmony export */   opacityToHex: () => (/* binding */ opacityToHex)
 /* harmony export */ });
 /* unused harmony export CommandManager */
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
-/* harmony import */ var _display_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(473);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
+/* harmony import */ var _display_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(256);
 
 
 function bindEvents(obj, element, names) {
@@ -13836,14 +13836,14 @@ class AnnotationEditorUIManager {
 
 /***/ }),
 
-/***/ 171:
+/***/ 64:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFFetchStream: () => (/* binding */ PDFFetchStream)
 /* harmony export */ });
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
-/* harmony import */ var _network_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(253);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
+/* harmony import */ var _network_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(637);
 
 
 ;
@@ -14053,14 +14053,14 @@ class PDFFetchStreamRangeReader {
 
 /***/ }),
 
-/***/ 742:
+/***/ 664:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   FontFaceObject: () => (/* binding */ FontFaceObject),
 /* harmony export */   FontLoader: () => (/* binding */ FontLoader)
 /* harmony export */ });
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
 
 class FontLoader {
   #systemFonts = new Set();
@@ -14356,13 +14356,13 @@ class FontFaceObject {
 
 /***/ }),
 
-/***/ 472:
+/***/ 804:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Metadata: () => (/* binding */ Metadata)
 /* harmony export */ });
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
 
 class Metadata {
   #metadataMap;
@@ -14391,14 +14391,14 @@ class Metadata {
 
 /***/ }),
 
-/***/ 474:
+/***/ 752:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFNetworkStream: () => (/* binding */ PDFNetworkStream)
 /* harmony export */ });
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
-/* harmony import */ var _network_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(253);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
+/* harmony import */ var _network_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(637);
 
 
 ;
@@ -14810,7 +14810,7 @@ class PDFNetworkStreamRangeRequestReader {
 
 /***/ }),
 
-/***/ 253:
+/***/ 637:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 
@@ -14823,7 +14823,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: ./src/shared/util.js
-var util = __webpack_require__(266);
+var util = __webpack_require__(336);
 ;// CONCATENATED MODULE: ./src/display/content_disposition.js
 
 function getFilenameFromContentDispositionHeader(contentDisposition) {
@@ -14956,7 +14956,7 @@ function getFilenameFromContentDispositionHeader(contentDisposition) {
 }
 
 // EXTERNAL MODULE: ./src/display/display_utils.js
-var display_utils = __webpack_require__(473);
+var display_utils = __webpack_require__(256);
 ;// CONCATENATED MODULE: ./src/display/network_utils.js
 
 
@@ -15020,15 +15020,15 @@ function validateResponseStatus(status) {
 
 /***/ }),
 
-/***/ 498:
+/***/ 976:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFNodeStream: () => (/* binding */ PDFNodeStream)
 /* harmony export */ });
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
-/* harmony import */ var _network_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(253);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
+/* harmony import */ var _network_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(637);
 
 
 ;
@@ -15376,7 +15376,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 738:
+/***/ 168:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
@@ -15386,8 +15386,8 @@ __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependen
 /* harmony export */   NodeFilterFactory: () => (/* binding */ NodeFilterFactory),
 /* harmony export */   NodeStandardFontDataFactory: () => (/* binding */ NodeStandardFontDataFactory)
 /* harmony export */ });
-/* harmony import */ var _base_factory_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(822);
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(266);
+/* harmony import */ var _base_factory_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(36);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(336);
 
 
 ;
@@ -15440,14 +15440,14 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 890:
+/***/ 932:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   OptionalContentConfig: () => (/* binding */ OptionalContentConfig)
 /* harmony export */ });
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
-/* harmony import */ var _shared_murmurhash3_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(825);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
+/* harmony import */ var _shared_murmurhash3_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(908);
 
 
 const INTERNAL = Symbol("INTERNAL");
@@ -15643,7 +15643,7 @@ class OptionalContentConfig {
 
 /***/ }),
 
-/***/ 739:
+/***/ 672:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -15651,8 +15651,8 @@ class OptionalContentConfig {
 /* harmony export */   updateTextLayer: () => (/* binding */ updateTextLayer)
 /* harmony export */ });
 /* unused harmony export TextLayerRenderTask */
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
-/* harmony import */ var _display_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(473);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
+/* harmony import */ var _display_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(256);
 
 
 const MAX_TEXT_DIVS_TO_RENDER = 100000;
@@ -16008,14 +16008,14 @@ function updateTextLayer({
 
 /***/ }),
 
-/***/ 92:
+/***/ 632:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFDataTransportStream: () => (/* binding */ PDFDataTransportStream)
 /* harmony export */ });
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
-/* harmony import */ var _display_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(473);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
+/* harmony import */ var _display_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(256);
 
 
 class PDFDataTransportStream {
@@ -16284,7 +16284,7 @@ class PDFDataTransportStreamRangeReader {
 
 /***/ }),
 
-/***/ 368:
+/***/ 704:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -16297,13 +16297,13 @@ GlobalWorkerOptions.workerSrc = "";
 
 /***/ }),
 
-/***/ 160:
+/***/ 251:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   XfaLayer: () => (/* binding */ XfaLayer)
 /* harmony export */ });
-/* harmony import */ var _xfa_text_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(521);
+/* harmony import */ var _xfa_text_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(975);
 
 class XfaLayer {
   static setupStorage(html, id, element, storage, intent) {
@@ -16517,7 +16517,7 @@ class XfaLayer {
 
 /***/ }),
 
-/***/ 521:
+/***/ 975:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -16568,7 +16568,7 @@ class XfaText {
 
 /***/ }),
 
-/***/ 907:
+/***/ 936:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
@@ -16620,18 +16620,18 @@ __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependen
 /* harmony export */   updateTextLayer: () => (/* reexport safe */ _display_text_layer_js__WEBPACK_IMPORTED_MODULE_3__.updateTextLayer),
 /* harmony export */   version: () => (/* reexport safe */ _display_api_js__WEBPACK_IMPORTED_MODULE_1__.version)
 /* harmony export */ });
-/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
-/* harmony import */ var _display_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(406);
-/* harmony import */ var _display_display_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(473);
-/* harmony import */ var _display_text_layer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(739);
-/* harmony import */ var _display_editor_annotation_editor_layer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(629);
-/* harmony import */ var _display_editor_tools_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(812);
-/* harmony import */ var _display_annotation_layer_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(640);
-/* harmony import */ var _display_editor_color_picker_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(97);
-/* harmony import */ var _display_draw_layer_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(423);
-/* harmony import */ var _display_worker_options_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(368);
-/* harmony import */ var _display_editor_outliner_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(405);
-/* harmony import */ var _display_xfa_layer_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(160);
+/* harmony import */ var _shared_util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
+/* harmony import */ var _display_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(824);
+/* harmony import */ var _display_display_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(256);
+/* harmony import */ var _display_text_layer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(672);
+/* harmony import */ var _display_editor_annotation_editor_layer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(68);
+/* harmony import */ var _display_editor_tools_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(480);
+/* harmony import */ var _display_annotation_layer_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(184);
+/* harmony import */ var _display_editor_color_picker_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(224);
+/* harmony import */ var _display_draw_layer_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(696);
+/* harmony import */ var _display_worker_options_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(704);
+/* harmony import */ var _display_editor_outliner_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(312);
+/* harmony import */ var _display_xfa_layer_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(251);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_display_api_js__WEBPACK_IMPORTED_MODULE_1__]);
 _display_api_js__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -16654,13 +16654,13 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 694:
+/***/ 444:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   MessageHandler: () => (/* binding */ MessageHandler)
 /* harmony export */ });
-/* harmony import */ var _util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
+/* harmony import */ var _util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
 
 const CallbackKind = {
   UNKNOWN: 0,
@@ -17066,13 +17066,13 @@ class MessageHandler {
 
 /***/ }),
 
-/***/ 825:
+/***/ 908:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   MurmurHash3_64: () => (/* binding */ MurmurHash3_64)
 /* harmony export */ });
-/* harmony import */ var _util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(266);
+/* harmony import */ var _util_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(336);
 
 const SEED = 0xc3d2e1f0;
 const MASK_HIGH = 0xffff0000;
@@ -17169,7 +17169,7 @@ class MurmurHash3_64 {
 
 /***/ }),
 
-/***/ 266:
+/***/ 336:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -18097,7 +18097,7 @@ const AnnotationPrefix = "pdfjs_internal_id_";
 /******/ // startup
 /******/ // Load entry module and return exports
 /******/ // This entry module used 'module' so it can't be inlined
-/******/ var __webpack_exports__ = __webpack_require__(907);
+/******/ var __webpack_exports__ = __webpack_require__(936);
 /******/ __webpack_exports__ = globalThis.pdfjsLib = await (globalThis.pdfjsLibPromise = __webpack_exports__);
 /******/ var __webpack_exports__AbortException = __webpack_exports__.AbortException;
 /******/ var __webpack_exports__AnnotationEditorLayer = __webpack_exports__.AnnotationEditorLayer;

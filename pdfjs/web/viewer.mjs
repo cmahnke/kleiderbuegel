@@ -22,7 +22,7 @@
 
 /******/ var __webpack_modules__ = ({
 
-/***/ 8759:
+/***/ 1968:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 
@@ -845,7 +845,7 @@ class Indent {
 
 /***/ }),
 
-/***/ 8275:
+/***/ 2992:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 
@@ -1372,14 +1372,14 @@ class DOMLocalization extends Localization {
 
 /***/ }),
 
-/***/ 631:
+/***/ 1496:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   AltTextManager: () => (/* binding */ AltTextManager)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -1640,15 +1640,15 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 2640:
+/***/ 9472:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   AnnotationEditorLayerBuilder: () => (/* binding */ AnnotationEditorLayerBuilder)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
-/* harmony import */ var web_l10n_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7910);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
+/* harmony import */ var web_l10n_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5020);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__, web_l10n_utils__WEBPACK_IMPORTED_MODULE_1__]);
 ([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__, web_l10n_utils__WEBPACK_IMPORTED_MODULE_1__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -1742,14 +1742,14 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 1296:
+/***/ 3544:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   AnnotationEditorParams: () => (/* binding */ AnnotationEditorParams)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -1820,15 +1820,15 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 6735:
+/***/ 6888:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   AnnotationLayerBuilder: () => (/* binding */ AnnotationLayerBuilder)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4927);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6744);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -1962,7 +1962,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 39:
+/***/ 2928:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
@@ -1971,32 +1971,32 @@ __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependen
 /* harmony export */   PDFPrintServiceFactory: () => (/* binding */ PDFPrintServiceFactory),
 /* harmony export */   PDFViewerApplication: () => (/* binding */ PDFViewerApplication)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1869);
-/* harmony import */ var _app_options_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8961);
-/* harmony import */ var _event_utils_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6554);
-/* harmony import */ var _pdf_link_service_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3234);
-/* harmony import */ var web_alt_text_manager__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(631);
-/* harmony import */ var web_annotation_editor_params__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(1296);
-/* harmony import */ var _overlay_manager_js__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(1996);
-/* harmony import */ var _password_prompt_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(6329);
-/* harmony import */ var web_pdf_attachment_viewer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(716);
-/* harmony import */ var web_pdf_cursor_tools__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(3611);
-/* harmony import */ var web_pdf_document_properties__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(6312);
-/* harmony import */ var web_pdf_find_bar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(1795);
-/* harmony import */ var _pdf_find_controller_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(3557);
-/* harmony import */ var _pdf_history_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(6418);
-/* harmony import */ var web_pdf_layer_viewer__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(3706);
-/* harmony import */ var web_pdf_outline_viewer__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(1141);
-/* harmony import */ var web_pdf_presentation_mode__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(323);
-/* harmony import */ var _pdf_rendering_queue_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(5119);
-/* harmony import */ var _pdf_scripting_manager_js__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(2599);
-/* harmony import */ var web_pdf_sidebar__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(4487);
-/* harmony import */ var web_pdf_thumbnail_viewer__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(3510);
-/* harmony import */ var _pdf_viewer_js__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(9290);
-/* harmony import */ var web_secondary_toolbar__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(1544);
-/* harmony import */ var web_toolbar__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(276);
-/* harmony import */ var _view_history_js__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(1096);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7972);
+/* harmony import */ var _app_options_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9900);
+/* harmony import */ var _event_utils_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5587);
+/* harmony import */ var _pdf_link_service_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1347);
+/* harmony import */ var web_alt_text_manager__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1496);
+/* harmony import */ var web_annotation_editor_params__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(3544);
+/* harmony import */ var _overlay_manager_js__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(564);
+/* harmony import */ var _password_prompt_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(4976);
+/* harmony import */ var web_pdf_attachment_viewer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(6011);
+/* harmony import */ var web_pdf_cursor_tools__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(9468);
+/* harmony import */ var web_pdf_document_properties__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(3600);
+/* harmony import */ var web_pdf_find_bar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(8240);
+/* harmony import */ var _pdf_find_controller_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(9680);
+/* harmony import */ var _pdf_history_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(1280);
+/* harmony import */ var web_pdf_layer_viewer__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(6340);
+/* harmony import */ var web_pdf_outline_viewer__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(9144);
+/* harmony import */ var web_pdf_presentation_mode__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(4824);
+/* harmony import */ var _pdf_rendering_queue_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(1448);
+/* harmony import */ var _pdf_scripting_manager_js__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(7400);
+/* harmony import */ var web_pdf_sidebar__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(6080);
+/* harmony import */ var web_pdf_thumbnail_viewer__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(5768);
+/* harmony import */ var _pdf_viewer_js__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(6748);
+/* harmony import */ var web_secondary_toolbar__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(7172);
+/* harmony import */ var web_toolbar__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(9112);
+/* harmony import */ var _view_history_js__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(8384);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__, web_alt_text_manager__WEBPACK_IMPORTED_MODULE_5__, web_annotation_editor_params__WEBPACK_IMPORTED_MODULE_6__, _password_prompt_js__WEBPACK_IMPORTED_MODULE_7__, web_pdf_attachment_viewer__WEBPACK_IMPORTED_MODULE_8__, web_pdf_cursor_tools__WEBPACK_IMPORTED_MODULE_9__, web_pdf_document_properties__WEBPACK_IMPORTED_MODULE_10__, web_pdf_find_bar__WEBPACK_IMPORTED_MODULE_11__, _pdf_find_controller_js__WEBPACK_IMPORTED_MODULE_12__, web_pdf_outline_viewer__WEBPACK_IMPORTED_MODULE_15__, web_pdf_presentation_mode__WEBPACK_IMPORTED_MODULE_16__, _pdf_rendering_queue_js__WEBPACK_IMPORTED_MODULE_17__, _pdf_scripting_manager_js__WEBPACK_IMPORTED_MODULE_18__, web_pdf_thumbnail_viewer__WEBPACK_IMPORTED_MODULE_20__, _pdf_viewer_js__WEBPACK_IMPORTED_MODULE_21__, web_secondary_toolbar__WEBPACK_IMPORTED_MODULE_22__, web_toolbar__WEBPACK_IMPORTED_MODULE_23__]);
 ([pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__, web_alt_text_manager__WEBPACK_IMPORTED_MODULE_5__, web_annotation_editor_params__WEBPACK_IMPORTED_MODULE_6__, _password_prompt_js__WEBPACK_IMPORTED_MODULE_7__, web_pdf_attachment_viewer__WEBPACK_IMPORTED_MODULE_8__, web_pdf_cursor_tools__WEBPACK_IMPORTED_MODULE_9__, web_pdf_document_properties__WEBPACK_IMPORTED_MODULE_10__, web_pdf_find_bar__WEBPACK_IMPORTED_MODULE_11__, _pdf_find_controller_js__WEBPACK_IMPORTED_MODULE_12__, web_pdf_outline_viewer__WEBPACK_IMPORTED_MODULE_15__, web_pdf_presentation_mode__WEBPACK_IMPORTED_MODULE_16__, _pdf_rendering_queue_js__WEBPACK_IMPORTED_MODULE_17__, _pdf_scripting_manager_js__WEBPACK_IMPORTED_MODULE_18__, web_pdf_thumbnail_viewer__WEBPACK_IMPORTED_MODULE_20__, _pdf_viewer_js__WEBPACK_IMPORTED_MODULE_21__, web_secondary_toolbar__WEBPACK_IMPORTED_MODULE_22__, web_toolbar__WEBPACK_IMPORTED_MODULE_23__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -4278,7 +4278,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 8961:
+/***/ 9900:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -4594,13 +4594,13 @@ class AppOptions {
 
 /***/ }),
 
-/***/ 9415:
+/***/ 3564:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   BaseTreeViewer: () => (/* binding */ BaseTreeViewer)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
 
 const TREEITEM_OFFSET_TOP = -100;
 const TREEITEM_SELECTED_CLASS = "selected";
@@ -4702,14 +4702,14 @@ class BaseTreeViewer {
 
 /***/ }),
 
-/***/ 4397:
+/***/ 4656:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   DownloadManager: () => (/* binding */ DownloadManager)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -4782,14 +4782,14 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 758:
+/***/ 3392:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   DrawLayerBuilder: () => (/* binding */ DrawLayerBuilder)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -4827,7 +4827,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 6554:
+/***/ 5587:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -4941,7 +4941,7 @@ class AutomationEventBus extends EventBus {
 
 /***/ }),
 
-/***/ 9170:
+/***/ 4296:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
@@ -4949,7 +4949,7 @@ __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependen
 /* harmony export */   GenericScripting: () => (/* binding */ GenericScripting)
 /* harmony export */ });
 /* unused harmony export docProperties */
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -5007,17 +5007,17 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 1546:
+/***/ 5328:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* unused harmony export GenericCom */
-/* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(39);
-/* harmony import */ var _app_options_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8961);
-/* harmony import */ var _preferences_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(216);
-/* harmony import */ var _download_manager_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4397);
-/* harmony import */ var _genericl10n_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(450);
-/* harmony import */ var _generic_scripting_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(9170);
+/* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2928);
+/* harmony import */ var _app_options_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9900);
+/* harmony import */ var _preferences_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1272);
+/* harmony import */ var _download_manager_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4656);
+/* harmony import */ var _genericl10n_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1400);
+/* harmony import */ var _generic_scripting_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4296);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_app_js__WEBPACK_IMPORTED_MODULE_0__, _download_manager_js__WEBPACK_IMPORTED_MODULE_3__, _genericl10n_js__WEBPACK_IMPORTED_MODULE_4__, _generic_scripting_js__WEBPACK_IMPORTED_MODULE_5__]);
 ([_app_js__WEBPACK_IMPORTED_MODULE_0__, _download_manager_js__WEBPACK_IMPORTED_MODULE_3__, _genericl10n_js__WEBPACK_IMPORTED_MODULE_4__, _generic_scripting_js__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -5059,17 +5059,17 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 450:
+/***/ 1400:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   GenericL10n: () => (/* binding */ GenericL10n)
 /* harmony export */ });
-/* harmony import */ var fluent_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8759);
-/* harmony import */ var fluent_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8275);
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1869);
-/* harmony import */ var _l10n_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4065);
+/* harmony import */ var fluent_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1968);
+/* harmony import */ var fluent_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2992);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7972);
+/* harmony import */ var _l10n_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1864);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_2__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -5135,7 +5135,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 6143:
+/***/ 4164:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -5235,7 +5235,7 @@ class GrabToPan {
 
 /***/ }),
 
-/***/ 4065:
+/***/ 1864:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -5317,17 +5317,17 @@ class L10n {
 
 /***/ }),
 
-/***/ 7910:
+/***/ 5020:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   NullL10n: () => (/* binding */ NullL10n)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
-/* harmony import */ var fluent_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8759);
-/* harmony import */ var fluent_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8275);
-/* harmony import */ var _l10n_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4065);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
+/* harmony import */ var fluent_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1968);
+/* harmony import */ var fluent_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2992);
+/* harmony import */ var _l10n_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1864);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -5381,7 +5381,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 1996:
+/***/ 564:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -5437,14 +5437,14 @@ class OverlayManager {
 
 /***/ }),
 
-/***/ 6329:
+/***/ 4976:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PasswordPrompt: () => (/* binding */ PasswordPrompt)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -5525,16 +5525,16 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 716:
+/***/ 6011:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFAttachmentViewer: () => (/* binding */ PDFAttachmentViewer)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
-/* harmony import */ var _base_tree_viewer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9415);
-/* harmony import */ var _event_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6554);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
+/* harmony import */ var _base_tree_viewer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3564);
+/* harmony import */ var _event_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5587);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -5646,16 +5646,16 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 3611:
+/***/ 9468:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFCursorTools: () => (/* binding */ PDFCursorTools)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4927);
-/* harmony import */ var _grab_to_pan_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6143);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6744);
+/* harmony import */ var _grab_to_pan_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4164);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -5773,15 +5773,15 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 6312:
+/***/ 3600:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFDocumentProperties: () => (/* binding */ PDFDocumentProperties)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1869);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7972);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -5989,15 +5989,15 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 1795:
+/***/ 8240:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFFindBar: () => (/* binding */ PDFFindBar)
 /* harmony export */ });
-/* harmony import */ var _pdf_find_controller_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3557);
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4927);
+/* harmony import */ var _pdf_find_controller_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9680);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6744);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_pdf_find_controller_js__WEBPACK_IMPORTED_MODULE_0__]);
 _pdf_find_controller_js__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -6169,7 +6169,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 3557:
+/***/ 9680:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
@@ -6177,9 +6177,9 @@ __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependen
 /* harmony export */   FindState: () => (/* binding */ FindState),
 /* harmony export */   PDFFindController: () => (/* binding */ PDFFindController)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
-/* harmony import */ var _pdf_find_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6839);
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1869);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
+/* harmony import */ var _pdf_find_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2360);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7972);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_2__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -6907,7 +6907,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 6839:
+/***/ 2360:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -6991,15 +6991,15 @@ function getNormalizeWithNFKC() {
 
 /***/ }),
 
-/***/ 6418:
+/***/ 1280:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFHistory: () => (/* binding */ PDFHistory)
 /* harmony export */ });
 /* unused harmony exports isDestArraysEqual, isDestHashesEqual */
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
-/* harmony import */ var _event_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6554);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
+/* harmony import */ var _event_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5587);
 
 
 const HASH_CHANGE_TIMEOUT = 1000;
@@ -7469,13 +7469,13 @@ function isDestArraysEqual(firstDest, secondDest) {
 
 /***/ }),
 
-/***/ 3706:
+/***/ 6340:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFLayerViewer: () => (/* binding */ PDFLayerViewer)
 /* harmony export */ });
-/* harmony import */ var _base_tree_viewer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9415);
+/* harmony import */ var _base_tree_viewer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3564);
 
 class PDFLayerViewer extends _base_tree_viewer_js__WEBPACK_IMPORTED_MODULE_0__.BaseTreeViewer {
   constructor(options) {
@@ -7633,7 +7633,7 @@ class PDFLayerViewer extends _base_tree_viewer_js__WEBPACK_IMPORTED_MODULE_0__.B
 
 /***/ }),
 
-/***/ 3234:
+/***/ 1347:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -7641,7 +7641,7 @@ class PDFLayerViewer extends _base_tree_viewer_js__WEBPACK_IMPORTED_MODULE_0__.B
 /* harmony export */   PDFLinkService: () => (/* binding */ PDFLinkService),
 /* harmony export */   SimpleLinkService: () => (/* binding */ SimpleLinkService)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
 
 const DEFAULT_LINK_REL = "noopener noreferrer nofollow";
 const LinkTarget = {
@@ -8079,16 +8079,16 @@ class SimpleLinkService {
 
 /***/ }),
 
-/***/ 1141:
+/***/ 9144:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFOutlineViewer: () => (/* binding */ PDFOutlineViewer)
 /* harmony export */ });
-/* harmony import */ var _base_tree_viewer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9415);
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1869);
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4927);
+/* harmony import */ var _base_tree_viewer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3564);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7972);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6744);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -8371,26 +8371,26 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 6732:
+/***/ 4988:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFPageView: () => (/* binding */ PDFPageView)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4927);
-/* harmony import */ var _annotation_editor_layer_builder_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2640);
-/* harmony import */ var _annotation_layer_builder_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6735);
-/* harmony import */ var _app_options_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8961);
-/* harmony import */ var _draw_layer_builder_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(758);
-/* harmony import */ var web_l10n_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7910);
-/* harmony import */ var _pdf_link_service_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(3234);
-/* harmony import */ var _struct_tree_layer_builder_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(7498);
-/* harmony import */ var _text_accessibility_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(4630);
-/* harmony import */ var _text_highlighter_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(4274);
-/* harmony import */ var _text_layer_builder_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(1013);
-/* harmony import */ var _xfa_layer_builder_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(8012);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6744);
+/* harmony import */ var _annotation_editor_layer_builder_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9472);
+/* harmony import */ var _annotation_layer_builder_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6888);
+/* harmony import */ var _app_options_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9900);
+/* harmony import */ var _draw_layer_builder_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(3392);
+/* harmony import */ var web_l10n_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5020);
+/* harmony import */ var _pdf_link_service_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(1347);
+/* harmony import */ var _struct_tree_layer_builder_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(3424);
+/* harmony import */ var _text_accessibility_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(9440);
+/* harmony import */ var _text_highlighter_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(9240);
+/* harmony import */ var _text_layer_builder_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(6716);
+/* harmony import */ var _xfa_layer_builder_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(5432);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__, _annotation_editor_layer_builder_js__WEBPACK_IMPORTED_MODULE_2__, _annotation_layer_builder_js__WEBPACK_IMPORTED_MODULE_3__, _draw_layer_builder_js__WEBPACK_IMPORTED_MODULE_5__, web_l10n_utils__WEBPACK_IMPORTED_MODULE_6__, _text_layer_builder_js__WEBPACK_IMPORTED_MODULE_10__, _xfa_layer_builder_js__WEBPACK_IMPORTED_MODULE_11__]);
 ([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__, _annotation_editor_layer_builder_js__WEBPACK_IMPORTED_MODULE_2__, _annotation_layer_builder_js__WEBPACK_IMPORTED_MODULE_3__, _draw_layer_builder_js__WEBPACK_IMPORTED_MODULE_5__, web_l10n_utils__WEBPACK_IMPORTED_MODULE_6__, _text_layer_builder_js__WEBPACK_IMPORTED_MODULE_10__, _xfa_layer_builder_js__WEBPACK_IMPORTED_MODULE_11__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -9172,15 +9172,15 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 323:
+/***/ 4824:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFPresentationMode: () => (/* binding */ PDFPresentationMode)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1869);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7972);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -9471,14 +9471,14 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 1834:
+/***/ 736:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* unused harmony export PDFPrintService */
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
-/* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(39);
-/* harmony import */ var _print_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4552);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
+/* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2928);
+/* harmony import */ var _print_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2284);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__, _app_js__WEBPACK_IMPORTED_MODULE_1__, _print_utils_js__WEBPACK_IMPORTED_MODULE_2__]);
 ([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__, _app_js__WEBPACK_IMPORTED_MODULE_1__, _print_utils_js__WEBPACK_IMPORTED_MODULE_2__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -9726,15 +9726,15 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 5119:
+/***/ 1448:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFRenderingQueue: () => (/* binding */ PDFRenderingQueue)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4927);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6744);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -9856,15 +9856,15 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 2599:
+/***/ 7400:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFScriptingManager: () => (/* binding */ PDFScriptingManager)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1869);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7972);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -10228,13 +10228,13 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 4487:
+/***/ 6080:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFSidebar: () => (/* binding */ PDFSidebar)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
 
 const SIDEBAR_WIDTH_VAR = "--sidebar-width";
 const SIDEBAR_MIN_WIDTH = 200;
@@ -10546,7 +10546,7 @@ class PDFSidebar {
 
 /***/ }),
 
-/***/ 3346:
+/***/ 7748:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
@@ -10554,8 +10554,8 @@ __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependen
 /* harmony export */   PDFThumbnailView: () => (/* binding */ PDFThumbnailView),
 /* harmony export */   TempImageFactory: () => (/* binding */ TempImageFactory)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1869);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7972);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -10853,15 +10853,15 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 3510:
+/***/ 5768:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   PDFThumbnailViewer: () => (/* binding */ PDFThumbnailViewer)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
-/* harmony import */ var _pdf_thumbnail_view_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3346);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
+/* harmony import */ var _pdf_thumbnail_view_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7748);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_pdf_thumbnail_view_js__WEBPACK_IMPORTED_MODULE_1__]);
 _pdf_thumbnail_view_js__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -11074,7 +11074,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 9290:
+/***/ 6748:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
@@ -11083,12 +11083,12 @@ __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependen
 /* harmony export */   PagesCountLimit: () => (/* binding */ PagesCountLimit)
 /* harmony export */ });
 /* unused harmony export PDFPageViewBuffer */
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4927);
-/* harmony import */ var web_l10n_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7910);
-/* harmony import */ var _pdf_page_view_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6732);
-/* harmony import */ var _pdf_rendering_queue_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5119);
-/* harmony import */ var _pdf_link_service_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(3234);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6744);
+/* harmony import */ var web_l10n_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5020);
+/* harmony import */ var _pdf_page_view_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4988);
+/* harmony import */ var _pdf_rendering_queue_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1448);
+/* harmony import */ var _pdf_link_service_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1347);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__, web_l10n_utils__WEBPACK_IMPORTED_MODULE_2__, _pdf_page_view_js__WEBPACK_IMPORTED_MODULE_3__, _pdf_rendering_queue_js__WEBPACK_IMPORTED_MODULE_4__]);
 ([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__, web_l10n_utils__WEBPACK_IMPORTED_MODULE_2__, _pdf_page_view_js__WEBPACK_IMPORTED_MODULE_3__, _pdf_rendering_queue_js__WEBPACK_IMPORTED_MODULE_4__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -12612,7 +12612,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 1869:
+/***/ 7972:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
@@ -12715,13 +12715,13 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 216:
+/***/ 1272:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   BasePreferences: () => (/* binding */ BasePreferences)
 /* harmony export */ });
-/* harmony import */ var _app_options_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8961);
+/* harmony import */ var _app_options_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9900);
 
 class BasePreferences {
   #defaults = Object.freeze({
@@ -12843,16 +12843,16 @@ class BasePreferences {
 
 /***/ }),
 
-/***/ 4552:
+/***/ 2284:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   getXfaHtmlForPrinting: () => (/* binding */ getXfaHtmlForPrinting)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
-/* harmony import */ var _pdf_link_service_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3234);
-/* harmony import */ var _xfa_layer_builder_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8012);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
+/* harmony import */ var _pdf_link_service_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1347);
+/* harmony import */ var _xfa_layer_builder_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5432);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__, _xfa_layer_builder_js__WEBPACK_IMPORTED_MODULE_2__]);
 ([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__, _xfa_layer_builder_js__WEBPACK_IMPORTED_MODULE_2__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -12885,15 +12885,15 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 1544:
+/***/ 7172:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SecondaryToolbar: () => (/* binding */ SecondaryToolbar)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
-/* harmony import */ var _pdf_viewer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9290);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
+/* harmony import */ var _pdf_viewer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6748);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_pdf_viewer_js__WEBPACK_IMPORTED_MODULE_1__]);
 _pdf_viewer_js__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -13169,13 +13169,13 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 7498:
+/***/ 3424:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   StructTreeLayerBuilder: () => (/* binding */ StructTreeLayerBuilder)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
 
 const PDF_ROLE_TO_HTML_ROLE = {
   Document: null,
@@ -13293,13 +13293,13 @@ class StructTreeLayerBuilder {
 
 /***/ }),
 
-/***/ 4630:
+/***/ 9440:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   TextAccessibilityManager: () => (/* binding */ TextAccessibilityManager)
 /* harmony export */ });
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4927);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6744);
 
 class TextAccessibilityManager {
   #enabled = false;
@@ -13454,7 +13454,7 @@ class TextAccessibilityManager {
 
 /***/ }),
 
-/***/ 4274:
+/***/ 9240:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -13682,15 +13682,15 @@ class TextHighlighter {
 
 /***/ }),
 
-/***/ 1013:
+/***/ 6716:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   TextLayerBuilder: () => (/* binding */ TextLayerBuilder)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4927);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6744);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -13846,15 +13846,15 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 276:
+/***/ 9112:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Toolbar: () => (/* binding */ Toolbar)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4927);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6744);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -14112,7 +14112,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 4927:
+/***/ 6744:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -14640,7 +14640,7 @@ function toggleExpandedBtn(button, toggle, view = null) {
 
 /***/ }),
 
-/***/ 1096:
+/***/ 8384:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -14715,7 +14715,7 @@ class ViewHistory {
 
 /***/ }),
 
-/***/ 6400:
+/***/ 7328:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
@@ -14724,12 +14724,12 @@ __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependen
 /* harmony export */   PDFViewerApplicationConstants: () => (/* binding */ AppConstants),
 /* harmony export */   PDFViewerApplicationOptions: () => (/* reexport safe */ _app_options_js__WEBPACK_IMPORTED_MODULE_3__.AppOptions)
 /* harmony export */ });
-/* harmony import */ var web_com__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1546);
-/* harmony import */ var web_print_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1834);
-/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4927);
-/* harmony import */ var _app_options_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8961);
-/* harmony import */ var _pdf_link_service_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3234);
-/* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(39);
+/* harmony import */ var web_com__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5328);
+/* harmony import */ var web_print_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(736);
+/* harmony import */ var _ui_utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6744);
+/* harmony import */ var _app_options_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9900);
+/* harmony import */ var _pdf_link_service_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1347);
+/* harmony import */ var _app_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2928);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([web_com__WEBPACK_IMPORTED_MODULE_0__, web_print_service__WEBPACK_IMPORTED_MODULE_1__, _app_js__WEBPACK_IMPORTED_MODULE_5__]);
 ([web_com__WEBPACK_IMPORTED_MODULE_0__, web_print_service__WEBPACK_IMPORTED_MODULE_1__, _app_js__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -14905,14 +14905,14 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 8012:
+/***/ 5432:
 /***/ ((__webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.a(__webpack_module__, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   XfaLayerBuilder: () => (/* binding */ XfaLayerBuilder)
 /* harmony export */ });
-/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1869);
+/* harmony import */ var pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7972);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__]);
 pdfjs_lib__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -15103,7 +15103,7 @@ __webpack_async_result__();
 /******/ // startup
 /******/ // Load entry module and return exports
 /******/ // This entry module used 'module' so it can't be inlined
-/******/ var __webpack_exports__ = __webpack_require__(6400);
+/******/ var __webpack_exports__ = __webpack_require__(7328);
 /******/ __webpack_exports__ = await __webpack_exports__;
 /******/ var __webpack_exports__PDFViewerApplication = __webpack_exports__.PDFViewerApplication;
 /******/ var __webpack_exports__PDFViewerApplicationConstants = __webpack_exports__.PDFViewerApplicationConstants;
