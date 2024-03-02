@@ -75,6 +75,9 @@ defaultMarkdownHandler = 'goldmark'
           rightDoubleQuote = '&rdquo;'
           rightSingleQuote = '&rsquo;'
 
+[sitemap]
+  changeFreq = 'weekly'
+
 [imaging]
     quality = 95
 
