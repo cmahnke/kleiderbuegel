@@ -1,0 +1,22 @@
+.iframe-wrapper {
+  .opt-in-overlay .opt-in-overlay-content {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .5);
+  }
+
+  .switch-wrapper {
+    .opt-in-switch .opt-in-slider {
+      background-color: rgba(255, 255, 255, .5);
+
+      &::before {
+        background-color: #ccc;
+      }
+    }
+  }
+}
+
+.map-wrapper {
+  canvas {
+    border-radius: 5px;
+  }
+}
