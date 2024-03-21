@@ -20,7 +20,7 @@ for SCRIPT in $PWD/themes/projektemacher-base/scripts/init/*.sh ; do
 done
 
 # Favicons
-SOURCE="static/images/kleiderbuegel.png" OPTIONS="-resize 128x128 -transparent white" ./themes/projektemacher-base/scripts/favicon.sh
+SOURCE="static/images/kleiderbuegel.png" OPTIONS="-resize 128x128 -fuzz 5% -transparent white" ./themes/projektemacher-base/scripts/favicon.sh
 
 yarn install
 yarn svgo
