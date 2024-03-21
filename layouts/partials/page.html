@@ -17,30 +17,32 @@
       {{- end -}}
       {{ .Content }}
      </div>
-    <div class="meta">
-      <div class="date">
-          <a href="{{ .RelPermalink }}">{{- partial "date.html" . -}}</a>
-      </div>
-      <div class="meta-spacer">
-          {{ if eq $class "hanger" }}
-            {{- $hangers := (where (where .Site.Pages "Section" "post") "Params.type" "hanger").Reverse -}}
-            {{- $position := 0 -}}
-            {{- $search := .RelPermalink -}}
-            {{- range $index, $element := $hangers -}}
-                {{- if eq $search $element.RelPermalink -}}
-                    {{- $position = add $index 1 -}}
-                {{- end -}}
+    {{- if not .Params.hideMeta -}}
+      <div class="meta">
+        <div class="date">
+            <a href="{{ .RelPermalink }}">{{- partial "date.html" . -}}</a>
+        </div>
+        <div class="meta-spacer">
+            {{ if eq $class "hanger" }}
+              {{- $hangers := (where (where .Site.Pages "Section" "post") "Params.type" "hanger").Reverse -}}
+              {{- $position := 0 -}}
+              {{- $search := .RelPermalink -}}
+              {{- range $index, $element := $hangers -}}
+                  {{- if eq $search $element.RelPermalink -}}
+                      {{- $position = add $index 1 -}}
+                  {{- end -}}
+              {{- end -}}
+              <div class="number"> {{ $position }} / {{ len $hangers }}</div>
             {{- end -}}
-            <div class="number"> {{ $position }} / {{ len $hangers }}</div>
-          {{- end -}}
+        </div>
+        {{ if isset .Params "tags" }}
+            <div class="tags">
+                {{ range $tag := .Params.tags }}
+                    <a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">#{{ $tag }}</a><br />
+                {{ end }}
+            </div>
+        {{ end }}
+        <div class="permalink"><a href="{{ .RelPermalink }}">Permalink</a></div>
       </div>
-      {{ if isset .Params "tags" }}
-          <div class="tags">
-              {{ range $tag := .Params.tags }}
-                  <a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">#{{ $tag }}</a><br />
-              {{ end }}
-          </div>
-      {{ end }}
-      <div class="permalink"><a href="{{ .RelPermalink }}">Permalink</a></div> 
-    </div>
+    {{- end -}}
 </div>
