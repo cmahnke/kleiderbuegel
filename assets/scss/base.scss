@@ -580,3 +580,21 @@ $kleidungsstueck-border-radius: 10px;
         display: block;
     }
 }
+
+.map-wrapper {
+  .ol-popup {
+    h1 {
+      padding: 1rem 0 0 0 !important;
+    }
+    .geojsonPopup {
+      .content {
+        padding: unset !important;
+
+        p {
+          margin-block-start: unset;
+          margin-block-end: unset;
+        }
+      }
+    }
+  }
+}
