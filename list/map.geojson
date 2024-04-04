@@ -3,21 +3,6 @@
   "features": [{
   "type": "Feature",
   "properties": {
-      "name": "Frank & Krause Delmenhorst",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Frank \u0026amp; Krause Delmenhorst\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        30 Jahre\nHerren- und Damenbekleidung\nFrank \u0026amp; Krause Delmenhorst\nRuf 2090\nMaßkonfektion\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/106/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [8.63091,53.0511]
-  }
-}
-
-
-
-
-,{
-  "type": "Feature",
-  "properties": {
       "name": "Damen-Moden W. Renneberg",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Damen-Moden W. Renneberg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eDamen-Moden W. Renneberg Northeim\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/77/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },

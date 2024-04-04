@@ -7,34 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Mon, 15 Jan 2024 12:47:44 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jul 2021 12:47:44 +0200</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bekleidungsgeschäft</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</link>
-      <pubDate>Mon, 15 Jan 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Delmenhorst</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/delmenhorst/</link>
-      <pubDate>Mon, 15 Jan 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/delmenhorst/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Material: Holz</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Mon, 15 Jan 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Beidseitig</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/beidseitig/</link>
       <pubDate>Sun, 25 Jul 2021 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/beidseitig/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bekleidungsgeschäft</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</link>
+      <pubDate>Sun, 25 Jul 2021 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</guid>
       <description></description>
     </item>
     <item>
@@ -49,6 +35,13 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/ca/</link>
       <pubDate>Sun, 25 Jul 2021 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/ca/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Material: Holz</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
+      <pubDate>Sun, 25 Jul 2021 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
       <description></description>
     </item>
     <item>
@@ -182,6 +175,13 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/werbung/</link>
       <pubDate>Sun, 11 Apr 2021 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/werbung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Material: Metall</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-metall/</link>
+      <pubDate>Sun, 28 Mar 2021 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-metall/</guid>
       <description></description>
     </item>
   </channel>
