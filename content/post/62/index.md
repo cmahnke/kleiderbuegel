@@ -4,6 +4,8 @@ title: "korallino"
 type: hanger
 tags:
 - Werbung
+- "Material: Metall"
+- "Material: Stoff"
 ---
 korallino
 

@@ -5,6 +5,8 @@ type: hanger
 tags:
 - Stuttgart
 - Bekleidungsgeschäft
+- "Material: Holz"
+- Beidseitig
 geojson:
   coordinates:
   - 9.1789861

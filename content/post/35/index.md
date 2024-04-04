@@ -4,6 +4,8 @@ title: "Ebbinghaus"
 tags:
 - Berlin
 - Bekleidungsgeschäft
+- "Material: Holz"
+- Beidseitig
 type: hanger
 geojson:
   coordinates:

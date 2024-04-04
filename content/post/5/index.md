@@ -5,6 +5,7 @@ type: hanger
 tags:
 - Göttingen
 - Reinigung
+- "Material: Holz"
 geojson:
   coordinates:
   - 9.9356203

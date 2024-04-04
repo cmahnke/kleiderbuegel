@@ -5,6 +5,7 @@ type: hanger
 tags:
 - Hannover
 - Bekleidungsgeschäft
+- "Material: Holz"
 geojson:
   coordinates:
   - 9.7311875

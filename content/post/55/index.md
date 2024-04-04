@@ -2,6 +2,9 @@
 date: 2021-02-25T12:32:44+02:00
 title: "POL"
 type: hanger
+tags:
+- "Material: Holz"
+- "Material: Metall"
 ---
 POL
 Eingetragene  Schutzmarke

@@ -3,6 +3,7 @@ date: 2020-09-25T19:12:44+02:00
 title: "Brahms, Emden"
 tags:
 - Emden
+- "Material: Holz"
 type: hanger
 geojson:
   coordinates:

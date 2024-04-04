@@ -5,11 +5,13 @@ type: hanger
 tags:
 - Wolfhagen
 - Bekleidungsgeschäft
-#geojson:
-#  coordinates:
-#  - 9.9320614
-#  - 51.5323115
-#  precision: exact
+- "Material: Holz"
+- Beidseitig
+geojson:
+  coordinates:
+  - 9.17015
+  - 51.32611
+  precision: city
 ---
 
 Bekleidungshaus BUCHMANN Wolfhagen

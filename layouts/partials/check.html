@@ -1,0 +1,24 @@
+{{- if hasPrefix .RelPermalink "/post" -}}
+  {{ if not (isset .Params "type") }}
+    {{ errorf "No type for post" .RelPermalink }}
+  {{- end -}}
+
+  {{- if ne .Params.type "text" -}}
+    {{- if not (isset .Params "geojson") -}}
+      {{- warnf "GeoJson missing for %s" .RelPermalink -}}
+    {{- end -}}
+    {{ if isset .Params "tags" }}
+      {{- $material := false -}}
+      {{ range $tag := .Params.tags }}
+        {{- if hasPrefix $tag "Material" -}}
+          {{- $material = true -}}
+        {{- end -}}
+      {{ end }}
+      {{- if not $material -}}
+        {{- errorf "Material missing for %s" .RelPermalink -}}
+      {{- end -}}
+    {{- else -}}
+      {{ errorf "No tags for post" .RelPermalink }}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

@@ -4,6 +4,7 @@ title: "Hettlage & Lampe"
 type: hanger
 tags:
 - Hettlage
+- "Material: Holz"
 ---
 Hettlage & Lampe
 

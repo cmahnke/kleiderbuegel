@@ -4,6 +4,7 @@ title: "Hertie"
 tags:
 - Hertie
 - Warenhaus
+- "Material: Holz"
 type: hanger
 ---
 Hertie

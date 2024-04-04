@@ -4,6 +4,8 @@ title: "Twiggy London Girl"
 type: hanger
 tags:
 - Werbung
+- "Material: Plastik"
+- Beidseitig
 ---
 Twiggy
 London Girl
@@ -13,5 +15,11 @@ Mit dem Kauf dieses Twiggy-Kleids gehört ihnen auch der originelle, gesetzlich 
 
 Distributed by: London Girl Koch & Co., Bremen, Germany. (DBGM ang.)
 
-
 [Auch Rückseite]
+
+<div class="notes">
+Weitere Informationen:
+<ul>
+<li><a href="https://de.wikipedia.org/wiki/Twiggy">Twiggy in der Wikipedia</a></li>
+</ul>
+</div>

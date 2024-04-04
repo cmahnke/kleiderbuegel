@@ -5,6 +5,7 @@ type: hanger
 tags:
 - Northeim
 - Bekleidungsgeschäft
+- "Material: Holz"
 geojson:
   coordinates:
   - 9.9979289

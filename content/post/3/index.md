@@ -4,6 +4,7 @@ title: "August Boschert"
 type: hanger
 tags:
 - Offenburg
+- "Material: Holz"
 geojson:
   coordinates:
   - 7.9422713

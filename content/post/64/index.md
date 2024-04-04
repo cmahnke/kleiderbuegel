@@ -4,6 +4,8 @@ title: "STAR BOUTIQUE Manuela"
 type: hanger
 tags:
 - Werbung
+- "Material: Plastik"
+- Beidseitig
 ---
 
 STAR
@@ -20,3 +22,10 @@ STAR-BOUTIQUE MANUELA GmbH. & Co., Berlin und Bremen 11, Postfach 3015
 
 
 [Auch Rückseite]
+
+<div class="notes">
+Weitere Informationen:
+<ul>
+<li><a href="https://de.wikipedia.org/wiki/Manuela_(S%C3%A4ngerin)">Manuela in der Wikipedia</a></li>
+</ul>
+</div>

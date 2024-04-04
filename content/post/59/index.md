@@ -7,6 +7,13 @@ tags:
 - Hagen
 - Bekleidungsgeschäft
 - Hettlage
+- "Material: Holz"
+- Beidseitig
+geojson:
+  coordinates:
+  - 7.466
+  - 51.51494
+  precision: city
 ---
 50 Jahre  Dortmund  Fischer · Hettlage · Lampe  Hagen I.W.  50 Jahre
 

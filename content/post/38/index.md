@@ -5,6 +5,7 @@ tags:
 - Warenhaus
 - Pelze
 - Heiligenstadt
+- "Material: Holz"
 type: hanger
 geojson:
   coordinates:

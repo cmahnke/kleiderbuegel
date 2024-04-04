@@ -5,6 +5,7 @@ tags:
 - Göttingen
 - Karstadt
 - Warenhaus
+- "Material: Holz"
 type: hanger
 geojson:
   coordinates:

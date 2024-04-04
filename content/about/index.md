@@ -25,7 +25,7 @@ Die verwendeten Schlagworte beschreiben in der Regel den Ort und die Art des bew
 Dabei werden z.B. Wäschereien und Reinigungen zu "Reinigung", Pelzhandlungen und Kürschnermeister zu "Pelze", Herrenausstatter und dergleichen zu "Bekleidungsgeschäft" und Kauf- und Warenhäuser zu "Warenhaus" zusammengefasst. Größere Unternehmen oder verschiedene Unternehmen im Besitz von Zweigen einer Familie werden nochmal extra verschlagwortet.
 Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
 
-{{< tags/cloud tag="humanize" >}}
+{{< tags/cloud tag="kleiderbuegel" >}}
 
 # Meine anderen Blogs
 

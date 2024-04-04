@@ -3,6 +3,7 @@ date: 2020-11-17T14:28:44+02:00
 title: "Schröder & Zn."
 tags:
 - Amsterdam
+- "Material: Holz"
 type: hanger
 geojson:
   coordinates:

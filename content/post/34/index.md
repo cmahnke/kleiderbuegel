@@ -4,7 +4,13 @@ title: "Pelz Dröge"
 tags:
 - Karlsruhe
 - Pelze
+- "Material: Holz"
 type: hanger
+geojson:
+  coordinates:
+  - 8.40444
+  - 49.00937
+  precision: city
 ---
 Pelz Dröge
 Karlsruhe

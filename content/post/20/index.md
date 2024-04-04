@@ -3,6 +3,7 @@ date: 2020-11-05T14:26:44+02:00
 title: "Rob'. Eucken, Schillerstr. 1"
 tags:
 - Bekleidungsgeschäft
+- "Material: Holz"
 type: hanger
 # TODO Find place / town
 ---

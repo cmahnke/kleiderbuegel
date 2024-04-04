@@ -5,11 +5,12 @@ type: hanger
 tags:
 - Braunschweig
 - Bekleidungsgeschäft
-#geojson:
-#  coordinates:
-#  - 9.9320614
-#  - 51.5323115
-#  precision: exact
+- "Material: Holz"
+geojson:
+  coordinates:
+  - 10.52673
+  - 52.26594
+  precision: city
 ---
 
 Bekleidungshaus Manschott Haus der 5000 Hosen

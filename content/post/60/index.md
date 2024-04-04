@@ -5,6 +5,7 @@ type: hanger
 tags:
 - Bremerhaven
 - Bekleidungsgeschäft
+- "Material: Holz"
 geojson:
   coordinates:
   - 8.5869922

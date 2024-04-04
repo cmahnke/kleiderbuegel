@@ -4,6 +4,8 @@ title: "Nur bei Karstadt"
 tags:
 - Karstadt
 - Warenhaus
+- "Material: Holz"
+- Beidseitig
 type: hanger
 ---
 Nur bei Karstadt

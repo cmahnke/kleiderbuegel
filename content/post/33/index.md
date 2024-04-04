@@ -4,6 +4,7 @@ title: "Pelz Quentin"
 tags:
 - Göttingen
 - Pelze
+- "Material: Holz"
 type: hanger
 geojson:
   coordinates:

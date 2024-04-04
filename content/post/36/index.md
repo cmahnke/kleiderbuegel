@@ -2,6 +2,9 @@
 date: 2021-01-01T12:32:44+02:00
 title: "„Klips“"
 type: hanger
+tags:
+- "Material: Holz"
+- "Material: Metall"
 ---
 „Klips“
 D.B.G.M.

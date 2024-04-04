@@ -5,6 +5,7 @@ type: hanger
 tags:
 - Jülich
 - Bekleidungsgeschäft
+- "Material: Holz"
 geojson:
   coordinates:
   - 6.3564177

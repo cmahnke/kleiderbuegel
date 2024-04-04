@@ -5,11 +5,12 @@ type: hanger
 tags:
 - Hildesheim
 - Reinigung
-#geojson:
-#  coordinates:
-#  - 9.9320614
-#  - 51.5323115
-#  precision: exact
+- "Material: Holz"
+geojson:
+  coordinates:
+  - 9.95112
+  - 52.15077
+  precision: city
 ---
 
 perfekte Schnellreinigung W. Freitag Hildesheim Tel. 6782

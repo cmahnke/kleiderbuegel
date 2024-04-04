@@ -1,0 +1,6 @@
+{{- $term := .Name -}}
+{{ $tag := slice }}
+{{- range (split $term " ") -}}
+  {{- $tag = $tag | append (. | strings.FirstUpper) -}}
+{{- end -}}
+{{- delimit $tag " " -}}

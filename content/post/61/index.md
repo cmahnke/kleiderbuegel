@@ -5,6 +5,8 @@ type: hanger
 tags:
 - Göttingen
 - Bekleidungsgeschäft
+- "Material: Holz"
+- Beidseitig
 geojson:
   coordinates:
   - 9.9320614

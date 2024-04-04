@@ -4,6 +4,12 @@ title: "Günter Göhlitz"
 tags:
 - Merseburg
 - Schneiderei
+- "Material: Holz"
 type: hanger
+geojson:
+  coordinates:
+  - 11.9949616
+  - 51.3565038
+  precision: street
 ---
 Günter Göhlitz Schneidermeister Merseburg Kl. Ritterstr.

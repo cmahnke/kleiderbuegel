@@ -4,6 +4,7 @@ title: "Bader Moden"
 tags:
 - Pforzheim
 - Versand
+- "Material: Holz"
 type: hanger
 geojson:
   coordinates:

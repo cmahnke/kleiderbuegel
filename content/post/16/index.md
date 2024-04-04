@@ -2,6 +2,10 @@
 date: 2020-10-16T19:12:44+02:00
 title: "Zum 10. Hochzeitstag"
 type: hanger
+tags:
+- "Material: Holz"
+- Beidseitig
+- Scherzartikel
 ---
 <p>wer hier befiehlt   —    das bin ich</p>
 

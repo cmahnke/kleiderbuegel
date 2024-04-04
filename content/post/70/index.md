@@ -5,6 +5,7 @@ type: hanger
 tags:
 - Rottach - Egern
 - Hotel
+- "Material: Holz"
 geojson:
   coordinates:
   - 11.76398

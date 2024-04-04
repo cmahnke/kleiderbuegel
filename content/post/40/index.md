@@ -4,6 +4,12 @@ title: "Fritz Felgener"
 tags:
 - Aken an der Elbe
 - Schneiderei
+- "Material: Holz"
 type: hanger
+geojson:
+  coordinates:
+  - 11.9669427
+  - 51.8393335
+  precision: city
 ---
 Fritz Felgener, Feine Maßschneiderei, Aken a. d. Elbe.

@@ -3,6 +3,8 @@ date: 2020-12-12T12:33:44+02:00
 title: "Sanostol"
 tags:
 - Werbung
+- "Material: Plastik"
+- Beidseitig
 type: hanger
 ---
 multi - Sanostol

@@ -4,6 +4,7 @@ title: "„Kleidung von Peters ist immer richtig“"
 type: hanger
 tags:
 - Bekleidungsgeschäft
+- "Material: Holz"
 ---
 „Kleidung von Peters ist immer richtig“
 

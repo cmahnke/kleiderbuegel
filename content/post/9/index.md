@@ -4,6 +4,7 @@ title: "Josef Henn Kürschnermeister"
 tags:
 - Göttingen
 - Pelze
+- "Material: Holz"
 type: hanger
 geojson:
   coordinates:

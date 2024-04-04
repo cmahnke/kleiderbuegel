@@ -6,6 +6,8 @@ tags:
 - Bekleidungsgeschäft
 - Brenninkmayer
 - C&A
+- "Material: Holz"
+- Beidseitig
 ---
 
 C&A -„formtreu“-Kleidung - veredelte Kleidung! C&A

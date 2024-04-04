@@ -5,6 +5,7 @@ type: hanger
 tags:
 - Bad Nauheim
 - Klinik
+- "Material: Holz"
 geojson:
   coordinates:
   - 8.74474

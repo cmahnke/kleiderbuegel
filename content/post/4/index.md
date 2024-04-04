@@ -5,5 +5,6 @@ type: hanger
 tags:
 - Karstadt
 - Warenhaus
+- "Material: Holz"
 ---
 Gut gekleidet von **Karstadt**

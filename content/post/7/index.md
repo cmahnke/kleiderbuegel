@@ -4,6 +4,7 @@ title: "Rock - Hache"
 tags:
 - Göttingen
 - Bekleidungsgeschäft
+- "Material: Holz"
 type: hanger
 geojson:
   coordinates:

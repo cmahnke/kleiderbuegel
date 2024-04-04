@@ -4,7 +4,13 @@ title: "Diekmann Göttingen"
 tags:
 - Göttingen
 - Bekleidungsgeschäft
+- "Material: Holz"
 type: hanger
+geojson:
+  coordinates:
+  - 9.9315709
+  - 51.5364472
+  precision: exact
 ---
 Diekmann Göttingen
 

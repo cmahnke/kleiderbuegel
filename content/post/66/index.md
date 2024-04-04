@@ -5,6 +5,7 @@ type: hanger
 tags:
 - Berlin
 - Hotel
+- "Material: Holz"
 geojson:
   coordinates:
   - 13.2951914

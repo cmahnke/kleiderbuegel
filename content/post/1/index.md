@@ -10,6 +10,7 @@ geojson:
 tags:
 - Göttingen
 - Bekleidungsgeschäft
+- "Material: Holz"
 ---
 Bekleidungshaus Junge, Gegenüber Hauptpostamt Göttingen
 

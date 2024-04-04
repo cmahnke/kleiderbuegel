@@ -4,6 +4,7 @@ title: "Hotel Deus"
 tags:
 - Oldenburg
 - Hotel
+- "Material: Holz"
 type: hanger
 geojson:
   coordinates:

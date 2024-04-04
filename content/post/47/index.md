@@ -5,6 +5,7 @@ tags:
 - Bekleidungsgeschäft
 - Brenninkmayer
 - C&A
+- "Material: Holz"
 type: hanger
 ---
 C & A Brenninkmayer
