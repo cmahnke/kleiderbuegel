@@ -36,6 +36,6 @@
 
 <div class="download-link">
   
-    <a class="link" href="/map//list/map.geojson" target="_blank">Download GeoJSON</a>
+    <a class="link" href="/map/../list/map.geojson" target="_blank">Download GeoJSON</a>
   
 </div>"}
