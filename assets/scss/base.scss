@@ -598,3 +598,14 @@ $kleidungsstueck-border-radius: 10px;
     }
   }
 }
+
+.meta .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p, ul, h2, h3, h4, .iframe-wrapper {
+    width: 90%;
+
+  }
+}

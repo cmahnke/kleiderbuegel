@@ -26,8 +26,13 @@ copyright = "Kleiderbügel"
         url = "map/"
 
     [[menu.main]]
+        name = "Links"
+        weight = 3
+        url = "links/"
+
+    [[menu.main]]
         name = "Über diese Seite"
-        weight = 4
+        weight = 5
         url = "about/"
 
 [module]
