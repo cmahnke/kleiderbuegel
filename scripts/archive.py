@@ -11,7 +11,7 @@ from termcolor import cprint
 archive_prefix = "https://web.archive.org/save/"
 available_prefix = "http://archive.org/wayback/available?url="
 default_dir = "./docs"
-exclude = ['localhost', 'projektemacher.org', 'kleiderbügel.blaufusstölpel.de', 'de.wikipedia.org', 'github.com', 'gohugo.io', 'archive.org']
+exclude = ['localhost', 'projektemacher.org', 'de.wikipedia.org', 'github.com', 'gohugo.io', 'archive.org']
 max_age = 60
 
 def check_availability(url):
@@ -89,6 +89,7 @@ def build_url_list(dir):
 async def main() -> int:
     parser = argparse.ArgumentParser(prog='archive.py')
     parser.add_argument('--dir', '-d', type=pathlib.Path, help='Path to posts to process')
+    parser.add_argument('--exclude', '-e', nargs='+', help='Path to posts to process')
 
     args = parser.parse_args()
 
@@ -96,6 +97,11 @@ async def main() -> int:
         dir = args.dir
     else:
         dir = default_dir
+
+    if args.exclude is not None:
+        for excl in args.exclude:
+            exclude.extend(excl.split(','))
+        cprint(f"Excluding {exclude}", 'green')
 
     urls = build_url_list(dir)
 
