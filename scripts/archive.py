@@ -44,9 +44,9 @@ async def archive(urls, client):
                     except (httpx.ReadTimeout, httpx.TimeoutException, httpx.NetworkError, httpx.HTTPStatusError, httpcore.ReadTimeout) as error:
                         cprint(f"", 'red')
                 async_reqs.append(req(archive_url))
-            print(f"Saving {archive_url}")
+                print(f"Saving {archive_url}")
         except:
-            cprint(f"Failed to chcek availability of {url}", 'red')
+            cprint(f"Failed to check availability of {url}", 'red')
     return async_reqs
 
 def filter_links(links):
@@ -89,7 +89,7 @@ def build_url_list(dir):
 async def main() -> int:
     parser = argparse.ArgumentParser(prog='archive.py')
     parser.add_argument('--dir', '-d', type=pathlib.Path, help='Path to posts to process')
-    parser.add_argument('--exclude', '-e', nargs='+', help='Path to posts to process')
+    parser.add_argument('--exclude', '-e', nargs='+', help='Host names to exclude')
 
     args = parser.parse_args()
 
