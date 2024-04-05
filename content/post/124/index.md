@@ -5,3 +5,7 @@ type: hanger
 tags:
   - "Material: Plastik"
 ---
+
+<div class="notes">
+  Siehe auch <a href="/post/100">gelbe Variante</a>, Design Danielo Silverstein
+</div>

@@ -5,3 +5,7 @@ type: hanger
 tags:
   - "Material: Plastik"
 ---
+
+<div class="notes">
+Aufkleber: Design Danielo Silverstein
+</div>
