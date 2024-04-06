@@ -6,6 +6,7 @@ tags:
 - "Material: Holz"
 - Braunschweig
 - Bekleidungsgeschäft
+- Flebbe
 geojson:
   coordinates:
   - 10.5228263
