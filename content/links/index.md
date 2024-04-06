@@ -15,6 +15,7 @@ Die Anzahl von Kleiderbügelsammlern ist überschaubar, hier die medial präsent
 
 ### Beiträge von und über Matthias Dülp
 
+* [Bayerischer Rundfunk | Frankenschau aktuell (3.4.2024) ab 18:51](https://www.ardmediathek.de/video/frankenschau-aktuell/frankenschau-aktuell-vom-03-04-2024/br-fernsehen/Y3JpZDovL2JyLmRlL3ZpZGVvLzM0MTJkODg1LTcyNTMtNDc5ZS1iMjkzLTM2M2JlYTVjOTZjMw?fbclid=IwAR21PIfiBKcR5w1yOxFXWLoFtcnbiyE0rpgSR_L4Ef4hnaOrcdFQTUPdQ34_aem_AUTttUpffHfsz8vTMPk8XQkAows17-DpuYK03B2jQ4qg3lHPDAUzvr3GzCrQvZsL-kHOkK1aFoWtipX6Kn_3bLTM)
 * [Facebook: Kleiderbügelmuseum Etlaswind](https://www.facebook.com/p/Kleiderb%C3%BCgelmuseum-Etlaswind-100072127089149/)
 * [TV1 - die Reportage: Ein Tag beim Kleiderbügel Sammler - die Reportage (24.6.2019)](https://www.youtube.com/watch?v=rW-5hou6aD8)
 * [Bayern 2: Von dem Nutzen und der Schönheit des Kleiderbügels (26.3.2019)](https://www.br.de/radio/bayern2/von-dem-nutzen-und-der-schoenheit-des-kleiderbuegels-zeit-fuer-bayern-100.html)
