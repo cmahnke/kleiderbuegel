@@ -18,21 +18,6 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Hubertus Trier",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hubertus Trier\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003e[unleserlich]\nHubertus\nTrier, Simeonstr. 43\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.volksfreund.de/region/trier-trierer-land/spezialisten-fuer-die-mode-unter-der-kleidung_aid-5547252\"\u003eTrierischer Volksfreund: Spezialisten für die Mode unter der Kleidung\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/80/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [6.6393466,49.7576559]
-  }
-}
-
-
-
-
-,{
-  "type": "Feature",
-  "properties": {
       "name": "Ketelsen Bremerhaven-Bürger 42",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ketelsen Bremerhaven-Bürger 42\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Ketelsen Bremerhaven-Bürger 42\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/97/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
