@@ -1,24 +1,10 @@
 ---
-date: 2024-04-09T12:47:44+02:00
-title: "Hubertus Trier"
+date: 2024-04-08T12:47:44+02:00
+title: "1 Jahr älter - kein Grund zum Aufhängen"
 type: hanger
 tags:
 - "Material: Holz"
-- Trier
-- Bekleidungsgeschäft
-geojson:
-  coordinates:
-  - 6.6393466
-  - 49.7576559
-  precision: exact
----
-[unleserlich]
-Hubertus
-Trier, Simeonstr. 43
+- Scherzartikel
 
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.volksfreund.de/region/trier-trierer-land/spezialisten-fuer-die-mode-unter-der-kleidung_aid-5547252">Trierischer Volksfreund: Spezialisten für die Mode unter der Kleidung</a></li>
-</ul>
-</div>
+---
+1 Jahr älter - kein Grund zum Aufhängen
