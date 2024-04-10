@@ -1,11 +1,12 @@
 ---
-date: 2024-04-09T12:47:44+02:00
+date: 2025-04-09T12:47:44+02:00
 title: "Erdmann Kleidung"
 type: hanger
 tags:
   - Hannover
   - Bekleidungsgeschäft
   - "Material: Holz"
+draft: true
 geojson:
   coordinates:
   - 9.7344751
