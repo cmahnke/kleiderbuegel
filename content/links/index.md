@@ -32,3 +32,9 @@ Die Anzahl von Kleiderbügelsammlern ist überschaubar, hier die medial präsent
 
 ## Kleiderbügel in der Forschung
 * [Focke Museum: Über das Schicksal der Bremer Kaufmannsfamilie Silbermann](https://www.focke-museum.de/2021/01/28/ein-scheinbar-unscheinbarer-kleiderbuegel/)
+
+## Kleiderbügel bedrucken lassen
+
+* [buegel.de](https://www.buegel.de/service-kontakt/logodruck/)
+* [pieper hangers](https://www.pieperhangers.de)
+* [weber Kleiderbügel](https://weber-kleiderbuegel.lwa-wip.de/produkte/kleiderbuegel-mit-druck/)
