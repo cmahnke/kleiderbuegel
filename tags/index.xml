@@ -7,20 +7,34 @@
     <generator>Hugo 0.125.2</generator>
     <language>de</language>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Tue, 16 Apr 2024 12:47:44 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 12:47:44 +0200</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Material: Plastik</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-plastik/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-plastik/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Bekleidungsgeschäft</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hannover</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hannover/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hannover/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Material: Holz</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Material: Plastik</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-plastik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-plastik/</guid>
       <description></description>
     </item>
     <item>
@@ -35,13 +49,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/ketelsen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/ketelsen/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Material: Holz</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
       <description></description>
     </item>
     <item>
@@ -175,13 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/wolfhagen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/wolfhagen/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wäscherei</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/w%C3%A4scherei/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/w%C3%A4scherei/</guid>
       <description></description>
     </item>
   </channel>
