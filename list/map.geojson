@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Beckmann & Wortmann",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Beckmann \u0026amp; Wortmann\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Damen- Herren- und Kinder-Kleidung\nBeckmann \u0026amp; Wortmann\nMainz\nam Dom, Markt 2-6\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/84/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.2717854,49.998805]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Mau & Andresen Flensburg",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Mau \u0026amp; Andresen Flensburg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Mau \u0026amp; Andresen Flensburg\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/83/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
