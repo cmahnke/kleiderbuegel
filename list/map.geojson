@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Mäntelhaus 40 Kaiser 40",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Mäntelhaus 40 Kaiser 40\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Mäntelhaus\n40 Kaiser 40\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/85/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.7331229,52.3727407]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Beckmann & Wortmann",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Beckmann \u0026amp; Wortmann\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Damen- Herren- und Kinder-Kleidung\nBeckmann \u0026amp; Wortmann\nMainz\nam Dom, Markt 2-6\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/84/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
