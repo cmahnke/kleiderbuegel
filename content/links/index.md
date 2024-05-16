@@ -11,7 +11,7 @@ hideMeta: true
 
 ## Sammler
 
-Die Anzahl von Kleiderbügelsammlern ist überschaubar, hier die medial präsentesten:
+Die Anzahl an Kleiderbügelsammlern ist überschaubar, hier die medial präsentesten:
 
 ### Beiträge von und über Matthias Dülp
 
