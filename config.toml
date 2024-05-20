@@ -93,3 +93,6 @@ defaultMarkdownHandler = 'goldmark'
 
 [outputs]
     page = ["HTML", "JSON"]
+
+[build]
+  writeStats = true
