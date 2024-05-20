@@ -8,6 +8,7 @@ defaultcontentlanguage = "de"
 rssLimit = 25
 theme = ["projektemacher-base"]
 copyright = "Kleiderbügel"
+enableGitInfo = true
 
 [menu]
     [[menu.main]]
