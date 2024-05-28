@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Schlüsing mann + mode Bremerhaven-G.",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Schlüsing mann \u0026#43; mode Bremerhaven-G.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Schlüsing\nmann + mode\nBremerhaven-G.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/87/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.5908051,53.5335032]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Hotel zur Linde Spiekeroog",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel zur Linde Spiekeroog\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel zur Linde Spiekeroog\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/86/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
