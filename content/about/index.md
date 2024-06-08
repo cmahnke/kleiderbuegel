@@ -47,4 +47,6 @@ Das [Einbinden der Bilder](https://gitlab.com/kaushalmodi/hugo-theme-refined/blo
 
 Kontakt ist via [E-Mail](mailto:kleiderbuegel@projektemacher.org) möglich.
 
+Die Datenschutzerklärung ist [hier](/privacy) verfügbar.
+
 ![Blaufußtölpel](/images/blaufusstoelpel.svg)

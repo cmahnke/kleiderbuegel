@@ -19,7 +19,7 @@
       {{- end -}}
       {{ .Content }}
      </div>
-    {{- if not .Params.hideMeta -}}
+    {{- if and (not .Params.hideMeta) (not .Params.metaPage) -}}
       <div class="meta">
         <div class="date">
             <a href="{{ .RelPermalink }}">{{- partial "date.html" . -}}</a>

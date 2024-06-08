@@ -82,7 +82,21 @@ body {
                 text-align: left !important;
                 width: 90%;
                 margin: auto;
-                margin: 1em auto;
+            }
+
+            ul,
+            h1,
+            h2,
+            h3 {
+              padding-bottom: .6em !important;
+            }
+
+            .tagcloud {
+              margin: 1em auto;
+            }
+
+            p {
+              margin: .6em auto;
             }
 
             img {
@@ -116,6 +130,22 @@ body {
     &.meta {
         .number {
             text-align: center;
+        }
+
+        .post-title {
+          font-family: "Libre Baskerville", serif;
+          font-style: italic;
+          align-self: flex-start;
+          text-align: left !important;
+        }
+
+        p,
+        h1,
+        h2,
+        h3 {
+            width: 90%;
+            margin: auto;
+            padding-bottom: .6em !important;
         }
     }
 }
