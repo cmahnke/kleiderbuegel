@@ -22,7 +22,12 @@
     {{- if and (not .Params.hideMeta) (not .Params.metaPage) -}}
       <div class="meta">
         <div class="date">
-            <a href="{{ .RelPermalink }}">{{- partial "date.html" . -}}</a>
+            <a href="{{ .RelPermalink }}">
+              {{- .Date | time.Format ":date_full" -}}
+              {{/*
+                {{- partial "date.html" . -}}
+              */}}
+            </a>
         </div>
         <div class="meta-spacer">
             {{ if eq $class "hanger" }}
