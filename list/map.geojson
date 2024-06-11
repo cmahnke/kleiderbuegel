@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Hotel Ruhwinkel Ostseebad Grömitz",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel Ruhwinkel Ostseebad Grömitz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel Ruhwinkel\nOstseebad Grömitz\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/89/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.9478517,54.152259]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "P.A. Das modische Textilhaus, Bad Mergentheim An der Stadtkirche",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        P.A. Das modische Textilhaus, Bad Mergentheim An der Stadtkirche\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        P.A. Das modische Textilhaus,\nBad Mergentheim\nAn der Stadtkirche\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/88/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
