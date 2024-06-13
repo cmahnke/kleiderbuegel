@@ -7,6 +7,7 @@ tags:
 - "Material: Holz"
 - München
 - Art Bekleidungsgeschäft
+- Beidseitig
 geojson:
   coordinates:
   - 11.576683
@@ -17,6 +18,8 @@ Ludwig
 Beck
 Am Rathauseck
 München
+
+[Auch Rückseite]
 
 <div class="notes">
 Weitere Informationen:

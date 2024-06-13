@@ -7,6 +7,7 @@ tags:
 - "Material: Holz"
 - Hannover
 - Reinigung
+- Beidseitig
 geojson:
   coordinates:
   - 9.73322
@@ -14,6 +15,8 @@ geojson:
   precision: city
 ---
 Reinigung Centralux Hannover
+
+[Auch Rückseite]
 
 <div class="notes">
 Weitere Informationen:
