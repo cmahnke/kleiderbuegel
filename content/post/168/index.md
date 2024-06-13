@@ -1,5 +1,5 @@
 ---
-date: 2025-12-02T12:47:44+02:00
+date: 2025-12-16T12:47:44+02:00
 draft: true
 title: ""
 type: hanger

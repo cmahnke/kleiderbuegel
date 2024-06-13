@@ -1,5 +1,5 @@
 ---
-date: 2025-12-02T12:47:44+02:00
+date: 2026-01-20T12:47:44+02:00
 draft: true
 title: "Geschw. Alsberg"
 type: hanger

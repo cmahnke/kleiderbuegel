@@ -1,5 +1,5 @@
 ---
-date: 2025-12-02T12:47:44+02:00
+date: 2026-02-17T12:47:44+02:00
 draft: true
 title: "Teppich-Reinigung Testorp"
 type: hanger
@@ -13,7 +13,7 @@ geojson:
   - 49.7576559
   precision: exact
 ---
-Teppich-Reinigung qm DM 4,50 TESTORP Ruf 611661
+Teppich-Reinigung qm DM 4,50 • TESTORP • Ruf 611661
 
 <div class="notes">
 Weitere Informationen:
