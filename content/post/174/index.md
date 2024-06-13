@@ -1,6 +1,5 @@
 ---
 date: 2026-01-27T12:47:44+02:00
-draft: true
 title: "Zechbauer Herrenausstatter"
 type: hanger
 tags:

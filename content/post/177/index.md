@@ -1,6 +1,5 @@
 ---
 date: 2026-02-17T12:47:44+02:00
-draft: true
 title: "Teppich-Reinigung Testorp"
 type: hanger
 tags:

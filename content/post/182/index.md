@@ -1,6 +1,5 @@
 ---
 date: 2026-03-24T12:47:44+02:00
-draft: true
 title: "JO - Kleider"
 type: hanger
 tags:

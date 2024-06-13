@@ -1,6 +1,5 @@
 ---
 date: 2026-03-10T12:47:44+02:00
-draft: true
 title: "FOX"
 type: hanger
 tags:

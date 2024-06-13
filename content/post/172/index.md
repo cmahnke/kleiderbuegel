@@ -1,6 +1,5 @@
 ---
 date: 2026-01-13T12:47:44+02:00
-draft: true
 title: "W. Semmler, Göttingen"
 type: hanger
 tags:

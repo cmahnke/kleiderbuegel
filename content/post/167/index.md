@@ -1,6 +1,5 @@
 ---
 date: 2025-12-09T12:47:44+02:00
-draft: true
 title: "Steigenberger Hotels"
 type: hanger
 tags:

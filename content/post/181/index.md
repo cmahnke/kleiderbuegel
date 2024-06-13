@@ -1,6 +1,5 @@
 ---
 date: 2026-03-17T12:47:44+02:00
-draft: true
 title: "WARG"
 type: hanger
 tags:

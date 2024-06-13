@@ -1,6 +1,5 @@
 ---
 date: 2026-02-10T12:47:44+02:00
-draft: true
 title: "August Wellhölter Herford"
 type: hanger
 tags:

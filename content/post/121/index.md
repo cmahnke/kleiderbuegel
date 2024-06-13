@@ -6,7 +6,6 @@ tags:
   - Hannover
   - Bekleidungsgeschäft
   - "Material: Holz"
-draft: true
 geojson:
   coordinates:
   - 9.7344751

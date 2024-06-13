@@ -1,6 +1,5 @@
 ---
 date: 2025-12-23T12:47:44+02:00
-draft: true
 title: "Loden - Frey München"
 type: hanger
 tags:

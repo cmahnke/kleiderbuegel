@@ -1,6 +1,5 @@
 ---
 date: 2026-02-24T12:47:44+02:00
-draft: true
 title: "Reinigung Centralux Hannover"
 type: hanger
 tags:
