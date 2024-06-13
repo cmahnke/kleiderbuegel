@@ -1,15 +1,16 @@
 ---
-date: 2025-10-07T12:47:44+02:00
+date: 2025-12-02T12:47:44+02:00
+draft: true
 title: ""
 type: hanger
 tags:
-  - "Material: Plastik"
+- "Material: Plastik"
 ---
 
 <div class="notes">
   Weitere Informationen:
   <ul>
+    <li>Siehe auch <a href="/post/158">grüne Variante</a></li>
     <li>Siehe auch <a href="/post/81">orange Variante</a></li>
-    <li>Siehe auch <a href="/post/168">braune Variante</a></li>
   </ul>
 </div>

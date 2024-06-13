@@ -5,3 +5,11 @@ type: hanger
 tags:
   - "Material: Plastik"
 ---
+
+<div class="notes">
+  Weitere Informationen:
+  <ul>
+    <li>Siehe auch <a href="/post/158">grüne Variante</a></li>
+    <li>Siehe auch <a href="/post/168">braune Variante</a></li>
+  </ul>
+</div>

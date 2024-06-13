@@ -7,5 +7,8 @@ tags:
 ---
 
 <div class="notes">
-Aufkleber: Design Danielo Silverstein
+  <ul>
+    <li>Aufkleber: Design Danielo Silverstein</li>
+    <li>Siehe auch <a href="/post/124">rote Variante</a>, Design Danielo Silverstein</li>
+  </ul>
 </div>
