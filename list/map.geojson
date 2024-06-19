@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Chem. Reiningung Schulte Essen",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Chem. Reiningung Schulte Essen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Chem. Reiningung Schulte Essen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/90/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.0225084,51.4206469]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Hotel Ruhwinkel Ostseebad Grömitz",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel Ruhwinkel Ostseebad Grömitz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel Ruhwinkel\nOstseebad Grömitz\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/89/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },

@@ -10,6 +10,27 @@
     <lastBuildDate>Mon, 17 Jun 2024 12:27:01 +0200</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Essen</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/essen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/essen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Material: Holz</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reinigung</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Grömitz</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/gr%C3%B6mitz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -21,13 +42,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hotel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hotel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Material: Holz</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
       <description></description>
     </item>
     <item>
@@ -136,13 +150,6 @@
       <description></description>
     </item>
     <item>
-      <title>Reinigung</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Berlin</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/berlin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -175,13 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hamburg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hamburg/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bad Nauheim</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bad-nauheim/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bad-nauheim/</guid>
       <description></description>
     </item>
   </channel>
