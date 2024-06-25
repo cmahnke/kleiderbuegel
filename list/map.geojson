@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Friedrich Schefft OHG., Textilwaren Uslar",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Friedrich Schefft OHG., Textilwaren Uslar\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eFriedrich Schefft OHG., Textilwaren Uslar\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.modehaus-schefft.de/\"\u003eHeutige Webseite\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/91/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.6329863,51.660725]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Chem. Reiningung Schulte Essen",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Chem. Reiningung Schulte Essen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Chem. Reiningung Schulte Essen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/90/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
