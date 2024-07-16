@@ -7,20 +7,34 @@
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Thu, 11 Jul 2024 15:41:41 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2024 13:04:04 +0200</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bekleidungsgeschäft</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</link>
-      <pubDate>Tue, 09 Jul 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</guid>
+      <title>Helmstedt</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/helmstedt/</link>
+      <pubDate>Tue, 16 Jul 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/helmstedt/</guid>
       <description></description>
     </item>
     <item>
       <title>Material: Holz</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Tue, 09 Jul 2024 12:47:44 +0200</pubDate>
+      <pubDate>Tue, 16 Jul 2024 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reinigung</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</link>
+      <pubDate>Tue, 16 Jul 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bekleidungsgeschäft</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</link>
+      <pubDate>Tue, 09 Jul 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</guid>
       <description></description>
     </item>
     <item>
@@ -56,13 +70,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/essen/</link>
       <pubDate>Tue, 18 Jun 2024 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/essen/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reinigung</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</link>
-      <pubDate>Tue, 18 Jun 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</guid>
       <description></description>
     </item>
     <item>
@@ -175,13 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hildesheim/</link>
       <pubDate>Sun, 04 Jul 2021 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hildesheim/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Berlin</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/berlin/</link>
-      <pubDate>Sun, 27 Jun 2021 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/berlin/</guid>
       <description></description>
     </item>
   </channel>
