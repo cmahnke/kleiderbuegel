@@ -12,6 +12,9 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  HUGO_VERSION: 0.132.0
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
@@ -41,7 +44,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3.0.0
         with:
-          hugo-version: '0.131.0'
+          hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
       - name: Generate Files
