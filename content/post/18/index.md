@@ -5,6 +5,7 @@ tags:
 - Reinigung
 - "Material: Holz"
 - Herford
+- Färberei
 type: hanger
 geojson:
   coordinates:

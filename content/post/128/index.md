@@ -6,6 +6,7 @@ tags:
 - "Material: Holz"
 - Reinigung
 - Hannover
+- Färberei
 geojson:
   coordinates:
   - 9.73322

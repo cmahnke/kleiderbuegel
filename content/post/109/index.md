@@ -6,6 +6,7 @@ tags:
   - Lüneburg
   - "Material: Holz"
   - Reinigung
+  - Färberei
 geojson:
   coordinates:
   - 10.4739487

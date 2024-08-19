@@ -4,7 +4,6 @@ title: "JO - Kleider"
 type: hanger
 tags:
 - "Material: Holz"
-
 - Bekleidungsgeschäft
 geojson:
   coordinates:
