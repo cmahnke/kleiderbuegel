@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Paul Luck, Waren (Müritz) Herren - u. Knabenbekleidung",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Paul Luck, Waren (Müritz) Herren - u. Knabenbekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Paul Luck,\nWaren (Müritz)\nHerren - u. Knabenbekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/99/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [12.67985,53.5204]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Dorum Fritz von Geldern Bederkesa",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Dorum Fritz von Geldern Bederkesa\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Dorum\nFritz von Geldern\nBederkesa\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/96/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
