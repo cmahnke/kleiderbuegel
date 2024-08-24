@@ -1,5 +1,5 @@
 ---
-date: 2026-03-24T12:47:44+02:00
+date: 2026-03-31T12:47:44+02:00
 title: "Willi Fiebinger"
 type: hanger
 tags:
