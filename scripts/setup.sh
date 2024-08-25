@@ -2,6 +2,13 @@
 
 set -e
 
+# IIIF tiles
+echo "Set SKIP_IIIF to something to disable generation of IIIF derivates"
+
+if [ -z "$SKIP_IIIF" ] ; then
+    ./scripts/iiif.sh
+fi
+
 convert "Source Files/Logo/Logo.psd[0]" -flatten -layers merge static/images/kleiderbuegel.png
 
 # Generate Previews
