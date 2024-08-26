@@ -2,6 +2,9 @@
 date: 2026-02-03T12:47:44+02:00
 title: "Ludwig Beck München"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - München

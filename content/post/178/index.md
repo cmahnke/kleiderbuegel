@@ -2,6 +2,9 @@
 date: 2026-02-24T12:47:44+02:00
 title: "Reinigung Centralux Hannover"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Hannover

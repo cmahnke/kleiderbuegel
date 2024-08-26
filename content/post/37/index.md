@@ -6,6 +6,9 @@ tags:
 - Versand
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 8.6813651

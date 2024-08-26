@@ -2,6 +2,9 @@
 date: 2026-03-03T12:47:44+02:00
 title: "Bollerer Freiburg/Br."
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Freiburg

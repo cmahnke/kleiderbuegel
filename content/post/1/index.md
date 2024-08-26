@@ -2,6 +2,9 @@
 date: 2020-08-29T18:22:44+02:00
 title: "Bekleidungshaus Junge"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 9.9392501

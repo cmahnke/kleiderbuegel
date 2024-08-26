@@ -1,6 +1,9 @@
 ---
 date: 2020-09-06T19:12:44+02:00
 title: "Rock - Hache"
+outputs:
+- html
+- iiif-manifest
 tags:
 - Göttingen
 - Bekleidungsgeschäft

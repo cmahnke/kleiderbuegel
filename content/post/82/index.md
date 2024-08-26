@@ -2,6 +2,9 @@
 date: 2024-04-23T12:47:44+02:00
 title: "ALOYS BUNGE Bekleidungshaus HANNOVER"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - Hannover
   - "Material: Holz"

@@ -5,6 +5,9 @@ tags:
 - Halle / Saale
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 #https://www.perladesa.de/altes-halle.htm
 geojson:
   coordinates:

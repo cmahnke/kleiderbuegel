@@ -2,6 +2,9 @@
 date: 2026-02-17T12:47:44+02:00
 title: "Teppich-Reinigung Testorp"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Ort

@@ -2,6 +2,9 @@
 date: 2021-07-25T12:47:44+02:00
 title: "-„formtreu“-Kleidung - veredelte Kleidung!"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Bekleidungsgeschäft
 - Brenninkmayer

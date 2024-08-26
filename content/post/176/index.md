@@ -2,6 +2,9 @@
 date: 2026-02-10T12:47:44+02:00
 title: "August Wellhölter Herford"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Herford

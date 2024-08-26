@@ -2,6 +2,9 @@
 date: 2025-11-04T12:47:44+02:00
 title: "Arthur Johannsen"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - "Material: Holz"
   - Reinigung

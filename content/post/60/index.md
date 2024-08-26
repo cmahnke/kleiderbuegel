@@ -2,6 +2,9 @@
 date: 2021-03-14T12:32:44+02:00
 title: "Jordan"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Bremerhaven
 - Bekleidungsgeschäft

@@ -2,6 +2,9 @@
 date: 2021-03-21T12:47:44+02:00
 title: "Ernst Fricke"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Göttingen
 - Bekleidungsgeschäft

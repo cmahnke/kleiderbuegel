@@ -7,6 +7,9 @@ tags:
 - Herford
 - Färberei
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 8.6941027

@@ -5,6 +5,9 @@ tags:
 - Darmstadt
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 8.65027

@@ -2,6 +2,9 @@
 date: 2021-04-11T12:47:44+02:00
 title: "STAR BOUTIQUE Manuela"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Werbung
 - "Material: Plastik"

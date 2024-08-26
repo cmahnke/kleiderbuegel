@@ -6,6 +6,9 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 9.9315709

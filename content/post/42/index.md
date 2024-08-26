@@ -6,6 +6,9 @@ tags:
 - Reinigung
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 9.93228

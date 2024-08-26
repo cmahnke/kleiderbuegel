@@ -2,6 +2,9 @@
 date: 2024-05-07T12:47:44+02:00
 title: "Beckmann & Wortmann"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Mainz

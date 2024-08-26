@@ -2,6 +2,9 @@
 date: 2026-01-20T12:47:44+02:00
 title: "Geschw. Alsberg"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Koblenz

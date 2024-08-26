@@ -5,6 +5,9 @@ tags:
 - Amsterdam
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 4.8527235

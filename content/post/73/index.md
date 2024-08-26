@@ -2,6 +2,9 @@
 date: 2021-06-13T12:47:44+02:00
 title: "J.Braun Gr. Johannisstraße 3"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Hamburg
 - Bekleidungsgeschäft

@@ -2,6 +2,9 @@
 date: 2025-10-14T12:47:44+02:00
 title: "Camel"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - "Material: Holz"
   - Werbung

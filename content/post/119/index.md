@@ -2,6 +2,9 @@
 date: 2025-01-14T12:47:44+02:00
 title: "Heinrich Kuhn, Augsburg Bahnhofstr. 5."
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - Augsburg
   - "Material: Holz"

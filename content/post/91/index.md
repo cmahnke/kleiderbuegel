@@ -2,6 +2,9 @@
 date: 2024-06-25T12:47:44+02:00
 title: "Friedrich Schefft OHG., Textilwaren Uslar"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - Uslar
   - Bekleidungsgeschäft

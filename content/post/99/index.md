@@ -2,6 +2,9 @@
 date: 2024-08-20T12:47:44+02:00
 title: "Paul Luck, Waren (Müritz) Herren - u. Knabenbekleidung"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Bekleidungsgeschäft

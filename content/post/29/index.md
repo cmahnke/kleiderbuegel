@@ -6,6 +6,9 @@ tags:
 - "Material: Plastik"
 - Beidseitig
 type: hanger
+outputs:
+- html
+- iiif-manifest
 ---
 multi - Sanostol
 

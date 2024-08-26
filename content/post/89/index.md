@@ -2,6 +2,9 @@
 date: 2024-06-11T12:47:44+02:00
 title: "Hotel Ruhwinkel Ostseebad Grömitz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Hotel

@@ -2,6 +2,9 @@
 date: 2025-06-24T12:47:44+02:00
 title: "flebbe"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Braunschweig

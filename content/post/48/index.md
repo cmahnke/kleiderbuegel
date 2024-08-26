@@ -6,6 +6,9 @@ tags:
 - "Material: Holz"
 - Warenhaus
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 9.9896316

@@ -2,6 +2,9 @@
 date: 2024-05-21T12:47:44+02:00
 title: "Hotel zur Linde Spiekeroog"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - Hotel
   - Spiekeroog

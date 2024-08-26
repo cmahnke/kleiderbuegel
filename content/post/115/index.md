@@ -2,6 +2,9 @@
 date: 2024-12-17T12:47:44+02:00
 title: "Mäntelhaus Kaiser"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - Hannover
   - Bekleidungsgeschäft

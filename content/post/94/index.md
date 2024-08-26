@@ -2,6 +2,9 @@
 date: 2024-07-16T12:47:44+02:00
 title: "Wäscherei - Speck, Helmstedt - chem. Reinigung"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Helmstedt

@@ -2,6 +2,9 @@
 date: 2021-03-07T12:32:44+02:00
 title: "Fischer · Hettlage · Lampe"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Dortmund
 - Hagen

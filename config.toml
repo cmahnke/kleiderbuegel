@@ -52,6 +52,8 @@ enableGitInfo = true
 [mediaTypes]
   [mediaTypes."application/geo+json"]
     suffixes = ["geojson", "gjson"]
+  [mediaTypes."application/ld+json"]
+    suffixes = ["json"]
 
 [outputFormats]
   [outputFormats.geojson]

@@ -2,6 +2,9 @@
 date: 2025-05-06T12:47:44+02:00
 title: "Union Rock-Jon D.B.Wz."
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - Union
   - "Material: Holz"

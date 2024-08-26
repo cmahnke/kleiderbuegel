@@ -2,6 +2,9 @@
 date: 2025-12-23T12:47:44+02:00
 title: "Loden - Frey München"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - München

@@ -6,6 +6,9 @@ tags:
 - Warenhaus
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 ---
 Hertie
 

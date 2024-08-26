@@ -2,6 +2,9 @@
 date: 2021-07-11T12:47:44+02:00
 title: "Damen-Moden W. Renneberg"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Northeim
 - Bekleidungsgeschäft

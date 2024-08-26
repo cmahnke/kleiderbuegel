@@ -1,6 +1,9 @@
 ---
 date: 2025-08-05T12:47:44+02:00
 title: "Erdmann Kleidung"
+outputs:
+- html
+- iiif-manifest
 type: hanger
 tags:
   - "Material: Holz"

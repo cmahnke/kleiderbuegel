@@ -6,6 +6,9 @@ tags:
 - Schneiderei
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 11.9949616

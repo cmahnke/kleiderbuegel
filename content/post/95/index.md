@@ -2,6 +2,9 @@
 date: 2024-07-23T12:47:44+02:00
 title: "Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - Bekleidungsgeschäft
   - Buxtehude

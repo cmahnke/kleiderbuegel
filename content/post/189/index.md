@@ -2,6 +2,9 @@
 date: 2026-05-12T12:47:44+02:00
 title: "Sorge"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Bekleidungsgeschäft

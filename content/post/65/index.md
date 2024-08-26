@@ -2,6 +2,9 @@
 date: 2021-04-18T12:47:44+02:00
 title: "C. Louis Weber Hannover"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Hannover
 - Bekleidungsgeschäft

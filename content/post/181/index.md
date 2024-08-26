@@ -2,6 +2,9 @@
 date: 2026-03-17T12:47:44+02:00
 title: "WARG"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Celle

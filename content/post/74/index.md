@@ -2,6 +2,9 @@
 date: 2021-06-20T12:47:44+02:00
 title: "Bekleidungshaus Manschott Haus der 5000 Hosen"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Braunschweig
 - Bekleidungsgeschäft

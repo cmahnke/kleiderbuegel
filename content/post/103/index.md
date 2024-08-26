@@ -2,6 +2,9 @@
 date: 2024-09-24T12:47:44+02:00
 title: "Hotel zu den vier Jahreszeiten Helmstedt"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Helmstedt

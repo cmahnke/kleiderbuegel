@@ -2,6 +2,9 @@
 date: 2025-09-09T12:47:44+02:00
 title: "Cloppenburg Union"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - "Material: Holz"
   - Union

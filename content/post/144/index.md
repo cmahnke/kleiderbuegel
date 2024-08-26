@@ -2,6 +2,9 @@
 date: 2025-07-01T12:47:44+02:00
 title: "Maßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Berlin

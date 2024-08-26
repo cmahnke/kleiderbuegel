@@ -6,6 +6,9 @@ tags:
 - "Material: Holz"
 - Beidseitig
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 10.2511071

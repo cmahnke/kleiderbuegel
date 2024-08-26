@@ -2,6 +2,9 @@
 date: 2025-07-08T12:47:44+02:00
 title: "Weinhaus goldene Traube"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - "Material: Holz"
   - Gaststätte

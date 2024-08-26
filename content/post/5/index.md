@@ -2,6 +2,9 @@
 date: 2020-09-02T19:02:44+02:00
 title: "Wäscherei - Reinigung Hübener & Kurre"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Göttingen
 - Reinigung

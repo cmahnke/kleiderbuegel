@@ -2,6 +2,9 @@
 date: 2025-10-28T12:47:44+02:00
 title: "Damen- u. Herrenmoden Wilh. Deppe Einbeck"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - "Material: Holz"
   - Reinigung

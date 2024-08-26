@@ -5,6 +5,9 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 # TODO Find place / town
 ---
 Rob'. Eucken, Schillerstr. 1 Ecke W.havenerstr,

@@ -2,6 +2,9 @@
 date: 2025-07-15T12:47:44+02:00
 title: "CINTRES"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - "Material: Holz"
 geojson:

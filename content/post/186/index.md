@@ -2,6 +2,9 @@
 date: 2026-04-21T12:47:44+02:00
 title: "J. Clausen"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Bekleidungsgeschäft

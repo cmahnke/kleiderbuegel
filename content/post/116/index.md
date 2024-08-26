@@ -2,6 +2,9 @@
 date: 2024-12-24T12:47:44+02:00
 title: "Quick Shop"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - "Material: Holz"
   - Brüssel

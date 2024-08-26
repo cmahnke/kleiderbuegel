@@ -7,6 +7,9 @@ tags:
 - Heiligenstadt
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 10.1332671

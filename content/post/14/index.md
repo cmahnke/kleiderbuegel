@@ -5,5 +5,8 @@ tags:
 - Union
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 ---
 Union für Kostüme

@@ -2,6 +2,9 @@
 date: 2025-12-09T12:47:44+02:00
 title: "Steigenberger Hotels"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Hotel

@@ -2,6 +2,9 @@
 date: 2020-10-16T19:12:44+02:00
 title: "Zum 10. Hochzeitstag"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Beidseitig

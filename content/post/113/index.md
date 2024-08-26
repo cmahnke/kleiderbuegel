@@ -2,6 +2,9 @@
 date: 2024-12-03T12:47:44+02:00
 title: "Sei nobel durch Nobel"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - "Material: Holz"
   - Werbung

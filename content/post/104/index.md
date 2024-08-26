@@ -2,6 +2,9 @@
 date: 2024-10-01T12:47:44+02:00
 title: "Braunschweig Poplau & Co. Damm 1"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Braunschweig

@@ -2,6 +2,9 @@
 date: 2021-05-16T12:47:44+02:00
 title: "Breitling Stuttgart"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Stuttgart
 - Bekleidungsgeschäft

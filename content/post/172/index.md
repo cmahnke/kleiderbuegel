@@ -2,6 +2,9 @@
 date: 2026-01-13T12:47:44+02:00
 title: "W. Semmler, Göttingen"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Göttingen

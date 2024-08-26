@@ -5,6 +5,9 @@ tags:
 - Halle / Saale
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 11.97947

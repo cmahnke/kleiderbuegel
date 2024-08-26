@@ -6,6 +6,9 @@ tags:
 - "Material: Holz"
 - "Material: Metall"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 ---
 Union Jon-Jon
 D. B. Wz.

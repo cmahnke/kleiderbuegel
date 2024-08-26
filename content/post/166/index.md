@@ -2,6 +2,9 @@
 date: 2025-12-02T12:47:44+02:00
 title: "Hubertus Trier"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Trier

@@ -2,6 +2,9 @@
 date: 2021-05-30T12:47:44+02:00
 title: "Esders Siegen"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Siegen
 - "Material: Holz"

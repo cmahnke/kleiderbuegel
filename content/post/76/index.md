@@ -2,6 +2,9 @@
 date: 2021-07-04T12:47:44+02:00
 title: "Schnellreinigung W. Freitag Hildesheim"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Hildesheim
 - Reinigung

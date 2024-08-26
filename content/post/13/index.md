@@ -5,6 +5,9 @@ tags:
 - Emden
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 7.2031394

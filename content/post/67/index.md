@@ -2,6 +2,9 @@
 date: 2021-05-02T12:47:44+02:00
 title: "Wäschepflege TESTORP"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Hamburg
 - Wäscherei

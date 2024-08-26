@@ -7,6 +7,9 @@ tags:
 - C&A
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 ---
 C & A Brenninkmayer
 

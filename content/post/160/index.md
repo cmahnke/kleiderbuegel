@@ -2,6 +2,9 @@
 date: 2025-10-21T12:47:44+02:00
 title: "Wäscherei Kleiderbad Meyer Chem. Reinigung"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - "Material: Holz"
   - Reinigung

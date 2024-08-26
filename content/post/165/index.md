@@ -2,6 +2,9 @@
 date: 2025-11-25T12:47:44+02:00
 title: "W.E. Eggert"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Hamburg

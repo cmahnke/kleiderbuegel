@@ -6,6 +6,9 @@ tags:
 - Pelze
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 9.9342113

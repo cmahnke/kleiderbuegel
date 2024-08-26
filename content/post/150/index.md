@@ -2,6 +2,9 @@
 date: 2025-08-12T12:47:44+02:00
 title: "C.H. Wehmeyer, Schloss Holte"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - "Material: Holz"
   - Beidseitig

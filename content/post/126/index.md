@@ -2,6 +2,9 @@
 date: 2025-02-25T12:47:44+02:00
 title: "SCHREINER"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - "Material: Holz"
   - Beidseitig

@@ -5,6 +5,9 @@ tags:
 - Bremen
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 geojson:
   coordinates:
   - 8.80717

@@ -2,6 +2,9 @@
 date: 2021-02-16T12:32:44+02:00
 title: "„Kleidung von Peters ist immer richtig“"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Bekleidungsgeschäft
 - "Material: Holz"

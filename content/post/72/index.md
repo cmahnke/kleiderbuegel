@@ -2,6 +2,9 @@
 date: 2021-06-06T12:47:44+02:00
 title: "Klinik Wetterau der BfA"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Bad Nauheim
 - Klinik

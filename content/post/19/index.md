@@ -7,6 +7,9 @@ tags:
 - "Material: Holz"
 - Beidseitig
 type: hanger
+outputs:
+- html
+- iiif-manifest
 ---
 Nur bei Karstadt
 Die Kleidung mit allen guten Eigenschaften

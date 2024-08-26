@@ -2,6 +2,9 @@
 date: 2024-12-31T12:47:44+02:00
 title: "Kassel Modehaus Schulz Witzenhausen"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
   - Bekleidungsgeschäft
   - Kassel

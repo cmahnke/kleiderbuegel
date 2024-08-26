@@ -5,5 +5,8 @@ tags:
 - Union
 - "Material: Holz"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 ---
 D.R.W.Z. Union 3 D.R.W.Z.

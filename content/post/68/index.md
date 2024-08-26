@@ -2,6 +2,9 @@
 date: 2021-05-09T12:47:44+02:00
 title: "Bekleidungshaus BUCHMANN Wolfhagen"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Wolfhagen
 - Bekleidungsgeschäft

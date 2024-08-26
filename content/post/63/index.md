@@ -2,6 +2,9 @@
 date: 2021-04-04T12:47:44+02:00
 title: "Twiggy London Girl"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - Werbung
 - "Material: Plastik"

@@ -2,6 +2,9 @@
 date: 2025-06-10T12:47:44+02:00
 title: "Textil u. Modenhaus Gebr. Simon Steinheim"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Bekleidungsgeschäft

@@ -2,6 +2,9 @@
 date: 2025-06-17T12:47:44+02:00
 title: "Wittke Größtes Herren-Spezialhaus Dithmarschens"
 type: hanger
+outputs:
+- html
+- iiif-manifest
 tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
