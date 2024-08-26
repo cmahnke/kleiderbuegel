@@ -4,6 +4,10 @@ title: "Erdmann Kleidung"
 outputs:
 - html
 - iiif-manifest
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 type: hanger
 tags:
   - "Material: Holz"

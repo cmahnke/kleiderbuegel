@@ -5,10 +5,14 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 tags:
 - "Material: Holz"
 - Koblenz
-- KAufhaus
+- Kaufhaus
 geojson:
   coordinates:
   - 7.5925908
