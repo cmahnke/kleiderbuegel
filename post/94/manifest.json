@@ -1,6 +1,99 @@
-{"meta": {"date": "2024-07-16 12:47:44 +0200 +0200", "title": "Wäscherei - Speck, Helmstedt - chem. Reinigung", "type": "hanger" }, "images": {"front": {"src": "/post/94/front_hu10092316085730613382.png", "alt": "Wäscherei - Speck, Helmstedt - chem. Reinigung" }, "thumb": {"src": "/post/94/front_hu2847283425541810160.png"}}, "content": "<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.arcinsys.niedersachsen.de/arcinsys/detailAction.action?detailid=v5258036">Im niedersächsischen Landesarchiv</a></li>
-</ul>
-</div>"}
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/",
+  "viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,
+  "thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/front_hu13786318214009617810.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 133,
+    "width": 300
+  }],
+  "provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+  "homepage": [
+    {
+      "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/",
+      "type": "Text",
+      "format": "text/html",
+
+      "label": {
+          "de": [
+            "Kleiderbügel: Wäscherei - Speck, Helmstedt - chem. Reinigung"
+          ]}
+    }
+  ],"label": {
+    "de": [
+      "Wäscherei - Speck, Helmstedt - chem. Reinigung"
+    ]}
+,"items": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/canvas/front",
+          "type": "Canvas",
+          "height": 1697,
+          "width": 3830,"label": {"de":["Vorderansicht"],"en":["Front"]},"thumbnail": [{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/front_hu13786318214009617810.png",
+              "format": "image/jpeg",
+              "type":"Image",
+              "height": 133,
+              "width": 300
+            }
+          ],"items": [{
+            "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/annotation/front-image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{
+                "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/front/full/full/0/default.jpg",
+                "type":"Image",
+                "format":"image/jpeg",
+                "height": 1697,
+                "width": 3830,
+                "service": [{
+                  "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/front",
+                  "type": "ImageService2",
+                  "profile":"level0"
+                }]
+              },
+              "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/canvas/front"
+            }]
+          }]
+       }]
+}

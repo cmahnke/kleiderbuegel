@@ -1,7 +1,99 @@
-{"meta": {"date": "2024-07-23 12:47:44 +0200 +0200", "title": "Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung", "type": "hanger" }, "images": {"front": {"src": "/post/95/front_hu1803820373100539746.png", "alt": "Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung" }, "thumb": {"src": "/post/95/front_hu4162490322965586659.png"}}, "content": "<p>Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung</p>
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="http://www.stackmann.de/">Derzeitige Homepage</a></li>
-</ul>
-</div>"}
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/",
+  "viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,
+  "thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/front_hu1055993604612501875.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 172,
+    "width": 300
+  }],
+  "provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+  "homepage": [
+    {
+      "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/",
+      "type": "Text",
+      "format": "text/html",
+
+      "label": {
+          "de": [
+            "Kleiderbügel: Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung"
+          ]}
+    }
+  ],"label": {
+    "de": [
+      "Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung"
+    ]}
+,"items": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/canvas/front",
+          "type": "Canvas",
+          "height": 2199,
+          "width": 3844,"label": {"de":["Vorderansicht"],"en":["Front"]},"thumbnail": [{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/front_hu1055993604612501875.png",
+              "format": "image/jpeg",
+              "type":"Image",
+              "height": 172,
+              "width": 300
+            }
+          ],"items": [{
+            "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/annotation/front-image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{
+                "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/front/full/full/0/default.jpg",
+                "type":"Image",
+                "format":"image/jpeg",
+                "height": 2199,
+                "width": 3844,
+                "service": [{
+                  "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/front",
+                  "type": "ImageService2",
+                  "profile":"level0"
+                }]
+              },
+              "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/canvas/front"
+            }]
+          }]
+       }]
+}

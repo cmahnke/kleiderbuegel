@@ -1,8 +1,99 @@
-{"meta": {"date": "2021-05-30 12:47:44 +0200 +0200", "title": "Esders Siegen", "type": "hanger" }, "images": {"front": {"src": "/post/71/front_hu17958620005683085425.png", "alt": "Esders Siegen" }, "thumb": {"src": "/post/71/front_hu10701312863562205685.png"}}, "content": "<p>Esders Siegen</p>
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.wp.de/staedte/siegerland/vor-75-jahren-ss-maenner-zuenden-synagoge-an-id8649528.html">Westfalenpost: Vor 75 Jahren: SS-Männer zünden Synagoge an</a></li>
-</ul>
-</div>"}
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/",
+  "viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,
+  "thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/front_hu5928926488464054636.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],
+  "provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+  "homepage": [
+    {
+      "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/",
+      "type": "Text",
+      "format": "text/html",
+
+      "label": {
+          "de": [
+            "Kleiderbügel: Esders Siegen"
+          ]}
+    }
+  ],"label": {
+    "de": [
+      "Esders Siegen"
+    ]}
+,"items": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/canvas/front",
+          "type": "Canvas",
+          "height": 1604,
+          "width": 3930,"label": {"de":["Vorderansicht"],"en":["Front"]},"thumbnail": [{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/front_hu5928926488464054636.png",
+              "format": "image/jpeg",
+              "type":"Image",
+              "height": 122,
+              "width": 300
+            }
+          ],"items": [{
+            "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/annotation/front-image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{
+                "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/front/full/full/0/default.jpg",
+                "type":"Image",
+                "format":"image/jpeg",
+                "height": 1604,
+                "width": 3930,
+                "service": [{
+                  "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/front",
+                  "type": "ImageService2",
+                  "profile":"level0"
+                }]
+              },
+              "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/canvas/front"
+            }]
+          }]
+       }]
+}

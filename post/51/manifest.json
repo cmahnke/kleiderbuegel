@@ -1,2 +1,99 @@
-{"meta": {"date": "2021-02-16 12:32:44 +0200 +0200", "title": "„Kleidung von Peters ist immer richtig“", "type": "hanger" }, "images": {"front": {"src": "/post/51/front_hu1615677667423988679.png", "alt": "„Kleidung von Peters ist immer richtig“" }, "thumb": {"src": "/post/51/front_hu3262037054474243654.png"}}, "content": "<p>„Kleidung von Peters ist immer richtig“</p>
-<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>"}
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/",
+  "viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,
+  "thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/front_hu13353408688538104584.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 147,
+    "width": 300
+  }],
+  "provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+  "homepage": [
+    {
+      "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/",
+      "type": "Text",
+      "format": "text/html",
+
+      "label": {
+          "de": [
+            "Kleiderbügel: „Kleidung von Peters ist immer richtig“"
+          ]}
+    }
+  ],"label": {
+    "de": [
+      "„Kleidung von Peters ist immer richtig“"
+    ]}
+,"items": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/canvas/front",
+          "type": "Canvas",
+          "height": 1886,
+          "width": 3840,"label": {"de":["Vorderansicht"],"en":["Front"]},"thumbnail": [{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/front_hu13353408688538104584.png",
+              "format": "image/jpeg",
+              "type":"Image",
+              "height": 147,
+              "width": 300
+            }
+          ],"items": [{
+            "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/annotation/front-image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{
+                "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/front/full/full/0/default.jpg",
+                "type":"Image",
+                "format":"image/jpeg",
+                "height": 1886,
+                "width": 3840,
+                "service": [{
+                  "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/front",
+                  "type": "ImageService2",
+                  "profile":"level0"
+                }]
+              },
+              "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/canvas/front"
+            }]
+          }]
+       }]
+}

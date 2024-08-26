@@ -1,3 +1,99 @@
-{"meta": {"date": "2021-03-07 12:32:44 +0200 +0200", "title": "Fischer · Hettlage · Lampe", "type": "hanger" }, "images": {"front": {"src": "/post/59/front_hu1186124357888159342.png", "alt": "Fischer · Hettlage · Lampe" }, "thumb": {"src": "/post/59/front_hu9041077231986991591.png"}, "back": {"src": "/post/59/back_hu15780286079495606542.png", "alt": "back.png" }}, "content": "<p>50 Jahre  Dortmund  Fischer · Hettlage · Lampe  Hagen I.W.  50 Jahre</p>
-<p>Die „gute“ Herren- Damen- und Kinder-Kleidung</p>
-<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>"}
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/",
+  "viewingDirection": "left-to-right","behavior":"individuals","requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,
+  "thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/front_hu134674384189980381.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 120,
+    "width": 300
+  }],
+  "provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+  "homepage": [
+    {
+      "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/",
+      "type": "Text",
+      "format": "text/html",
+
+      "label": {
+          "de": [
+            "Kleiderbügel: Fischer · Hettlage · Lampe"
+          ]}
+    }
+  ],"label": {
+    "de": [
+      "Fischer · Hettlage · Lampe"
+    ]}
+,"items": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/canvas/front",
+          "type": "Canvas",
+          "height": 1592,
+          "width": 3995,"label": {"de":["Vorderansicht"],"en":["Front"]},"thumbnail": [{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/front_hu134674384189980381.png",
+              "format": "image/jpeg",
+              "type":"Image",
+              "height": 120,
+              "width": 300
+            }
+          ],"items": [{
+            "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/annotation/front-image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{
+                "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/front/full/full/0/default.jpg",
+                "type":"Image",
+                "format":"image/jpeg",
+                "height": 1592,
+                "width": 3995,
+                "service": [{
+                  "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/front",
+                  "type": "ImageService2",
+                  "profile":"level0"
+                }]
+              },
+              "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/canvas/front"
+            }]
+          }]
+       }]
+}

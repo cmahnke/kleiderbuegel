@@ -1,16 +1,99 @@
-{"meta": {"date": "2021-04-11 12:47:44 +0200 +0200", "title": "STAR BOUTIQUE Manuela", "type": "hanger" }, "images": {"front": {"src": "/post/64/front_hu9368243070842905144.png", "alt": "STAR BOUTIQUE Manuela" }, "thumb": {"src": "/post/64/front_hu10789975398475368607.png"}}, "content": "<p>STAR
-BOUTIQUE
-Manuela</p>
-<p>MANUELA
-MACHT
-MODE mit Musik</p>
-<p>mit dem Kauf dieses Modells aus der STAR-BOUTIQUE MANUELA gehört Ihnen auch der gesetzlich geschützte Manuela-Bügel mit der GOLDENEN SCHALLPLATTE.
-Umd dazu: das sensationelle, klingende Kleideretikett, das neben Manuelas Foto und Autogramm eine Schallfolie mit einem ganz besonderen Manuela-Hit enthält.
-STAR-BOUTIQUE MANUELA GmbH. &amp; Co., Berlin und Bremen 11, Postfach 3015</p>
-<p>[Auch Rückseite]</p>
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://de.wikipedia.org/wiki/Manuela_(S%C3%A4ngerin)">Manuela in der Wikipedia</a></li>
-</ul>
-</div>"}
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/",
+  "viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,
+  "thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/front_hu10881006225180752904.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 225,
+    "width": 300
+  }],
+  "provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+  "homepage": [
+    {
+      "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/",
+      "type": "Text",
+      "format": "text/html",
+
+      "label": {
+          "de": [
+            "Kleiderbügel: STAR BOUTIQUE Manuela"
+          ]}
+    }
+  ],"label": {
+    "de": [
+      "STAR BOUTIQUE Manuela"
+    ]}
+,"items": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/canvas/front",
+          "type": "Canvas",
+          "height": 3024,
+          "width": 4032,"label": {"de":["Vorderansicht"],"en":["Front"]},"thumbnail": [{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/front_hu10881006225180752904.png",
+              "format": "image/jpeg",
+              "type":"Image",
+              "height": 225,
+              "width": 300
+            }
+          ],"items": [{
+            "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/annotation/front-image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{
+                "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/front/full/full/0/default.jpg",
+                "type":"Image",
+                "format":"image/jpeg",
+                "height": 3024,
+                "width": 4032,
+                "service": [{
+                  "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/front",
+                  "type": "ImageService2",
+                  "profile":"level0"
+                }]
+              },
+              "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/canvas/front"
+            }]
+          }]
+       }]
+}
