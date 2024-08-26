@@ -5,6 +5,15 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
+iiif:
+  behavior: individuals
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
+- src: "back.png"
+  params:
+    iiif: back/info.json
 tags:
 - "Material: Holz"
 - Beidseitig

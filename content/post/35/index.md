@@ -7,9 +7,18 @@ tags:
 - "Material: Holz"
 - Beidseitig
 type: hanger
+iiif:
+  behavior: individuals
 outputs:
 - html
 - iiif-manifest
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
+- src: "back.png"
+  params:
+    iiif: back/info.json
 geojson:
   coordinates:
   - 13.3346602

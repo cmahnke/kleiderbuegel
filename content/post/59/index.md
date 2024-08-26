@@ -2,9 +2,18 @@
 date: 2021-03-07T12:32:44+02:00
 title: "Fischer · Hettlage · Lampe"
 type: hanger
+iiif:
+  behavior: individuals
 outputs:
 - html
 - iiif-manifest
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
+- src: "back.png"
+  params:
+    iiif: back/info.json
 resources:
 - src: "front.png"
   params:
