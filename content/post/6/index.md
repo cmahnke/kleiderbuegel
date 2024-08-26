@@ -9,6 +9,10 @@ tags:
 - Hotel
 - "Material: Holz"
 type: hanger
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 geojson:
   coordinates:
   - 8.2200109

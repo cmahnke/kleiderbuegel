@@ -8,6 +8,10 @@ outputs:
 tags:
 - Reinigung
 - "Material: Holz"
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 geojson:
   coordinates:
   - 8.40444

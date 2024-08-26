@@ -7,6 +7,10 @@ tags:
 - C&A
 - "Material: Holz"
 type: hanger
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 outputs:
 - html
 - iiif-manifest

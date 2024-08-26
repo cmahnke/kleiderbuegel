@@ -7,6 +7,10 @@ outputs:
 - iiif-manifest
 tags:
 - "Material: Holz"
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 ---
 
 Maris

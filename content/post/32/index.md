@@ -8,6 +8,10 @@ outputs:
 tags:
 - "Material: Holz"
 - Staatliche Organisation
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 ---
 BUNDESEIGENTUM
 

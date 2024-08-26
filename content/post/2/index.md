@@ -9,6 +9,10 @@ tags:
 - Jülich
 - Bekleidungsgeschäft
 - "Material: Holz"
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 geojson:
   coordinates:
   - 6.3564177

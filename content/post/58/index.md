@@ -9,6 +9,10 @@ tags:
 - Northeim
 - Bekleidungsgeschäft
 - "Material: Holz"
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 geojson:
   coordinates:
   - 9.99997

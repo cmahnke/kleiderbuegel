@@ -10,6 +10,10 @@ geojson:
   - 9.9392501
   - 51.5341524
   precision: exact
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 tags:
 - Göttingen
 - Bekleidungsgeschäft

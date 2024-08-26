@@ -8,6 +8,10 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 # TODO Find place / town
 ---
 Rob'. Eucken, Schillerstr. 1 Ecke W.havenerstr,

@@ -8,6 +8,10 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 geojson:
   coordinates:
   - 4.8527235

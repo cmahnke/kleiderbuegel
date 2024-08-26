@@ -4,6 +4,10 @@ title: "Bundesgrenzschutz"
 outputs:
 - html
 - iiif-manifest
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 tags:
   - "Material: Holz"
   - Staatliche Organisation

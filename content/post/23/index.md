@@ -8,5 +8,9 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 ---
 D.R.W.Z. Union 3 D.R.W.Z.

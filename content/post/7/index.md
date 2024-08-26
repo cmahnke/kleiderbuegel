@@ -9,6 +9,10 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 type: hanger
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 geojson:
   coordinates:
   - 9.9321196

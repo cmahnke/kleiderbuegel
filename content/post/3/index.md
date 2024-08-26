@@ -8,6 +8,10 @@ outputs:
 tags:
 - Offenburg
 - "Material: Holz"
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 geojson:
   coordinates:
   - 7.9422713

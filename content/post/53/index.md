@@ -8,6 +8,10 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
+resources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 #https://www.perladesa.de/altes-halle.htm
 geojson:
   coordinates:

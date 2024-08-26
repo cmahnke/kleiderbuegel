@@ -5,6 +5,10 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
+xresources:
+- src: "front.png"
+  params:
+    iiif: front/info.json
 tags:
 - "Material: Holz"
 ---
