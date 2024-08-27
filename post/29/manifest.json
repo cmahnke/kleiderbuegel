@@ -1,21 +1,19 @@
 {"@context": "http://iiif.io/api/presentation/3/context.json",
-  "type": "Manifest",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/",
-  "viewingDirection": "left-to-right","behavior":"individuals","requiredStatement": {
+"type": "Manifest",
+"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/",
+"viewingDirection": "left-to-right","behavior":"individuals","requiredStatement": {
   "label": { "en": [ "Attribution" ],
     "de": [ "Namensnennung" ]
   },
   "value": {"de": ["Bereitgestellt von Projektemacher"]}
 }
-,
-  "thumbnail": [{
+,"thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/front_hu14844781413011596992.png",
     "format": "image/jpeg",
     "type":"Image",
     "height": 297,
     "width": 300
-  }],
-  "provider": [
+  }],"provider": [
   {
     "id": "https://projektemacher.org/",
     "type": "Agent",
@@ -47,84 +45,80 @@
 ]
 ,
 
-  "homepage": [
-    {
-      "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/",
-      "type": "Text",
-      "format": "text/html",
+"homepage": [
+  {
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/",
+    "type": "Text",
+    "format": "text/html",
 
-      "label": {
-          "de": [
-            "Kleiderbügel: Sanostol"
-          ]}
-    }
-  ],"label": {
+    "label": {
+        "de": [
+          "Kleiderbügel: Sanostol"
+        ]}
+  }
+],"label": {
     "de": [
       "Sanostol"
     ]}
 ,"items": [{
           "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/canvas/front",
-          "type": "Canvas",
-          "height": 2449,
-          "width": 2475,"label": {"de":["Vorderansicht"],"en":["Front"]},"thumbnail": [{
-              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/front_hu14844781413011596992.png",
-              "format": "image/jpeg",
-              "type":"Image",
-              "height": 297,
-              "width": 300
-            }
-          ],"items": [{
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 2449,
+            "width": 2475,
+            "thumbnail": [{
+                "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/front_hu14844781413011596992.png",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 297,
+                "width": 300
+              }
+            ],"items": [{
             "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/annotation/front",
             "type": "AnnotationPage",
             "items":[{
-              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/annotation/front-image",
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/annotation/front/image",
               "type": "Annotation",
               "motivation":"painting",
-              "body":{
-                "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/front/full/full/0/default.jpg",
-                "type":"Image",
-                "format":"image/jpeg",
-                "height": 2449,
-                "width": 2475,
-                "service": [{
-                  "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/front",
-                  "type": "ImageService2",
-                  "profile":"level0"
-                }]
-              },
+              "body":{"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 2449,
+                  "width": 2475,
+                  "service": [{
+                    "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
               "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/canvas/front"
             }]
           }]
        },{
           "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/canvas/back",
-          "type": "Canvas",
-          "height": 2508,
-          "width": 2497,"label": {"de":["Rückansicht"],"en":["Back"]},"thumbnail": [{
-              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/back_hu3614536062662750321.png",
-              "format": "image/jpeg",
-              "type":"Image",
-              "height": 301,
-              "width": 300
-            }
-          ],"items": [{
+          "type": "Canvas","label": {"de":["Rückansicht"],"en":["Back"]},"height": 2508,
+            "width": 2497,
+            "thumbnail": [{
+                "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/back_hu3614536062662750321.png",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 301,
+                "width": 300
+              }
+            ],"items": [{
             "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/annotation/back",
             "type": "AnnotationPage",
             "items":[{
-              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/annotation/back-image",
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/annotation/back/image",
               "type": "Annotation",
               "motivation":"painting",
-              "body":{
-                "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/back/full/full/0/default.jpg",
-                "type":"Image",
-                "format":"image/jpeg",
-                "height": 2508,
-                "width": 2497,
-                "service": [{
-                  "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/back",
-                  "type": "ImageService2",
-                  "profile":"level0"
-                }]
-              },
+              "body":{"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/back/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 2508,
+                  "width": 2497,
+                  "service": [{
+                    "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/back",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
               "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/canvas/back"
             }]
           }]

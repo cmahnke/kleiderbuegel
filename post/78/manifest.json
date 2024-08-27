@@ -1,21 +1,19 @@
 {"@context": "http://iiif.io/api/presentation/3/context.json",
-  "type": "Manifest",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/",
-  "viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
+"type": "Manifest",
+"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/",
+"viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
   "label": { "en": [ "Attribution" ],
     "de": [ "Namensnennung" ]
   },
   "value": {"de": ["Bereitgestellt von Projektemacher"]}
 }
-,
-  "thumbnail": [{
+,"thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/front_hu16727954666279782959.png",
     "format": "image/jpeg",
     "type":"Image",
     "height": 114,
     "width": 300
-  }],
-  "provider": [
+  }],"provider": [
   {
     "id": "https://projektemacher.org/",
     "type": "Agent",
@@ -47,51 +45,49 @@
 ]
 ,
 
-  "homepage": [
-    {
-      "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/",
-      "type": "Text",
-      "format": "text/html",
+"homepage": [
+  {
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/",
+    "type": "Text",
+    "format": "text/html",
 
-      "label": {
-          "de": [
-            "Kleiderbügel: am besten gleich zu U\u0026B"
-          ]}
-    }
-  ],"label": {
+    "label": {
+        "de": [
+          "Kleiderbügel: am besten gleich zu U\u0026B"
+        ]}
+  }
+],"label": {
     "de": [
       "am besten gleich zu U\u0026B"
     ]}
 ,"items": [{
           "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/canvas/front",
-          "type": "Canvas",
-          "height": 1490,
-          "width": 3907,"label": {"de":["Vorderansicht"],"en":["Front"]},"thumbnail": [{
-              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/front_hu16727954666279782959.png",
-              "format": "image/jpeg",
-              "type":"Image",
-              "height": 114,
-              "width": 300
-            }
-          ],"items": [{
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 1490,
+            "width": 3907,
+            "thumbnail": [{
+                "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/front_hu16727954666279782959.png",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 114,
+                "width": 300
+              }
+            ],"items": [{
             "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/annotation/front",
             "type": "AnnotationPage",
             "items":[{
-              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/annotation/front-image",
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/annotation/front/image",
               "type": "Annotation",
               "motivation":"painting",
-              "body":{
-                "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/front/full/full/0/default.jpg",
-                "type":"Image",
-                "format":"image/jpeg",
-                "height": 1490,
-                "width": 3907,
-                "service": [{
-                  "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/front",
-                  "type": "ImageService2",
-                  "profile":"level0"
-                }]
-              },
+              "body":{"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 1490,
+                  "width": 3907,
+                  "service": [{
+                    "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
               "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/canvas/front"
             }]
           }]

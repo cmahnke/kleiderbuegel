@@ -1,21 +1,19 @@
 {"@context": "http://iiif.io/api/presentation/3/context.json",
-  "type": "Manifest",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/",
-  "viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
+"type": "Manifest",
+"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/",
+"viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
   "label": { "en": [ "Attribution" ],
     "de": [ "Namensnennung" ]
   },
   "value": {"de": ["Bereitgestellt von Projektemacher"]}
 }
-,
-  "thumbnail": [{
+,"thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/front_hu7973281569108517544.png",
     "format": "image/jpeg",
     "type":"Image",
     "height": 122,
     "width": 300
-  }],
-  "provider": [
+  }],"provider": [
   {
     "id": "https://projektemacher.org/",
     "type": "Agent",
@@ -47,51 +45,49 @@
 ]
 ,
 
-  "homepage": [
-    {
-      "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/",
-      "type": "Text",
-      "format": "text/html",
+"homepage": [
+  {
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/",
+    "type": "Text",
+    "format": "text/html",
 
-      "label": {
-          "de": [
-            "Kleiderbügel: Hotel Deus"
-          ]}
-    }
-  ],"label": {
+    "label": {
+        "de": [
+          "Kleiderbügel: Hotel Deus"
+        ]}
+  }
+],"label": {
     "de": [
       "Hotel Deus"
     ]}
 ,"items": [{
           "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/canvas/front",
-          "type": "Canvas",
-          "height": 1539,
-          "width": 3790,"label": {"de":["Vorderansicht"],"en":["Front"]},"thumbnail": [{
-              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/front_hu7973281569108517544.png",
-              "format": "image/jpeg",
-              "type":"Image",
-              "height": 122,
-              "width": 300
-            }
-          ],"items": [{
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 1539,
+            "width": 3790,
+            "thumbnail": [{
+                "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/front_hu7973281569108517544.png",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 122,
+                "width": 300
+              }
+            ],"items": [{
             "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/annotation/front",
             "type": "AnnotationPage",
             "items":[{
-              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/annotation/front-image",
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/annotation/front/image",
               "type": "Annotation",
               "motivation":"painting",
-              "body":{
-                "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/front/full/full/0/default.jpg",
-                "type":"Image",
-                "format":"image/jpeg",
-                "height": 1539,
-                "width": 3790,
-                "service": [{
-                  "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/front",
-                  "type": "ImageService2",
-                  "profile":"level0"
-                }]
-              },
+              "body":{"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 1539,
+                  "width": 3790,
+                  "service": [{
+                    "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
               "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/canvas/front"
             }]
           }]
