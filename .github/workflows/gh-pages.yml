@@ -48,7 +48,7 @@ jobs:
           extended: true
 
       - name: Create IIIF derivates
-        run: docker run -v ${PWD}:${PWD} ghcr.io/cmahnke/iiif-action:latest-jxl-uploader sh -c "cd ${PWD} && ./scripts/iiif.sh"
+        run: docker run -v ${PWD}:${PWD} -e URL_PREFIX="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/" ghcr.io/cmahnke/iiif-action:latest-jxl-uploader sh -c "cd ${PWD} && ./scripts/iiif.sh"
 
       - name: Generate Files
         env:
