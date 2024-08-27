@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "./front",
+  "@id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/42/front",
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
