@@ -1,0 +1,34 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/79/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/79/front_hu18429497640755433695.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 129,
+    "width": 300
+  }],"label": {
+          "de": [
+            "-„formtreu“-Kleidung - veredelte Kleidung!"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/47/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/47/front_hu12959955500961828006.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 154,
+    "width": 300
+  }],"label": {
+          "de": [
+            "C \u0026 A Brenninkmayer"
+          ]}
+      }]
+}

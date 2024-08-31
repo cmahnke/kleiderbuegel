@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/28/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/28/front_hu14637901649393374142.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 199,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Lagerbügel"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/27/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/27/front_hu13110108479048875456.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 126,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Rudolf Karstadt A.G."
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/19/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/19/front_hu7334939482973504591.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 132,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Nur bei Karstadt"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/11/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/11/front_hu9892001398029515417.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 152,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Karstadt Göttingen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/4/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/4/front_hu14452463420321823360.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 119,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Gut gekleidet von Karstadt"
+          ]}
+      }]
+}

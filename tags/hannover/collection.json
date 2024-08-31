@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/85/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/85/front_hu1830781280497595546.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 193,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Mäntelhaus 40 Kaiser 40"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/front_hu11906184657428531110.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 172,
+    "width": 300
+  }],"label": {
+          "de": [
+            "ALOYS BUNGE Bekleidungshaus HANNOVER"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/front_hu682969598705630664.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],"label": {
+          "de": [
+            "C. Louis Weber Hannover"
+          ]}
+      }]
+}

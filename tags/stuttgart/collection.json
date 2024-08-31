@@ -1,0 +1,22 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/69/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/69/front_hu2766897676084499544.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 175,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Breitling Stuttgart"
+          ]}
+      }]
+}

@@ -1,0 +1,166 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/61/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/61/front_hu13416011125526861736.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 144,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Ernst Fricke"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/42/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/42/front_hu12650926742615934427.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 114,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Wäscherei MEYER"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/33/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/33/front_hu9343779669585510037.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 123,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Pelz Quentin"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/28/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/28/front_hu14637901649393374142.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 199,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Lagerbügel"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/27/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/27/front_hu13110108479048875456.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 126,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Rudolf Karstadt A.G."
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/15/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/15/front_hu1437347700181030080.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 150,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Diekmann Göttingen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/12/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/12/front_hu14817337263907739201.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 117,
+    "width": 300
+  }],"label": {
+          "de": [
+            "H. Hettlage, Göttingen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/11/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/11/front_hu9892001398029515417.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 152,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Karstadt Göttingen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/10/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/10/front_hu7053513917394239803.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 120,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Fleischmann Göttingen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/9/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/9/front_hu10788370754525806825.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 177,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Josef Henn Kürschnermeister"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/7/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/7/front_hu4201306435903209304.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 67,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Rock - Hache"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/5/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/5/front_hu9430511527692823097.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Wäscherei - Reinigung Hübener \u0026 Kurre"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/1/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/1/front_hu6859967051930074457.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 115,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bekleidungshaus Junge"
+          ]}
+      }]
+}

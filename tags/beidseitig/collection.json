@@ -1,0 +1,214 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/79/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/79/front_hu18429497640755433695.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 129,
+    "width": 300
+  }],"label": {
+          "de": [
+            "-„formtreu“-Kleidung - veredelte Kleidung!"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/69/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/69/front_hu2766897676084499544.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 175,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Breitling Stuttgart"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/68/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/68/front_hu11392963576859766575.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 118,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bekleidungshaus BUCHMANN Wolfhagen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/front_hu16480552122979515514.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 113,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Wäschepflege TESTORP"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/front_hu10881006225180752904.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 225,
+    "width": 300
+  }],"label": {
+          "de": [
+            "STAR BOUTIQUE Manuela"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/63/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/63/front_hu11736844835833499472.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 275,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Twiggy London Girl"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/61/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/61/front_hu13416011125526861736.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 144,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Ernst Fricke"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/front_hu134674384189980381.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 120,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Fischer · Hettlage · Lampe"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/56/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/56/front_hu16568972462203656327.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 137,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Cloppenburg"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/front_hu15241631382332606192.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 120,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Carl Schübeler"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/45/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/45/front_hu15514686495687498036.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Overmeyer"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/44/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/44/front_hu5384218805678655406.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 118,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Theo Schrader"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front_hu11378310134154314650.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 128,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Ebbinghaus"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/front_hu14844781413011596992.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 297,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Sanostol"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/19/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/19/front_hu7334939482973504591.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 132,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Nur bei Karstadt"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/16/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/16/front_hu6981630588122257003.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 136,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Zum 10. Hochzeitstag"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/11/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/11/front_hu9892001398029515417.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 152,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Karstadt Göttingen"
+          ]}
+      }]
+}

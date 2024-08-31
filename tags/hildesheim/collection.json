@@ -1,0 +1,22 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/76/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/76/front_hu14292279292131573750.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 113,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Schnellreinigung W. Freitag Hildesheim"
+          ]}
+      }]
+}

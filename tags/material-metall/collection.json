@@ -1,0 +1,58 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/62/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/62/front_hu9991234627699103487.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 472,
+    "width": 300
+  }],"label": {
+          "de": [
+            "korallino"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/55/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/55/front_hu13880616049136760820.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 148,
+    "width": 300
+  }],"label": {
+          "de": [
+            "POL"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/41/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/41/front_hu17263196224930808468.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 76,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Jon-Jon"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/36/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/36/front_hu6455888528437493120.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 175,
+    "width": 300
+  }],"label": {
+          "de": [
+            "„Klips“"
+          ]}
+      }]
+}

@@ -1,0 +1,94 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/front_hu13786318214009617810.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 133,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Wäscherei - Speck, Helmstedt - chem. Reinigung"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/90/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/90/front_hu5371688196747545502.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 154,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Chem. Reiningung Schulte Essen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/76/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/76/front_hu14292279292131573750.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 113,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Schnellreinigung W. Freitag Hildesheim"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/54/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/54/front_hu14993363407844703806.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 142,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Printz"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/42/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/42/front_hu12650926742615934427.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 114,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Wäscherei MEYER"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/front_hu2580900869515892272.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 149,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Färberei Kotzenberg"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/5/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/5/front_hu9430511527692823097.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Wäscherei - Reinigung Hübener \u0026 Kurre"
+          ]}
+      }]
+}

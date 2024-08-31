@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/front_hu134674384189980381.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 120,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Fischer · Hettlage · Lampe"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/57/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/57/front_hu10456571900689426761.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 142,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hettlage \u0026 Lampe"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/12/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/12/front_hu14817337263907739201.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 117,
+    "width": 300
+  }],"label": {
+          "de": [
+            "H. Hettlage, Göttingen"
+          ]}
+      }]
+}

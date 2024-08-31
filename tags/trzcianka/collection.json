@@ -1,0 +1,22 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/92/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/92/front_hu14992374461095978994.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 131,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)"
+          ]}
+      }]
+}

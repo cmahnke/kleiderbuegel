@@ -1,0 +1,22 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/40/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/40/front_hu17268139098500751827.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 108,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Fritz Felgener"
+          ]}
+      }]
+}

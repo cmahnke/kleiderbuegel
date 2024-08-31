@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/98/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/98/front_hu12208354028959306114.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 145,
+    "width": 300
+  }],"label": {
+          "de": [
+            "BUND"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/32/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/32/front_hu15690177581709782603.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 118,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bundeseigentum"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/17/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/17/front_hu2466047685681629448.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 140,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bundesgrenzschutz"
+          ]}
+      }]
+}

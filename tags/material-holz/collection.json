@@ -1,0 +1,1138 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/99/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/99/front_hu12665072407994160908.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 129,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Paul Luck, Waren (Müritz) Herren - u. Knabenbekleidung"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/98/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/98/front_hu12208354028959306114.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 145,
+    "width": 300
+  }],"label": {
+          "de": [
+            "BUND"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/96/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/96/front_hu14740774468195822964.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 116,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Dorum Fritz von Geldern Bederkesa"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/front_hu1055993604612501875.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 172,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/front_hu13786318214009617810.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 133,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Wäscherei - Speck, Helmstedt - chem. Reinigung"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/front_hu8687698126228370870.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 120,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Konfenktionshaus Fritz Becker Warburg i. W."
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/92/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/92/front_hu14992374461095978994.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 131,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/91/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/91/front_hu122391482802601222.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 119,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Friedrich Schefft OHG., Textilwaren Uslar"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/90/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/90/front_hu5371688196747545502.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 154,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Chem. Reiningung Schulte Essen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/89/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/89/front_hu15736089375900393078.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 113,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hotel Ruhwinkel Ostseebad Grömitz"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/88/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/88/front_hu11551667708608005875.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 115,
+    "width": 300
+  }],"label": {
+          "de": [
+            "P.A. Das modische Textilhaus, Bad Mergentheim An der Stadtkirche"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/front_hu11171786246768571737.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 181,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Schlüsing mann + mode Bremerhaven-G."
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/86/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/86/front_hu4193204118029296574.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 117,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hotel zur Linde Spiekeroog"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/85/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/85/front_hu1830781280497595546.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 193,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Mäntelhaus 40 Kaiser 40"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/84/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/84/front_hu635606745848867247.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 131,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Beckmann \u0026 Wortmann"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/83/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/83/front_hu760164628590502935.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 145,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Mau \u0026 Andresen Flensburg"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/front_hu11906184657428531110.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 172,
+    "width": 300
+  }],"label": {
+          "de": [
+            "ALOYS BUNGE Bekleidungshaus HANNOVER"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/front_hu17852285953785872467.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 166,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Ketelsen Bremerhaven-Bürger 42"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/80/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/80/front_hu5549168553499585160.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 123,
+    "width": 300
+  }],"label": {
+          "de": [
+            "1 Jahr älter - kein Grund zum Aufhängen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/79/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/79/front_hu18429497640755433695.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 129,
+    "width": 300
+  }],"label": {
+          "de": [
+            "-„formtreu“-Kleidung - veredelte Kleidung!"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/78/front_hu16727954666279782959.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 114,
+    "width": 300
+  }],"label": {
+          "de": [
+            "am besten gleich zu U\u0026B"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/77/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/77/front_hu1441241704570051996.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 124,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Damen-Moden W. Renneberg"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/76/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/76/front_hu14292279292131573750.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 113,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Schnellreinigung W. Freitag Hildesheim"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/75/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/75/front_hu2698805151508427214.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Theaterkunst GMBH."
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/74/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/74/front_hu17229598273394448800.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 132,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bekleidungshaus Manschott Haus der 5000 Hosen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/front_hu9849416985053877513.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 128,
+    "width": 300
+  }],"label": {
+          "de": [
+            "J.Braun Gr. Johannisstraße 3"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/72/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/72/front_hu7005244512598096748.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 113,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Klinik Wetterau der BfA"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/front_hu5928926488464054636.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Esders Siegen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/70/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/70/front_hu9850655985857499563.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 117,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hotel Bachmair am See"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/69/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/69/front_hu2766897676084499544.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 175,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Breitling Stuttgart"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/68/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/68/front_hu11392963576859766575.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 118,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bekleidungshaus BUCHMANN Wolfhagen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/front_hu16480552122979515514.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 113,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Wäschepflege TESTORP"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/66/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/66/front_hu3145637379506020696.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 177,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hotel - Pension Kardell"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/front_hu682969598705630664.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],"label": {
+          "de": [
+            "C. Louis Weber Hannover"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/61/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/61/front_hu13416011125526861736.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 144,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Ernst Fricke"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/60/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/60/front_hu2276390482201965840.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 176,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Jordan"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/front_hu134674384189980381.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 120,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Fischer · Hettlage · Lampe"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/58/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/58/front_hu9042409623994248317.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 164,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hasse \u0026 Söhne"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/57/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/57/front_hu10456571900689426761.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 142,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hettlage \u0026 Lampe"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/56/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/56/front_hu16568972462203656327.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 137,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Cloppenburg"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/55/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/55/front_hu13880616049136760820.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 148,
+    "width": 300
+  }],"label": {
+          "de": [
+            "POL"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/front_hu9295558336690023687.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 138,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Moritz Cahn"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/54/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/54/front_hu14993363407844703806.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 142,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Printz"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/52/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/52/front_hu11354773635235374413.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 125,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Gebr. Schwieger"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/front_hu13353408688538104584.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 147,
+    "width": 300
+  }],"label": {
+          "de": [
+            "„Kleidung von Peters ist immer richtig“"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/front_hu15241631382332606192.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 120,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Carl Schübeler"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/49/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/49/front_hu16728169972665069086.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 130,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Stegmüller"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/48/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/48/front_hu4835992971068616420.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 127,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Franz Fahning"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/47/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/47/front_hu12959955500961828006.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 154,
+    "width": 300
+  }],"label": {
+          "de": [
+            "C \u0026 A Brenninkmayer"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/46/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/46/front_hu8462675243695370321.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 119,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Modehaus Schulz"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/45/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/45/front_hu15514686495687498036.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Overmeyer"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/44/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/44/front_hu5384218805678655406.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 118,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Theo Schrader"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/43/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/43/front_hu11439044335632167493.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Modehaus Stark"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/42/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/42/front_hu12650926742615934427.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 114,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Wäscherei MEYER"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/41/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/41/front_hu17263196224930808468.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 76,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Jon-Jon"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/40/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/40/front_hu17268139098500751827.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 108,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Fritz Felgener"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/39/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/39/front_hu16969593497907118120.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 118,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Günter Göhlitz"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/38/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/38/front_hu5854536640807726462.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 104,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Kaufhaus J.G. Lurch"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/37/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/37/front_hu11299270291225801909.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 147,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bader Moden"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/36/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/36/front_hu6455888528437493120.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 175,
+    "width": 300
+  }],"label": {
+          "de": [
+            "„Klips“"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front_hu11378310134154314650.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 128,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Ebbinghaus"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/34/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/34/front_hu18095735625614499760.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 150,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Pelz Dröge"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/33/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/33/front_hu9343779669585510037.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 123,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Pelz Quentin"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/32/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/32/front_hu15690177581709782603.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 118,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bundeseigentum"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/31/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/31/front_hu18209571438512905965.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 137,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hertie"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/30/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/30/front_hu15842991528984259763.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 127,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Elite"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/28/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/28/front_hu14637901649393374142.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 199,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Lagerbügel"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/27/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/27/front_hu13110108479048875456.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 126,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Rudolf Karstadt A.G."
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/26/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/26/front_hu10655130528886611873.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 126,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hermann Bauchwitz"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/25/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/25/front_hu10990626188125336595.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 133,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Rud. Behrmann Bremen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/24/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/24/front_hu8124718640549299812.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 144,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/23/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/23/front_hu8228481270592219376.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Union 3"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/22/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/22/front_hu11371391160976023590.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 172,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Schröder \u0026 Zn."
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/21/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/21/front_hu982617374623114412.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 204,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Maris"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/20/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/20/front_hu10582882973548428984.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 144,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Rob'. Eucken, Schillerstr. 1"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/19/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/19/front_hu7334939482973504591.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 132,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Nur bei Karstadt"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/front_hu2580900869515892272.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 149,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Färberei Kotzenberg"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/17/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/17/front_hu2466047685681629448.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 140,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bundesgrenzschutz"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/16/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/16/front_hu6981630588122257003.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 136,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Zum 10. Hochzeitstag"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/15/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/15/front_hu1437347700181030080.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 150,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Diekmann Göttingen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/14/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/14/front_hu3382339653156126808.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 180,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Union für Kostüme"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/13/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/13/front_hu4284551134328385818.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 146,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Brahms, Emden"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/12/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/12/front_hu14817337263907739201.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 117,
+    "width": 300
+  }],"label": {
+          "de": [
+            "H. Hettlage, Göttingen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/11/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/11/front_hu9892001398029515417.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 152,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Karstadt Göttingen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/10/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/10/front_hu7053513917394239803.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 120,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Fleischmann Göttingen"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/9/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/9/front_hu10788370754525806825.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 177,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Josef Henn Kürschnermeister"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/8/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/8/front_hu12520507864122668915.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 194,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hallo"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/7/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/7/front_hu4201306435903209304.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 67,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Rock - Hache"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/front_hu7973281569108517544.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hotel Deus"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/5/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/5/front_hu9430511527692823097.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 122,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Wäscherei - Reinigung Hübener \u0026 Kurre"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/4/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/4/front_hu14452463420321823360.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 119,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Gut gekleidet von Karstadt"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/3/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/3/front_hu3483846664446089553.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 131,
+    "width": 300
+  }],"label": {
+          "de": [
+            "August Boschert"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/2/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/2/front_hu5151891016236656053.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 117,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bekleidungshaus Jöris"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/1/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/1/front_hu6859967051930074457.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 115,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Bekleidungshaus Junge"
+          ]}
+      }]
+}

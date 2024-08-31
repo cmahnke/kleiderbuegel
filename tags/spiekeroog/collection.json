@@ -1,0 +1,22 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/86/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/86/front_hu4193204118029296574.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 117,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hotel zur Linde Spiekeroog"
+          ]}
+      }]
+}

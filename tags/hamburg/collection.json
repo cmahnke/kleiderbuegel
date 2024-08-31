@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/front_hu9849416985053877513.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 128,
+    "width": 300
+  }],"label": {
+          "de": [
+            "J.Braun Gr. Johannisstraße 3"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/front_hu16480552122979515514.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 113,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Wäschepflege TESTORP"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/48/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/48/front_hu4835992971068616420.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 127,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Franz Fahning"
+          ]}
+      }]
+}

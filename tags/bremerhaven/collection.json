@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/front_hu11171786246768571737.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 181,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Schlüsing mann + mode Bremerhaven-G."
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/front_hu17852285953785872467.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 166,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Ketelsen Bremerhaven-Bürger 42"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/60/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/60/front_hu2276390482201965840.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 176,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Jordan"
+          ]}
+      }]
+}

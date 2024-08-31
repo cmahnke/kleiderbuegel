@@ -1,0 +1,34 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/77/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/77/front_hu1441241704570051996.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 124,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Damen-Moden W. Renneberg"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/58/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/58/front_hu9042409623994248317.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 164,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hasse \u0026 Söhne"
+          ]}
+      }]
+}

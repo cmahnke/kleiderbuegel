@@ -1,0 +1,34 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+  "type": "Collection",
+  "label": {
+      "de": [
+        "Kleiderbügel"
+      ]},
+  "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/front_hu9295558336690023687.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 138,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Moritz Cahn"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/26/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/26/front_hu10655130528886611873.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 126,
+    "width": 300
+  }],"label": {
+          "de": [
+            "Hermann Bauchwitz"
+          ]}
+      }]
+}
