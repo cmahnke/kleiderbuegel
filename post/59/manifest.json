@@ -13,7 +13,18 @@
     "type":"Image",
     "height": 120,
     "width": 300
-  }],"provider": [
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1592,
+        "width": 3995,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
   {
     "id": "https://projektemacher.org/",
     "type": "Agent",

@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 132,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/74/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1745,
+        "width": 3959,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/74/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Bekleidungshaus Manschott Haus der 5000 Hosen"
           ]}

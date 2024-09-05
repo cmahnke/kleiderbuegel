@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 118,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/44/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1521,
+        "width": 3864,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/44/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Theo Schrader"
           ]}
@@ -26,7 +37,18 @@
     "type":"Image",
     "height": 122,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/43/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1591,
+        "width": 3897,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/43/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Modehaus Stark"
           ]}

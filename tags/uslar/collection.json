@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 119,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/91/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1544,
+        "width": 3905,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/91/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Friedrich Schefft OHG., Textilwaren Uslar"
           ]}

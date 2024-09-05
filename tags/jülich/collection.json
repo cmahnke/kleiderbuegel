@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 117,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/2/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1448,
+        "width": 3721,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Bekleidungshaus Jöris"
           ]}

@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 145,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/83/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1905,
+        "width": 3949,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/83/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Mau \u0026 Andresen Flensburg"
           ]}

@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 129,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/99/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1650,
+        "width": 3852,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/99/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Paul Luck, Waren (Müritz) Herren - u. Knabenbekleidung"
           ]}
@@ -26,7 +37,18 @@
     "type":"Image",
     "height": 172,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2199,
+        "width": 3844,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung"
           ]}
@@ -38,7 +60,18 @@
     "type":"Image",
     "height": 120,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1551,
+        "width": 3875,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Konfenktionshaus Fritz Becker Warburg i. W."
           ]}
@@ -50,7 +83,18 @@
     "type":"Image",
     "height": 131,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/92/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1700,
+        "width": 3882,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/92/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)"
           ]}
@@ -62,7 +106,18 @@
     "type":"Image",
     "height": 119,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/91/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1544,
+        "width": 3905,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/91/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Friedrich Schefft OHG., Textilwaren Uslar"
           ]}
@@ -74,7 +129,18 @@
     "type":"Image",
     "height": 115,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/88/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1494,
+        "width": 3905,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/88/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "P.A. Das modische Textilhaus, Bad Mergentheim An der Stadtkirche"
           ]}
@@ -86,7 +152,18 @@
     "type":"Image",
     "height": 181,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2321,
+        "width": 3854,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Schlüsing mann + mode Bremerhaven-G."
           ]}
@@ -98,7 +175,18 @@
     "type":"Image",
     "height": 131,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/84/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1699,
+        "width": 3879,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/84/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Beckmann \u0026 Wortmann"
           ]}
@@ -110,7 +198,18 @@
     "type":"Image",
     "height": 145,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/83/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1905,
+        "width": 3949,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/83/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Mau \u0026 Andresen Flensburg"
           ]}
@@ -122,7 +221,18 @@
     "type":"Image",
     "height": 172,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2245,
+        "width": 3915,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "ALOYS BUNGE Bekleidungshaus HANNOVER"
           ]}
@@ -134,7 +244,18 @@
     "type":"Image",
     "height": 166,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2161,
+        "width": 3896,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Ketelsen Bremerhaven-Bürger 42"
           ]}
@@ -146,7 +267,18 @@
     "type":"Image",
     "height": 129,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/79/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1681,
+        "width": 3920,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/79/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "-„formtreu“-Kleidung - veredelte Kleidung!"
           ]}
@@ -158,7 +290,18 @@
     "type":"Image",
     "height": 124,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/77/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1639,
+        "width": 3957,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/77/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Damen-Moden W. Renneberg"
           ]}
@@ -170,7 +313,18 @@
     "type":"Image",
     "height": 132,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/74/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1745,
+        "width": 3959,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/74/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Bekleidungshaus Manschott Haus der 5000 Hosen"
           ]}
@@ -182,7 +336,18 @@
     "type":"Image",
     "height": 128,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1648,
+        "width": 3864,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "J.Braun Gr. Johannisstraße 3"
           ]}
@@ -194,7 +359,18 @@
     "type":"Image",
     "height": 122,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1604,
+        "width": 3930,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Esders Siegen"
           ]}
@@ -206,7 +382,18 @@
     "type":"Image",
     "height": 175,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/69/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2262,
+        "width": 3876,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/69/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Breitling Stuttgart"
           ]}
@@ -218,7 +405,18 @@
     "type":"Image",
     "height": 118,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/68/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1545,
+        "width": 3929,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/68/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Bekleidungshaus BUCHMANN Wolfhagen"
           ]}
@@ -230,7 +428,18 @@
     "type":"Image",
     "height": 122,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1563,
+        "width": 3841,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "C. Louis Weber Hannover"
           ]}
@@ -242,7 +451,18 @@
     "type":"Image",
     "height": 144,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/61/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1869,
+        "width": 3890,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/61/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Ernst Fricke"
           ]}
@@ -254,7 +474,18 @@
     "type":"Image",
     "height": 176,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/60/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2212,
+        "width": 3764,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/60/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Jordan"
           ]}
@@ -266,7 +497,18 @@
     "type":"Image",
     "height": 120,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1592,
+        "width": 3995,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Fischer · Hettlage · Lampe"
           ]}
@@ -278,7 +520,18 @@
     "type":"Image",
     "height": 164,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/58/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2116,
+        "width": 3872,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/58/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Hasse \u0026 Söhne"
           ]}
@@ -290,7 +543,18 @@
     "type":"Image",
     "height": 147,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1886,
+        "width": 3840,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/51/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "„Kleidung von Peters ist immer richtig“"
           ]}
@@ -302,7 +566,18 @@
     "type":"Image",
     "height": 154,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/47/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2029,
+        "width": 3949,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/47/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "C \u0026 A Brenninkmayer"
           ]}
@@ -314,7 +589,18 @@
     "type":"Image",
     "height": 119,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/46/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1545,
+        "width": 3888,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/46/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Modehaus Schulz"
           ]}
@@ -326,7 +612,18 @@
     "type":"Image",
     "height": 122,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/45/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1583,
+        "width": 3906,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/45/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Overmeyer"
           ]}
@@ -338,7 +635,18 @@
     "type":"Image",
     "height": 122,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/43/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1591,
+        "width": 3897,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/43/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Modehaus Stark"
           ]}
@@ -350,7 +658,18 @@
     "type":"Image",
     "height": 128,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1658,
+        "width": 3883,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Ebbinghaus"
           ]}
@@ -362,7 +681,18 @@
     "type":"Image",
     "height": 144,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/24/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1869,
+        "width": 3894,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/24/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)"
           ]}
@@ -374,7 +704,18 @@
     "type":"Image",
     "height": 144,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/20/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1869,
+        "width": 3883,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/20/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Rob'. Eucken, Schillerstr. 1"
           ]}
@@ -386,7 +727,18 @@
     "type":"Image",
     "height": 150,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/15/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1930,
+        "width": 3858,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/15/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Diekmann Göttingen"
           ]}
@@ -398,7 +750,18 @@
     "type":"Image",
     "height": 120,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/10/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1481,
+        "width": 3705,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/10/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Fleischmann Göttingen"
           ]}
@@ -410,7 +773,18 @@
     "type":"Image",
     "height": 67,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/7/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 807,
+        "width": 3617,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/7/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Rock - Hache"
           ]}
@@ -422,7 +796,18 @@
     "type":"Image",
     "height": 117,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/2/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1448,
+        "width": 3721,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/2/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Bekleidungshaus Jöris"
           ]}
@@ -434,7 +819,18 @@
     "type":"Image",
     "height": 115,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/1/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1459,
+        "width": 3795,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/1/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Bekleidungshaus Junge"
           ]}

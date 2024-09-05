@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 193,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/85/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2235,
+        "width": 3467,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/85/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Mäntelhaus 40 Kaiser 40"
           ]}
@@ -26,7 +37,18 @@
     "type":"Image",
     "height": 172,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2245,
+        "width": 3915,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "ALOYS BUNGE Bekleidungshaus HANNOVER"
           ]}
@@ -38,7 +60,18 @@
     "type":"Image",
     "height": 122,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1563,
+        "width": 3841,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "C. Louis Weber Hannover"
           ]}

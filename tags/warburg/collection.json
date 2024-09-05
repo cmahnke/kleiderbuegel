@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 120,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1551,
+        "width": 3875,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Konfenktionshaus Fritz Becker Warburg i. W."
           ]}
@@ -26,7 +37,18 @@
     "type":"Image",
     "height": 120,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1553,
+        "width": 3897,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Carl Schübeler"
           ]}

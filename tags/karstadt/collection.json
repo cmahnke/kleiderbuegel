@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 199,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/28/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2508,
+        "width": 3773,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/28/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Lagerbügel"
           ]}
@@ -26,7 +37,18 @@
     "type":"Image",
     "height": 126,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/27/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1637,
+        "width": 3896,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/27/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Rudolf Karstadt A.G."
           ]}
@@ -38,7 +60,18 @@
     "type":"Image",
     "height": 132,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/19/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1673,
+        "width": 3802,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/19/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Nur bei Karstadt"
           ]}
@@ -50,7 +83,18 @@
     "type":"Image",
     "height": 152,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/11/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1924,
+        "width": 3786,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/11/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Karstadt Göttingen"
           ]}
@@ -62,7 +106,18 @@
     "type":"Image",
     "height": 119,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/4/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1510,
+        "width": 3799,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/4/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Gut gekleidet von Karstadt"
           ]}

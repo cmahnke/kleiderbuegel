@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 122,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1604,
+        "width": 3930,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Esders Siegen"
           ]}

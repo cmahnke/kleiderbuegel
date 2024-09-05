@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 131,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/92/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1700,
+        "width": 3882,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/92/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)"
           ]}

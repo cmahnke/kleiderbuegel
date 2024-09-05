@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 145,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/98/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1844,
+        "width": 3822,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/98/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "BUND"
           ]}
@@ -26,7 +37,18 @@
     "type":"Image",
     "height": 118,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/32/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1527,
+        "width": 3867,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/32/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Bundeseigentum"
           ]}
@@ -38,7 +60,18 @@
     "type":"Image",
     "height": 140,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/17/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1839,
+        "width": 3941,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/17/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Bundesgrenzschutz"
           ]}

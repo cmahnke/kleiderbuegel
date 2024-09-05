@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 117,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/70/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1516,
+        "width": 3887,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/70/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Hotel Bachmair am See"
           ]}

@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 122,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/75/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1598,
+        "width": 3923,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/75/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Theaterkunst GMBH."
           ]}
@@ -26,7 +37,18 @@
     "type":"Image",
     "height": 177,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/66/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2288,
+        "width": 3883,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/66/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Hotel - Pension Kardell"
           ]}
@@ -38,7 +60,18 @@
     "type":"Image",
     "height": 128,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1658,
+        "width": 3883,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Ebbinghaus"
           ]}

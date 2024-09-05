@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 149,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1920,
+        "width": 3857,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Färberei Kotzenberg"
           ]}

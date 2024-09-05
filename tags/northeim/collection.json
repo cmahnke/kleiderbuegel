@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 124,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/77/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1639,
+        "width": 3957,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/77/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Damen-Moden W. Renneberg"
           ]}
@@ -26,7 +37,18 @@
     "type":"Image",
     "height": 164,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/58/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2116,
+        "width": 3872,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/58/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Hasse \u0026 Söhne"
           ]}

@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 128,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1648,
+        "width": 3864,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "J.Braun Gr. Johannisstraße 3"
           ]}
@@ -26,7 +37,18 @@
     "type":"Image",
     "height": 113,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1502,
+        "width": 3976,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Wäschepflege TESTORP"
           ]}
@@ -38,7 +60,18 @@
     "type":"Image",
     "height": 127,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/48/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1674,
+        "width": 3949,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/48/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Franz Fahning"
           ]}

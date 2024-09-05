@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 130,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/49/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1723,
+        "width": 3966,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/49/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Stegmüller"
           ]}

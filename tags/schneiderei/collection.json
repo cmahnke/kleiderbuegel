@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 108,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/40/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1416,
+        "width": 3922,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/40/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Fritz Felgener"
           ]}
@@ -26,7 +37,18 @@
     "type":"Image",
     "height": 118,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/39/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1541,
+        "width": 3933,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/39/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Günter Göhlitz"
           ]}

@@ -14,7 +14,18 @@
     "type":"Image",
     "height": 133,
     "width": 300
-  }],"label": {
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/25/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1701,
+        "width": 3847,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/25/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
           "de": [
             "Rud. Behrmann Bremen"
           ]}
