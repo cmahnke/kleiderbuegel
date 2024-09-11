@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eMOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.gelsenkirchener-geschichten.de/forum/viewtopic.php?t=1691\"\u003eMOLLERUS in Gelsenkirchener Geschichten\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/101/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.09654,51.50508]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Paul Luck, Waren (Müritz) Herren - u. Knabenbekleidung",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Paul Luck, Waren (Müritz) Herren - u. Knabenbekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Paul Luck,\nWaren (Müritz)\nHerren - u. Knabenbekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/99/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
