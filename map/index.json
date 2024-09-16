@@ -1,14 +1,12 @@
 {"meta": {"date": "0001-01-01 00:00:00 +0000 UTC", "title": "Kartenansicht", "type": "<no value>" }, "images": {}, "content": "<p>Auf dieser Seite werden die Einträge mit (rekonstruierten) Geo-Informationen auf eine Karte angezeigt. Die Kartenanzeige nutzt den externen Dienst <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetmap</a>, daher muss der Nutzung zugestimmt werden.</p>
+
 <div class="iframe-wrapper" id="_iframe-be3511d465075eb20a11028a4e1b599b">
   <div class="iframe">
     <div class="opt-in">
-      <div class="opt-in-overlay">
-        
-        <div class="opt-in-overlay-content">
+      <div class="opt-in-overlay"><div class="opt-in-overlay-content">
           <h3 class="opt-in-header">Externer Inhalt</h3>
           <p class="opt-in-text">An dieser Stelle wird ein externer Inhalt eingebunden. Damit können personenbezogene Daten an Drittplattformen übermittelt werden.</p>
         </div>
-          
       </div>
     </div>
     <div class="iframe-content" id="_iframe-be3511d465075eb20a11028a4e1b599b-content">
@@ -21,7 +19,6 @@
       <span class="opt-in-confirm">Externe Inhalte zulassen</span>
     </div>
   </div>
-
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       var expire = 30 * 24 * 60 * 60;
@@ -30,7 +27,6 @@
       addConsent(toggle, overlay, 'be3511d465075eb20a11028a4e1b599b', '\n    \u003cdiv class=\u0022map-wrapper\u0022\u003e\n      \u003cdiv class=\u0022map\u0022 id=\u0022a56fce4688ee0fb056cf1a7865d152df\u0022\u003e\u003c\/div\u003e\n      \u003cdiv id=\u0022a56fce4688ee0fb056cf1a7865d152df-popup\u0022 class=\u0022ol-popup\u0022\u003e\n        \u003ca href=\u0022#\u0022 id=\u0022a56fce4688ee0fb056cf1a7865d152df-popup-closer\u0022 class=\u0022ol-popup-closer\u0022\u003e\u003c\/a\u003e\n        \u003cdiv id=\u0022a56fce4688ee0fb056cf1a7865d152df-popup-content\u0022\u003e\u003c\/div\u003e\n      \u003c\/div\u003e\n    \u003c\/div\u003e\n    \u003cscript type=\u0022text\/javascript\u0022\u003e\n      var _a56fce4688ee0fb056cf1a7865d152df = window.initMap(\u0027a56fce4688ee0fb056cf1a7865d152df\u0027, \u0027\\\/list\\\/map.geojson\u0027, \u0027osm\u0027, true , {src: \u0027\/images\/geomarker.svg\u0027, scale: 0.1, anchorXUnits: \u0027fraction\u0027, anchorYUnits: \u0027fraction\u0027, anchor: [0.9, 1]}  );\n      _a56fce4688ee0fb056cf1a7865d152df.updateSize();\n    \u003c\/script\u003e\n\n');
     });
   </script>
-
 </div>
 
 
