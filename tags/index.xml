@@ -7,20 +7,41 @@
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Mon, 16 Sep 2024 13:13:16 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 17 Sep 2024 13:00:33 +0200</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gelsenkirchen</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/gelsenkirchen/</link>
-      <pubDate>Tue, 10 Sep 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/gelsenkirchen/</guid>
+      <title>Bremerhaven</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bremerhaven/</link>
+      <pubDate>Tue, 17 Sep 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bremerhaven/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cuxhaven</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/cuxhaven/</link>
+      <pubDate>Tue, 17 Sep 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/cuxhaven/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ketelsen</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/ketelsen/</link>
+      <pubDate>Tue, 17 Sep 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/ketelsen/</guid>
       <description></description>
     </item>
     <item>
       <title>Material: Holz</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Tue, 10 Sep 2024 12:47:44 +0200</pubDate>
+      <pubDate>Tue, 17 Sep 2024 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gelsenkirchen</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/gelsenkirchen/</link>
+      <pubDate>Tue, 10 Sep 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/gelsenkirchen/</guid>
       <description></description>
     </item>
     <item>
@@ -136,13 +157,6 @@
       <description></description>
     </item>
     <item>
-      <title>Bremerhaven</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bremerhaven/</link>
-      <pubDate>Tue, 28 May 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bremerhaven/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Spiekeroog</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/spiekeroog/</link>
       <pubDate>Tue, 21 May 2024 12:47:44 +0200</pubDate>
@@ -168,20 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/flensburg/</link>
       <pubDate>Tue, 30 Apr 2024 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/flensburg/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ketelsen</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/ketelsen/</link>
-      <pubDate>Tue, 09 Apr 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/ketelsen/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Scherzartikel</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/scherzartikel/</link>
-      <pubDate>Mon, 08 Apr 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/scherzartikel/</guid>
       <description></description>
     </item>
   </channel>
