@@ -91,7 +91,7 @@ __webpack_require__.d(__webpack_exports__, {
   version: () => (/* reexport */ version)
 });
 
-;// CONCATENATED MODULE: ./src/shared/util.js
+;// ./src/shared/util.js
 const isNodeJS = typeof process === "object" && process + "" === "[object process]" && !process.versions.nw && !(process.versions.electron && process.type && process.type !== "browser");
 const IDENTITY_MATRIX = [1, 0, 0, 1, 0, 0];
 const FONT_IDENTITY_MATRIX = [0.001, 0, 0, 0.001, 0, 0];
@@ -827,7 +827,7 @@ const FontRenderOps = {
   TRANSLATE: 8
 };
 
-;// CONCATENATED MODULE: ./src/display/base_factory.js
+;// ./src/display/base_factory.js
 
 class BaseFilterFactory {
   addFilter(maps) {
@@ -966,7 +966,7 @@ class BaseSVGFactory {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/display_utils.js
+;// ./src/display/display_utils.js
 
 
 const SVG_NS = "http://www.w3.org/2000/svg";
@@ -1698,7 +1698,7 @@ function setLayerDimensions(div, viewport, mustFlip = false, mustRotate = true) 
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/editor/toolbar.js
+;// ./src/display/editor/toolbar.js
 
 class EditorToolbar {
   #toolbar = null;
@@ -1895,7 +1895,7 @@ class HighlightToolbar {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/editor/tools.js
+;// ./src/display/editor/tools.js
 
 
 
@@ -3572,7 +3572,7 @@ class AnnotationEditorUIManager {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/editor/alt_text.js
+;// ./src/display/editor/alt_text.js
 
 class AltText {
   #altText = null;
@@ -3832,7 +3832,7 @@ class AltText {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/editor/editor.js
+;// ./src/display/editor/editor.js
 
 
 
@@ -5020,7 +5020,7 @@ class FakeEditor extends AnnotationEditor {
   }
 }
 
-;// CONCATENATED MODULE: ./src/shared/murmurhash3.js
+;// ./src/shared/murmurhash3.js
 const SEED = 0xc3d2e1f0;
 const MASK_HIGH = 0xffff0000;
 const MASK_LOW = 0xffff;
@@ -5113,7 +5113,7 @@ class MurmurHash3_64 {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/annotation_storage.js
+;// ./src/display/annotation_storage.js
 
 
 
@@ -5328,7 +5328,7 @@ class PrintAnnotationStorage extends AnnotationStorage {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/font_loader.js
+;// ./src/display/font_loader.js
 
 class FontLoader {
   #systemFonts = new Set();
@@ -5664,7 +5664,7 @@ class FontFaceObject {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/node_utils.js
+;// ./src/display/node_utils.js
 
 
 if (isNodeJS) {
@@ -5727,7 +5727,7 @@ class NodeStandardFontDataFactory extends BaseStandardFontDataFactory {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/pattern_helper.js
+;// ./src/display/pattern_helper.js
 
 
 const PathType = {
@@ -6162,7 +6162,7 @@ class TilingPattern {
   }
 }
 
-;// CONCATENATED MODULE: ./src/shared/image_utils.js
+;// ./src/shared/image_utils.js
 
 function convertToRGBA(params) {
   switch (params.kind) {
@@ -6269,7 +6269,7 @@ function grayToRGBA(src, dest) {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/canvas.js
+;// ./src/display/canvas.js
 
 
 
@@ -8448,7 +8448,7 @@ for (const op in OPS) {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/worker_options.js
+;// ./src/display/worker_options.js
 class GlobalWorkerOptions {
   static #port = null;
   static #src = "";
@@ -8472,7 +8472,7 @@ class GlobalWorkerOptions {
   }
 }
 
-;// CONCATENATED MODULE: ./src/shared/message_handler.js
+;// ./src/shared/message_handler.js
 
 const CallbackKind = {
   UNKNOWN: 0,
@@ -8875,7 +8875,7 @@ class MessageHandler {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/metadata.js
+;// ./src/display/metadata.js
 
 class Metadata {
   #metadataMap;
@@ -8901,7 +8901,7 @@ class Metadata {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/optional_content_config.js
+;// ./src/display/optional_content_config.js
 
 
 const INTERNAL = Symbol("INTERNAL");
@@ -9153,7 +9153,7 @@ class OptionalContentConfig {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/transport_stream.js
+;// ./src/display/transport_stream.js
 
 
 class PDFDataTransportStream {
@@ -9421,7 +9421,7 @@ class PDFDataTransportStreamRangeReader {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/content_disposition.js
+;// ./src/display/content_disposition.js
 
 function getFilenameFromContentDispositionHeader(contentDisposition) {
   let needsEncodingFixup = true;
@@ -9552,7 +9552,7 @@ function getFilenameFromContentDispositionHeader(contentDisposition) {
   return "";
 }
 
-;// CONCATENATED MODULE: ./src/display/network_utils.js
+;// ./src/display/network_utils.js
 
 
 
@@ -9612,7 +9612,7 @@ function validateResponseStatus(status) {
   return status === 200 || status === 206;
 }
 
-;// CONCATENATED MODULE: ./src/display/fetch_stream.js
+;// ./src/display/fetch_stream.js
 
 
 function createFetchOptions(headers, withCredentials, abortController) {
@@ -9816,7 +9816,7 @@ class PDFFetchStreamRangeReader {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/network.js
+;// ./src/display/network.js
 
 
 const OK_RESPONSE = 200;
@@ -10222,7 +10222,7 @@ class PDFNetworkStreamRangeRequestReader {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/node_stream.js
+;// ./src/display/node_stream.js
 
 
 
@@ -10533,7 +10533,7 @@ class PDFNodeStreamFsRangeReader extends BaseRangeReader {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/text_layer.js
+;// ./src/display/text_layer.js
 
 
 const MAX_TEXT_DIVS_TO_RENDER = 100000;
@@ -10905,7 +10905,7 @@ class TextLayer {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/xfa_text.js
+;// ./src/display/xfa_text.js
 class XfaText {
   static textContent(xfa) {
     const items = [];
@@ -10948,7 +10948,7 @@ class XfaText {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/api.js
+;// ./src/display/api.js
 
 
 
@@ -12835,7 +12835,7 @@ class InternalRenderTask {
 const version = "4.6.0";
 const build = "9b54191";
 
-;// CONCATENATED MODULE: ./src/shared/scripting_utils.js
+;// ./src/shared/scripting_utils.js
 function makeColorComp(n) {
   return Math.floor(Math.max(0, Math.min(1, n)) * 255).toString(16).padStart(2, "0");
 }
@@ -12894,7 +12894,7 @@ class ColorConverters {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/xfa_layer.js
+;// ./src/display/xfa_layer.js
 
 class XfaLayer {
   static setupStorage(html, id, element, storage, intent) {
@@ -13105,7 +13105,7 @@ class XfaLayer {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/annotation_layer.js
+;// ./src/display/annotation_layer.js
 
 
 
@@ -15664,7 +15664,7 @@ class AnnotationLayer {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/editor/freetext.js
+;// ./src/display/editor/freetext.js
 
 
 
@@ -16279,7 +16279,7 @@ class FreeTextEditor extends AnnotationEditor {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/editor/outliner.js
+;// ./src/display/editor/outliner.js
 
 class Outliner {
   #box;
@@ -16879,7 +16879,7 @@ class FreeHighlightOutline extends Outline {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/editor/color_picker.js
+;// ./src/display/editor/color_picker.js
 
 
 
@@ -17097,7 +17097,7 @@ class ColorPicker {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/editor/highlight.js
+;// ./src/display/editor/highlight.js
 
 
 
@@ -17731,7 +17731,7 @@ class HighlightEditor extends AnnotationEditor {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/editor/ink.js
+;// ./src/display/editor/ink.js
 
 
 
@@ -18554,7 +18554,7 @@ class InkEditor extends AnnotationEditor {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/editor/stamp.js
+;// ./src/display/editor/stamp.js
 
 
 
@@ -19113,7 +19113,7 @@ class StampEditor extends AnnotationEditor {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/editor/annotation_editor_layer.js
+;// ./src/display/editor/annotation_editor_layer.js
 
 
 
@@ -19724,7 +19724,7 @@ class AnnotationEditorLayer {
   }
 }
 
-;// CONCATENATED MODULE: ./src/display/draw_layer.js
+;// ./src/display/draw_layer.js
 
 
 class DrawLayer {
@@ -19919,7 +19919,7 @@ class DrawLayer {
   }
 }
 
-;// CONCATENATED MODULE: ./src/pdf.js
+;// ./src/pdf.js
 
 
 
