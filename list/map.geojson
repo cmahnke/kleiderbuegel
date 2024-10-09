@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Mäntel und Pelze Eichmeyer & Co., Hamburg Mönkebergstr.",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Mäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Mäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/105/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9967294,53.5508513]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Braunschweig Poplau & Co. Damm 1",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Braunschweig Poplau \u0026amp; Co. Damm 1\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBraunschweig\nPoplau \u0026amp; Co.\nDamm 1\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/104/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
