@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Northeimer Rekort- Bekleidung P. Haase und Söhne",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Northeimer Rekort- Bekleidung P. Haase und Söhne\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Northeimer Rekort- Bekleidung P. Haase und Söhne\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/107/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.99997,51.70662]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Mäntel und Pelze Eichmeyer & Co., Hamburg Mönkebergstr.",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Mäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Mäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/105/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
