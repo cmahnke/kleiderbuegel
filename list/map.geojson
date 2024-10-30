@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Sangermann Köln",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Sangermann Köln\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eSangermann Köln\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://kriesel-a-d-oper.de/content/78/59/wir-ueber-uns\"\u003eGeschichte des heutigen Unternehmens\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/108/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.9504281,50.9387237]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Northeimer Rekort- Bekleidung P. Haase und Söhne",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Northeimer Rekort- Bekleidung P. Haase und Söhne\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Northeimer Rekort- Bekleidung P. Haase und Söhne\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/107/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
