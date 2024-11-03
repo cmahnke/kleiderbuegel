@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @import "jquery.flipster";
 @import "footer";
 /* Icons */
@@ -598,10 +600,10 @@ $kleidungsstueck-border-radius: 10px;
     font-size: small;
     text-align: right;
     margin: 1.5em;
-    color: lighten($font-color-body, 20%);
+    color: color.adjust($font-color-body, $lightness: 20%);
 
     a {
-        color: lighten($font-color-body, 20%);
+        color: color.adjust($font-color-body, $lightness: 20%);
     }
 }
 
