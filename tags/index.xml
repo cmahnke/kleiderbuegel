@@ -7,20 +7,41 @@
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Sun, 03 Nov 2024 17:05:09 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 23:09:57 +0100</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Köln</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/k%C3%B6ln/</link>
-      <pubDate>Tue, 29 Oct 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/k%C3%B6ln/</guid>
+      <title>Färberei</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/f%C3%A4rberei/</link>
+      <pubDate>Tue, 05 Nov 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/f%C3%A4rberei/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lüneburg</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/l%C3%BCneburg/</link>
+      <pubDate>Tue, 05 Nov 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/l%C3%BCneburg/</guid>
       <description></description>
     </item>
     <item>
       <title>Material: Holz</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Tue, 29 Oct 2024 12:47:44 +0200</pubDate>
+      <pubDate>Tue, 05 Nov 2024 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reinigung</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</link>
+      <pubDate>Tue, 05 Nov 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Köln</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/k%C3%B6ln/</link>
+      <pubDate>Tue, 29 Oct 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/k%C3%B6ln/</guid>
       <description></description>
     </item>
     <item>
@@ -101,13 +122,6 @@
       <description></description>
     </item>
     <item>
-      <title>Reinigung</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</link>
-      <pubDate>Tue, 10 Sep 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Material: Plastik</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-plastik/</link>
       <pubDate>Tue, 03 Sep 2024 12:47:44 +0200</pubDate>
@@ -168,20 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/uslar/</link>
       <pubDate>Tue, 25 Jun 2024 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/uslar/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Essen</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/essen/</link>
-      <pubDate>Tue, 18 Jun 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/essen/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Grömitz</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/gr%C3%B6mitz/</link>
-      <pubDate>Tue, 11 Jun 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/gr%C3%B6mitz/</guid>
       <description></description>
     </item>
   </channel>

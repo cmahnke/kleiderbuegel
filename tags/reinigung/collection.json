@@ -7,6 +7,29 @@
         "Kleiderbügel"
       ]},
   "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/109/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/109/front_hu15340895893507011762.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 123,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/109/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1603,
+        "width": 3898,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/109/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Lüneburg W. Marwitz Wäscherei Färberei Chem. Reinigung Ruf 52044"
+          ]}
+      },{
         "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/101/manifest.json",
         "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/101/front_hu3055615585057004018.png",
