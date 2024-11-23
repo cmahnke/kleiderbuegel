@@ -5,7 +5,7 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
-xresources:
+resources:
 - src: "front.png"
   params:
     iiif: front/info.json
