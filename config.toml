@@ -9,6 +9,7 @@ rssLimit = 25
 theme = ["projektemacher-base"]
 copyright = "Kleiderbügel"
 enableGitInfo = true
+timeout = 120
 
 [params]
     productionIIIFURLPrefix="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"
