@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Bremerhaven Ketelsen Hafenstr. 76-80",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bremerhaven Ketelsen Hafenstr. 76-80\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Bremerhaven Ketelsen Hafenstr. 76-80\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/114/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.5815016,53.5549545]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Lüneburg W. Marwitz Wäscherei Färberei Chem. Reinigung Ruf 52044",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Lüneburg W. Marwitz Wäscherei Färberei Chem. Reinigung Ruf 52044\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Lüneburg\nW. Marwitz\nWäscherei Färberei Chem. Reinigung\nRuf 52044\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/109/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
