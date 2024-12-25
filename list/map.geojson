@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Quick Shop",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Quick Shop\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        NIEUWKUIS IN 2 UUR\nBLANKENBERGE\nKNOKKE\nTEL.410.48\nTEL.637.34\nQUICK SHOP\nNETTOYAGE A NEUF EN 2 HEURES\nBRUXELLES - BRUSSEL\nTEL.15.02.79 - 11.33.70 - 18.67.82\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/116/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [4.34878,50.85045]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Mäntelhaus Kaiser",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Mäntelhaus Kaiser\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Mäntelhaus Kaiser\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/115/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
