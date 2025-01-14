@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Heinrich Kuhn, Augsburg Bahnhofstr. 5.",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Heinrich Kuhn, Augsburg Bahnhofstr. 5.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Heinrich Kuhn, Augsburg Bahnhofstr. 5.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/119/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.8897416,48.3660598]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "R Hettlage M. Gladbach R",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        R Hettlage M. Gladbach R\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        R Hettlage M. Gladbach R\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/118/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
