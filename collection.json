@@ -7,6 +7,29 @@
         "Kleiderbügel"
       ]},
   "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/125/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/125/front_hu_9d78f49fba695fa3.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 114,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/125/front.png",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1455,
+        "width": 3840,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/125/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Gebhards Hotel, Göttingen"
+          ]}
+      },{
         "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/124/manifest.json",
         "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/124/front_hu_9ee11bbf3d1a5c78.png",

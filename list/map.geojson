@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Gebhards Hotel, Göttingen",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Gebhards Hotel, Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Gebhards Hotel, Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/125/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9261459,51.5350707]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Herrenbekleidung Hut-Weber Höxter Herrenaustattung",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Herrenbekleidung Hut-Weber Höxter Herrenaustattung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Herrenbekleidung\nHut-Weber\nHöxter Herrenaustattung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/123/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
