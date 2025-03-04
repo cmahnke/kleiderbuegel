@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2025-02-26T07:13:30.632966Z" version="8.16.0">
+<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2025-03-04T01:45:38.885580Z" version="8.16.0">
   <properties>
     <property>
       <name>width</name>
-      <value type="gint">3831</value>
+      <value type="gint">3875</value>
     </property>
     <property>
       <name>height</name>
