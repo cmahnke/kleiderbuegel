@@ -7,6 +7,29 @@
         "Kleiderbügel"
       ]},
   "items": [{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/130/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/130/front_hu_433ec77477cdf720.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 174,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/130/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2257,
+        "width": 3895,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/130/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Wilkens"
+          ]}
+      },{
         "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/129/manifest.json",
         "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/129/front_hu_85895f44c349b13c.png",
