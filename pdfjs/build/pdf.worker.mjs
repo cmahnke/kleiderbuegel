@@ -20,34 +20,6 @@
  * JavaScript code in this page
  */
 
-/******/ // The require scope
-/******/ var __webpack_require__ = {};
-/******/ 
-/************************************************************************/
-/******/ /* webpack/runtime/define property getters */
-/******/ (() => {
-/******/ 	// define getter functions for harmony exports
-/******/ 	__webpack_require__.d = (exports, definition) => {
-/******/ 		for(var key in definition) {
-/******/ 			if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 				Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 			}
-/******/ 		}
-/******/ 	};
-/******/ })();
-/******/ 
-/******/ /* webpack/runtime/hasOwnProperty shorthand */
-/******/ (() => {
-/******/ 	__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ })();
-/******/ 
-/************************************************************************/
-var __webpack_exports__ = globalThis.pdfjsWorker = {};
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  WorkerMessageHandler: () => (/* reexport */ WorkerMessageHandler)
-});
 
 ;// ./src/shared/util.js
 const isNodeJS = typeof process === "object" && process + "" === "[object process]" && !process.versions.nw && !(process.versions.electron && process.type && process.type !== "browser");
@@ -57470,7 +57442,6 @@ class WorkerMessageHandler {
 const pdfjsVersion = "5.1.0";
 const pdfjsBuild = "45cbe8b";
 
-var __webpack_exports__WorkerMessageHandler = __webpack_exports__.WorkerMessageHandler;
-export { __webpack_exports__WorkerMessageHandler as WorkerMessageHandler };
+export { WorkerMessageHandler };
 
 //# sourceMappingURL=pdf.worker.mjs.map

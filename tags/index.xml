@@ -10,17 +10,31 @@
     <lastBuildDate>Sun, 06 Apr 2025 02:52:00 +0200</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kaufhof</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/kaufhof/</link>
-      <pubDate>Tue, 01 Apr 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/kaufhof/</guid>
+      <title>Bekleidungsgeschäft</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</link>
+      <pubDate>Tue, 08 Apr 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</guid>
       <description></description>
     </item>
     <item>
       <title>Material: Holz</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Tue, 01 Apr 2025 12:47:44 +0200</pubDate>
+      <pubDate>Tue, 08 Apr 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Northeim</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/northeim/</link>
+      <pubDate>Tue, 08 Apr 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/northeim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kaufhof</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/kaufhof/</link>
+      <pubDate>Tue, 01 Apr 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/kaufhof/</guid>
       <description></description>
     </item>
     <item>
@@ -56,13 +70,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</link>
       <pubDate>Tue, 11 Mar 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bekleidungsgeschäft</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</link>
-      <pubDate>Tue, 04 Mar 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</guid>
       <description></description>
     </item>
     <item>
@@ -175,13 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bremerhaven/</link>
       <pubDate>Tue, 10 Dec 2024 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bremerhaven/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Werbung</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/werbung/</link>
-      <pubDate>Tue, 03 Dec 2024 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/werbung/</guid>
       <description></description>
     </item>
   </channel>
