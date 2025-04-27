@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2025-04-23T12:02:20.062768Z" version="8.16.1">
+<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2025-04-27T19:16:54.308488Z" version="8.16.1">
   <properties>
     <property>
       <name>width</name>
-      <value type="gint">2475</value>
+      <value type="gint">2497</value>
     </property>
     <property>
       <name>height</name>
-      <value type="gint">2449</value>
+      <value type="gint">2508</value>
     </property>
     <property>
       <name>bands</name>
