@@ -29,5 +29,28 @@
           "de": [
             "Dorum Fritz von Geldern Bederkesa"
           ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/96/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/96/front_hu_c02b5ead14eea7fd.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 116,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/96/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1479,
+        "width": 3814,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/96/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Dorum Fritz von Geldern Bederkesa"
+          ]}
       }]
 }

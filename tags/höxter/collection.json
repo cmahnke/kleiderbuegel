@@ -29,5 +29,28 @@
           "de": [
             "Herrenbekleidung Hut-Weber Höxter Herrenaustattung"
           ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/123/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/123/front_hu_5ec4482404edc400.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 173,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/123/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2269,
+        "width": 3943,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/123/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Herrenbekleidung Hut-Weber Höxter Herrenaustattung"
+          ]}
       }]
 }
