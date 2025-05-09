@@ -68,11 +68,15 @@ jobs:
       - name: Build Hugo site
         run: hugo --printI18nWarnings --printUnusedTemplates
 
-      - name: Achive links
-        run: python ./themes/projektemacher-base/scripts/archive.py -d docs/ -e kleiderbügel.blaufusstölpel.de,xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de,xn--blaufusstlpel-qmb.de
-
       - name: Puppeteer
         run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh
+
+      - name: Achive links
+        run: python ./themes/projektemacher-base/scripts/archive.py -d docs/ -e kleiderbügel.blaufusstölpel.de,xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de,xn--blaufusstlpel-qmb.de -a 14 -o archived-urls.txt
+
+      - name: Save URL list
+        run: |
+          cp archived-urls.txt docs/
 
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v4.0.0
