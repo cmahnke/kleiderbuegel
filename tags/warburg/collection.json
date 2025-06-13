@@ -30,52 +30,6 @@
             "Konfenktionshaus Fritz Becker Warburg i. W."
           ]}
       },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/front_hu_49fda90854dac6ea.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 120,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 1551,
-        "width": 3875,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            "Konfenktionshaus Fritz Becker Warburg i. W."
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/front_hu_68e918fa12a1f283.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 120,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 1553,
-        "width": 3897,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            "Carl Schübeler"
-          ]}
-      },{
         "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/manifest.json",
         "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/front_hu_68e918fa12a1f283.png",

@@ -29,28 +29,5 @@
           "de": [
             "Bekleidungshaus BUCHMANN Wolfhagen"
           ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/68/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/68/front_hu_4da9846d90863d06.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 118,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/68/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 1545,
-        "width": 3929,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/68/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            "Bekleidungshaus BUCHMANN Wolfhagen"
-          ]}
       }]
 }

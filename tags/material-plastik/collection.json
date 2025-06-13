@@ -30,29 +30,6 @@
             ""
           ]}
       },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/140/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/140/front_hu_546daaaf20c3668c.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 193,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/140/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 2501,
-        "width": 3891,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/140/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            ""
-          ]}
-      },{
         "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/124/manifest.json",
         "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/124/front_hu_9ee11bbf3d1a5c78.png",
@@ -68,52 +45,6 @@
         "width": 3830,
         "service": [{
           "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/124/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            ""
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/124/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/124/front_hu_9ee11bbf3d1a5c78.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 173,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/124/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 2211,
-        "width": 3830,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/124/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            ""
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/112/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/112/front_hu_6ede18169ca8f5.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 182,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/112/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 2349,
-        "width": 3868,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/112/front",
           "type": "ImageService2",
           "profile":"level0"
         }]
@@ -168,52 +99,6 @@
             ""
           ]}
       },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/100/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/100/front_hu_923126765c15f422.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 175,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/100/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 2270,
-        "width": 3883,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/100/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            ""
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/81/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/81/front_hu_2ee3f093835b214c.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 199,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/81/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 2496,
-        "width": 3771,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/81/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            ""
-          ]}
-      },{
         "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/81/manifest.json",
         "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/81/front_hu_2ee3f093835b214c.png",
@@ -260,29 +145,6 @@
             "STAR BOUTIQUE Manuela"
           ]}
       },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/front_hu_d1a2a18051fa4c9d.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 225,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 3024,
-        "width": 4032,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            "STAR BOUTIQUE Manuela"
-          ]}
-      },{
         "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/63/manifest.json",
         "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/63/front_hu_c30b3edf28abefb2.png",
@@ -304,52 +166,6 @@
       }],"label": {
           "de": [
             "Twiggy London Girl"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/63/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/63/front_hu_c30b3edf28abefb2.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 275,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/63/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 2831,
-        "width": 3086,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/63/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            "Twiggy London Girl"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/front_hu_d9cca0627071c838.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 297,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 2449,
-        "width": 2475,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            "Sanostol"
           ]}
       },{
         "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/manifest.json",

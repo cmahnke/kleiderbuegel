@@ -29,28 +29,5 @@
           "de": [
             "Pelz Dröge"
           ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/34/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/34/front_hu_6db757b5ab555c3e.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 150,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/34/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 1955,
-        "width": 3900,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/34/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            "Pelz Dröge"
-          ]}
       }]
 }

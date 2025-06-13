@@ -29,28 +29,5 @@
           "de": [
             "Kassel Modehaus Schulz Witzenhausen"
           ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/117/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/117/front_hu_e3d506c410171447.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 116,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/117/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 1485,
-        "width": 3848,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/117/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            "Kassel Modehaus Schulz Witzenhausen"
-          ]}
       }]
 }

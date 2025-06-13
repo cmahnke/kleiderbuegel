@@ -29,28 +29,5 @@
           "de": [
             "Hotel Ruhwinkel Ostseebad Grömitz"
           ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/89/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/89/front_hu_92adb54224200f15.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 113,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/89/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 1458,
-        "width": 3879,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/89/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            "Hotel Ruhwinkel Ostseebad Grömitz"
-          ]}
       }]
 }
