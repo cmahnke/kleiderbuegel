@@ -2008,29 +2008,6 @@
             "POL"
           ]}
       },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/manifest.json",
-        "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/front_hu_44146dbfcf0c25ef.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 138,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 1781,
-        "width": 3874,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-          "de": [
-            "Moritz Cahn"
-          ]}
-      },{
         "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/54/manifest.json",
         "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/54/front_hu_cc8f8deaefec57a5.png",
@@ -2052,6 +2029,29 @@
       }],"label": {
           "de": [
             "Printz"
+          ]}
+      },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/manifest.json",
+        "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/front_hu_44146dbfcf0c25ef.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 138,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1781,
+        "width": 3874,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+          "de": [
+            "Moritz Cahn"
           ]}
       },{
         "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/52/manifest.json",
