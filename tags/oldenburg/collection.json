@@ -1,14 +1,14 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
-  "type": "Collection",
-  "label": {
-      "de": [
-        "Kleiderbügel"
-      ]},
-  "items": [{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/manifest.json",
-        "type": "Manifest","thumbnail": [{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Kleiderbügel"
+        ]},
+    "items": [{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/front_hu_ebf4ae572c0089e1.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -26,8 +26,8 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Hotel Deus"
-          ]}
-      }]
-}
+            "de": [
+              "Hotel Deus"
+            ]}
+        }]
+  }

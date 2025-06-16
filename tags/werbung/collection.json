@@ -1,14 +1,14 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
-  "type": "Collection",
-  "label": {
-      "de": [
-        "Kleiderbügel"
-      ]},
-  "items": [{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/113/manifest.json",
-        "type": "Manifest","thumbnail": [{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Kleiderbügel"
+        ]},
+    "items": [{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/113/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/113/front_hu_5370f0c047dcd4cb.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -26,12 +26,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Sei nobel durch Nobel"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Sei nobel durch Nobel"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/64/front_hu_d1a2a18051fa4c9d.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -49,12 +49,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "STAR BOUTIQUE Manuela"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/63/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "STAR BOUTIQUE Manuela"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/63/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/63/front_hu_c30b3edf28abefb2.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -72,12 +72,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Twiggy London Girl"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/62/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Twiggy London Girl"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/62/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/62/front_hu_5292b591a5ad5afb.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -95,12 +95,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "korallino"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "korallino"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/29/front_hu_d9cca0627071c838.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -118,8 +118,8 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Sanostol"
-          ]}
-      }]
-}
+            "de": [
+              "Sanostol"
+            ]}
+        }]
+  }

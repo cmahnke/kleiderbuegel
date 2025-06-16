@@ -1,14 +1,14 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
-  "type": "Collection",
-  "label": {
-      "de": [
-        "Kleiderbügel"
-      ]},
-  "items": [{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/manifest.json",
-        "type": "Manifest","thumbnail": [{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Kleiderbügel"
+        ]},
+    "items": [{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/front_hu_cded54b8bd6a3b74.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -26,12 +26,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Erdmann Kleidung"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/128/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Erdmann Kleidung"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/128/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/128/front_hu_1888b696c7e1b0d2.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -49,12 +49,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Färberei Bode Reinigung"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/115/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Färberei Bode Reinigung"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/115/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/115/front_hu_c4d5d90a51590d3.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -72,12 +72,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Mäntelhaus Kaiser"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/85/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Mäntelhaus Kaiser"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/85/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/85/front_hu_ee3844b0f0259a0e.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -95,12 +95,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Mäntelhaus 40 Kaiser 40"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Mäntelhaus 40 Kaiser 40"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/front_hu_9d95c55e996a1167.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -118,12 +118,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "ALOYS BUNGE Bekleidungshaus HANNOVER"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "ALOYS BUNGE Bekleidungshaus HANNOVER"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/front_hu_8fc24a2e6d327925.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -141,8 +141,8 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "C. Louis Weber Hannover"
-          ]}
-      }]
-}
+            "de": [
+              "C. Louis Weber Hannover"
+            ]}
+        }]
+  }

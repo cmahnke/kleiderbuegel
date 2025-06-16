@@ -1,14 +1,14 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
-  "type": "Collection",
-  "label": {
-      "de": [
-        "Kleiderbügel"
-      ]},
-  "items": [{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/79/manifest.json",
-        "type": "Manifest","thumbnail": [{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Kleiderbügel"
+        ]},
+    "items": [{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/79/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/79/front_hu_c51856ffa8a7e114.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -26,12 +26,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "-„formtreu“-Kleidung - veredelte Kleidung!"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/47/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "-„formtreu“-Kleidung - veredelte Kleidung!"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/47/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/47/front_hu_8c98669d02cdc74d.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -49,8 +49,8 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "C \u0026 A Brenninkmayer"
-          ]}
-      }]
-}
+            "de": [
+              "C \u0026 A Brenninkmayer"
+            ]}
+        }]
+  }

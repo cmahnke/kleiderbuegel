@@ -1,14 +1,14 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
-  "type": "Collection",
-  "label": {
-      "de": [
-        "Kleiderbügel"
-      ]},
-  "items": [{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/manifest.json",
-        "type": "Manifest","thumbnail": [{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Kleiderbügel"
+        ]},
+    "items": [{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/front_hu_44146dbfcf0c25ef.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -26,12 +26,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Moritz Cahn"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/26/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Moritz Cahn"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/26/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/26/front_hu_c00f9ad3ddfa61b6.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -49,8 +49,8 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Hermann Bauchwitz"
-          ]}
-      }]
-}
+            "de": [
+              "Hermann Bauchwitz"
+            ]}
+        }]
+  }

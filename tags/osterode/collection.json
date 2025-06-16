@@ -1,14 +1,14 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
-  "type": "Collection",
-  "label": {
-      "de": [
-        "Kleiderbügel"
-      ]},
-  "items": [{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/44/manifest.json",
-        "type": "Manifest","thumbnail": [{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Kleiderbügel"
+        ]},
+    "items": [{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/44/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/44/front_hu_e8739f7a677e4d93.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -26,12 +26,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Theo Schrader"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/43/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Theo Schrader"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/43/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/43/front_hu_826679f18b074978.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -49,8 +49,8 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Modehaus Stark"
-          ]}
-      }]
-}
+            "de": [
+              "Modehaus Stark"
+            ]}
+        }]
+  }

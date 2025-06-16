@@ -1,14 +1,14 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
-  "type": "Collection",
-  "label": {
-      "de": [
-        "Kleiderbügel"
-      ]},
-  "items": [{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/24/manifest.json",
-        "type": "Manifest","thumbnail": [{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Kleiderbügel"
+        ]},
+    "items": [{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/24/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/24/front_hu_ea3eeb8bada4490c.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -26,8 +26,8 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)"
-          ]}
-      }]
-}
+            "de": [
+              "Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)"
+            ]}
+        }]
+  }

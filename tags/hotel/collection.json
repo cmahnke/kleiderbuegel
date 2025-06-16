@@ -1,14 +1,14 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
-  "type": "Collection",
-  "label": {
-      "de": [
-        "Kleiderbügel"
-      ]},
-  "items": [{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/139/manifest.json",
-        "type": "Manifest","thumbnail": [{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Kleiderbügel"
+        ]},
+    "items": [{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/139/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/139/front_hu_59d780588f876f3c.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -26,12 +26,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "BAY TREE HOTELS LTD"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/125/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "BAY TREE HOTELS LTD"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/125/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/125/front_hu_9d78f49fba695fa3.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -49,12 +49,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Gebhards Hotel, Göttingen"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/103/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Gebhards Hotel, Göttingen"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/103/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/103/front_hu_ca079b30eea05875.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -72,12 +72,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Hotel zu den vier Jahreszeiten Helmstedt"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/89/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Hotel zu den vier Jahreszeiten Helmstedt"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/89/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/89/front_hu_92adb54224200f15.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -95,12 +95,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Hotel Ruhwinkel Ostseebad Grömitz"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/86/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Hotel Ruhwinkel Ostseebad Grömitz"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/86/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/86/front_hu_abf45b1db128ba1c.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -118,12 +118,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Hotel zur Linde Spiekeroog"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/70/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Hotel zur Linde Spiekeroog"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/70/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/70/front_hu_b946f50efb258fd3.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -141,12 +141,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Hotel Bachmair am See"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/66/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Hotel Bachmair am See"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/66/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/66/front_hu_7c9957da376cb011.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -164,12 +164,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Hotel - Pension Kardell"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Hotel - Pension Kardell"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/front_hu_ebf4ae572c0089e1.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -187,8 +187,8 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Hotel Deus"
-          ]}
-      }]
-}
+            "de": [
+              "Hotel Deus"
+            ]}
+        }]
+  }

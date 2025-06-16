@@ -1,14 +1,14 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
-  "type": "Collection",
-  "label": {
-      "de": [
-        "Kleiderbügel"
-      ]},
-  "items": [{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/105/manifest.json",
-        "type": "Manifest","thumbnail": [{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Kleiderbügel"
+        ]},
+    "items": [{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/105/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/105/front_hu_b324e9dbca42e421.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -26,12 +26,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Mäntel und Pelze Eichmeyer \u0026 Co., Hamburg Mönkebergstr."
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/38/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Mäntel und Pelze Eichmeyer \u0026 Co., Hamburg Mönkebergstr."
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/38/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/38/front_hu_e5637eaf94a9df39.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -49,12 +49,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Kaufhaus J.G. Lurch"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/34/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Kaufhaus J.G. Lurch"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/34/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/34/front_hu_6db757b5ab555c3e.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -72,12 +72,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Pelz Dröge"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/33/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Pelz Dröge"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/33/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/33/front_hu_e08123d39875b1a4.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -95,12 +95,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Pelz Quentin"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/9/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Pelz Quentin"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/9/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/9/front_hu_b991ece40e65b5c8.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -118,8 +118,8 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Josef Henn Kürschnermeister"
-          ]}
-      }]
-}
+            "de": [
+              "Josef Henn Kürschnermeister"
+            ]}
+        }]
+  }

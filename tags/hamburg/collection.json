@@ -1,14 +1,14 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
-  "type": "Collection",
-  "label": {
-      "de": [
-        "Kleiderbügel"
-      ]},
-  "items": [{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/105/manifest.json",
-        "type": "Manifest","thumbnail": [{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json",
+    "type": "Collection",
+    "label": {
+        "de": [
+          "Kleiderbügel"
+        ]},
+    "items": [{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/105/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/105/front_hu_b324e9dbca42e421.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -26,12 +26,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Mäntel und Pelze Eichmeyer \u0026 Co., Hamburg Mönkebergstr."
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Mäntel und Pelze Eichmeyer \u0026 Co., Hamburg Mönkebergstr."
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/front_hu_a4e193b7c336e0ab.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -49,12 +49,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "J.Braun Gr. Johannisstraße 3"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "J.Braun Gr. Johannisstraße 3"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/front_hu_2170716a868a37cf.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -72,12 +72,12 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Wäschepflege TESTORP"
-          ]}
-      },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/48/manifest.json",
-        "type": "Manifest","thumbnail": [{
+            "de": [
+              "Wäschepflege TESTORP"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/48/manifest.json",
+          "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/48/front_hu_3421ba6b9770ab57.png",
     "format": "image/jpeg",
     "type":"Image",
@@ -95,8 +95,8 @@
           "profile":"level0"
         }]
       }],"label": {
-          "de": [
-            "Franz Fahning"
-          ]}
-      }]
-}
+            "de": [
+              "Franz Fahning"
+            ]}
+        }]
+  }
