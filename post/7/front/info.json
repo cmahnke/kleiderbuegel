@@ -18,7 +18,8 @@
       "scaleFactors": [
         1,
         2,
-        4
+        4,
+        8
       ],
       "width": 512
     }
