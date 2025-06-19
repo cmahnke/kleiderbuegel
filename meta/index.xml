@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on Kleiderbügel</title>
+    <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/meta/</link>
+    <description>Recent content in Meta on Kleiderbügel</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <copyright>Kleiderbügel</copyright>
+    <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wikidata</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/meta/wikidata/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/meta/wikidata/index.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
