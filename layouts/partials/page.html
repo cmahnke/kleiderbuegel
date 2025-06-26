@@ -9,6 +9,9 @@
       {{ if eq $class "hanger" }}
         <div class="hanger-front">
           {{- $front := .Resources.GetMatch "front*" -}}
+          {{- if eq $front nil -}}
+            {{- errorf "[page.html] Failed to load images for %s" .RelPermalink -}}
+          {{- end -}}
           {{- $large := $front.Resize "1600x" -}}
           <img class="buegel-font hanger-img" src="{{ $large.RelPermalink }}" alt="{{ .Title }}"/>
         </div>
@@ -24,9 +27,6 @@
         <div class="date">
             <a href="{{ .RelPermalink }}">
               {{- .Date | time.Format ":date_full" -}}
-              {{/*
-                {{- partial "date.html" . -}}
-              */}}
             </a>
         </div>
         <div class="meta-spacer">

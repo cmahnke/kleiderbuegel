@@ -23,5 +23,7 @@ Wittke Größtes Herren-Spezialhaus Dithmarschens
 
 <div class="notes">
 Weitere Informationen:
-* [Ansichtskarte](https://ansichtskarten-lexikon.de/ak-221752.html)
+<ul>
+<li><a href="https://ansichtskarten-lexikon.de/ak-221752.html">Ansichtskarte</a></li>
+</ul>
 </div>
