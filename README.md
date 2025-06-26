@@ -59,3 +59,6 @@ See also [IDN-Web-Converter](https://www.denic.de/service/tools/idn-web-converte
 ```
 /usr/local/bin/hugo server -D -F --debug --disableFastRender --renderToDisk
 ```
+
+# Date series generator
+https://onlinetools.com/time/generate-date-sequence
