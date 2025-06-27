@@ -12,6 +12,11 @@ resources:
 tags:
 - "Material: Holz"
 - Hotel
+geojson:
+  coordinates:
+  - 10.2671364
+  - 47.4084333
+  precision: exact
 ---
 Alpenhorst
 

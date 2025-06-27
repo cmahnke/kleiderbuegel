@@ -16,7 +16,7 @@ tags:
 geojson:
   coordinates:
   - 0.0792201
-  - 52.623928,
+  - 52.623928
   precision: exact
 ---
 WARG
