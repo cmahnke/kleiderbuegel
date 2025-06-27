@@ -16,7 +16,7 @@ resources:
     iiif: back/info.json
 tags:
 - Hamburg
-- Wäscherei
+- Reinigung
 - "Material: Holz"
 - Beidseitig
 geojson:
