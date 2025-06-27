@@ -13,10 +13,12 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Kassel
+- Beidseitig
 ---
 
-
 Karl Busam Herrenbekleidung
+
+[Auch Rückseite]
 
 <div class="notes">
 Weitere Informationen:
