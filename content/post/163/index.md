@@ -12,11 +12,6 @@ resources:
 tags:
   - "Material: Holz"
   - Werbung
-geojson:
-  coordinates:
-  - 8.8246852
-  - 54.7881493
-  precision: exact
 ---
 FRISIERCREME
 Brisa
