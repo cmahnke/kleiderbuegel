@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Maßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Maßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Maßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/144/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.2864904,52.5955534]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "flebbe",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        flebbe\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eflebbe\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.braunschweig.de/leben/stadtplanung_bauen/stadtbild_denkmalpflege/denkmalpflege/Datenblatt_Flebbe_Internet.pdf\"\u003eDas Flebbe-Haus bei der Denkmalpflege Braunschweig\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/143/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
