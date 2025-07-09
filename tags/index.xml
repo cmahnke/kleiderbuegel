@@ -10,17 +10,31 @@
     <lastBuildDate>Sat, 28 Jun 2025 07:41:18 +0200</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Berlin</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/berlin/</link>
-      <pubDate>Tue, 01 Jul 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/berlin/</guid>
+      <title>Gaststätte</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/gastst%C3%A4tte/</link>
+      <pubDate>Tue, 08 Jul 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/gastst%C3%A4tte/</guid>
       <description></description>
     </item>
     <item>
       <title>Material: Holz</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Tue, 01 Jul 2025 12:47:44 +0200</pubDate>
+      <pubDate>Tue, 08 Jul 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Winningen</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/winningen/</link>
+      <pubDate>Tue, 08 Jul 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/winningen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Berlin</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/berlin/</link>
+      <pubDate>Tue, 01 Jul 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/berlin/</guid>
       <description></description>
     </item>
     <item>
@@ -168,20 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/g%C3%B6ttingen/</link>
       <pubDate>Tue, 18 Feb 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/g%C3%B6ttingen/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Höxter</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/h%C3%B6xter/</link>
-      <pubDate>Tue, 04 Feb 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/h%C3%B6xter/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ketelsen</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/ketelsen/</link>
-      <pubDate>Tue, 28 Jan 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/ketelsen/</guid>
       <description></description>
     </item>
   </channel>
