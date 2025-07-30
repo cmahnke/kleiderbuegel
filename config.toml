@@ -132,3 +132,7 @@ defaultMarkdownHandler = 'goldmark'
   outputs = ['html','rss', 'iiif-collection']
   [cascade._target]
     kind = "term"
+
+[security]
+  [security.http]
+    mediaTypes = ['^application/json$', '^application/json;\s?charset=[uU][tT][fF]-8$', '^application/sparql-results\+json;\s?charset=[uU][tT][fF]-8$']
