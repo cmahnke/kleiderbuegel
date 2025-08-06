@@ -7,6 +7,29 @@
           "Kleiderbügel"
         ]},
     "items": [{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/149/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/149/front_hu_58f56cd0e144a212.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 187,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/149/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2451,
+        "width": 3933,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/149/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Erdmann Kleidung"
+            ]}
+        },{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/148/manifest.json",
           "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/148/front_hu_8c923fefcdecda02.png",
