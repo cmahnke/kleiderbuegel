@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Mon, 11 Aug 2025 18:20:13 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2025 20:04:28 +0200</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beidseitig</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/beidseitig/</link>
+      <pubDate>Tue, 12 Aug 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/beidseitig/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Material: Holz</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
+      <pubDate>Tue, 12 Aug 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Schloss Holte</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/schloss-holte/</link>
+      <pubDate>Tue, 12 Aug 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/schloss-holte/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bekleidungsgeschäft</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</link>
@@ -21,13 +42,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hannover/</link>
       <pubDate>Tue, 05 Aug 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hannover/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Material: Holz</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Tue, 05 Aug 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
       <description></description>
     </item>
     <item>
@@ -168,20 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/f%C3%A4rberei/</link>
       <pubDate>Tue, 11 Mar 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/f%C3%A4rberei/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reinigung</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</link>
-      <pubDate>Tue, 11 Mar 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cuxhaven</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/cuxhaven/</link>
-      <pubDate>Tue, 04 Mar 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/cuxhaven/</guid>
       <description></description>
     </item>
   </channel>
