@@ -7,20 +7,34 @@
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Wed, 13 Aug 2025 13:20:11 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 19 Aug 2025 23:56:43 +0200</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beidseitig</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/beidseitig/</link>
-      <pubDate>Tue, 12 Aug 2025 12:47:44 +0200</pubDate>
+      <pubDate>Tue, 19 Aug 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/beidseitig/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Färberei</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/f%C3%A4rberei/</link>
+      <pubDate>Tue, 19 Aug 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/f%C3%A4rberei/</guid>
       <description></description>
     </item>
     <item>
       <title>Material: Holz</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Tue, 12 Aug 2025 12:47:44 +0200</pubDate>
+      <pubDate>Tue, 19 Aug 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Osnabrück</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/osnabr%C3%BCck/</link>
+      <pubDate>Tue, 19 Aug 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/osnabr%C3%BCck/</guid>
       <description></description>
     </item>
     <item>
@@ -168,20 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/warenhaus/</link>
       <pubDate>Tue, 01 Apr 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/warenhaus/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hertie</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hertie/</link>
-      <pubDate>Tue, 18 Mar 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hertie/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Färberei</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/f%C3%A4rberei/</link>
-      <pubDate>Tue, 11 Mar 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/f%C3%A4rberei/</guid>
       <description></description>
     </item>
   </channel>
