@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eKarl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/152/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.88396,51.34103]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Färberei Croon Osnabrück",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Färberei Croon Osnabrück\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eFärberei Croon Osnabrück\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/151/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
