@@ -7,20 +7,41 @@
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Tue, 09 Sep 2025 10:16:28 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 12:42:39 +0200</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Beidseitig</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/beidseitig/</link>
-      <pubDate>Tue, 02 Sep 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/beidseitig/</guid>
+      <title>Bekleidungsgeschäft</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</link>
+      <pubDate>Tue, 09 Sep 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloppenburg</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/cloppenburg/</link>
+      <pubDate>Tue, 09 Sep 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/cloppenburg/</guid>
       <description></description>
     </item>
     <item>
       <title>Material: Holz</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Tue, 02 Sep 2025 12:47:44 +0200</pubDate>
+      <pubDate>Tue, 09 Sep 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Union</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/union/</link>
+      <pubDate>Tue, 09 Sep 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/union/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beidseitig</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/beidseitig/</link>
+      <pubDate>Tue, 02 Sep 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/beidseitig/</guid>
       <description></description>
     </item>
     <item>
@@ -63,13 +84,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/schloss-holte/</link>
       <pubDate>Tue, 12 Aug 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/schloss-holte/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bekleidungsgeschäft</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</link>
-      <pubDate>Tue, 05 Aug 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</guid>
       <description></description>
     </item>
     <item>
@@ -168,20 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-metall/</link>
       <pubDate>Tue, 06 May 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-metall/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Union</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/union/</link>
-      <pubDate>Tue, 06 May 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/union/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hettlage</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hettlage/</link>
-      <pubDate>Tue, 22 Apr 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hettlage/</guid>
       <description></description>
     </item>
   </channel>
