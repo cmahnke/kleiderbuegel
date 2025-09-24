@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Herrenkleidung flebbe Braunschweig",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Herrenkleidung flebbe Braunschweig\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eHerrenkleidung\nflebbe\nBraunschweig\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\n  Siehe auch \u003ca href=\"/post/143\"\u003eflebbe (#143)\u003c/a\u003e\n\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/156/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.5228263,52.2624323]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "ALANA FURS",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        ALANA FURS\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eCold Fur Storage \u0026amp; Repairs ALANA FURS 676 Yonge St. WA 5-3441\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/153/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
