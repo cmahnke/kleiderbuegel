@@ -1,0 +1,106 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/",
+"viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/front_hu_6619570b5058c23e.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 132,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1718,
+        "width": 3890,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Kleiderbügel: Färberei HOTHO Reinigung"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Färberei HOTHO Reinigung"
+    ]}
+,"items": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 1718,
+            "width": 3890,
+            "thumbnail": [{
+                "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/front_hu_6619570b5058c23e.png",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 132,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 1718,
+                  "width": 3890,
+                  "service": [{
+                    "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/canvas/front"
+            }]
+          }]
+       }]
+}
