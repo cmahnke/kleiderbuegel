@@ -2,6 +2,10 @@
 
 set -e
 
+if [ -z "$DEPENDENCY_MANAGER" ] ; then
+  DEPENDENCY_MANAGER=npm
+fi
+
 # IIIF tiles
 echo "Set SKIP_IIIF to something to disable generation of IIIF derivates"
 
@@ -29,8 +33,8 @@ done
 # Favicons
 SOURCE="static/images/kleiderbuegel.png" OPTIONS="-resize 128x128 -fuzz 5% -transparent white" ./themes/projektemacher-base/scripts/favicon.sh
 
-yarn install
-yarn svgo
+$DEPENDENCY_MANAGER install
+$DEPENDENCY_MANAGER svgo
 
 ./scripts/map.sh
 ./scripts/svgo.sh
