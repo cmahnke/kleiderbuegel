@@ -34,7 +34,7 @@ done
 SOURCE="static/images/kleiderbuegel.png" OPTIONS="-resize 128x128 -fuzz 5% -transparent white" ./themes/projektemacher-base/scripts/favicon.sh
 
 $DEPENDENCY_MANAGER install
-$DEPENDENCY_MANAGER svgo
+$DEPENDENCY_MANAGER run svgo
 
 ./scripts/map.sh
 ./scripts/svgo.sh
