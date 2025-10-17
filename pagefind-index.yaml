@@ -16,6 +16,8 @@ files:
     - 'privacy/**'
     - 'en/privacy/**'
     - '404.html'
+    - 'map/**'
+    - 'en/map/**'
 content:
   ignore:
     - "<meta http-equiv=\"refresh\" content=\"0; url="

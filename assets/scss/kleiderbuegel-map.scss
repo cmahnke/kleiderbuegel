@@ -17,8 +17,28 @@
 
 .map-wrapper {
   border-radius: 5px;
-  
+
+  @media screen and (min-width: 740px) {
+    min-height: 60vh; 
+  }
+
   canvas {
     border-radius: 5px;
+  }
+
+  .ol-popup {
+    h1 {
+      padding: 1rem 0 0 0 !important;
+    }
+    .geojsonPopup {
+      .content {
+        padding: unset !important;
+
+        p {
+          margin-block-start: unset;
+          margin-block-end: unset;
+        }
+      }
+    }
   }
 }
