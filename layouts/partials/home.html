@@ -6,8 +6,8 @@
           {{- range where $hangers "Params.type" "eq" "hanger" -}}
             {{- $title := .Params.title -}}
             {{- $front := .Resources.GetMatch "front*" -}}
-            {{- $thumb := $front.Resize "330x" -}}
-            {{- $large := $front.Resize "1600x" -}}
+            {{- $thumb := $front.Resize "330x webp picture" -}}
+            {{- $large := $front.Resize "1600x webp picture" -}}
             {{- $content := (partial "page.html" .) -}}
             {{- $id := delimit (shuffle (seq 1 9)) "" -}}
             <li>

@@ -18,7 +18,8 @@ $font-color-body: #412b15;
 
 /* Content area */
 $content-width: 80%;
-$max-width: 64em;
+/* $max-width: 64em; */
+$max-width: 75%;
 $content-bg-color: rgba(255, 255, 255, 0.7);
 
 /* Background settings */
@@ -277,7 +278,7 @@ strong {
 $kleidungsstueck-border-radius: 10px;
 
 #kleidungsstueck {
-    width: 70%;
+    width: 75%;
     margin: auto;
     transition: 0.2s;
     border-radius: $kleidungsstueck-border-radius;

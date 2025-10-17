@@ -33,6 +33,13 @@
     {{- if and (ne .Page.File nil) (ne .Page.File.Path nil) -}}
       {{- if or (hasPrefix .Page.File.Path "about") (hasPrefix .Page.File.Path "/about") -}}
         {{- $class = "about" -}}
+      {{- else -}}
+        {{- if ne .Section "" -}}
+          {{- $class = printf "%s section-%s" $class .Section -}}
+        {{- end -}}
+        {{- with .File.Dir -}}
+          {{- $class = printf "%s dir-%s" $class (replace . "/" "" ) -}}
+        {{- end -}}
       {{- end -}}
     {{- end -}}
     {{- if .IsHome -}}

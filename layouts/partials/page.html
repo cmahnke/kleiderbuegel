@@ -12,11 +12,11 @@
           {{- if eq $front nil -}}
             {{- errorf "[page.html] Failed to load images for %s" .RelPermalink -}}
           {{- end -}}
-          {{- $large := $front.Resize "1600x" -}}
+          {{- $large := $front.Resize "1600x webp picture" -}}
           <img class="buegel-font hanger-img" src="{{ $large.RelPermalink }}" alt="{{ .Title }}"/>
         </div>
         {{- with .Resources.GetMatch "back*" -}}
-            {{- $largeBack := .Resize "1600x" -}}
+            {{- $largeBack := .Resize "1600x webp picture" -}}
             <img class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ .Title }}"/>
         {{- end }}
       {{- end -}}
