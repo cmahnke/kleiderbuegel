@@ -20,7 +20,9 @@
       <div id="kleidungsstueck">
         </div>
       <script>
-        initFlipster(document.getElementById('klamotten'));
+        const elem = "#klamotten";
+        initFlipster(elem);
+        //initSlider(elem);
       </script>
 </div>
 
@@ -29,23 +31,23 @@
 {{- $paginator := .Paginate $pages -}}
 <div class="post-list">
   {{- range $paginator.Pages  -}}
-      {{ partial "page.html" . }}
+    {{ partial "page.html" . }}
   {{ end }}
 </div>
 {{ if or ($paginator.HasPrev) ($paginator.HasNext) -}}
   <div class="navi">
-      <div class="pagination">
-          <div>
-            {{ if $paginator.HasNext }}
-              <a class="next" href="{{ $paginator.Next.URL }}">&laquo;Vorige Seite</a>
-            {{ end }}
-            {{- $currentPage := $paginator.PageNumber -}}
-            {{- $totalPages := $paginator.TotalPages -}}
-            <span id="page">Seite {{ $currentPage }} von {{ $totalPages }}</span>
-            {{ if $paginator.HasPrev }}
-              <a class="previous" href="{{ $paginator.Prev.URL }}">Nächste Seite&raquo;</a>
-            {{ end }}
-        </div>
+    <div class="pagination">
+      <div>
+        {{ if $paginator.HasNext }}
+          <a class="next" href="{{ $paginator.Next.URL }}">&laquo;Vorige Seite</a>
+        {{ end }}
+        {{- $currentPage := $paginator.PageNumber -}}
+        {{- $totalPages := $paginator.TotalPages -}}
+        <span id="page">Seite {{ $currentPage }} von {{ $totalPages }}</span>
+        {{ if $paginator.HasPrev }}
+          <a class="previous" href="{{ $paginator.Prev.URL }}">Nächste Seite&raquo;</a>
+        {{ end }}
+      </div>
     </div>
   </div>
 {{- end }}

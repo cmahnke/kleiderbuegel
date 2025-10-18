@@ -1,7 +1,16 @@
 <nav class="top">
+  {{- $basePath := "" -}}
+  {{- if and (ne .File nil) (ne .File.Dir nil) -}}
+    {{- $basePath = trim .File.Dir "/" -}}
+  {{- end -}}
+  {{- $basePath = replaceRE "^(.*)/.*$" "$1" $basePath -}}
   {{ with .Site.Menus.main}}
-      {{ range sort . }}
-          <a class="navigation-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
-      {{ end }}
+    {{ range sort . }}
+      {{- $class := "navigation-link" -}}
+      {{- if eq (trim (path.Base .URL) "/") $basePath -}}
+        {{- $class = printf "current %s" $class -}}
+      {{- end -}}
+      <a class="{{ $class }}" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+    {{ end }}
   {{ end }}
 </nav>

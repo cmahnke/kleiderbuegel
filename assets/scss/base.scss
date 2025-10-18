@@ -169,7 +169,22 @@ strong {
     font-weight: 400;
     font-size: larger;
 
-    .menu {}
+    @media screen and (min-width: 740px) {
+      display: flex;
+      align-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .header-logo {
+        height: 8rem;
+        margin-bottom: unset;
+      }
+
+      .menu {
+        align-content: center;
+      }
+    }
 
     nav.top {
         padding-top: 2em;
