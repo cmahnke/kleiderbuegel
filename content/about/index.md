@@ -12,12 +12,45 @@ Bei einigen Kleiderbügeln ist auch die Quelle angegeben, allerdings habe ich es
 
 An dieser Stelle einen herzlichen Dank an Gwen von [KiM Göttingen](https://www.neue-arbeit-brockensammlung.de/zweigstelle-kim/) für ihre Unterstützung!
 
-Die Kleiderbügel auf dieser Seite stehen nicht zum Verkauf! Allerdings bin ich bereit zu tauschen oder zu spenden, wenn eine der folgenden Kriterien auf die Anfrage zutrifft:
+Die Kleiderbügel auf dieser Seite stehen nicht zum Verkauf! Allerdings bin ich bereit zu tauschen, zu spenden oder zu leihen, wenn eine der folgenden Kriterien auf die Anfrage zutrifft:
 
 * Private Sammler: Sie haben eine renommierte Sammlung (nachgewiesen durch Medienberichterstattung) oder stellen ihre Sammlung öffentlich recherchierbar (z.B. durch Online-Katalog) bereit. Zusätzlich bieten sie ein gleichwertiges Objekt zum Tausch an.
 * Öffentliche Einrichtungen (wie Archive und Museen): Sie stellen das Objekt (digitalisiert und mit Metadaten ausgestattet) kurzfristig in ein über das Web zugängliches Rechercheportal (wie "[Archivportal D](https://www.archivportal-d.de/)") ein und nennen in den Metadaten den Spender.
+* Für Leihgaben werden eine Namensnennung, ein Belegexemplar des Katalogs bzw. ein Foto im Kontext (mit vollen und dauerhaften Nutzungs- und Verwertungsrechten) erwartet.
+
+Weitere Informationen finden sie in in entsprechenden Abschnitten meiner Homepage:
+* [Schenkungen  / Spenden](https://christianmahnke.de/collections/#donations)
+* [Leihgaben](https://christianmahnke.de/collections/#loans)
 
 Bitte gehen sie bei Anfragen auf diese Punkte ein.
+
+# Statistiken
+
+* Alle Kleiderbügel: **{{< post-count section=post >}}**
+* Materialien
+  * Aus Holz **{{< tags/tag-count "Material: Holz" true >}}**
+  * Aus Plastik **{{< tags/tag-count "Material: Plastik" true >}}**
+  * Aus Metall **{{< tags/tag-count "Material: Metall" true >}}**
+* Beidseitig beschriftete **{{< tags/tag-count "Beidseitig" true >}}**
+* Spezifische Hersteller
+  * Union **{{< tags/tag-count "Union" true >}}**
+
+* Arten von
+  * Bekleidungsgeschäft **{{< tags/tag-count "Bekleidungsgeschäft" true >}}**
+  * Warenhaus **{{< tags/tag-count "Warenhaus" true >}}**
+  * Hotel **{{< tags/tag-count "Hotel" true >}}**
+  * Pelze **{{< tags/tag-count "Pelze" true >}}**
+  * Färberei **{{< tags/tag-count "Färberei" true >}}**
+  * Staatliche Organisation **{{< tags/tag-count "Staatliche Organisation" true >}}**
+  * Schneiderei **{{< tags/tag-count "Schneiderei" true >}}**
+
+* Handelsketten
+  * Karstadt **{{< tags/tag-count "Karstadt" true >}}**
+  * Hettlage **{{< tags/tag-count "Hettlage" true >}}**
+
+* Weitere Klassifikationen
+  * Werbung **{{< tags/tag-count "Werbung" true >}}**
+  * Scherzartikel **{{< tags/tag-count "Scherzartikel" true >}}**
 
 # Schlagworte
 

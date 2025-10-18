@@ -1,0 +1,12 @@
+{{- $tag := .Get 0 -}}
+{{- $link := false -}}
+{{- with .Get 1 -}}
+  {{- $link = . -}}
+{{- end -}}
+{{- $pages := where site.Pages "Params.tags" "intersect" (slice $tag) -}}
+{{- if eq $link true -}}
+  {{- $tagURL := printf "tags/%s" ($tag | urlize) | relURL -}}
+  <a href="{{ $tagURL }}">{{- len $pages -}}</a>
+{{- else -}}
+  {{- len $pages -}}
+{{- end -}}
