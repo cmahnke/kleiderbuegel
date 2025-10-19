@@ -15,19 +15,16 @@ tags:
   - Braunschweig
   - Beidseitig
   - Bekleidungsgeschäft
+doublesided: true
 geojson:
   coordinates:
   - 10.5228263
   - 52.2624323
   precision: exact
+related: |
+  * [flebbe (#143)](/post/143)
 ---
 
 Herrenkleidung
 flebbe
 Braunschweig
-
-[Auch Rückseite]
-
-<div class="notes">
-  Siehe auch <a href="/post/143">flebbe (#143)</a>
-</div>

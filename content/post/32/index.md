@@ -12,7 +12,6 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---
 BUNDESEIGENTUM
-
-<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>

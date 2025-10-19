@@ -18,8 +18,7 @@ geojson:
   - 8.74474
   - 50.35916
   precision: exact
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 
 [Klinik Wetterau der BfA](https://wetterau.deutsche-rentenversicherung-reha-zentren.de/)
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

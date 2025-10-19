@@ -18,11 +18,9 @@ geojson:
   - 9.93228
   - 51.53443
   precision: city
+related: |
+  * [Wäscherei MEYER (#42)](/post/42)
 ---
 Wäscherei Kleiderbad
 Meyer
 Chem. Reinigung
-
-<div class="notes">
-  Siehe auch <a href="/post/42">Wäscherei MEYER (#42)</a>
-</div>

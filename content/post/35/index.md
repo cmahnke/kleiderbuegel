@@ -19,6 +19,8 @@ resources:
 - src: "back.png"
   params:
     iiif: back/info.json
+    content: Für gute Kleidung Ebbinghaus
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 geojson:
   coordinates:
   - 13.3346602
@@ -27,9 +29,3 @@ geojson:
 # https://de.wikipedia.org/wiki/Willi_Ebbinghaus
 ---
 Berlin hat es längst heraus . . . .
-
-
-Für gute Kleidung Ebbinghaus
-
-
-<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>

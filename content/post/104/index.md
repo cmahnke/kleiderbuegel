@@ -9,6 +9,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+doublesided: true
 tags:
 - "Material: Holz"
 - Braunschweig
@@ -22,5 +23,3 @@ geojson:
 Braunschweig
 Poplau & Co.
 Damm 1
-
-[Auch Rückseite]

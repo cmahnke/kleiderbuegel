@@ -18,8 +18,7 @@ geojson:
   - 9.99997
   - 51.70662
   precision: city
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---
 Northeim
 Hasse & Söhne Hosen u. Berufsbekleidung
-
-<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>

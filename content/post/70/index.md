@@ -18,8 +18,7 @@ geojson:
   - 11.76398
   - 47.695456
   precision: exact
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 
 Hotel Bachmair am See Rottach - Egern / Tegernsee
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

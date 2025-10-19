@@ -18,12 +18,7 @@ geojson:
   - 11.5720278
   - 48.1430004
   precision: exact
+remarks: |
+  * [Eintrag bei kleidermoden - Das Modeportal](https://www.kleidermoden.com/mode-zechbauer-gmbh-in-muenchen-4999)
 ---
 Zechbauer Herrenausstatter
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.kleidermoden.com/mode-zechbauer-gmbh-in-muenchen-4999">Eintrag bei kleidermoden - Das Modeportal</a></li>
-</ul>
-</div>

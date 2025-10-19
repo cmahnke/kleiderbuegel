@@ -18,6 +18,8 @@ geojson:
   - 8.8246852
   - 54.7881493
   precision: exact
+remarks: |
+  * [Aktuelle Webseite](https://www.arthur-johannsen.de/)
 ---
 
 Arthur
@@ -25,7 +27,3 @@ Johannsen
 
 Herren-Spezialgeschäft
 Niebüll Ruf 505
-
-<div class="notes">
-  Siehe auch <a href="https://www.arthur-johannsen.de/">Aktuelle Webseite</a>
-</div>

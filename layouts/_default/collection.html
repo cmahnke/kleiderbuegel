@@ -1,0 +1,23 @@
+{{ define "title" }}
+  {{- .Title }} · {{ .Site.Title -}}
+{{ end }}
+{{ define "content" }}
+  {{- $hangers := where .Site.RegularPages "Section" "in" "post" -}}
+  {{ range .Site.Home.Translations }}
+    {{ $hangers = $hangers | lang.Merge .Site.RegularPages }}
+  {{ end }}
+  {{- $hangers = where $hangers "Params.type" "eq" "hanger" -}}
+
+  <div class="kleiderstange"></div>
+  <div class="post-list">
+    {{ $pages := .Pages }}
+    {{ $paginator := .Paginate (where $hangers "Params.displayinlist" "!=" false) -}}
+    {{- range $paginator.Pages  -}}
+      {{ partial "page.html" . }}
+    {{ end }}
+    {{- if or ($paginator.HasPrev) ($paginator.HasNext) -}}
+      {{- partial "pagination.html" (dict "context" . "paginator" $paginator) -}}
+    {{- end -}}
+  </div>
+  <div class="post spacer"></div>
+{{ end }}

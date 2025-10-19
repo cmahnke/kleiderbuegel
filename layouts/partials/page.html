@@ -17,10 +17,15 @@
         </div>
         {{- with .Resources.GetMatch "back*" -}}
             {{- $largeBack := .Resize "1600x webp picture" -}}
-            <img class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ .Title }}"/>
+            <img loading="lazy" class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ .Title }}"/>
+            {{- with .Params.content -}}
+              <div class="back-content">
+                {{- . | markdownify -}}
+              </div>
+            {{- end }}
         {{- end }}
       {{- end -}}
-      {{ .Content }}
+      {{- partial "post-content.html" . -}}
      </div>
     {{- if and (not .Params.hideMeta) (not .Params.metaPage) -}}
       <div class="meta">
@@ -42,14 +47,8 @@
               <div class="number"> {{ $position }} / {{ len $hangers }}</div>
             {{- end -}}
         </div>
-        {{ if isset .Params "tags" }}
-            <div class="tags">
-                {{ range $tag := .Params.tags }}
-                    <a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">#{{ $tag }}</a><br />
-                {{ end }}
-            </div>
-        {{ end }}
-        <div class="permalink"><a href="{{ .RelPermalink }}">Permalink</a></div>
+        {{- partial "tags.html" . -}}
+        <div class="permalink"><a href="{{ .RelPermalink }}">{{ i18n "Permalink" }}</a></div>
       </div>
     {{- end -}}
 </div>

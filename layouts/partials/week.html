@@ -1,0 +1,34 @@
+{{- with (index . 0) -}}
+  {{ $class := .Params.type }}
+  <div class="post {{ $class }} weekly">
+      <div class="content">
+        <h1 class="post-title">{{ i18n "weekEntry" }}: {{ .Title }}</h1>
+        {{ if eq $class "hanger" }}
+          <div class="hanger-front">
+            {{- $front := .Resources.GetMatch "front*" -}}
+            {{- if eq $front nil -}}
+              {{- errorf "[page.html] Failed to load images for %s" .RelPermalink -}}
+            {{- end -}}
+            {{- $large := $front.Resize "1600x webp picture" -}}
+            <img class="buegel-font hanger-img" src="{{ $large.RelPermalink }}" alt="{{ .Title }}"/>
+          </div>
+          {{- with .Resources.GetMatch "back*" -}}
+              {{- $largeBack := .Resize "1600x webp picture" -}}
+              <img class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ .Title }}"/>
+          {{- end }}
+        {{- end -}}
+        {{- partial "post-content.html" . -}}
+       </div>
+      {{- if and (not .Params.hideMeta) (not .Params.metaPage) -}}
+        <div class="meta">
+          <div class="date">
+
+          </div>
+          <div class="meta-spacer">
+          </div>
+          {{- partial "tags.html" . -}}
+          <div class="permalink"><a href="{{ .RelPermalink }}">{{ i18n "Permalink" }}</a></div>
+        </div>
+      {{- end -}}
+  </div>
+{{- end -}}

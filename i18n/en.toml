@@ -1,0 +1,76 @@
+[nextPage]
+other = "&laquo; Previuos page"
+
+[previousPage]
+other = "Next page &raquo;"
+
+[page]
+other = "Page"
+
+[pageOf]
+other = "of"
+
+[weekEntry]
+other = "Hanger of the week"
+
+[Permalink]
+other = "Permalink"
+
+[source]
+other = "Found at"
+
+[related]
+other = "See also"
+
+[remarks]
+other = "Further infomation"
+
+[donation]
+other = "Donated by"
+
+[doublesided]
+other = "Identical labeling on both sides"
+
+[Tag]
+other = "Tag"
+
+#Tags
+
+[Material__Holz]
+other = "Material: Wood"
+
+[Material__Plastik]
+other = "Material: Plastic"
+
+[Material__Metall]
+other = "Material: Metal"
+
+[Bekleidungsgesch_ft]
+other = "Clothing store"
+
+[Pelze]
+other = "Furrier"
+
+[Hotel]
+other = "Hotel"
+
+[Reinigung]
+other = "Cleaning service"
+
+[Staatliche_Organisation]
+other = "Governmental organization"
+
+[Warenhaus]
+other = "Department store"
+
+[F_rberei]
+other = "Dyeing shop "
+
+[Schneiderei]
+other = "Tailoring shop"
+
+[Scherzartikel]
+other = "Joke items"
+
+[Werbung]
+other = "Promotional item"

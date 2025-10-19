@@ -18,8 +18,7 @@ geojson:
   - 9.9909485
   - 53.5497924
   precision: exact
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 
 Damen-Bekleidung Hamburg J.Braun Gr. Johannisstraße 3 Herren-Bekleidung
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

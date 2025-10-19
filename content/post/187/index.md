@@ -9,20 +9,12 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+doublesided: true
 tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Hettlage
+remarks: |
+  * [Wikipedia Artikel über Hettlage](https://de.wikipedia.org/wiki/Hettlage_(Unternehmen))
 ---
 hettlage
-
-[Auch Rückseite]
-
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://de.wikipedia.org/wiki/Hettlage_(Unternehmen)">Wikipedia Artikel über Hettlage.</a></li>
-<li><a href="/tags/hettlage/">Andere "Hettlage"-Kleiderbügel</a></li>
-</ul>
-</div>

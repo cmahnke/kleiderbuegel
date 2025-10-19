@@ -18,8 +18,7 @@ geojson:
   - 10.52673
   - 52.26594
   precision: city
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 
 Bekleidungshaus Manschott Haus der 5000 Hosen
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

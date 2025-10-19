@@ -18,12 +18,6 @@ geojson:
   - 11.00985
   - 52.2279
   precision: city
+remarks: |
+  * [Im niedersächsischen Landesarchiv](https://www.arcinsys.niedersachsen.de/arcinsys/detailAction.action?detailid=v5258036)
 ---
-
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.arcinsys.niedersachsen.de/arcinsys/detailAction.action?detailid=v5258036">Im niedersächsischen Landesarchiv</a></li>
-</ul>
-</div>

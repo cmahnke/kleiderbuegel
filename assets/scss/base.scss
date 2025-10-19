@@ -18,6 +18,8 @@ $font-color-body: #412b15;
 
 /* Content area */
 $content-width: 80%;
+$post-max-width: 64rem;
+$border-radius: 1rem;
 /* $max-width: 64em; */
 $max-width: 75%;
 $content-bg-color: rgba(255, 255, 255, 0.7);
@@ -93,6 +95,13 @@ body {
             h3 {
               padding-bottom: .6em !important;
             }
+            
+            ul {
+              li p,
+              ul {
+                margin: unset;
+              }
+            }
 
             .tagcloud {
               margin: 1em auto;
@@ -131,6 +140,8 @@ body {
     }
 
     &.meta {
+        font-size: larger;
+
         .number {
             text-align: center;
         }
@@ -170,11 +181,20 @@ strong {
     font-size: larger;
 
     @media screen and (min-width: 740px) {
+      background-color: color-mix(in srgb, color-mix(in srgb, #cbb197 25%, white), transparent);
+      padding-bottom: 1.4rem;
       display: flex;
       align-content: center;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
+      font-size: x-large;
+      /*
+      width: $content-width;
+      padding: auto;
+      justify-content: space-between;
+      */
+
 
       .header-logo {
         height: 8rem;
@@ -183,6 +203,17 @@ strong {
 
       .menu {
         align-content: center;
+      }
+
+      .current.navigation-link {
+        position: relative;
+
+        &:before {
+          position: absolute;
+          left: -.1rem;
+          top: .9rem;
+          content: '▸';
+        }
       }
     }
 
@@ -227,7 +258,8 @@ strong {
 }
 
 #schrank {
-    position: relative;
+  padding-top: 1rem;
+  position: relative;
 }
 
 .kleiderstange {
@@ -246,7 +278,7 @@ strong {
 }
 
 #klamotten {
-    padding-top: 2.3em;
+    padding-top: 2.2rem;
     overflow-y: hidden;
 
     ul {
@@ -290,7 +322,7 @@ strong {
         backface-visibility: visible;
     }
 }
-$kleidungsstueck-border-radius: 10px;
+$kleidungsstueck-border-radius: $border-radius;
 
 #kleidungsstueck {
     width: 75%;
@@ -392,14 +424,30 @@ $kleidungsstueck-border-radius: 10px;
         .post {
             .content {
                 margin: auto;
-                border-top-right-radius: 5px;
-                border-top-left-radius: 5px;
+                border-top-right-radius: $border-radius;
+                border-top-left-radius: $border-radius;
+
+                .hanger-content {
+                    font-weight: bolder;
+                }
+
+                .additional-content {
+                  margin-top: 1rem;
+                  width: 90%;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+
+                  .additional-header {
+                    font-size: larger;
+                  }
+                }
             }
         }
 
         .meta {
-            border-bottom-right-radius: 5px;
-            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: $border-radius;
+            border-bottom-left-radius: $border-radius;
             margin-bottom: 1.5em !important;
         }
     }
@@ -425,12 +473,23 @@ $kleidungsstueck-border-radius: 10px;
     .post {
         &.hanger,
         &.text {
+          /*
+            max-width: $post-max-width;
+            margin: auto;
+          */
+
             h2,
             p {
                 margin: 0 1rem;
                 padding-top: 1rem;
                 padding-bottom: 1rem;
             }
+        }
+
+        &.weekly {
+          background-color: hsla(0, 0%, 100%, .7) !important;
+          box-sizing: border-box;
+          border-radius: $border-radius;
         }
 
         &.hanger p {
@@ -440,8 +499,8 @@ $kleidungsstueck-border-radius: 10px;
 
         .content {
             background-color: $content-bg-color;
-            border-top-right-radius: 5px;
-            border-top-left-radius: 5px;
+            border-top-right-radius: $border-radius;
+            border-top-left-radius: $border-radius;
             /* width: 80%; */
             margin: auto;
             box-sizing: border-box;
@@ -458,6 +517,7 @@ $kleidungsstueck-border-radius: 10px;
         }
 
         .meta {
+            font-size: larger;
             background-color: $content-bg-color;
             box-sizing: border-box;
             /* width: 80%; */
@@ -481,18 +541,21 @@ $kleidungsstueck-border-radius: 10px;
 
             .tags {
                 float: right;
-                width: 15%
+                width: 15%;
+                min-width: fit-content;
             }
 
             .permalink {
+                margin-top: .6rem;
                 flex-basis: 100%;
-                text-align: center;
+                text-align: end;
                 font-size: small;
             }
         }
     }
 
     .footer {
+
         font-weight: 400;
         margin: auto;
         padding: 1.5em 1.5em 0.5em;
@@ -550,8 +613,8 @@ $kleidungsstueck-border-radius: 10px;
         margin-left: auto;
         width: 80%;
         padding: 1.5em;
-        border-top-right-radius: 5px;
-        border-top-left-radius: 5px;
+        border-top-right-radius: $border-radius;
+        border-top-left-radius: $border-radius;
         min-height: 100%;
         text-align: justify;
         max-width: $max-width;
@@ -570,6 +633,7 @@ $kleidungsstueck-border-radius: 10px;
             background-color: unset;
             margin: unset;
             border-radius: 5px;
+
         }
 
         .meta {
@@ -586,9 +650,9 @@ $kleidungsstueck-border-radius: 10px;
 }
 
 .post.spacer {
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    height: 5px;
+    border-top-right-radius: $border-radius;
+    border-top-left-radius: $border-radius;
+    height: $border-radius;
     background-color: $content-bg-color;
     width: 80%;
     margin: auto;
@@ -625,8 +689,13 @@ $kleidungsstueck-border-radius: 10px;
 
 .navi {
     .pagination {
-        text-align: center;
+        display: flex;
+        flex-direction: row;
         margin-bottom: 1em;
+        width: 50%;
+        margin: auto;
+        justify-content: space-between;
+            margin-bottom: 1.6rem;
     }
 
     #page {
@@ -654,4 +723,29 @@ p.small {
     font-weight: bold;
     font-size: larger;
     text-align: center;
+}
+
+.all-hangers {
+  max-width: 100vw;
+
+  thead {
+    background-color: hsla(0, 0%, 100%, .7);
+  }
+
+  p {
+    margin: unset !important;
+    margin-block-start: unset;
+    margin-block-end: unset;
+  }
+
+  td {
+    padding: .2rem;
+    word-break: break-all;
+    background-color: hsla(0, 0%, 100%, .7);
+
+    &.id {
+      word-break: unset;
+    }
+  }
+
 }

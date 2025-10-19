@@ -12,6 +12,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 geojson:
   coordinates:
   - 4.8527235
@@ -22,6 +23,3 @@ geojson:
 Schröder & Zn.
 Amstelveenseweg 29
 Amsterdam
-
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

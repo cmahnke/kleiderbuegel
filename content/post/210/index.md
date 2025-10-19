@@ -12,17 +12,11 @@ resources:
 tags:
 - "Material: Plastik"
 - Werbung
+remarks: |
+  * [Wikipedia Eintrag](https://de.wikipedia.org/wiki/Puma_(Sportartikelhersteller))
 ---
 
 Puma
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://de.wikipedia.org/wiki/Puma_(Sportartikelhersteller)">Wikipedia Eintrag</a></li>
-
-</ul>
-</div>
 
 **In den unteren Rand geprägt:**
 F44 DBGM 1987 875 EP Kunststoffwerk 3551 Niederasphe Hamburg 44

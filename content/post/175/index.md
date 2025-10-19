@@ -14,23 +14,17 @@ tags:
 - München
 - Art Bekleidungsgeschäft
 - Beidseitig
+doublesided: true
 geojson:
   coordinates:
   - 11.576683
   - 48.137161
   precision: exact
+remarks: |
+  * [Wikipedia: Ludwig Beck am Rathauseck](https://de.wikipedia.org/wiki/Ludwig_Beck_am_Rathauseck)
+  * [Heutige Webseite](https://www.ludwigbeck.de/)
 ---
 Ludwig
 Beck
 Am Rathauseck
 München
-
-[Auch Rückseite]
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://de.wikipedia.org/wiki/Ludwig_Beck_am_Rathauseck">Wikipedia: Ludwig Beck am Rathauseck</a></li>
-<li><a href="https://www.ludwigbeck.de/">Heutige Webseite</a></li>
-</ul>
-</div>

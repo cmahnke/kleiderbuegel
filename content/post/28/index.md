@@ -19,7 +19,6 @@ geojson:
   - 9.9331461
   - 51.5320512
   precision: exact
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---
 Lagerbügel Karstadt, Göttingen
-
-<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>

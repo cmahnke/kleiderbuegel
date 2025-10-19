@@ -14,23 +14,16 @@ tags:
 - Hamburg
 - Bekleidungsgeschäft
 - Beidseitig
+doublesided: true
 geojson:
   coordinates:
   - 10.0156743
   - 53.5642842
   precision: exact
+remarks: |
+  [Aktuelle Webseite](https://www.eggerthamburg.com/)
 ---
 
 Mundsburger Damm 4 22007 Hamburg
 W.E. Eggert
 Amtstrachten Tel. 040 / 2201887 / 88
-
-
-[Auch Rückseite]
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.eggerthamburg.com/">Aktuelle Webseite</a></li>
-</ul>
-</div>

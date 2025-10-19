@@ -9,6 +9,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+doublesided: true
 tags:
   - "Material: Holz"
   - Beidseitig
@@ -16,5 +17,3 @@ tags:
 ---
 FÄRBEREI - CHEM. REINIGUNG SCHREINER
 Johannesstr. 9 Ruf 3721
-
-[Auch Rückseite]

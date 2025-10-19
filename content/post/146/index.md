@@ -16,12 +16,10 @@ geojson:
   - 7.5159238
   - 50.3133294
   precision: exact
+remarks: |
+  Leider nicht vollständig lesbar, aber wohl aus Frankreich
 ---
 CINTRES
 [B]EHLEB
 MODE[?]POSE
 TENDEUR
-
-<div class="notes">
-  Leider nicht vollständig lesbar, aber wohl aus Frankreich
-</div>

@@ -24,34 +24,6 @@ Weitere Informationen finden sie in in entsprechenden Abschnitten meiner Homepag
 
 Bitte gehen sie bei Anfragen auf diese Punkte ein.
 
-# Statistiken
-
-* Alle Kleiderbügel: **{{< post-count section=post >}}**
-* Materialien
-  * Aus Holz **{{< tags/tag-count "Material: Holz" true >}}**
-  * Aus Plastik **{{< tags/tag-count "Material: Plastik" true >}}**
-  * Aus Metall **{{< tags/tag-count "Material: Metall" true >}}**
-* Beidseitig beschriftete **{{< tags/tag-count "Beidseitig" true >}}**
-* Spezifische Hersteller
-  * Union **{{< tags/tag-count "Union" true >}}**
-
-* Arten von
-  * Bekleidungsgeschäft **{{< tags/tag-count "Bekleidungsgeschäft" true >}}**
-  * Warenhaus **{{< tags/tag-count "Warenhaus" true >}}**
-  * Hotel **{{< tags/tag-count "Hotel" true >}}**
-  * Pelze **{{< tags/tag-count "Pelze" true >}}**
-  * Färberei **{{< tags/tag-count "Färberei" true >}}**
-  * Staatliche Organisation **{{< tags/tag-count "Staatliche Organisation" true >}}**
-  * Schneiderei **{{< tags/tag-count "Schneiderei" true >}}**
-
-* Handelsketten
-  * Karstadt **{{< tags/tag-count "Karstadt" true >}}**
-  * Hettlage **{{< tags/tag-count "Hettlage" true >}}**
-
-* Weitere Klassifikationen
-  * Werbung **{{< tags/tag-count "Werbung" true >}}**
-  * Scherzartikel **{{< tags/tag-count "Scherzartikel" true >}}**
-
 # Schlagworte
 
 Die verwendeten Schlagworte beschreiben in der Regel den Ort und die Art des beworbenen Unternehmens.
@@ -59,6 +31,35 @@ Dabei werden z.B. Wäschereien und Reinigungen zu "Reinigung", Pelzhandlungen un
 Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
 
 {{< tags/cloud tag="kleiderbuegel" >}}
+
+## Weitere Statistiken
+
+* Alle Kleiderbügel: **{{< post-count section=post >}}**
+* Materialien
+  * Aus Holz: **{{< tags/tag-count "Material: Holz" true >}}**
+  * Aus Plastik: **{{< tags/tag-count "Material: Plastik" true >}}**
+  * Aus Metall: **{{< tags/tag-count "Material: Metall" true >}}**
+* Beidseitig beschriftete **{{< tags/tag-count "Beidseitig" true >}}**
+* Spezifische Hersteller
+  * Union: **{{< tags/tag-count "Union" true >}}**
+
+* Arten von
+  * Bekleidungsgeschäft: **{{< tags/tag-count "Bekleidungsgeschäft" true >}}**
+  * Warenhaus: **{{< tags/tag-count "Warenhaus" true >}}**
+  * Hotel: **{{< tags/tag-count "Hotel" true >}}**
+  * Pelze: **{{< tags/tag-count "Pelze" true >}}**
+  * Färberei: **{{< tags/tag-count "Färberei" true >}}**
+  * Staatliche Organisation: **{{< tags/tag-count "Staatliche Organisation" true >}}**
+  * Schneiderei: **{{< tags/tag-count "Schneiderei" true >}}**
+
+* Handelsketten
+  * Karstadt: **{{< tags/tag-count "Karstadt" true >}}**
+  * Hettlage: **{{< tags/tag-count "Hettlage" true >}}**
+
+* Weitere Klassifikationen
+  * Werbung: **{{< tags/tag-count "Werbung" true >}}**
+  * Scherzartikel: **{{< tags/tag-count "Scherzartikel" true >}}**
+  * Ohne Geodaten: **{{< hanger-param "geojson" "eq" nil >}}**
 
 # Meine anderen Blogs
 
@@ -72,7 +73,7 @@ Als Schriftarten kommen [Libre Baskerville](www.impallari.com/projects/overview/
 
 Als Javascript Framework kommt [jQuery](https://jquery.com/) mit dem Plugin [jQuery.Flipster](https://github.com/drien/jquery-flipster) zum Einsatz.
 
-Das [Einbinden der Bilder](https://gitlab.com/kaushalmodi/hugo-theme-refined/blob/master/layouts/shortcodes/figure.html), die [Tagcloud](http://www.johann-oberdorfer.eu/blog/2020/02/23/20-02-23_tag_cloud_for_hugo/) und die [Anzeige des deutschen Datumformats](https://pfischbeck.de/en/posts/multilingual-dates-in-hugo/) sind aus den jeweils angebenen Quellen übernommen.
+Das [Einbinden der Bilder](https://gitlab.com/kaushalmodi/hugo-theme-refined/blob/master/layouts/shortcodes/figure.html) und die [Tagcloud](http://www.johann-oberdorfer.eu/blog/2020/02/23/20-02-23_tag_cloud_for_hugo/) sind aus den jeweils angebenen Quellen übernommen.
 
 # Kontakt
 

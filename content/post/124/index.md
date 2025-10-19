@@ -11,8 +11,6 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Plastik"
+related: |
+  * [gelbe Variante (#100)](/post/100)
 ---
-
-<div class="notes">
-  Siehe auch <a href="/post/100">gelbe Variante</a>, Design Danielo Silverstein
-</div>

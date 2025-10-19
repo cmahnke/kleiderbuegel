@@ -1,0 +1,20 @@
+{{- $param := (printf "Params.%s" (.Get 0)) -}}
+{{- $op := "eq" -}}
+{{- with .Get 1 -}}
+  {{- $op = . -}}
+{{- end -}}
+
+{{- $val := true -}}
+{{- with .Get 2 -}}
+  {{- $val = . -}}
+{{- end -}}
+
+{{- $pages := where .Site.RegularPages "Section" "in" "post" -}}
+{{- $pages = where $pages "Params.type" "eq" "hanger" -}}
+{{- if eq $val "nil" -}}
+  {{- $pages = where $pages $param $op nil -}}
+{{- else -}}
+  {{- $pages = where $pages $param $op $val -}}
+{{- end -}}
+
+{{- len $pages -}}

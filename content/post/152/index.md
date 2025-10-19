@@ -9,6 +9,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+doublesided: true
 tags:
   - "Material: Holz"
   - Witzenhausen
@@ -20,5 +21,3 @@ geojson:
   precision: city
 ---
 Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen
-
-[Auch Rückseite]

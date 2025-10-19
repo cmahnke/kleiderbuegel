@@ -13,6 +13,7 @@ tags:
   - "Material: Holz"
   - Beidseitig
   - Schloss Holte
+doublesided: true
 geojson:
   coordinates:
   - 8.61868
@@ -23,5 +24,3 @@ Reinigung
 C.H. Wehmeyer, Schloss Holte
 Ruf 533
 Kleiderbad
-
-[Auch Rückseite]

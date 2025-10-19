@@ -18,14 +18,7 @@ geojson:
   - 8.6684051
   - 52.1140533
   precision: exact
+remark: |
+  * [Standort im Architektur-Bildarchiv](https://www.architektur-bildarchiv.de/image/Gesch%C3%A4ftsh%C3%A4user-Alter-Markt-2-6-Herford-51207.html)
 ---
 August Wellhölter Herford, Alter Markt II
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href=""></a></li>
-<li><a href="https://www.architektur-bildarchiv.de/image/Gesch%C3%A4ftsh%C3%A4user-Alter-Markt-2-6-Herford-51207.html
-">Standort im Architektur-Bildarchiv</a></li>
-</ul>
-</div>

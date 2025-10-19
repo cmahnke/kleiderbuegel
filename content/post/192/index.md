@@ -18,16 +18,10 @@ geojson:
   - 9.9271982
   - 49.7898072
   precision: exact
+remarks: |
+  * [Eintrag im Würzburg Wiki](https://wuerzburgwiki.de/wiki/Severin)
+  * [Heutige Webseite](https://www.severin-wuerzburg.de/)
 ---
 Herren- u. Knabenkleidung
 Fritz Severin
 Würzburg. Ecke Sanderste. 2
-
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://wuerzburgwiki.de/wiki/Severin">Eintrag im Würzburg Wiki</a></li>
-<li><a href="https://www.severin-wuerzburg.de/">Heutige Webseite</a></li>
-</ul>
-</div>

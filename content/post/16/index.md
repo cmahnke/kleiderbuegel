@@ -14,6 +14,17 @@ resources:
 - src: "back.png"
   params:
     iiif: back/info.json
+    content: |
+      Zum
+
+      <p>10. Hochzeitstag</p>
+
+      Herzliche Glückwünsche
+
+      von Deinem
+
+      Dietmar, Albert, Harald
+source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 tags:
 - "Material: Holz"
 - Beidseitig
@@ -24,16 +35,3 @@ tags:
 <p>sieh es Dir an   —    Dein geliebter Mann</p>
 
 <br/><br/>
-
-Zum
-
-<p>10. Hochzeitstag</p>
-
-Herzliche Glückwünsche
-
-von Deinem
-
-Dietmar, Albert, Harald
-
-
-<div class="source">Gefunden bei <a href="http://www.zeitzeug.de/">Zeitzeug</a></div>

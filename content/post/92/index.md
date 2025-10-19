@@ -19,12 +19,7 @@ geojson:
   - 16.45629
   - 53.04063
   precision: city
+remarks: |
+  * [Der Netzekreis in der Wikipedia](https://de.wikipedia.org/wiki/Netzekreis)
 ---
 Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://de.wikipedia.org/wiki/Netzekreis">Der Netzekreis in der Wikipedia</a></li>
-</ul>
-</div>

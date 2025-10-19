@@ -18,12 +18,7 @@ geojson:
   - 9.0943041
   - 54.1946868
   precision: street
+remarks: |
+  <a href="https://ansichtskarten-lexikon.de/ak-221752.html">Ansichtskarte</a>
 ---
 Wittke Größtes Herren-Spezialhaus Dithmarschens
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://ansichtskarten-lexikon.de/ak-221752.html">Ansichtskarte</a></li>
-</ul>
-</div>

@@ -1,0 +1,16 @@
+{{- if isset .Params "tags" -}}
+{{- $page := . -}}
+  <div class="tags">
+    {{ range $tag := .Params.tags }}
+      {{- $defaultLang := (index site.Languages 0).Lang -}}
+      {{- if ne $defaultLang $page.Language.Lang -}}
+        {{- $translationKey := (replace (replace (replace $tag ":" "_") " " "_") "ä" "_") -}}
+        {{- $tagTranslation := i18n $translationKey -}}
+        {{- if ne $tagTranslation "" -}}
+          {{- $tag = $tagTranslation -}}
+        {{- end -}}
+      {{- end -}}
+      <a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">#{{ $tag }}</a><br />
+    {{- end -}}
+  </div>
+{{- end -}}

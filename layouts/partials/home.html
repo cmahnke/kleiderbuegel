@@ -1,4 +1,7 @@
 {{ $hangers := .Site.Pages }}
+{{ range .Site.Home.Translations }}
+  {{ $hangers = $hangers | lang.Merge .Site.RegularPages }}
+{{ end }}
 <div id="schrank">
     <div id="klamotten">
         <div class="kleiderstange home"></div>
@@ -20,11 +23,21 @@
       <div id="kleidungsstueck">
         </div>
       <script>
-        const elem = "#klamotten";
+        var elem = "#klamotten";
+        if (typeof elem === 'string') {
+          elem = document.querySelector(elem);
+        }
         initFlipster(elem);
         //initSlider(elem);
       </script>
 </div>
+
+{{- $hangers := where $hangers "Section" "in" "post" -}}
+{{- $latest := (where $hangers "Page.Date" "ge" (now.AddDate 0 0 -7)).ByDate.Reverse -}}
+
+{{- with $latest -}}
+  {{- partial "week.html" . -}}
+{{- end -}}
 
 {{- $pages := where (where .Site.Pages "Params.displayInList" "!=" false) "Params.type" "eq" "text" -}}
 
@@ -35,19 +48,5 @@
   {{ end }}
 </div>
 {{ if or ($paginator.HasPrev) ($paginator.HasNext) -}}
-  <div class="navi">
-    <div class="pagination">
-      <div>
-        {{ if $paginator.HasNext }}
-          <a class="next" href="{{ $paginator.Next.URL }}">&laquo;Vorige Seite</a>
-        {{ end }}
-        {{- $currentPage := $paginator.PageNumber -}}
-        {{- $totalPages := $paginator.TotalPages -}}
-        <span id="page">Seite {{ $currentPage }} von {{ $totalPages }}</span>
-        {{ if $paginator.HasPrev }}
-          <a class="previous" href="{{ $paginator.Prev.URL }}">Nächste Seite&raquo;</a>
-        {{ end }}
-      </div>
-    </div>
-  </div>
+  {{- partial "pagination.html" (dict "context" . "paginator" $paginator) -}}
 {{- end }}

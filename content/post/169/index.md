@@ -18,12 +18,7 @@ geojson:
   - 11.5713925
   - 48.1394464
   precision: exact
+remarks: |
+  * [Heutige Webseite](https://www.lodenfrey.com/)
 ---
 Loden - Frey München
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.lodenfrey.com/">Heutige Webseite</a></li>
-</ul>
-</div>

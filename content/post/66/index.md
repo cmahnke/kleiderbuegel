@@ -18,8 +18,7 @@ geojson:
   - 13.2951914
   - 52.5021202
   precision: exact
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 
 Hotel - Pension Kardell 8875032
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

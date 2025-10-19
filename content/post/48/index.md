@@ -10,6 +10,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+doublesided: true
 outputs:
 - html
 - iiif-manifest
@@ -18,17 +19,9 @@ geojson:
   - 9.9896316
   - 53.5519379
   precision: exact
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+remarks: |
+  * [Gebrüder Hirschfeld in der Wikipedia](https://de.wikipedia.org/wiki/Gebr._Hirschfeld)
+  * [Kaufhaus Hirschfeld in der Wikipedia](https://www.veikkos-archiv.com/index.php/Kaufhaus_Hirschfeld_(Hamburg))
 ---
 Franz Fahning Hamburg Neuerwall
-
-[Auch Rückseite]
-
-<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://de.wikipedia.org/wiki/Gebr._Hirschfeld">Gebrüder Hirschfeld in der Wikipedia</a></li>
-<li><a href="https://www.veikkos-archiv.com/index.php/Kaufhaus_Hirschfeld_(Hamburg)">Kaufhaus Hirschfeld in der Wikipedia</a></li>
-</ul>
-</div>

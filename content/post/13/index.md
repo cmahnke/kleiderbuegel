@@ -8,6 +8,7 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
+source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 resources:
 - src: "front.png"
   params:
@@ -19,6 +20,3 @@ geojson:
   precision: exact
 ---
 Brahms, Emden
-
-
-<div class="source">Gefunden bei <a href="http://www.zeitzeug.de/">Zeitzeug</a></div>

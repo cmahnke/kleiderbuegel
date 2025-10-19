@@ -14,6 +14,7 @@ tags:
   - Pelze
   - Beidseitig
   - Toronto
+doublesided: true
 geojson:
   coordinates:
   - -79.388412
@@ -21,5 +22,3 @@ geojson:
   precision: exact
 ---
 Cold Fur Storage & Repairs ALANA FURS 676 Yonge St. WA 5-3441
-
-[Auch Rückseite]

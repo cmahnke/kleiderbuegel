@@ -19,15 +19,8 @@ geojson:
   - 7.2086001
   - 53.5942849
   precision: exact
+remarks: |
+  * [Nordener Stadtgeschichte](https://www.norder-stadtgeschichte.de/Haus_Damm)
 ---
 
 T.F. Damm, Norden
-
-
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li>Eintrag zur <a href="https://www.norder-stadtgeschichte.de/Haus_Damm">Nordener Stadtgeschichte</a></li>
-</ul>
-</div>

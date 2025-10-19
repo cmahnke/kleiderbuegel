@@ -12,7 +12,6 @@ resources:
 tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---
 „Kleidung von Peters ist immer richtig“
-
-<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>

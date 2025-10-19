@@ -15,14 +15,15 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+- src: "back.png"
+  params:
+    iiif: back/info.json
+    content: Die gute Herrenkleidung
 geojson:
   coordinates:
   - 9.9331461
   - 51.5320512
   precision: exact
+soure: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 Karstadt Göttingen
-
-Die gute Herrenkleidung
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

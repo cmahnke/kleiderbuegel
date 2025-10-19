@@ -16,11 +16,10 @@ resources:
 - src: "back.png"
   params:
     iiif: back/info.json
+    content: Die Kleidung mit allen guten Eigenschaften
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 outputs:
 - html
 - iiif-manifest
 ---
 Nur bei Karstadt
-Die Kleidung mit allen guten Eigenschaften
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

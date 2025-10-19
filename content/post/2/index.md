@@ -9,6 +9,7 @@ tags:
 - Jülich
 - Bekleidungsgeschäft
 - "Material: Holz"
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 resources:
 - src: "front.png"
   params:
@@ -20,5 +21,3 @@ geojson:
   precision: exact
 ---
 Bekleidungshaus Jöris, Jülich Düsseldorferstr.
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

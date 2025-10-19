@@ -19,14 +19,7 @@ geojson:
   - 10.5180151
   - 52.26249
   precision: exact
+remarks: |
+  * [Wikipedia](https://de.wikipedia.org/wiki/Hamburger_%26_Littauer)
 ---
 Rosbach & Risse
-
-
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li>Eintrag in der <a href="https://de.wikipedia.org/wiki/Hamburger_%26_Littauer">Wikipedia</a></li>
-</ul>
-</div>

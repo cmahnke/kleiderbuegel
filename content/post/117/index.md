@@ -19,14 +19,8 @@ geojson:
   - 9.8554372
   - 51.3426741
   precision: exact
+remarks: |
+  * [Artikel in der HNA](https://www.hna.de/lokales/witzenhausen/waehrungsreform-vor-75-jahren-stadt-witzenhausen-verliert-fast-million-mark-92351384.html)
 ---
 
 Kassel Modehaus Schulz Witzenhausen
-
-<div class="notes">
-Weitere Informationen:
-Siehe auch <a href="/post/46">Modehaus Schulz (#46)</a>
-<ul>
-<li><a href="https://www.hna.de/lokales/witzenhausen/waehrungsreform-vor-75-jahren-stadt-witzenhausen-verliert-fast-million-mark-92351384.html">Artikel in der HNA</a></li>
-</ul>
-</div>

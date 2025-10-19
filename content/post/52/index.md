@@ -17,7 +17,6 @@ geojson:
   - 8.68417
   - 50.11552
   precision: city
+source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 ---
 Gebr. Schwieger, Frankfurt a/M.
-
-<div class="source">Gefunden bei <a href="http://www.zeitzeug.de/">Zeitzeug</a></div>

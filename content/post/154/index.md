@@ -14,12 +14,10 @@ tags:
   - Union
   - Cloppenburg
   - Bekleidungsgeschäft
+related: |
+  * [Star Boutique Manuela (#64)](/post/64)
 ---
 Cloppenburg
 Union-
 Record
 Cloppenburg
-
-<div class="notes">
-  Siehe auch <a href="/post/64">Star Boutique Manuela (#64)</a>
-</div>

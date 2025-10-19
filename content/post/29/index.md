@@ -15,24 +15,22 @@ resources:
 - src: "back.png"
   params:
     iiif: back/info.json
+    content: |
+      Unsere Werbung 1973/74
+      Die multi-Sanostol Mannschaft tritt an
+      9 Vitamine plus Calcium
+      gegen Erkältung, Appetitlosigkeit,
+      Vitaminmangel
+
+      mit einem farbigen             mit Schaufenster-
+      Zeichentrickfilm               Dekorationen
+      im ZDF                         in Ihrem Geschäft
+
+      ... und nicht zuletzt mit reichlich Proben!
+      multi-Sanostol schmeckt Kindern gut.
+source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 outputs:
 - html
 - iiif-manifest
 ---
 multi - Sanostol
-
-Unsere Werbung 1973/74
-Die multi-Sanostol Mannschaft tritt an
-9 Vitamine plus Calcium
-gegen Erkältung, Appetitlosigkeit,
-Vitaminmangel
-
-mit einem farbigen             mit Schaufenster-
-Zeichentrickfilm               Dekorationen
-im ZDF                         in Ihrem Geschäft
-
-... und nicht zuletzt mit reichlich Proben!
-multi-Sanostol schmeckt Kindern gut.
-
-
-<div class="source">Gefunden bei <a href="http://www.zeitzeug.de/">Zeitzeug</a></div>

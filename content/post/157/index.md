@@ -9,6 +9,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+doublesided: true
 tags:
   - "Material: Holz"
   - Reinigung
@@ -16,5 +17,3 @@ tags:
   - Färberei
 ---
 Färberei HOTHO Reinigung
-
-[Auch Rückseite]

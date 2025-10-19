@@ -19,15 +19,9 @@ geojson:
   - 13.3048677
   - 52.4912242
   precision: exact
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+remarks: |
+  * [Theaterkunst GmbH in der Wikipedia](https://de.wikipedia.org/wiki/Theaterkunst)
 ---
 
 Theaterkunst GMBH.
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://de.wikipedia.org/wiki/Theaterkunst">Theaterkunst GmbH in der Wikipedia</a></li>
-</ul>
-</div>

@@ -12,9 +12,8 @@ resources:
 tags:
 - "Material: Holz"
 - "Material: Metall"
+source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 ---
 POL
 Eingetragene  Schutzmarke
 D.R.  G.M.  
-
-<div class="source">Gefunden bei <a href="http://www.zeitzeug.de/">Zeitzeug</a></div>

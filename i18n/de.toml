@@ -1,0 +1,35 @@
+[nextPage]
+other = "&laquo;Vorige Seite"
+
+[previousPage]
+other = "Nächste Seite&raquo;"
+
+[page]
+other = "Seite"
+
+[pageOf]
+other = "von"
+
+[weekEntry]
+other = "Kleiderbügel der Woche"
+
+[Permalink]
+other = "Persistente URL"
+
+[source]
+other = "Gefunden bei"
+
+[related]
+other = "Siehe auch"
+
+[remarks]
+other = "Weitere Informationen"
+
+[donation]
+other = "Gespendet von"
+
+[doublesided]
+other = "Beidseitig identisch beschriftet"
+
+[Tag]
+other = "Schlagwort"

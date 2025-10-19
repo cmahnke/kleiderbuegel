@@ -14,15 +14,13 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - Beidseitig
+doublesided: true
 geojson:
   coordinates:
   - 9.17015
   - 51.32611
   precision: city
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 
 Bekleidungshaus BUCHMANN Wolfhagen
-
-[Auch Rückseite]
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

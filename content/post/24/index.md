@@ -18,15 +18,9 @@ geojson:
   - 16.03037
   - 50.78314
   precision: city
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+remarks: |
+  * <a href="https://de.wikipedia.org/wiki/Kreis_Landeshut_i._Schles.">Kreis Landeshut in Schlesien in der Wikipedia</a>
 ---
 
 Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://de.wikipedia.org/wiki/Kreis_Landeshut_i._Schles.">Kreis Landeshut in Schlesien in der Wikipedia</a></li>
-</ul>
-</div>

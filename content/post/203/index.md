@@ -20,17 +20,10 @@ geojson:
   - 8.6061395
   - 52.3021115
   precision: exact
+remarks: |
+  * [Artikel in der Neuen Westfälischen Zeitung über die heutige Nutzung des Gebäudes](https://www.nw.de/lokal/kreis_minden_luebbecke/luebbecke/6722099_Ein-Haus-zwoelf-Unternehmen.html)
 ---
 
 UNION
 Record
 Gustav Köstermeyer, Herrenkleider-Fabrik, Lübbecke/Westf.
-
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-
-<li><a href="https://www.nw.de/lokal/kreis_minden_luebbecke/luebbecke/6722099_Ein-Haus-zwoelf-Unternehmen.html">Artikel in der Neuen Westfälischen Zeitung über die heutige Nutzung des Gebäudes</a></li>
-</ul>
-</div>

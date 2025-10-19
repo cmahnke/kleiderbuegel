@@ -18,14 +18,8 @@ geojson:
   - 9.7344751
   - 52.3739932
   precision: exact
+remarks: |
+  * [Artikel in der HAZ](https://www.haz.de/lokales/hannover/hannovers-bekanntester-herrenausstatter-ist-tot-JSBUEWHPHN2CRDO4XY5AJSHA44.html)
 ---
 Erdmann
 Kleidung
-
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.haz.de/lokales/hannover/hannovers-bekanntester-herrenausstatter-ist-tot-JSBUEWHPHN2CRDO4XY5AJSHA44.html">Artikel in der HAZ</a></li>
-</ul>
-</div>

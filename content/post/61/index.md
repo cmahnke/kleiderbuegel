@@ -14,6 +14,7 @@ resources:
 - src: "back.png"
   params:
     iiif: back/info.json
+    content: Das Haus der guten Herrenkleidung
 tags:
 - Göttingen
 - Bekleidungsgeschäft
@@ -24,9 +25,6 @@ geojson:
   - 9.9320614
   - 51.5323115
   precision: exact
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---
 Ernst Fricke Inh. Aug. Albrecht Göttingen Zindelstr. 6
-
-Das Haus der guten Herrenkleidung
-
-<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>

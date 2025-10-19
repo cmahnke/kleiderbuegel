@@ -13,7 +13,6 @@ tags:
 - Werbung
 - "Material: Metall"
 - "Material: Stoff"
+source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 ---
 korallino
-
-<div class="source">Gefunden bei <a href="http://www.zeitzeug.de/">Zeitzeug</a></div>

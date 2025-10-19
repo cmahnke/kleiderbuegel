@@ -18,8 +18,7 @@ geojson:
   - 9.95112
   - 52.15077
   precision: city
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 
 perfekte Schnellreinigung W. Freitag Hildesheim Tel. 6782
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

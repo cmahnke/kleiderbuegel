@@ -5,6 +5,7 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
+doublesided: true
 resources:
 - src: "front.png"
   params:
@@ -13,9 +14,6 @@ tags:
 - "Material: Holz"
 - Cloppenburg
 - Beidseitig
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---
 Cloppenburg
-
-[Auch Rückseite]
-
-<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>

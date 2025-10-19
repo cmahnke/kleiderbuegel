@@ -13,6 +13,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 geojson:
   coordinates:
   - 9.9365913
@@ -20,5 +21,3 @@ geojson:
   precision: exact
 ---
 Schillerstr. 30 Josef Henn Kürschnermeister Göttingen
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

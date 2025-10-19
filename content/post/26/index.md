@@ -17,12 +17,7 @@ geojson:
   - 11.97947
   - 51.48158
   precision: city
+remarks: |
+  * [Digitalisat alter Werbung](https://digital.slub-dresden.de/data/kitodo/Auer_173565485X-18990319/Auer_173565485X-18990319_tif/jpegs/00000001.tif.pdf)
 ---
 Hermann Bauchwitz, Halle a. S.
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://digital.slub-dresden.de/data/kitodo/Auer_173565485X-18990319/Auer_173565485X-18990319_tif/jpegs/00000001.tif.pdf">Digitalisat alter Werbung</a></li>
-</ul>
-</div>

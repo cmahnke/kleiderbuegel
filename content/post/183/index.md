@@ -12,22 +12,15 @@ resources:
 tags:
 - "Material: Holz"
 - Sprottau
+doublesided: true
 geojson:
   coordinates:
   - 15.4807126
   - 51.5608938
   precision: city
+remarks: |
+  * [Szprotawa (heutiger Name von Sprottau) in der Wikipedia](https://de.wikipedia.org/wiki/Szprotawa)
+  * [Nowe Miasteczko (heutiger Name von Neustädtel) in der Wikipedia<](https://de.wikipedia.org/wiki/Nowe_Miasteczko)
+  * [Der historische Kreis Sprottau in der Wikipedia](https://de.wikipedia.org/wiki/Kreis_Sprottau)
 ---
 Willi Fiebinger, Sprottau & Neustädtel
-
-[Auch Rückseite]
-
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://de.wikipedia.org/wiki/Szprotawa">Szprotawa (heutiger Name von Sprottau) in der Wikipedia</a></li>
-<li><a href="https://de.wikipedia.org/wiki/Nowe_Miasteczko">Nowe Miasteczko (heutiger Name von Neustädtel) in der Wikipedia</a></li>
-<li><a href="https://de.wikipedia.org/wiki/Kreis_Sprottau">Der historische Kreis Sprottau in der Wikipedia</a></li>
-</ul>
-</div>

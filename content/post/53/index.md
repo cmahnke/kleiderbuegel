@@ -18,13 +18,7 @@ geojson:
   - 11.966377
   - 51.4844673
   precision: exact
+remarks: |
+  * [Gedenkbuch für die Toten des Holocaust in Halle](https://www.gedenkbuch.halle.de/gbdatensatz.php?num=18)
 ---
 Moritz Cahn, Halle a.S.
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.gedenkbuch.halle.de/gbdatensatz.php?num=18">Gedenkbuch für die Toten des Holocaust in Halle</a></li>
-</ul>
-
-</div>

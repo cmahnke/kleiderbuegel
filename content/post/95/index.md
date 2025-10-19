@@ -18,13 +18,7 @@ geojson:
   - 9.6965481
   - 53.4755114
   precision: exact
+remarks: |
+  * [Derzeitige Homepage](http://www.stackmann.de/)
 ---
 Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung
-
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="http://www.stackmann.de/">Derzeitige Homepage</a></li>
-</ul>
-</div>

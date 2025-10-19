@@ -11,4 +11,5 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Plastik"
+todo: Fix shadow
 ---

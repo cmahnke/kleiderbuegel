@@ -18,12 +18,7 @@ geojson:
   - 9.6329863
   - 51.660725
   precision: exact
+remarks: |
+  * [Heutige Webseite](https://www.modehaus-schefft.de/)
 ---
 Friedrich Schefft OHG., Textilwaren Uslar
-
-
-<div class="notes">
-<ul>
-<li><a href="https://www.modehaus-schefft.de/">Heutige Webseite</a></li>
-</ul>
-</div>

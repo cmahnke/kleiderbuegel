@@ -9,6 +9,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+doublesided: true
 tags:
 - Stuttgart
 - Bekleidungsgeschäft
@@ -19,12 +20,9 @@ geojson:
   - 9.1789861
   - 48.774875
   precision: exact
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 Breitling
 Das Haus der guten Kleidung
 Stuttgart
 Herrenbekleidung Damenbekleidung
-
-[Auch Rückseite]
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

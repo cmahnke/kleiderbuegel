@@ -10,6 +10,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+doublesided: true
 outputs:
 - html
 - iiif-manifest
@@ -18,9 +19,6 @@ geojson:
   - 9.14641
   - 51.49011
   precision: city
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---
 Carl Schübeler Warburg - Westf.
-
-[Auch Rückseite]
-
-<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>

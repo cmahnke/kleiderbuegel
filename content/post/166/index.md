@@ -18,14 +18,9 @@ geojson:
   - 6.6393466
   - 49.7576559
   precision: exact
+remarks: |
+  * [Trierischer Volksfreund: Spezialisten für die Mode unter der Kleidung](https://www.volksfreund.de/region/trier-trierer-land/spezialisten-fuer-die-mode-unter-der-kleidung_aid-5547252)
 ---
 [unleserlich]
 Hubertus
 Trier, Simeonstr. 43
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.volksfreund.de/region/trier-trierer-land/spezialisten-fuer-die-mode-unter-der-kleidung_aid-5547252">Trierischer Volksfreund: Spezialisten für die Mode unter der Kleidung</a></li>
-</ul>
-</div>

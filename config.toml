@@ -14,31 +14,75 @@ timeout = 120
 [params]
     productionIIIFURLPrefix="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"
 
-[menu]
-    [[menu.main]]
+[languages]
+  [languages.de]
+    languagename = "Deutsch"
+
+    [languages.de.menu]
+      [[languages.de.menu.main]]
         name = "Start"
         weight = 1
         url = "/"
 
-    [[menu.main]]
-        name = "Listenansicht"
+      [[languages.de.menu.main]]
+        name = "Sammlung"
         weight = 2
-        url = "list/"
+        url = "collection/"
 
-    [[menu.main]]
-        name = "Kartenansicht"
+      [[languages.de.menu.main]]
+        name = "Karte"
         weight = 3
         url = "map/"
 
-    [[menu.main]]
+      [[languages.de.menu.main]]
         name = "Links"
         weight = 3
         url = "links/"
 
-    [[menu.main]]
-        name = "Über diese Seite"
+      [[languages.de.menu.main]]
+        name = "Suche"
+        weight = 4
+        url = "search/"
+
+      [[languages.de.menu.main]]
+        name = "Über"
         weight = 5
         url = "about/"
+
+
+  [languages.en]
+    languagename = "English"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Start"
+        weight = 1
+        url = "/en/"
+
+      [[languages.en.menu.main]]
+        name = "Collection"
+        weight = 2
+        url = "en/collection/"
+
+      [[languages.en.menu.main]]
+        name = "Map"
+        weight = 3
+        url = "en/map/"
+
+      [[languages.en.menu.main]]
+        name = "Links"
+        weight = 3
+        url = "en/links/"
+
+      [[languages.en.menu.main]]
+        name = "Search"
+        weight = 4
+        url = "en/search/"
+
+      [[languages.en.menu.main]]
+        name = "About"
+        weight = 5
+        url = "en/about/"
 
 [module]
     [[module.mounts]]
@@ -52,6 +96,11 @@ timeout = 120
     [[module.mounts]]
         source = "static"
         target = "static"
+
+#    [[module.mounts]]
+#        source = 'content/post/'
+#        target = 'content/post/'
+#        lang= "en"
 
 [mediaTypes]
   [mediaTypes."application/geo+json"]

@@ -11,11 +11,8 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Plastik"
+remarks: |
+  * Aufkleber: Design Danielo Silverstein
+related: |
+  * [rote Variante (#124)](/post/124)
 ---
-
-<div class="notes">
-  <ul>
-    <li>Aufkleber: Design Danielo Silverstein</li>
-    <li>Siehe auch <a href="/post/124">rote Variante</a>, Design Danielo Silverstein</li>
-  </ul>
-</div>

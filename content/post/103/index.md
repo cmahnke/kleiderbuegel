@@ -18,12 +18,7 @@ geojson:
   - 11.0052325
   - 52.2262765
   precision: exact
+remarks: |
+  * [Ansichtskarte des Hotel zu den vier Jahreszeiten](https://www.ansichtskartenversand.com/ak/91-Alte-Ansichtskarte/24349-38350-Helmstedt/12962482-AK-Helmstedt-Hotel-Restaurant-Vier-Jahreszeiten-in-der-Strasse-Holzberg-23)
 ---
 Hotel zu den vier Jahreszeiten Helmstedt
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.ansichtskartenversand.com/ak/91-Alte-Ansichtskarte/24349-38350-Helmstedt/12962482-AK-Helmstedt-Hotel-Restaurant-Vier-Jahreszeiten-in-der-Strasse-Holzberg-23">Ansichtskarte des Hotel zu den vier Jahreszeiten</a></li>
-</ul>
-</div>

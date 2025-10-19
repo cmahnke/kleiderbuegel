@@ -13,13 +13,7 @@ tags:
 - "Material: Holz"
 - Peine
 - Bekleidungsgeschäft
+remarks: |
+  * [Peiner Bekleidungsgeschäfte](https://www.paz-online.de/lokales/peine-lk/peine/peek-und-cloppenburg-in-den-1980er-jahren-in-peine-DWZVK5QYGIXHGJ77RPEULUYHOA.html)
 ---
 Korbmacher
-
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li>Zeitungsartikel über <a href="https://www.paz-online.de/lokales/peine-lk/peine/peek-und-cloppenburg-in-den-1980er-jahren-in-peine-DWZVK5QYGIXHGJ77RPEULUYHOA.html">Peiner Bekleidungsgeschäfte</a></li>
-</ul>
-</div>

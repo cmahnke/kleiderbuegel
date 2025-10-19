@@ -1,0 +1,57 @@
+{{ define "title" -}}
+  {{- if ne .Title "" -}}
+    {{- .Title }} · {{ .Site.Title -}}
+  {{- else -}}
+    {{- .Site.Title -}}
+  {{- end -}}
+{{- end -}}
+{{ define "content" }}
+  {{ $hangers := .Site.Pages.ByDate }}
+  <div class="content-container single search">
+    <table class="all-hangers">
+      <thead>
+        <th>No</th>
+        <th>Image</th>
+        <th>Title</th>
+        <th>Date</th>
+        <th>Content</th>
+        <th>Related</th>
+        <th>Remarks</th>
+        <th>Source</th>
+      </thead>
+      {{- range where $hangers "Params.type" "eq" "hanger" -}}
+        <tr>
+          <td class="id">
+            <a href="{{ .RelPermalink }}">{{ path.BaseName .File.Dir }}</a>
+          </td>
+          {{- $title := .Params.title -}}
+          {{- $front := .Resources.GetMatch "front*" -}}
+          {{- $thumb := $front.Resize "220x webp picture" -}}
+          {{- $content := (partial "page.html" .) -}}
+          {{- $id := delimit (shuffle (seq 1 9)) "" -}}
+          <td>
+            <img class="buegel" src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" />
+          </td>
+          <td>
+            {{ .Title }}
+          </td>
+          <td>
+            {{- .Date | time.Format ":date_full" -}}
+          </td>
+          <td>
+            {{ .Content }}
+          </td>
+          <td>
+            {{ .Params.related | markdownify }}
+          </td>
+          <td>
+            {{ .Params.remarks | markdownify }}
+          </td>
+          <td>
+            {{ .Params.source | markdownify }}
+          </td>
+        </tr>
+      {{ end }}
+    </table>
+  </div>
+{{- end -}}

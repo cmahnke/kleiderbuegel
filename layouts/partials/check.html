@@ -17,8 +17,52 @@
       {{- if not $material -}}
         {{- errorf "Material missing for %s" .RelPermalink -}}
       {{- end -}}
+      {{- $defaultLang := (index .Site.Languages 0).Lang -}}
+      {{- if ne $defaultLang .Language.Lang -}}
+        {{- range $tag := .Params.tags -}}
+          {{- $tagTranslation := i18n $tag -}}
+          {{- if eq $tagTranslation "" -}}
+            {{- warnf "Missing Tag translation for %s" $tagTranslation -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
     {{- else -}}
       {{ errorf "No tags for post" .RelPermalink }}
+    {{- end -}}
+  {{- end -}}
+  {{- with .Resources.GetMatch "back*" -}}
+    {{- if not (isset .Params "content") -}}
+      {{- errorf "Double sided hanger without description detected in %s" .RelPermalink  -}}
+    {{- end -}}
+  {{- end }}
+
+  {{- if (strings.Contains .RawContent "[Auch Rückseite]") -}}
+    {{- errorf "Double sided tag detected in %s" .RelPermalink -}}
+  {{- end -}}
+
+  {{- if or (strings.Contains .RawContent "<div") (strings.Contains .RawContent "<a") -}}
+    {{- if (isset .Params "source") -}}
+      {{- errorf "Source set for %s, but HTML detected" .RelPermalink -}}
+    {{- else if (isset .Params "related") -}}
+      {{- errorf "Related set for %s, but HTML detected" .RelPermalink -}}
+    {{- else if (isset .Params "remarks") -}}
+      {{- errorf "Remarks set for %s, but HTML detected" .RelPermalink -}}
+    {{- else if (isset .Params "donation") -}}
+      {{- errorf "Donation set for %s, but HTML detected" .RelPermalink -}}
+    {{- else -}}
+      {{- errorf "Post contains HTML for %s" .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $page := . -}}
+  {{- if (isset .Params "todo") -}}
+    {{- warnf "TODO for %s" .RelPermalink -}}
+  {{- end -}}
+  {{- if (isset .Params "notes") -}}
+    {{- warnf "Notes for %s" .RelPermalink -}}
+  {{- end -}}
+  {{- with .Params.related -}}
+    {{- if not (strings.Contains . "#") -}}
+      {{- errorf "Related dosn't contain # in %s" $page.RelPermalink -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}

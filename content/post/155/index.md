@@ -9,6 +9,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+doublesided: true
 tags:
   - "Material: Holz"
   - Beidseitig
@@ -17,5 +18,3 @@ tags:
 Ihr Kleiderfachmann
 Bleyer
 Ihr Kleiderfachmann
-
-[Auch Rückseite]

@@ -1,0 +1,27 @@
+<div class="hanger-content">
+  {{- .Content -}}
+</div>
+<div class="additional-content">
+  {{- with .Params.doublesided -}}
+    {{- if . -}}
+      <div class="doublesided"><div class="additional-header">{{ i18n "doublesided" }}</div></div>
+    {{- end -}}
+  {{- end -}}
+  {{- with .Params.remarks -}}
+    <div class="remarks notes"><div class="additional-header">{{ i18n "remarks" }}:</div> {{ . | markdownify }}</div>
+  {{- end -}}
+  {{- with .Params.related -}}
+    <div class="related"><div class="additional-header">{{ i18n "related" }}:</div> {{ . | markdownify }}</div>
+  {{- end -}}
+  {{- with .Params.source -}}
+    <div class="source"><div class="additional-header">{{ i18n "source" }}:</div> {{ . | markdownify }}</div>
+  {{- end -}}
+  {{- with .Params.donation -}}
+    <div class="donation"><div class="additional-header">{{ i18n "donation" }}:</div> {{ . | markdownify }}</div>
+  {{- end -}}
+</div>
+{{/*
+  Replacements:
+  * Aktuelle Webseite
+  * Heutige Webseite
+*/}}

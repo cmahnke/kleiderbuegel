@@ -22,7 +22,6 @@ geojson:
   - 8.5869922
   - 53.53217
   precision: exact
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 „Herrenausstatter“ Jordan  Bremerhaven-G. Ruf 21332
-
-<div class="source">Gefunden bei <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a></div>

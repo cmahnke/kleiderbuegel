@@ -19,15 +19,8 @@ geojson:
   - 9.928431
   - 51.534394
   precision: exact
+remarks: |
+  * [Artikel über eine spätere Mitinhaberin](https://www.goettinger-tageblatt.de/sport/regional/goettingerin-adele-schacke-erhielt-als-erste-frau-das-sportabzeichen-D63B3PBEPKLNCPU5YTMEVPHNE4.html)
 ---
 
 Reinigung u. Färberei Schacke Göttingen
-
-
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li>Eintrag zur <a href="https://www.goettinger-tageblatt.de/sport/regional/goettingerin-adele-schacke-erhielt-als-erste-frau-das-sportabzeichen-D63B3PBEPKLNCPU5YTMEVPHNE4.html">Artikel über eine spätere Mitinhaberin</a></li>
-</ul>
-</div>

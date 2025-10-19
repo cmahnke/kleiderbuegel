@@ -17,14 +17,9 @@ geojson:
   - 10.2671364
   - 47.4084333
   precision: exact
+remarks: |
+  * [Heutige Webseite](https://www.oberstdorfer-gaestehaus.de/)
 ---
 Alpenhorst
 
 <!-- https://www.oberstdorfer-gaestehaus.de/ -->
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.oberstdorfer-gaestehaus.de/">Heutige Webseite</a></li>
-</ul>
-</div>

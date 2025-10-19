@@ -18,14 +18,9 @@ geojson:
   - 8.690482
   - 53.8589238
   precision: street
+remarks: |
+  * [Eintrag in der Cuxpedia](https://cuxpedia.de/index.php?title=M%C3%B6ller_%26_Schade)
 ---
 Möller & Schade
 Das Haus der guten Kleidung
 Cuxhaven
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://cuxpedia.de/index.php?title=M%C3%B6ller_%26_Schade">Eintrag in der Cuxpedia</a></li>
-</ul>
-</div>

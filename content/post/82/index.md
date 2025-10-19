@@ -18,13 +18,9 @@ geojson:
   - 9.73322
   - 52.37052
   precision: city
+remarks: |
+  * [Eintrag bei North Data](https://www.northdata.de/Bekleidungshaus+Aloys+Bunge+GmbH,+Hannover/HRB+54481)
 ---
 ALOYS BUNGE
 Bekleidungshaus
 HANNOVER
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.northdata.de/Bekleidungshaus+Aloys+Bunge+GmbH,+Hannover/HRB+54481">Eintrag bei North Data</a></li>
-</ul></div>

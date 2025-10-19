@@ -9,15 +9,12 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+doublesided: true
 tags:
   - "Material: Plastik"
   - Werbung
+related: |
+  * [Star Boutique Manuela (#64)](/post/64)
 ---
 Star Boutique
 Manuela
-
-[Auch Rückseite]
-
-<div class="notes">
-Siehe auch <a href="/post/64">Star Boutique Manuela (#64)</a>
-</div>

@@ -18,19 +18,14 @@ resources:
 - src: "back.png"
   params:
     iiif: back/info.json
+    content: 25 Jahre Theo Schrader
 geojson:
   coordinates:
   - 10.2511071
   - 51.7282798
   precision: exact
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+remarks: |
+  * [Alte Rechnungen und Werbung im Archiv Vegelahn](https://www.archiv-vegelahn.de/index.php/osterode-am-harz/12-osteroder-reklame/6786-schrader-theo-herrenausstattung)
 ---
 Theo Schrader Osterode/Harz
-
-<div class="source">Gefunden bei der <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a></div>
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li><a href="https://www.archiv-vegelahn.de/index.php/osterode-am-harz/12-osteroder-reklame/6786-schrader-theo-herrenausstattung">Alte Rechnungen und Werbung im Archiv Vegelahn</a></li>
-</ul>
-</div>
