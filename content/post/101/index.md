@@ -19,6 +19,6 @@ geojson:
   - 51.50508
   precision: city
 remarks: |
-  * [MOLLERUS in Gelsenkirchener Geschichten(https://www.gelsenkirchener-geschichten.de/forum/viewtopic.php?t=1691)
+  * [MOLLERUS in Gelsenkirchener Geschichten](https://www.gelsenkirchener-geschichten.de/forum/viewtopic.php?t=1691)
 ---
 MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt

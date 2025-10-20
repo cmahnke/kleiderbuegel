@@ -2,7 +2,7 @@
 {{- with .context -}}
   <div class="navi">
     <div class="pagination">
-      <div>
+      <div class="nextContainer">
         {{- if $paginator.HasNext -}}
           <a class="next" href="{{ $paginator.Next.URL }}">{{ i18n "nextPage" | safeHTML }}</a>
         {{- end -}}
@@ -10,7 +10,7 @@
       {{- $currentPage := $paginator.PageNumber -}}
       {{- $totalPages := $paginator.TotalPages -}}
       <div id="page">{{ i18n "page" }} {{ $currentPage }} {{ i18n "pageOf" }} {{ $totalPages }}</div>
-      <div>
+      <div class="previousContainer">
         {{- if $paginator.HasPrev -}}
           <a class="previous" href="{{ $paginator.Prev.URL }}">{{ i18n "previousPage" | safeHTML }}</a>
         {{- end -}}

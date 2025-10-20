@@ -8,7 +8,7 @@
   {{ end }}
   {{- $hangers = where $hangers "Params.type" "eq" "hanger" -}}
 
-  <div class="kleiderstange"></div>
+  {{- partial "rail.html" . -}}
   <div class="post-list">
     {{ $pages := .Pages }}
     {{ $paginator := .Paginate (where $hangers "Params.displayinlist" "!=" false) -}}

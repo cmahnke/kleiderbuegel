@@ -15,6 +15,10 @@ files:
     - 'en/meta/**'
     - 'privacy/**'
     - 'en/privacy/**'
+    - 'collection/**'
+    - 'en/collection/**'
+    - 'table/**'
+    - 'en/table/**'
     - '404.html'
     - 'map/**'
     - 'en/map/**'
@@ -24,7 +28,7 @@ content:
 index:
 # Tagging attributes
   body:
-    - .content-container
+    - .content
   ignore:
     - header.header
     - footer.footer: all
@@ -57,8 +61,7 @@ index:
       - "p, h1, h2":
           function: generate_css_selector
     image:
-      - ".gallery .gallery-image.caption": "[href]"
-      - "figure img": "[src]"
+      - "div.hanger-front img": "[data-thumb]"
   sort:
     date:
       - ".date time": "[datetime]"

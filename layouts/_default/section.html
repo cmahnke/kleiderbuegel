@@ -2,7 +2,7 @@
   {{- .Title }} · {{ .Site.Title -}}
 {{ end }}
 {{ define "content" }}
-    <div class="kleiderstange"></div>
+    {{- partial "rail.html" . -}}
     <div class="post-list">
         {{ $pages := .Pages }}
         {{ $paginator := .Paginate (where $pages "Params.displayinlist" "!=" false) -}}

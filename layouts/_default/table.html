@@ -26,11 +26,17 @@
           </td>
           {{- $title := .Params.title -}}
           {{- $front := .Resources.GetMatch "front*" -}}
-          {{- $thumb := $front.Resize "220x webp picture" -}}
+          {{- $thumb := $front.Resize "300x webp picture" -}}
           {{- $content := (partial "page.html" .) -}}
           {{- $id := delimit (shuffle (seq 1 9)) "" -}}
           <td>
             <img class="buegel" src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" />
+            {{- $title := .Title -}}
+            {{- with .Resources.GetMatch "back*" -}}
+              <hr />
+              {{- $largeBack := .Resize "300x webp picture" -}}
+              <img class="buegel" src="{{ $largeBack.RelPermalink }}" alt="{{ $title }}"/>
+            {{- end }}
           </td>
           <td>
             {{ .Title }}
@@ -40,6 +46,14 @@
           </td>
           <td>
             {{ .Content }}
+            {{- with .Resources.GetMatch "back*" -}}
+              <hr />
+              {{- with .Params.content -}}
+                <div class="back-content">
+                  {{- . | markdownify -}}
+                </div>
+              {{- end }}
+            {{- end }}
           </td>
           <td>
             {{ .Params.related | markdownify }}

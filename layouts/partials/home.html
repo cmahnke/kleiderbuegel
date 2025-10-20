@@ -4,35 +4,37 @@
 {{ end }}
 <div id="schrank">
     <div id="klamotten">
-        <div class="kleiderstange home"></div>
-        <ul>
-          {{- range where $hangers "Params.type" "eq" "hanger" -}}
-            {{- $title := .Params.title -}}
-            {{- $front := .Resources.GetMatch "front*" -}}
-            {{- $thumb := $front.Resize "330x webp picture" -}}
-            {{- $large := $front.Resize "1600x webp picture" -}}
-            {{- $content := (partial "page.html" .) -}}
-            {{- $id := delimit (shuffle (seq 1 9)) "" -}}
-            <li>
-              <div class="hanger-post-content" id="{{ $id }}" style="display: none;">{{ $content | safeHTML }}</div>
-              <img class="buegel" src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" data-image="{{ $large.RelPermalink }}" data-content-id="{{ $id }}"/>
-            </li>
-          {{ end }}
-        </ul>
+        {{- partial "rail.html" . -}}
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            {{- range where $hangers "Params.type" "eq" "hanger" -}}
+              {{- $title := .Params.title -}}
+              {{- $front := .Resources.GetMatch "front*" -}}
+              {{- $thumb := $front.Resize "330x webp picture" -}}
+              {{- $large := $front.Resize "1600x webp picture" -}}
+              {{- $content := (partial "page.html" .) -}}
+              {{- $id := delimit (shuffle (seq 1 9)) "" -}}
+              <div class="swiper-slide">
+                <div class="hanger-post-content" id="{{ $id }}" style="display: none;">{{ $content | safeHTML }}</div>
+                <img class="buegel" src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" data-image="{{ $large.RelPermalink }}" data-content-id="{{ $id }}"/>
+              </div>
+            {{ end }}
+          </div>
+          <div class="swiper-scrollbar"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
       </div>
       <div id="kleidungsstueck">
         </div>
       <script>
-        var elem = "#klamotten";
-        if (typeof elem === 'string') {
-          elem = document.querySelector(elem);
-        }
-        initFlipster(elem);
-        //initSlider(elem);
+        //initFlipster(document.querySelector('#klamotten'));
+        initSlider(document.querySelector('.swiper'));
       </script>
 </div>
 
-{{- $hangers := where $hangers "Section" "in" "post" -}}
+{{- $hangers = where $hangers "Params.type" "eq" "hanger" -}}
+{{- $hangers = where $hangers "Section" "in" "post" -}}
 {{- $latest := (where $hangers "Page.Date" "ge" (now.AddDate 0 0 -7)).ByDate.Reverse -}}
 
 {{- with $latest -}}

@@ -97,6 +97,26 @@ timeout = 120
         source = "static"
         target = "static"
 
+    [[module.mounts]]
+        source = "node_modules/swiper"
+        target = "assets/js/swiper"
+
+    [[module.mounts]]
+        source = "node_modules/swiper"
+        target = "assets/css/swiper"
+
+    [[module.mounts]]
+        source = "node_modules/@pagefind/modular-ui/css/"
+        target = "assets/scss/pagefind"
+
+    [[module.mounts]]
+        source = "node_modules/@pagefind/default-ui"
+        target = "assets/js/pagefind"
+
+   [[module.mounts]]
+       source = 'static/images'
+       target = 'assets/images'
+
 #    [[module.mounts]]
 #        source = 'content/post/'
 #        target = 'content/post/'

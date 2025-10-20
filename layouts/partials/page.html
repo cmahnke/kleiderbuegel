@@ -1,6 +1,6 @@
 {{- partial "check.html" . -}}
 
-<div class="kleiderstange"></div>
+{{- partial "rail.html" . -}}
 {{ $class := .Params.type }}
 <div class="post {{ $class }}">
     <div class="content">
@@ -13,16 +13,18 @@
             {{- errorf "[page.html] Failed to load images for %s" .RelPermalink -}}
           {{- end -}}
           {{- $large := $front.Resize "1600x webp picture" -}}
-          <img class="buegel-font hanger-img" src="{{ $large.RelPermalink }}" alt="{{ .Title }}"/>
+          {{- $thumb := $front.Resize "330x webp picture" -}}
+          <img class="buegel-font hanger-img" src="{{ $large.RelPermalink }}" alt="{{ .Title }}" data-thumb="{{ $thumb.RelPermalink }}" />
         </div>
+        {{- $title := .Title -}}
         {{- with .Resources.GetMatch "back*" -}}
-            {{- $largeBack := .Resize "1600x webp picture" -}}
-            <img loading="lazy" class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ .Title }}"/>
-            {{- with .Params.content -}}
-              <div class="back-content">
-                {{- . | markdownify -}}
-              </div>
-            {{- end }}
+          {{- $largeBack := .Resize "1600x webp picture" -}}
+          <img loading="lazy" class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ $title }}" />
+          {{- with .Params.content -}}
+            <div class="back-content">
+              {{- . | markdownify -}}
+            </div>
+          {{- end }}
         {{- end }}
       {{- end -}}
       {{- partial "post-content.html" . -}}

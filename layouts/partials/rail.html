@@ -1,0 +1,6 @@
+{{- $rail := "images/rod.png" -}}
+{{- $image := resources.Get $rail -}}
+{{- $image := $image | images.Filter (images.GaussianBlur 2) -}}
+{{- $image = $image.Resize "x25 webp" -}}
+
+<div class="kleiderstange {{ .Kind }}" style="background-image: url({{ $image.RelPermalink | safeHTML }});"></div>

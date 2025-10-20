@@ -73,6 +73,8 @@ Als Schriftarten kommen [Libre Baskerville](www.impallari.com/projects/overview/
 
 Als Javascript Framework kommt [jQuery](https://jquery.com/) mit dem Plugin [jQuery.Flipster](https://github.com/drien/jquery-flipster) zum Einsatz.
 
+Für das die Anzeige der Karte wird [OpenLayers](https://openlayers.org/) verwendet, das Kartenmatrial wird vom [OpenstreetMap](https://www.openstreetmap.org/) Projekt bereitgestellt. 
+
 Das [Einbinden der Bilder](https://gitlab.com/kaushalmodi/hugo-theme-refined/blob/master/layouts/shortcodes/figure.html) und die [Tagcloud](http://www.johann-oberdorfer.eu/blog/2020/02/23/20-02-23_tag_cloud_for_hugo/) sind aus den jeweils angebenen Quellen übernommen.
 
 # Kontakt

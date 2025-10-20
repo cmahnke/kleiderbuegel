@@ -21,3 +21,4 @@ data/stats.json
 content/post/*/front/*
 content/post/*/back/*
 content/post/**/vips-properties.xml
+pagefind/

@@ -1,0 +1,47 @@
+@import "swiper";
+@import "modules/effect-coverflow";
+@import "modules/scrollbar";
+@import "modules/navigation";
+@import "modules/a11y";
+@import "modules/keyboard";
+@import "modules/mousewheel";
+
+#klamotten {
+  position: relative;
+}
+
+.swiper {
+  width: 100%;
+  margin-top: -1.8rem;
+  padding-top: 1.2rem;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  width: fit-content;
+  /*
+  height: 300px;
+  */
+  z-index: 10;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-slide-active {
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.swiper-scrollbar {
+  margin-bottom: 1rem;
+  height: .6rem !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #342211;
+}
