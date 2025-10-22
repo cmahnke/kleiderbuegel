@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Wäscherei Kleiderbad Meyer Chem. Reinigung",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei Kleiderbad Meyer Chem. Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eWäscherei Kleiderbad\nMeyer\nChem. Reinigung\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\n  Siehe auch \u003ca href=\"/post/42\"\u003eWäscherei MEYER (#42)\u003c/a\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/160/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.93228,51.53443]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Herrenkleidung flebbe Braunschweig",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Herrenkleidung flebbe Braunschweig\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eHerrenkleidung\nflebbe\nBraunschweig\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\n  Siehe auch \u003ca href=\"/post/143\"\u003eflebbe (#143)\u003c/a\u003e\n\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/156/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },

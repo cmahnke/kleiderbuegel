@@ -7,6 +7,29 @@
           "Kleiderbügel"
         ]},
     "items": [{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/160/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/160/front_hu_2fd334f4af6683b4.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 154,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/160/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1983,
+        "width": 3868,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/160/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Wäscherei Kleiderbad Meyer Chem. Reinigung"
+            ]}
+        },{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/125/manifest.json",
           "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/125/front_hu_9d78f49fba695fa3.png",
