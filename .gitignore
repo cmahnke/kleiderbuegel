@@ -19,6 +19,10 @@ static/images/marker-base.svg
 static/images/preview-template.svg
 data/stats.json
 content/post/*/front/*
+content/post/*/top/*
 content/post/*/back/*
 content/post/**/vips-properties.xml
 pagefind/
+content/post/*/front.svg
+content/post/*/top.svg
+content/post/*/back.svg

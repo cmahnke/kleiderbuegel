@@ -6,7 +6,7 @@ canonifyurls = true
 languagecode = "de"
 defaultcontentlanguage = "de"
 rssLimit = 25
-theme = ["projektemacher-base"]
+theme = ["projektemacher-base", "hugo-xml-exporter"]
 copyright = "Kleiderbügel"
 enableGitInfo = true
 timeout = 120
@@ -97,9 +97,9 @@ timeout = 120
         source = "static"
         target = "static"
 
-    [[module.mounts]]
-        source = "node_modules/swiper"
-        target = "assets/js/swiper"
+#    [[module.mounts]]
+#        source = "node_modules/swiper"
+#        target = "assets/js/swiper"
 
     [[module.mounts]]
         source = "node_modules/swiper"
@@ -127,6 +127,8 @@ timeout = 120
     suffixes = ["geojson", "gjson"]
   [mediaTypes."application/ld+json"]
     suffixes = ["json"]
+  [mediaTypes."application/xml"]
+    suffixes = ["xml"]
 
 [outputFormats]
   [outputFormats.geojson]
@@ -150,8 +152,14 @@ timeout = 120
     baseName = "collection"
     notAlternative = true
 
+  [outputFormats.xml-export]
+    mediaType = "application/xml"
+    baseName = "xml-export"
+    isPlainText = true
+    notAlternative = true
+
 [markup]
-defaultMarkdownHandler = 'goldmark'
+  defaultMarkdownHandler = 'goldmark'
 
 [markup.goldmark]
     [markup.goldmark.renderer]
@@ -192,7 +200,7 @@ defaultMarkdownHandler = 'goldmark'
     quality = 95
 
 [outputs]
-    page = ["HTML", "JSON"]
+  page = ["HTML", "JSON"]
 
 [build]
   writeStats = true

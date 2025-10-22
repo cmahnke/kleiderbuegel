@@ -19,20 +19,25 @@
   border-radius: 5px;
 
   @media screen and (min-width: 740px) {
-    min-height: 60vh; 
+    min-height: 60vh;
   }
 
   canvas {
-    border-radius: 5px;
+    border-radius: 1rem;
   }
 
   .ol-popup {
+    font-family: 'Nunito', sans-serif;
+    min-width: 240px !important;
+
     h1 {
-      padding: 1rem 0 0 0 !important;
+      padding: .6rem 0 1rem 0 !important;
     }
     .geojsonPopup {
+
       .content {
         padding: unset !important;
+        padding-bottom: .6rem !important;
 
         p {
           margin-block-start: unset;

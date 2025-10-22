@@ -5,10 +5,6 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
-resources:
-- src: "front.png"
-  params:
-    iiif: front/info.json
 tags:
 - Bremerhaven
 - Bekleidungsgeschäft

@@ -554,9 +554,10 @@ $kleidungsstueck-border-radius: $border-radius;
             }
 
             .tags {
-                float: right;
+                text-align: right;
                 width: 15%;
                 min-width: fit-content;
+
             }
 
             .permalink {

@@ -17,6 +17,17 @@
           <img class="buegel-font hanger-img" src="{{ $large.RelPermalink }}" alt="{{ .Title }}" data-thumb="{{ $thumb.RelPermalink }}" />
         </div>
         {{- $title := .Title -}}
+
+        {{- with .Resources.GetMatch "top*" -}}
+          {{- $largeTop := .Resize "1600x webp picture" -}}
+          <img loading="lazy" class="buegel-top hanger-img" src="{{ $largeTop.RelPermalink }}" alt="{{ $title }}" />
+          {{- with .Params.content -}}
+            <div class="top-content">
+              {{- . | markdownify -}}
+            </div>
+          {{- end }}
+        {{- end }}
+
         {{- with .Resources.GetMatch "back*" -}}
           {{- $largeBack := .Resize "1600x webp picture" -}}
           <img loading="lazy" class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ $title }}" />

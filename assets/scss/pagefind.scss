@@ -20,7 +20,7 @@ $search-border-color-active: #ff073a;
 
 .search-icon:after {
     display: inline-block;
-    line-height: 2em;
+    line-height: 1.8rem;
     content: url($search-light);
     vertical-align: middle;
 }
@@ -40,10 +40,11 @@ body.section-search {
     .post.search {
       display: flex;
       flex-direction: column;
+      width: 100%;
 
       .search-box-container {
         display: flex;
-        font-size: 150%;
+        font-size: larger;
         justify-content: center;
 
         @media (max-width: 35em) {
@@ -55,7 +56,10 @@ body.section-search {
           border-right-width: 0;
           line-height: unset;
           width: 50%;
-          font-size: 1rem;
+          /* font-size: 1rem; */
+          font-size: inherit;
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
         }
 
         .search-button {
@@ -67,6 +71,9 @@ body.section-search {
           padding: 0 .8em;
           color: inherit;
           background-color: #d3d3d3;
+          font-size: inherit;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
 
           @media (max-width: 35em) {
             padding: 0 .4em;

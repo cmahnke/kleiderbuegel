@@ -1,5 +1,5 @@
 ---
-date: 2026-09-08T12:47:44+02:00
+date: 2027-01-19T12:47:44+02:00
 title: ""
 type: hanger
 outputs:
@@ -10,5 +10,9 @@ resources:
   params:
     iiif: front/info.json
 tags:
-- "Material: Plastik"
+- Union
+- "Material: Holz"
+- "Material: Metall"
 ---
+Union
+D.R.W.Z.  D.R.W.Z.

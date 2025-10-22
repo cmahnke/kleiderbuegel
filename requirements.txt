@@ -1,0 +1,5 @@
+pagefind[bin]
+beautifulsoup4
+Pillow
+opencv-python
+numpy
