@@ -1,6 +1,6 @@
 ---
-date: 2026-09-29T12:47:44+02:00
-title: "Ideal"
+date: 2027-03-09T12:47:44+02:00
+title: "Mylord"
 type: hanger
 outputs:
 - html
@@ -11,8 +11,7 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
-- "Material: Metall"
-- Klappbar
+- ruwe
 ---
-
-Ideal
+ruwe
+Mylord

@@ -31,6 +31,7 @@ $wood-texture-opacity: 0.5;
 $background: $wood-light;
 @import "swiper-slider";
 @import "pagefind";
+@import "table";
 
 html {
     background: url($background);
@@ -557,7 +558,15 @@ $kleidungsstueck-border-radius: $border-radius;
                 text-align: right;
                 width: 15%;
                 min-width: fit-content;
+                list-style-type: none;
+                margin-block-end: unset;
+                padding-inline-start: unset;
 
+                .tag {
+                  a:before {
+                    content: '#';
+                  }
+                }
             }
 
             .permalink {

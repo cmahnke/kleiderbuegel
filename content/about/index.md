@@ -38,10 +38,20 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
 * Materialien
   * Aus Holz: **{{< tags/tag-count "Material: Holz" true >}}**
   * Aus Plastik: **{{< tags/tag-count "Material: Plastik" true >}}**
-  * Aus Metall: **{{< tags/tag-count "Material: Metall" true >}}**
+  * (Teilweise) aus Metall: **{{< tags/tag-count "Material: Metall" true >}}**
+  * (Teilweise) aus Metall: **{{< tags/tag-count "Material: Stoff" true >}}**
 * Beidseitig beschriftete **{{< tags/tag-count "Beidseitig" true >}}**
+
+* Typen
+  * Hosenbügel: **{{< tags/tag-count "Hosenbügel" true >}}**
+  * Rockbügel: **{{< tags/tag-count "Rockbügel" true >}}**
+  * Kinderbügel: **{{< tags/tag-count "Kinderbügel" true >}}**
+  * Verstellbar: **{{< tags/tag-count "Verstellbar" true >}}**
+  * Klappbar: **{{< tags/tag-count "Klappbar" true >}}**
+
 * Spezifische Hersteller
   * Union: **{{< tags/tag-count "Union" true >}}**
+  * ruwe: **{{< tags/tag-count "ruwe" true >}}**
 
 * Arten von
   * Bekleidungsgeschäft: **{{< tags/tag-count "Bekleidungsgeschäft" true >}}**
@@ -51,15 +61,19 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
   * Färberei: **{{< tags/tag-count "Färberei" true >}}**
   * Staatliche Organisation: **{{< tags/tag-count "Staatliche Organisation" true >}}**
   * Schneiderei: **{{< tags/tag-count "Schneiderei" true >}}**
+  * Möbelhaus: **{{< tags/tag-count "Möbelhaus" true >}}**
 
 * Handelsketten
   * Karstadt: **{{< tags/tag-count "Karstadt" true >}}**
   * Hettlage: **{{< tags/tag-count "Hettlage" true >}}**
+  * C&A (Brenninkmayer): **{{< tags/tag-count "C&A" true >}}**
+  * Cloppenburg: **{{< tags/tag-count "Cloppenburg" true >}}**
 
 * Weitere Klassifikationen
   * Werbung: **{{< tags/tag-count "Werbung" true >}}**
   * Scherzartikel: **{{< tags/tag-count "Scherzartikel" true >}}**
   * Ohne Geodaten: **{{< hanger-param "geojson" "eq" nil >}}**
+
 
 # Meine anderen Blogs
 
@@ -73,7 +87,7 @@ Als Schriftarten kommen [Libre Baskerville](www.impallari.com/projects/overview/
 
 Als Javascript Framework kommt [jQuery](https://jquery.com/) mit dem Plugin [jQuery.Flipster](https://github.com/drien/jquery-flipster) zum Einsatz.
 
-Für das die Anzeige der Karte wird [OpenLayers](https://openlayers.org/) verwendet, das Kartenmatrial wird vom [OpenstreetMap](https://www.openstreetmap.org/) Projekt bereitgestellt. 
+Für das die Anzeige der Karte wird [OpenLayers](https://openlayers.org/) verwendet, das Kartenmatrial wird vom [OpenstreetMap](https://www.openstreetmap.org/) Projekt bereitgestellt. Das Theme basiert auf [Versatiles](https://github.com/versatiles-org/versatiles-style).
 
 Das [Einbinden der Bilder](https://gitlab.com/kaushalmodi/hugo-theme-refined/blob/master/layouts/shortcodes/figure.html) und die [Tagcloud](http://www.johann-oberdorfer.eu/blog/2020/02/23/20-02-23_tag_cloud_for_hugo/) sind aus den jeweils angebenen Quellen übernommen.
 

@@ -5,6 +5,7 @@ tags:
 - Werbung
 - "Material: Plastik"
 - Beidseitig
+- Kinderbügel
 type: hanger
 iiif:
   behavior: individuals

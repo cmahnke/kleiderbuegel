@@ -7,7 +7,7 @@ type: text
 Für eine kommende Ausstellung wurde diese Seite etwas überarbeitet:
 * Die Seite wurde visuell überarbeitet
 * Die Navigation wurde etwas verbessert
-* Der jeweils aktuellen Kleiderbügel wird nun auf der Startseite angezeigt
+* Der jeweils aktuelle Kleiderbügel wird nun auf der Startseite angezeigt
 * Die Karte ist größer und kontrastreicher
 * Es gibt nun eine Suchfunktion
 * Die Ladezeit wurde deutlich beschleunigt

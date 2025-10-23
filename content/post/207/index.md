@@ -12,6 +12,7 @@ resources:
 tags:
 - "Material: Holz"
 - Union
+- Hosenbügel
 ---
 
 Union 5

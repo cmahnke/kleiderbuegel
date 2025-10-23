@@ -12,6 +12,7 @@ resources:
 tags:
 - "Material: Holz"
 - "Material: Metall"
+- Verstellbar
 source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 ---
 POL

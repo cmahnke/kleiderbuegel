@@ -12,6 +12,7 @@ resources:
 tags:
   - "Material: Holz"
   - Scherzartikel
+  - Kinderbügel
 ---
 
 Dem braven Kinde

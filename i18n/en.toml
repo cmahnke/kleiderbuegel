@@ -45,6 +45,9 @@ other = "Material: Plastic"
 [Material__Metall]
 other = "Material: Metal"
 
+[Material__Stoff]
+other = "Material: Fabric"
+
 [Bekleidungsgesch_ft]
 other = "Clothing store"
 
@@ -74,3 +77,21 @@ other = "Joke items"
 
 [Werbung]
 other = "Promotional item"
+
+[M_belhaus]
+other = "furniture store"
+
+[Hosenb_gel]
+other = "Trouser hanger"
+
+[Rockb_gel]
+other = "Skirt hanger"
+
+[Kinderkb_gel]
+other = "Children's hangers"
+
+[Verstellbar]
+other = "Adjustable"
+
+[Klappbar]
+other = "Foldable"

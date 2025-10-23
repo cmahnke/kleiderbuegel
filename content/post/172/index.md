@@ -1,6 +1,6 @@
 ---
 date: 2026-01-13T12:47:44+02:00
-title: "W. Semmler, Göttingen"
+title: "Karstadt Stettin"
 type: hanger
 outputs:
 - html
@@ -9,15 +9,26 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+- src: "back.png"
+  params:
+    iiif: back/info.json
+    content: |
+      Drei ka
+      Die gute Herrenkleidung    
 tags:
 - "Material: Holz"
-- Göttingen
+- Stettin
 - Bekleidungsgeschäft
 geojson:
   coordinates:
-  - 9.93228
-  - 51.53443
+  - 14.556028
+  - 53.423889
   precision: city
+related: |
+  * [Karstadt Göttingen (#11)](/post/11)
+remarks: |
+  * [Warenhaus Rudolph Karstadt (Stettin)](https://de.wikipedia.org/wiki/Warenhaus_Rudolph_Karstadt_(Stettin))
+  * Getauscht mit Holger-Philipp Bergt gegen den [Bügel Karstadt Göttingen (#11)](/post/11)
 ---
-W. Semmler, Göttingen
-Herren-u.Damenbekleidung
+Karstadt
+Stettin Breitestraße.

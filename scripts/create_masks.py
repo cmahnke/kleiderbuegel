@@ -80,6 +80,11 @@ def main():
         nargs='+',
         help="One or more glob patterns to find PNG images (e.g., 'content/post/**/*.png')."
     )
+    parser.add_argument(
+        '-f', '--force',
+        action='store_true',
+        help="Overwrite existing SVG mask files."
+    )
     args = parser.parse_args()
 
     image_paths = []
@@ -95,6 +100,11 @@ def main():
         # Define the output path for the SVG file
         output_filename = os.path.splitext(os.path.basename(image_path))[0] + '.svg'
         output_path = os.path.join(os.path.dirname(image_path), output_filename)
+
+        if os.path.exists(output_path) and not args.force:
+            print(f"Warning: Mask file already exists, skipping. Use --force to overwrite. {output_path}")
+            continue
+
         create_svg_mask(image_path, output_path)
 
 if __name__ == '__main__':

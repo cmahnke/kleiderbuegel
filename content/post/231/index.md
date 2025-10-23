@@ -1,6 +1,6 @@
 ---
-date: 2026-09-29T12:47:44+02:00
-title: "Ideal"
+date: 2027-03-02T12:47:44+02:00
+title: "Union"
 type: hanger
 outputs:
 - html
@@ -10,9 +10,11 @@ resources:
   params:
     iiif: front/info.json
 tags:
-- "Material: Holz"
-- "Material: Metall"
+- "Material: Plastik"
 - Klappbar
+- Union
 ---
+Union
 
-Ideal
+Made in W. Germany
+Art. 3610

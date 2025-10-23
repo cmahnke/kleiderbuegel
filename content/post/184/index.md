@@ -11,5 +11,6 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
+- Hosenbügel
 ---
 Stabil

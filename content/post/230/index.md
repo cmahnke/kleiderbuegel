@@ -1,7 +1,8 @@
 ---
-date: 2026-09-29T12:47:44+02:00
-title: "Ideal"
+date: 2027-02-23T12:47:44+02:00
+title: "Favorit"
 type: hanger
+draft: true
 outputs:
 - html
 - iiif-manifest
@@ -10,9 +11,6 @@ resources:
   params:
     iiif: front/info.json
 tags:
+- Hosenbügel
 - "Material: Holz"
-- "Material: Metall"
-- Klappbar
 ---
-
-Ideal

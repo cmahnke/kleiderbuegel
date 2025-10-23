@@ -5,6 +5,8 @@ tags:
 - Union
 - "Material: Holz"
 - "Material: Metall"
+- Rockbügel
+- Verstellbar
 type: hanger
 outputs:
 - html

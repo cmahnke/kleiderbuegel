@@ -26,3 +26,5 @@ pagefind/
 content/post/*/front.svg
 content/post/*/top.svg
 content/post/*/back.svg
+
+pnpm-lock.yaml

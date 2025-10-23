@@ -13,6 +13,8 @@ tags:
   - Union
   - "Material: Holz"
   - "Material: Metall"
+  - Rockbügel
+  - Verstellbar
 ---
 Union Rock-Jon
 D.B.Wz.

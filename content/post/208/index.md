@@ -12,6 +12,7 @@ resources:
 tags:
 - "Material: Holz"
 - "Material: Metall"
+- Verstellbar
 ---
 
 FIX D. Wz.

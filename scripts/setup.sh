@@ -36,8 +36,6 @@ SOURCE="static/images/kleiderbuegel.png" OPTIONS="-resize 128x128 -fuzz 5% -tran
 $DEPENDENCY_MANAGER install
 #$DEPENDENCY_MANAGER run svgo
 
-python scripts/create_masks.py
-
 ./scripts/map.sh
 ./scripts/svgo.sh
 python ./scripts/create_masks.py "content/post/**/front.png" "content/post/**/top.png" "content/post/**/back.png"

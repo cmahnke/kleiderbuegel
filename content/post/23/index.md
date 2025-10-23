@@ -4,6 +4,7 @@ title: "Union 3"
 tags:
 - Union
 - "Material: Holz"
+- Hosenbügel
 type: hanger
 outputs:
 - html

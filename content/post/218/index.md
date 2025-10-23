@@ -13,6 +13,7 @@ tags:
 - Hamburg
 - Warenhaus
 - "Material: Holz"
+- Beidseitig
 geojson:
   coordinates:
   - 9.9896316

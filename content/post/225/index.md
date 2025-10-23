@@ -13,6 +13,8 @@ tags:
 - Union
 - "Material: Holz"
 - "Material: Metall"
+related: |
+  * [Ideal (#209)](/post/209)
 ---
 Union
 D.R.W.Z.  D.R.W.Z.
