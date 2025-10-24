@@ -1,6 +1,6 @@
 ---
 date: 2027-02-02T12:47:44+02:00
-title: "HÜTTEL GIFHORN"
+title: "Emil Velde, Höhr - Grenzhausen"
 type: hanger
 outputs:
 - html
@@ -9,17 +9,21 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-draft: true
+- src: "back.png"
+  params:
+    iiif: back/info.json
+    content: |
+      Bleyle  Reparaturen durch die Fabrik Bleyle
 tags:
-- Gifhorn
-- Reinigung
-- Färberei
 - "Material: Holz"
+- Bekleidungsgeschäft
 - Beidseitig
 geojson:
   coordinates:
-  - 10.4432176
-  - 52.5085218
+  - 7.6473619,
+  - 50.4320414
   precision: city
 ---
-REINIGT HÜTTEL GIFHORN TELEF. 2311 FÄRBT
+
+Bleyle  Emil Velde, Höhr - Grenzhausen  Bleyle
+Bekleidungshaus  Tei. 360

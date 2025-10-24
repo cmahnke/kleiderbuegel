@@ -1,6 +1,6 @@
 ---
 date: 2026-03-31T12:47:44+02:00
-title: "Willi Fiebinger"
+title: "Centralhaus elg. Herrenmode, Stettin"
 type: hanger
 outputs:
 - html
@@ -9,18 +9,21 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+- src: "back.png"
+  params:
+    iiif: back/info.json
+    content: Inh. Woreczek & Braver
 tags:
 - "Material: Holz"
-- Sprottau
-doublesided: true
+- Bekleidungsgeschäft
+- Beidseitig
 geojson:
   coordinates:
-  - 15.4807126
-  - 51.5608938
-  precision: city
+  - 14.556317
+  - 53.426577
+  precision: exact
 remarks: |
-  * [Szprotawa (heutiger Name von Sprottau) in der Wikipedia](https://de.wikipedia.org/wiki/Szprotawa)
-  * [Nowe Miasteczko (heutiger Name von Neustädtel) in der Wikipedia<](https://de.wikipedia.org/wiki/Nowe_Miasteczko)
-  * [Der historische Kreis Sprottau in der Wikipedia](https://de.wikipedia.org/wiki/Kreis_Sprottau)
+  * [Nordkurier: Verein sucht Kleiderbügel](https://www.nordkurier.de/regional/pasewalk/verein-sucht-kleiderbuegel-2302545)
 ---
-Willi Fiebinger, Sprottau & Neustädtel
+
+Centralhaus elg. Herrenmode, Stettin, Kl. Domstr. 181

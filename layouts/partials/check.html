@@ -1,3 +1,4 @@
+{{- $page := . -}}
 {{- if hasPrefix .RelPermalink "/post" -}}
   {{ if not (isset .Params "type") }}
     {{ errorf "No type for post" .RelPermalink }}
@@ -33,6 +34,9 @@
   {{- with .Resources.GetMatch "back*" -}}
     {{- if not (isset .Params "content") -}}
       {{- errorf "Double sided hanger without description detected in %s" .RelPermalink  -}}
+    {{- end -}}
+    {{- if not (in $page.Params.tags "Beidseitig") -}}
+      {{- errorf "Tag missing for %s" .RelPermalink  -}}
     {{- end -}}
   {{- end }}
 

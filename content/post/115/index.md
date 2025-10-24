@@ -18,5 +18,7 @@ geojson:
   - 9.7331229
   - 52.3727407
   precision: exact
+related: |
+  * [Mäntelhaus Kaiser (#85)](/post/85)
 ---
 Mäntelhaus Kaiser
