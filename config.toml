@@ -193,6 +193,17 @@ timeout = 120
       [markup.goldmark.extensions.extras.superscript]
           enable = true
 
+[segments]
+  [segments.export]
+    [[segments.export.excludes]]
+      lang = 'en'
+      output = '{html,rss,iiif-manifest,iiif-collection}'
+    [[segments.export.includes]]
+      kind = '{home}'
+      lang = "de"
+      output = '{xml-export,geojson}'
+      path = '{/links/**,/map/**,/about/**}'
+
 [sitemap]
   changeFreq = 'weekly'
 

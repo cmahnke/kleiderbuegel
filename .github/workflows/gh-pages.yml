@@ -73,6 +73,10 @@ jobs:
         run: |
           ./scripts/post-build/index.sh
 
+      - name: Create export
+        run: |
+          hugo -F --renderSegments export
+
       - name: Puppeteer
         run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh
 

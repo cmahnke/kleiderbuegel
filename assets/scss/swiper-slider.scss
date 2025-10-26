@@ -16,7 +16,21 @@
   padding-top: 1.2rem;
 }
 
+.swiper-wrapper {
+  padding-top: 1rem;
+}
+
+/*
+.swiper-slide-active {
+  transform: scale(1.1);
+}
+*/
+
 .swiper-slide {
+  perspective: 600px;
+  transform-style: preserve-3d;
+  transform-origin: 100% 50%;
+  cursor: pointer;
   background-position: center;
   background-size: cover;
   width: 300px;
@@ -31,9 +45,29 @@
   display: block;
   width: 100%;
 }
+/*
+.swiper-slide-prev {
+  margin-right: 10px !important;
+}
+
+.swiper-slide-active {
+    margin-right: 10px !important;
+}
+*/
 
 .swiper-slide-active {
   transform: translate3d(0, 0, 0) !important;
+  z-index: 1000 !important;
+
+
+  .buegel {
+    transform: scale(1.15);
+    transition: transform 200ms;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+  }
 }
 
 .swiper-scrollbar {

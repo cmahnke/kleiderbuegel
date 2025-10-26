@@ -1,5 +1,5 @@
 ---
-date: 2025-04-09T12:47:44+02:00
+date: 2025-01-28T12:47:44+02:00
 title: "Erdmann Kleidung"
 type: hanger
 outputs:

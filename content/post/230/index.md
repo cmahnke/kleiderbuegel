@@ -2,7 +2,6 @@
 date: 2027-02-23T12:47:44+02:00
 title: "Favorit"
 type: hanger
-draft: true
 outputs:
 - html
 - iiif-manifest

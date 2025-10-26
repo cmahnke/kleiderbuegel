@@ -73,7 +73,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
   * Werbung: **{{< tags/tag-count "Werbung" true >}}**
   * Scherzartikel: **{{< tags/tag-count "Scherzartikel" true >}}**
   * Ohne Geodaten: **{{< hanger-param "geojson" "eq" nil >}}**
-
+  * Repariert: **{{< tags/tag-count "Repariert" true >}}**
 
 # Meine anderen Blogs
 

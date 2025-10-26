@@ -9,7 +9,6 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-draft: true
 tags:
 - Gifhorn
 - Reinigung

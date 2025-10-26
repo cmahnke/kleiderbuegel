@@ -13,6 +13,7 @@ tags:
   - "Material: Holz"
   - Cuxhaven
   - Bekleidungsgeschäft
+  - "Möller & Schade"
 geojson:
   coordinates:
   - 8.690482

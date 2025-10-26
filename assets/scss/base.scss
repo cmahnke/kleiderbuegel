@@ -23,6 +23,7 @@ $border-radius: 1rem;
 /* $max-width: 64em; */
 $max-width: 75%;
 $content-bg-color: rgba(255, 255, 255, 0.7);
+$heading-font: 'Libre Baskerville', serif;
 
 /* Background settings */
 $wood-texture-opacity: 0.5;
@@ -32,6 +33,7 @@ $background: $wood-light;
 @import "swiper-slider";
 @import "pagefind";
 @import "table";
+@import "cabinet";
 
 html {
     background: url($background);
@@ -48,7 +50,7 @@ h2,
 h3,
 h4 {
     /*
-    font-family: 'Libre Baskerville', serif;
+    font-family: $heading-font;
     font-style: italic;
     */
     color: $font-color-heading;
@@ -85,7 +87,7 @@ body {
             h1,
             h2,
             h3 {
-                font-family: 'Libre Baskerville', serif;
+                font-family: $heading-font;
                 font-style: italic;
             }
 
@@ -154,7 +156,7 @@ body {
         }
 
         .post-title {
-          font-family: "Libre Baskerville", serif;
+          font-family: $heading-font;
           font-style: italic;
           align-self: flex-start;
           text-align: left !important;
@@ -271,7 +273,7 @@ strong {
 }
 
 #schrank {
-  padding-top: 1rem;
+  /*padding-top: 1rem;*/
   position: relative;
 }
 
@@ -291,7 +293,7 @@ strong {
 }
 
 #klamotten {
-    padding-top: 2.2rem;
+    padding-top: 1.2rem;
     overflow-y: hidden;
     overflow-x: hidden;
     max-width: 100vw;
@@ -353,6 +355,7 @@ $kleidungsstueck-border-radius: $border-radius;
 
     &.active {
         padding-top: 1em;
+        display: block;
     }
 
     .post.hanger {
@@ -421,6 +424,16 @@ $kleidungsstueck-border-radius: $border-radius;
 }
 
 #main {
+
+    .post-list {
+      .heading-back,
+      .heading-front,
+      .heading-top {
+        text-align: right;
+        font-family: $heading-font;
+      }
+    }
+
     h1 {
         text-align: center;
         margin-top: 0;

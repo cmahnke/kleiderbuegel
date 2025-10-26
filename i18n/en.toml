@@ -34,6 +34,21 @@ other = "Identical labeling on both sides"
 [Tag]
 other = "Tag"
 
+[front]
+other = "Front"
+
+[back]
+other = "Back"
+
+[top]
+other = "Top"
+
+[identical_back]
+other = "Identical reverse side"
+
+[empty_back]
+other = "Unmarked reverse side"
+
 #Tags
 
 [Material__Holz]
@@ -95,3 +110,6 @@ other = "Adjustable"
 
 [Klappbar]
 other = "Foldable"
+
+[Repariert]
+other = "Repaired"

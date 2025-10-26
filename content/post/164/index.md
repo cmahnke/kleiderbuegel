@@ -13,15 +13,10 @@ tags:
 - "Material: Holz"
 - Beidseitig
 draft: true
+remarks: |
+  # Gau XVII Niedersachsen-Mitte
+  * [Reichsarbeitsdienst](https://de.wikipedia.org/wiki/Reichsarbeitsdienst)
+  * [Dokumente zum Reichsarbeitsdienst im Bundesarchiv](https://www.bundesarchiv.de/DE/Content/Virtuelle-Ausstellungen/Vom-Braunen-In-Den-Grauen-Rock-Der-Reichsarbeitsdienst/vom-braunen-in-den-grauen-rock-der-reichsarbeitsdienst.html)
 ---
 
 RAD. - Gau XVII 4 39
-
-<div class="notes">
-Weitere Informationen:
-<ul>
-<li>Gau XVII Niedersachsen-Mitte</li>
-<li><a href="https://de.wikipedia.org/wiki/Reichsarbeitsdienst">Reichsarbeitsdienst</a></li>
-<li><a href="https://www.bundesarchiv.de/DE/Content/Virtuelle-Ausstellungen/Vom-Braunen-In-Den-Grauen-Rock-Der-Reichsarbeitsdienst/vom-braunen-in-den-grauen-rock-der-reichsarbeitsdienst.html">Dokumente zum Reichsarbeitsdienst im Bundesarchiv</a></li>
-</ul>
-</div>

@@ -3,9 +3,7 @@
 // import effectTarget from '../../shared/effect-target.mjs';
 // import { getRotateFix, getSlideTransformEl } from '../../shared/utils.mjs';
 
-//getRotateFix,
-import { getSlideTransformEl, effectTarget, effectInit, createShadow } from 'swiper/effect-utils';
-import { p as getRotateFix } from '../swiper/shared/utils.mjs';
+import { getSlideTransformEl, effectTarget, effectInit, createShadow, getRotateFix } from 'swiper/effect-utils';
 
 export default function EffectCoverflow({ swiper, extendParams, on }) {
   extendParams({
@@ -15,9 +13,9 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
       depth: 0,
       scale: 1,
       modifier: 1,
-      slideShadows: true,
-      spacing: -0.7,
       fixedRotation: true,
+      slideShadows: false,
+      vanishingPointPerItem: true,
     },
   });
 
@@ -31,9 +29,13 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
     const translate = params.depth;
     const r = getRotateFix(swiper);
     // Each slide offset from center
-    for (let i = 0, length = slides.length; i < length; i += 1) {
-      const slideEl = slides[i];
-      const slideSize = slidesSizesGrid[i];
+    //for (let i = 0, length = slides.length; i < length; i += 1) {
+    for (let i = 0, length = swiper.visibleSlidesIndexes.length; i < length; i += 1) {
+    
+      //const slideEl = slides[i];
+      const slideEl = slides[swiper.visibleSlidesIndexes[i]];
+      //const slideSize = slidesSizesGrid[i];
+      const slideSize = slidesSizesGrid[swiper.visibleSlidesIndexes[i]];
       const slideOffset = slideEl.swiperSlideOffset;
       const centerOffset = (center - slideOffset - slideSize / 2) / slideSize;
       const offsetMultiplier =
@@ -43,10 +45,12 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
 
       let rotateY = isHorizontal ? rotate * offsetMultiplier : 0;
       let rotateX = isHorizontal ? 0 : rotate * offsetMultiplier;
+
       if (params.fixedRotation) {
         rotateX = Math.max(Math.min(rotateX, rotate), -rotate);
         rotateY = Math.max(Math.min(rotateY, rotate), -rotate);
       }
+      
       // var rotateZ = 0
       let translateZ = -translate * Math.abs(offsetMultiplier);
 
@@ -55,14 +59,22 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
       if (typeof stretch === 'string' && stretch.indexOf('%') !== -1) {
         stretch = (parseFloat(params.stretch) / 100) * slideSize;
       }
-      let spacing = params.spacing;
-      if (typeof spacing === 'number' && spacing < 0) {
-        spacing = slideSize * spacing;
-      }
-      let translateY = isHorizontal ? 0 : stretch * offsetMultiplier + spacing * Math.abs(offsetMultiplier);
-      let translateX = isHorizontal ? stretch * offsetMultiplier + spacing * Math.abs(offsetMultiplier) : 0;
+
+      let translateY = isHorizontal ? 0 : stretch * offsetMultiplier;
+      let translateX = isHorizontal ? stretch * offsetMultiplier : 0;
 
       let scale = 1 - (1 - params.scale) * Math.abs(offsetMultiplier);
+
+      // This is needed for (almost) correct spacing with negative spaceBetween value
+      let correctionX = 0
+      if ("spaceBetween" in swiper.params) {
+        if (centerOffset < 0) {
+          correctionX = -1 * swiper.params.spaceBetween;
+        } else if (centerOffset > 0) {
+          correctionX = swiper.params.spaceBetween;
+        } 
+      }
+      translateX = translateX + correctionX
 
       // Fix for ultra small values
       if (Math.abs(translateX) < 0.001) translateX = 0;
@@ -72,13 +84,16 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
       if (Math.abs(rotateX) < 0.001) rotateX = 0;
       if (Math.abs(scale) < 0.001) scale = 0;
 
-      const slideTransform = `translate3d(${translateX}px,${translateY}px,${translateZ}px)  rotateX(${r(
-        rotateX,
-      )}deg) rotateY(${r(rotateY)}deg) scale(${scale})`;
+      const slideTransform = `translate3d(${translateX}px,${translateY}px,${translateZ}px) rotateX(${r(
+         rotateX,
+       )}deg) rotateY(${r(rotateY)}deg) scale(${scale})`;
       const targetEl = effectTarget(params, slideEl);
       targetEl.style.transform = slideTransform;
 
-      slideEl.style.zIndex = -Math.abs(Math.round(offsetMultiplier)) + 1;
+      // Calculate z-index correctly
+      const zIndex = swiper.slides.length - Math.abs((swiper.activeIndex -1) - swiper.visibleSlidesIndexes[i]);
+      slideEl.style.zIndex = zIndex
+      //slideEl.style.zIndex = -Math.abs(Math.round(offsetMultiplier)) + 1;
 
       if (params.slideShadows) {
         // Set shadows
@@ -120,9 +135,11 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
     on,
     setTranslate,
     setTransition,
-    perspective: () => true,
+    perspective: () => {return !swiper.params.coverflowEffect.vanishingPointPerItem},
     overwriteParams: () => ({
       watchSlidesProgress: true,
+      centeredSlides: true,
+      initialSlide: 0,
     }),
   });
 }

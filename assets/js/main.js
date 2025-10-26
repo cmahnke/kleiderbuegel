@@ -59,62 +59,57 @@ function initFlipster(elem) {
 window.initFlipster = initFlipster;
 
 function hangerHandler (elem) {
-  const buegelElements = elem.querySelectorAll('.buegel');
+  const id = elem.dataset.contentId;
+  const contentContainer = document.getElementById(id);
+  const content = contentContainer ? contentContainer.innerHTML : '';
+  const kleidungsstueck = document.querySelector('#kleidungsstueck');
+  if (kleidungsstueck) {
+    kleidungsstueck.innerHTML = content;
 
-  buegelElements.forEach(function(buegelElement) {
-    buegelElement.addEventListener('click', function() {
-      const id = this.dataset.contentId;
+    if (!kleidungsstueck.classList.contains('active')) {
+      setTimeout(function() {
+        kleidungsstueck.classList.add('active');
+      }, 500);
+    }
+  }
 
-      const subList = document.querySelector('#' + id + ' ul');
-
-      if (subList) {
-        subList.classList.remove('flipster__container');
-        subList.removeAttribute('style');
-      }
-
-      const contentContainer = document.getElementById(id);
-      const content = contentContainer ? contentContainer.innerHTML : '';
-
-      const kleidungsstueck = document.getElementById('kleidungsstueck');
+  const closeHangers = document.querySelectorAll('.close-hanger');
+  closeHangers.forEach(function(closeHanger) {
+    closeHanger.addEventListener('click', function handler() {
       if (kleidungsstueck) {
-        kleidungsstueck.innerHTML = content;
-
-        if (!kleidungsstueck.classList.contains('active')) {
-
-          setTimeout(function() {
-            kleidungsstueck.classList.add('active');
-          }, 500);
-        }
+        setTimeout(function() {
+          kleidungsstueck.classList.remove('active');
+        }, 500);
       }
-
-      const closeHangers = document.querySelectorAll('.close-hanger');
-      closeHangers.forEach(function(closeHanger) {
-        closeHanger.addEventListener('click', function handler() {
-          if (kleidungsstueck) {
-            setTimeout(function() {
-              kleidungsstueck.classList.remove('active');
-            }, 500);
-          }
-        });
-      });
     });
   });
 }
 
+
 function initSlider(elem) {
+
   var swiper = new Swiper(elem, {
-    modules: [A11y, Navigation, Keyboard, Mousewheel, EffectCoverflow, Scrollbar],
+    modules: [A11y, Scrollbar, Navigation, Keyboard, Mousewheel, EffectCoverflow],
     effect: "coverflow",
+    //cssMode: true,
+    slideToClickedSlide:true,
     grabCursor: true,
-    centeredSlides: false,
+    centeredSlides: true,
+    initialSlide: 0,
     slidesPerView: "auto",
     mousewheel: true,
+    loop: false,
+    normalizeSlideIndex: false,
+    slidesPerView: 'auto',
+    spaceBetween: -210,
     coverflowEffect: {
-      rotate: 75,
-      stretch: 0,
+      rotate: 65,
+      stretch: 1,
       depth: 0,
       modifier: 1,
       slideShadows: false,
+      spacing: 0.7,
+      vanishingPointPerItem: true,
     },
     navigation: {
       nextEl: ".swiper-button-next",
@@ -123,20 +118,33 @@ function initSlider(elem) {
     keyboard: {
       enabled: true,
     },
-    /*
-    on('click', e) {
-      //const id = this.dataset.contentId;
-      console.log(e);
-    }},
-    */
-
+    init: false,
+    on: {
+      click: function (swiper, event) {
+        hangerHandler(event.target);
+      },
+      afterInit: function (swiper) {
+        swiper.slideTo(0, 0)
+        console.log('afterinit')
+      },
+    },
     scrollbar: {
       el: '.swiper-scrollbar',
       draggable: true,
     },
-
   });
-  //hangerHandler (elem);
+  swiper.init();
+  //swiper.slideTo(0, 0)
 }
+
+/*
+let i =0;
+cl = console.log;
+console.log = function() {
+  cl(i);
+  i++;
+};
+*/
+
 
 window.initSlider = initSlider;

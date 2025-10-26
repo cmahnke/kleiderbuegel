@@ -33,3 +33,18 @@ other = "Beidseitig identisch beschriftet"
 
 [Tag]
 other = "Schlagwort"
+
+[front]
+other = "Vorderseite"
+
+[back]
+other = "Rückseite"
+
+[top]
+other = "Oberseite"
+
+[identical_back]
+other = "Identische Rückseite"
+
+[empty_back]
+other = "Unbeschriftete Rückseite"

@@ -1,7 +1,23 @@
-{{- $page := . -}}
+
 {{- if hasPrefix .RelPermalink "/post" -}}
+  {{- $page := . -}}
+
+  {{- if and (ne .NextInSection nil) (ne .NextInSection.File nil) -}}
+    {{- $no := path.BaseName .File.Dir -}}
+    {{- $next := path.BaseName .NextInSection.File.Dir -}}
+    {{- if and (findRE `(?m)^\d+$` $no) (findRE `(?m)^\d+$` $next) -}}
+      {{- if ne (add (int $no) 1) (int $next) -}}
+        {{- warnf "Number and date might be wrong for %s (current %s, next %s)" $page.NextInSection.RelPermalink $no $next -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
   {{ if not (isset .Params "type") }}
     {{ errorf "No type for post" .RelPermalink }}
+  {{- end -}}
+
+  {{- if and  (site.BuildDrafts) .Draft -}}
+    {{- warnf "Page is a draft %s" .RelPermalink -}}
   {{- end -}}
 
   {{- if ne .Params.type "text" -}}

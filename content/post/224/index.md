@@ -10,18 +10,8 @@ resources:
   params:
     iiif: front/info.json
 tags:
-#- Hannover
 - Bekleidungsgeschäft
 - "Material: Holz"
-draft: true
-#geojson:
-#  coordinates:
-#  - 9.7311875
-#  - 52.3760738
-#  precision: exact
-#related: |
-#  * [C. Louis Weber (#65)](/post/65)
-#  * [C. Louis Weber (#214)](/post/214)
 ---
 Schulze
 Kleidung

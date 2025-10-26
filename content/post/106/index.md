@@ -1,5 +1,5 @@
 ---
-date: 2025-01-15T12:47:44+02:00
+date: 2024-10-09T12:47:44+02:00
 title: "Frank & Krause Delmenhorst"
 type: hanger
 outputs:

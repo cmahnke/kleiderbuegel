@@ -1,0 +1,18 @@
+#klamotten {
+  position: relative;
+  padding-top: 1rem;
+
+  /*
+  &:before {
+    content: '';
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(35,43,48,.3) 100%);
+    pointer-events: none;
+  }
+  */
+}

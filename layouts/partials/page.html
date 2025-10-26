@@ -1,17 +1,25 @@
 {{- partial "check.html" . -}}
 
-{{- partial "rail.html" . -}}
-{{ $class := .Params.type }}
+{{- $class := .Params.type -}}
+{{- $frontContent := "" -}}
 <div class="post {{ $class }}">
     <div class="content">
       <button class="close-hanger"></button>
       <h1 class="post-title">{{ .Title }}</h1>
-      {{ if eq $class "hanger" }}
+      {{- if eq $class "hanger" -}}
+        {{- $page := . -}}
+        <h2 class="heading-front">{{ i18n "front" }}</h2>
         <div class="hanger-front">
           {{- $front := .Resources.GetMatch "front*" -}}
           {{- if eq $front nil -}}
             {{- errorf "[page.html] Failed to load images for %s" .RelPermalink -}}
           {{- end -}}
+          {{- with $front.Params.content -}}
+            <div class="back-content">
+              {{- $frontContent = . | markdownify -}}
+              {{- $frontContent -}}
+            </div>
+          {{- end }}
           {{- $large := $front.Resize "1600x webp picture" -}}
           {{- $thumb := $front.Resize "330x webp picture" -}}
           <img class="buegel-font hanger-img" src="{{ $large.RelPermalink }}" alt="{{ .Title }}" data-thumb="{{ $thumb.RelPermalink }}" />
@@ -19,26 +27,43 @@
         {{- $title := .Title -}}
 
         {{- with .Resources.GetMatch "top*" -}}
-          {{- $largeTop := .Resize "1600x webp picture" -}}
-          <img loading="lazy" class="buegel-top hanger-img" src="{{ $largeTop.RelPermalink }}" alt="{{ $title }}" />
-          {{- with .Params.content -}}
-            <div class="top-content">
-              {{- . | markdownify -}}
-            </div>
-          {{- end }}
+          <h2 class="heading-top">{{ i18n "top" }}</h2>
+          <div class="hanger-top">
+            {{- $largeTop := .Resize "1600x webp picture" -}}
+            <img loading="lazy" class="buegel-top hanger-img" src="{{ $largeTop.RelPermalink }}" alt="{{ $title }}" />
+            {{- with .Params.content -}}
+              <div class="top-content">
+                {{- . | markdownify -}}
+              </div>
+            {{- end }}
+          </div>
         {{- end }}
 
+        <h2 class="heading-back">{{ i18n "back" }}</h2>
         {{- with .Resources.GetMatch "back*" -}}
           {{- $largeBack := .Resize "1600x webp picture" -}}
-          <img loading="lazy" class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ $title }}" />
-          {{- with .Params.content -}}
-            <div class="back-content">
-              {{- . | markdownify -}}
-            </div>
-          {{- end }}
-        {{- end }}
+          <div class="hanger-back">
+            <img loading="lazy" class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ $title }}" />
+            {{- with .Params.content -}}
+              <div class="back-content">
+                {{- . | markdownify -}}
+              </div>
+            {{- end }}
+          </div>
+        {{- else -}}
+          <div class="hanger-back">
+            {{- if (in $page.Params.tags "Beidseitig") -}}
+              {{- i18n "identical_back" -}}
+            {{- else -}}
+              {{- i18n "empty_back" -}}
+            {{- end -}}
+          </div>
+        {{- end -}}
       {{- end -}}
-      {{- partial "post-content.html" . -}}
+
+      {{- if eq $frontContent "" -}}
+        {{- partial "post-content.html" . -}}
+      {{- end -}}
      </div>
     {{- if and (not .Params.hideMeta) (not .Params.metaPage) -}}
       <div class="meta">

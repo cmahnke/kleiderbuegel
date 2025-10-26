@@ -1,5 +1,5 @@
 ---
-date: 2024-04-09T12:47:44+02:00
+date: 2024-08-09T12:47:44+02:00
 title: "Ketelsen Bremerhaven-Bürger 42"
 type: hanger
 outputs:
