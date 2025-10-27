@@ -16,6 +16,8 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
       fixedRotation: true,
       slideShadows: false,
       vanishingPointPerItem: true,
+      activeMarginRight: 0,
+      activeMarginLeft: 0,
     },
   });
 
@@ -69,9 +71,9 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
       let correctionX = 0
       if ("spaceBetween" in swiper.params) {
         if (centerOffset < 0) {
-          correctionX = -1 * swiper.params.spaceBetween;
+          correctionX = -1 * swiper.params.spaceBetween + params.activeMarginLeft;
         } else if (centerOffset > 0) {
-          correctionX = swiper.params.spaceBetween;
+          correctionX = swiper.params.spaceBetween - params.activeMarginRight;
         } 
       }
       translateX = translateX + correctionX
@@ -91,7 +93,7 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
       targetEl.style.transform = slideTransform;
 
       // Calculate z-index correctly
-      const zIndex = swiper.slides.length - Math.abs((swiper.activeIndex -1) - swiper.visibleSlidesIndexes[i]);
+      const zIndex = Math.round(swiper.slides.length - Math.abs(centerOffset * 4))
       slideEl.style.zIndex = zIndex
       //slideEl.style.zIndex = -Math.abs(Math.round(offsetMultiplier)) + 1;
 
