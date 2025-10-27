@@ -1,0 +1,27 @@
+{"meta": {"date": "0001-01-01 00:00:00 +0000 UTC", "title": "Privacy policy", "type": "<no value>" }, "images": {}, "content": "<h2 id="hosting">Hosting</h2>
+<p>The hoster collects the following data transmitted by your browser in log files:</p>
+<ul>
+<li>IP address</li>
+<li>The address of the previously visited website (Referer [sic!] request header)</li>
+<li>Date and time of the enquiry</li>
+<li>Time zone difference to Greenwich Mean Time</li>
+<li>Content of the request</li>
+<li>HTTP status code</li>
+<li>Amount of data transferred</li>
+<li>Website from which the request originates</li>
+<li>Information about the browser and operating system</li>
+</ul>
+<p>This is necessary to display the website and to ensure stability and security. This corresponds to a legitimate interest within the meaning of <a href="https://gdpr-info.eu/art-6-gdpr/" target="_blank">Art. 6 para. 1 sentence 1 lit. f GDPR</a>.</p>
+<p>There is no tracking and the operator has no direct access to this data.</p>
+<p>The website is provided by the following host:</p>
+<p>GitHub Inc.<br />
+88 Colin P Kelly Jr St<br />
+San Francisco, CA 94107<br />
+United States<br /></p>
+<p>This is the recipient of your personal data. This corresponds to a legitimate interest within the meaning of <a href="https://gdpr-info.eu/art-6-gdpr/" target="_blank">Art. 6 para. 1 sentence 1 lit. f GDPR</a> in not having to maintain a server ourselves. Server location is USA.</p>
+<p>Further information on objection and removal options vis-à-vis GitHub can be found at: <a href="https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement#github-pages" target="_blank">https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement#github-pages</a></p>
+<p>You have the right to object to the processing. Whether the objection is successful must be determined as part of a balancing of interests.</p>
+<p>The data will be deleted as soon as the purpose of the processing no longer applies.</p>
+<p>The processing of the data specified in this section is not required by law or contract. The functionality of the website is not guaranteed without the processing.</p>
+<p>GitHub has implemented compliance measures for international data transfers. These apply to all global activities where GitHub processes personal data of natural persons in the EU. These measures are based on the EU Standard Contractual Clauses (SCCs). Further information can be found at: <a href="https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1-the-standard-contractual-clauses-processors" target="_blank">https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1-the-standard-contractual-clauses-processors</a></p>
+<p class="small">Automatic translation based on <a href="https://opr.vc/docs/hosting/github_pages/">open source privacy</a></p>"}

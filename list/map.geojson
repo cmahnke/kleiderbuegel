@@ -4,7 +4,7 @@
   "type": "Feature",
   "properties": {
       "name": "Wäscherei Kleiderbad Meyer Chem. Reinigung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei Kleiderbad Meyer Chem. Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eWäscherei Kleiderbad\nMeyer\nChem. Reinigung\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\n  Siehe auch \u003ca href=\"/post/42\"\u003eWäscherei MEYER (#42)\u003c/a\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/160/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei Kleiderbad Meyer Chem. Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Wäscherei Kleiderbad\nMeyer\nChem. Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/160/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -19,7 +19,7 @@
   "type": "Feature",
   "properties": {
       "name": "Herrenkleidung flebbe Braunschweig",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Herrenkleidung flebbe Braunschweig\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eHerrenkleidung\nflebbe\nBraunschweig\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\n  Siehe auch \u003ca href=\"/post/143\"\u003eflebbe (#143)\u003c/a\u003e\n\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/156/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Herrenkleidung flebbe Braunschweig\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Herrenkleidung\nflebbe\nBraunschweig\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/156/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -34,7 +34,7 @@
   "type": "Feature",
   "properties": {
       "name": "ALANA FURS",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        ALANA FURS\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eCold Fur Storage \u0026amp; Repairs ALANA FURS 676 Yonge St. WA 5-3441\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/153/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        ALANA FURS\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Cold Fur Storage \u0026amp; Repairs ALANA FURS 676 Yonge St. WA 5-3441\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/153/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -49,7 +49,7 @@
   "type": "Feature",
   "properties": {
       "name": "Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eKarl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/152/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/152/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -64,7 +64,7 @@
   "type": "Feature",
   "properties": {
       "name": "Färberei Croon Osnabrück",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Färberei Croon Osnabrück\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eFärberei Croon Osnabrück\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/151/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Färberei Croon Osnabrück\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Färberei Croon Osnabrück\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/151/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -79,7 +79,7 @@
   "type": "Feature",
   "properties": {
       "name": "C.H. Wehmeyer, Schloss Holte",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        C.H. Wehmeyer, Schloss Holte\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eReinigung\nC.H. Wehmeyer, Schloss Holte\nRuf 533\nKleiderbad\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/150/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        C.H. Wehmeyer, Schloss Holte\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Reinigung\nC.H. Wehmeyer, Schloss Holte\nRuf 533\nKleiderbad\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/150/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -94,7 +94,7 @@
   "type": "Feature",
   "properties": {
       "name": "Erdmann Kleidung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Erdmann Kleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eErdmann Kleidung\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\n  Siehe auch \u003ca href=\"/post/121\"\u003eErdmann Kleidung (#121)\u003c/a\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/149/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Erdmann Kleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Erdmann Kleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/149/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -109,7 +109,7 @@
   "type": "Feature",
   "properties": {
       "name": "CINTRES",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        CINTRES\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eCINTRES\n[B]EHLEB\nMODE[?]POSE\nTENDEUR\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\n  Leider nicht vollständig lesbar, aber wohl aus Frankreich\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/146/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        CINTRES\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        CINTRES\n[B]EHLEB\nMODE[?]POSE\nTENDEUR\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/146/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -154,7 +154,7 @@
   "type": "Feature",
   "properties": {
       "name": "flebbe",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        flebbe\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eflebbe\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.braunschweig.de/leben/stadtplanung_bauen/stadtbild_denkmalpflege/denkmalpflege/Datenblatt_Flebbe_Internet.pdf\"\u003eDas Flebbe-Haus bei der Denkmalpflege Braunschweig\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/143/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        flebbe\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        flebbe\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/143/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -169,7 +169,7 @@
   "type": "Feature",
   "properties": {
       "name": "Wittke Größtes Herren-Spezialhaus Dithmarschens",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wittke Größtes Herren-Spezialhaus Dithmarschens\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eWittke Größtes Herren-Spezialhaus Dithmarschens\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://ansichtskarten-lexikon.de/ak-221752.html\"\u003eAnsichtskarte\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/142/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wittke Größtes Herren-Spezialhaus Dithmarschens\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Wittke Größtes Herren-Spezialhaus Dithmarschens\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/142/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -184,7 +184,7 @@
   "type": "Feature",
   "properties": {
       "name": "Textil u. Modenhaus Gebr. Simon Steinheim",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Textil u. Modenhaus Gebr. Simon Steinheim\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eTextil u. Modenhaus Gebr. Simon Steinheim\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://tourismus.steinheim.de/Stadtgeschichte/Private-Stadtgeschichte/index.php?object=tx,3276.49.1\u0026amp;NavID=3276.18\u0026amp;La=1\"\u003ePrivate Stadtgeschichte Steinheim\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/141/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Textil u. Modenhaus Gebr. Simon Steinheim\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Textil u. Modenhaus Gebr. Simon Steinheim\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/141/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -213,21 +213,6 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Erdmann Kleidung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Erdmann Kleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eErdmann\nKleidung\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.haz.de/lokales/hannover/hannovers-bekanntester-herrenausstatter-ist-tot-JSBUEWHPHN2CRDO4XY5AJSHA44.html\"\u003eArtikel in der HAZ\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/121/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [9.7344751,52.3739932]
-  }
-}
-
-
-
-
-,{
-  "type": "Feature",
-  "properties": {
       "name": "Moden - Denzler - Northeim seit 1920",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Moden - Denzler - Northeim seit 1920\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Moden - Denzler - Northeim\nseit 1920\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/132/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
@@ -244,7 +229,7 @@
   "type": "Feature",
   "properties": {
       "name": "Färberei Bode Reinigung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Färberei Bode Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eFärberei Bode Reinigung\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.northdata.de/F%C3%A4rberei+W.+Bode+Verwaltungs-GmbH+%26+Co.+KG+chem.+Reinigung,+Hannover/HRA+21817\"\u003eEintrag bei North Data\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/128/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Färberei Bode Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Färberei Bode Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/128/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -259,7 +244,7 @@
   "type": "Feature",
   "properties": {
       "name": "Möller &amp; Schade Das Haus der guten Kleidung Cuxhaven",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Möller \u0026amp; Schade Das Haus der guten Kleidung Cuxhaven\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eMöller \u0026amp; Schade\nDas Haus der guten Kleidung\nCuxhaven\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://cuxpedia.de/index.php?title=M%C3%B6ller_%26_Schade\"\u003eEintrag in der Cuxpedia\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/127/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Möller \u0026amp; Schade Das Haus der guten Kleidung Cuxhaven\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Möller \u0026amp; Schade\nDas Haus der guten Kleidung\nCuxhaven\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/127/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -303,12 +288,12 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Frank &amp; Krause Delmenhorst",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Frank \u0026amp; Krause Delmenhorst\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        30 Jahre\nHerren- und Damenbekleidung\nFrank \u0026amp; Krause Delmenhorst\nRuf 2090\nMaßkonfektion\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/106/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "name": "Erdmann Kleidung",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Erdmann Kleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Erdmann\nKleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/121/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.63091,53.0511]
+    "coordinates": [9.7344751,52.3739932]
   }
 }
 
@@ -349,7 +334,7 @@
   "type": "Feature",
   "properties": {
       "name": "Kassel Modehaus Schulz Witzenhausen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Kassel Modehaus Schulz Witzenhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eKassel Modehaus Schulz Witzenhausen\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\nSiehe auch \u003ca href=\"/post/46\"\u003eModehaus Schulz (#46)\u003c/a\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.hna.de/lokales/witzenhausen/waehrungsreform-vor-75-jahren-stadt-witzenhausen-verliert-fast-million-mark-92351384.html\"\u003eArtikel in der HNA\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/117/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Kassel Modehaus Schulz Witzenhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Kassel Modehaus Schulz Witzenhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/117/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -424,7 +409,7 @@
   "type": "Feature",
   "properties": {
       "name": "Sangermann Köln",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Sangermann Köln\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eSangermann Köln\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://kriesel-a-d-oper.de/content/78/59/wir-ueber-uns\"\u003eGeschichte des heutigen Unternehmens\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/108/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Sangermann Köln\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Sangermann Köln\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/108/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -453,6 +438,21 @@
 ,{
   "type": "Feature",
   "properties": {
+      "name": "Frank &amp; Krause Delmenhorst",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Frank \u0026amp; Krause Delmenhorst\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        30 Jahre\nHerren- und Damenbekleidung\nFrank \u0026amp; Krause Delmenhorst\nRuf 2090\nMaßkonfektion\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/106/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.63091,53.0511]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Mäntel und Pelze Eichmeyer &amp; Co., Hamburg Mönkebergstr.",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Mäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Mäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/105/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
@@ -469,7 +469,7 @@
   "type": "Feature",
   "properties": {
       "name": "Braunschweig Poplau &amp; Co. Damm 1",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Braunschweig Poplau \u0026amp; Co. Damm 1\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBraunschweig\nPoplau \u0026amp; Co.\nDamm 1\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/104/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Braunschweig Poplau \u0026amp; Co. Damm 1\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Braunschweig\nPoplau \u0026amp; Co.\nDamm 1\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/104/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -484,7 +484,7 @@
   "type": "Feature",
   "properties": {
       "name": "Hotel zu den vier Jahreszeiten Helmstedt",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel zu den vier Jahreszeiten Helmstedt\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eHotel zu den vier Jahreszeiten Helmstedt\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.ansichtskartenversand.com/ak/91-Alte-Ansichtskarte/24349-38350-Helmstedt/12962482-AK-Helmstedt-Hotel-Restaurant-Vier-Jahreszeiten-in-der-Strasse-Holzberg-23\"\u003eAnsichtskarte des Hotel zu den vier Jahreszeiten\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/103/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel zu den vier Jahreszeiten Helmstedt\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel zu den vier Jahreszeiten Helmstedt\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/103/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -499,7 +499,7 @@
   "type": "Feature",
   "properties": {
       "name": "MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eMOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.gelsenkirchener-geschichten.de/forum/viewtopic.php?t=1691\"\u003eMOLLERUS in Gelsenkirchener Geschichten\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/101/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/101/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -528,6 +528,21 @@
 ,{
   "type": "Feature",
   "properties": {
+      "name": "Ketelsen Bremerhaven-Bürger 42",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ketelsen Bremerhaven-Bürger 42\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Ketelsen Bremerhaven-Bürger 42\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/97/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.5760938,53.5432945]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Dorum Fritz von Geldern Bederkesa",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Dorum Fritz von Geldern Bederkesa\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Dorum\nFritz von Geldern\nBederkesa\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/96/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
@@ -544,7 +559,7 @@
   "type": "Feature",
   "properties": {
       "name": "Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eErnst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"http://www.stackmann.de/\"\u003eDerzeitige Homepage\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/95/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/95/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -559,7 +574,7 @@
   "type": "Feature",
   "properties": {
       "name": "Wäscherei - Speck, Helmstedt - chem. Reinigung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei - Speck, Helmstedt - chem. Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.arcinsys.niedersachsen.de/arcinsys/detailAction.action?detailid=v5258036\"\u003eIm niedersächsischen Landesarchiv\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/94/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei - Speck, Helmstedt - chem. Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/94/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -589,7 +604,7 @@
   "type": "Feature",
   "properties": {
       "name": "Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eOtto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://de.wikipedia.org/wiki/Netzekreis\"\u003eDer Netzekreis in der Wikipedia\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/92/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/92/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -604,7 +619,7 @@
   "type": "Feature",
   "properties": {
       "name": "Friedrich Schefft OHG., Textilwaren Uslar",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Friedrich Schefft OHG., Textilwaren Uslar\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eFriedrich Schefft OHG., Textilwaren Uslar\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.modehaus-schefft.de/\"\u003eHeutige Webseite\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/91/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Friedrich Schefft OHG., Textilwaren Uslar\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Friedrich Schefft OHG., Textilwaren Uslar\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/91/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -739,7 +754,7 @@
   "type": "Feature",
   "properties": {
       "name": "ALOYS BUNGE Bekleidungshaus HANNOVER",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        ALOYS BUNGE Bekleidungshaus HANNOVER\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eALOYS BUNGE\nBekleidungshaus\nHANNOVER\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.northdata.de/Bekleidungshaus+Aloys+Bunge+GmbH,+Hannover/HRB+54481\"\u003eEintrag bei North Data\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/82/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        ALOYS BUNGE Bekleidungshaus HANNOVER\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        ALOYS BUNGE\nBekleidungshaus\nHANNOVER\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/82/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -753,23 +768,8 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Ketelsen Bremerhaven-Bürger 42",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ketelsen Bremerhaven-Bürger 42\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Ketelsen Bremerhaven-Bürger 42\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/97/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [8.5760938,53.5432945]
-  }
-}
-
-
-
-
-,{
-  "type": "Feature",
-  "properties": {
       "name": "Damen-Moden W. Renneberg",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Damen-Moden W. Renneberg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eDamen-Moden W. Renneberg Northeim\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/77/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Damen-Moden W. Renneberg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Damen-Moden W. Renneberg Northeim\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/77/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -784,7 +784,7 @@
   "type": "Feature",
   "properties": {
       "name": "Schnellreinigung W. Freitag Hildesheim",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Schnellreinigung W. Freitag Hildesheim\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eperfekte Schnellreinigung W. Freitag Hildesheim Tel. 6782\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/76/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Schnellreinigung W. Freitag Hildesheim\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        perfekte Schnellreinigung W. Freitag Hildesheim Tel. 6782\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/76/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -799,7 +799,7 @@
   "type": "Feature",
   "properties": {
       "name": "Theaterkunst GMBH.",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Theaterkunst GMBH.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eTheaterkunst GMBH.\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://de.wikipedia.org/wiki/Theaterkunst\"\u003eTheaterkunst GmbH in der Wikipedia\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/75/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Theaterkunst GMBH.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Theaterkunst GMBH.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/75/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -814,7 +814,7 @@
   "type": "Feature",
   "properties": {
       "name": "Bekleidungshaus Manschott Haus der 5000 Hosen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus Manschott Haus der 5000 Hosen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBekleidungshaus Manschott Haus der 5000 Hosen\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/74/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus Manschott Haus der 5000 Hosen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Bekleidungshaus Manschott Haus der 5000 Hosen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/74/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -829,7 +829,7 @@
   "type": "Feature",
   "properties": {
       "name": "J.Braun Gr. Johannisstraße 3",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        J.Braun Gr. Johannisstraße 3\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eDamen-Bekleidung Hamburg J.Braun Gr. Johannisstraße 3 Herren-Bekleidung\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/73/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        J.Braun Gr. Johannisstraße 3\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Damen-Bekleidung Hamburg J.Braun Gr. Johannisstraße 3 Herren-Bekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/73/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -844,7 +844,7 @@
   "type": "Feature",
   "properties": {
       "name": "Klinik Wetterau der BfA",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Klinik Wetterau der BfA\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003e\u003ca href=\"https://wetterau.deutsche-rentenversicherung-reha-zentren.de/\" target=\"_blank\"\u003eKlinik Wetterau der BfA\u003c/a\u003e\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/72/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Klinik Wetterau der BfA\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003ca href=\"https://wetterau.deutsche-rentenversicherung-reha-zentren.de/\" target=\"_blank\"\u003eKlinik Wetterau der BfA\u003c/a\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/72/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -859,7 +859,7 @@
   "type": "Feature",
   "properties": {
       "name": "Esders Siegen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Esders Siegen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eEsders Siegen\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.wp.de/staedte/siegerland/vor-75-jahren-ss-maenner-zuenden-synagoge-an-id8649528.html\"\u003eWestfalenpost: Vor 75 Jahren: SS-Männer zünden Synagoge an\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/71/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Esders Siegen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Esders Siegen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/71/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -874,7 +874,7 @@
   "type": "Feature",
   "properties": {
       "name": "Hotel Bachmair am See",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel Bachmair am See\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eHotel Bachmair am See Rottach - Egern / Tegernsee\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/70/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel Bachmair am See\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel Bachmair am See Rottach - Egern / Tegernsee\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/70/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -889,7 +889,7 @@
   "type": "Feature",
   "properties": {
       "name": "Breitling Stuttgart",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Breitling Stuttgart\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBreitling\nDas Haus der guten Kleidung\nStuttgart\nHerrenbekleidung Damenbekleidung\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/69/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Breitling Stuttgart\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Breitling\nDas Haus der guten Kleidung\nStuttgart\nHerrenbekleidung Damenbekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/69/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -904,7 +904,7 @@
   "type": "Feature",
   "properties": {
       "name": "Bekleidungshaus BUCHMANN Wolfhagen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus BUCHMANN Wolfhagen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBekleidungshaus BUCHMANN Wolfhagen\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/68/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus BUCHMANN Wolfhagen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Bekleidungshaus BUCHMANN Wolfhagen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/68/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -919,7 +919,7 @@
   "type": "Feature",
   "properties": {
       "name": "Wäschepflege TESTORP",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäschepflege TESTORP\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eWäschepflege TESTORP Ruf 221244\u003c/p\u003e\n\u003cp\u003eWäschepflege TESTORP 3-Tage-Dienst\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.northdata.de/Julius+Testorp+Die+W%C3%A4scherei+der+Hausfrau+chemische+Reinigung,+Hamburg/HRA+40454\"\u003eEintrag bei North Data\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/67/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäschepflege TESTORP\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Wäschepflege TESTORP Ruf 221244\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/67/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -934,7 +934,7 @@
   "type": "Feature",
   "properties": {
       "name": "Hotel - Pension Kardell",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel - Pension Kardell\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eHotel - Pension Kardell 8875032\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/66/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel - Pension Kardell\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel - Pension Kardell 8875032\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/66/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -949,7 +949,7 @@
   "type": "Feature",
   "properties": {
       "name": "C. Louis Weber Hannover",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        C. Louis Weber Hannover\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eC. Louis Weber Hannover\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/65/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        C. Louis Weber Hannover\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        C. Louis Weber Hannover\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/65/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -964,7 +964,7 @@
   "type": "Feature",
   "properties": {
       "name": "Ernst Fricke",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ernst Fricke\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eErnst Fricke Inh. Aug. Albrecht Göttingen Zindelstr. 6\u003c/p\u003e\n\u003cp\u003eDas Haus der guten Herrenkleidung\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/61/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ernst Fricke\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Ernst Fricke Inh. Aug. Albrecht Göttingen Zindelstr. 6\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/61/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -979,7 +979,7 @@
   "type": "Feature",
   "properties": {
       "name": "Jordan",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Jordan\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003e„Herrenausstatter“ Jordan  Bremerhaven-G. Ruf 21332\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/60/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Jordan\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        „Herrenausstatter“ Jordan  Bremerhaven-G. Ruf 21332\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/60/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -994,7 +994,7 @@
   "type": "Feature",
   "properties": {
       "name": "Fischer · Hettlage · Lampe",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Fischer · Hettlage · Lampe\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003e50 Jahre  Dortmund  Fischer · Hettlage · Lampe  Hagen I.W.  50 Jahre\u003c/p\u003e\n\u003cp\u003eDie „gute“ Herren- Damen- und Kinder-Kleidung\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/59/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Fischer · Hettlage · Lampe\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        50 Jahre  Dortmund  Fischer · Hettlage · Lampe  Hagen I.W.  50 Jahre\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/59/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1009,7 +1009,7 @@
   "type": "Feature",
   "properties": {
       "name": "Hasse &amp; Söhne",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hasse \u0026amp; Söhne\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eNortheim\nHasse \u0026amp; Söhne Hosen u. Berufsbekleidung\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/58/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hasse \u0026amp; Söhne\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Northeim\nHasse \u0026amp; Söhne Hosen u. Berufsbekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/58/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1023,23 +1023,8 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Moritz Cahn",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Moritz Cahn\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eMoritz Cahn, Halle a.S.\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.gedenkbuch.halle.de/gbdatensatz.php?num=18\"\u003eGedenkbuch für die Toten des Holocaust in Halle\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/53/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [11.966377,51.4844673]
-  }
-}
-
-
-
-
-,{
-  "type": "Feature",
-  "properties": {
       "name": "Printz",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Printz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003ePrintz reinigt Kleidung richtig\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://stadtlexikon.karlsruhe.de/index.php/De:Lexikon:ins-0039\"\u003eStadtarchiv Karlsruhe: Geschichte der Printz Reinigung\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/54/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Printz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Printz reinigt Kleidung richtig\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/54/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1053,8 +1038,23 @@
 ,{
   "type": "Feature",
   "properties": {
+      "name": "Moritz Cahn",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Moritz Cahn\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Moritz Cahn, Halle a.S.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/53/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [11.966377,51.4844673]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Gebr. Schwieger",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Gebr. Schwieger\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eGebr. Schwieger, Frankfurt a/M.\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"http://www.zeitzeug.de/\"\u003eZeitzeug\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/52/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Gebr. Schwieger\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Gebr. Schwieger, Frankfurt a/M.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/52/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1069,7 +1069,7 @@
   "type": "Feature",
   "properties": {
       "name": "Carl Schübeler",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Carl Schübeler\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eCarl Schübeler Warburg - Westf.\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/50/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Carl Schübeler\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Carl Schübeler Warburg - Westf.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/50/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1084,7 +1084,7 @@
   "type": "Feature",
   "properties": {
       "name": "Stegmüller",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Stegmüller\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eStegmüller Darmstadt Hinterm Schloss\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://de.wikipedia.org/wiki/Haus_Stegm%C3%BCller\"\u003eHaus Stegmüller in der Wikipedia\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/49/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Stegmüller\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Stegmüller Darmstadt Hinterm Schloss\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/49/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1099,7 +1099,7 @@
   "type": "Feature",
   "properties": {
       "name": "Franz Fahning",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Franz Fahning\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eFranz Fahning Hamburg Neuerwall\u003c/p\u003e\n\u003cp\u003e[Auch Rückseite]\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://de.wikipedia.org/wiki/Gebr._Hirschfeld\"\u003eGebrüder Hirschfeld in der Wikipedia\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.veikkos-archiv.com/index.php/Kaufhaus_Hirschfeld_(Hamburg)\"\u003eKaufhaus Hirschfeld in der Wikipedia\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/48/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Franz Fahning\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Franz Fahning Hamburg Neuerwall\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/48/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1114,7 +1114,7 @@
   "type": "Feature",
   "properties": {
       "name": "Modehaus Schulz",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Modehaus Schulz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eModehaus Schulz Kassel\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n* [Alte Werbung](https://orka.bibliothek.uni-kassel.de/viewer/image/1382947338432_1963/490/)\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/46/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Modehaus Schulz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Modehaus Schulz Kassel\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/46/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1129,7 +1129,7 @@
   "type": "Feature",
   "properties": {
       "name": "Overmeyer",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Overmeyer\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eOvermeyer Kassel, am Königsplatz\u003c/p\u003e\n\u003cp\u003e\u0026ldquo;Herren- und Knabenbekleidung\u0026rdquo;\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"http://regiowiki.hna.de/Overmeyer-Haus\"\u003eOvermeyer-Haus im Regiowiki der HNA\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/45/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Overmeyer\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Overmeyer Kassel, am Königsplatz\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/45/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1144,7 +1144,7 @@
   "type": "Feature",
   "properties": {
       "name": "Theo Schrader",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Theo Schrader\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eTheo Schrader Osterode/Harz\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.archiv-vegelahn.de/index.php/osterode-am-harz/12-osteroder-reklame/6786-schrader-theo-herrenausstattung\"\u003eAlte Rechnungen und Werbung im Archiv Vegelahn\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/44/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Theo Schrader\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Theo Schrader Osterode/Harz\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/44/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1159,7 +1159,7 @@
   "type": "Feature",
   "properties": {
       "name": "Modehaus Stark",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Modehaus Stark\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eModehaus Stark Osterode/Harz\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.archiv-vegelahn.de/index.php/osterode-am-harz/12-osteroder-reklame/6535-stark-modehaus\"\u003eAlte Rechnungen und Werbung im Archiv Vegelahn\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/43/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Modehaus Stark\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Modehaus Stark Osterode/Harz\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/43/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1174,7 +1174,7 @@
   "type": "Feature",
   "properties": {
       "name": "Wäscherei MEYER",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei MEYER\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eWäscherei MEYER Göttingen Ruf 58398\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/42/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei MEYER\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Wäscherei MEYER Göttingen Ruf 58398\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/42/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1249,7 +1249,7 @@
   "type": "Feature",
   "properties": {
       "name": "Ebbinghaus",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ebbinghaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBerlin hat es längst heraus . . . .\u003c/p\u003e\n\u003cp\u003eFür gute Kleidung Ebbinghaus\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/35/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ebbinghaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Berlin hat es längst heraus . . . .\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/35/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1264,7 +1264,7 @@
   "type": "Feature",
   "properties": {
       "name": "Pelz Dröge",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Pelz Dröge\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003ePelz Dröge\nKarlsruhe\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/34/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Pelz Dröge\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Pelz Dröge\nKarlsruhe\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/34/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1279,7 +1279,7 @@
   "type": "Feature",
   "properties": {
       "name": "Pelz Quentin",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Pelz Quentin\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003ePelz\nQuentin\nKürschnermeister\nGöttingen, Gosslerstr. 42\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/33/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Pelz Quentin\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Pelz\nQuentin\nKürschnermeister\nGöttingen, Gosslerstr. 42\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/33/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1294,7 +1294,7 @@
   "type": "Feature",
   "properties": {
       "name": "Lagerbügel",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Lagerbügel\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eLagerbügel Karstadt, Göttingen\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei der \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/\"\u003eBrockensammlung\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/28/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Lagerbügel\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Lagerbügel Karstadt, Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/28/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1324,7 +1324,7 @@
   "type": "Feature",
   "properties": {
       "name": "Hermann Bauchwitz",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hermann Bauchwitz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eHermann Bauchwitz, Halle a. S.\u003c/p\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://digital.slub-dresden.de/data/kitodo/Auer_173565485X-18990319/Auer_173565485X-18990319_tif/jpegs/00000001.tif.pdf\"\u003eDigitalisat alter Werbung\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/26/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hermann Bauchwitz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hermann Bauchwitz, Halle a. S.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/26/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1354,7 +1354,7 @@
   "type": "Feature",
   "properties": {
       "name": "Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eHerren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://de.wikipedia.org/wiki/Kreis_Landeshut_i._Schles.\"\u003eKreis Landeshut in Schlesien in der Wikipedia\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/24/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/24/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1369,7 +1369,7 @@
   "type": "Feature",
   "properties": {
       "name": "Schröder &amp; Zn.",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Schröder \u0026amp; Zn.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eSchröder \u0026amp; Zn.\nAmstelveenseweg 29\nAmsterdam\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/22/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Schröder \u0026amp; Zn.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Schröder \u0026amp; Zn.\nAmstelveenseweg 29\nAmsterdam\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/22/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1384,7 +1384,7 @@
   "type": "Feature",
   "properties": {
       "name": "Färberei Kotzenberg",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Färberei Kotzenberg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eChem. Reinigung Färberei Kotzenberg Kleiderbad\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/18/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Färberei Kotzenberg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Chem. Reinigung Färberei Kotzenberg Kleiderbad\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/18/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1399,7 +1399,7 @@
   "type": "Feature",
   "properties": {
       "name": "Diekmann Göttingen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Diekmann Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eDiekmann Göttingen\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/15/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Diekmann Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Diekmann Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/15/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1414,7 +1414,7 @@
   "type": "Feature",
   "properties": {
       "name": "Brahms, Emden",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Brahms, Emden\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBrahms, Emden\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"http://www.zeitzeug.de/\"\u003eZeitzeug\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/13/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Brahms, Emden\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Brahms, Emden\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/13/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1429,7 +1429,7 @@
   "type": "Feature",
   "properties": {
       "name": "H. Hettlage, Göttingen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        H. Hettlage, Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eH. Hettlage, Göttingen\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\u003cdiv class=\"notes\"\u003e\nWeitere Informationen:\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://de.wikipedia.org/wiki/Boecker_KG\"\u003eBoecker KG in der Wikipedia\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/12/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        H. Hettlage, Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        H. Hettlage, Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/12/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1444,7 +1444,7 @@
   "type": "Feature",
   "properties": {
       "name": "Karstadt Göttingen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Karstadt Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eKarstadt Göttingen\u003c/p\u003e\n\u003cp\u003eDie gute Herrenkleidung\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/11/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Karstadt Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Karstadt Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/11/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1459,7 +1459,7 @@
   "type": "Feature",
   "properties": {
       "name": "Fleischmann Göttingen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Fleischmann Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eFleischmann Göttingen Der Spezialist für Herren- und Knabenkleidung\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/10/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Fleischmann Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Fleischmann Göttingen Der Spezialist für Herren- und Knabenkleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/10/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1474,7 +1474,7 @@
   "type": "Feature",
   "properties": {
       "name": "Josef Henn Kürschnermeister",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Josef Henn Kürschnermeister\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eSchillerstr. 30 Josef Henn Kürschnermeister Göttingen\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/9/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Josef Henn Kürschnermeister\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Schillerstr. 30 Josef Henn Kürschnermeister Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/9/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1504,7 +1504,7 @@
   "type": "Feature",
   "properties": {
       "name": "Hotel Deus",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel Deus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eHotel Deus, Oldenburg\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/6/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel Deus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel Deus, Oldenburg\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/6/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1534,7 +1534,7 @@
   "type": "Feature",
   "properties": {
       "name": "August Boschert",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        August Boschert\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eAugust Boschert, Offenburg, Steinstrasse 10\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/3/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        August Boschert\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        August Boschert, Offenburg, Steinstrasse 10\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/3/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1549,7 +1549,7 @@
   "type": "Feature",
   "properties": {
       "name": "Bekleidungshaus Jöris",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus Jöris\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBekleidungshaus Jöris, Jülich Düsseldorferstr.\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/2/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus Jöris\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Bekleidungshaus Jöris, Jülich Düsseldorferstr.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/2/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -1564,7 +1564,7 @@
   "type": "Feature",
   "properties": {
       "name": "Bekleidungshaus Junge",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus Junge\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eBekleidungshaus Junge, Gegenüber Hauptpostamt Göttingen\u003c/p\u003e\n\u003cdiv class=\"source\"\u003eGefunden bei \u003ca href=\"https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/\"\u003eKiM\u003c/a\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/1/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus Junge\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Bekleidungshaus Junge, Gegenüber Hauptpostamt Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/1/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",

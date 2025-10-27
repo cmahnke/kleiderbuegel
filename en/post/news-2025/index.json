@@ -1,0 +1,12 @@
+{"meta": {"date": "2025-10-19 07:30:07 +0200 +0200", "title": "Improvements 2025", "type": "text" }, "images": {}, "content": "<p>This page has been slightly revised for an upcoming exhibition:</p>
+<ul>
+<li>Navigation has been slightly improved</li>
+<li>The current coat hanger is now displayed on the home page</li>
+<li>The map is larger and has greater contrast</li>
+<li>There is now a search function</li>
+<li>Loading time has been significantly reduced</li>
+<li>Statistics on the coat hangers are now available</li>
+<li>An English translation is available</li>
+<li>jQuery has been removed; the clothes rail visualization is now implemented with <a href="https://swiperjs.com/" target="_blank">Swiper JS</a></li>
+</ul>
+<p>More information about the exhibition will be available in 2026!</p>"}

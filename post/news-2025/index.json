@@ -1,0 +1,12 @@
+{"meta": {"date": "2025-10-19 07:30:07 +0200 +0200", "title": "Neuerungen 2025", "type": "text" }, "images": {}, "content": "<p>Für eine kommende Ausstellung wurde diese Seite etwas überarbeitet:</p>
+<ul>
+<li>Die Navigation wurde etwas verbessert</li>
+<li>Der jeweils aktuelle Kleiderbügel wird nun auf der Startseite angezeigt</li>
+<li>Die Karte ist größer und kontrastreicher</li>
+<li>Es gibt nun eine Suchfunktion</li>
+<li>Die Ladezeit wurde deutlich beschleunigt</li>
+<li>Es gibt nun Statistiken zu den Kleiderbügeln</li>
+<li>Es gibt eine englische Übersetzung</li>
+<li>jQuery wurde entfernt, die Visualisierung der Kleiderstange ist nun mit <a href="https://swiperjs.com/" target="_blank">Swiper JS</a> realisiert.</li>
+</ul>
+<p>Zu der Ausstellung gibt es weitere Informationen mehr ab 2026!</p>"}

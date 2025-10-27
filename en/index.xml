@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kleiderbügel</title>
+    <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/</link>
+    <description>Recent content on Kleiderbügel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Kleiderbügel</copyright>
+    <lastBuildDate>Sun, 19 Oct 2025 07:30:07 +0200</lastBuildDate><atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improvements 2025</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/news-2025/</link>
+      <pubDate>Sun, 19 Oct 2025 07:30:07 +0200</pubDate>
+      
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/news-2025/</guid>
+      <description>&lt;p&gt;This page has been slightly revised for an upcoming exhibition:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigation has been slightly improved&lt;/li&gt;
+&lt;li&gt;The current coat hanger is now displayed on the home page&lt;/li&gt;
+&lt;li&gt;The map is larger and has greater contrast&lt;/li&gt;
+&lt;li&gt;There is now a search function&lt;/li&gt;
+&lt;li&gt;Loading time has been significantly reduced&lt;/li&gt;
+&lt;li&gt;Statistics on the coat hangers are now available&lt;/li&gt;
+&lt;li&gt;An English translation is available&lt;/li&gt;
+&lt;li&gt;jQuery has been removed; the clothes rail visualization is now implemented with &lt;a href=&#34;https://swiperjs.com/&#34; target=&#34;_blank&#34;&gt;Swiper JS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More information about the exhibition will be available in 2026!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Improvements 2024</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/news-2024/</link>
+      <pubDate>Thu, 04 Apr 2024 07:30:07 +0200</pubDate>
+      
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/news-2024/</guid>
+      <description>&lt;p&gt;After this blog lay dormant for about two years, it was time for some “spring cleaning.” New posts will now appear weekly (until mid-2026, according to current estimates). In addition, there is now a &lt;a href=&#34;https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/map/&#34;&gt;map view&lt;/a&gt; that visualizes the origin of the hangers (where possible).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spin-off &#34;Kleiderbügel&#34; launched</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/spinoff-gestartet/</link>
+      <pubDate>Fri, 28 Aug 2020 07:30:07 +0200</pubDate>
+      
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/spinoff-gestartet/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&amp;ldquo;Kleiderbügel&amp;rdquo; (Clothes Hangers) started as a spin-off of &lt;a href=&#34;https://blaufusst%c3%b6lpel.de&#34; target=&#34;_blank&#34;&gt;Blaufußtölpel&lt;/a&gt;:&lt;/strong&gt; At some point, even the hottest fashion trends are ready for the closet, having exceeded their half-life or simply fallen out of favor. That&amp;rsquo;s when clothes hangers come into their own. Some of these practical helpers from days gone by are documented here. Many of the examples shown here also offer insight into local economic history and the past diversity of retail as advertising media.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,11 @@
     "label": {
         "de": [
           "Kleiderbügel"
-        ]},
+        ],
+          "en": [
+            "Kleiderbügel"
+          ]
+        },
     "items": [{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/114/manifest.json",
           "type": "Manifest","thumbnail": [{
@@ -53,29 +57,6 @@
               "Bremerhaven Ketelsen Cuxhaven"
             ]}
         },{
-          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/manifest.json",
-          "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/front_hu_16c1e85fce38a39c.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 181,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 2321,
-        "width": 3854,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-            "de": [
-              "Schlüsing mann + mode Bremerhaven-G."
-            ]}
-        },{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/manifest.json",
           "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/front_hu_66d77408b250bb85.png",
@@ -97,6 +78,29 @@
       }],"label": {
             "de": [
               "Ketelsen Bremerhaven-Bürger 42"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/front_hu_16c1e85fce38a39c.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 181,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2321,
+        "width": 3854,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Schlüsing mann + mode Bremerhaven-G."
             ]}
         },{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/60/manifest.json",

@@ -102,5 +102,36 @@
               "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/canvas/front"
             }]
           }]
+       },{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/canvas/back",
+          "type": "Canvas","label": {"de":["Rückansicht"],"en":["Back"]},"height": 1556,
+            "width": 3908,
+            "thumbnail": [{
+                "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/back_hu_df780b37c3199ccc.png",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 119,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/annotation/back",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/annotation/back/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/back/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 1556,
+                  "width": 3908,
+                  "service": [{
+                    "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/back",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/canvas/back"
+            }]
+          }]
        }]
 }

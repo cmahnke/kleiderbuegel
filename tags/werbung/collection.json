@@ -5,7 +5,11 @@
     "label": {
         "de": [
           "Kleiderbügel"
-        ]},
+        ],
+          "en": [
+            "Kleiderbügel"
+          ]
+        },
     "items": [{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/159/manifest.json",
           "type": "Manifest","thumbnail": [{

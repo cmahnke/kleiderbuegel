@@ -5,7 +5,11 @@
     "label": {
         "de": [
           "Kleiderbügel"
-        ]},
+        ],
+          "en": [
+            "Kleiderbügel"
+          ]
+        },
     "items": [{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/160/manifest.json",
           "type": "Manifest","thumbnail": [{
@@ -651,29 +655,6 @@
               "Union Selecta"
             ]}
         },{
-          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/manifest.json",
-          "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/front_hu_cded54b8bd6a3b74.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 167,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 2151,
-        "width": 3866,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-            "de": [
-              "Erdmann Kleidung"
-            ]}
-        },{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/132/manifest.json",
           "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/132/front_hu_2e4cbdb039dae730.png",
@@ -927,6 +908,29 @@
               "Ketelsen"
             ]}
         },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/front_hu_cded54b8bd6a3b74.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 167,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2151,
+        "width": 3866,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Erdmann Kleidung"
+            ]}
+        },{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/120/manifest.json",
           "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/120/front_hu_fcffff952484f7c7.png",
@@ -948,29 +952,6 @@
       }],"label": {
             "de": [
               "„Herres - Eigentum„"
-            ]}
-        },{
-          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/106/manifest.json",
-          "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/106/front_hu_23c4d6578a5f6fbf.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 112,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/106/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 1408,
-        "width": 3757,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/106/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-            "de": [
-              "Frank \u0026 Krause Delmenhorst"
             ]}
         },{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/119/manifest.json",
@@ -1272,6 +1253,29 @@
               "Northeimer Rekort- Bekleidung P. Haase und Söhne"
             ]}
         },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/106/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/106/front_hu_23c4d6578a5f6fbf.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 112,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/106/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 1408,
+        "width": 3757,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/106/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Frank \u0026 Krause Delmenhorst"
+            ]}
+        },{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/105/manifest.json",
           "type": "Manifest","thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/105/front_hu_b324e9dbca42e421.png",
@@ -1454,6 +1458,29 @@
       }],"label": {
             "de": [
               "BUND"
+            ]}
+        },{
+          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/manifest.json",
+          "type": "Manifest","thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/front_hu_66d77408b250bb85.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 166,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2161,
+        "width": 3896,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"label": {
+            "de": [
+              "Ketelsen Bremerhaven-Bürger 42"
             ]}
         },{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/96/manifest.json",
@@ -1822,29 +1849,6 @@
       }],"label": {
             "de": [
               ""
-            ]}
-        },{
-          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/manifest.json",
-          "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/front_hu_66d77408b250bb85.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 166,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 2161,
-        "width": 3896,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-            "de": [
-              "Ketelsen Bremerhaven-Bürger 42"
             ]}
         },{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/80/manifest.json",

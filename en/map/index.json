@@ -1,0 +1,37 @@
+{"meta": {"date": "0001-01-01 00:00:00 +0000 UTC", "title": "Map view", "type": "<no value>" }, "images": {}, "content": "<p>This page displays the entries with (reconstructed) geo-information on a map. The map uses the external service <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetmap</a>, so you have to consent to its use.</p>
+
+<div class="iframe-wrapper" id="_iframe-b0b3e23a0f9e6358c4e5cd8d7d96ee23">
+  <div class="iframe">
+    <div class="opt-in">
+      <div class="opt-in-overlay"><div class="opt-in-overlay-content">
+          <h3 class="opt-in-header">External Content</h3>
+          <p class="opt-in-text">External content is included at this point. Personal data might be transmitted to third-party platforms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="iframe-content" id="_iframe-b0b3e23a0f9e6358c4e5cd8d7d96ee23-content">
+    </div>
+    <div class="switch-wrapper">
+      <label class="opt-in-switch">
+        <input type="checkbox">
+        <span class="opt-in-slider"></span>
+      </label>
+      <span class="opt-in-confirm">Allow external content</span>
+    </div>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var expire = 30 * 24 * 60 * 60;
+      var overlay = document.querySelector('#_iframe-b0b3e23a0f9e6358c4e5cd8d7d96ee23').querySelector('.opt-in');
+      var toggle = document.querySelector('#_iframe-b0b3e23a0f9e6358c4e5cd8d7d96ee23').querySelector('.opt-in-switch input');
+      addConsent(toggle, overlay, 'b0b3e23a0f9e6358c4e5cd8d7d96ee23', '\n    \u003cdiv class=\u0022map-wrapper\u0022\u003e\n      \u003cdiv class=\u0022map\u0022 id=\u0022a56fce4688ee0fb056cf1a7865d152df\u0022\u003e\u003c\/div\u003e\n      \u003cdiv id=\u0022a56fce4688ee0fb056cf1a7865d152df-popup\u0022 class=\u0022ol-popup\u0022\u003e\n        \u003ca href=\u0022#\u0022 id=\u0022a56fce4688ee0fb056cf1a7865d152df-popup-closer\u0022 class=\u0022ol-popup-closer\u0022\u003e\u003c\/a\u003e\n        \u003cdiv id=\u0022a56fce4688ee0fb056cf1a7865d152df-popup-content\u0022\u003e\u003c\/div\u003e\n      \u003c\/div\u003e\n    \u003c\/div\u003e\n    \u003cscript type=\u0022text\/javascript\u0022\u003e\n      var _a56fce4688ee0fb056cf1a7865d152df = window.initMap(\u0027a56fce4688ee0fb056cf1a7865d152df\u0027, \u0027\\\/list\\\/map.geojson\u0027, \u0027osm\u0027, true, {src: \u0027\/images\/geomarker.svg\u0027, scale: 0.1, anchorXUnits: \u0027fraction\u0027, anchorYUnits: \u0027fraction\u0027, anchor: [0.9, 1]} , \u0027shortbread\u0027 );\n      _a56fce4688ee0fb056cf1a7865d152df.updateSize();\n    \u003c\/script\u003e\n\n');
+    });
+  </script>
+</div>
+
+
+<div class="download-link">
+  
+    <a class="download-link" href="/en/map//post/map.geojson" target="_blank">Download GeoJSON</a>
+  
+</div>"}
