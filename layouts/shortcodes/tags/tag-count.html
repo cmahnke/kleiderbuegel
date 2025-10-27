@@ -3,7 +3,13 @@
 {{- with .Get 1 -}}
   {{- $link = . -}}
 {{- end -}}
-{{- $pages := where site.Pages "Params.tags" "intersect" (slice $tag) -}}
+
+{{ $pages := .Site.RegularPages }}
+{{ range .Site.Home.AllTranslations }}
+  {{ $pages = $pages | lang.Merge .Site.RegularPages }}
+{{ end }}
+
+{{- $pages = where $pages "Params.tags" "intersect" (slice $tag) -}}
 {{- if eq $link true -}}
   {{- $tagURL := printf "tags/%s" ($tag | urlize) | relURL -}}
   <a href="{{ $tagURL }}">{{- len $pages -}}</a>

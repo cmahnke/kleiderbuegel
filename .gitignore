@@ -28,3 +28,4 @@ content/post/*/top.svg
 content/post/*/back.svg
 
 pnpm-lock.yaml
+assets/scss/flags/flags.scss

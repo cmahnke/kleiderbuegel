@@ -9,7 +9,12 @@
   {{- $val = . -}}
 {{- end -}}
 
-{{- $pages := where .Site.RegularPages "Section" "in" "post" -}}
+{{ $pages := .Site.RegularPages }}
+{{ range .Site.Home.AllTranslations }}
+  {{ $pages = $pages | lang.Merge .Site.RegularPages }}
+{{ end }}
+
+{{- $pages = where $pages "Section" "in" "post" -}}
 {{- $pages = where $pages "Params.type" "eq" "hanger" -}}
 {{- if eq $val "nil" -}}
   {{- $pages = where $pages $param $op nil -}}

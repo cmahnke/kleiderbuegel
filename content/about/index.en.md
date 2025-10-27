@@ -1,5 +1,5 @@
 ---
-title: Über diese Seite
+title: About this page
 displayInList: false
 metaPage: true
 ---
@@ -31,32 +31,32 @@ Keywords with fewer than three entries are not displayed.
 
 * All hangers: **{{< post-count section=post >}}**
 * Materials
-  * Made of wood: **{{< tags/tag-count "Material: Wood" true >}}**
-  * Plastic: **{{< tags/tag-count "Material: Plastic" true >}}**
-  * (Partially) metal: **{{< tags/tag-count "Material: Metal" true >}}**
-  * (Partially) metal: **{{< tags/tag-count "Material: Fabric" true >}}**
-* Labeled on both sides **{{< tags/tag-count "Both sides" true >}}**
+  * Made of wood: **{{< tags/tag-count "Material: Holz" true >}}**
+  * Plastic: **{{< tags/tag-count "Material: Plastik" true >}}**
+  * (Partially) metal: **{{< tags/tag-count "Material: Metall" true >}}**
+  * (Partially) metal: **{{< tags/tag-count "Material: Stoff" true >}}**
+* Labeled on both sides **{{< tags/tag-count "Beidseitig" true >}}**
 
 * Types
-  * Trouser hangers: **{{< tags/tag-count "Trouser hangers" true >}}**
-  * Skirt hangers: **{{< tags/tag-count "Skirt hangers" true >}}**
-  * Children's hangers: **{{< tags/tag-count "Children's hangers" true >}}**
-  * Adjustable: **{{< tags/tag-count "Adjustable" true >}}**
-  * Foldable: **{{< tags/tag-count "Foldable" true >}}**
+  * Trouser hangers: **{{< tags/tag-count "Hosenbügel" true >}}**
+  * Skirt hangers: **{{< tags/tag-count "Rockbügel" true >}}**
+  * Children's hangers: **{{< tags/tag-count "Kinderbügel" true >}}**
+  * Adjustable: **{{< tags/tag-count "Verstellbar" true >}}**
+  * Foldable: **{{< tags/tag-count "Klappbar" true >}}**
 
 * Specific manufacturers
   * Union: **{{< tags/tag-count "Union" true >}}**
   * ruwe: **{{< tags/tag-count "ruwe" true >}}**
 
 * Types of
-  * Clothing store: **{{< tags/tag-count "Clothing store" true >}}**
-  * Department store: **{{< tags/tag-count "Department store" true >}}**
+  * Clothing store: **{{< tags/tag-count "Bekleidungsgeschäft" true >}}**
+  * Department store: **{{< tags/tag-count "Warenhaus" true >}}**
   * Hotel: **{{< tags/tag-count "Hotel" true >}}**
-  * Furs: **{{< tags/tag-count "Furs" true >}}**
-  * Dyeing: **{{< tags/tag-count "Dyeing" true >}}**
-  * State organization: **{{< tags/tag-count "State organization" true >}}**
-  * Tailoring: **{{< tags/tag-count "Tailoring" true >}}**
-  * Furniture store: **{{< tags/tag-count "Furniture store" true >}}**
+  * Furs: **{{< tags/tag-count "Pelze" true >}}**
+  * Dyeing: **{{< tags/tag-count "Färberei" true >}}**
+  * State organization: **{{< tags/tag-count "Staatliche Organisation" true >}}**
+  * Tailoring: **{{< tags/tag-count "Schneiderei" true >}}**
+  * Furniture store: **{{< tags/tag-count "Möbelhaus" true >}}**
 
 * Retail chains
   * Karstadt: **{{< tags/tag-count "Karstadt" true >}}**

@@ -97,10 +97,6 @@ timeout = 120
         source = "static"
         target = "static"
 
-#    [[module.mounts]]
-#        source = "node_modules/swiper"
-#        target = "assets/js/swiper"
-
     [[module.mounts]]
         source = "node_modules/swiper"
         target = "assets/css/swiper"

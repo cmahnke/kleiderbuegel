@@ -85,7 +85,7 @@ Diese Seite wird mit [Hugo](https://gohugo.io/) generiert und von [GitHub](https
 
 Als Schriftarten kommen [Libre Baskerville](www.impallari.com/projects/overview/libre-baskerville) und [Nuntio](https://github.com/googlefonts/nunito) zum Einsatz.
 
-Die Visualisierung der Kleiderstange ist mit [Swiper JS](https://swiperjs.com/) realisiert
+Die Visualisierung der Kleiderstange ist mit [Swiper JS](https://swiperjs.com/) realisiert.
 
 Für das die Anzeige der Karte wird [OpenLayers](https://openlayers.org/) verwendet, das Kartenmatrial wird vom [OpenstreetMap](https://www.openstreetmap.org/) Projekt bereitgestellt. Das Theme basiert auf [Versatiles](https://github.com/versatiles-org/versatiles-style).
 

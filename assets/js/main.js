@@ -6,6 +6,8 @@ import { A11y, Navigation, Scrollbar, Keyboard, Mousewheel } from 'swiper/module
 import EffectCoverflow from './swiper-addons/effect-coverflow.mjs';
 
 
+const defaultSize = 330;
+
 window.addConsent = addConsent;
 window.initMap = initMap;
 
@@ -37,7 +39,13 @@ function hangerHandler (elem) {
 }
 
 
-function initSlider(elem) {
+function initSlider(elem, size) {
+  if (size === undefined) {
+    size = defaultSize;
+  }
+
+  const margin = size / 11;
+  const spacing = margin * 7 * -1;
 
   var swiper = new Swiper(elem, {
     modules: [A11y, Scrollbar, Navigation, Keyboard, Mousewheel, EffectCoverflow],
@@ -47,12 +55,11 @@ function initSlider(elem) {
     grabCursor: true,
     centeredSlides: true,
     initialSlide: 0,
-    slidesPerView: "auto",
     mousewheel: true,
     loop: false,
     normalizeSlideIndex: false,
-    slidesPerView: 'auto',
-    spaceBetween: -210,
+    slidesPerView: "auto",
+    spaceBetween: spacing,
     coverflowEffect: {
       rotate: 65,
       stretch: 1,
@@ -61,8 +68,8 @@ function initSlider(elem) {
       slideShadows: false,
       spacing: 0.7,
       vanishingPointPerItem: true,
-      activeMarginRight: 30,
-      activeMarginLeft: 30,
+      activeMarginRight:  margin,
+      activeMarginLeft:  margin,
     },
     navigation: {
       nextEl: ".swiper-button-next",
@@ -98,14 +105,19 @@ function initSlider(elem) {
   //swiper.slideTo(0, 0)
 }
 
-/*
-let i =0;
-cl = console.log;
-console.log = function() {
-  cl(i);
-  i++;
-};
-*/
+function initHome(elem) {
+  let size = defaultSize;
 
+  if (window.screen.width <= 740) {
+    size = defaultSize / 2
+  }
+
+  document.querySelectorAll('.swiper-slide img.buegel').forEach((im) => {
+    im.style.width = `${size}px`;
+  });
+
+  initSlider(elem, size)
+}
 
 window.initSlider = initSlider;
+window.initHome = initHome;
