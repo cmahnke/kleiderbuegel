@@ -194,11 +194,11 @@ timeout = 120
     [[segments.export.excludes]]
       lang = 'en'
       output = '{html,rss,iiif-manifest,iiif-collection}'
+      path = '{/links/**,/map/**,/about/**}'
     [[segments.export.includes]]
       kind = '{home}'
       lang = "de"
-      output = '{xml-export,geojson}'
-      path = '{/links/**,/map/**,/about/**}'
+      output = '{xml-export}'
 
 [sitemap]
   changeFreq = 'weekly'
