@@ -10,6 +10,7 @@ theme = ["projektemacher-base", "hugo-xml-exporter"]
 copyright = "Kleiderbügel"
 enableGitInfo = true
 timeout = 120
+#removePathAccents = true
 
 [params]
     productionIIIFURLPrefix="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"

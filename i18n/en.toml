@@ -72,8 +72,11 @@ other = "Furrier"
 [Hotel]
 other = "Hotel"
 
+[Gastst_tte]
+other = "Restaurant"
+
 [Reinigung]
-other = "Cleaning service"
+other = "Dry cleaner"
 
 [Staatliche_Organisation]
 other = "Governmental organization"
@@ -105,6 +108,9 @@ other = "Skirt hanger"
 [Kinderkb_gel]
 other = "Children's hangers"
 
+[Theater]
+other = "Theatre"
+
 [Verstellbar]
 other = "Adjustable"
 
@@ -113,3 +119,9 @@ other = "Foldable"
 
 [Repariert]
 other = "Repaired"
+
+[Fabrik]
+other = "Clothing factory"
+
+[Klinik]
+other = "Clinic"

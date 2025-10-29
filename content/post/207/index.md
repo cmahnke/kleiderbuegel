@@ -16,7 +16,7 @@ resources:
 tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
-- Wolfburg
+- Wolfsburg
 - Beidseitig
 geojson:
   coordinates:

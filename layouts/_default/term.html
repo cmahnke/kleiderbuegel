@@ -1,0 +1,25 @@
+{{ define "title" }}
+  {{- .Title }} · {{ .Site.Title -}}
+{{ end }}
+{{ define "content" }}
+  {{- partial "rail.html" . -}}
+  {{- $page := .Page -}}
+  {{- with .Data.Term -}}
+    {{- $tag := i18n . -}}
+    {{- if eq $tag "" -}}
+      {{- $tag = . -}}
+    {{- end -}}
+    <div class="section-head">
+      <h1 class="post-section section-head-title tag-list-title">{{ i18n "Tag" }}: {{ $tag }}</h1>
+      {{- with $page.Params.wikidata -}}
+        <div class="section-links">
+          {{- partial "wikidata.html" $page -}}
+        </div>
+      {{- end -}}
+      <div class="section-content">
+        {{- $page.Content -}}
+      </div>
+    </div>
+  {{- end -}}
+  {{- partial "list.html" . -}}
+{{ end }}

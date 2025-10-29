@@ -12,7 +12,7 @@ resources:
 tags:
 - "Material: Holz"
 - Koblenz
-- Kaufhaus
+- Warenhaus
 geojson:
   coordinates:
   - 7.5925908

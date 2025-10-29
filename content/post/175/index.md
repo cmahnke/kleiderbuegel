@@ -12,7 +12,7 @@ resources:
 tags:
 - "Material: Holz"
 - München
-- Art Bekleidungsgeschäft
+- Bekleidungsgeschäft
 - Beidseitig
 doublesided: true
 geojson:

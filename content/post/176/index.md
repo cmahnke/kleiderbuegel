@@ -12,7 +12,7 @@ resources:
 tags:
 - "Material: Holz"
 - Herford
-- Art Bekleidungsgeschäft
+- Bekleidungsgeschäft
 geojson:
   coordinates:
   - 8.6684051

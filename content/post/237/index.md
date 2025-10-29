@@ -11,7 +11,7 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
-- Kaufhaus
+- Warenhaus
 remarks: |
   * [Deutsches Familienkaufhaus in der Wikipedia](https://de.wikipedia.org/wiki/DeFaKa)
 ---

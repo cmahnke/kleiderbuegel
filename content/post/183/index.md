@@ -17,6 +17,8 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Beidseitig
+- Stettin
+- Szczecin
 geojson:
   coordinates:
   - 14.556317

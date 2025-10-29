@@ -1,16 +1,4 @@
-<div class="kleiderstange"></div>
 <div class="post-list">
-
-  {{- with .Data.Term -}}
-    {{- $tag := i18n . -}}
-    {{- if eq $tag "" -}}
-      {{- $tag = . -}}
-    {{- end -}}
-    <div class="section-head">
-      <h1 class="post-section section-head-title tag-list-title">{{ i18n "Tag" }}: {{ $tag }}</h1>
-    </div>
-  {{- end -}}
-
   {{ $pages := .Pages }}
   {{ $paginator := .Paginate (where $pages "Params.displayinlist" "!=" false) -}}
   {{- range $paginator.Pages  -}}

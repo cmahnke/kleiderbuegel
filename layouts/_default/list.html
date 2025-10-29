@@ -2,9 +2,10 @@
   {{- .Title }} · {{ .Site.Title -}}
 {{ end }}
 {{ define "content" }}
-    {{ if .IsHome }}
-        {{ partial "home.html" . }}
-    {{ else }}
-        {{ partial "list.html" . }}
-    {{ end }}
+  {{ if .IsHome }}
+    {{ partial "home.html" . }}
+  {{ else }}
+    {{- partial "rail.html" . -}}
+    {{ partial "list.html" . }}
+  {{ end }}
 {{ end }}

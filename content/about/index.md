@@ -55,12 +55,18 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
 
 * Arten von
   * Bekleidungsgeschäft: **{{< tags/tag-count "Bekleidungsgeschäft" true >}}**
+  * Reinigung: **{{< tags/tag-count "Reinigung" true >}}**
   * Warenhaus: **{{< tags/tag-count "Warenhaus" true >}}**
   * Hotel: **{{< tags/tag-count "Hotel" true >}}**
   * Pelze: **{{< tags/tag-count "Pelze" true >}}**
   * Färberei: **{{< tags/tag-count "Färberei" true >}}**
   * Staatliche Organisation: **{{< tags/tag-count "Staatliche Organisation" true >}}**
   * Schneiderei: **{{< tags/tag-count "Schneiderei" true >}}**
+  * Versandhandel: **{{< tags/tag-count "Versandhandel" true >}}**
+  * Gaststätte: **{{< tags/tag-count "Gaststätte" true >}}**
+  * Theater: **{{< tags/tag-count "Theater" true >}}**
+  * Klinik: **{{< tags/tag-count "Klinik" true >}}**
+  * Kleidungsfabrik: **{{< tags/tag-count "Fabrik" true >}}**
   * Möbelhaus: **{{< tags/tag-count "Möbelhaus" true >}}**
 
 * Handelsketten
@@ -68,6 +74,13 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
   * Hettlage: **{{< tags/tag-count "Hettlage" true >}}**
   * C&A (Brenninkmayer): **{{< tags/tag-count "C&A" true >}}**
   * Cloppenburg: **{{< tags/tag-count "Cloppenburg" true >}}**
+  * Hertie: **{{< tags/tag-count "Hertie" true >}}**
+  * Kaufhof: **{{< tags/tag-count "Kaufhof" true >}}**
+
+* Geschäfte
+  * Ketelsen: **{{< tags/tag-count "Ketelsen" true >}}**
+  * Möller & Schade: **{{< tags/tag-count "Möller & Schade" true >}}**
+  * Flebbe: **{{< tags/tag-count "Flebbe" true >}}**
 
 * Weitere Klassifikationen
   * Werbung: **{{< tags/tag-count "Werbung" true >}}**

@@ -50,12 +50,18 @@ Keywords with fewer than three entries are not displayed.
 
 * Types of
   * Clothing store: **{{< tags/tag-count "Bekleidungsgeschäft" true >}}**
+  * Cleaning: **{{< tags/tag-count "Reinigung" true >}}**
   * Department store: **{{< tags/tag-count "Warenhaus" true >}}**
   * Hotel: **{{< tags/tag-count "Hotel" true >}}**
   * Furs: **{{< tags/tag-count "Pelze" true >}}**
   * Dyeing: **{{< tags/tag-count "Färberei" true >}}**
   * State organization: **{{< tags/tag-count "Staatliche Organisation" true >}}**
   * Tailoring: **{{< tags/tag-count "Schneiderei" true >}}**
+  * Mail order business: **{{< tags/tag-count "Versandhandel" true >}}**
+  * Restaurant: **{{< tags/tag-count "Gaststätte" true >}}**
+  * Theater: **{{< tags/tag-count "Theater" true >}}**
+  * Hospital: **{{< tags/tag-count "Klinik" true >}}**
+  * Clothing factory: **{{< tags/tag-count "Fabrik" true >}}**
   * Furniture store: **{{< tags/tag-count "Möbelhaus" true >}}**
 
 * Retail chains
@@ -63,6 +69,13 @@ Keywords with fewer than three entries are not displayed.
   * Hettlage: **{{< tags/tag-count "Hettlage" true >}}**
   * C&A (Brenninkmayer): **{{< tags/tag-count "C&A" true >}}**
   * Cloppenburg: **{{< tags/tag-count "Cloppenburg" true >}}**
+  * Hertie: **{{< tags/tag-count "Hertie" true >}}**
+  * Kaufhof: **{{< tags/tag-count "Kaufhof" true >}}**
+
+* Clothing stores
+  * Ketelsen: **{{< tags/tag-count "Ketelsen" true >}}**
+  * Möller & Schade: **{{< tags/tag-count "Möller & Schade" true >}}**
+  * Flebbe: **{{< tags/tag-count "Flebbe" true >}}**
 
 * Other classifications
   * Advertising: **{{< tags/tag-count "Werbung" true >}}**

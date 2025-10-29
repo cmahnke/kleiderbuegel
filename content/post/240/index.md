@@ -12,7 +12,6 @@ resources:
 tags:
 - Göttingen
 - "Material: Holz"
-- Wäscherei
 - Reinigung
 geojson:
   coordinates:

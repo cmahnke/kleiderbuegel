@@ -22,7 +22,7 @@ $content-width: 80%;
 $post-max-width: 64rem;
 $border-radius: 1rem;
 /* $max-width: 64em; */
-$max-width: 75%;
+$max-width: 90em;
 $content-bg-color: rgba(255, 255, 255, 0.7);
 $heading-font: 'Libre Baskerville', serif;
 
@@ -837,4 +837,19 @@ p.small {
 
 .download-link {
   text-align: end;
+}
+
+.section-head {
+  padding: 1.5em;
+  width: 90%;
+  border-radius: $border-radius;
+  background-color: hsla(0, 0%, 100%, .7);
+  margin: auto;
+  margin-bottom: 1.4rem;
+  max-width: $max-width;
+
+  .section-head-title {
+    margin: 0 1rem;
+    text-align: center;
+  }
 }

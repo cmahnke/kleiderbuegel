@@ -15,7 +15,7 @@ resources:
     content: Globus
 tags:
 - "Material: Holz"
-- Hanover
+- Hannover
 - Peine
 - Bekleidungsgeschäft
 - Union

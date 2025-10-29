@@ -18,6 +18,7 @@ resources:
 tags:
 - "Material: Holz"
 - Stettin
+- Szczecin
 - Bekleidungsgeschäft
 - Beidseitig
 geojson:
