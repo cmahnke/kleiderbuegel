@@ -10,24 +10,31 @@
     <lastBuildDate>Tue, 28 Oct 2025 00:02:07 +0100</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Göttingen</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/g%C3%B6ttingen/</link>
-      <pubDate>Tue, 21 Oct 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/g%C3%B6ttingen/</guid>
+      <title>Einbeck</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/einbeck/</link>
+      <pubDate>Tue, 28 Oct 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/einbeck/</guid>
       <description></description>
     </item>
     <item>
       <title>Material: Holz</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Tue, 21 Oct 2025 12:47:44 +0200</pubDate>
+      <pubDate>Tue, 28 Oct 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
       <description></description>
     </item>
     <item>
       <title>Reinigung</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</link>
-      <pubDate>Tue, 21 Oct 2025 12:47:44 +0200</pubDate>
+      <pubDate>Tue, 28 Oct 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/reinigung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Göttingen</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/g%C3%B6ttingen/</link>
+      <pubDate>Tue, 21 Oct 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/g%C3%B6ttingen/</guid>
       <description></description>
     </item>
     <item>
@@ -175,13 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/schneiderei/</link>
       <pubDate>Tue, 01 Jul 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/schneiderei/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Heide</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/heide/</link>
-      <pubDate>Tue, 17 Jun 2025 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/heide/</guid>
       <description></description>
     </item>
   </channel>

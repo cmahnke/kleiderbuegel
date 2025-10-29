@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Damen- u. Herrenmoden Wilh. Deppe Einbeck",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Damen- u. Herrenmoden Wilh. Deppe Einbeck\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Damen- u. Herrenmoden\nWilh. Deppe\nEinbeck\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/161/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.86961,51.82018]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Wäscherei Kleiderbad Meyer Chem. Reinigung",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei Kleiderbad Meyer Chem. Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Wäscherei Kleiderbad\nMeyer\nChem. Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca href=\"/post/160/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
