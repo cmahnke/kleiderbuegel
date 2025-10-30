@@ -5,12 +5,16 @@
 "summary": {
     "de": [
       "Orangener 70er Jahre Plastikbügel"
-    ]}
+    ],
+      "en": [
+        "Orange 1970s plastic hanger"
+      ]
+    }
 ,"requiredStatement": {
   "label": { "en": [ "Attribution" ],
     "de": [ "Namensnennung" ]
   },
-  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+  "value": {"en": ["Provided by Projektemacher"],"de": ["Bereitgestellt von Projektemacher"]}
 }
 ,"thumbnail": [{
     "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/81/front_hu_2ee3f093835b214c.png",
@@ -70,12 +74,20 @@
     "label": {
         "de": [
           "Kleiderbügel: "
-        ]}
+        ],
+          "en": [
+            "Kleiderbügel: "
+          ]
+        }
   }
 ],"label": {
     "de": [
       ""
-    ]}
+    ],
+      "en": [
+        ""
+      ]
+    }
 ,"items": [{
           "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/81/canvas/front",
           "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 2496,

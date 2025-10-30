@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Thu, 30 Oct 2025 03:53:21 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 23:50:40 +0100</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Improvements 2025</title>
@@ -15,6 +15,48 @@
       <pubDate>Sun, 19 Oct 2025 07:30:07 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/news-2025/</guid>
       <description>&lt;p&gt;This page has been slightly revised for an upcoming exhibition:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Navigation has been slightly improved&lt;/li&gt;&#xA;&lt;li&gt;The current coat hanger is now displayed on the home page&lt;/li&gt;&#xA;&lt;li&gt;The map is larger and has greater contrast&lt;/li&gt;&#xA;&lt;li&gt;There is now a search function&lt;/li&gt;&#xA;&lt;li&gt;Loading time has been significantly reduced&lt;/li&gt;&#xA;&lt;li&gt;Statistics on the coat hangers are now available&lt;/li&gt;&#xA;&lt;li&gt;An English translation is available&lt;/li&gt;&#xA;&lt;li&gt;jQuery has been removed; the clothes rail visualization is now implemented with &lt;a href=&#34;https://swiperjs.com/&#34; target=&#34;_blank&#34;&gt;Swiper JS&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;More information about the exhibition will be available in 2026!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/158/</link>
+      <pubDate>Tue, 07 Oct 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/158/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/140/</link>
+      <pubDate>Tue, 03 Jun 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/140/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/124/</link>
+      <pubDate>Tue, 11 Feb 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/124/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/112/</link>
+      <pubDate>Tue, 26 Nov 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/112/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/100/</link>
+      <pubDate>Tue, 03 Sep 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/100/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/81/</link>
+      <pubDate>Tue, 16 Apr 2024 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/81/</guid>
+      <description></description>
     </item>
     <item>
       <title>Improvements 2024</title>

@@ -7,7 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Kleiderbügel</copyright>
+    <lastBuildDate>Thu, 30 Oct 2025 23:50:40 +0100</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Material: Plastik</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/tags/material-plastik/</link>
+      <pubDate>Tue, 07 Oct 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/tags/material-plastik/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Adjustable</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/tags/verstellbar/</link>
@@ -174,13 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/tags/bekleidungsgesch%C3%A4ft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/tags/bekleidungsgesch%C3%A4ft/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cologne</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/tags/k%C3%B6ln/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/tags/k%C3%B6ln/</guid>
       <description></description>
     </item>
   </channel>
