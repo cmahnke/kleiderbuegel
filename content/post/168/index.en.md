@@ -1,7 +1,7 @@
 ---
 date: 2025-12-16T12:47:44+02:00
 title: ""
-description: "Brauner 70er Jahre Plastikbügel"
+description: "Brown 1970s plastic hanger"
 type: hanger
 outputs:
 - html
@@ -13,6 +13,6 @@ resources:
 tags:
 - "Material: Plastik"
 related: |
-  * [Orange Variante (#81)](/post/81)
-  * [Grüne Variante (#158)](/post/158)
+  * [Orange variant (#81)](/post/81)
+  * [Green variant (#158)](/post/158)
 ---

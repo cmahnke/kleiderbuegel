@@ -62,6 +62,10 @@ jobs:
         run: |
           ./scripts/setup.sh
 
+      - name: Setup FOP
+        run: |
+          ./themes/hugo-xml-exporter/scripts/setup-tools.sh
+
       - name: Generate stats
         run: |
           ./themes/projektemacher-base/scripts/stat.sh

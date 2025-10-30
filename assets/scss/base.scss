@@ -109,7 +109,7 @@ body {
 
     &.about {
         .content {
-            background-position: 97% 3%;
+            background-position: 97% 99%;
             background-image: url("/images/cm.svg");
             background-repeat: no-repeat;
 
@@ -127,8 +127,9 @@ body {
             h3,
             .tagcloud {
                 text-align: left !important;
-                width: 90%;
                 margin: auto;
+                padding: unset;
+                width: unset;
             }
 
             ul,
@@ -458,6 +459,7 @@ $kleidungsstueck-border-radius: $border-radius;
         box-sizing: border-box;
         max-width: $max-width;
         margin: auto;
+        width: 80%;
 
         @media screen and (max-width: 740px) {
             width: 90%;
@@ -502,6 +504,7 @@ $kleidungsstueck-border-radius: $border-radius;
     &>.post {
         max-width: $max-width;
         margin: auto;
+        width: 80%;
 
         @media screen and (max-width: 740px) {
           max-width: 90%;
@@ -628,7 +631,7 @@ $kleidungsstueck-border-radius: $border-radius;
         font-weight: 400;
         margin: auto;
         padding: 1.5em 1.5em 0.5em;
-        width: $content-width;
+        width: 80%;
         background-color: $content-bg-color;
         box-sizing: border-box;
         max-width: $max-width;
@@ -868,4 +871,19 @@ p.small {
 
 .statistics {
   padding-inline-start: 4.6em;
+}
+
+.meta .post .content .hanger-content {
+  padding: 2rem 0;
+  margin: auto;
+  width: 90%;
+}
+
+img.hanger-img {
+  filter: drop-shadow(2px 2px 2px #222);
+  transition: all 1s;
+
+  &:hover {
+    filter: drop-shadow(5px 5px 5px #222);
+  }
 }

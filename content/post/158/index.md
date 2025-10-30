@@ -13,6 +13,6 @@ resources:
 tags:
   - "Material: Plastik"
 related: |
-  * [orange Variante (#81)](/post/81)
-  * [braune Variante (#168)](/post/168)
+  * [Orange Variante (#81)](/post/81)
+  * [Braune Variante (#168)](/post/168)
 ---

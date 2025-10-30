@@ -1,7 +1,7 @@
 ---
-date: 2024-04-16T12:47:44+02:00
+date: 2025-02-11T12:47:44+02:00
 title: ""
-description: "Orangener 70er Jahre Plastikbügel"
+description: "Red 1970s plastic hanger"
 type: hanger
 outputs:
 - html
@@ -13,6 +13,5 @@ resources:
 tags:
   - "Material: Plastik"
 related: |
-  * [Grüne Variante (#158)](/post/158)
-  * [Braune Variante (# 168)](/post/168)
+  * [Yellow variant (#100)](/post/100)
 ---

@@ -1,7 +1,7 @@
 ---
-date: 2024-04-16T12:47:44+02:00
+date: 2024-09-03T12:47:44+02:00
 title: ""
-description: "Orangener 70er Jahre Plastikbügel"
+description: "Yellow 1970s plastic hanger"
 type: hanger
 outputs:
 - html
@@ -12,7 +12,8 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Plastik"
+remarks: |
+  * Sticker: Design Danielo Silverstein
 related: |
-  * [Grüne Variante (#158)](/post/158)
-  * [Braune Variante (# 168)](/post/168)
+  * [Red variant (#124)](/post/124)
 ---
