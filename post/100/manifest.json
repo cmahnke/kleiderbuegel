@@ -1,7 +1,12 @@
 {"@context": "http://iiif.io/api/presentation/3/context.json",
 "type": "Manifest",
 "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/100/",
-"viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
+"viewingDirection": "left-to-right","behavior":["paged"],
+"summary": {
+    "de": [
+      "Gelber 70er Jahre Plastikbügel"
+    ]}
+,"requiredStatement": {
   "label": { "en": [ "Attribution" ],
     "de": [ "Namensnennung" ]
   },
