@@ -1,3 +1,4 @@
+---
 title: Warenhaus
 params:
   type: type

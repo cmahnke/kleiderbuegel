@@ -20,6 +20,7 @@ tags:
 - Reinigung
 - "Material: Holz"
 - Beidseitig
+- Testorp
 geojson:
   coordinates:
   - 9.99302

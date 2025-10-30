@@ -49,6 +49,35 @@ other = "Identical reverse side"
 [empty_back]
 other = "Unmarked reverse side"
 
+[wikipedia]
+other = "Wikipedia entry"
+
+# Classification
+
+[classification]
+other = "Type of keyword"
+
+[retail_chain]
+other = "Retail chain"
+
+[store]
+other = "Store"
+
+[place]
+other = "Place"
+
+[type]
+other = "Type of source"
+
+[purpose]
+other = "Type of hanger"
+
+[feature]
+other = "Special feature"
+
+[brand]
+other = "Manufacturer"
+
 #Tags
 
 [Material__Holz]
@@ -85,7 +114,7 @@ other = "Governmental organization"
 other = "Department store"
 
 [F_rberei]
-other = "Dyeing shop "
+other = "Dyeing shop"
 
 [Schneiderei]
 other = "Tailoring shop"
@@ -119,6 +148,9 @@ other = "Foldable"
 
 [Repariert]
 other = "Repaired"
+
+[Klammern]
+other = "Clothespin"
 
 [Fabrik]
 other = "Clothing factory"

@@ -1,3 +1,4 @@
+---
 title: Spiekeroog
 params:
   type: place

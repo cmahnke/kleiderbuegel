@@ -1,3 +1,4 @@
+---
 title: Bremerhaven
 params:
   type: place

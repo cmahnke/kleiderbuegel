@@ -1,3 +1,4 @@
+---
 title: Kaufhof
 params:
   type: retail_chain

@@ -21,6 +21,7 @@ tags:
 - Szczecin
 - Bekleidungsgeschäft
 - Beidseitig
+- Karstadt
 geojson:
   coordinates:
   - 14.556028

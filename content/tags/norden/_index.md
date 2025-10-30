@@ -1,3 +1,4 @@
+---
 title: Norden
 params:
   type: place

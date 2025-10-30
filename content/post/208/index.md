@@ -14,6 +14,7 @@ tags:
 - "Material: Holz"
 - "Material: Metall"
 - Verstellbar
+- Klammern
 ---
 
 FIX D. Wz.

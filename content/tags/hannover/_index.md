@@ -1,3 +1,4 @@
+---
 title: Hannover
 params:
   type: place

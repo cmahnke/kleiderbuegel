@@ -1,6 +1,7 @@
 ---
 date: 2025-02-11T12:47:44+02:00
 title: ""
+description: "Roter 70er Jahre Plastikbügel"
 type: hanger
 outputs:
 - html

@@ -1,3 +1,4 @@
+---
 title: Delmenhorst
 params:
   type: place

@@ -1,3 +1,4 @@
+---
 title: Pforzheim
 params:
   type: place

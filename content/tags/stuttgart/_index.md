@@ -1,3 +1,4 @@
+---
 title: Stuttgart
 params:
   type: place

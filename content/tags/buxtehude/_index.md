@@ -1,3 +1,4 @@
+---
 title: Buxtehude
 params:
   type: place

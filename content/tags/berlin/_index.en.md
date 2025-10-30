@@ -1,3 +1,4 @@
+---
 title: Berlin
 params:
   type: place

@@ -19,7 +19,5 @@ geojson:
   - 10.5228263
   - 52.2624323
   precision: exact
-remarks: |
-  * [Das Flebbe-Haus bei der Denkmalpflege Braunschweig](https://www.braunschweig.de/leben/stadtplanung_bauen/stadtbild_denkmalpflege/denkmalpflege/Datenblatt_Flebbe_Internet.pdf)
 ---
 flebbe

@@ -15,6 +15,7 @@ tags:
   - "Material: Metall"
   - Rockbügel
   - Verstellbar
+  - Klammern
 ---
 Union Rock-Jon
 D.B.Wz.

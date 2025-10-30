@@ -1,3 +1,4 @@
+---
 title: Göttingen
 params:
   type: place

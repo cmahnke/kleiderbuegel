@@ -1,3 +1,4 @@
+---
 title: Essen
 params:
   type: place

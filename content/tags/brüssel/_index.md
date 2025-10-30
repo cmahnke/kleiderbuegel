@@ -1,3 +1,4 @@
+---
 title: Brüssel
 params:
   type: place

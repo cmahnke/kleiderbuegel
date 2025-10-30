@@ -12,6 +12,16 @@
     {{- end -}}
   {{- end -}}
 
+  {{- if and (eq .Title "") (eq .Description "") -}}
+    {{ warnf "No title nor description for post %s" .RelPermalink }}
+  {{- end -}}
+
+  {{- if and (eq .Title "") (ne .Description "") -}}
+    {{- if eq (len .Translations) 0 -}}
+      {{ warnf "Description given but no translation for post %s" .RelPermalink }}
+    {{- end -}}
+  {{- end -}}
+
   {{ if not (isset .Params "type") }}
     {{ errorf "No type for post" .RelPermalink }}
   {{- end -}}
@@ -60,6 +70,12 @@
     {{- errorf "Double sided tag detected in %s" .RelPermalink -}}
   {{- end -}}
 
+  {{- if eq (len .Translations) 0 -}}
+    {{- if (isset .Params "remarks") -}}
+      {{- warnf "Remarks set, but no translation for post %s" .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+
   {{- if or (strings.Contains .RawContent "<div") (strings.Contains .RawContent "<a") -}}
     {{- if (isset .Params "source") -}}
       {{- errorf "Source set for %s, but HTML detected" .RelPermalink -}}
@@ -73,6 +89,24 @@
       {{- errorf "Post contains HTML for %s" .RelPermalink -}}
     {{- end -}}
   {{- end -}}
+
+  {{- range $tag := .Params.tags -}}
+    {{- if ne $tag "" -}}
+      {{- $tagUrl := printf "%s%s" "tags/" ($tag | urlize) -}}
+      {{- $tagPath := (urls.Parse $tagUrl).Path -}}
+      {{- with site.GetPage $tagPath -}}
+        {{- if ne $tag .Title -}}
+          {{- if or (not (isset .Params "tag")) (ne .Params.tag $tag) -}}
+            {{- errorf "Tag doesn't match .Title and no tag param set!" .RelPermalink -}}
+          {{- end -}}
+        {{- end -}}
+      {{- else -}}
+        {{- warnf "[check.html] Can't find term page for %s (file %s) from %s"  $tag $tagPath $page.RelPermalink -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+
   {{- $page := . -}}
   {{- if (isset .Params "todo") -}}
     {{- warnf "TODO for %s" .RelPermalink -}}

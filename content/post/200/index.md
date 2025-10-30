@@ -12,7 +12,7 @@ resources:
 tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
-- Saarluis
+- Saarlouis
 geojson:
   coordinates:
   - 6.7464707
@@ -23,4 +23,4 @@ remarks: |
   * [Heutige Webseite](https://pieper-saarlouis.de/)
 ---
 
-Ludwig Piper, Saarluis
+Ludwig Piper, Saarlouis

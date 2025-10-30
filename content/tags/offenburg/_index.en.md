@@ -1,3 +1,4 @@
+---
 title: Offenburg
 params:
   type: place

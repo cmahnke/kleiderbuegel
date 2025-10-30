@@ -11,13 +11,8 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
-- Ort
 - Reinigung
-geojson:
-  coordinates:
-  - 6.6393466
-  - 49.7576559
-  precision: exact
+- Testorp
 related: |
   * [Kleiderbügel von Testorp (#67)](/post/67)
 ---

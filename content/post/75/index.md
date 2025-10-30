@@ -12,7 +12,6 @@ resources:
 tags:
 - Berlin
 - Theater
-- Kostüme
 - "Material: Holz"
 geojson:
   coordinates:

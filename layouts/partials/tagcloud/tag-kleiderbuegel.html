@@ -1,6 +1,17 @@
+{{/*
+  TODO: Fix this, it's currently wrong, we need to get the .Title of the Term page
+*/}}
 {{- $term := .Name -}}
-{{ $tag := slice }}
-{{- range (split $term " ") -}}
-  {{- $tag = $tag | append (. | strings.FirstUpper) -}}
+{{- $tagUrl := printf "%s%s" "tags/" ($term | urlize) -}}
+{{/* TODO: Check if this still works if .Site.BaseURL contains a path at the end - probably not */}}
+{{- $tagPath := (urls.Parse $tagUrl).Path -}}
+
+{{- with site.GetPage $tagPath -}}
+  {{- .Title -}}
+{{- else -}}
+  {{ $tag := slice }}
+  {{- range (split $term " ") -}}
+    {{- $tag = $tag | append (. | strings.FirstUpper) -}}
+  {{- end -}}
+  {{- delimit $tag " " -}}
 {{- end -}}
-{{- delimit $tag " " -}}

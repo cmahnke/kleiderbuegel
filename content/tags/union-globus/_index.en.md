@@ -1,3 +1,4 @@
+---
 title: Union Globus
 params:
   type: brand

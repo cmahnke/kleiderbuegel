@@ -1,3 +1,4 @@
+---
 title: Einbeck
 params:
   type: place

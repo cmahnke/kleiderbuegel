@@ -1,3 +1,4 @@
+---
 title: München
 params:
   type: place

@@ -4,6 +4,8 @@ title: "Union für Kostüme"
 tags:
 - Union
 - "Material: Holz"
+- "Material: Metall"
+- Klammern
 type: hanger
 resources:
 - src: "front.png"

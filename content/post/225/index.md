@@ -1,6 +1,6 @@
 ---
 date: 2027-01-19T12:47:44+02:00
-title: ""
+title: "Union"
 type: hanger
 outputs:
 - html

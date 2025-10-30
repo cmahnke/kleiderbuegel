@@ -1,3 +1,4 @@
+---
 title: Uslar
 params:
   type: place

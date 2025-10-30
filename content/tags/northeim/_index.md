@@ -1,3 +1,4 @@
+---
 title: Northeim
 params:
   type: place

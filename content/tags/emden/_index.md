@@ -1,3 +1,4 @@
+---
 title: Emden
 params:
   type: place

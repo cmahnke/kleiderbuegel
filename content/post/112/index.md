@@ -1,6 +1,7 @@
 ---
 date: 2024-11-26T12:47:44+02:00
 title: ""
+description: "Schwarzer 70er Jahre Plastikbügel"
 type: hanger
 outputs:
 - html

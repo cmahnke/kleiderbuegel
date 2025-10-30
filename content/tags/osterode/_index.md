@@ -1,3 +1,4 @@
+---
 title: Osterode
 params:
   type: place

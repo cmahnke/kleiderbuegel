@@ -1,3 +1,4 @@
+{{- $page := . -}}
 <div class="hanger-content">
   {{- .Content -}}
 </div>
@@ -18,6 +19,23 @@
   {{- end -}}
   {{- with .Params.donation -}}
     <div class="donation"><div class="additional-header">{{ i18n "donation" }}:</div> {{ . | markdownify }}</div>
+  {{- end -}}
+  {{- range $tag := .Params.tags -}}
+    {{- if ne $tag "" -}}
+      {{- $tagUrl := printf "%s%s" "tags/" ($tag | urlize) -}}
+      {{- $tagPath := (urls.Parse $tagUrl).Path -}}
+      {{- with site.GetPage $tagPath -}}
+        {{- if isset .Params "type" -}}
+          {{- if or (eq .Params.type "store") (eq .Params.type "retail_chain") -}}
+            <div class="tag-content">
+              {{- .Content -}}
+            </div>
+          {{- end -}}
+        {{- end -}}
+      {{- else -}}
+        {{- warnf "[check.html] Can't find term page for %s (file %s) from %s" $tag $tagPath $page.RelPermalink -}}
+      {{- end -}}
+    {{- end -}}
   {{- end -}}
 </div>
 {{/*

@@ -1,3 +1,4 @@
+---
 title: Lüneburg
 params:
   type: place

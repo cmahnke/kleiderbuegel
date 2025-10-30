@@ -1,3 +1,4 @@
+---
 title: Augsburg
 params:
   type: place

@@ -1,3 +1,4 @@
+---
 title: Grömitz
 params:
   type: place

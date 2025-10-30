@@ -1,3 +1,4 @@
+---
 title: Höxter
 params:
   type: place

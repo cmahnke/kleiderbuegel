@@ -1,3 +1,4 @@
+---
 title: Hotel
 params:
   type: type

@@ -1,3 +1,4 @@
+---
 title: Staatliche Organisation
 params:
   type: type

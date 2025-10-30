@@ -1,3 +1,4 @@
+---
 title: Duderstadt
 params:
   type: place

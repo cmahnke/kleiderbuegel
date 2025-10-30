@@ -8,6 +8,7 @@ tags:
 - Göttingen
 - Bekleidungsgeschäft
 - "Material: Holz"
+- Rockbügel
 type: hanger
 resources:
 - src: "front.png"

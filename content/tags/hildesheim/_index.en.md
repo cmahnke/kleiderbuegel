@@ -1,3 +1,4 @@
+---
 title: Hildesheim
 params:
   type: place

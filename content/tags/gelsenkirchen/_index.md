@@ -1,3 +1,4 @@
+---
 title: Gelsenkirchen
 params:
   type: place

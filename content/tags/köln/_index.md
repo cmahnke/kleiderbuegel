@@ -1,3 +1,4 @@
+---
 title: Köln
 params:
   type: place

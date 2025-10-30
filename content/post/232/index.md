@@ -18,6 +18,7 @@ tags:
 - Bekleidungsgeschäft
 - Göttingen
 - Beidseitig
+- Klammern
 geojson:
   coordinates:
   - 9.9297755

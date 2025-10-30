@@ -1,3 +1,4 @@
+---
 title: Braunschweig
 params:
   type: place

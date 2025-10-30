@@ -1,3 +1,4 @@
+---
 title: Gaststätte
 params:
   type: type

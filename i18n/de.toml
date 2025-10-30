@@ -48,3 +48,32 @@ other = "Identische Rückseite"
 
 [empty_back]
 other = "Unbeschriftete Rückseite"
+
+[wikipedia]
+other = "Wikipedia Eintrag"
+
+# Classification
+
+[classification]
+other = "Art des Schlagworts"
+
+[retail_chain]
+other = "Handelskette"
+
+[store]
+other = "Geschäft"
+
+[place]
+other = "Ort"
+
+[type]
+other = "Art der Quelle"
+
+[purpose]
+other = "Art des Bügel"
+
+[feature]
+other = "Besonderheit"
+
+[brand]
+other = "Hersteller"

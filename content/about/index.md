@@ -48,6 +48,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
   * Kinderbügel: **{{< tags/tag-count "Kinderbügel" true >}}**
   * Verstellbar: **{{< tags/tag-count "Verstellbar" true >}}**
   * Klappbar: **{{< tags/tag-count "Klappbar" true >}}**
+  * Mit Klammern: **{{< tags/tag-count "Klammern" true >}}**
 
 * Spezifische Hersteller
   * Union: **{{< tags/tag-count "Union" true >}}**
@@ -72,7 +73,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
 * Handelsketten
   * Karstadt: **{{< tags/tag-count "Karstadt" true >}}**
   * Hettlage: **{{< tags/tag-count "Hettlage" true >}}**
-  * C&A (Brenninkmayer): **{{< tags/tag-count "C&A" true >}}**
+  * C&A (Brenninkmayer): **{{< tags/tag-count "Brenninkmayer" true >}}**
   * Cloppenburg: **{{< tags/tag-count "Cloppenburg" true >}}**
   * Hertie: **{{< tags/tag-count "Hertie" true >}}**
   * Kaufhof: **{{< tags/tag-count "Kaufhof" true >}}**
@@ -80,6 +81,8 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
 * Geschäfte
   * Ketelsen: **{{< tags/tag-count "Ketelsen" true >}}**
   * Möller & Schade: **{{< tags/tag-count "Möller & Schade" true >}}**
+  * Erdmann: **{{< tags/tag-count "Erdmann" true >}}**
+  * C. Louis Weber : **{{< tags/tag-count "C. Louis Weber " true >}}**
   * Flebbe: **{{< tags/tag-count "Flebbe" true >}}**
 
 * Weitere Klassifikationen
@@ -87,6 +90,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
   * Scherzartikel: **{{< tags/tag-count "Scherzartikel" true >}}**
   * Ohne Geodaten: **{{< hanger-param "geojson" "eq" nil >}}**
   * Repariert: **{{< tags/tag-count "Repariert" true >}}**
+{.statistics}
 
 # Meine anderen Blogs
 

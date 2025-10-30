@@ -18,6 +18,7 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Beidseitig
+- Höhr-Grenzhausen
 geojson:
   coordinates:
   - 7.6473619,

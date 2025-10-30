@@ -11,7 +11,7 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Holz"
-  - Reinigung
+  - Bekleidungsgeschäft
   - Einbeck
 geojson:
   coordinates:

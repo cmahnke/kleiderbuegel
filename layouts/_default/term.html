@@ -9,8 +9,16 @@
     {{- if eq $tag "" -}}
       {{- $tag = . -}}
     {{- end -}}
+    {{- if ne $page.Title "" -}}
+      {{- $tag = $page.Title -}}
+    {{- end -}}
     <div class="section-head">
       <h1 class="post-section section-head-title tag-list-title">{{ i18n "Tag" }}: {{ $tag }}</h1>
+      {{- with $page.Params.type -}}
+        <div class="type">
+          {{ i18n "classification" }}: {{ i18n . }}
+        </div>
+      {{- end -}}
       {{- with $page.Params.wikidata -}}
         <div class="section-links">
           {{- partial "wikidata.html" $page -}}
@@ -21,5 +29,20 @@
       </div>
     </div>
   {{- end -}}
-  {{- partial "list.html" . -}}
+  {{- if ne .Language site.Sites.Default.Language -}}
+    {{- $termPages := .Site.Pages -}}
+    {{- range .Site.Home.Translations -}}
+      {{- $termPages = $termPages | lang.Merge .Site.RegularPages -}}
+    {{- end -}}
+    {{- $defaultTitle := .Title -}}
+    {{- if (isset .Params "tag") -}}
+      {{- $defaultTitle = .Params.tag -}}
+    {{- else -}}
+      {{- $defaultTitle = (index .Translations 0 ).Title -}}
+    {{- end -}}
+    {{- $termPages = where $termPages ".Params.tags" "intersect" (slice $defaultTitle) -}}
+    {{- partial "list.html" (dict "context" . "pages" $termPages) -}}
+  {{- else -}}
+    {{- partial "list.html" . -}}
+  {{- end -}}
 {{ end }}

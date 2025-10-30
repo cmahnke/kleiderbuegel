@@ -1,3 +1,4 @@
+---
 title: Niebüll
 params:
   type: place

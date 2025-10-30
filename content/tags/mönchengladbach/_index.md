@@ -1,3 +1,4 @@
+---
 title: Mönchengladbach
 params:
   type: place

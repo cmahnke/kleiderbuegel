@@ -1,3 +1,4 @@
+---
 title: Möbelhaus
 params:
   type: type

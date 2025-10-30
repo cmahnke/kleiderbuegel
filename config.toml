@@ -160,25 +160,25 @@ timeout = 120
 
 [markup.goldmark]
     [markup.goldmark.renderer]
-        unsafe= true
+      unsafe= true
 
     [markup.goldmark.extensions]
-        #typographer = true
-        attribute = true
-        strikethrough = true
+      #typographer = true
+      attribute = true
+      strikethrough = true
 
   [markup.goldmark.extensions.typographer]
-          apostrophe = '&rsquo;'
-          disable = false
-          ellipsis = '&hellip;'
-          emDash = '&mdash;'
-          enDash = '&ndash;'
-          leftAngleQuote = '&laquo;'
-          leftDoubleQuote = '&ldquo;'
-          leftSingleQuote = '&lsquo;'
-          rightAngleQuote = '&raquo;'
-          rightDoubleQuote = '&rdquo;'
-          rightSingleQuote = '&rsquo;'
+      apostrophe = '&rsquo;'
+      disable = false
+      ellipsis = '&hellip;'
+      emDash = '&mdash;'
+      enDash = '&ndash;'
+      leftAngleQuote = '&laquo;'
+      leftDoubleQuote = '&ldquo;'
+      leftSingleQuote = '&lsquo;'
+      rightAngleQuote = '&raquo;'
+      rightDoubleQuote = '&rdquo;'
+      rightSingleQuote = '&rsquo;'
 
   [markup.goldmark.extensions.extras]
       [markup.goldmark.extensions.extras.insert]
@@ -189,6 +189,12 @@ timeout = 120
           enable = true
       [markup.goldmark.extensions.extras.superscript]
           enable = true
+
+  [markup.goldmark.parser]
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
+      list = true
 
 [segments]
   [segments.export]

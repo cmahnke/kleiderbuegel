@@ -1,3 +1,4 @@
+---
 title: Bremen
 params:
   type: place

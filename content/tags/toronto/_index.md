@@ -1,3 +1,4 @@
+---
 title: Toronto
 params:
   type: place

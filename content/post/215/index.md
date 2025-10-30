@@ -14,6 +14,7 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - Pelze
+- C. Louis Weber
 geojson:
   coordinates:
   - 9.7311875

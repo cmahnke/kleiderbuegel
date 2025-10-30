@@ -1,3 +1,4 @@
+---
 title: Hamburg
 params:
   type: place

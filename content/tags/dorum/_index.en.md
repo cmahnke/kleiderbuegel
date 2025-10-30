@@ -1,3 +1,4 @@
+---
 title: Dorum
 params:
   type: place

@@ -1,3 +1,4 @@
+---
 title: Theater
 params:
   type: type

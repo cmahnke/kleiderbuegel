@@ -1,3 +1,4 @@
+---
 title: Merseburg
 params:
   type: place

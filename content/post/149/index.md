@@ -13,6 +13,7 @@ tags:
   - "Material: Holz"
   - Hannover
   - Bekleidungsgeschäft
+  - Erdmann
 geojson:
   coordinates:
   - 9.7344751

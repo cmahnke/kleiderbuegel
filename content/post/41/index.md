@@ -7,6 +7,7 @@ tags:
 - "Material: Metall"
 - Rockbügel
 - Verstellbar
+- Klammern
 type: hanger
 outputs:
 - html

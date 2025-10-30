@@ -1,3 +1,4 @@
+---
 title: Freiburg
 params:
   type: place

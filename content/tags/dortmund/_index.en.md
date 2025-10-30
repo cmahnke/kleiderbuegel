@@ -1,3 +1,4 @@
+---
 title: Dortmund
 params:
   type: place

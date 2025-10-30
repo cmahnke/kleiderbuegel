@@ -1,6 +1,14 @@
 <div class="post-list">
-  {{ $pages := .Pages }}
-  {{ $paginator := .Paginate (where $pages "Params.displayinlist" "!=" false) -}}
+  {{- $context := . -}}
+  {{- $pages := . -}}
+  {{- if reflect.IsMap . -}}
+    {{- $context = .context -}}
+    {{- $pages = .pages -}}
+  {{- else -}}
+    {{- $pages = .Pages -}}
+  {{- end -}}
+
+  {{ $paginator := $context.Paginate (where $pages "Params.displayinlist" "!=" false) -}}
   {{- range $paginator.Pages  -}}
     {{ partial "page.html" . -}}
   {{- end -}}

@@ -1,3 +1,4 @@
+---
 title: Cuxhaven
 params:
   type: place

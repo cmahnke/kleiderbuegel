@@ -21,6 +21,7 @@ tags:
 - Union
 - "Union Globus"
 - Beidseitig
+- Erdmann
 related: |
   * [Erdmann Kleidung (#121)](/post/121)
   * [Erdmann Kleidung (#149)](/post/149)

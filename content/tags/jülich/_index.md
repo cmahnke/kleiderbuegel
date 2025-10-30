@@ -1,3 +1,4 @@
+---
 title: Jülich
 params:
   type: place

@@ -1,3 +1,4 @@
+---
 title: Trier
 params:
   type: place

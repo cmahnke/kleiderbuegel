@@ -43,6 +43,7 @@ Keywords with fewer than three entries are not displayed.
   * Children's hangers: **{{< tags/tag-count "Kinderbügel" true >}}**
   * Adjustable: **{{< tags/tag-count "Verstellbar" true >}}**
   * Foldable: **{{< tags/tag-count "Klappbar" true >}}**
+  * Clothepins: **{{< tags/tag-count "Klammern" true >}}**
 
 * Specific manufacturers
   * Union: **{{< tags/tag-count "Union" true >}}**
@@ -67,7 +68,7 @@ Keywords with fewer than three entries are not displayed.
 * Retail chains
   * Karstadt: **{{< tags/tag-count "Karstadt" true >}}**
   * Hettlage: **{{< tags/tag-count "Hettlage" true >}}**
-  * C&A (Brenninkmayer): **{{< tags/tag-count "C&A" true >}}**
+  * C&A (Brenninkmayer): **{{< tags/tag-count "Brenninkmayer" true >}}**
   * Cloppenburg: **{{< tags/tag-count "Cloppenburg" true >}}**
   * Hertie: **{{< tags/tag-count "Hertie" true >}}**
   * Kaufhof: **{{< tags/tag-count "Kaufhof" true >}}**
@@ -75,13 +76,16 @@ Keywords with fewer than three entries are not displayed.
 * Clothing stores
   * Ketelsen: **{{< tags/tag-count "Ketelsen" true >}}**
   * Möller & Schade: **{{< tags/tag-count "Möller & Schade" true >}}**
+  * Erdmann: **{{< tags/tag-count "Erdmann" true >}}**
+  * C. Louis Weber : **{{< tags/tag-count "C. Louis Weber " true >}}**
   * Flebbe: **{{< tags/tag-count "Flebbe" true >}}**
 
 * Other classifications
   * Advertising: **{{< tags/tag-count "Werbung" true >}}**
   * Novelty items: **{{< tags/tag-count "Scherzartikel" true >}}**
   * Without geodata: **{{< hanger-param "geojson" "eq" nil >}}**
-  * Repaired: **{{< tags/tag-count "Repaired" true >}}**
+  * Repaired: **{{< tags/tag-count "Repariert" true >}}**
+{.statistics}
 
 # My other blogs
 

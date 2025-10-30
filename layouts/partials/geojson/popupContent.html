@@ -1,0 +1,13 @@
+{{ $content := .RawContent }}
+{{- $content = partial "macros/remove-shortcodes.txt" $content -}}
+<div class="geojsonPopup">
+    <div class="title">
+        {{ .Title }}
+    </div>
+    <div class="content">
+        {{ $content | markdownify }}
+    </div>
+    <div class="link">
+        <a target="_blank" rel="noopener noreferrer" href="{{ .Permalink }}">{{ i18n "readmore" }}</a>
+    </div>
+</div>

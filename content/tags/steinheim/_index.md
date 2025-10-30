@@ -1,3 +1,4 @@
+---
 title: Steinheim
 params:
   type: place

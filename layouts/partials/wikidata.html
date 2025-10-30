@@ -1,4 +1,70 @@
+{{- $ids := slice -}}
+{{- $page := . -}}
+{{- $debug := partialCached "functions/debug/enabled.html" . -}}
 {{- with .Params.wikidata -}}
+  {{- if reflect.IsSlice . -}}
+    {{- $ids = . -}}
+  {{- else -}}
+    {{- $ids = slice . -}}
+  {{- end -}}
+{{- end -}}
 
+{{- range $ids -}}
+  {{- $id := "" -}}
+
+  {{- if hasPrefix . "http" -}}
+    {{- $id = replaceRE `(?m)https://www.wikidata.org/wiki/(Q\d+)` "$1" . -}} -}}
+  {{- else if hasPrefix . "Q" -}}
+    {{- $id =  . -}}
+  {{- else -}}
+    {{- errorf "[wikidata.html] Malformed Wikidata identifier: %s" . -}}
+  {{- end -}}
+
+  {{- $queryURL := "https://query.wikidata.org/sparql" -}}
+  {{- $queryOpts := dict
+    "method" "get"
+    "headers" (dict "Accept" "application/sparql-results+json")
+  -}}
+
+  {{- $query := printf `SELECT ?lang ?url  WHERE {
+        BIND(wd:%s AS ?item) ?url schema:about ?item ; schema:isPartOf ?wiki .
+        FILTER (REGEX(STR(?wiki), "wikipedia\\.org"))
+        BIND(REPLACE(STR(?wiki), "https://([a-z-]+)\\.wikipedia\\.org", "$1") AS ?lang) }` $id -}}
+
+  {{- $queryURL = printf "%s?query=%s" $queryURL (urlquery $query) -}}
+  {{- if $debug -}}
+    {{ warnf "[wikidata.html] Generated query for id %s is: %s" . $query }}
+    {{ warnf "[wikidata.html] Generated query url id %s is: %s" . $queryURL }}
+  {{- end -}}
+
+  {{- $wikiLinks := slice -}}
+
+  {{- with try (resources.GetRemote $queryURL $queryOpts) -}}
+    {{- with .Err -}}
+      {{- errorf "Unable to get remote resource %s: %s"  $queryURL . -}}
+    {{- else with .Value -}}
+      {{- $data := .Content | transform.Unmarshal -}}
+      {{- if and (reflect.IsMap $data.results) (isset $data.results "bindings") (reflect.IsSlice $data.results.bindings) (gt (len $data.results.bindings) 0) -}}
+        {{- range $data.results.bindings -}}
+          {{- $wikiLinks = $wikiLinks | append (dict "lang" (replace .lang.value "/" "") "url" .url.value) -}}
+        {{- end -}}
+      {{- else -}}
+        {{- warnf "[wikidata.html] Failed to get Wikidata entry for id %s on page %s" $id $page.RelPermalink -}}
+      {{- end -}}
+    {{- else -}}
+      {{- errorf "Unable to get remote resource %s" $queryURL -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $link := index (where $wikiLinks "lang" "eq" $page.Language.Lang) 0 -}}
+  {{- with (index $link "url") -}}
+    {{- $link = index $link "url" -}}
+  {{- else -}}
+    {{- $link := index (index (where $wikiLinks "lang" "eq" "de") 0) "url" -}}
+  {{- end -}}
+
+  {{- if and (ne $link nil) (ne $link "") -}}
+    <a class="wikipedia-link" href="{{ $link | safeHTMLAttr }}" title="{{ i18n "wikipedia" }}: {{ $page.Title }}">{{ i18n "wikipedia" }}: {{ $page.Title }}</a>
+  {{- end -}}
 
 {{- end -}}

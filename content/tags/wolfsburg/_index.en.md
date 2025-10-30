@@ -1,3 +1,4 @@
+---
 title: Wolfsburg
 params:
   type: place

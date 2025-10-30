@@ -1,3 +1,4 @@
+---
 title: Herford
 params:
   type: place

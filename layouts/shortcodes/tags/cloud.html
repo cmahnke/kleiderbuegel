@@ -1,43 +1,115 @@
+{{ $pages := .Site.Pages }}
+{{ range .Site.Home.Translations }}
+  {{ $pages = $pages | lang.Merge .Site.RegularPages }}
+{{ end }}
+
+{{- $pages = where $pages "Params.type" "eq" "hanger" -}}
+{{- $pages = where $pages "Section" "in" "post" -}}
+
+{{- $lang := .Page.Language.Lang -}}
+{{- $pages = where $pages "Params.displayinlist" "!=" false -}}
+{{- $debug := partialCached "functions/debug/enabled.html" . -}}
+
+{{ $taxonomy := "tags" }}
+
+{{- $pageList := slice -}}
+{{- $tagList := dict -}}
+{{- range $page := $pages.ByTitle -}}
+  {{- $pageUrl := .RelPermalink -}}
+  {{- with .OutputFormats.Get "html" -}}
+    {{- $pageUrl = .RelPermalink -}}
+  {{- end -}}
+  {{- $tags := dict -}}
+  {{- range $tag := .Params.tags -}}
+    {{- $termTitle := "" -}}
+    {{- if ne $tag "" -}}
+      {{- $tagUrl := printf "%s%s" (printf "/%s/" $taxonomy) ($tag | urlize) -}}
+
+      {{/* TODO: Check if this still works if .Site.BaseURL contains a path at the end - probably not */}}
+      {{- $tagPath := (urls.Parse $tagUrl).Path -}}
+      {{- $sameAs := "" -}}
+      {{- $definitionMissing := false -}}
+      {{- with $.Site.GetPage $tagPath -}}
+        {{- $termTitle = .Title -}}
+
+        {{- $termPage := printf "content%s/_index.md" $tagPath -}}
+        {{- if not (fileExists $termPage) -}}
+          {{- if eq $debug true -}}
+            {{- warnf "[tagcloud.html] Missing page %s for term %s" $termPage .Data.Term -}}
+          {{- end -}}
+          {{- $definitionMissing = true -}}
+        {{- end -}}
+      {{- else -}}
+        {{- $definitionMissing = true -}}
+        {{- if eq $debug true -}}
+          {{- warnf "[tagcloud.html] can't load file %s" $tagPath -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if $definitionMissing -}}
+        {{- continue -}}
+      {{- end -}}
+
+      {{- if ne $termTitle $tag -}}
+        {{- $tag = $termTitle -}}
+      {{- end -}}
+
+      {{- if hugo.IsMultilingual -}}
+        {{- $tagUrl = $tagUrl | relLangURL -}}
+      {{- end -}}
+
+      {{- if isset $tagList $tag -}}
+        {{- $count := index (index $tagList $tag) "count" -}}
+        {{- $tagMeta := dict "url" ($tagUrl | relLangURL) "count" (add $count 1) "lang" $lang -}}
+        {{- $tagList = merge $tagList (dict $tag $tagMeta) -}}
+      {{- else -}}
+        {{- $tagMeta := dict "url" $tagUrl "count" 1  -}}
+        {{- $tagMeta = merge $tagMeta (dict "term" $termTitle) -}}
+        {{- $tagMeta = merge $tagMeta (dict "lang" $lang) -}}
+        {{- $tagList = merge $tagList (dict $tag $tagMeta) -}}
+      {{- end -}}
+
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $tags := slice -}}
+{{- range $k, $v := $tagList -}}
+  {{ $tags = $tags | append $v -}}
+{{- end -}}
+{{- $tags = sort $tags "count" "desc" -}}
+
 {{/* Inspired by https://github.com/gohugoio/hugoThemesSite/blob/ff2c51f118fe932525715002895eda1f036877d7/layouts/partials/tag-cloud.html */}}
 
-
-{{- $tag := "tag" -}}
-{{- if .Get "tag" -}}
-    {{- $tag = printf "tag-%s" (.Get "tag") -}}
-{{- end -}}
-
-{{- $tags := $.Site.Taxonomies.tags.ByCount -}}
 {{- $filtered := slice -}}
 {{- if ne $tags nil -}}
-  {{- $filtered = where $tags "Count" ">=" 3 -}}
+  {{- $filtered = where $tags "count" ">=" 2 -}}
 {{- end -}}
-{{- $filtered = where $filtered "Term" "not in" (slice "hugo" "tags" "rss") -}}
-{{- $highest := (index $filtered 0).Count -}}
-{{- $lowest :=  (index (last 1 $filtered) 0).Count -}}
+{{- $highest := (index $filtered 0).count -}}
+{{- $lowest :=  (index (last 1 $filtered) 0).count -}}
 {{- $max := 48 -}}
-{{ $min := 12 -}}
+{{- $min := 12 -}}
 {{- $count := 0 -}}
 {{- range $filtered -}}
-    {{- $count = add $count .Count -}}
+    {{- $count = add $count .count -}}
 {{- end -}}
-
 {{- if len $filtered -}}
-    <div class="tagcloud">
-        {{- range $filtered -}}
-            {{- if .Term -}}
-                {{- $tagURL := printf "tags/%s" (.Term | urlize) | relURL -}}
-                {{/* See http://www.johann-oberdorfer.eu/blog/2020/02/23/20-02-23_tag_cloud_for_hugo/ */}}
-                {{- $divisor := (sub (math.Log $highest) (math.Log $lowest)) -}}
-                {{- if not $divisor -}}
-                    {{- $divisor = 1 -}}
-                {{- end }}
-                {{- $fontStep := div (sub (math.Log .Count) (math.Log $lowest)) $divisor -}}
-                {{- $fontSize := add $min (mul (sub $max $min) $fontStep) -}}
-                {{- $fontSize = math.Floor $fontSize -}}
-                <a href="{{ $tagURL }}" class="btn btn-default cloud-tag" role="button" style="font-size: {{ $fontSize }}px;">
-                    {{ partial (printf "tagcloud/%s.html" $tag) . }} <span class="badge">({{ .Count }})</span>
-                </a>
-            {{- end -}}
-        {{- end -}}
-    </div>
+  <div class="tagcloud">
+    {{- range $filtered -}}
+      {{- if .term -}}
+        {{- $tagURL := printf "tags/%s" (.Term | urlize) | relURL -}}
+        {{/* See http://www.johann-oberdorfer.eu/blog/2020/02/23/20-02-23_tag_cloud_for_hugo/ */}}
+        {{- $divisor := (sub (math.Log $highest) (math.Log $lowest)) -}}
+        {{- if not $divisor -}}
+            {{- $divisor = 1 -}}
+        {{- end }}
+        {{- $fontStep := div (sub (math.Log .count) (math.Log $lowest)) $divisor -}}
+        {{- $fontSize := add $min (mul (sub $max $min) $fontStep) -}}
+
+        {{- $fontSize = math.Floor $fontSize -}}
+        <a href="{{ .url }}" class="btn btn-default cloud-tag" role="button" style="font-size: {{ $fontSize }}px;">
+          {{ .term }} <span class="badge">({{ .count }})</span>
+        </a>
+      {{- end -}}
+    {{- end -}}
+  </div>
 {{- end -}}

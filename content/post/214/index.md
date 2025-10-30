@@ -13,6 +13,7 @@ tags:
 - Hannover
 - Bekleidungsgeschäft
 - "Material: Holz"
+- C. Louis Weber
 geojson:
   coordinates:
   - 9.7311875

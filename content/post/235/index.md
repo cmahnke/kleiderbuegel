@@ -12,5 +12,6 @@ resources:
 tags:
 - "Material: Holz"
 - Union
+- Rockbügel
 ---
 ROCK-UNION

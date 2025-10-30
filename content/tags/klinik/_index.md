@@ -1,3 +1,4 @@
+---
 title: Klinik
 params:
   type: type

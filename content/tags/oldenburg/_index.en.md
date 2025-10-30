@@ -1,3 +1,4 @@
+---
 title: Oldenburg
 params:
   type: place

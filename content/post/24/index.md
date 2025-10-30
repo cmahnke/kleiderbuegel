@@ -3,6 +3,7 @@ date: 2020-11-29T14:30:44+02:00
 title: "Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)"
 tags:
 - Landeshut
+- Kamienna Góra
 - Bekleidungsgeschäft
 - "Material: Holz"
 type: hanger

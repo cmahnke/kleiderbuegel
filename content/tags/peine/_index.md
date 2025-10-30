@@ -1,3 +1,4 @@
+---
 title: Peine
 params:
   type: place

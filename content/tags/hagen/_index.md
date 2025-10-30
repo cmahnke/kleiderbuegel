@@ -1,3 +1,4 @@
+---
 title: Hagen
 params:
   type: place

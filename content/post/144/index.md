@@ -13,6 +13,7 @@ tags:
 - "Material: Holz"
 - Berlin
 - Schneiderei
+- Klammern
 geojson:
   coordinates:
   - 13.2864904

@@ -1,3 +1,4 @@
+---
 title: Warburg
 params:
   type: place

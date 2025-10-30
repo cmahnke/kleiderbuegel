@@ -1,3 +1,4 @@
+---
 title: Heide
 params:
   type: place

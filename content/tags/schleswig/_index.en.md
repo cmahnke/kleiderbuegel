@@ -1,3 +1,4 @@
+---
 title: Schleswig
 params:
   type: place

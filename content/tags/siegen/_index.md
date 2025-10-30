@@ -1,3 +1,4 @@
+---
 title: Siegen
 params:
   type: place

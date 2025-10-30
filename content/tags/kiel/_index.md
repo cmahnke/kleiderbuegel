@@ -1,3 +1,4 @@
+---
 title: Kiel
 params:
   type: place

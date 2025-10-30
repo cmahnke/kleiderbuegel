@@ -1,3 +1,4 @@
+---
 title: Union
 params:
   type: brand

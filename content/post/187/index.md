@@ -14,7 +14,5 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Hettlage
-remarks: |
-  * [Wikipedia Artikel über Hettlage](https://de.wikipedia.org/wiki/Hettlage_(Unternehmen))
 ---
 hettlage

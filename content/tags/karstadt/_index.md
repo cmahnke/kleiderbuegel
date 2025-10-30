@@ -1,3 +1,4 @@
+---
 title: Karstadt
 params:
   type: retail_chain

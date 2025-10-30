@@ -14,6 +14,7 @@ tags:
 - Warenhaus
 - "Material: Holz"
 - Beidseitig
+- Fahning
 geojson:
   coordinates:
   - 9.9896316

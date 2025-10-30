@@ -1,3 +1,4 @@
+---
 title: Schneiderei
 params:
   type: type

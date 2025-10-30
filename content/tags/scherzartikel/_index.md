@@ -1,3 +1,4 @@
+---
 title: Scherzartikel
 params:
   type: type

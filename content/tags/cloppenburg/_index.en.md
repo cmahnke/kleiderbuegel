@@ -1,3 +1,4 @@
+---
 title: Cloppenburg
 params:
   type: retail_chain

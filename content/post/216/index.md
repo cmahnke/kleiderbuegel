@@ -19,8 +19,6 @@ geojson:
   - 8.690482
   - 53.8589238
   precision: street
-remarks: |
-  * [Eintrag in der Cuxpedia](https://cuxpedia.de/index.php?title=M%C3%B6ller_%26_Schade)
 related: |
   * [Möller & Schade (#127)](/post/127)
 ---

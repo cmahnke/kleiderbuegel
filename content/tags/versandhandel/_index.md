@@ -1,3 +1,4 @@
+---
 title: Versandhandel
 params:
   type: type

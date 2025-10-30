@@ -1,3 +1,4 @@
+---
 title: Kassel
 params:
   type: place

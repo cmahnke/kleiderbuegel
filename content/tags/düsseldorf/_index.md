@@ -1,3 +1,4 @@
+---
 title: Düsseldorf
 params:
   type: place

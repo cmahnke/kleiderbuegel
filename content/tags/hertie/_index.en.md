@@ -1,3 +1,4 @@
+---
 title: Hertie
 params:
   type: retail_chain

@@ -1,3 +1,4 @@
+---
 title: Celle
 params:
   type: place

@@ -1,3 +1,4 @@
+---
 title: Bad Mergentheim
 params:
   type: place

@@ -5,6 +5,7 @@ tags:
 - Hamburg
 - "Material: Holz"
 - Warenhaus
+- Fahning
 type: hanger
 resources:
 - src: "front.png"
@@ -20,8 +21,5 @@ geojson:
   - 53.5519379
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
-remarks: |
-  * [Gebrüder Hirschfeld in der Wikipedia](https://de.wikipedia.org/wiki/Gebr._Hirschfeld)
-  * [Kaufhaus Hirschfeld in der Wikipedia](https://www.veikkos-archiv.com/index.php/Kaufhaus_Hirschfeld_(Hamburg))
 ---
 Franz Fahning Hamburg Neuerwall
