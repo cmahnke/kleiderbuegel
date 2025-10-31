@@ -113,4 +113,4 @@ Contact is possible via [email](mailto:kleiderbuegel@projektemacher.org).
 
 The privacy policy is available [here](/privacy).
 
-![Blaufußtölpel](/images/blaufusstoelpel.svg)
+[![Blaufußtölpel](/images/blaufusstoelpel.svg)](https://xn--blaufusstlpel-qmb.de/)

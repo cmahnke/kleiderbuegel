@@ -13,7 +13,7 @@
       {{- $tag = $page.Title -}}
     {{- end -}}
     <div class="section-head">
-      <h1 class="post-section section-head-title tag-list-title">{{ i18n "Tag" }}: {{ $tag }}</h1>
+      <h1 class="post-section section-head-title tag-list-title">{{ i18n "Tag" 1 }}: {{ $tag }}</h1>
       {{- with $page.Params.type -}}
         <div class="type">
           {{ i18n "classification" }}: {{ i18n . }}

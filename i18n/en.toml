@@ -32,7 +32,8 @@ other = "Donated by"
 other = "Identical labeling on both sides"
 
 [Tag]
-other = "Tag"
+one = "Tag"
+other = "Tags"
 
 [front]
 other = "Front"

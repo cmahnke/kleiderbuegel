@@ -32,7 +32,8 @@ other = "Gespendet von"
 other = "Beidseitig identisch beschriftet"
 
 [Tag]
-other = "Schlagwort"
+one = "Schlagwort"
+other = "Schlagworte"
 
 [front]
 other = "Vorderseite"

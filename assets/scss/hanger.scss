@@ -1,0 +1,139 @@
+.hanger .content {
+  margin: auto;
+  border-top-right-radius: $border-radius;
+  border-top-left-radius: $border-radius;
+
+  .close-hanger {
+    display: none;
+  }
+
+  .hanger-back p,
+  .back-content,
+  .back-content p,
+  .top-content,
+  .hanger-content {
+      font-weight: bolder;
+  }
+
+  .heading-back,
+  .heading-front,
+  .heading-imprint,
+  .heading-info,
+  .heading-top {
+    text-align: left;
+    font-style: italic;
+    padding-left: 1rem;
+    width: 90%;
+    font-family: $heading-font;
+  }
+
+  .heading-back,
+  .heading-imprint,
+  .heading-info,
+  .heading-top {
+    padding-top: 2.6rem !important;
+  }
+
+  .back-content,
+  .top-content,
+  .hanger-content {
+    padding: 2rem 0;
+    margin: auto;
+    width: 90%;
+  }
+
+  .tags {
+    text-align: right;
+    width: 15%;
+    min-width: fit-content;
+    list-style-type: none;
+    margin-block-end: unset;
+    padding-inline-start: unset;
+
+    .tag {
+      a:before {
+        content: '#';
+      }
+    }
+  }
+}
+
+.content {
+  .additional-content {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 740px) {
+      margin: unset;
+
+      .remarks,
+      .related,
+      .donation,
+      .source  {
+        margin: 0 1rem;
+      }
+    }
+
+    p {
+      text-align: unset !important;
+      margin: unset !important;
+      font-size: unset !important;
+    }
+
+    .additional-header {
+      font-size: larger;
+    }
+
+    .remarks,
+    .related,
+    .donation,
+    .source  {
+      width: fit-content;
+    }
+
+    .remarks {
+      align-self: start;
+      order: 1;
+    }
+
+    .related {
+      align-self: center;
+      order: 2
+    }
+
+    .donation {
+      order: 3;
+      align-self: end;
+    }
+
+    .source {
+      order: 4;
+      align-self: end;
+    }
+
+    .tag-content {
+      flex-basis: 100%;
+      order: 0;
+      margin-bottom: .6rem;
+    }
+  }
+}
+
+img.hanger-img {
+  filter: drop-shadow(2px 2px 2px #222);
+  transition: all 1s;
+
+  &:hover {
+    filter: drop-shadow(5px 5px 5px #222);
+  }
+}
+
+.popup-container {
+  max-width: 90em;
+  margin: auto;
+  width: 80%;
+}

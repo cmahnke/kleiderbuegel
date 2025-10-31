@@ -47,12 +47,16 @@
       {{- $class = "home" -}}
     {{- end -}}
     {{- if .Params.metaPage -}}
-      {{- $class = printf "%s %s" $class "meta" -}}
+      {{- if .Params.class -}}
+        {{- $class = printf "%s %s" $class .Params.class -}}
+      {{- else -}}
+        {{- $class = printf "%s %s" $class "meta" -}}
+      {{- end -}}
     {{- end -}}
      <body class="{{ $class }}">
        <div id="page">
          {{ partial "header.html" . }}
-         <div id="main">
+         <div class="main">
              {{ block "content" . }}{{ end }}
              {{- partial "footer.html" . -}}
          </div>
