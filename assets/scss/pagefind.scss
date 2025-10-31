@@ -1,8 +1,10 @@
-@import "pagefind/ui";
+@use "pagefind/ui" as *;
 
-$search-button-background-color: transparent;
-$search-border-color-inactive: lightgrey;
-$search-border-color-active: #ff073a;
+$search-light: '' !default;
+$search-dark: '' !default;
+$search-button-background-color: transparent !default;
+$search-border-color-inactive: lightgrey !default;
+$search-border-color-active: #ff073a !default;
 
 :root {
   --pagefind-ui-scale: 1;

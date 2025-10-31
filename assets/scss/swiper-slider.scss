@@ -1,10 +1,10 @@
-@import "swiper";
-@import "modules/effect-coverflow";
-@import "modules/scrollbar";
-@import "modules/navigation";
-@import "modules/a11y";
-@import "modules/keyboard";
-@import "modules/mousewheel";
+@use "swiper" as *;
+@use "modules/effect-coverflow" as *;
+@use "modules/scrollbar" as *;
+@use "modules/navigation" as *;
+@use "modules/a11y" as *;
+@use "modules/keyboard" as *;
+@use "modules/mousewheel" as *;
 
 #klamotten {
   position: relative;
@@ -20,12 +20,6 @@
   padding-top: 1rem;
 }
 
-/*
-.swiper-slide-active {
-  transform: scale(1.1);
-}
-*/
-
 .swiper-slide {
   perspective: 600px;
   transform-style: preserve-3d;
@@ -35,9 +29,6 @@
   background-size: cover;
   width: 300px;
   width: fit-content;
-  /*
-  height: 300px;
-  */
   z-index: 10;
 }
 

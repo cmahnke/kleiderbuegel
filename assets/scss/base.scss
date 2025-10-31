@@ -1,16 +1,11 @@
 @use "sass:color";
 
-@import "footer";
+@use "footer" as *;
 /* Icons */
-@import "icons";
-@import "fonts/nunito";
-@import "fonts/libre-baskerville";
-
-@import "ol-iiif";
-@import "iframe-consent";
-@import "map";
-@import "kleiderbuegel-map";
-@import "flags/flags";
+@use "icons" as icons;
+/* Fonts */
+@use "fonts/nunito" as *;
+@use "fonts/libre-baskerville" as *;
 
 /* Fonts */
 $font-color-heading: #342211;
@@ -26,16 +21,27 @@ $content-bg-color: rgba(255, 255, 255, 0.7);
 $heading-font: 'Libre Baskerville', serif;
 $kleidungsstueck-border-radius: $border-radius;
 
+@use "swiper-slider" as *;
+@use "table" as *;
+@use "cabinet" as *;
+@use "map" as *;
+@use "kleiderbuegel-map" as *;
+@use "flags/flags" as *;
+@use "iframe-consent" as *;
+@use "hanger" with (
+  $border-radius: $border-radius,
+  $heading-font: $heading-font
+);
+@use "pagefind" with (
+  $search-light: icons.$search-light,
+  $search-dark: icons.$search-dark
+);
+@use "ol-iiif" as *;
 /* Background settings */
-$wood-texture-opacity: 0.5;
-
-@import "textures/wood";
-$background: $wood-light;
-@import "swiper-slider";
-@import "pagefind";
-@import "table";
-@import "cabinet";
-@import "hanger";
+@use  "textures/wood" with (
+  $wood-texture-opacity: 0.5
+);
+$background: wood.$wood-light;
 
 html {
   background: url($background);
@@ -101,7 +107,7 @@ body {
       --max-width: 90em;
 
       @media screen and (max-width: 740px) {
-        .main .post {  
+        .main .post {
           width: 95%;
         }
       }
@@ -407,7 +413,7 @@ strong {
             border: 0;
             cursor: pointer;
             border-radius: 3px;
-            background-image: url($close-dark);
+            background-image: url(icons.$close-dark);
             background-size: 80% 80%;
             background-repeat: no-repeat;
             background-position: center;
