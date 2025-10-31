@@ -1,45 +1,57 @@
 {{- $page := . -}}
-<div class="hanger-content">
-  {{- .Content -}}
-</div>
-<div class="additional-content">
-  {{- with .Params.doublesided -}}
-    {{- if . -}}
-      <div class="doublesided"><div class="additional-header">{{ i18n "doublesided" }}</div></div>
-    {{- end -}}
+{{- if ne .Content "" -}}
+  <h2 class="heading-imprint">{{ i18n "print" }}</h2>
+  <div class="hanger-content">
+    {{- .Content -}}
+  </div>
+{{- end -}}
+
+{{- $additional := "" -}}
+
+{{- with .Params.doublesided -}}
+  {{- if . -}}
+    {{- $additional = printf "%s%s%s%s" $additional `<div class="doublesided"><div class="additional-header">` (i18n "doublesided") `</div></div>` -}}
   {{- end -}}
-  {{- with .Params.remarks -}}
-    <div class="remarks notes"><div class="additional-header">{{ i18n "remarks" }}:</div> {{ . | markdownify }}</div>
-  {{- end -}}
-  {{- with .Params.related -}}
-    <div class="related"><div class="additional-header">{{ i18n "related" }}:</div> {{ . | markdownify }}</div>
-  {{- end -}}
-  {{- with .Params.source -}}
-    <div class="source"><div class="additional-header">{{ i18n "source" }}:</div> {{ . | markdownify }}</div>
-  {{- end -}}
-  {{- with .Params.donation -}}
-    <div class="donation"><div class="additional-header">{{ i18n "donation" }}:</div> {{ . | markdownify }}</div>
-  {{- end -}}
-  {{- range $tag := .Params.tags -}}
-    {{- if ne $tag "" -}}
-      {{- $tagUrl := printf "%s%s" "tags/" ($tag | urlize) -}}
-      {{- $tagPath := (urls.Parse $tagUrl).Path -}}
-      {{- with site.GetPage $tagPath -}}
-        {{- if isset .Params "type" -}}
-          {{- if or (eq .Params.type "store") (eq .Params.type "retail_chain") -}}
-            <div class="tag-content">
-              {{- .Content -}}
-            </div>
+{{- end -}}
+
+{{- with .Params.remarks -}}
+  {{- $remarks := . -}}
+  {{- $remarks = replace $remarks "Aktuelle Webseite" (i18n "currentWebsite") -}}
+  {{- $remarks = replace $remarks "Heutige Webseite" (i18n "currentWebsite") -}}
+  {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="remarks notes"><div class="additional-header">` (i18n "remarks") `:</div>` ($remarks | markdownify) `</div>` -}}
+{{- end -}}
+
+{{- with .Params.related -}}
+  {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="related"><div class="additional-header">` (i18n "related") `:</div>` ( . | markdownify) `</div>` -}}
+{{- end -}}
+{{- with .Params.source -}}
+  {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="source"><div class="additional-header">` (i18n "source" ) `:</div>` ( . | markdownify) `</div>` -}}
+{{- end -}}
+{{- with .Params.donation -}}
+  {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="donation"><div class="additional-header">` (i18n "donation" ) `:</div>` ( . | markdownify) `</div>` -}}
+{{- end -}}
+
+{{- range $tag := .Params.tags -}}
+  {{- if ne $tag "" -}}
+    {{- $tagUrl := printf "%s%s" "tags/" ($tag | urlize) -}}
+    {{- $tagPath := (urls.Parse $tagUrl).Path -}}
+    {{- with site.GetPage $tagPath -}}
+      {{- if isset .Params "type" -}}
+        {{- if or (eq .Params.type "store") (eq .Params.type "retail_chain") -}}
+          {{- if ne .Content "" -}}
+            {{- $additional = printf "%s%s%s%s" $additional `<div class="tag-content">` .Content `</div>` -}}
           {{- end -}}
         {{- end -}}
-      {{- else -}}
-        {{- warnf "[check.html] Can't find term page for %s (file %s) from %s" $tag $tagPath $page.RelPermalink -}}
       {{- end -}}
+    {{- else -}}
+      {{- warnf "[check.html] Can't find term page for %s (file %s) from %s" $tag $tagPath $page.RelPermalink -}}
     {{- end -}}
   {{- end -}}
-</div>
-{{/*
-  Replacements:
-  * Aktuelle Webseite
-  * Heutige Webseite
-*/}}
+{{- end -}}
+
+{{- if ne $additional "" -}}
+  <h2 class="heading-info">{{ i18n "info" }}</h2>
+  <div class="additional-content">
+    {{- $additional | safeHTML -}}
+  </div>
+{{- end -}}

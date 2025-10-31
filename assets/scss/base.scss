@@ -428,7 +428,7 @@ $kleidungsstueck-border-radius: $border-radius;
 
 @media screen and (max-width: 740px) {
     #kleidungsstueck {
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -441,9 +441,49 @@ $kleidungsstueck-border-radius: $border-radius;
     flex-direction: row;
     justify-content: space-between;
     margin: 1rem 2rem;
+    flex-wrap: wrap;
+
+    p {
+      text-align: unset !important;
+      margin: unset !important;
+      font-size: unset !important;
+    }
 
     .additional-header {
       font-size: larger;
+    }
+
+    .remarks,
+    .related,
+    .donation,
+    .source  {
+      width: fit-content;
+    }
+
+    .remarks {
+      align-self: start;
+      order: 1;
+    }
+
+    .related {
+      align-self: center;
+      order: 2
+    }
+
+    .donation {
+      order: 3;
+      align-self: end;
+    }
+
+    .source {
+      order: 4;
+      align-self: end;
+    }
+
+    .tag-content {
+      flex-basis: 100%;
+      order: 0;
+      margin-bottom: .6rem;
     }
   }
 }
@@ -462,18 +502,27 @@ $kleidungsstueck-border-radius: $border-radius;
         width: 80%;
 
         @media screen and (max-width: 740px) {
-            width: 90%;
+            width: 95%;
             max-width: unset;
         }
 
         .heading-back,
         .heading-front,
+        .heading-imprint,
+        .heading-info,
         .heading-top {
           text-align: left;
           font-style: italic;
           padding-left: 1rem;
           width: 90%;
           font-family: $heading-font;
+        }
+
+        .heading-back,
+        .heading-imprint,
+        .heading-info,
+        .heading-top {
+          padding-top: 2.6rem !important;
         }
 
         .kleiderstange {
@@ -486,9 +535,15 @@ $kleidungsstueck-border-radius: $border-radius;
                 border-top-right-radius: $border-radius;
                 border-top-left-radius: $border-radius;
 
+                .hanger-back p,
+                .back-content,
+                .back-content p,
+                .top-content,
                 .hanger-content {
                     font-weight: bolder;
                 }
+
+
 
 
             }
@@ -507,7 +562,7 @@ $kleidungsstueck-border-radius: $border-radius;
         width: 80%;
 
         @media screen and (max-width: 740px) {
-          max-width: 90%;
+          max-width: 95%;
         }
     }
 
@@ -586,6 +641,7 @@ $kleidungsstueck-border-radius: $border-radius;
 
             .date {
                 float: left;
+                font-size: large;
 
                 @media screen and (max-width: 740px) {
                   float: unset;
@@ -760,6 +816,7 @@ $kleidungsstueck-border-radius: $border-radius;
     }
 }
 
+.donation,
 .source {
     font-size: small;
     text-align: right;
@@ -869,14 +926,35 @@ p.small {
   }
 }
 
-.statistics {
-  padding-inline-start: 4.6em;
-}
 
-.meta .post .content .hanger-content {
-  padding: 2rem 0;
-  margin: auto;
-  width: 90%;
+.meta .post .content {
+
+  .statistics {
+    column-count: auto;
+    column-width: 24rem;
+    column-gap: 1em;
+    padding: 0 4rem;
+
+    &>li {
+      break-inside: avoid-column;
+
+      ul {
+        padding-inline-start: 1.6em;
+      }
+    }
+
+    ul:has(li ul)  {
+
+    }
+  }
+
+  .back-content,
+  .top-content,
+  .hanger-content {
+    padding: 2rem 0;
+    margin: auto;
+    width: 90%;
+  }
 }
 
 img.hanger-img {

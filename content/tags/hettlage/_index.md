@@ -5,5 +5,5 @@ params:
   wikidata: Q1616294
 ---
 
-Weitere Informationen:
+Links:
 * [Wikipedia Artikel über Hettlage](https://de.wikipedia.org/wiki/Hettlage_%28Unternehmen%29)

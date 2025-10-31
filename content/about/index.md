@@ -40,9 +40,9 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
   * Aus Plastik: **{{< tags/tag-count "Material: Plastik" true >}}**
   * (Teilweise) aus Metall: **{{< tags/tag-count "Material: Metall" true >}}**
   * (Teilweise) aus Metall: **{{< tags/tag-count "Material: Stoff" true >}}**
-* Beidseitig beschriftete **{{< tags/tag-count "Beidseitig" true >}}**
 
 * Typen
+  * Beidseitig beschriftete **{{< tags/tag-count "Beidseitig" true >}}**
   * Hosenbügel: **{{< tags/tag-count "Hosenbügel" true >}}**
   * Rockbügel: **{{< tags/tag-count "Rockbügel" true >}}**
   * Kinderbügel: **{{< tags/tag-count "Kinderbügel" true >}}**

@@ -46,17 +46,21 @@
             <img loading="lazy" class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ $title }}" />
             {{- with .Params.content -}}
               <div class="back-content">
-                {{- . | markdownify -}}
+                <p>
+                  {{- . | markdownify -}}
+                </p>
               </div>
             {{- end }}
           </div>
         {{- else -}}
           <div class="hanger-back">
-            {{- if (in $page.Params.tags "Beidseitig") -}}
-              {{- i18n "identical_back" -}}
-            {{- else -}}
-              {{- i18n "empty_back" -}}
-            {{- end -}}
+            <p>
+              {{- if (in $page.Params.tags "Beidseitig") -}}
+                {{- i18n "identical_back" -}}
+              {{- else -}}
+                {{- i18n "empty_back" -}}
+              {{- end -}}
+            </p>
           </div>
         {{- end -}}
       {{- end -}}

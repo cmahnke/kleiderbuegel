@@ -23,7 +23,7 @@ other = "Found at"
 other = "See also"
 
 [remarks]
-other = "Further infomation"
+other = "Remarks"
 
 [donation]
 other = "Donated by"
@@ -42,6 +42,15 @@ other = "Back"
 
 [top]
 other = "Top"
+
+[print]
+other = "Imprint"
+
+[info]
+other = "Further infomation"
+
+[currentWebsite]
+other = "Today's website"
 
 [identical_back]
 other = "Identical reverse side"

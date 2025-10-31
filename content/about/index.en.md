@@ -35,9 +35,9 @@ Keywords with fewer than three entries are not displayed.
   * Plastic: **{{< tags/tag-count "Material: Plastik" true >}}**
   * (Partially) metal: **{{< tags/tag-count "Material: Metall" true >}}**
   * (Partially) metal: **{{< tags/tag-count "Material: Stoff" true >}}**
-* Labeled on both sides **{{< tags/tag-count "Beidseitig" true >}}**
 
 * Types
+  * Labeled on both sides **{{< tags/tag-count "Beidseitig" true >}}**
   * Trouser hangers: **{{< tags/tag-count "Hosenbügel" true >}}**
   * Skirt hangers: **{{< tags/tag-count "Rockbügel" true >}}**
   * Children's hangers: **{{< tags/tag-count "Kinderbügel" true >}}**

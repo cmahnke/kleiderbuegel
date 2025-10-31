@@ -23,7 +23,7 @@ other = "Gefunden bei"
 other = "Siehe auch"
 
 [remarks]
-other = "Weitere Informationen"
+other = "Anmerkungen"
 
 [donation]
 other = "Gespendet von"
@@ -42,6 +42,15 @@ other = "Rückseite"
 
 [top]
 other = "Oberseite"
+
+[print]
+other = "Aufdruck"
+
+[info]
+other = "Weitere Informationen"
+
+[currentWebsite]
+other = "Heutige Webseite"
 
 [identical_back]
 other = "Identische Rückseite"
