@@ -113,48 +113,6 @@ body {
       }
     }
 
-    &.about {
-        .content {
-            background-position: 97% 99%;
-            background-image: url("/images/cm.svg");
-            background-repeat: no-repeat;
-
-            @media screen and (max-width: 740px) {
-              /*
-              background-position: 95% 1%;
-              background-image: url("/images/cm.svg");
-              background-repeat: no-repeat;
-              */
-              background-size: 30%;
-            }
-
-
-            ul {
-              li p,
-              ul {
-                margin: unset;
-              }
-            }
-
-
-            @media screen and (max-width: 740px) {
-                p,
-                ul,
-                h1,
-                h2,
-                h3,
-                .tagcloud {
-                    width: unset;
-                }
-
-                img {
-                    margin: 1.5em auto;
-                    max-width: 100%;
-                }
-            }
-        }
-    }
-
     &.meta {
       font-size: larger;
 
@@ -263,6 +221,51 @@ body {
         }
 
       }
+    }
+
+    &.about {
+        .content {
+            background-position: 97% 99%;
+            background-image: url("/images/cm.svg");
+            background-repeat: no-repeat;
+
+            @media screen and (max-width: 740px) {
+              /*
+              background-position: 95% 1%;
+              background-image: url("/images/cm.svg");
+              background-repeat: no-repeat;
+              */
+              background-size: 30%;
+            }
+
+            ul {
+              li p,
+              ul {
+                margin: unset;
+              }
+            }
+
+            h1, h2, h3 {
+              margin-block-start: unset;
+            }
+
+
+            @media screen and (max-width: 740px) {
+                p,
+                ul,
+                h1,
+                h2,
+                h3,
+                .tagcloud {
+                    width: unset;
+                }
+
+                img {
+                    margin: 1.5em auto;
+                    max-width: 100%;
+                }
+            }
+        }
     }
 }
 
@@ -856,12 +859,8 @@ p.small {
   }
 }
 
-
 .meta {
-
-
   .post .content {
-
     .statistics {
       padding-inline-start: 3rem;
       column-count: auto;
@@ -870,6 +869,11 @@ p.small {
 
       &>li {
         break-inside: avoid-column;
+
+        p {
+          padding-top: .6em;
+          padding-bottom: unset;
+        }
 
         ul {
           padding-inline-start: 1.6em;
