@@ -9,6 +9,9 @@ hideMeta: true
 * [Kleiderbügel in der Wikipedia](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel)
 * [Kleiderbügel bei Strukturwalzen](https://www.strukturwalzen.de/sammler-kleiderbuegel-berlin-eberhard-rohde.htm)
 
+## Museum
+* [Das Kleiderbügelmuseum von Dunkel-Service Basel](https://dunkel-service.ch/kleiderbuegel-museum/)
+
 ## Sammler
 
 Die Anzahl an Kleiderbügelsammlern ist überschaubar, hier die medial präsentesten:

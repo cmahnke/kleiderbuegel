@@ -9,6 +9,9 @@ hideMeta: true
 * [Kleiderbügel in der Wikipedia](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel)
 * [Kleiderbügel bei Strukturwalzen](https://www.strukturwalzen.de/sammler-kleiderbuegel-berlin-eberhard-rohde.htm)
 
+## Museum
+* [The Coat Hanger Museum of Dunkel-Service Basel](https://dunkel-service.ch/kleiderbuegel-museum/)
+
 ## Collectors
 
 The number of clothes hanger collectors is manageable. Here are the most prominent ones in the media:
