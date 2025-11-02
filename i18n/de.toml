@@ -87,3 +87,29 @@ other = "Besonderheit"
 
 [brand]
 other = "Hersteller"
+
+# Print related
+
+[noTitle]
+other = "Unbeschriftet"
+
+[indexes]
+other = "Indizes"
+
+[allIndex]
+other = "Alle Einträge"
+
+[placeIndex]
+other = "Ortsregister"
+
+[storeIndex]
+other = "Register der Geschäfte"
+
+[retail_chainIndex]
+other = "Register der Handelsketten"
+
+[typeIndex]
+other = "Register der Herkuftsbranchen"
+
+[featureIndex]
+other = "Register der Besonderheiten"

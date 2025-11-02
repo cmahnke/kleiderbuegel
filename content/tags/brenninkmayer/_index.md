@@ -1,6 +1,6 @@
 ---
 title: C&A (Brenninkmayer)
-alias:
+aliases:
   - /tags/ca
 params:
   type: retail_chain

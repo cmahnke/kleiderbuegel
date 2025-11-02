@@ -39,7 +39,22 @@
     {{- if ne $tag "" -}}
       {{- $tagUrl := printf "%s%s" "tags/" ($tag | urlize) -}}
       {{- $tagPath := (urls.Parse $tagUrl).Path -}}
+
+      {{- $tagPage := false -}}
       {{- with site.GetPage $tagPath -}}
+        {{- $tagPage = . -}}
+      {{- else -}}
+        {{- $termPages := site.Pages -}}
+        {{- range site.Home.Translations -}}
+          {{- $termPages = $termPages | lang.Merge site.Pages -}}
+        {{- end -}}
+        {{- $termPages = where $termPages ".Kind" "eq" "term" -}}
+        {{- $alias := printf "/%s" $tagPath -}}
+        {{- $termPages = where $termPages ".Aliases" "intersect" (slice $alias) -}}
+        {{- $tagPage = index $termPages 0 -}}
+      {{- end -}}
+
+      {{- with $tagPage -}}
         {{- if isset .Params "type" -}}
           {{- if or (eq .Params.type "store") (eq .Params.type "retail_chain") -}}
             {{- if ne .Content "" -}}
@@ -48,7 +63,7 @@
           {{- end -}}
         {{- end -}}
       {{- else -}}
-        {{- warnf "[check.html] Can't find term page for %s (file %s) from %s" $tag $tagPath $page.RelPermalink -}}
+        {{- errorf "[post-content.html] Can't find term page for %s (file %s) from %s" $tag $tagPath $page.RelPermalink -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}

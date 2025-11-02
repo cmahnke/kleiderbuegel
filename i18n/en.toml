@@ -167,3 +167,29 @@ other = "Clothing factory"
 
 [Klinik]
 other = "Clinic"
+
+# Print related
+
+[noTitle]
+other = "Unlabelled"
+
+[indexes]
+other = "Indexes"
+
+[allIndex]
+other = "All entries"
+
+[placeIndex]
+other = "Place index"
+
+[storeIndex]
+other = "Index of shops"
+
+[retail_chainIndex]
+other = "Index of retail chains"
+
+[typeIndex]
+other = "Index of sectors of origin"
+
+[featureIndex]
+other = "Index of special features"

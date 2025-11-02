@@ -1,4 +1,3 @@
-
 {{- if hasPrefix .RelPermalink "/post" -}}
   {{- $page := . -}}
 
@@ -93,15 +92,27 @@
   {{- range $tag := .Params.tags -}}
     {{- if ne $tag "" -}}
       {{- $tagUrl := printf "%s%s" "tags/" ($tag | urlize) -}}
-      {{- $tagPath := (urls.Parse $tagUrl).Path -}}
-      {{- with site.GetPage $tagPath -}}
+      {{- $termPath := (urls.Parse $tagUrl).Path -}}
+      {{- with site.GetPage $termPath -}}
         {{- if ne $tag .Title -}}
           {{- if or (not (isset .Params "tag")) (ne .Params.tag $tag) -}}
             {{- errorf "Tag doesn't match .Title and no tag param set!" .RelPermalink -}}
           {{- end -}}
         {{- end -}}
       {{- else -}}
-        {{- warnf "[check.html] Can't find term page for %s (file %s) from %s"  $tag $tagPath $page.RelPermalink -}}
+        {{- $termPages := site.Pages -}}
+        {{- range site.Home.Translations -}}
+          {{- $termPages = $termPages | lang.Merge site.Pages -}}
+        {{- end -}}
+        {{- $termPages = where $termPages ".Kind" "eq" "term" -}}
+        {{- $alias := printf "/%s" $termPath -}}
+        {{- $termPages = where $termPages ".Aliases" "intersect" (slice $alias) -}}
+        {{- $termPage := index $termPages 0 -}}
+        {{- if ne $termPage nil -}}
+          {{- warnf "[check.html] Term page for %s (file %s) from %s is an alias" $tag $termPath $page.RelPermalink -}}
+        {{- else -}}
+          {{- errorf "[check.html] Can't find term page for %s (file %s) from %s"  $tag $termPath $page.RelPermalink -}}
+        {{- end -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
