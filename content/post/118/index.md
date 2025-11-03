@@ -13,6 +13,7 @@ tags:
   - "Material: Holz"
   - Hettlage
   - Mönchengladbach
+todo: speckles
 geojson:
   coordinates:
   - 6.44172

@@ -13,6 +13,7 @@ tags:
 - "Material: Holz"
 - Delmenhorst
 - Bekleidungsgeschäft
+todo: speckles
 geojson:
   coordinates:
   - 8.63091

@@ -13,6 +13,7 @@ tags:
 - "Material: Plastik"
 - Klappbar
 - Union
+- Reisekleiderbügel
 ---
 Union
 

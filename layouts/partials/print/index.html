@@ -1,0 +1,72 @@
+{{- $type := . -}}
+{{- $pages := site.Pages -}}
+{{- range site.Home.Translations -}}
+  {{- $pages = $pages | lang.Merge site.RegularPages -}}
+{{- end -}}
+{{- $terms := where $pages "Section" "in" "tags" -}}
+{{- if ne $type "all" -}}
+  {{- $terms = (where $terms "Params.type" "eq" $type).ByTitle -}}
+{{- end -}}
+
+<ul data-type="{{ $type }}" class="{{ printf "index %s" $type | safeHTMLAttr }}">
+  {{- range $terms -}}
+    {{- $title := .Title -}}
+    {{- if eq $title "" -}}
+      {{- $title := i18n "noTitle" -}}
+    {{- end -}}
+    {{- $termPages := slice -}}
+    {{- $indexPages := slice -}}
+    {{- $pages = where $pages "Params.type" "eq" "hanger" -}}
+    {{- if ne $type "all" -}}
+      {{- $defaultTitle := .Title -}}
+      {{- if (isset .Params "tag") -}}
+        {{- $defaultTitle = .Params.tag -}}
+      {{- end -}}
+      {{- $termPages = where $pages ".Params.tags" "intersect" (slice $defaultTitle) -}}
+      {{- range $termPages -}}
+        {{- if eq .Title "" -}}
+          {{- $indexPages = $indexPages | append (dict "title" (i18n "noTitle") "page" .) -}}
+        {{- else if findRE `(?m)^\w` .Title -}}
+          {{- $indexPages = $indexPages | append (dict "title" .Title "page" .) -}}
+        {{- else -}}
+          {{- $indexPages = $indexPages | append (dict "title" .Title "page" .) -}}
+          {{- $cleanTitle := replaceRE `(?m)^.*?(\w.*\w).*$` "$1" .Title -}}
+          {{- $indexPages = $indexPages | append (dict "title" $cleanTitle "page" .) -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $indexPages = sort $indexPages "title" "asc" -}}
+    {{- end -}}
+
+    {{- if and (ne $type "all") (gt (len $termPages) 0) -}}
+      <li class="index-entry">
+        <div class="title">{{ $title }}</div>
+        {{- with .Description -}}
+          <div class="description">{{ . }}</div>
+        {{- end -}}
+          <ul class="sub-index" data-sub-heading-title="{{ . }}">
+            {{- range $indexPages -}}
+              <li class="index-sub-entry" data-ref="{{ .page.RelPermalink }}">
+                {{- $link := printf "#_%s" (replace .page.RelPermalink "/" "-") -}}
+                <a href="{{ $link }}">
+                  <div class="title">{{ .title }}</div>
+                  {{- with .page.Description -}}
+                    <div class="description">{{ . }}</div>
+                  {{- end -}}
+                </a>
+              </li>
+            {{- end -}}
+          </ul>
+      </li>
+    {{- else if (eq $type "all") -}}
+      <li class="index-entry" data-ref="{{ .RelPermalink }}">
+        {{- $link := printf "#_%s" (replace .RelPermalink "/" "-") -}}
+        <a href="{{ $link }}">
+          <div class="title">{{ $title }}</div>
+          {{- with .Description -}}
+            <div class="description">{{ . }}</div>
+          {{- end -}}
+        </a>
+      <li>
+    {{- end -}}
+  {{- end -}}
+</ul>

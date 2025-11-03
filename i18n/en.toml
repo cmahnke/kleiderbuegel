@@ -193,3 +193,12 @@ other = "Index of sectors of origin"
 
 [featureIndex]
 other = "Index of special features"
+
+[purposeIndex]
+other = "Register of hangers for specialised purposes"
+
+[materialIndex]
+other = "Register of materials"
+
+[brandIndex]
+other = "Register of manufacturers"

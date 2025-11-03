@@ -113,3 +113,12 @@ other = "Register der Herkuftsbranchen"
 
 [featureIndex]
 other = "Register der Besonderheiten"
+
+[purposeIndex]
+other = "Register der Bügel mit spezialisiertem Eindsatzzweck"
+
+[materialIndex]
+other = "Register der Materialien"
+
+[brandIndex]
+other = "Register der Hersteller"
