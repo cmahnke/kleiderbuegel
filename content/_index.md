@@ -5,4 +5,5 @@ outputs:
   - html
   - rss
   - xml-export
+  - print
 ---

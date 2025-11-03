@@ -6,6 +6,7 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - Beidseitig
+- Overmeyer
 type: hanger
 iiif:
   behavior: individuals
@@ -26,7 +27,5 @@ geojson:
   - 51.3152471
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
-remarks: |
-  * [Overmeyer-Haus im Regiowiki der HNA](http://regiowiki.hna.de/Overmeyer-Haus)
 ---
 Overmeyer Kassel, am Königsplatz

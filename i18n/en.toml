@@ -168,6 +168,12 @@ other = "Clothing factory"
 [Klinik]
 other = "Clinic"
 
+[Reisekleiderb_gel]
+other = "Travel clothes hanger"
+
+[Kleiderb_rste]
+other = "Clothes brush"
+
 # Print related
 
 [noTitle]

@@ -4,77 +4,83 @@
   {{- $doubleSided := true -}}
 {{- end -}}
 {{- $relative := 1 -}}
+{{- $title := .Title -}}
 
 {{- $id := printf "_%s" (replace .RelPermalink "/" "-") -}}
 <article data-id="{{ .RelPermalink }}" id="{{ $id }}">
-  <h2 class="post-title">{{ .Title }}</h2>
-  <h3 class="heading-front">{{ i18n "front" }}</h3>
-  <div class="hanger-front">
-    {{- $front := .Resources.GetMatch "front*" -}}
-    {{- if eq $front nil -}}
-      {{- errorf "[page.html] Failed to load images for %s" .RelPermalink -}}
-    {{- end -}}
-    {{- with $front.Params.content -}}
-      <div class="back-content">
-        {{- $frontContent = . | markdownify -}}
-        {{- $frontContent -}}
+  <div class="page">
+    <h2 class="post-title">{{ .Title }}</h2>
+
+    {{- with .Resources.GetMatch "top*" -}}
+      <h3 class="heading-top">{{ i18n "top" }}</h3>
+      <div class="hanger-top">
+        <div class="full-height-image-container">
+          {{- with .Resize (printf "%dx%d r270 webp picture" .Height .Width) -}}
+            <img class="buegel-top hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ $title }}" />
+          {{- end }}
+        </div>
+        {{- with .Params.content -}}
+          <div class="top-content">
+            {{- . | markdownify -}}
+          </div>
+        {{- end }}
       </div>
     {{- end }}
-    <div class="full-height-image-container">
-      {{- if gt $front.Width $front.Height -}}
-        {{- with $front.Resize (printf "%dx%d r270 webp picture" $front.Height $front.Width) -}}
-          <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ .Title }}" />
-        {{- end }}
-      {{- else -}}
-        {{- with $front -}}
-          <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ .Title }}" />
-        {{- end }}
-      {{- end -}}
-    </div>
-  </div>
-  {{- $title := .Title -}}
 
-  {{- with .Resources.GetMatch "top*" -}}
-    <h3 class="heading-top">{{ i18n "top" }}</h3>
-    <div class="hanger-top">
-      <div class="full-height-image-container">
-        {{- with .Resize (printf "%dx%d r270 webp picture" .Height .Width) -}}
-          <img class="buegel-top hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ $title }}" />
-        {{- end }}
-      </div>
-      {{- with .Params.content -}}
-        <div class="top-content">
-          {{- . | markdownify -}}
+    <h3 class="heading-front">{{ i18n "front" }}</h3>
+    <div class="hanger-front">
+      {{- $front := .Resources.GetMatch "front*" -}}
+      {{- if eq $front nil -}}
+        {{- errorf "[page.html] Failed to load images for %s" .RelPermalink -}}
+      {{- end -}}
+      {{- with $front.Params.content -}}
+        <div class="back-content">
+          {{- $frontContent = . | markdownify -}}
+          {{- $frontContent -}}
         </div>
       {{- end }}
+      <div class="full-height-image-container">
+        {{- if gt $front.Width $front.Height -}}
+          {{- with $front.Resize (printf "%dx%d r270 webp picture" $front.Height $front.Width) -}}
+            <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ .Title }}" />
+          {{- end }}
+        {{- else -}}
+          {{- with $front -}}
+            <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ .Title }}" />
+          {{- end }}
+        {{- end -}}
+      </div>
     </div>
-  {{- end }}
+
+  </div>
 
   {{- with .Resources.GetMatch "back*" -}}
-    <h3 class="heading-back">{{ i18n "back" }}</h3>
-    <div class="hanger-back">
-      <div class="full-height-image-container">
-        {{- with .Resize (printf "%dx%d r270 webp picture" .Height .Width) -}}
-          <img class="buegel-back hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ $title }}" />
+    <div class="page">
+      <h3 class="heading-back">{{ i18n "back" }}</h3>
+      <div class="hanger-back">
+        <div class="full-height-image-container">
+          {{- with .Resize (printf "%dx%d r270 webp picture" .Height .Width) -}}
+            <img class="buegel-back hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ $title }}" />
+          {{- end }}
+        </div>
+        {{- with .Params.content -}}
+          <div class="back-content">
+            <p>
+              {{- . | markdownify -}}
+            </p>
+          </div>
         {{- end }}
       </div>
-      {{- with .Params.content -}}
-        <div class="back-content">
-          <p>
-            {{- . | markdownify -}}
-          </p>
-        </div>
-      {{- end }}
-    </div>
-  {{- else -}}
-    <div class="hanger-back">
-      <p>
-        {{- if (in $page.Params.tags "Beidseitig") -}}
-          {{- i18n "identical_back" -}}
-        {{- else -}}
-          {{- i18n "empty_back" -}}
-        {{- end -}}
-      </p>
+    {{- else -}}
+      <div class="hanger-back">
+        <p>
+          {{- if (in $page.Params.tags "Beidseitig") -}}
+            {{- i18n "identical_back" -}}
+          {{- else -}}
+            {{- i18n "empty_back" -}}
+          {{- end -}}
+        </p>
+      </div>
     </div>
   {{- end -}}
 
