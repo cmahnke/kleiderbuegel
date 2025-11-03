@@ -1,6 +1,7 @@
 ---
-title: Foldable
+title: Clothes brush
 params:
   type: feature
-  tag: Klappbar
+  tag: Kleiderbürste
+  wikidata: Q1746166
 ---

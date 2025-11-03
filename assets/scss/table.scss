@@ -3,3 +3,8 @@ table.all-hangers {
     min-width: 8rem;
   }
 }
+
+body.meta .main table.all-hangers img {
+  margin: unset;
+  max-width: unset;
+}

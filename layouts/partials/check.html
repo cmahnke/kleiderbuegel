@@ -6,32 +6,36 @@
     {{- $next := path.BaseName .NextInSection.File.Dir -}}
     {{- if and (findRE `(?m)^\d+$` $no) (findRE `(?m)^\d+$` $next) -}}
       {{- if ne (add (int $no) 1) (int $next) -}}
-        {{- warnf "Number and date might be wrong for %s (current %s, next %s)" $page.NextInSection.RelPermalink $no $next -}}
+        {{- warnf "[check.html] Number and date might be wrong for %s (current %s, next %s)" $page.NextInSection.RelPermalink $no $next -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
 
+  {{- if or (eq .Date "") (eq .Date nil) -}}
+    {{- errorf "[check.html] Date for %s not set!" .RelPermalink -}}
+  {{- end -}}
+
   {{- if and (eq .Title "") (eq .Description "") -}}
-    {{ warnf "No title nor description for post %s" .RelPermalink }}
+    {{ warnf "[check.html] No title nor description for post %s" .RelPermalink }}
   {{- end -}}
 
   {{- if and (eq .Title "") (ne .Description "") -}}
     {{- if eq (len .Translations) 0 -}}
-      {{ warnf "Description given but no translation for post %s" .RelPermalink }}
+      {{ warnf "[check.html] Description given but no translation for post %s" .RelPermalink }}
     {{- end -}}
   {{- end -}}
 
   {{ if not (isset .Params "type") }}
-    {{ errorf "No type for post" .RelPermalink }}
+    {{ errorf "[check.html] No type for post" .RelPermalink }}
   {{- end -}}
 
   {{- if and  (site.BuildDrafts) .Draft -}}
-    {{- warnf "Page is a draft %s" .RelPermalink -}}
+    {{- warnf "[check.html] Page is a draft %s" .RelPermalink -}}
   {{- end -}}
 
   {{- if ne .Params.type "text" -}}
     {{- if not (isset .Params "geojson") -}}
-      {{- warnf "GeoJson missing for %s" .RelPermalink -}}
+      {{- warnf "[check.html] GeoJson missing for %s" .RelPermalink -}}
     {{- end -}}
     {{ if isset .Params "tags" }}
       {{- $material := false -}}
@@ -41,14 +45,14 @@
         {{- end -}}
       {{ end }}
       {{- if not $material -}}
-        {{- errorf "Material missing for %s" .RelPermalink -}}
+        {{- errorf "[check.html] Material missing for %s" .RelPermalink -}}
       {{- end -}}
       {{- $defaultLang := (index .Site.Languages 0).Lang -}}
       {{- if ne $defaultLang .Language.Lang -}}
         {{- range $tag := .Params.tags -}}
           {{- $tagTranslation := i18n $tag -}}
           {{- if eq $tagTranslation "" -}}
-            {{- warnf "Missing Tag translation for %s" $tagTranslation -}}
+            {{- warnf "[check.html] Missing Tag translation for %s" $tagTranslation -}}
           {{- end -}}
         {{- end -}}
       {{- end -}}
@@ -66,24 +70,24 @@
   {{- end }}
 
   {{- if (strings.Contains .RawContent "[Auch Rückseite]") -}}
-    {{- errorf "Double sided tag detected in %s" .RelPermalink -}}
+    {{- errorf "[check.html] Double sided tag detected in %s" .RelPermalink -}}
   {{- end -}}
 
   {{- if eq (len .Translations) 0 -}}
     {{- if (isset .Params "remarks") -}}
-      {{- warnf "Remarks set, but no translation for post %s" .RelPermalink -}}
+      {{- warnf "[check.html] Remarks set, but no translation for post %s" .RelPermalink -}}
     {{- end -}}
   {{- end -}}
 
   {{- if or (strings.Contains .RawContent "<div") (strings.Contains .RawContent "<a") -}}
     {{- if (isset .Params "source") -}}
-      {{- errorf "Source set for %s, but HTML detected" .RelPermalink -}}
+      {{- errorf "[check.html] Source set for %s, but HTML detected" .RelPermalink -}}
     {{- else if (isset .Params "related") -}}
-      {{- errorf "Related set for %s, but HTML detected" .RelPermalink -}}
+      {{- errorf "[check.html] Related set for %s, but HTML detected" .RelPermalink -}}
     {{- else if (isset .Params "remarks") -}}
-      {{- errorf "Remarks set for %s, but HTML detected" .RelPermalink -}}
+      {{- errorf "[check.html] Remarks set for %s, but HTML detected" .RelPermalink -}}
     {{- else if (isset .Params "donation") -}}
-      {{- errorf "Donation set for %s, but HTML detected" .RelPermalink -}}
+      {{- errorf "[check.html] Donation set for %s, but HTML detected" .RelPermalink -}}
     {{- else -}}
       {{- errorf "Post contains HTML for %s" .RelPermalink -}}
     {{- end -}}
@@ -120,10 +124,10 @@
 
   {{- $page := . -}}
   {{- if (isset .Params "todo") -}}
-    {{- warnf "TODO for %s" .RelPermalink -}}
+    {{- warnf "[check.html] TODO for %s: %s" .RelPermalink .Params.todo -}}
   {{- end -}}
   {{- if (isset .Params "notes") -}}
-    {{- warnf "Notes for %s" .RelPermalink -}}
+    {{- warnf "[check.html] Notes for %s: %s" .RelPermalink .Params.notes -}}
   {{- end -}}
   {{- with .Params.related -}}
     {{- if not (strings.Contains . "#") -}}
