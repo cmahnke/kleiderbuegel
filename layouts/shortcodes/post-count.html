@@ -1,0 +1,24 @@
+{{- $section := .Get "section" -}}
+{{- $type := "" -}}
+{{- with (.Get "type") -}}
+  {{- $type = . -}}
+{{- end -}}
+
+
+{{- $pages := .Site.Pages -}}
+
+{{- if hugo.IsMultilingual -}}
+  {{- range .Site.Home.Translations -}}
+    {{- $pages = $pages | lang.Merge .Site.RegularPages -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $posts := slice -}}
+{{- if ne $type "" -}}
+  {{- $posts = (where (where $pages "Section" $section) "Params.type" $type).Reverse -}}
+{{- else -}}
+  {{- $posts = (where $pages "Section" $section) -}}
+{{- end -}}
+
+
+{{- len $posts -}}

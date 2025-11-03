@@ -29,21 +29,24 @@ Keywords with fewer than three entries are not displayed.
 ## Further statistics
 
 
-* All hangers: **{{< post-count section=post >}}**
+* All hangers: **{{< post-count section=post type=hanger >}}**
 * Materials
   * Made of wood: **{{< tags/tag-count "Material: Holz" true >}}**
   * Plastic: **{{< tags/tag-count "Material: Plastik" true >}}**
+  * Fabric: **{{< tags/tag-count "Material: Stoff" true >}}**
   * (Partially) metal: **{{< tags/tag-count "Material: Metall" true >}}**
   * (Partially) metal: **{{< tags/tag-count "Material: Stoff" true >}}**
 
-* Types
+* Types / Special features
   * Labeled on both sides **{{< tags/tag-count "Beidseitig" true >}}**
   * Trouser hangers: **{{< tags/tag-count "Hosenbügel" true >}}**
   * Skirt hangers: **{{< tags/tag-count "Rockbügel" true >}}**
   * Children's hangers: **{{< tags/tag-count "Kinderbügel" true >}}**
+  * Travel clothes hanger: **{{< tags/tag-count "Reisekleiderbügel" true >}}**
+  * Clothepins: **{{< tags/tag-count "Klammern" true >}}**
   * Adjustable: **{{< tags/tag-count "Verstellbar" true >}}**
   * Foldable: **{{< tags/tag-count "Klappbar" true >}}**
-  * Clothepins: **{{< tags/tag-count "Klammern" true >}}**
+  * Clothes brush **{{< tags/tag-count "Kleiderbürste" true >}}**
 
 * Specific manufacturers
   * Union: **{{< tags/tag-count "Union" true >}}**
@@ -79,6 +82,7 @@ Keywords with fewer than three entries are not displayed.
   * Erdmann: **{{< tags/tag-count "Erdmann" true >}}**
   * C. Louis Weber : **{{< tags/tag-count "C. Louis Weber " true >}}**
   * Flebbe: **{{< tags/tag-count "Flebbe" true >}}**
+  * Overmeyer: **{{< tags/tag-count "Overmeyer" true >}}**
 
 * Other classifications
   * Advertising: **{{< tags/tag-count "Werbung" true >}}**

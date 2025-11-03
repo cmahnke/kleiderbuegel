@@ -34,21 +34,24 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
 
 ## Weitere Statistiken
 
-* Alle Kleiderbügel: **{{< post-count section=post >}}**
+* Alle Kleiderbügel: **{{< post-count section=post type=hanger >}}**
 * Materialien
   * Aus Holz: **{{< tags/tag-count "Material: Holz" true >}}**
   * Aus Plastik: **{{< tags/tag-count "Material: Plastik" true >}}**
+  * Aus Stoff: **{{< tags/tag-count "Material: Stoff" true >}}**
   * (Teilweise) aus Metall: **{{< tags/tag-count "Material: Metall" true >}}**
   * (Teilweise) aus Metall: **{{< tags/tag-count "Material: Stoff" true >}}**
 
-* Typen
+* Typen / Besonderheiten
   * Beidseitig beschriftete **{{< tags/tag-count "Beidseitig" true >}}**
   * Hosenbügel: **{{< tags/tag-count "Hosenbügel" true >}}**
   * Rockbügel: **{{< tags/tag-count "Rockbügel" true >}}**
   * Kinderbügel: **{{< tags/tag-count "Kinderbügel" true >}}**
+  * Reisekleiderbügel: **{{< tags/tag-count "Reisekleiderbügel" true >}}**
+  * Mit Klammern: **{{< tags/tag-count "Klammern" true >}}**
   * Verstellbar: **{{< tags/tag-count "Verstellbar" true >}}**
   * Klappbar: **{{< tags/tag-count "Klappbar" true >}}**
-  * Mit Klammern: **{{< tags/tag-count "Klammern" true >}}**
+  * Kleiderbürste **{{< tags/tag-count "Kleiderbürste" true >}}**
 
 * Spezifische Hersteller
   * Union: **{{< tags/tag-count "Union" true >}}**
@@ -84,6 +87,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
   * Erdmann: **{{< tags/tag-count "Erdmann" true >}}**
   * C. Louis Weber : **{{< tags/tag-count "C. Louis Weber " true >}}**
   * Flebbe: **{{< tags/tag-count "Flebbe" true >}}**
+  * Overmeyer: **{{< tags/tag-count "Overmeyer" true >}}**
 
 * Weitere Klassifikationen
   * Werbung: **{{< tags/tag-count "Werbung" true >}}**
