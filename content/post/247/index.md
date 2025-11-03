@@ -13,6 +13,7 @@ tags:
 - "Material: Holz"
 - Hamburg
 - Bekleidungsgeschäft
+- Beidseitig
 geojson:
   coordinates:
   - 9.990705
