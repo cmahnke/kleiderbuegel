@@ -12,7 +12,7 @@ resources:
 - src: "back.png"
   params:
     iiif: back/info.json
-    content: Die gute  HAUX  Kleidung
+    content: C.F. HAUX HEIDENHEIM
 tags:
 - "Material: Holz"
 - Heidenheim
@@ -26,4 +26,4 @@ geojson:
 remarks: |
   * [Heidenheimer Zeitung: Wie Heidenheim das Shoppen lernte](https://www.pressreader.com/germany/heidenheimer-zeitung/20230225/282699051320500)
 ---
-C.F. HAUX HEIDENHEIM
+Die gute  HAUX  Kleidung

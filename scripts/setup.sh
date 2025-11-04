@@ -39,3 +39,8 @@ $DEPENDENCY_MANAGER install
 ./scripts/map.sh
 ./scripts/svgo.sh
 python ./scripts/create_masks.py "content/post/**/front.png" "content/post/**/top.png" "content/post/**/back.png"
+
+echo "Make sure './scripts/post-build/index.sh' is executed"
+if [ -d ./scripts/post-build ] ; then
+    echo "Don't forget to run post build scripts after 'hugo'!"
+fi

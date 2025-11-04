@@ -3,7 +3,7 @@
 {{- if (in $page.Params.tags "Beidseitig") -}}
   {{- $doubleSided := true -}}
 {{- end -}}
-{{- $relative := 1 -}}
+{{- $relative := 0 -}}
 {{- $title := .Title -}}
 
 {{- $id := printf "_%s" (replace .RelPermalink "/" "-") -}}

@@ -79,7 +79,11 @@ jobs:
 
       - name: Create export
         run: |
-          hugo -F --renderSegments export
+          hugo -F --renderSegments print
+
+      - name: Generate catalogue
+        run: |
+          docker run -v `pwd`:`pwd` -w `pwd` yeslogic/prince:latest --fileroot `pwd`/docs docs/print.html catalogue.pdf
 
       - name: Puppeteer
         run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh
