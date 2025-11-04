@@ -12,6 +12,10 @@ $body-font: 'Space Mono', serif;
   margin-bottom: 1cm;
   margin-left: 1cm;
 
+
+}
+
+@page :not(:first) {
   @Bottom-right {
     content: counter(pageNumber);
   }
@@ -44,7 +48,7 @@ article {
   }
 
   .full-height-image-container {
-    z-index: -10
+    z-index: -10;
     position: absolute;
     top: 0;
     left: 0;
