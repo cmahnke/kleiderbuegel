@@ -7,20 +7,27 @@
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Tue, 04 Nov 2025 08:57:17 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 20:41:26 +0100</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bekleidungsgeschäft</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</link>
-      <pubDate>Tue, 28 Oct 2025 12:47:44 +0200</pubDate>
+      <pubDate>Tue, 04 Nov 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/</guid>
       <description></description>
     </item>
     <item>
       <title>Material: Holz</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</link>
-      <pubDate>Tue, 28 Oct 2025 12:47:44 +0200</pubDate>
+      <pubDate>Tue, 04 Nov 2025 12:47:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Niebüll</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/nieb%C3%BCll/</link>
+      <pubDate>Tue, 04 Nov 2025 12:47:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/nieb%C3%BCll/</guid>
       <description></description>
     </item>
     <item>
@@ -175,13 +182,6 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/landeshut/</link>
       <pubDate>Sun, 29 Nov 2020 14:30:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/landeshut/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hosenbügel</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hosenb%C3%BCgel/</link>
-      <pubDate>Mon, 23 Nov 2020 14:29:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hosenb%C3%BCgel/</guid>
       <description></description>
     </item>
   </channel>

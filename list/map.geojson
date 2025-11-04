@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Arthur Johannsen",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Arthur Johannsen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eArthur\nJohannsen\u003c/p\u003e\n\u003cp\u003eHerren-Spezialgeschäft\nNiebüll Ruf 505\u003c/p\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/162/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.8246852,54.7881493]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Damen- u. Herrenmoden Wilh. Deppe Einbeck",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Damen- u. Herrenmoden Wilh. Deppe Einbeck\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Damen- u. Herrenmoden\nWilh. Deppe\nEinbeck\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/161/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
