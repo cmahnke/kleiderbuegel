@@ -38,9 +38,8 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
 * Materialien
   * Aus Holz: **{{< tags/tag-count "Material: Holz" true >}}**
   * Aus Plastik: **{{< tags/tag-count "Material: Plastik" true >}}**
-  * Aus Stoff: **{{< tags/tag-count "Material: Stoff" true >}}**
   * (Teilweise) aus Metall: **{{< tags/tag-count "Material: Metall" true >}}**
-  * (Teilweise) aus Metall: **{{< tags/tag-count "Material: Stoff" true >}}**
+  * Aus Stoff: **{{< tags/tag-count "Material: Stoff" true >}}**
 
 * Typen / Besonderheiten
   * Beidseitig beschriftete **{{< tags/tag-count "Beidseitig" true >}}**

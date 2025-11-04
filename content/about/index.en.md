@@ -33,9 +33,8 @@ Keywords with fewer than three entries are not displayed.
 * Materials
   * Made of wood: **{{< tags/tag-count "Material: Holz" true >}}**
   * Plastic: **{{< tags/tag-count "Material: Plastik" true >}}**
-  * Fabric: **{{< tags/tag-count "Material: Stoff" true >}}**
   * (Partially) metal: **{{< tags/tag-count "Material: Metall" true >}}**
-  * (Partially) metal: **{{< tags/tag-count "Material: Stoff" true >}}**
+  * Fabric: **{{< tags/tag-count "Material: Stoff" true >}}**
 
 * Types / Special features
   * Labeled on both sides **{{< tags/tag-count "Beidseitig" true >}}**
