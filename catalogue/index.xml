@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Katalog on Kleiderbügel</title>
+    <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/</link>
+    <description>Recent content in Katalog on Kleiderbügel</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <copyright>Kleiderbügel</copyright>
+    <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Titelseite</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/title/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/title/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vorwort</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/preface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/preface/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rückseite</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/back/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/back/</guid>
+      <description>&lt;img src=&#34;https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/qr_736bdb1db2e78a57.png&#34; width=&#34;164&#34; height=&#34;164&#34;&gt;</description>
+    </item>
+  </channel>
+</rss>
