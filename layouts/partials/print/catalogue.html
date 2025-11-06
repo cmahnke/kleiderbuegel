@@ -1,0 +1,62 @@
+{{- $printSection := where .Site.Pages "Section" "eq" "catalogue" -}}
+{{- $printSection = where $printSection ".Params.print" "eq" true -}}
+{{ warnf "--> %s"  $printSection }}
+<section class="front-matter">
+  {{- partial "print/print-pages.html" (dict "context" . "pages" $printSection "op" "lt" "weight" 10 ) -}}
+</section>
+
+{{/* Main Part */}}
+{{- $hangers := .Site.Pages -}}
+{{- range .Site.Home.Translations -}}
+  {{- $hangers = $hangers | lang.Merge .Site.RegularPages -}}
+{{- end -}}
+<section class="entries">
+  {{- range (where $hangers "Params.type" "eq" "hanger").ByDate -}}
+    {{- $title := .Params.title -}}
+    {{- partial "print/entry.html" . -}}
+  {{- end -}}
+</section>
+
+{{/* Indexes */}}
+<section class="indexes">
+  <h1 class="indexes"></h1>
+  {{- $types := slice "place" "store" "retail_chain" "type" "feature" "purpose" "brand" "material" -}}
+  {{- range $types -}}
+    <article class="index-container">
+      <h2 class="index-heading">{{ i18n (printf "%sIndex" .) }}</h2>
+      {{- partial "print/index.html" . -}}
+    </article>
+  {{- end -}}
+</section>
+
+<section class="back-matter">
+  {{- partial "print/print-pages.html" (dict "context" . "pages" $printSection "op" "gt" "weight" 100 ) -}}
+</section>
+
+{{ define "_partials/print/print-pages.html" }}
+  {{- $context := . -}}
+  {{- $pages := site.AllPages -}}
+  {{- $op := "lt" -}}
+  {{- $weight := 10000 -}}
+  {{- if reflect.IsMap . -}}
+    {{- $context = .context -}}
+    {{- if isset . "pages" -}}
+      {{- $pages = .pages -}}
+    {{- end -}}
+    {{- if isset . "op" -}}
+      {{- $op = .op -}}
+    {{- end -}}
+    {{- if isset . "weight" -}}
+      {{- $weight = .weight -}}
+    {{- end -}}
+  {{- else -}}
+    {{- errorf "[catalogue.html] print-page needs params as dict, not just context" .RelPermalink -}}
+  {{- end -}}
+
+  {{ $pages = where $pages ".Weight" $op $weight }}
+{{ warnf "--> %s %s %s %s"  $pages $op $weight $pages }}
+
+  {{- range $pages.ByWeight -}}
+    {{- partial "print/page.html" . -}}
+  {{- end -}}
+{{- end -}}

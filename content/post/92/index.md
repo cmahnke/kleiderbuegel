@@ -14,6 +14,7 @@ tags:
 - Bekleidungsgeschäft
 - Schönlanke
 - Trzcianka
+todo: speckles
 geojson:
   coordinates:
   - 16.45629

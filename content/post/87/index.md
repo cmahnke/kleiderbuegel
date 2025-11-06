@@ -13,6 +13,7 @@ tags:
 - "Material: Holz"
 - Bremerhaven
 - Bekleidungsgeschäft
+todo: speckles
 geojson:
   coordinates:
   - 8.5908051

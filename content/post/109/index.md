@@ -14,7 +14,6 @@ tags:
   - "Material: Holz"
   - Reinigung
   - Färberei
-todo: speckles
 geojson:
   coordinates:
   - 10.4739487

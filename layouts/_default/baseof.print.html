@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="{{ site.Author}}"/>
+    <meta name="subject" content="{{ site.Title }}"/>
     {{- $cssOptions := dict "outputStyle" "compressed" "transpiler" "dartsass" "targetPath" "css/print.css" "includePaths" (slice "assets/css") -}}
     {{- $css := resources.Get "scss/print.scss" | toCSS $cssOptions | fingerprint -}}
     {{ with resources.Get "js/print.js" }}

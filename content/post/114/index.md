@@ -14,7 +14,6 @@ geojson:
   - 8.5815016
   - 53.5549545
   precision: exact
-todo: speckles
 tags:
   - "Material: Holz"
   - Bremerhaven

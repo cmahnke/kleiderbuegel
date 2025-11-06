@@ -5,7 +5,6 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
-todo: speckles
 resources:
 - src: "front.png"
   params:

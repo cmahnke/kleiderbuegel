@@ -14,6 +14,7 @@ tags:
   - Bekleidungsgeschäft
   - "Material: Holz"
   - Ketelsen
+todo: speckles
 geojson:
   coordinates:
   - 8.5760938
