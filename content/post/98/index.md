@@ -12,6 +12,5 @@ resources:
 tags:
   - Staatliche Organisation
   - "Material: Holz"
-todo: speckles
 ---
 BUND

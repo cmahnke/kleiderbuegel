@@ -13,7 +13,6 @@ tags:
 - "Material: Holz"
 - Herford
 - Bekleidungsgeschäft
-todo: speckles
 geojson:
   coordinates:
   - 8.6684051

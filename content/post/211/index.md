@@ -9,6 +9,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+todo: shadow
 tags:
 - Gronau
 - "Material: Holz"

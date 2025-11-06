@@ -13,7 +13,6 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Steinheim
-todo: speckles
 geojson:
   coordinates:
   - 9.09136

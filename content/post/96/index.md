@@ -13,7 +13,6 @@ tags:
 - "Material: Holz"
 - Dorum
 - Bederkesa
-todo: speckles
 geojson:
   coordinates:
   - 8.5647551

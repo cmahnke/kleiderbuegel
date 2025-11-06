@@ -11,7 +11,6 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Holz"
-todo: speckles
 geojson:
   coordinates:
   - 7.5159238
