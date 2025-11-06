@@ -13,6 +13,7 @@ tags:
   - "Material: Holz"
   - Gaststätte
   - Winningen
+todo: speckles
 geojson:
   coordinates:
   - 7.5159238

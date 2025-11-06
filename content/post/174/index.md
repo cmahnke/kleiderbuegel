@@ -13,6 +13,7 @@ tags:
 - "Material: Holz"
 - München
 - Bekleidungsgeschäft
+todo: speckles
 geojson:
   coordinates:
   - 11.5720278

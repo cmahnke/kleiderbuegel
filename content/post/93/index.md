@@ -13,7 +13,6 @@ tags:
   - Bekleidungsgeschäft
   - Warburg
   - "Material: Holz"
-todo: speckles
 geojson:
   coordinates:
   - 9.14641

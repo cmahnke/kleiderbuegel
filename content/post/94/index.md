@@ -13,7 +13,6 @@ tags:
 - "Material: Holz"
 - Helmstedt
 - Reinigung
-todo: speckles
 geojson:
   coordinates:
   - 11.00985

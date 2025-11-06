@@ -13,7 +13,6 @@ tags:
   - Reinigung
   - Essen
   - "Material: Holz"
-todo: speckles
 geojson:
   coordinates:
   - 7.0225084

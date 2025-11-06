@@ -15,6 +15,7 @@ tags:
 - Reinigung
 - Beidseitig
 doublesided: true
+todo: speckles
 geojson:
   coordinates:
   - 9.73322

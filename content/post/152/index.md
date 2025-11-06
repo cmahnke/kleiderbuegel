@@ -14,6 +14,7 @@ tags:
   - "Material: Holz"
   - Witzenhausen
   - Beidseitig
+  - Repariert
 geojson:
   coordinates:
   - 9.88396

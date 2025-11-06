@@ -13,7 +13,6 @@ tags:
   - Uslar
   - Bekleidungsgeschäft
   - "Material: Holz"
-todo: speckles
 geojson:
   coordinates:
   - 9.6329863

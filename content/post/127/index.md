@@ -14,6 +14,7 @@ tags:
   - Cuxhaven
   - Bekleidungsgeschäft
   - "Möller & Schade"
+todo: speckles
 geojson:
   coordinates:
   - 8.690482

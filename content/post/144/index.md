@@ -14,6 +14,7 @@ tags:
 - Berlin
 - Schneiderei
 - Klammern
+todo: speckles
 geojson:
   coordinates:
   - 13.2864904

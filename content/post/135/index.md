@@ -11,6 +11,7 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Holz"
+todo: speckles
 related: |
   * [„Kleidung von Peters ist immer richtig“ (#51)](/post/51)
 ---

@@ -12,6 +12,7 @@ resources:
 tags:
 - "Material: Holz"
 - Heide
+todo: speckles
 geojson:
   coordinates:
   - 9.0902433

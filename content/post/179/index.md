@@ -13,6 +13,7 @@ tags:
 - "Material: Holz"
 - Freiburg
 - Bekleidungsgeschäft
+todo: speckles
 geojson:
   coordinates:
   - 7.8478761
