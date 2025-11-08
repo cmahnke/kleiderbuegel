@@ -7,7 +7,6 @@ outputs:
 - iiif-manifest
 iiif:
   behavior: individuals
-todo: speckles
 resources:
 - src: "front.png"
   params:

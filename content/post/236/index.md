@@ -13,6 +13,7 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Würzburg
+todo: shadows 
 geojson:
   coordinates:
   - 9.9271982

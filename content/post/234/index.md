@@ -13,7 +13,6 @@ tags:
 - "Material: Holz"
 - Sprottau
 doublesided: true
-todo: speckles
 geojson:
   coordinates:
   - 15.4807126

@@ -16,7 +16,6 @@ tags:
   - Rockbügel
   - Verstellbar
   - Klammern
-todo: speckles
 ---
 Union Rock-Jon
 D.B.Wz.

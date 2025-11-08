@@ -9,6 +9,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+todo: shadows
 tags:
   - "Material: Holz"
   - Höxter

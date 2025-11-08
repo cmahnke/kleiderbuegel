@@ -9,7 +9,6 @@ tags:
 - Göttingen
 - Reinigung
 - "Material: Holz"
-todo: speckles
 resources:
 - src: "front.png"
   params:
