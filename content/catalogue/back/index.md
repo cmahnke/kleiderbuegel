@@ -1,7 +1,7 @@
 ---
 title: Rückseite
 layout: print
-weight: 1000
+weight: 1001
 params:
   print: true
 ---

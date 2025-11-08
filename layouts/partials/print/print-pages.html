@@ -1,0 +1,23 @@
+{{- $context := . -}}
+{{- $pages := site.AllPages -}}
+{{- $op := "lt" -}}
+{{- $weight := 10000 -}}
+{{- if reflect.IsMap . -}}
+  {{- $context = .context -}}
+  {{- if isset . "pages" -}}
+    {{- $pages = .pages -}}
+  {{- end -}}
+  {{- if isset . "op" -}}
+    {{- $op = .op -}}
+  {{- end -}}
+  {{- if isset . "weight" -}}
+    {{- $weight = .weight -}}
+  {{- end -}}
+{{- else -}}
+  {{- errorf "[catalogue.html] print-page needs params as dict, not just context" .RelPermalink -}}
+{{- end -}}
+
+{{ $pages = where $pages ".Weight" $op $weight }}
+{{- range $pages.ByWeight -}}
+  {{- partial "print/page.html" . -}}
+{{- end -}}

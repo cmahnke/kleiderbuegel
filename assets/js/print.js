@@ -1,15 +1,3 @@
-//import previewr from "pagedjs/polyfill";
-import { Previewer } from "pagedjs";
+import {printHTML} from '@vivliostyle/print'
 
-
-addEventListener("DOMContentLoaded", (event) => {
-  let paged = new Previewer();
-  let url = window.location;
-  let params = new URLSearchParams(url.search);
-  if (params.has('print') || params.has('p')) {
-    paged.preview().then((flow) => {
-        console.log('Rendered', flow.total, 'pages.');
-    });
-  }
-
-})
+//printHTML(htmlDoc, config)

@@ -96,6 +96,12 @@ other = "Unbeschriftet"
 [indexes]
 other = "Indizes"
 
+[back-matter]
+other = "Rückseite"
+
+[entries]
+other = "Katalog"
+
 [allIndex]
 other = "Alle Einträge"
 

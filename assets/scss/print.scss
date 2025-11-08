@@ -8,7 +8,7 @@ $body-font: 'Space Mono', serif;
   size: 210mm 210mm !important;
   margin-top: 1cm;
   margin-bottom: 1cm;
-  marks: crop cross;
+  /* marks: crop cross; */
 }
 
 @page :left {
@@ -48,6 +48,17 @@ article {
     height: 100vh;
     break-after: page;
     position: relative;
+  }
+
+  .singe-page {
+
+    .post-title {
+      bookmark-level: 1;
+      -prince-bookmark-level: 1;
+      bookmark-label: attr(data-title);
+      -prince-bookmark-label: attr(data-title);
+    }
+
   }
 
   .post-title {
@@ -93,67 +104,72 @@ h1, h2, h3 {
   font-weight: 200;
 }
 
-.indexes {
-  font-size: 10pt;
+section {
+  &.indexes {
+    bookmark-level: 1;
+    -prince-bookmark-level: 1;
+    bookmark-label: attr(data-section-title);
+    -prince-bookmark-label: attr(data-section-title);
 
-  .index-heading {
-    font-size: 22pt;
-  }
-
-  .index-container {
     .index-heading {
-      bookmark-level: 2;
-      -prince-bookmark-level: 2;
-      bookmark-label: content(text);
-      -prince-bookmark-label: content(text);
+      font-size: 22pt;
+    }
+
+    .index-container {
+      .index-heading {
+        bookmark-level: 2;
+        -prince-bookmark-level: 2;
+        bookmark-label: content(text);
+        -prince-bookmark-label: content(text);
+      }
+
+      .sub-index {
+        bookmark-level: 3;
+        -prince-bookmark-level: 3;
+        bookmark-label: attr(data-sub-heading-title);
+        -prince-bookmark-label: attr(data-sub-heading-title);
+      }
+
+    }
+
+    .index {
+      columns: 2;
+      gap: 5%;
+
+      &:not(.material) > li {
+        break-inside: avoid-column;
+      }
+    }
+
+    .description {
+      font-style: italic;
     }
 
     .sub-index {
-      bookmark-level: 3;
-      -prince-bookmark-level: 3;
-      bookmark-label: attr(data-sub-heading-title);
-      -prince-bookmark-label: attr(data-sub-heading-title);
+      /*
+      padding-inline-start: 14pt;
+      */
+      padding-left: 14pt;
     }
 
-  }
-
-  .index {
-    columns: 2;
-    gap: 5%;
-
-    &:not(.material) > li {
-      break-inside: avoid-column;
+    .index-entry > .title {
+      margin-top: 6pt;
     }
-  }
 
-  .description {
-    font-style: italic;
-  }
+    a {
+      /* display: inline-block; */
 
-  .sub-index {
-    /*
-    padding-inline-start: 14pt;
-    */
-    padding-left: 14pt;
-  }
-
-  .index-entry > .title {
-    margin-top: 6pt;
-  }
-
-  a {
-    /* display: inline-block; */
-
-    &:after {
-      content: leader(dotted) target-counter(attr(href), pageNumber);
+      &:after {
+        content: leader(dotted) target-counter(attr(href), pageNumber);
+      }
     }
-  }
 
-  a,
-  a:hover,
-  a:visited {
-    display: inline;
-    text-decoration: none;
-    color: black;
+    a,
+    a:hover,
+    a:visited {
+      display: inline;
+      text-decoration: none;
+      color: black;
+    }
   }
 }

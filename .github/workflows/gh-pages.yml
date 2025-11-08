@@ -84,7 +84,7 @@ jobs:
       - name: Generate catalogue
         run: |
           docker run -v `pwd`:`pwd` -w `pwd` yeslogic/prince:latest --fileroot `pwd`/docs docs/print.html -o catalogue.pdf
-          gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dPDFSETTINGS=/ebook -dFastWebView -dUseCropBox -dNOPAUSE -dQUIET -dBATCH -sOutputFile=docs/catalogue.pdf catalogue.pdf
+          gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dPDFSETTINGS=/ebook -dFastWebView -dUseCropBox -dNOPAUSE -dBATCH -sOutputFile=docs/catalogue.pdf catalogue.pdf
 
       - name: Puppeteer
         run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh

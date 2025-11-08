@@ -102,7 +102,6 @@ function initSlider(elem, size) {
     },
   });
   swiper.init();
-  //swiper.slideTo(0, 0)
 }
 
 function initHome(elem) {
@@ -111,11 +110,6 @@ function initHome(elem) {
   if (window.screen.width <= 740) {
     size = defaultSize / 2
   }
-
-  document.querySelectorAll('.swiper-slide img.buegel').forEach((im) => {
-    im.style.width = `${size}px`;
-  });
-
   initSlider(elem, size)
 }
 

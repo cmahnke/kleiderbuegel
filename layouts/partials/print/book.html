@@ -1,6 +1,6 @@
 {{- $printSection := where .Site.Pages "Section" "eq" "catalogue" -}}
 {{- $printSection = where $printSection ".Params.print" "eq" true -}}
-{{ warnf "--> %s"  $printSection }}
+
 <section class="front-matter">
   {{- partial "print/print-pages.html" (dict "context" . "pages" $printSection "op" "lt" "weight" 10 ) -}}
 </section>
@@ -10,7 +10,7 @@
 {{- range .Site.Home.Translations -}}
   {{- $hangers = $hangers | lang.Merge .Site.RegularPages -}}
 {{- end -}}
-<section class="entries">
+<section class="entries" data-section-title="{{ i18n "entries" }}">
   {{- range (where $hangers "Params.type" "eq" "hanger").ByDate -}}
     {{- $title := .Params.title -}}
     {{- partial "print/entry.html" . -}}
@@ -18,7 +18,7 @@
 </section>
 
 {{/* Indexes */}}
-<section class="indexes">
+<section class="indexes" data-section-title="{{ i18n "indexes" }}">
   <h1 class="indexes"></h1>
   {{- $types := slice "place" "store" "retail_chain" "type" "feature" "purpose" "brand" "material" -}}
   {{- range $types -}}
@@ -29,34 +29,6 @@
   {{- end -}}
 </section>
 
-<section class="back-matter">
+<section class="back-matter" data-section-title="{{ i18n "back-matter" }}">
   {{- partial "print/print-pages.html" (dict "context" . "pages" $printSection "op" "gt" "weight" 100 ) -}}
 </section>
-
-{{ define "_partials/print/print-pages.html" }}
-  {{- $context := . -}}
-  {{- $pages := site.AllPages -}}
-  {{- $op := "lt" -}}
-  {{- $weight := 10000 -}}
-  {{- if reflect.IsMap . -}}
-    {{- $context = .context -}}
-    {{- if isset . "pages" -}}
-      {{- $pages = .pages -}}
-    {{- end -}}
-    {{- if isset . "op" -}}
-      {{- $op = .op -}}
-    {{- end -}}
-    {{- if isset . "weight" -}}
-      {{- $weight = .weight -}}
-    {{- end -}}
-  {{- else -}}
-    {{- errorf "[catalogue.html] print-page needs params as dict, not just context" .RelPermalink -}}
-  {{- end -}}
-
-  {{ $pages = where $pages ".Weight" $op $weight }}
-{{ warnf "--> %s %s %s %s"  $pages $op $weight $pages }}
-
-  {{- range $pages.ByWeight -}}
-    {{- partial "print/page.html" . -}}
-  {{- end -}}
-{{- end -}}
