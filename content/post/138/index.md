@@ -11,7 +11,6 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
-todo: speckles
 ---
 SEIT 1924
 VOGEL KLEIDUNG

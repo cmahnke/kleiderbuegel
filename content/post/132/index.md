@@ -13,7 +13,6 @@ tags:
   - "Material: Holz"
   - Northeim
   - Bekleidungsgeschäft
-todo: speckles
 geojson:
   coordinates:
   - 9.99997

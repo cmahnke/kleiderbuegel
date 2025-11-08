@@ -14,7 +14,6 @@ tags:
 - Reinigung
 - Hannover
 - Färberei
-todo: speckles
 geojson:
   coordinates:
   - 9.73322
