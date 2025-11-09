@@ -17,6 +17,8 @@ geojson:
   - 9.7331229
   - 52.3727407
   precision: exact
+related:
+  - 115
 ---
 Mäntelhaus
 40 Kaiser 40

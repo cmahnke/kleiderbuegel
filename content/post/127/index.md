@@ -19,6 +19,9 @@ geojson:
   - 8.690482
   - 53.8589238
   precision: street
+related:
+  - 216
+  - 226
 ---
 Möller & Schade
 Das Haus der guten Kleidung

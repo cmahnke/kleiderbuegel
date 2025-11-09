@@ -29,6 +29,8 @@ geojson:
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 remarks: |
   * [Eintrag bei North Data](https://www.northdata.de/Julius+Testorp+Die+W%C3%A4scherei+der+Hausfrau+chemische+Reinigung,+Hamburg/HRA+40454)
+related:
+  - 177
 ---
 
 Wäschepflege TESTORP Ruf 221244

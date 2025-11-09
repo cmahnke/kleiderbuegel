@@ -13,6 +13,8 @@ tags:
 - "Material: Holz"
 - "Material: Metall"
 - Klappbar
+related:
+  - 225
 ---
 
 Ideal

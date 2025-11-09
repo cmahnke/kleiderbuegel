@@ -19,5 +19,7 @@ geojson:
   - 9.93228
   - 51.53443
   precision: city
+related:
+  - 160
 ---
 Wäscherei MEYER Göttingen Ruf 58398

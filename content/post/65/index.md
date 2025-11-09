@@ -20,6 +20,9 @@ geojson:
   - 52.3760738
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+related:
+  - 214
+  - 215
 ---
 
 C. Louis Weber Hannover

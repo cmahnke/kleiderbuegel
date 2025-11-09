@@ -21,6 +21,7 @@ geojson:
   precision: exact
 related:
   - 121
+  - 188
 ---
 
 Erdmann Kleidung

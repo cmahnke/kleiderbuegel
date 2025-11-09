@@ -7,4 +7,10 @@
 {{- $hangers = where $hangers "Params.type" "eq" "hanger" -}}
 {{- $hangers = where $hangers ".Path" "eq" $path -}}
 {{- $page = index $hangers 0 -}}
+{{/* This fallback isn't needed since emty results are relaetd for posts in the future 
+{{- if or (eq $page nil) (eq $page false) -}}
+  {{- warnf "[content/hanger.html] Couldn't load %s try site.GetPage fallback" $page -}}
+  {{- $page site.GetPage $path -}}
+{{- end -}}
+*/}}
 {{- return $page -}}

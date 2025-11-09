@@ -24,6 +24,8 @@ geojson:
   - 9.9331461
   - 51.5320512
   precision: exact
-soure: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+related:
+  - 172
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 Karstadt Göttingen

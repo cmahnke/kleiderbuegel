@@ -21,6 +21,7 @@ geojson:
   precision: street
 related:
   - 127
+  - 226
 ---
 Möller & Schade
 Das Haus der guten Bekleidung

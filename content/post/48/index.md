@@ -21,5 +21,7 @@ geojson:
   - 53.5519379
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+related:
+  - 218
 ---
 Franz Fahning Hamburg Neuerwall

@@ -19,6 +19,8 @@ geojson:
   - 9.7344751
   - 52.3739932
   precision: exact
+related:
+  - 188
 ---
 Erdmann
 Kleidung
