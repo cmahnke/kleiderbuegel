@@ -23,5 +23,5 @@ cascade:
       sitemap:
         disable: true
       build:
-        publishResources: false
+        publishResources: true
 ---

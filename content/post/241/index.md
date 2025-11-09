@@ -14,7 +14,6 @@ tags:
 - Möbelhaus
 - "Material: Holz"
 address: "Neufelder Weg; Ort: 27619 Schiffdorf;"
-todo: shadows
 geojson:
   coordinates:
   - 8.6314399

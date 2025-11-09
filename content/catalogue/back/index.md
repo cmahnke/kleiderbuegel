@@ -9,10 +9,9 @@ params:
 {{< qr scale=10 text="http://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"  />}}
 
 
-{{< figure
+{{< print-image
   src="CC_BY-NC-SA.svg"
   alt="Attribution-NonCommercial-ShareAlike 4.0 International"
-  link="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"
-  target="_blank"
   class="cc"
->}}
+  target="_blank"
+  link="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/" >}}

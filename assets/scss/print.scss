@@ -24,15 +24,13 @@ $body-font: 'Space Mono', serif;
     vertical-align: bottom;
   }
 
-  article.entry .page {
-    .text {
-      order: 2;
-      text-align: right;
-    }
+  article.entry .page .text {
+    order: 2;
+    text-align: right;
+  }
 
-    .image {
-      order: 1;
-    }
+  article.entry .page .image {
+    order: 1;
   }
 }
 
@@ -45,15 +43,13 @@ $body-font: 'Space Mono', serif;
     vertical-align: bottom;
   }
 
-  article.entry .page {
-    .text {
-      order: 1;
-      text-align: left;
-    }
+  article.entry .page .text {
+    order: 1;
+    text-align: left;
+  }
 
-    .image {
-      order: 2;
-    }
+  article.entry .page .image {
+    order: 2;
   }
 }
 
@@ -270,7 +266,7 @@ section {
     .bg {
       list-style-type: none;
       font-family: $heading-font;
-      padding-inline-start: unset;
+      padding-left: unset;
       margin: unset;
       display: flex;
     }

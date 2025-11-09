@@ -164,42 +164,49 @@ timeout = 120
   defaultMarkdownHandler = 'goldmark'
 
 [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe= true
+  [markup.goldmark.renderer]
+    unsafe= true
 
-    [markup.goldmark.extensions]
-      #typographer = true
-      attribute = true
-      strikethrough = true
+  [markup.goldmark.extensions]
+    #typographer = true
+    attribute = true
+    strikethrough = true
 
   [markup.goldmark.extensions.typographer]
-      apostrophe = '&rsquo;'
-      disable = false
-      ellipsis = '&hellip;'
-      emDash = '&mdash;'
-      enDash = '&ndash;'
-      leftAngleQuote = '&laquo;'
-      leftDoubleQuote = '&ldquo;'
-      leftSingleQuote = '&lsquo;'
-      rightAngleQuote = '&raquo;'
-      rightDoubleQuote = '&rdquo;'
-      rightSingleQuote = '&rsquo;'
+    apostrophe = '&rsquo;'
+    disable = false
+    ellipsis = '&hellip;'
+    emDash = '&mdash;'
+    enDash = '&ndash;'
+    leftAngleQuote = '&laquo;'
+    leftDoubleQuote = '&ldquo;'
+    leftSingleQuote = '&lsquo;'
+    rightAngleQuote = '&raquo;'
+    rightDoubleQuote = '&rdquo;'
+    rightSingleQuote = '&rsquo;'
 
   [markup.goldmark.extensions.extras]
-      [markup.goldmark.extensions.extras.insert]
-          enable = true
-      [markup.goldmark.extensions.extras.mark]
-          enable = true
-      [markup.goldmark.extensions.extras.subscript]
-          enable = true
-      [markup.goldmark.extensions.extras.superscript]
-          enable = true
+    [markup.goldmark.extensions.extras.insert]
+        enable = true
+    [markup.goldmark.extensions.extras.mark]
+        enable = true
+    [markup.goldmark.extensions.extras.subscript]
+        enable = true
+    [markup.goldmark.extensions.extras.superscript]
+        enable = true
 
   [markup.goldmark.parser]
+    wrapStandAloneImageWithinParagraph = false
+
     [markup.goldmark.parser.attribute]
       block = true
       title = true
       list = true
+      image = true
+
+#  [markup.goldmark.renderHooks]
+#    [markup.goldmark.renderHooks.image]
+#      useEmbedded = 'never'
 
 [segments]
   [segments.print]

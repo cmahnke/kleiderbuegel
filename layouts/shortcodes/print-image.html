@@ -1,0 +1,5 @@
+{{/* {{ with .Get "target" }}alt="{{ . }}"{{ end }} */}}
+{{- with .Get "link" }}<a href="{{ . }}" >{{ end }}
+  {{- $src := path.Join .Page.Path (.Get "src") -}}
+  <img {{ with .Get "class" }}class="{{ . }}"{{ end }} {{ with .Get "alt" }}alt="{{ . }}"{{ end }} src="{{ $src }}">
+{{ if .Get "link" }}</a>{{ end -}}

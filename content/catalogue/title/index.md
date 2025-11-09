@@ -10,12 +10,11 @@ params:
 {.title-heading}
 
 
-{{< figure
+{{< print-image
   src="hanger.svg"
   alt="Schatten eines Drahtkleiderbügels"
-  link="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"
   class="title-logo"
->}}
+  link="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/" >}}
 
 * Q815240
 * 300239360
