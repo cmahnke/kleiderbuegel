@@ -1,0 +1,22 @@
+{{- $page := . -}}
+{{- with .Params.related -}}
+  <ul class="related-list">
+    {{- range . -}}
+      {{/* TODO: this is jus a stupid trick to get the page */}}
+      {{- $relatedPath := printf "/post/%s" (string .) -}}
+      {{- $nr := string . -}}
+      {{/* {{- with site.GetPage $relatedPath -}} */}}
+      {{- with partial "content/hanger.html" $relatedPath -}}
+        {{- $title := .Title -}}
+        {{- if eq $title "" -}}
+          {{- $title := .Description -}}
+        {{- end -}}
+        <li class="related-list-item">
+          <a href="{{ .RelPermalink }}" title="{{ $title | htmlEscape }}">{{ $title }} (#{{ $nr }})</a>
+        </li>
+      {{- else -}}
+        {{- errorf "[page-content.html] Unable to get related %s for %s" $relatedPath $page.RelPermalink -}}
+      {{- end -}}
+    {{- end -}}
+  </ul>
+{{- end -}}

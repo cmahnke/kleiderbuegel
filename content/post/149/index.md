@@ -19,8 +19,8 @@ geojson:
   - 9.7344751
   - 52.3739932
   precision: exact
-related: |
-  * [Erdmann Kleidung (#121)](/post/121)
+related:
+  - 121
 ---
 
 Erdmann Kleidung

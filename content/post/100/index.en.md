@@ -14,6 +14,6 @@ tags:
   - "Material: Plastik"
 remarks: |
   * Sticker: Design Danielo Silverstein
-related: |
-  * [Red variant (#124)](/post/124)
+related:
+  - 124
 ---

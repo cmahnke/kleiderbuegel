@@ -130,8 +130,11 @@
     {{- warnf "[check.html] Notes for %s: %s" .RelPermalink .Params.notes -}}
   {{- end -}}
   {{- with .Params.related -}}
-    {{- if not (strings.Contains . "#") -}}
-      {{- errorf "Related dosn't contain # in %s" $page.RelPermalink -}}
+    {{- if not (reflect.IsSlice .) -}}
+      {{- errorf "[check.html] Old style relation in %s detected!" $page.RelPermalink -}}
+      {{- if not (strings.Contains . "#") -}}
+        {{- errorf "Related dosn't contain # in %s" $page.RelPermalink -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}

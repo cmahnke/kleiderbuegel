@@ -60,7 +60,15 @@
             {{- end }}
           </td>
           <td>
-            {{ .Params.related | markdownify }}
+            {{- if not (reflect.IsSlice .Params.related) -}}
+              {{ .Params.related | markdownify }}
+            {{- else -}}
+              <ul>
+                {{- range .Params.related -}}
+                  <li>{{ . }}</li>
+                {{- end -}}
+              </ul>
+            {{- end -}}
           </td>
           <td>
             {{ .Params.remarks | markdownify }}

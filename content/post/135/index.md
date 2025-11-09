@@ -11,7 +11,7 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Holz"
-related: |
-  * [„Kleidung von Peters ist immer richtig“ (#51)](/post/51)
+related:
+  - 51
 ---
 Peters Masskonfektion

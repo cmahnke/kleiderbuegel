@@ -19,9 +19,9 @@ geojson:
   - 8.690482
   - 53.8589238
   precision: street
-related: |
-  * [Möller & Schade (#127)](/post/127)
-  * [Möller & Schade (#216)](/post/216)
+related:
+  - 127
+  - 216
 ---
 Möller & Schade
 Cuxhaven

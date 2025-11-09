@@ -1,0 +1,12 @@
+{{- $path := . -}}
+{{- $page := false -}}
+{{- $hangers := site.Pages -}}
+{{- range site.Home.Translations -}}
+  {{- $hangers = $hangers | lang.Merge .Site.RegularPages -}}
+{{- end -}}
+{{- range where $hangers "Params.type" "eq" "hanger" -}}
+  {{- if eq .Path $path -}}
+    {{- $page = . -}}
+  {{- end -}}
+{{- end -}}
+{{- return $page -}}

@@ -899,3 +899,7 @@ p.small {
     padding: 0 1rem;
   }
 }
+
+.popup-container.active .content {
+  position: relative;
+}

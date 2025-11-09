@@ -19,7 +19,7 @@ geojson:
   - 9.7311875
   - 52.3760738
   precision: exact
-related: |
-  * [C. Louis Weber (#65)](/post/65)
+related:
+  - 65
 ---
 Bekleidung C. Louis Weber Hannover Pelze

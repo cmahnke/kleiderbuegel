@@ -14,6 +14,7 @@ tags:
 - Hamburg
 - Bekleidungsgeschäft
 - Beidseitig
+doubleSided: true
 geojson:
   coordinates:
   - 9.990705

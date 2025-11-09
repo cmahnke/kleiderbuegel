@@ -20,7 +20,7 @@ geojson:
   - 9.9896316
   - 53.5519379
   precision: exact
-related: |
-  * [Franz Fahning Hamburg Neuerwall (#48)](/post/48)
+related:
+  - 48
 ---
 fahning

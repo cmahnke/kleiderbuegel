@@ -13,7 +13,7 @@ tags:
 - "Material: Holz"
 - Reinigung
 - Testorp
-related: |
-  * [Kleiderbügel von Testorp (#67)](/post/67)
+related:
+  - 67
 ---
 Teppich-Reinigung qm DM 4,50 • TESTORP • Ruf 611661

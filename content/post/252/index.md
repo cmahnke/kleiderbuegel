@@ -6,6 +6,7 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
+doubleSided: true
 resources:
 - src: "front.png"
   params:

@@ -20,9 +20,9 @@ geojson:
   - 9.7311875
   - 52.3760738
   precision: exact
-related: |
-  * [C. Louis Weber (#65)](/post/65)
-  * [C. Louis Weber (#214)](/post/214)
+related:
+  - 65
+  - 214
 ---
 Über 100 Jahre
 C. Louis Weber

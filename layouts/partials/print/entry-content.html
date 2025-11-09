@@ -26,13 +26,9 @@
   {{- end -}}
 
   {{- with .Params.related -}}
-    {{- $additional = printf "%s%s%s%s" $additional `<div class="related"><div class="additional-header">` (i18n "related") `:</div>` -}}
-    {{- if reflect.IsSlice . -}}
-      {{- $additional = printf "%s%s" $additional (partial "content/related.html" $page) -}}
-    {{- else -}}
-      {{- $additional = printf "%s%s" $additional ( . | markdownify)  -}}
+    {{- if not (reflect.IsSlice .) -}}
+      {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="related"><div class="additional-header">` (i18n "related") `:</div>` ( . | markdownify) `</div>` -}}
     {{- end -}}
-    {{- $additional = printf "%s%s" $additional  `</div>` -}}
   {{- end -}}
   {{- with .Params.source -}}
     {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="source"><div class="additional-header">` (i18n "source" ) `:</div>` ( . | markdownify) `</div>` -}}

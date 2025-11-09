@@ -21,8 +21,8 @@ geojson:
   - 10.5228263
   - 52.2624323
   precision: exact
-related: |
-  * [flebbe (#143)](/post/143)
+related:
+  - 143
 ---
 
 Herrenkleidung

@@ -14,22 +14,35 @@ $body-font: 'Space Mono', serif;
 @page :left {
   margin-left: 1cm;
   margin-right: 2cm;
+
+  article.entry .page {
+    .text {
+      order: 2;
+      text-align: right;
+    }
+
+    .image {
+      order: 1;
+    }
+  }
 }
 
 @page :right {
   margin-left: 2cm;
   margin-right: 1cm;
-}
 
+  article.entry .page {
+    .text {
+      order: 1;
+      text-align: left;
+    }
 
-
-/*
-@page :not(:first) {
-  @Bottom-right {
-    content: counter(pageNumber);
+    .image {
+      order: 2;
+    }
   }
 }
-*/
+
 
 body {
   font-family: $body-font;
@@ -37,20 +50,48 @@ body {
 }
 
 article {
-  .singe-page {
-    counter-increment: pageNumber;
-    break-after: page;
-  }
 
-  .entry {
+  &.entry {
     counter-increment: pageNumber;
     page-break-after: always;
-    height: 100vh;
     break-after: page;
     position: relative;
+    font-size: 9pt;
+
+    .heading-top,
+    .heading-front,
+    .heading-back {
+
+    }
+
+    a,
+    a:hover,
+    a:visited {
+      display: inline;
+      text-decoration: none;
+      color: black;
+    }
+
+    .page {
+      display: flex;
+      flex-direction: row;
+
+      .text {
+        display: flex;
+        width: 38.2%;
+        flex-direction: column;
+      }
+
+      .image {
+         width: 61.8%;
+         height: 100vh;
+      }
+    }
   }
 
-  .singe-page {
+  &.singe-page {
+    counter-increment: pageNumber;
+    break-after: page;
 
     .post-title {
       bookmark-level: 1;
@@ -66,22 +107,19 @@ article {
     -prince-bookmark-level: 2;
     bookmark-label: content(text);
     -prince-bookmark-label: content(text);
-    text-align: right;
   }
 
-  .heading-top,
-  .heading-front,
-  .heading-back {
-    text-align: right;
-  }
+
 
   .full-height-image-container {
     z-index: -10;
+    /*
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    */
 
     .hanger-img {
       height: 100%;
@@ -102,6 +140,12 @@ section {
 h1, h2, h3 {
   font-family: $heading-font;
   font-weight: 200;
+  margin-top: unset;
+  margin-bottom: unset;
+}
+
+.page {
+  height: 100vh;
 }
 
 section {
@@ -110,6 +154,7 @@ section {
     -prince-bookmark-level: 1;
     bookmark-label: attr(data-section-title);
     -prince-bookmark-label: attr(data-section-title);
+    font-size: 8pt;
 
     .index-heading {
       font-size: 22pt;
@@ -146,9 +191,6 @@ section {
     }
 
     .sub-index {
-      /*
-      padding-inline-start: 14pt;
-      */
       padding-left: 14pt;
     }
 
@@ -157,19 +199,16 @@ section {
     }
 
     a {
-      /* display: inline-block; */
+      text-decoration: none;
+      color: black;
 
       &:after {
         content: leader(dotted) target-counter(attr(href), pageNumber);
       }
     }
 
-    a,
-    a:hover,
-    a:visited {
-      display: inline;
-      text-decoration: none;
-      color: black;
+    ul {
+      list-style-type: none;
     }
   }
 }

@@ -12,7 +12,7 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Plastik"
-related: |
-  * [Orange Variante (#81)](/post/81)
-  * [Braune Variante (#168)](/post/168)
+related:
+  - 81
+  - 168
 ---
