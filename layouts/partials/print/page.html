@@ -1,3 +1,4 @@
-<article class="singe-page" data-title="{{ .Title }}">
+{{- $slug := path.BaseName .Path -}}
+<article class="singe-page {{ $slug }}" data-title="{{ .Title }}">
   {{- .Content -}}
-<article>
+</article>

@@ -245,3 +245,67 @@ section {
     }
   }
 }
+
+.footnote.link {
+  display: block;
+
+  .link-url
+  .link-title {
+    display: block;
+  }
+
+}
+
+
+.singe-page {
+  &.title {
+    .title-heading {
+      transform: rotate(90deg);
+    }
+
+    .title-logo {
+      transform: rotate(90deg);
+    }
+
+    .bg {
+      list-style-type: none;
+      font-family: $heading-font;
+      padding-inline-start: unset;
+      margin: unset;
+      display: flex;
+    }
+  }
+
+  &.preface {
+
+  }
+
+  &.map {
+
+  }
+
+  &.acknowledgements {
+
+  }
+
+  &.colophon {
+
+  }
+
+  &.back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img {
+      min-width: 5cm;
+    }
+
+    .cc {
+      max-width: 20%;
+    }
+
+  }
+
+}
