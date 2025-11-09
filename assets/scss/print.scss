@@ -11,9 +11,18 @@ $body-font: 'Space Mono', serif;
   /* marks: crop cross; */
 }
 
-@page :left {
+@page entry {
+
+}
+
+@page entry:left {
   margin-left: 1cm;
-  margin-right: 2cm;
+  margin-right: 1.5cm;
+
+  @bottom-left {
+    content: counter(page);
+    vertical-align: bottom;
+  }
 
   article.entry .page {
     .text {
@@ -27,9 +36,14 @@ $body-font: 'Space Mono', serif;
   }
 }
 
-@page :right {
-  margin-left: 2cm;
+@page entry:right {
+  margin-left: 1.5cm;
   margin-right: 1cm;
+
+  @bottom-right {
+    content: counter(page);
+    vertical-align: bottom;
+  }
 
   article.entry .page {
     .text {
@@ -52,9 +66,7 @@ body {
 article {
 
   &.entry {
-    counter-increment: pageNumber;
-    page-break-after: always;
-    break-after: page;
+    page: entry;
     position: relative;
     font-size: 9pt;
 
@@ -72,6 +84,13 @@ article {
       color: black;
     }
 
+    .heading-back {
+      bookmark-level: 3;
+      -prince-bookmark-level: 3;
+      bookmark-label: content(text);;
+      -prince-bookmark-label: content(text);;
+    }
+
     .page {
       display: flex;
       flex-direction: row;
@@ -80,6 +99,14 @@ article {
         display: flex;
         width: 38.2%;
         flex-direction: column;
+
+        .heading-info {
+          align-self: center;
+        }
+
+        .hanger-back {
+          align-self: flex-end;
+        }
       }
 
       .image {
@@ -87,6 +114,12 @@ article {
          height: 100vh;
       }
     }
+  }
+
+  .page {
+    counter-increment: pageNumber;
+    page-break-after: always;
+    break-after: page;
   }
 
   &.singe-page {

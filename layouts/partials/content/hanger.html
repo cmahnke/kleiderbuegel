@@ -4,9 +4,7 @@
 {{- range site.Home.Translations -}}
   {{- $hangers = $hangers | lang.Merge .Site.RegularPages -}}
 {{- end -}}
-{{- range where $hangers "Params.type" "eq" "hanger" -}}
-  {{- if eq .Path $path -}}
-    {{- $page = . -}}
-  {{- end -}}
-{{- end -}}
+{{- $hangers = where $hangers "Params.type" "eq" "hanger" -}}
+{{- $hangers = where $hangers ".Path" "eq" $path -}}
+{{- $page = index $hangers 0 -}}
 {{- return $page -}}

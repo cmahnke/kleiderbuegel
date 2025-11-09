@@ -613,14 +613,20 @@ strong {
               .tag-list {
                 margin-block-start: .4rem;
                 margin-block-end: unset;
+                direction:rtl;
+                padding-inline-start: 1.2rem;
 
                 @media screen and (max-width: 740px) {
                   width: fit-content;
                   float: right;
+                  direction: unset;
+                  list-style-type: none;
                 }
 
                 .tag {
-                  text-align: end;
+                  @media screen and (max-width: 740px) {
+                    text-align: end;
+                  }
                 }
               }
             }

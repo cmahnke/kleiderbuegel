@@ -12,10 +12,11 @@
           {{- $title := .Description -}}
         {{- end -}}
         <li class="related-list-item">
-          <a href="{{ .RelPermalink }}" title="{{ $title | htmlEscape }}">{{ $title }} (#{{ $nr }})</a>
+          {{- $link := printf "#_%s" (replace .RelPermalink "/" "-") -}}
+          <a href="{{ $link }}" title="{{ $title | htmlEscape }}">{{ $title }} (#{{ $nr }})</a>
         </li>
       {{- else -}}
-        {{- errorf "[contenr/related.html] Unable to get related %s for %s" $relatedPath $page.RelPermalink -}}
+        {{- errorf "[print/related.html] Unable to get related %s for %s" $relatedPath $page.RelPermalink -}}
       {{- end -}}
     {{- end -}}
   </ul>

@@ -26,8 +26,10 @@
   {{- end -}}
 
   {{- with .Params.related -}}
-    {{- if not (reflect.IsSlice .) -}}
-      {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="related"><div class="additional-header">` (i18n "related") `:</div>` ( . | markdownify) `</div>` -}}
+    {{- if reflect.IsSlice . -}}
+      {{- $additional = printf "%s%s" $additional (partial "print/related.html" $page) -}}
+    {{- else -}}
+      {{- $additional = printf "%s%s" $additional ( . | markdownify)  -}}
     {{- end -}}
   {{- end -}}
   {{- with .Params.source -}}
