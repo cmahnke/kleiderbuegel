@@ -607,11 +607,21 @@ strong {
 
               .tags-header {
                 font-size: larger;
+                text-align: end;
               }
 
               .tag-list {
                 margin-block-start: .4rem;
                 margin-block-end: unset;
+
+                @media screen and (max-width: 740px) {
+                  width: fit-content;
+                  float: right;
+                }
+
+                .tag {
+                  text-align: end;
+                }
               }
             }
 
