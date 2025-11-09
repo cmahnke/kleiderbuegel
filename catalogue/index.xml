@@ -13,7 +13,7 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/title/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/title/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;kleiderbügel&#34; class=&#34;title-heading&#34;&gt;Kleiderbügel&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;title-logo&#34;&gt;&#xA;    &lt;a href=&#34;https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/&#34;&gt;&#xA;        &lt;img src=&#34;https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/title/hanger.svg&#34; alt=&#34;Schatten eines Drahtkleiderbügels&#34;/&gt; &lt;/a&gt;&lt;/figure&gt;&#xA;&#xA;&lt;ul class=&#34;bg&#34;&gt;&#xA;&lt;li&gt;Q815240&lt;/li&gt;&#xA;&lt;li&gt;300239360&lt;/li&gt;&#xA;&lt;li&gt;4418&lt;/li&gt;&#xA;&lt;li&gt;17199&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Vorwort</title>
@@ -30,11 +30,18 @@
       <description></description>
     </item>
     <item>
+      <title>Kolophon</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/colophon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/colophon/</guid>
+      <description>&lt;p&gt;Diese Publikation wurde mit &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; erstellt,&lt;/p&gt;&#xA;&lt;p&gt;Als Schriftarten kommen&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://indestructibletype.com/Bodoni&#34; target=&#34;_blank&#34;&gt;Bodoni Moda&lt;/a&gt; von indestructible type*&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/googlefonts/spacemono&#34; target=&#34;_blank&#34;&gt;Space Mono&lt;/a&gt; von Colophon Foundry&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;zum Einsatz.&lt;/p&gt;&#xA;&lt;p&gt;Die&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Rückseite</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/back/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/back/</guid>
-      <description>&lt;img src=&#34;https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/qr_736bdb1db2e78a57.png&#34; width=&#34;164&#34; height=&#34;164&#34;&gt;</description>
+      <description>&lt;img src=&#34;https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/qr_1b9f6a34386af809.png&#34; width=&#34;410&#34; height=&#34;410&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;cc&#34;&gt;&#xA;    &lt;a href=&#34;https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/&#34; target=&#34;_blank&#34;&gt;&#xA;        &lt;img src=&#34;https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/catalogue/back/CC_BY-NC-SA.svg&#34; alt=&#34;Attribution-NonCommercial-ShareAlike 4.0 International&#34;/&gt; &lt;/a&gt;&lt;/figure&gt;</description>
     </item>
   </channel>
 </rss>
