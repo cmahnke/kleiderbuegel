@@ -11,11 +11,8 @@ $body-font: 'Space Mono', serif;
   /* marks: crop cross; */
 }
 
-@page entry {
 
-}
-
-@page entry:left {
+@page :left {
   margin-left: 1cm;
   margin-right: 1.5cm;
 
@@ -34,7 +31,7 @@ $body-font: 'Space Mono', serif;
   }
 }
 
-@page entry:right {
+@page :right {
   margin-left: 1.5cm;
   margin-right: 1cm;
 
@@ -244,6 +241,7 @@ section {
 
 .footnote.link {
   display: block;
+  float: footnote;
 
   .link-url
   .link-title {
@@ -252,6 +250,20 @@ section {
 
 }
 
+::footnote-marker {
+  content: counter(footnote);
+  list-style-position: inside;
+}
+
+::footnote-marker::after {
+  content: '. ';
+}
+
+::footnote-call {
+  content: counter(footnote);
+  vertical-align: super;
+  font-size: 65%;
+}
 
 .singe-page {
   &.title {
