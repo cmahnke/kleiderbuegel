@@ -62,3 +62,9 @@ See also [IDN-Web-Converter](https://www.denic.de/service/tools/idn-web-converte
 
 # Date series generator
 https://onlinetools.com/time/generate-date-sequence
+
+
+# TODO
+Currently some entries use coordinates in the wrong projection, this results in having some points to be off since GeoJSON and Web maps are supposed to use different projections and the map code by default accounts for this, see:
+* https://osmdata.openstreetmap.de/info/projections.html
+Next step is to get all coordinates and look if the projection is right. Otherwise it needs to be converted.
