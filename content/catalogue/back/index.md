@@ -6,7 +6,7 @@ params:
   print: true
 ---
 
-{{< qr scale=10 text="http://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"  />}}
+{{< print-qr scale=10 text="http://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"  />}}
 
 
 {{< print-image

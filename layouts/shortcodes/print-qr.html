@@ -1,0 +1,26 @@
+{{- $text := or (.Get "text") (strings.TrimSpace .Inner) "" }}
+{{- $scale := or (.Get "scale") 4 }}
+{{- $alt := or (.Get "alt") "" }}
+{{- $class := or (.Get "class") "" }}
+{{- $title := or (.Get "title") "" }}
+
+{{- $relative := 0 -}}
+{{- with .Site.Params.print.relative -}}
+  {{- $relative = . -}}
+{{- end -}}
+{{- $errors := false}}
+{{- if not $text }}
+  {{- errorf "The %q shortcode requires a %q argument. See %s" .Name "text" .Position }}
+  {{- $errors = true }}
+{{- end }}
+
+{{- if not $errors }}
+  {{- $opts := dict "scale" $scale "targetDir" "" }}
+  {{- with images.QR $text $opts -}}
+    <img src="{{ substr .RelPermalink $relative }}" width="{{ .Width }}" height="{{ .Height }}"
+      {{- with $alt }} alt="{{ $alt }}" {{- end }}
+      {{- with $class }} class="{{ $class }}" {{- end }}
+      {{- with $title }} title="{{ $title }}" {{- end -}}
+    >
+  {{- end }}
+{{- end -}}
