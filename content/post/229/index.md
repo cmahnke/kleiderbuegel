@@ -14,13 +14,15 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - Beidseitig
+address: Holstenstraße 78, Kiel
 geojson:
   coordinates:
-  - 10.1457995
-  - 54.3142067
-  precision: street
+  - 10.134480
+  - 54.320779
+  precision: exact
 remarks: |
   * [Aus der Geschichte Kiel-Gaardens](http://www.gaardian.org/kultur/archivar-view.php?kndnr=kul-ges-050&kateg=kul_geschichte&dbnav=kul&layout=lay-1)
+  * [Wikimedia Abbildung](https://commons.wikimedia.org/wiki/File:Holstenstra%C3%9Fe_(Kiel_35.576).jpg)
 ---
 Heidenreich Kiel
 FEINE DAMENMODEN

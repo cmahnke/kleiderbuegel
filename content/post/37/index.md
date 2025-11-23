@@ -13,10 +13,11 @@ resources:
 outputs:
 - html
 - iiif-manifest
+address: Maximilianstraße 65, Pforzheim
 geojson:
   coordinates:
-  - 8.6813651
-  - 48.8929882
+  - 8.682956
+  - 48.892845
   precision: exact
 ---
 Bader Moden

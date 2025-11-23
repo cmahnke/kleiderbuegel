@@ -14,16 +14,16 @@ resources:
     iiif: back/info.json
     content: |
       Die „gute“ Chemische Reinigung „Edelweiß“
-address: Alexanderstraße 84, 58097 Hagen
 tags:
 - "Material: Holz"
 - Reinigung
 - Hagen
 - Beidseitig
+address: Alexanderstraße 84, 58097 Hagen
 geojson:
   coordinates:
-  - 7.4682784
-  - 51.3758899
+  - 7.468278
+  - 51.375889
   precision: exact
 remarks: |
   * [Weiß, weißer, Edelweiss!](https://nwbib.de/990212717590206441)

@@ -21,10 +21,11 @@ tags:
 - "Material: Holz"
 - Beidseitig
 - Testorp
+address: Hamburg
 geojson:
   coordinates:
-  - 9.99302
-  - 53.55073
+  - 9.9872
+  - 53.5488
   precision: city
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 remarks: |

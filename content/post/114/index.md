@@ -9,10 +9,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Hafenstr. 76-80, Bremerhaven
 geojson:
   coordinates:
-  - 8.5815016
-  - 53.5549545
+  - 8.583824
+  - 53.555059
   precision: exact
 tags:
   - "Material: Holz"

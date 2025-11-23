@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - Hannover
 - Bekleidungsgeschäft
+address: Große Packhofstraße 1, Hannover
 geojson:
   coordinates:
-  - 9.7345857
-  - 52.3731932
+  - 9.737011
+  - 52.373109
   precision: exact
 remarks: |
   * [Wikipedia Eintrag](https://de.wikipedia.org/wiki/Bekleidungshaus_Otto_Werner)

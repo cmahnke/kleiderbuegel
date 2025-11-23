@@ -21,10 +21,11 @@ resources:
   params:
     iiif: back/info.json
     content: "Herren- und Knabenbekleidung"
+address: Königsplatz 38–40, Kassel
 geojson:
   coordinates:
-  - 9.4979349
-  - 51.3152471
+  - 9.498939
+  - 51.315785
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---

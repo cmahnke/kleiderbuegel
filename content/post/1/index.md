@@ -5,10 +5,11 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
+address: Friedrichstraße 1, Göttingen
 geojson:
   coordinates:
-  - 9.9392501
-  - 51.5341524
+  - 9.939238
+  - 51.534399
   precision: exact
 resources:
 - src: "front.png"

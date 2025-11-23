@@ -13,10 +13,11 @@ tags:
 - Bad Nauheim
 - Klinik
 - "Material: Holz"
+address: Zanderstraße 30-32, Bad Nauheim
 geojson:
   coordinates:
-  - 8.74474
-  - 50.35916
+  - 8.744969
+  - 50.359036
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---

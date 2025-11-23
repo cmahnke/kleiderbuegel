@@ -19,10 +19,11 @@ tags:
 - Bekleidungsgeschäft
 - Beidseitig
 - Höhr-Grenzhausen
+address: Höhr-Grenzhausen
 geojson:
   coordinates:
-  - 7.6473619,
-  - 50.4320414
+  - 7.6578
+  - 50.4510
   precision: city
 ---
 

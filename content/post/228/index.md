@@ -14,10 +14,11 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - Beidseitig
+address: Northeim
 geojson:
   coordinates:
-  - 9.9221547
-  - 51.7154482
+  - 9.9959
+  - 51.7002
   precision: city
 ---
 Damenmoden  Elli Beumer  Northeim

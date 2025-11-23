@@ -14,10 +14,11 @@ doublesided: true
 outputs:
 - html
 - iiif-manifest
+address: Warburg
 geojson:
   coordinates:
-  - 9.14641
-  - 51.49011
+  - 9.1452
+  - 51.4899
   precision: city
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---

@@ -19,10 +19,11 @@ tags:
 - Göttingen
 - Beidseitig
 - Klammern
+address: Johannisstraße 27, Göttingen
 geojson:
   coordinates:
-  - 9.9297755
-  - 51.5329547
+  - 9.932335
+  - 51.532922
   precision: exact
 ---
 

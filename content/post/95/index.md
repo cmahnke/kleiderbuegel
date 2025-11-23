@@ -13,10 +13,11 @@ tags:
   - Bekleidungsgeschäft
   - Buxtehude
   - "Material: Holz"
+address: Lange Str. 39-45, Buxtehude
 geojson:
   coordinates:
-  - 9.6965481
-  - 53.4755114
+  - 9.699113
+  - 53.475498
   precision: exact
 remarks: |
   * [Derzeitige Homepage](http://www.stackmann.de/)

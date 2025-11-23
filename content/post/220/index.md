@@ -13,10 +13,11 @@ tags:
 - Hamburg
 - Bekleidungsgeschäft
 - "Material: Holz"
+address: Admiralitätsstr. 1, Hamburg
 geojson:
   coordinates:
-  - 9.9820547
-  - 53.548384
+  - 9.984444
+  - 53.548438 
   precision: exact
 remarks: |
   * [Aktuelle Homepage](https://www.ernst-brendler.de/)

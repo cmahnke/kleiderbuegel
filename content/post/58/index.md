@@ -13,10 +13,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Northeim
 geojson:
   coordinates:
-  - 9.99997
-  - 51.70662
+  - 9.9959
+  - 51.7002
   precision: city
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---

@@ -14,10 +14,11 @@ tags:
 - Reinigung
 - Hannover
 - Färberei
+address: Hannover
 geojson:
   coordinates:
-  - 9.73322
-  - 52.37052
+  - 9.7320
+  - 52.3759
   precision: city
 remarks: |
   * [Eintrag bei North Data](https://www.northdata.de/F%C3%A4rberei+W.+Bode+Verwaltungs-GmbH+%26+Co.+KG+chem.+Reinigung,+Hannover/HRA+21817)

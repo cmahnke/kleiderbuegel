@@ -13,11 +13,11 @@ tags:
 - Bremerhaven
 - Möbelhaus
 - "Material: Holz"
-address: "Neufelder Weg; Ort: 27619 Schiffdorf;"
+address: "Im Neufelder Moor 2, 27619 Schiffdorf"
 geojson:
   coordinates:
-  - 8.6314399
-  - 53.5840906
+  - 8.632319
+  - 53.584014
   precision: exact
 remarks: |
   * [Werbung auf einer Sstraßenbahn bei traminfo.de](https://www.tram-info.de/wagenp/bild.htm?bremerhaven&80)

@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - Hamburg
 - Pelze
+address: Mönkebergstraße, Hamburg
 geojson:
   coordinates:
-  - 9.9967294
-  - 53.5508513
+  - 9.99919
+  - 53.55084
   precision: street
 ---
 Mäntel und Pelze Eichmeyer & Co., Hamburg Mönkebergstr.

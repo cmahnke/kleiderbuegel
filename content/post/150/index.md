@@ -14,10 +14,11 @@ tags:
   - Beidseitig
   - Schloss Holte
 doublesided: true
+address: Schloss Holte
 geojson:
   coordinates:
-  - 8.61868
-  - 51.90106
+  - 8.6360
+  - 51.9027
   precision: city
 ---
 Reinigung

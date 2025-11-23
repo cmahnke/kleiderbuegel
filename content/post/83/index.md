@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - Flensburg
 - Bekleidungsgeschäft
+address: Nikolaistraße 2, Flensburg
 geojson:
   coordinates:
-  - 9.4329524
-  - 54.7844125
+  - 9.435610
+  - 54.784454
   precision: exact
 ---
 Mau & Andresen Flensburg

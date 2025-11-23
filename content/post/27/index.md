@@ -14,10 +14,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Groner Str. 43-47, Göttingen
 geojson:
   coordinates:
-  - 9.9331461
-  - 51.5320512
+  - 9.933146
+  - 51.532157
   precision: exact
 ---
 Rudolf Karstadt A.G., Göttingen

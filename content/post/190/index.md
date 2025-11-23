@@ -14,10 +14,11 @@ tags:
 - Heilbronn
 - Reinigung
 - Färberei
+address: Hafenstraße 11, Heilbronn
 geojson:
   coordinates:
-  - 9.2006736
-  - 49.1446569
+  - 9.203291
+  - 49.144461
   precision: exact
 remarks: |
   * [Artikel in der Heilbronner Stimme über die Insolvenz der Alt Gruppe 2007](https://www.stimme.de/archiv/stadt-hn/textilbearbeiter-alt-in-noeten-art-1038914)

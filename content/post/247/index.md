@@ -15,10 +15,11 @@ tags:
 - Bekleidungsgeschäft
 - Beidseitig
 doubleSided: true
+address: Alter Wall 22, Hamburg
 geojson:
   coordinates:
-  - 9.990705
-  - 53.550492
+  - 9.99044
+  - 53.55050
   precision: street
 remarks: |
   * [Aktuelle Homepage](https://ladage-oelke.de/)

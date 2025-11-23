@@ -12,10 +12,11 @@ resources:
 tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
+address: Waren (Müritz)
 geojson:
   coordinates:
-  - 12.67985
-  - 53.5204
+  - 12.6819
+  - 53.5162
   precision: city
 ---
 Paul Luck,

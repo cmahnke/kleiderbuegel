@@ -13,10 +13,11 @@ tags:
 - Northeim
 - Bekleidungsgeschäft
 - "Material: Holz"
+address: Breite Str. 8-9, Northeim
 geojson:
   coordinates:
-  - 9.9979289
-  - 51.705316
+  - 10.000146
+  - 51.705353
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---

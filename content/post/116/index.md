@@ -13,10 +13,11 @@ tags:
   - "Material: Holz"
   - Brüssel
   - Reinigung
+address: Brüssel, Belgien
 geojson:
   coordinates:
-  - 4.34878
-  - 50.85045
+  - 4.3517
+  - 50.8467
   precision: city
 ---
 NIEUWKUIS IN 2 UUR

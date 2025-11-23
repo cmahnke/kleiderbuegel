@@ -13,11 +13,11 @@ tags:
 - "Material: Holz"
 - Braunschweig
 - Bekleidungsgeschäft
-address: Kohlmarkt 3
+address: Kohlmarkt 3, Braunschweig
 geojson:
   coordinates:
-  - 10.5180151
-  - 52.26249
+  - 10.520544
+  - 52.262521
   precision: exact
 remarks: |
   * [Wikipedia](https://de.wikipedia.org/wiki/Hamburger_%26_Littauer)

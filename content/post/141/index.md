@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Steinheim
+address: Steinheim
 geojson:
   coordinates:
-  - 9.09136
-  - 51.87066
+  - 9.0864
+  - 51.8698
   precision: city
 remarks: |
   * [Private Stadtgeschichte Steinheim](https://tourismus.steinheim.de/Stadtgeschichte/Private-Stadtgeschichte/index.php?object=tx,3276.49.1&amp;NavID=3276.18&amp;La=1)

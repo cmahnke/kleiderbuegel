@@ -13,10 +13,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Barfüßerstraße 18, Göttingen
 geojson:
   coordinates:
-  - 9.9373265
-  - 51.5333756
+  - 9.936941
+  - 51.533547 
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---

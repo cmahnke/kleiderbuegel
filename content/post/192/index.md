@@ -20,10 +20,11 @@ tags:
 - "Union Globus"
 - Duderstadt
 - Beidseitig
+address: Marktstraße 57A, Duderstadt
 geojson:
   coordinates:
-  - 10.2533613
-  - 51.5130813
+  - 10.259998
+  - 51.512409 
   precision: exact
 remarks: |
   * [Postkarte mit Geschäft](https://eichsfelder-postkarten.online/postkarten/d/duderstadt/herzliche-weihnachts-und-neujahrsgruesse-aus-dem-1000jaehr-duderstadt-0)

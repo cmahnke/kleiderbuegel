@@ -14,10 +14,13 @@ resources:
   params:
     iiif: front/info.json
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+address: Bahnhofsplatz 2, Oldenburg
+remarks: |
+  * [Bahnhofsvorplatz: Deus Bahnhofs-Hotel](http://www.alt-oldenburg.de/straen-a-k/bahnhofsvorplatz/deus-bahnhofs-hotel/index.html)
 geojson:
   coordinates:
-  - 8.2200109
-  - 53.1430279
+  - 8.223064
+  - 53.142814
   precision: exact
 ---
 Hotel Deus, Oldenburg

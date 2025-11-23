@@ -62,6 +62,12 @@ other = "Unbeschriftete Rückseite"
 [wikipedia]
 other = "Wikipedia Eintrag"
 
+[address]
+other = "Adresse"
+
+[uncertainLocation]
+other = "Genaue Adresse nicht ermittelbar"
+
 # Classification
 
 [classification]

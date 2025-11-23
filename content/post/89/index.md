@@ -15,9 +15,10 @@ tags:
 - Grömitz
 geojson:
   coordinates:
-  - 10.9478517
-  - 54.152259
+  - 10.964317
+  - 54.150283
   precision: exact
+address: Wiesengrund 12-14, Grömitz
 ---
 
 Hotel Ruhwinkel

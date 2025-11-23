@@ -14,10 +14,11 @@ tags:
 - "Material: Holz"
 - Braunschweig
 - Bekleidungsgeschäft
+address: Damm 1, Braunschweig
 geojson:
   coordinates:
-  - 10.5169391
-  - 52.2624586
+  - 10.521782
+  - 52.262392
   precision: exact
 ---
 Braunschweig

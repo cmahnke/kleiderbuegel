@@ -13,10 +13,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Kleine Ritterstraße, Merseburg
 geojson:
   coordinates:
-  - 11.9949616
-  - 51.3565038
+  - 11.99752
+  - 51.35641
   precision: street
 ---
 Günter Göhlitz Schneidermeister Merseburg Kl. Ritterstr.

@@ -22,10 +22,11 @@ tags:
 - C&A
 - Repariert
 - Beidseitig
+address: Am Brill 8-12, Bremen
 geojson:
   coordinates:
-  - 8.7970551
-  - 53.07877
+  - 8.799752
+  - 53.078938 
   precision: exact
 remarks: |
   * Dieser Kleiderbügel wurde repariert

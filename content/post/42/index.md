@@ -14,10 +14,11 @@ resources:
   params:
     iiif: front/info.json
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+address: Göttingen
 geojson:
   coordinates:
-  - 9.93228
-  - 51.53443
+  - 9.9158
+  - 51.5413
   precision: city
 related:
   - 160

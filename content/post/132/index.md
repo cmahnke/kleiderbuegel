@@ -13,10 +13,11 @@ tags:
   - "Material: Holz"
   - Northeim
   - Bekleidungsgeschäft
+address: Northeim
 geojson:
   coordinates:
-  - 9.99997
-  - 51.70662
+  - 9.9959
+  - 51.7002
   precision: city
 ---
 Moden - Denzler - Northeim

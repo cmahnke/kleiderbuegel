@@ -20,10 +20,11 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - Beidseitig
+address: Zindelstr. 6, Göttingen
 geojson:
   coordinates:
-  - 9.9320614
-  - 51.5323115
+  - 9.934293
+  - 51.532329 
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---

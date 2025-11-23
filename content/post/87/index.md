@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - Bremerhaven
 - Bekleidungsgeschäft
+address: Borriesstraße 9, Bremerhaven
 geojson:
   coordinates:
-  - 8.5908051
-  - 53.5335032
+  - 8.586626
+  - 53.538758
   precision: exact
 ---
 Schlüsing

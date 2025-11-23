@@ -15,10 +15,11 @@ tags:
 - Bekleidungsgeschäft
 - Beidseitig
 doublesided: true
+address: Marienplatz 11, München
 geojson:
   coordinates:
-  - 11.576683
-  - 48.137161
+  - 11.576740
+  - 48.137144
   precision: exact
 remarks: |
   * [Wikipedia: Ludwig Beck am Rathauseck](https://de.wikipedia.org/wiki/Ludwig_Beck_am_Rathauseck)

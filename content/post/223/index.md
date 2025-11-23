@@ -13,14 +13,15 @@ tags:
 - Hamburg
 - Pelze
 - "Material: Holz"
-#geojson:
-#  coordinates:
-#  - 9.9852511
-#  - 53.5463225
-#  precision: exact
-address: Deichstraße 17
+todo: address might be wrong
+address: Deichstraße 17, Hamburg
+geojson:
+  coordinates:
+  - 9.987838
+  - 53.546422
+  precision: exact
 remarks: |
-  * [Bildergallerie zum Pelzhandel in Hamburg](https://picryl.com/topics/fur+wholesale+dealers+in+hamburg/germany)
+  * [Wikimedia Commons: Fotoalbum Fell-Union.](https://commons.wikimedia.org/wiki/File:Pelzhandels-Zentrum_Niddastra%C3%9Fe_S._65,_20-j%C3%A4hriges_Gesch%C3%A4ftsjubil%C3%A4um_Egon_Voigtl%C3%A4nder,_September_1969_(4).jpg)
   * Die Vorwahl 0411 [war früher für Hambug in Gebrauch](https://de.wikipedia.org/wiki/Historische_Vorwahlen_(Deutschland))
 ---
 Mostafa Vakilzadeh

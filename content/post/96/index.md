@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - Dorum
 - Bederkesa
+address: Mattenburger Str., 2 Bad Bederkesa
 geojson:
   coordinates:
-  - 8.5647551
-  - 53.6889731
+  - 8.841189
+  - 53.625390
   precision: exact
 ---
 Dorum

@@ -13,10 +13,11 @@ tags:
   - Hotel
   - Göttingen
   - "Material: Holz"
+address: Goethe-Allee 22-23, Göttingen
 geojson:
   coordinates:
-  - 9.9261459
-  - 51.5350707
+  - 9.928734
+  - 51.535054
   precision: exact
 ---
 Gebhards Hotel, Göttingen

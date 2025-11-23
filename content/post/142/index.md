@@ -13,11 +13,12 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Heide
+address: Friedrichstraße 9-13, Heide
 geojson:
   coordinates:
-  - 9.0943041
-  - 54.1946868
-  precision: street
+  - 9.095635
+  - 54.194716
+  precision: exact
 remarks: |
   <a href="https://ansichtskarten-lexikon.de/ak-221752.html">Ansichtskarte</a>
 ---

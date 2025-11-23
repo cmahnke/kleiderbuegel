@@ -14,10 +14,11 @@ tags:
   - "Material: Holz"
   - Reinigung
   - Färberei
+address: Theodor-Marwitz-Straße 1, Lüneburg
 geojson:
   coordinates:
-  - 10.4739487
-  - 53.2443207
+  - 10.476885
+  - 53.243490 
   precision: exact
 ---
 Lüneburg

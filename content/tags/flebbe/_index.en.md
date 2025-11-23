@@ -5,5 +5,7 @@ params:
   wikidata: Q118205776
 ---
 
-Links:
-* [The Flebbe House at the Braunschweig Monument Preservation Authority](https://www.braunschweig.de/leben/stadtplanung_bauen/stadtbild_denkmalpflege/veroeffentlichungen/objektbezogene-veroeffentlichungen/Datenblatt_Flebbe_Internet.pdf)
+Links (German only):
+* [The Flebbe House on Wikipedia](https://de.wikipedia.org/wiki/Flebbe-Haus)
+* [The Flebbe House at Braunschweig Monument Preservation](https://www.braunschweig.de/leben/stadtplanung_bauen/stadtbild_denkmalpflege/veroeffentlichungen/objektbezogene-veroeffentlichungen/Datenblatt_Flebbe_Internet.pdf)
+* [Article on architekten-portrait.de: Friedrich Wilhelm Kraemer – Flebbe department store](https://www.architekten-portrait.de/friedrich_wilhelm_kraemer/warenhaus_flebbe.html)

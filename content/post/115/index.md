@@ -13,10 +13,11 @@ tags:
   - Hannover
   - Bekleidungsgeschäft
   - "Material: Holz"
+address: Karmarschstraße 27, Hannover
 geojson:
   coordinates:
-  - 9.7331229
-  - 52.3727407
+  - 9.737967
+  - 52.372709
   precision: exact
 related:
   - 85

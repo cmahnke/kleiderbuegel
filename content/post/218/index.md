@@ -15,10 +15,11 @@ tags:
 - "Material: Holz"
 - Beidseitig
 - Fahning
+address: Neuer Wall 19, Hamburg
 geojson:
   coordinates:
-  - 9.9896316
-  - 53.5519379
+  - 9.991803
+  - 53.552008
   precision: exact
 related:
   - 48

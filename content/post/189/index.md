@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Düsseldorf
+address: Flinger Straße, Düsseldorf
 geojson:
   coordinates:
-  - 6.7722463
-  - 51.2253525
+  - 6.77483
+  - 51.22535
   precision: street
 remarks: |
   * [Düsseldorfer Stadtchronik 1994 über die Schließung](https://www.duesseldorf.de/stadtarchiv/stadtgeschichte/chronik/1994)

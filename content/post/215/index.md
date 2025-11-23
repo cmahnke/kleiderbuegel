@@ -15,10 +15,11 @@ tags:
 - "Material: Holz"
 - Pelze
 - C. Louis Weber
+address: Große Packhofstr. 30, Hannover
 geojson:
   coordinates:
-  - 9.7311875
-  - 52.3760738
+  - 9.737287
+  - 52.374366
   precision: exact
 related:
   - 65

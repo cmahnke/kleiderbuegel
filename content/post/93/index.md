@@ -1,6 +1,6 @@
 ---
 date: 2024-07-09T12:47:44+02:00
-title: "Konfenktionshaus Fritz Becker Warburg i. W."
+title: "Konfektionshaus Fritz Becker Warburg i. W."
 type: hanger
 outputs:
 - html
@@ -13,10 +13,11 @@ tags:
   - Bekleidungsgeschäft
   - Warburg
   - "Material: Holz"
+address: Warburg
 geojson:
   coordinates:
-  - 9.14641
-  - 51.49011
+  - 9.1452
+  - 51.4899
   precision: city
 ---
-Konfenktionshaus Fritz Becker Warburg i. W.
+Konfektionshaus Fritz Becker Warburg i. W.

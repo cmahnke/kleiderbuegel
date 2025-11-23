@@ -15,10 +15,11 @@ tags:
   - Beidseitig
   - Toronto
 doublesided: true
+address: 676 Yonge St, Toronto, Canada
 geojson:
   coordinates:
-  - -79.388412
-  - 43.6673407
+  - -79.385814
+  - 43.667337 
   precision: exact
 ---
 Cold Fur Storage & Repairs ALANA FURS 676 Yonge St. WA 5-3441

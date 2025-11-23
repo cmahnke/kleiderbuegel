@@ -19,10 +19,11 @@ resources:
   params:
     iiif: back/info.json
     content: Die gute Herrenkleidung
+address: Groner Str. 43-47, Göttingen
 geojson:
   coordinates:
-  - 9.9331461
-  - 51.5320512
+  - 9.933146
+  - 51.532157
   precision: exact
 related:
   - 172

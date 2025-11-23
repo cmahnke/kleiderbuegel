@@ -14,10 +14,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Nikolaistraße 20, Göttingen
 geojson:
   coordinates:
-  - 9.9321196
-  - 51.5309751
+  - 9.934335
+  - 51.530971
   precision: exact
 ---
 Röcke Damenhosen Rock - Hache Gö. Nikolaistr. 20

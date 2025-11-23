@@ -15,10 +15,11 @@ tags:
 - Reinigung
 - Beidseitig
 doublesided: true
+address: Hannover
 geojson:
   coordinates:
-  - 9.73322
-  - 52.37052
+  - 9.7320
+  - 52.3759
   precision: city
 ---
 Reinigung Centralux Hannover

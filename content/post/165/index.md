@@ -15,10 +15,11 @@ tags:
 - Bekleidungsgeschäft
 - Beidseitig
 doublesided: true
+address: Mundsburger Damm 4, Hamburg
 geojson:
   coordinates:
-  - 10.0156743
-  - 53.5642842
+  - 10.018191
+  - 53.564269
   precision: exact
 remarks: |
   [Aktuelle Webseite](https://www.eggerthamburg.com/)

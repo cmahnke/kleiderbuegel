@@ -2,12 +2,24 @@
 {{- $content = partial "macros/remove-shortcodes.txt" $content -}}
 <div class="geojsonPopup">
     <div class="title">
-        {{ .Title }}
+      {{- if ne .Title "" -}}
+        {{- .Title -}}
+      {{- else -}}
+        {{- .Description -}}
+      {{- end -}}
     </div>
     <div class="content">
-        {{ $content | markdownify }}
+      {{- $content | markdownify -}}
     </div>
+    {{- with .Param "geojson" -}}
+      {{- if in (slice "street" "city") .precision -}}
+        <div class="popup-address">{{ i18n "uncertainLocation" }}</div>
+      {{- end -}}
+    {{- end -}}
+    {{- with .Param "address" -}}
+      <div class="popup-address certainty">{{ . }}</div>
+    {{- end -}}
     <div class="link">
-        <a target="_blank" rel="noopener noreferrer" href="{{ .Permalink }}">{{ i18n "readmore" }}</a>
+      <a target="_blank" rel="noopener noreferrer" href="{{ .Permalink }}">{{ i18n "readmore" }}</a>
     </div>
 </div>

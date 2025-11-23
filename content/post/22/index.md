@@ -13,10 +13,11 @@ resources:
   params:
     iiif: front/info.json
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+address: Amstelveenseweg 29, Amsterdam
 geojson:
   coordinates:
-  - 4.8527235
-  - 52.3568069
+  - 4.854847
+  - 52.356812 
   precision: exact
 ---
 

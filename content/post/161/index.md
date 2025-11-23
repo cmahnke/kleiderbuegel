@@ -13,11 +13,14 @@ tags:
   - "Material: Holz"
   - Bekleidungsgeschäft
   - Einbeck
+address: Backofenstraße 5, Einbeck
 geojson:
   coordinates:
-  - 9.86961
-  - 51.82018
-  precision: City
+  - 9.866752
+  - 51.816182
+  precision: exact
+remarks: |
+  * [Alter Adresseintrag](https://www.tupalo.de/einbeck/deppe-backofenstra%C3%9Fe)
 ---
 Damen- u. Herrenmoden
 Wilh. Deppe

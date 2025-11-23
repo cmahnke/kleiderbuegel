@@ -1,7 +1,6 @@
 ---
 date: 2027-08-03T12:47:44+02:00
-title: ""
-description: "Hanse-Kleidung"
+title: "Hanse-Kleidung"
 type: hanger
 outputs:
 - html
@@ -19,10 +18,11 @@ tags:
 - Beidseitig
 - Delmenhorst
 - Fabrik
+address: Brauenkamper Str. 97, Delmenhorst
 geojson:
   coordinates:
-  - 8.605151
-  - 53.045311
+  - 8.605143
+  - 53.045288
   precision: exact
 remarks: |
   * [delmod, letzter Name von Hanse-Kleidung, in der Wikipedia](https://de.wikipedia.org/wiki/Delmod)

@@ -12,14 +12,13 @@ resources:
 tags:
 - "Material: Holz"
 - Hotel
+address: Reithallenweg 5,Oberstdorf
 geojson:
   coordinates:
-  - 10.2671364
-  - 47.4084333
+  - 10.271973
+  - 47.408421 
   precision: exact
 remarks: |
   * [Heutige Webseite](https://www.oberstdorfer-gaestehaus.de/)
 ---
 Alpenhorst
-
-<!-- https://www.oberstdorfer-gaestehaus.de/ -->

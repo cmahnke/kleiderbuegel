@@ -13,10 +13,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Wilhelmsstraße 13, Kassel
 geojson:
   coordinates:
-  - 9.4895439
-  - 51.3139111
+  - 9.491959
+  - 51.313844
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 remarks: |

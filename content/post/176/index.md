@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - Herford
 - Bekleidungsgeschäft
+address: Alter Markt 2, Herford
 geojson:
   coordinates:
-  - 8.6684051
-  - 52.1140533
+  - 8.671006
+  - 52.114049
   precision: exact
 remark: |
   * [Standort im Architektur-Bildarchiv](https://www.architektur-bildarchiv.de/image/Gesch%C3%A4ftsh%C3%A4user-Alter-Markt-2-6-Herford-51207.html)

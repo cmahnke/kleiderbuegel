@@ -15,10 +15,11 @@ tags:
 - "Material: Holz"
 - Beidseitig
 doublesided: true
+address: Wolfhagen
 geojson:
   coordinates:
-  - 9.17015
-  - 51.32611
+  - 9.1711
+  - 51.3265
   precision: city
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---

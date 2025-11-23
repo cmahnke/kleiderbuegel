@@ -16,8 +16,9 @@ tags:
   - Ketelsen
 geojson:
   coordinates:
-  - 8.5760938
-  - 53.5432945
+  - 8.578613
+  - 53.543288
   precision: exact
+address: Bürgermeister-Smidt-Straße 42, Bremerhaven
 ---
 Ketelsen Bremerhaven-Bürger 42

@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Bad Mergentheim
+address: Bad Mergentheim
 geojson:
   coordinates:
-  - 9.77361
-  - 49.4925
+  - 9.7704
+  - 49.4885
   precision: city
 ---
 

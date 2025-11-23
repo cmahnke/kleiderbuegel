@@ -13,10 +13,11 @@ tags:
 - Hildesheim
 - Reinigung
 - "Material: Holz"
+address: Hildesheim
 geojson:
   coordinates:
-  - 9.95112
-  - 52.15077
+  - 9.9511
+  - 52.1507
   precision: city
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---

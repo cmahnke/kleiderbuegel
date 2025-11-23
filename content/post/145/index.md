@@ -13,10 +13,11 @@ tags:
   - "Material: Holz"
   - Gaststätte
   - Winningen
+address: Herrenstraße 6
 geojson:
   coordinates:
-  - 7.5159238
-  - 50.3133294
+  - 7.518492
+  - 50.313391
   precision: exact
 ---
 Weinhaus goldene Traube

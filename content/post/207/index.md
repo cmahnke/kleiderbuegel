@@ -18,10 +18,11 @@ tags:
 - Bekleidungsgeschäft
 - Wolfsburg
 - Beidseitig
+address: Bebelstr. 9, Wolfsburg
 geojson:
   coordinates:
-  - 10.7855671
-  - 52.4178294
+  - 10.788139
+  - 52.417821
   precision: exact
 ---
 Kurt Hummel, Wolfsburg, Bebelstr. 9

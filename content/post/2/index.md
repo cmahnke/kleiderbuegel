@@ -14,10 +14,13 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Düsseldorfer Str. 11, Jülich
 geojson:
   coordinates:
-  - 6.3564177
-  - 50.9226904
+  - 6.357411
+  - 50.922683
   precision: exact
+remarks: |
+  * (Alter Adresseintrag)(https://juelich.staedte-info.net/tag_anzug_juelich_32573.php)
 ---
 Bekleidungshaus Jöris, Jülich Düsseldorferstr.

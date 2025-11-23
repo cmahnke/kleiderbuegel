@@ -13,11 +13,12 @@ tags:
   - Hannover
   - "Material: Holz"
   - Bekleidungsgeschäft
+address: Lister Meile 32, Hannover
 geojson:
   coordinates:
-  - 9.73322
-  - 52.37052
-  precision: city
+  - 9.745733
+  - 52.382808
+  precision: exact
 remarks: |
   * [Eintrag bei North Data](https://www.northdata.de/Bekleidungshaus+Aloys+Bunge+GmbH,+Hannover/HRB+54481)
 ---

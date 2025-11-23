@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - Freiburg
 - Bekleidungsgeschäft
+address: Kaiser-Joseph-Str. 202-206, Freiburg
 geojson:
   coordinates:
-  - 7.8478761
-  - 47.9956966
+  - 7.850401
+  - 47.995679
   precision: exact
 remarks: |
   * [Freiburger Stadtgeschichte: Wer kennt noch die Traditionsgeschäfte Bollerer, Kaisers, Glockner und Steinmetz? [Bezahlartikel]](https://www.badische-zeitung.de/wer-kennt-noch-die-traditionsgeschaefte-bollerer-kaisers-glockner-und-steinmetz)

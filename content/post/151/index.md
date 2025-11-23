@@ -15,10 +15,11 @@ tags:
   - Beidseitig
   - Färberei
   - Osnabrück
+address: Osnabrück
 geojson:
   coordinates:
-  - 8.0498
-  - 52.27264
+  - 8.0472
+  - 52.2799
   precision: city
 ---
 Färberei Croon Osnabrück

@@ -14,13 +14,15 @@ tags:
   - Kassel
   - Witzenhausen
   - "Material: Holz"
+address: Ermschwerder Str. 18, Witzenhausen
 geojson:
   coordinates:
-  - 9.8554372
-  - 51.3426741
+  - 9.856278
+  - 51.342711
   precision: exact
 remarks: |
   * [Artikel in der HNA](https://www.hna.de/lokales/witzenhausen/waehrungsreform-vor-75-jahren-stadt-witzenhausen-verliert-fast-million-mark-92351384.html)
+notes: Ermschwerder Straße/Ecke Kniegasse
 ---
 
 Kassel Modehaus Schulz Witzenhausen

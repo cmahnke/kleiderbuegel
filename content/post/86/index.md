@@ -13,10 +13,11 @@ tags:
   - Hotel
   - Spiekeroog
   - "Material: Holz"
+address: Noorderloog 5, Spiekeroog
 geojson:
   coordinates:
-  - 7.6923712
-  - 53.7707204
+  - 7.694924
+  - 53.770675
   precision: exact
 ---
 Hotel zur Linde Spiekeroog

@@ -22,11 +22,13 @@ tags:
 - Bekleidungsgeschäft
 - Beidseitig
 - Karstadt
+address: Księdza Kardynała Stefana Wyszyńskiego 30, Szczecin, Polen
+#address: Breite Straße 23–28, Stettin
 geojson:
   coordinates:
-  - 14.556028
-  - 53.423889
-  precision: city
+  - 14.555894
+  - 53.423831
+  precision: exact
 related:
   - 11
 remarks: |

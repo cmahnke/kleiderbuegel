@@ -14,10 +14,11 @@ tags:
 - Bekleidungsgeschäft
 - Schönlanke
 - Trzcianka
+address: Trzcianka
 geojson:
   coordinates:
-  - 16.45629
-  - 53.04063
+  - 16.4617
+  - 53.0419
   precision: city
 remarks: |
   * [Der Netzekreis in der Wikipedia](https://de.wikipedia.org/wiki/Netzekreis)

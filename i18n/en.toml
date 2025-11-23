@@ -62,6 +62,12 @@ other = "Unmarked reverse side"
 [wikipedia]
 other = "Wikipedia entry"
 
+[address]
+other = "Address"
+
+[uncertainLocation]
+other = "Exact address cannot be determined"
+
 # Classification
 
 [classification]

@@ -13,10 +13,11 @@ tags:
 - Berlin
 - Theater
 - "Material: Holz"
+address: Eisenzahnstraße 43-44, Berlin
 geojson:
   coordinates:
-  - 13.3048677
-  - 52.4912242
+  - 13.305113
+  - 52.491295
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 remarks: |

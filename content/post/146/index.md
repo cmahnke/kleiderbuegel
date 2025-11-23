@@ -11,11 +11,6 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Holz"
-geojson:
-  coordinates:
-  - 7.5159238
-  - 50.3133294
-  precision: exact
 remarks: |
   Leider nicht vollständig lesbar, aber wohl aus Frankreich
 ---

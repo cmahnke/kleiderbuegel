@@ -15,10 +15,11 @@ tags:
   - Witzenhausen
   - Beidseitig
   - Repariert
+address: Witzenhausen
 geojson:
   coordinates:
-  - 9.88396
-  - 51.34103
+  - 9.8556
+  - 51.3400
   precision: city
 ---
 Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen

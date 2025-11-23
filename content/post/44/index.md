@@ -19,10 +19,11 @@ resources:
   params:
     iiif: back/info.json
     content: 25 Jahre Theo Schrader
+address: Johannistorstraße 7/9, Osterode
 geojson:
   coordinates:
-  - 10.2511071
-  - 51.7282798
+  - 10.253312
+  - 51.728256 
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 remarks: |

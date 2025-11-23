@@ -13,10 +13,11 @@ tags:
 - Hamburg
 - Bekleidungsgeschäft
 - "Material: Holz"
+address: Große Johannisstraße 3, Hamburg
 geojson:
   coordinates:
-  - 9.9909485
-  - 53.5497924
+  - 9.993150
+  - 53.549793
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---

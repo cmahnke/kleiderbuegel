@@ -13,10 +13,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Am Schilde 6, Osterode
 geojson:
   coordinates:
-  - 10.2508213
-  - 51.7276
+  - 10.252980
+  - 51.727613
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 remarks: |

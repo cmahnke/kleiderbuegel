@@ -19,10 +19,11 @@ tags:
 - Bekleidungsgeschäft
 - Beidseitig
 - Ketelsen
+address: Hafenstr. 76-80, Bremerhaven
 geojson:
   coordinates:
-  - 8.5815016
-  - 53.5549545
+  - 8.583824
+  - 53.555059
   precision: exact
 seeAlso: |
   * [Ketelsen Bremerhaven-Bürger 42 (#97)](/post/97)

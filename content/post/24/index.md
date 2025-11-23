@@ -14,10 +14,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Kamienna Góra, Polen
 geojson:
   coordinates:
-  - 16.03037
-  - 50.78314
+  - 16.0303
+  - 50.7831
   precision: city
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 remarks: |

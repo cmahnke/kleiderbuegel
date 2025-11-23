@@ -12,10 +12,13 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Ruddestrasse 15, Bremen
 geojson:
   coordinates:
-  - 8.80717
-  - 53.07582
+  - 8.8017
+  - 53.0793
   precision: city
+remarks: |
+  * Die Straße existiert heute nicht mehr
 ---
 Rud. Behrmann Bremen, Ruddestrasse 15

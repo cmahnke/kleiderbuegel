@@ -1,6 +1,6 @@
 ---
 date: 2026-07-28T12:47:44+02:00
-title: "Ludwig Piper, Saarluis"
+title: "Ludwig Piper, Saarlouis"
 type: hanger
 outputs:
 - html
@@ -15,9 +15,10 @@ tags:
 - Saarlouis
 geojson:
   coordinates:
-  - 6.7464707
-  - 49.3155451
+  - 6.748973
+  - 49.315590
   precision: exact
+address: Großer Markt, Saarlouis
 remarks: |
   * [Eintrag in der Wikipedia](https://de.wikipedia.org/wiki/Ludwig_Pieper)
   * [Heutige Webseite](https://pieper-saarlouis.de/)

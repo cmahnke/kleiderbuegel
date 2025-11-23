@@ -12,11 +12,14 @@ resources:
 tags:
 - "Material: Holz"
 - Heide
+address: Markt 26, Heide
 geojson:
   coordinates:
-  - 9.0902433
-  - 54.1935575
+  - 9.092478
+  - 54.194006
   precision: exact
+remarks: |
+  * [Das Gebäude in der Wikipedia](https://de.wikipedia.org/wiki/Datei:Markt_26_Heide.jpg)
 ---
 Herrenausstatter
 hagenah

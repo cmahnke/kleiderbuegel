@@ -14,10 +14,11 @@ resources:
   params:
     iiif: front/info.json
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+address: Gosslerstraße 42, Göttingen
 geojson:
   coordinates:
-  - 9.9342113
-  - 51.54579
+  - 9.936387
+  - 51.545794
   precision: exact
 ---
 Pelz

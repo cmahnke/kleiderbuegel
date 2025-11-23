@@ -12,11 +12,12 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Printzstraße, Karlsruhe
 geojson:
   coordinates:
-  - 8.40444
-  - 49.00937
-  precision: city
+  - 8.46286
+  - 49.02191
+  precision: street
 remarks: |
   * [Stadtarchiv Karlsruhe: Geschichte der Printz Reinigung](https://stadtlexikon.karlsruhe.de/index.php/De:Lexikon:ins-0039)
 ---

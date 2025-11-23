@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - Sprottau
 doublesided: true
+address: Szprotawa
 geojson:
   coordinates:
-  - 15.4807126
-  - 51.5608938
+  - 15.5379
+  - 51.5669
   precision: city
 remarks: |
   * [Szprotawa (heutiger Name von Sprottau) in der Wikipedia](https://de.wikipedia.org/wiki/Szprotawa)

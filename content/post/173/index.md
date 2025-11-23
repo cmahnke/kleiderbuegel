@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - Koblenz
 - Warenhaus
+address: Am Plan, Koblenz
 geojson:
   coordinates:
-  - 7.5925908
-  - 50.360255
+  - 7.59516
+  - 50.36024
   precision: street
 remarks: |
   * [Wikipedia: Kaufhaus Alsberg](https://de.wikipedia.org/wiki/Kaufhaus_Alsberg)

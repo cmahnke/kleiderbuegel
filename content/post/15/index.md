@@ -14,10 +14,13 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Weender Straße 75, Göttingen
 geojson:
   coordinates:
-  - 9.9315709
-  - 51.5364472
+  - 9.934185
+  - 51.536453
   precision: exact
+remarks: |
+  * [Eintrag bei NorthData](https://www.northdata.de/Bekleidungshaus+Diekmann+Inh.+Werner+Sauerwald,+G%C3%B6ttingen/HRA+1296)
 ---
 Diekmann Göttingen

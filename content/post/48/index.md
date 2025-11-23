@@ -15,10 +15,11 @@ doublesided: true
 outputs:
 - html
 - iiif-manifest
+address: Neuer Wall 19, Hamburg
 geojson:
   coordinates:
-  - 9.9896316
-  - 53.5519379
+  - 9.991803
+  - 53.552008 
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 related:

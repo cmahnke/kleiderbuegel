@@ -15,10 +15,11 @@ tags:
 - Färberei
 - "Material: Holz"
 - Beidseitig
+address: Gifhorn
 geojson:
   coordinates:
-  - 10.4432176
-  - 52.5085218
+  - 10.5508
+  - 52.4809
   precision: city
 ---
 REINIGT HÜTTEL GIFHORN TELEF. 2311 FÄRBT

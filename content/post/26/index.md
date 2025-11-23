@@ -12,10 +12,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
+address: Halle (Saale)
 geojson:
   coordinates:
-  - 11.97947
-  - 51.48158
+  - 11.9795
+  - 51.4816
   precision: city
 remarks: |
   * [Digitalisat alter Werbung](https://digital.slub-dresden.de/data/kitodo/Auer_173565485X-18990319/Auer_173565485X-18990319_tif/jpegs/00000001.tif.pdf)

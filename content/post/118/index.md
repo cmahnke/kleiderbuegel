@@ -13,10 +13,13 @@ tags:
   - "Material: Holz"
   - Hettlage
   - Mönchengladbach
+address: Hindenburgstraße, Mönchengladbach
 geojson:
   coordinates:
-  - 6.44172
-  - 51.18539
-  precision: city
+  - 6.43616
+  - 51.19403
+  precision: street
+remarks: |
+  * [Rheinische Post: So sah 1980 die Hindenburgstraße aus](https://rp-online.de/nrw/staedte/moenchengladbach/moenchengladbach-so-sah-1980-die-hindenburgstrasse-aus_aid-39011435)
 ---
 R Hettlage M. Gladbach R

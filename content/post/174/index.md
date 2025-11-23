@@ -13,10 +13,11 @@ tags:
 - "Material: Holz"
 - München
 - Bekleidungsgeschäft
+address: Brienner Str. 13, München
 geojson:
   coordinates:
-  - 11.5720278
-  - 48.1430004
+  - 11.574598
+  - 48.142985
   precision: exact
 remarks: |
   * [Eintrag bei kleidermoden - Das Modeportal](https://www.kleidermoden.com/mode-zechbauer-gmbh-in-muenchen-4999)

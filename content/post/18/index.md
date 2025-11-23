@@ -15,10 +15,11 @@ resources:
   params:
     iiif: front/info.json
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+address: Bismarckstraße 69B, Herford
 geojson:
   coordinates:
-  - 8.6941027
-  - 52.1210597
+  - 8.694159
+  - 52.121147
   precision: exact
 ---
 Chem. Reinigung Färberei Kotzenberg Kleiderbad

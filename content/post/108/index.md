@@ -12,11 +12,12 @@ resources:
 tags:
   - Köln
   - "Material: Holz"
+address: Tunisstraße 3, Köln
 geojson:
   coordinates:
-  - 6.9504281
-  - 50.9387237
-  precision: street
+  - 6.952874
+  - 50.938626
+  precision: exact
 remarks: |
   * [Geschichte des heutigen Unternehmens](https://kriesel-a-d-oper.de/content/78/59/wir-ueber-uns)
 ---

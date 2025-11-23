@@ -52,10 +52,12 @@ export function initMap(element, url, source, cluster, marker, style) {
   var iconStyle;
   var markerOptions = {};
   if (marker !== undefined && marker) {
-    try {
-        marker = JSON.parse(marker);
-    } catch (e) {
-      console.warn(`Can't parse marker ${marker}`);
+    if (typeof marker !== 'object') {
+      try {
+          marker = JSON.parse(marker);
+      } catch (e) {
+        console.warn(`Can't parse marker ${marker}`);
+      }
     }
     iconStyle = new Style({image: new Icon(marker)});
     markerOptions = {hitTolerance: 10};
@@ -109,7 +111,10 @@ export function initMap(element, url, source, cluster, marker, style) {
       }
     }
     const originalFeature = feature.get('features')[0];
-    return clusterMemberStyle(originalFeature);
+    //TODO: Check why this might be undefined
+    if (originalFeature !== undefined) {
+      return clusterMemberStyle(originalFeature);
+    }
   }
 
   function mergeFeatures (featureArray) {

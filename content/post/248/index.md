@@ -19,10 +19,11 @@ tags:
 - Warenhaus
 - Beidseitig
 - Karstadt
+address: Mönckebergstraße 16, Hamburg
 geojson:
   coordinates:
-  - 9.998253
-  - 53.550958
+  - 9.998196
+  - 53.551144
   precision: exact
 remarks: |
   * [Wikipedia](https://de.wikipedia.org/wiki/Karstadt_M%C3%B6nckebergstra%C3%9Fe)

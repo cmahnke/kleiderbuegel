@@ -13,10 +13,11 @@ resources:
   params:
     iiif: front/info.json
 #https://www.perladesa.de/altes-halle.htm
+address: Große Ulrichstraße 4/5, Halle
 geojson:
   coordinates:
-  - 11.966377
-  - 51.4844673
+  - 11.969178
+  - 51.484483
   precision: exact
 remarks: |
   * [Gedenkbuch für die Toten des Holocaust in Halle](https://www.gedenkbuch.halle.de/gbdatensatz.php?num=18)

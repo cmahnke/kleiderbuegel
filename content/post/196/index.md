@@ -15,10 +15,10 @@ tags:
 - Hamburg
 geojson:
   coordinates:
-  - 10.0716333
-  - 53.6007934
+  - 10.071455
+  - 53.601010 
   precision: exact
-
+address: Werner-Otto-Straße 1-7, 22179 Hamburg
 ---
 
 Otto-Versand, Hamburg

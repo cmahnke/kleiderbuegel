@@ -15,12 +15,15 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - Beidseitig
+address: Marktstraße 2, Stuttgart
 geojson:
   coordinates:
-  - 9.1789861
-  - 48.774875
+  - 9.178929
+  - 48.774773
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+remarks: |
+  * [Stuttgarter Zeitung: Herrenausstatter Breitling am Marktplatz schließt](https://www.stuttgarter-zeitung.de/inhalt.traditionsgeschaeft-in-stuttgart-herrenausstatter-breitling-am-marktplatz-schliesst.c573570e-fe5a-4d6d-8337-570255a26045.html)
 ---
 Breitling
 Das Haus der guten Kleidung
