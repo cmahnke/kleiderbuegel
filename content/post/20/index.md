@@ -12,7 +12,7 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-# TODO Find place / town
+todo: Find place / town
 ---
 Rob'. Eucken, Schillerstr. 1 Ecke W.havenerstr,
 Uniformen-Zivil-Maßkonfektion

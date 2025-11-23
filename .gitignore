@@ -29,6 +29,9 @@ content/post/*/back.svg
 
 pnpm-lock.yaml
 assets/scss/flags/flags.scss
+assets/scss/fonts/*.scss
+assets/scss/npm-fonts/*.scss
 catalogue.pdf
 .vivliostyle
 Kleiderb*
+kleiderbuegel-map.json
