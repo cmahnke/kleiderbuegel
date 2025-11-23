@@ -33,28 +33,5 @@
             "de": [
               "Hotel zu den vier Jahreszeiten Helmstedt"
             ]}
-        },{
-          "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/manifest.json",
-          "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/front_hu_31abd5af3800f5c8.png",
-    "format": "image/jpeg",
-    "type":"Image",
-    "height": 133,
-    "width": 300
-  },{
-        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/front/full/full/0/default.jpg",
-        "format": "image/jpeg",
-        "type":"Image",
-        "height": 1697,
-        "width": 3830,
-        "service": [{
-          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/front",
-          "type": "ImageService2",
-          "profile":"level0"
-        }]
-      }],"label": {
-            "de": [
-              "Wäscherei - Speck, Helmstedt - chem. Reinigung"
-            ]}
         }]
   }

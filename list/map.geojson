@@ -4,11 +4,11 @@
   "type": "Feature",
   "properties": {
       "name": "Arthur Johannsen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Arthur Johannsen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003cp\u003eArthur\nJohannsen\u003c/p\u003e\n\u003cp\u003eHerren-Spezialgeschäft\nNiebüll Ruf 505\u003c/p\u003e\n\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/162/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eArthur Johannsen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\u003cp\u003eArthur\nJohannsen\u003c/p\u003e\n\u003cp\u003eHerren-Spezialgeschäft\nNiebüll Ruf 505\u003c/p\u003e\n\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eHauptstraße 22, Niebüll\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/162/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.8246852,54.7881493]
+    "coordinates": [8.827224,54.788115]
   }
 }
 
@@ -19,11 +19,11 @@
   "type": "Feature",
   "properties": {
       "name": "Damen- u. Herrenmoden Wilh. Deppe Einbeck",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Damen- u. Herrenmoden Wilh. Deppe Einbeck\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Damen- u. Herrenmoden\nWilh. Deppe\nEinbeck\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/161/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eDamen- u. Herrenmoden Wilh. Deppe Einbeck\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eDamen- u. Herrenmoden\nWilh. Deppe\nEinbeck\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBackofenstraße 5, Einbeck\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/161/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.86961,51.82018]
+    "coordinates": [9.866752,51.816182]
   }
 }
 
@@ -34,11 +34,11 @@
   "type": "Feature",
   "properties": {
       "name": "Wäscherei Kleiderbad Meyer Chem. Reinigung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei Kleiderbad Meyer Chem. Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Wäscherei Kleiderbad\nMeyer\nChem. Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/160/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eWäscherei Kleiderbad Meyer Chem. Reinigung\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eWäscherei Kleiderbad\nMeyer\nChem. Reinigung\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGöttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/160/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.93228,51.53443]
+    "coordinates": [9.9158,51.5413]
   }
 }
 
@@ -49,11 +49,11 @@
   "type": "Feature",
   "properties": {
       "name": "Herrenkleidung flebbe Braunschweig",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Herrenkleidung flebbe Braunschweig\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Herrenkleidung\nflebbe\nBraunschweig\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/156/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHerrenkleidung flebbe Braunschweig\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eHerrenkleidung\nflebbe\nBraunschweig\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBohlweg 1, Braunschweig\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/156/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [10.5228263,52.2624323]
+    "coordinates": [10.5254,52.262404]
   }
 }
 
@@ -64,11 +64,11 @@
   "type": "Feature",
   "properties": {
       "name": "ALANA FURS",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        ALANA FURS\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Cold Fur Storage \u0026amp; Repairs ALANA FURS 676 Yonge St. WA 5-3441\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/153/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eALANA FURS\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eCold Fur Storage \u0026amp; Repairs ALANA FURS 676 Yonge St. WA 5-3441\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003e676 Yonge St, Toronto, Canada\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/153/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [-79.388412,43.6673407]
+    "coordinates": [-79.385814,43.667337]
   }
 }
 
@@ -79,11 +79,11 @@
   "type": "Feature",
   "properties": {
       "name": "Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/152/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKarl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKarl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWitzenhausen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/152/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.88396,51.34103]
+    "coordinates": [9.8556,51.34]
   }
 }
 
@@ -94,11 +94,11 @@
   "type": "Feature",
   "properties": {
       "name": "Färberei Croon Osnabrück",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Färberei Croon Osnabrück\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Färberei Croon Osnabrück\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/151/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eFärberei Croon Osnabrück\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eFärberei Croon Osnabrück\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eOsnabrück\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/151/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.0498,52.27264]
+    "coordinates": [8.0472,52.2799]
   }
 }
 
@@ -109,11 +109,11 @@
   "type": "Feature",
   "properties": {
       "name": "C.H. Wehmeyer, Schloss Holte",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        C.H. Wehmeyer, Schloss Holte\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Reinigung\nC.H. Wehmeyer, Schloss Holte\nRuf 533\nKleiderbad\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/150/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eC.H. Wehmeyer, Schloss Holte\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eReinigung\nC.H. Wehmeyer, Schloss Holte\nRuf 533\nKleiderbad\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eSchloss Holte\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/150/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.61868,51.90106]
+    "coordinates": [8.636,51.9027]
   }
 }
 
@@ -124,26 +124,11 @@
   "type": "Feature",
   "properties": {
       "name": "Erdmann Kleidung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Erdmann Kleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Erdmann Kleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/149/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eErdmann Kleidung\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eErdmann Kleidung\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGroße Packhofstraße 34, Hannover\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/149/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.7344751,52.3739932]
-  }
-}
-
-
-
-
-,{
-  "type": "Feature",
-  "properties": {
-      "name": "CINTRES",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        CINTRES\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        CINTRES\n[B]EHLEB\nMODE[?]POSE\nTENDEUR\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/146/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [7.5159238,50.3133294]
+    "coordinates": [9.737054,52.373982]
   }
 }
 
@@ -154,11 +139,11 @@
   "type": "Feature",
   "properties": {
       "name": "Weinhaus goldene Traube",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Weinhaus goldene Traube\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Weinhaus goldene Traube\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/145/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eWeinhaus goldene Traube\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eWeinhaus goldene Traube\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eHerrenstraße 6\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/145/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [7.5159238,50.3133294]
+    "coordinates": [7.518492,50.313391]
   }
 }
 
@@ -169,11 +154,11 @@
   "type": "Feature",
   "properties": {
       "name": "Maßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Maßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Maßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/144/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMaßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMaßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWaidmannsluster Damm 14, Berlin\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/144/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [13.2864904,52.5955534]
+    "coordinates": [13.289049,52.595504]
   }
 }
 
@@ -184,11 +169,11 @@
   "type": "Feature",
   "properties": {
       "name": "flebbe",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        flebbe\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        flebbe\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/143/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eflebbe\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eflebbe\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBohlweg 1, Braunschweig\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/143/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [10.5228263,52.2624323]
+    "coordinates": [10.5254,52.262404]
   }
 }
 
@@ -199,11 +184,11 @@
   "type": "Feature",
   "properties": {
       "name": "Wittke Größtes Herren-Spezialhaus Dithmarschens",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wittke Größtes Herren-Spezialhaus Dithmarschens\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Wittke Größtes Herren-Spezialhaus Dithmarschens\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/142/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eWittke Größtes Herren-Spezialhaus Dithmarschens\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eWittke Größtes Herren-Spezialhaus Dithmarschens\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eFriedrichstraße 9-13, Heide\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/142/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.0943041,54.1946868]
+    "coordinates": [9.095635,54.194716]
   }
 }
 
@@ -214,11 +199,11 @@
   "type": "Feature",
   "properties": {
       "name": "Textil u. Modenhaus Gebr. Simon Steinheim",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Textil u. Modenhaus Gebr. Simon Steinheim\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Textil u. Modenhaus Gebr. Simon Steinheim\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/141/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eTextil u. Modenhaus Gebr. Simon Steinheim\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eTextil u. Modenhaus Gebr. Simon Steinheim\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eSteinheim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/141/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.09136,51.87066]
+    "coordinates": [9.0864,51.8698]
   }
 }
 
@@ -229,11 +214,11 @@
   "type": "Feature",
   "properties": {
       "name": "Herrenausstatter hagenah Heide • Markt 26",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Herrenausstatter hagenah Heide • Markt 26\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Herrenausstatter\nhagenah\nHeide • Markt 26\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/137/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHerrenausstatter hagenah Heide • Markt 26\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eHerrenausstatter\nhagenah\nHeide • Markt 26\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMarkt 26, Heide\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/137/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.0902433,54.1935575]
+    "coordinates": [9.092478,54.194006]
   }
 }
 
@@ -244,11 +229,11 @@
   "type": "Feature",
   "properties": {
       "name": "Moden - Denzler - Northeim seit 1920",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Moden - Denzler - Northeim seit 1920\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Moden - Denzler - Northeim\nseit 1920\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/132/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eModen - Denzler - Northeim seit 1920\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eModen - Denzler - Northeim\nseit 1920\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eNortheim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/132/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.99997,51.70662]
+    "coordinates": [9.9959,51.7002]
   }
 }
 
@@ -259,11 +244,11 @@
   "type": "Feature",
   "properties": {
       "name": "Färberei Bode Reinigung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Färberei Bode Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Färberei Bode Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/128/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eFärberei Bode Reinigung\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eFärberei Bode Reinigung\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eHannover\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/128/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.73322,52.37052]
+    "coordinates": [9.732,52.3759]
   }
 }
 
@@ -274,11 +259,11 @@
   "type": "Feature",
   "properties": {
       "name": "Möller &amp; Schade Das Haus der guten Kleidung Cuxhaven",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Möller \u0026amp; Schade Das Haus der guten Kleidung Cuxhaven\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Möller \u0026amp; Schade\nDas Haus der guten Kleidung\nCuxhaven\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/127/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMöller \u0026amp; Schade Das Haus der guten Kleidung Cuxhaven\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMöller \u0026amp; Schade\nDas Haus der guten Kleidung\nCuxhaven\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWesterwischweg 15, Cuxhaven\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/127/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.690482,53.8589238]
+    "coordinates": [8.692981,53.858865]
   }
 }
 
@@ -289,11 +274,11 @@
   "type": "Feature",
   "properties": {
       "name": "Gebhards Hotel, Göttingen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Gebhards Hotel, Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Gebhards Hotel, Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/125/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eGebhards Hotel, Göttingen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eGebhards Hotel, Göttingen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGoethe-Allee 22-23, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/125/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9261459,51.5350707]
+    "coordinates": [9.928734,51.535054]
   }
 }
 
@@ -304,11 +289,11 @@
   "type": "Feature",
   "properties": {
       "name": "Herrenbekleidung Hut-Weber Höxter Herrenaustattung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Herrenbekleidung Hut-Weber Höxter Herrenaustattung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Herrenbekleidung\nHut-Weber\nHöxter Herrenaustattung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/123/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHerrenbekleidung Hut-Weber Höxter Herrenaustattung\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eHerrenbekleidung\nHut-Weber\nHöxter Herrenaustattung\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eNicolaistraße 1, Höxter\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/123/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.3786778,51.7743768]
+    "coordinates": [9.381629,51.77668]
   }
 }
 
@@ -319,11 +304,11 @@
   "type": "Feature",
   "properties": {
       "name": "Erdmann Kleidung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Erdmann Kleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Erdmann\nKleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eErdmann Kleidung\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eErdmann\nKleidung\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGroße Packhofstraße 34/35, Hannover\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.7344751,52.3739932]
+    "coordinates": [9.736924,52.373986]
   }
 }
 
@@ -334,11 +319,11 @@
   "type": "Feature",
   "properties": {
       "name": "Heinrich Kuhn, Augsburg Bahnhofstr. 5.",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Heinrich Kuhn, Augsburg Bahnhofstr. 5.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Heinrich Kuhn, Augsburg Bahnhofstr. 5.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/119/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHeinrich Kuhn, Augsburg Bahnhofstr. 5.\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eHeinrich Kuhn, Augsburg Bahnhofstr. 5.\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBahnhofstr. 5, Augsburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/119/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [10.8897416,48.3660598]
+    "coordinates": [10.892254,48.366147]
   }
 }
 
@@ -349,11 +334,11 @@
   "type": "Feature",
   "properties": {
       "name": "R Hettlage M. Gladbach R",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        R Hettlage M. Gladbach R\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        R Hettlage M. Gladbach R\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/118/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eR Hettlage M. Gladbach R\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eR Hettlage M. Gladbach R\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eHindenburgstraße, Mönchengladbach\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/118/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [6.44172,51.18539]
+    "coordinates": [6.43616,51.19403]
   }
 }
 
@@ -364,11 +349,11 @@
   "type": "Feature",
   "properties": {
       "name": "Kassel Modehaus Schulz Witzenhausen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Kassel Modehaus Schulz Witzenhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Kassel Modehaus Schulz Witzenhausen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/117/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKassel Modehaus Schulz Witzenhausen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKassel Modehaus Schulz Witzenhausen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eErmschwerder Str. 18, Witzenhausen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/117/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.8554372,51.3426741]
+    "coordinates": [9.856278,51.342711]
   }
 }
 
@@ -379,11 +364,11 @@
   "type": "Feature",
   "properties": {
       "name": "Quick Shop",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Quick Shop\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        NIEUWKUIS IN 2 UUR\nBLANKENBERGE\nKNOKKE\nTEL.410.48\nTEL.637.34\nQUICK SHOP\nNETTOYAGE A NEUF EN 2 HEURES\nBRUXELLES - BRUSSEL\nTEL.15.02.79 - 11.33.70 - 18.67.82\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/116/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eQuick Shop\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eNIEUWKUIS IN 2 UUR\nBLANKENBERGE\nKNOKKE\nTEL.410.48\nTEL.637.34\nQUICK SHOP\nNETTOYAGE A NEUF EN 2 HEURES\nBRUXELLES - BRUSSEL\nTEL.15.02.79 - 11.33.70 - 18.67.82\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBrüssel, Belgien\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/116/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [4.34878,50.85045]
+    "coordinates": [4.3517,50.8467]
   }
 }
 
@@ -394,11 +379,11 @@
   "type": "Feature",
   "properties": {
       "name": "Mäntelhaus Kaiser",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Mäntelhaus Kaiser\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Mäntelhaus Kaiser\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/115/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMäntelhaus Kaiser\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMäntelhaus Kaiser\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eKarmarschstraße 27, Hannover\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/115/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.7331229,52.3727407]
+    "coordinates": [9.737967,52.372709]
   }
 }
 
@@ -409,11 +394,11 @@
   "type": "Feature",
   "properties": {
       "name": "Bremerhaven Ketelsen Hafenstr. 76-80",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bremerhaven Ketelsen Hafenstr. 76-80\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Bremerhaven Ketelsen Hafenstr. 76-80\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/114/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eBremerhaven Ketelsen Hafenstr. 76-80\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eBremerhaven Ketelsen Hafenstr. 76-80\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eHafenstr. 76-80, Bremerhaven\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/114/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.5815016,53.5549545]
+    "coordinates": [8.583824,53.555059]
   }
 }
 
@@ -424,11 +409,11 @@
   "type": "Feature",
   "properties": {
       "name": "Lüneburg W. Marwitz Wäscherei Färberei Chem. Reinigung Ruf 52044",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Lüneburg W. Marwitz Wäscherei Färberei Chem. Reinigung Ruf 52044\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Lüneburg\nW. Marwitz\nWäscherei Färberei Chem. Reinigung\nRuf 52044\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/109/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eLüneburg W. Marwitz Wäscherei Färberei Chem. Reinigung Ruf 52044\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eLüneburg\nW. Marwitz\nWäscherei Färberei Chem. Reinigung\nRuf 52044\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eTheodor-Marwitz-Straße 1, Lüneburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/109/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [10.4739487,53.2443207]
+    "coordinates": [10.476885,53.24349]
   }
 }
 
@@ -439,11 +424,11 @@
   "type": "Feature",
   "properties": {
       "name": "Sangermann Köln",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Sangermann Köln\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Sangermann Köln\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/108/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eSangermann Köln\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eSangermann Köln\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eTunisstraße 3, Köln\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/108/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [6.9504281,50.9387237]
+    "coordinates": [6.952874,50.938626]
   }
 }
 
@@ -454,11 +439,11 @@
   "type": "Feature",
   "properties": {
       "name": "Northeimer Rekort- Bekleidung P. Haase und Söhne",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Northeimer Rekort- Bekleidung P. Haase und Söhne\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Northeimer Rekort- Bekleidung P. Haase und Söhne\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/107/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eNortheimer Rekort- Bekleidung P. Haase und Söhne\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eNortheimer Rekort- Bekleidung P. Haase und Söhne\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eNortheim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/107/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.99997,51.70662]
+    "coordinates": [9.9959,51.7002]
   }
 }
 
@@ -469,11 +454,11 @@
   "type": "Feature",
   "properties": {
       "name": "Frank &amp; Krause Delmenhorst",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Frank \u0026amp; Krause Delmenhorst\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        30 Jahre\nHerren- und Damenbekleidung\nFrank \u0026amp; Krause Delmenhorst\nRuf 2090\nMaßkonfektion\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/106/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eFrank \u0026amp; Krause Delmenhorst\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e30 Jahre\nHerren- und Damenbekleidung\nFrank \u0026amp; Krause Delmenhorst\nRuf 2090\nMaßkonfektion\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eDelmenhorst\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/106/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.63091,53.0511]
+    "coordinates": [8.6356,53.0522]
   }
 }
 
@@ -484,11 +469,11 @@
   "type": "Feature",
   "properties": {
       "name": "Mäntel und Pelze Eichmeyer &amp; Co., Hamburg Mönkebergstr.",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Mäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Mäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/105/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMönkebergstraße, Hamburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/105/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9967294,53.5508513]
+    "coordinates": [9.99919,53.55084]
   }
 }
 
@@ -499,11 +484,11 @@
   "type": "Feature",
   "properties": {
       "name": "Braunschweig Poplau &amp; Co. Damm 1",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Braunschweig Poplau \u0026amp; Co. Damm 1\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Braunschweig\nPoplau \u0026amp; Co.\nDamm 1\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/104/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eBraunschweig Poplau \u0026amp; Co. Damm 1\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eBraunschweig\nPoplau \u0026amp; Co.\nDamm 1\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eDamm 1, Braunschweig\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/104/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [10.5169391,52.2624586]
+    "coordinates": [10.521782,52.262392]
   }
 }
 
@@ -514,11 +499,11 @@
   "type": "Feature",
   "properties": {
       "name": "Hotel zu den vier Jahreszeiten Helmstedt",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel zu den vier Jahreszeiten Helmstedt\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel zu den vier Jahreszeiten Helmstedt\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/103/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHotel zu den vier Jahreszeiten Helmstedt\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eHotel zu den vier Jahreszeiten Helmstedt\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eHolzberg 23, Helmstedt\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/103/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [11.0052325,52.2262765]
+    "coordinates": [11.010117,52.226248]
   }
 }
 
@@ -529,11 +514,11 @@
   "type": "Feature",
   "properties": {
       "name": "MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/101/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eEngelbertstraße 2, Gelsenkirchen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/101/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [7.09654,51.50508]
+    "coordinates": [7.113785,51.579522]
   }
 }
 
@@ -544,11 +529,11 @@
   "type": "Feature",
   "properties": {
       "name": "Paul Luck, Waren (Müritz) Herren - u. Knabenbekleidung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Paul Luck, Waren (Müritz) Herren - u. Knabenbekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Paul Luck,\nWaren (Müritz)\nHerren - u. Knabenbekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/99/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003ePaul Luck, Waren (Müritz) Herren - u. Knabenbekleidung\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003ePaul Luck,\nWaren (Müritz)\nHerren - u. Knabenbekleidung\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWaren (Müritz)\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/99/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [12.67985,53.5204]
+    "coordinates": [12.6819,53.5162]
   }
 }
 
@@ -559,11 +544,11 @@
   "type": "Feature",
   "properties": {
       "name": "Ketelsen Bremerhaven-Bürger 42",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ketelsen Bremerhaven-Bürger 42\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Ketelsen Bremerhaven-Bürger 42\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKetelsen Bremerhaven-Bürger 42\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKetelsen Bremerhaven-Bürger 42\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBürgermeister-Smidt-Straße 42, Bremerhaven\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/97/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.5760938,53.5432945]
+    "coordinates": [8.578613,53.543288]
   }
 }
 
@@ -574,11 +559,11 @@
   "type": "Feature",
   "properties": {
       "name": "Dorum Fritz von Geldern Bederkesa",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Dorum Fritz von Geldern Bederkesa\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Dorum\nFritz von Geldern\nBederkesa\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/96/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eDorum Fritz von Geldern Bederkesa\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eDorum\nFritz von Geldern\nBederkesa\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMattenburger Str., 2 Bad Bederkesa\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/96/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.5647551,53.6889731]
+    "coordinates": [8.841189,53.62539]
   }
 }
 
@@ -589,11 +574,11 @@
   "type": "Feature",
   "properties": {
       "name": "Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eErnst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eErnst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eLange Str. 39-45, Buxtehude\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.6965481,53.4755114]
+    "coordinates": [9.699113,53.475498]
   }
 }
 
@@ -604,11 +589,11 @@
   "type": "Feature",
   "properties": {
       "name": "Wäscherei - Speck, Helmstedt - chem. Reinigung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei - Speck, Helmstedt - chem. Reinigung\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eWäscherei - Speck, Helmstedt - chem. Reinigung\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eHelmstedt\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/94/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [11.00985,52.2279]
+    "coordinates": [11.0037,52.2273]
   }
 }
 
@@ -618,12 +603,12 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Konfenktionshaus Fritz Becker Warburg i. W.",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Konfenktionshaus Fritz Becker Warburg i. W.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Konfenktionshaus Fritz Becker Warburg i. W.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "name": "Konfektionshaus Fritz Becker Warburg i. W.",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKonfektionshaus Fritz Becker Warburg i. W.\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKonfektionshaus Fritz Becker Warburg i. W.\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWarburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.14641,51.49011]
+    "coordinates": [9.1452,51.4899]
   }
 }
 
@@ -634,11 +619,11 @@
   "type": "Feature",
   "properties": {
       "name": "Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/92/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eOtto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eOtto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eTrzcianka\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/92/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [16.45629,53.04063]
+    "coordinates": [16.4617,53.0419]
   }
 }
 
@@ -649,11 +634,11 @@
   "type": "Feature",
   "properties": {
       "name": "Friedrich Schefft OHG., Textilwaren Uslar",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Friedrich Schefft OHG., Textilwaren Uslar\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Friedrich Schefft OHG., Textilwaren Uslar\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/91/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eFriedrich Schefft OHG., Textilwaren Uslar\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eFriedrich Schefft OHG., Textilwaren Uslar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eKurze Str. 12, Uslar\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/91/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.6329863,51.660725]
+    "coordinates": [9.635517,51.660711]
   }
 }
 
@@ -663,12 +648,12 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Chem. Reiningung Schulte Essen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Chem. Reiningung Schulte Essen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Chem. Reiningung Schulte Essen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/90/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "name": "Chem. Reinigung Schulte Essen",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eChem. Reinigung Schulte Essen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eChem. Reinigung Schulte Essen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eFrankenstraße 276, Essen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/90/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [7.0225084,51.4206469]
+    "coordinates": [7.024995,51.42066]
   }
 }
 
@@ -679,11 +664,11 @@
   "type": "Feature",
   "properties": {
       "name": "Hotel Ruhwinkel Ostseebad Grömitz",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel Ruhwinkel Ostseebad Grömitz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel Ruhwinkel\nOstseebad Grömitz\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/89/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHotel Ruhwinkel Ostseebad Grömitz\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eHotel Ruhwinkel\nOstseebad Grömitz\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWiesengrund 12-14, Grömitz\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/89/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [10.9478517,54.152259]
+    "coordinates": [10.964317,54.150283]
   }
 }
 
@@ -694,11 +679,11 @@
   "type": "Feature",
   "properties": {
       "name": "P.A. Das modische Textilhaus, Bad Mergentheim An der Stadtkirche",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        P.A. Das modische Textilhaus, Bad Mergentheim An der Stadtkirche\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        P.A. Das modische Textilhaus,\nBad Mergentheim\nAn der Stadtkirche\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/88/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eP.A. Das modische Textilhaus, Bad Mergentheim An der Stadtkirche\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eP.A. Das modische Textilhaus,\nBad Mergentheim\nAn der Stadtkirche\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBad Mergentheim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/88/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.77361,49.4925]
+    "coordinates": [9.7704,49.4885]
   }
 }
 
@@ -709,11 +694,11 @@
   "type": "Feature",
   "properties": {
       "name": "Schlüsing mann + mode Bremerhaven-G.",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Schlüsing mann \u0026#43; mode Bremerhaven-G.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Schlüsing\nmann + mode\nBremerhaven-G.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eSchlüsing mann \u0026#43; mode Bremerhaven-G.\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eSchlüsing\nmann + mode\nBremerhaven-G.\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBorriesstraße 9, Bremerhaven\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/87/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.5908051,53.5335032]
+    "coordinates": [8.586626,53.538758]
   }
 }
 
@@ -724,11 +709,11 @@
   "type": "Feature",
   "properties": {
       "name": "Hotel zur Linde Spiekeroog",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel zur Linde Spiekeroog\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel zur Linde Spiekeroog\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/86/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHotel zur Linde Spiekeroog\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eHotel zur Linde Spiekeroog\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eNoorderloog 5, Spiekeroog\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/86/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [7.6923712,53.7707204]
+    "coordinates": [7.694924,53.770675]
   }
 }
 
@@ -739,11 +724,11 @@
   "type": "Feature",
   "properties": {
       "name": "Mäntelhaus 40 Kaiser 40",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Mäntelhaus 40 Kaiser 40\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Mäntelhaus\n40 Kaiser 40\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/85/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMäntelhaus 40 Kaiser 40\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMäntelhaus\n40 Kaiser 40\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eKarmarschstraße 27, Hannover\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/85/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.7331229,52.3727407]
+    "coordinates": [9.737967,52.372709]
   }
 }
 
@@ -754,11 +739,11 @@
   "type": "Feature",
   "properties": {
       "name": "Beckmann &amp; Wortmann",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Beckmann \u0026amp; Wortmann\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Damen- Herren- und Kinder-Kleidung\nBeckmann \u0026amp; Wortmann\nMainz\nam Dom, Markt 2-6\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/84/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eBeckmann \u0026amp; Wortmann\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eDamen- Herren- und Kinder-Kleidung\nBeckmann \u0026amp; Wortmann\nMainz\nam Dom, Markt 2-6\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMarkt 2-6, Mainz\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/84/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.2717854,49.998805]
+    "coordinates": [8.273218,49.999251]
   }
 }
 
@@ -769,11 +754,11 @@
   "type": "Feature",
   "properties": {
       "name": "Mau &amp; Andresen Flensburg",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Mau \u0026amp; Andresen Flensburg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Mau \u0026amp; Andresen Flensburg\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/83/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMau \u0026amp; Andresen Flensburg\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMau \u0026amp; Andresen Flensburg\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eNikolaistraße 2, Flensburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/83/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.4329524,54.7844125]
+    "coordinates": [9.43561,54.784454]
   }
 }
 
@@ -784,11 +769,11 @@
   "type": "Feature",
   "properties": {
       "name": "ALOYS BUNGE Bekleidungshaus HANNOVER",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        ALOYS BUNGE Bekleidungshaus HANNOVER\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        ALOYS BUNGE\nBekleidungshaus\nHANNOVER\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eALOYS BUNGE Bekleidungshaus HANNOVER\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eALOYS BUNGE\nBekleidungshaus\nHANNOVER\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eLister Meile 32, Hannover\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/82/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.73322,52.37052]
+    "coordinates": [9.745733,52.382808]
   }
 }
 
@@ -799,11 +784,11 @@
   "type": "Feature",
   "properties": {
       "name": "Damen-Moden W. Renneberg",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Damen-Moden W. Renneberg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Damen-Moden W. Renneberg Northeim\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/77/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eDamen-Moden W. Renneberg\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eDamen-Moden W. Renneberg Northeim\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBreite Str. 8-9, Northeim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/77/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9979289,51.705316]
+    "coordinates": [10.000146,51.705353]
   }
 }
 
@@ -814,11 +799,11 @@
   "type": "Feature",
   "properties": {
       "name": "Schnellreinigung W. Freitag Hildesheim",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Schnellreinigung W. Freitag Hildesheim\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        perfekte Schnellreinigung W. Freitag Hildesheim Tel. 6782\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/76/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eSchnellreinigung W. Freitag Hildesheim\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eperfekte Schnellreinigung W. Freitag Hildesheim Tel. 6782\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eHildesheim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/76/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.95112,52.15077]
+    "coordinates": [9.9511,52.1507]
   }
 }
 
@@ -829,11 +814,11 @@
   "type": "Feature",
   "properties": {
       "name": "Theaterkunst GMBH.",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Theaterkunst GMBH.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Theaterkunst GMBH.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/75/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eTheaterkunst GMBH.\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eTheaterkunst GMBH.\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eEisenzahnstraße 43-44, Berlin\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/75/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [13.3048677,52.4912242]
+    "coordinates": [13.305113,52.491295]
   }
 }
 
@@ -844,11 +829,11 @@
   "type": "Feature",
   "properties": {
       "name": "Bekleidungshaus Manschott Haus der 5000 Hosen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus Manschott Haus der 5000 Hosen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Bekleidungshaus Manschott Haus der 5000 Hosen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/74/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eBekleidungshaus Manschott Haus der 5000 Hosen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eBekleidungshaus Manschott Haus der 5000 Hosen\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBohlweg 62/63, Braunschweig\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/74/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [10.52673,52.26594]
+    "coordinates": [10.5268,52.2689]
   }
 }
 
@@ -859,11 +844,11 @@
   "type": "Feature",
   "properties": {
       "name": "J.Braun Gr. Johannisstraße 3",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        J.Braun Gr. Johannisstraße 3\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Damen-Bekleidung Hamburg J.Braun Gr. Johannisstraße 3 Herren-Bekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eJ.Braun Gr. Johannisstraße 3\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eDamen-Bekleidung Hamburg J.Braun Gr. Johannisstraße 3 Herren-Bekleidung\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGroße Johannisstraße 3, Hamburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9909485,53.5497924]
+    "coordinates": [9.99315,53.549793]
   }
 }
 
@@ -874,11 +859,11 @@
   "type": "Feature",
   "properties": {
       "name": "Klinik Wetterau der BfA",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Klinik Wetterau der BfA\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        \u003ca href=\"https://wetterau.deutsche-rentenversicherung-reha-zentren.de/\" target=\"_blank\"\u003eKlinik Wetterau der BfA\u003c/a\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/72/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKlinik Wetterau der BfA\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\u003ca href=\"https://wetterau.deutsche-rentenversicherung-reha-zentren.de/\" target=\"_blank\"\u003eKlinik Wetterau der BfA\u003c/a\u003e\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eZanderstraße 30-32, Bad Nauheim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/72/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.74474,50.35916]
+    "coordinates": [8.744969,50.359036]
   }
 }
 
@@ -889,11 +874,11 @@
   "type": "Feature",
   "properties": {
       "name": "Esders Siegen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Esders Siegen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Esders Siegen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eEsders Siegen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eEsders Siegen\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMarburger Straße, Siegen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/71/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.02431,50.87481]
+    "coordinates": [8.02694,50.87581]
   }
 }
 
@@ -904,11 +889,11 @@
   "type": "Feature",
   "properties": {
       "name": "Hotel Bachmair am See",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel Bachmair am See\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel Bachmair am See Rottach - Egern / Tegernsee\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/70/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHotel Bachmair am See\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eHotel Bachmair am See Rottach - Egern / Tegernsee\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eSeestraße 47, Rottach-Egern\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/70/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [11.76398,47.695456]
+    "coordinates": [11.763924,47.695523]
   }
 }
 
@@ -919,11 +904,11 @@
   "type": "Feature",
   "properties": {
       "name": "Breitling Stuttgart",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Breitling Stuttgart\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Breitling\nDas Haus der guten Kleidung\nStuttgart\nHerrenbekleidung Damenbekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/69/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eBreitling Stuttgart\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eBreitling\nDas Haus der guten Kleidung\nStuttgart\nHerrenbekleidung Damenbekleidung\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMarktstraße 2, Stuttgart\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/69/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.1789861,48.774875]
+    "coordinates": [9.178929,48.774773]
   }
 }
 
@@ -934,11 +919,11 @@
   "type": "Feature",
   "properties": {
       "name": "Bekleidungshaus BUCHMANN Wolfhagen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus BUCHMANN Wolfhagen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Bekleidungshaus BUCHMANN Wolfhagen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/68/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eBekleidungshaus BUCHMANN Wolfhagen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eBekleidungshaus BUCHMANN Wolfhagen\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWolfhagen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/68/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.17015,51.32611]
+    "coordinates": [9.1711,51.3265]
   }
 }
 
@@ -949,11 +934,11 @@
   "type": "Feature",
   "properties": {
       "name": "Wäschepflege TESTORP",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäschepflege TESTORP\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Wäschepflege TESTORP Ruf 221244\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eWäschepflege TESTORP\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eWäschepflege TESTORP Ruf 221244\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eHamburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/67/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.99302,53.55073]
+    "coordinates": [9.9872,53.5488]
   }
 }
 
@@ -964,11 +949,11 @@
   "type": "Feature",
   "properties": {
       "name": "Hotel - Pension Kardell",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel - Pension Kardell\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel - Pension Kardell 8875032\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/66/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHotel - Pension Kardell\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eHotel - Pension Kardell 8875032\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eSybelstr.33, Berlin\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/66/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [13.2951914,52.5021202]
+    "coordinates": [13.297131,52.501992]
   }
 }
 
@@ -979,11 +964,11 @@
   "type": "Feature",
   "properties": {
       "name": "C. Louis Weber Hannover",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        C. Louis Weber Hannover\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        C. Louis Weber Hannover\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eC. Louis Weber Hannover\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eC. Louis Weber Hannover\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGroße Packhofstr. 30, Hannover\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/65/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.7311875,52.3760738]
+    "coordinates": [9.737287,52.374366]
   }
 }
 
@@ -994,11 +979,11 @@
   "type": "Feature",
   "properties": {
       "name": "Ernst Fricke",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ernst Fricke\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Ernst Fricke Inh. Aug. Albrecht Göttingen Zindelstr. 6\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/61/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eErnst Fricke\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eErnst Fricke Inh. Aug. Albrecht Göttingen Zindelstr. 6\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eZindelstr. 6, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/61/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9320614,51.5323115]
+    "coordinates": [9.934293,51.532329]
   }
 }
 
@@ -1009,26 +994,11 @@
   "type": "Feature",
   "properties": {
       "name": "Jordan",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Jordan\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        „Herrenausstatter“ Jordan  Bremerhaven-G. Ruf 21332\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/60/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eJordan\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e„Herrenausstatter“ Jordan  Bremerhaven-G. Ruf 21332\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGeorgstraße 35, Bremerhaven\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/60/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.5869922,53.53217]
-  }
-}
-
-
-
-
-,{
-  "type": "Feature",
-  "properties": {
-      "name": "Fischer · Hettlage · Lampe",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Fischer · Hettlage · Lampe\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        50 Jahre  Dortmund  Fischer · Hettlage · Lampe  Hagen I.W.  50 Jahre\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/59/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [7.466,51.51494]
+    "coordinates": [8.589586,53.53269]
   }
 }
 
@@ -1039,11 +1009,11 @@
   "type": "Feature",
   "properties": {
       "name": "Hasse &amp; Söhne",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hasse \u0026amp; Söhne\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Northeim\nHasse \u0026amp; Söhne Hosen u. Berufsbekleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/58/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHasse \u0026amp; Söhne\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eNortheim\nHasse \u0026amp; Söhne Hosen u. Berufsbekleidung\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eNortheim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/58/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.99997,51.70662]
+    "coordinates": [9.9959,51.7002]
   }
 }
 
@@ -1054,11 +1024,11 @@
   "type": "Feature",
   "properties": {
       "name": "Printz",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Printz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Printz reinigt Kleidung richtig\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/54/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003ePrintz\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003ePrintz reinigt Kleidung richtig\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003ePrintzstraße, Karlsruhe\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/54/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.40444,49.00937]
+    "coordinates": [8.46286,49.02191]
   }
 }
 
@@ -1069,11 +1039,11 @@
   "type": "Feature",
   "properties": {
       "name": "Moritz Cahn",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Moritz Cahn\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Moritz Cahn, Halle a.S.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMoritz Cahn\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMoritz Cahn, Halle a.S.\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGroße Ulrichstraße 4/5, Halle\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [11.966377,51.4844673]
+    "coordinates": [11.969178,51.484483]
   }
 }
 
@@ -1084,11 +1054,11 @@
   "type": "Feature",
   "properties": {
       "name": "Gebr. Schwieger",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Gebr. Schwieger\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Gebr. Schwieger, Frankfurt a/M.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/52/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eGebr. Schwieger\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eGebr. Schwieger, Frankfurt a/M.\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eFrankfurt am Main\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/52/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.68417,50.11552]
+    "coordinates": [8.6821,50.1109]
   }
 }
 
@@ -1099,11 +1069,11 @@
   "type": "Feature",
   "properties": {
       "name": "Carl Schübeler",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Carl Schübeler\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Carl Schübeler Warburg - Westf.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eCarl Schübeler\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eCarl Schübeler Warburg - Westf.\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWarburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.14641,51.49011]
+    "coordinates": [9.1452,51.4899]
   }
 }
 
@@ -1114,11 +1084,11 @@
   "type": "Feature",
   "properties": {
       "name": "Stegmüller",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Stegmüller\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Stegmüller Darmstadt Hinterm Schloss\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/49/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eStegmüller\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eStegmüller Darmstadt Hinterm Schloss\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eLudwigstraße 2, Darmstadt\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/49/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.65027,49.87167]
+    "coordinates": [8.655507,49.871865]
   }
 }
 
@@ -1129,11 +1099,11 @@
   "type": "Feature",
   "properties": {
       "name": "Franz Fahning",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Franz Fahning\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Franz Fahning Hamburg Neuerwall\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/48/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eFranz Fahning\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eFranz Fahning Hamburg Neuerwall\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eNeuer Wall 19, Hamburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/48/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9896316,53.5519379]
+    "coordinates": [9.991803,53.552008]
   }
 }
 
@@ -1144,11 +1114,11 @@
   "type": "Feature",
   "properties": {
       "name": "Modehaus Schulz",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Modehaus Schulz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Modehaus Schulz Kassel\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/46/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eModehaus Schulz\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eModehaus Schulz Kassel\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWilhelmsstraße 13, Kassel\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/46/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.4895439,51.3139111]
+    "coordinates": [9.491959,51.313844]
   }
 }
 
@@ -1159,11 +1129,11 @@
   "type": "Feature",
   "properties": {
       "name": "Overmeyer",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Overmeyer\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Overmeyer Kassel, am Königsplatz\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/45/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eOvermeyer\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eOvermeyer Kassel, am Königsplatz\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eKönigsplatz 38–40, Kassel\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/45/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.4979349,51.3152471]
+    "coordinates": [9.498939,51.315785]
   }
 }
 
@@ -1174,11 +1144,11 @@
   "type": "Feature",
   "properties": {
       "name": "Theo Schrader",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Theo Schrader\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Theo Schrader Osterode/Harz\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/44/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eTheo Schrader\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eTheo Schrader Osterode/Harz\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eJohannistorstraße 7/9, Osterode\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/44/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [10.2511071,51.7282798]
+    "coordinates": [10.253312,51.728256]
   }
 }
 
@@ -1189,11 +1159,11 @@
   "type": "Feature",
   "properties": {
       "name": "Modehaus Stark",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Modehaus Stark\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Modehaus Stark Osterode/Harz\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/43/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eModehaus Stark\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eModehaus Stark Osterode/Harz\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eAm Schilde 6, Osterode\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/43/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [10.2508213,51.7276]
+    "coordinates": [10.25298,51.727613]
   }
 }
 
@@ -1204,11 +1174,11 @@
   "type": "Feature",
   "properties": {
       "name": "Wäscherei MEYER",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei MEYER\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Wäscherei MEYER Göttingen Ruf 58398\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/42/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eWäscherei MEYER\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eWäscherei MEYER Göttingen Ruf 58398\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGöttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/42/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.93228,51.53443]
+    "coordinates": [9.9158,51.5413]
   }
 }
 
@@ -1219,11 +1189,11 @@
   "type": "Feature",
   "properties": {
       "name": "Fritz Felgener",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Fritz Felgener\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Fritz Felgener, Feine Maßschneiderei, Aken a. d. Elbe.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/40/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eFritz Felgener\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eFritz Felgener, Feine Maßschneiderei, Aken a. d. Elbe.\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eAken (Elbe)\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/40/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [11.9669427,51.8393335]
+    "coordinates": [12.0431,51.8539]
   }
 }
 
@@ -1234,11 +1204,11 @@
   "type": "Feature",
   "properties": {
       "name": "Günter Göhlitz",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Günter Göhlitz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Günter Göhlitz Schneidermeister Merseburg Kl. Ritterstr.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/39/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eGünter Göhlitz\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eGünter Göhlitz Schneidermeister Merseburg Kl. Ritterstr.\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eKleine Ritterstraße, Merseburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/39/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [11.9949616,51.3565038]
+    "coordinates": [11.99752,51.35641]
   }
 }
 
@@ -1249,11 +1219,11 @@
   "type": "Feature",
   "properties": {
       "name": "Kaufhaus J.G. Lurch",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Kaufhaus J.G. Lurch\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Kaufhaus J.G. Lurch, Heiligenstadt, Pelzwaren\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/38/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKaufhaus J.G. Lurch\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKaufhaus J.G. Lurch, Heiligenstadt, Pelzwaren\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWilhelmstr. 3, Heilbad Heiligenstadt\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/38/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [10.1332671,51.3774433]
+    "coordinates": [10.133275,51.377462]
   }
 }
 
@@ -1264,11 +1234,11 @@
   "type": "Feature",
   "properties": {
       "name": "Bader Moden",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bader Moden\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Bader Moden\nPforzheim\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/37/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eBader Moden\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eBader Moden\nPforzheim\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMaximilianstraße 65, Pforzheim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/37/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.6813651,48.8929882]
+    "coordinates": [8.682956,48.892845]
   }
 }
 
@@ -1279,11 +1249,11 @@
   "type": "Feature",
   "properties": {
       "name": "Ebbinghaus",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Ebbinghaus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Berlin hat es längst heraus . . . .\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eEbbinghaus\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eBerlin hat es längst heraus . . . .\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBundesallee 104, Berlin\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [13.3346602,52.4728929]
+    "coordinates": [13.328646,52.46564]
   }
 }
 
@@ -1294,11 +1264,11 @@
   "type": "Feature",
   "properties": {
       "name": "Pelz Dröge",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Pelz Dröge\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Pelz Dröge\nKarlsruhe\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/34/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003ePelz Dröge\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003ePelz Dröge\nKarlsruhe\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eKarlsruhe\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/34/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.40444,49.00937]
+    "coordinates": [8.4037,49.0069]
   }
 }
 
@@ -1309,11 +1279,11 @@
   "type": "Feature",
   "properties": {
       "name": "Pelz Quentin",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Pelz Quentin\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Pelz\nQuentin\nKürschnermeister\nGöttingen, Gosslerstr. 42\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/33/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003ePelz Quentin\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003ePelz\nQuentin\nKürschnermeister\nGöttingen, Gosslerstr. 42\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGosslerstraße 42, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/33/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9342113,51.54579]
+    "coordinates": [9.936387,51.545794]
   }
 }
 
@@ -1324,11 +1294,11 @@
   "type": "Feature",
   "properties": {
       "name": "Lagerbügel",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Lagerbügel\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Lagerbügel Karstadt, Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/28/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eLagerbügel\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eLagerbügel Karstadt, Göttingen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGroner Str. 43-47, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/28/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9331461,51.5320512]
+    "coordinates": [9.933146,51.532157]
   }
 }
 
@@ -1339,11 +1309,11 @@
   "type": "Feature",
   "properties": {
       "name": "Rudolf Karstadt A.G.",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Rudolf Karstadt A.G.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Rudolf Karstadt A.G., Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/27/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eRudolf Karstadt A.G.\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eRudolf Karstadt A.G., Göttingen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGroner Str. 43-47, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/27/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9331461,51.5320512]
+    "coordinates": [9.933146,51.532157]
   }
 }
 
@@ -1354,11 +1324,11 @@
   "type": "Feature",
   "properties": {
       "name": "Hermann Bauchwitz",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hermann Bauchwitz\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hermann Bauchwitz, Halle a. S.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/26/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHermann Bauchwitz\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eHermann Bauchwitz, Halle a. S.\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eHalle (Saale)\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/26/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [11.97947,51.48158]
+    "coordinates": [11.9795,51.4816]
   }
 }
 
@@ -1369,11 +1339,11 @@
   "type": "Feature",
   "properties": {
       "name": "Rud. Behrmann Bremen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Rud. Behrmann Bremen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Rud. Behrmann Bremen, Ruddestrasse 15\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/25/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eRud. Behrmann Bremen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eRud. Behrmann Bremen, Ruddestrasse 15\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eRuddestrasse 15, Bremen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/25/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.80717,53.07582]
+    "coordinates": [8.8017,53.0793]
   }
 }
 
@@ -1384,11 +1354,11 @@
   "type": "Feature",
   "properties": {
       "name": "Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/24/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHerren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eHerren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eKamienna Góra, Polen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/24/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [16.03037,50.78314]
+    "coordinates": [16.0303,50.7831]
   }
 }
 
@@ -1399,11 +1369,26 @@
   "type": "Feature",
   "properties": {
       "name": "Schröder &amp; Zn.",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Schröder \u0026amp; Zn.\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Schröder \u0026amp; Zn.\nAmstelveenseweg 29\nAmsterdam\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/22/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eSchröder \u0026amp; Zn.\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eSchröder \u0026amp; Zn.\nAmstelveenseweg 29\nAmsterdam\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eAmstelveenseweg 29, Amsterdam\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/22/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [4.8527235,52.3568069]
+    "coordinates": [4.854847,52.356812]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
+      "name": "Maris",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMaris\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMaris\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMax-Eyth-Straße 1-3, Neumünster\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/21/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.978403,54.095104]
   }
 }
 
@@ -1414,11 +1399,11 @@
   "type": "Feature",
   "properties": {
       "name": "Färberei Kotzenberg",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Färberei Kotzenberg\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Chem. Reinigung Färberei Kotzenberg Kleiderbad\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eFärberei Kotzenberg\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eChem. Reinigung Färberei Kotzenberg Kleiderbad\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBismarckstraße 69B, Herford\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.6941027,52.1210597]
+    "coordinates": [8.694159,52.121147]
   }
 }
 
@@ -1429,11 +1414,11 @@
   "type": "Feature",
   "properties": {
       "name": "Diekmann Göttingen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Diekmann Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Diekmann Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/15/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eDiekmann Göttingen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eDiekmann Göttingen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWeender Straße 75, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/15/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9315709,51.5364472]
+    "coordinates": [9.934185,51.536453]
   }
 }
 
@@ -1444,11 +1429,11 @@
   "type": "Feature",
   "properties": {
       "name": "Brahms, Emden",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Brahms, Emden\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Brahms, Emden\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/13/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eBrahms, Emden\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eBrahms, Emden\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eZwischen beiden Sielen 14, Emden\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/13/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [7.2031394,53.368366]
+    "coordinates": [7.205323,53.368346]
   }
 }
 
@@ -1459,11 +1444,11 @@
   "type": "Feature",
   "properties": {
       "name": "H. Hettlage, Göttingen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        H. Hettlage, Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        H. Hettlage, Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/12/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eH. Hettlage, Göttingen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eH. Hettlage, Göttingen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGroner Str. 29, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/12/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9350177,51.5318289]
+    "coordinates": [9.934862,51.531813]
   }
 }
 
@@ -1474,11 +1459,11 @@
   "type": "Feature",
   "properties": {
       "name": "Karstadt Göttingen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Karstadt Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Karstadt Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/11/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKarstadt Göttingen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKarstadt Göttingen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGroner Str. 43-47, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/11/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9331461,51.5320512]
+    "coordinates": [9.933146,51.532157]
   }
 }
 
@@ -1489,11 +1474,11 @@
   "type": "Feature",
   "properties": {
       "name": "Fleischmann Göttingen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Fleischmann Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Fleischmann Göttingen Der Spezialist für Herren- und Knabenkleidung\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/10/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eFleischmann Göttingen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eFleischmann Göttingen Der Spezialist für Herren- und Knabenkleidung\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBarfüßerstraße 18, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/10/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9373265,51.5333756]
+    "coordinates": [9.936941,51.533547]
   }
 }
 
@@ -1504,11 +1489,11 @@
   "type": "Feature",
   "properties": {
       "name": "Josef Henn Kürschnermeister",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Josef Henn Kürschnermeister\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Schillerstr. 30 Josef Henn Kürschnermeister Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/9/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eJosef Henn Kürschnermeister\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eSchillerstr. 30 Josef Henn Kürschnermeister Göttingen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eSchillerstraße 30, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/9/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9365913,51.5250647]
+    "coordinates": [9.938803,51.52509]
   }
 }
 
@@ -1519,11 +1504,11 @@
   "type": "Feature",
   "properties": {
       "name": "Rock - Hache",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Rock - Hache\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Röcke Damenhosen Rock - Hache Gö. Nikolaistr. 20\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/7/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eRock - Hache\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eRöcke Damenhosen Rock - Hache Gö. Nikolaistr. 20\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eNikolaistraße 20, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/7/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9321196,51.5309751]
+    "coordinates": [9.934335,51.530971]
   }
 }
 
@@ -1534,11 +1519,11 @@
   "type": "Feature",
   "properties": {
       "name": "Hotel Deus",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Hotel Deus\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Hotel Deus, Oldenburg\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHotel Deus\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eHotel Deus, Oldenburg\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBahnhofsplatz 2, Oldenburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/6/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [8.2200109,53.1430279]
+    "coordinates": [8.223064,53.142814]
   }
 }
 
@@ -1549,11 +1534,11 @@
   "type": "Feature",
   "properties": {
       "name": "Wäscherei - Reinigung Hübener &amp; Kurre",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Wäscherei - Reinigung Hübener \u0026amp; Kurre\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Wäscherei - Reinigung Hübener \u0026amp; Kurre - Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/5/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eWäscherei - Reinigung Hübener \u0026amp; Kurre\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eWäscherei - Reinigung Hübener \u0026amp; Kurre - Göttingen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eTheaterstraße 8, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/5/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9356203,51.5348661]
+    "coordinates": [9.937739,51.534834]
   }
 }
 
@@ -1564,11 +1549,11 @@
   "type": "Feature",
   "properties": {
       "name": "August Boschert",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        August Boschert\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        August Boschert, Offenburg, Steinstrasse 10\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/3/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eAugust Boschert\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eAugust Boschert, Offenburg, Steinstrasse 10\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eSteinstrasse 10, Offenburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/3/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [7.9422713,48.46902]
+    "coordinates": [7.944887,48.469156]
   }
 }
 
@@ -1579,11 +1564,11 @@
   "type": "Feature",
   "properties": {
       "name": "Bekleidungshaus Jöris",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus Jöris\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Bekleidungshaus Jöris, Jülich Düsseldorferstr.\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/2/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eBekleidungshaus Jöris\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eBekleidungshaus Jöris, Jülich Düsseldorferstr.\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eDüsseldorfer Str. 11, Jülich\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/2/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [6.3564177,50.9226904]
+    "coordinates": [6.357411,50.922683]
   }
 }
 
@@ -1594,11 +1579,11 @@
   "type": "Feature",
   "properties": {
       "name": "Bekleidungshaus Junge",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003e\n        Bekleidungshaus Junge\n    \u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\n        Bekleidungshaus Junge, Gegenüber Hauptpostamt Göttingen\n    \u003c/div\u003e\n    \u003cdiv class=\"link\"\u003e\n        \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/1/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eBekleidungshaus Junge\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eBekleidungshaus Junge, Gegenüber Hauptpostamt Göttingen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eFriedrichstraße 1, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/1/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [9.9392501,51.5341524]
+    "coordinates": [9.939238,51.534399]
   }
 }
 
