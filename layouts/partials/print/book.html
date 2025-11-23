@@ -1,3 +1,5 @@
+{{- $debug := partialCached "functions/debug/enabled.html" . -}}
+
 {{- $printSection := where .Site.Pages "Section" "eq" "catalogue" -}}
 {{- $printSection = where $printSection ".Params.print" "eq" true -}}
 
@@ -11,9 +13,72 @@
   {{- $hangers = $hangers | lang.Merge .Site.RegularPages -}}
 {{- end -}}
 <section class="entries" data-section-title="{{ i18n "entries" }}">
-  {{- range (where $hangers "Params.type" "eq" "hanger").ByDate -}}
-    {{- $title := .Params.title -}}
-    {{- partial "print/entry.html" . -}}
+
+  {{- $allPosts := (where $hangers "Params.type" "eq" "hanger").ByDate -}}
+  {{- $finalPosts := slice -}}
+  {{- $processedPosts := slice -}}
+  {{- $pageCount := 1 -}}
+
+   {{- range $i, $p := $allPosts -}}
+    {{- if not (in $processedPosts $p) -}}
+      {{- if (in $p.Params.tags "Beidseitig") -}}
+        {{- if eq (mod $pageCount 2) 0 -}}
+          {{- $foundRegular := false -}}
+          {{- warnf "[print/book.html] Moving double sided post %s" $p.RelPermalink -}}
+          {{- range after $i $allPosts -}}
+            {{- if and (not (in .Params.tags "Beidseitig")) (not (in $processedPosts .)) (not $foundRegular) -}}
+              {{- $finalPosts = $finalPosts | append . -}}
+              {{- $processedPosts = $processedPosts | append . -}}
+              {{- $pageCount = add $pageCount 1 -}}
+              {{- $foundRegular = true -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if not (in $processedPosts $p) }}
+        {{- $finalPosts = $finalPosts | append $p -}}
+        {{- if (in $p.Params.tags "Beidseitig") -}}
+          {{- $pageCount = add $pageCount 2 -}}
+        {{- else -}}
+          {{- $pageCount = add $pageCount 1 -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $processedPosts = $processedPosts | append $p | uniq -}}
+    {{- end -}}
+  {{- end -}}
+  {{/*
+    odd (1): right spread
+    even (2): left spread
+    */}}
+  {{- $pageNr := 1 -}}
+  {{- range $i, $p := $finalPosts -}}
+    {{- $page := . -}}
+    {{- if eq (printf "%T" .) "page.Pages" -}}
+      {{- $page = index . 0 -}}
+    {{- end -}}
+    {{- if eq $page nil -}}
+      {{- continue -}}
+    {{- end -}}
+    {{- if (in $page.Params.tags "Beidseitig") -}}
+      {{- if and (eq (mod $pageNr 2) 0) (eq . true) -}}
+        {{- warnf "[print/book.html] Alignment will be wrong for double sided post on page %d! %s" $pageNr $page.RelPermalink -}}
+      {{- end -}}
+    {{- end -}}
+    {{- warnf "[print/book.html] Post %s will be on page %d!" $page.RelPermalink $pageNr -}}
+    {{- $class := "" -}}
+    {{- if not (modBool $pageNr 2) -}}
+      {{- $class = "odd" -}}
+    {{- else -}}
+      {{- $class = "even" -}}
+    {{- end -}}
+    <div data-page-nr="{{ $i }}">
+      {{- partial "print/entry.html" $page -}}
+    </div>
+    {{- if (in $page.Params.tags "Beidseitig") -}}
+      {{- $pageNr = add $pageNr 2 -}}
+    {{- else -}}
+      {{- $pageNr = add $pageNr 1 -}}
+    {{- end -}}
   {{- end -}}
 </section>
 

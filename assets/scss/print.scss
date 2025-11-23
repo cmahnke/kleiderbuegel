@@ -281,6 +281,7 @@ section {
 
     .title-logo {
       transform: rotate(90deg);
+      height: 100%;
     }
 
     .bg {
@@ -315,12 +316,13 @@ section {
     align-items: center;
 
     img {
-      width: 5cm;
+      /*width: 5cm;*/
       aspect-ratio: 1/1;
     }
 
     .cc {
-      max-width: 20%;
+      width: 410px;
+      min-width: 5cm;
     }
 
   }

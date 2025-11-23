@@ -62,10 +62,10 @@
   {{- end -}}
   {{- with .Resources.GetMatch "back*" -}}
     {{- if not (isset .Params "content") -}}
-      {{- errorf "Double sided hanger without description detected in %s" .RelPermalink  -}}
+      {{- errorf "[check.html] Double sided hanger without description detected in %s" .RelPermalink  -}}
     {{- end -}}
     {{- if not (in $page.Params.tags "Beidseitig") -}}
-      {{- errorf "Tag missing for %s" .RelPermalink  -}}
+      {{- errorf "[check.html] Double sided tag missing for %s" .RelPermalink  -}}
     {{- end -}}
   {{- end }}
 

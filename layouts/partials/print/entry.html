@@ -1,7 +1,7 @@
 {{- $page := . -}}
 {{- $doubleSided := false -}}
 {{- if (in $page.Params.tags "Beidseitig") -}}
-  {{- $doubleSided := true -}}
+  {{- $doubleSided = true -}}
 {{- end -}}
 {{- $relative := 0 -}}
 {{- with .Site.Params.print.relative -}}
@@ -80,7 +80,7 @@
       <div class="image">
         <div class="hanger-back">
           <div class="full-height-image-container">
-            {{- with .Resize (printf "%dx%d r270 webp picture" .Height .Width) -}}
+            {{- with .Resize (printf "%dx%d r90 webp picture" .Height .Width) -}}
               <img class="buegel-back hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ $title }}" />
             {{- end }}
           </div>
