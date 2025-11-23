@@ -7,6 +7,9 @@
     disableScale = true
     debug = false
 
+    [params.print]
+      relative = 1
+
     [params.preview]
         outputPrefix = "ogPreview"
         outputSuffix = ".jpg"

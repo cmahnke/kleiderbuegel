@@ -21,6 +21,6 @@ geojson:
   - 50.922683
   precision: exact
 remarks: |
-  * (Alter Adresseintrag)(https://juelich.staedte-info.net/tag_anzug_juelich_32573.php)
+  * [Alter Adresseintrag](https://juelich.staedte-info.net/tag_anzug_juelich_32573.php)
 ---
 Bekleidungshaus Jöris, Jülich Düsseldorferstr.

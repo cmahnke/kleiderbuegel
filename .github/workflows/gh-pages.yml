@@ -90,7 +90,7 @@ jobs:
         run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh
 
       - name: Achive links
-        run: python ./themes/projektemacher-base/scripts/archive.py -d docs/ -e kleiderbügel.blaufusstölpel.de,xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de,xn--blaufusstlpel-qmb.de -a 14 -o archived-urls.txt
+        run: python ./themes/projektemacher-base/scripts/archive.py -d docs/ -e kleiderbügel.blaufusstölpel.de,xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de,xn--blaufusstlpel-qmb.de -a 30 -o archived-urls.txt
 
       - name: Save URL list
         run: |

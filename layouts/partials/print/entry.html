@@ -4,6 +4,9 @@
   {{- $doubleSided := true -}}
 {{- end -}}
 {{- $relative := 0 -}}
+{{- with .Site.Params.print.relative -}}
+  {{- $relative = . -}}
+{{- end -}}
 {{- $title := .Title -}}
 
 {{- $id := printf "_%s" (replace .RelPermalink "/" "-") -}}
