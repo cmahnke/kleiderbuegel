@@ -1,5 +1,9 @@
-@use "fonts/bodoni-moda" as *;
-@use "fonts/space-mono" as *;
+@use "npm-fonts/bodoni-moda" as * with (
+  $font-base-path: '../'
+);
+@use "npm-fonts/space-mono" as * with (
+  $font-base-path: '../'
+);
 
 $heading-font: 'Bodoni Moda', times;
 $body-font: 'Space Mono', serif;
@@ -67,6 +71,10 @@ article {
     .heading-front,
     .heading-back {
 
+    }
+
+    .hanger-img {
+      filter: drop-shadow(2px 2px 2px #222);
     }
 
     a,
@@ -307,7 +315,8 @@ section {
     align-items: center;
 
     img {
-      min-width: 5cm;
+      width: 5cm;
+      aspect-ratio: 1/1;
     }
 
     .cc {
