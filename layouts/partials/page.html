@@ -22,7 +22,7 @@
           {{- end }}
           {{- $large := $front.Resize "1600x webp picture" -}}
           {{- $thumb := $front.Resize "330x webp picture" -}}
-          <img class="buegel-font hanger-img" src="{{ $large.RelPermalink }}" alt="{{ .Title }}" data-thumb="{{ $thumb.RelPermalink }}" />
+          <img class="buegel-font hanger-img" src="{{ $large.RelPermalink }}" alt="{{ i18n "front" }}" data-thumb="{{ $thumb.RelPermalink }}" />
         </div>
         {{- $title := .Title -}}
 
@@ -30,7 +30,7 @@
           <h2 class="heading-top">{{ i18n "top" }}</h2>
           <div class="hanger-top">
             {{- $largeTop := .Resize "1600x webp picture" -}}
-            <img loading="lazy" class="buegel-top hanger-img" src="{{ $largeTop.RelPermalink }}" alt="{{ $title }}" />
+            <img loading="lazy" class="buegel-top hanger-img" src="{{ $largeTop.RelPermalink }}" alt="{{ i18n "top" }}" />
             {{- with .Params.content -}}
               <div class="top-content">
                 {{- . | markdownify -}}
@@ -43,7 +43,7 @@
         {{- with .Resources.GetMatch "back*" -}}
           {{- $largeBack := .Resize "1600x webp picture" -}}
           <div class="hanger-back">
-            <img loading="lazy" class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ $title }}" />
+            <img loading="lazy" class="buegel-back hanger-img" src="{{ $largeBack.RelPermalink }}" alt="{{ i18n "back" }}" />
             {{- with .Params.content -}}
               <div class="back-content">
                 <p>

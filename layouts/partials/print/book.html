@@ -7,7 +7,6 @@
   {{- partial "print/print-pages.html" (dict "context" . "pages" $printSection "op" "lt" "weight" 10 ) -}}
 </section>
 
-{{/* Main Part */}}
 {{- $hangers := .Site.Pages -}}
 {{- range .Site.Home.Translations -}}
   {{- $hangers = $hangers | lang.Merge .Site.RegularPages -}}
@@ -24,7 +23,9 @@
       {{- if (in $p.Params.tags "Beidseitig") -}}
         {{- if eq (mod $pageCount 2) 0 -}}
           {{- $foundRegular := false -}}
-          {{- warnf "[print/book.html] Moving double sided post %s" $p.RelPermalink -}}
+          {{- if $debug -}}
+            {{- warnf "[print/book.html] Moving double sided post %s" $p.RelPermalink -}}
+          {{- end -}}
           {{- range after $i $allPosts -}}
             {{- if and (not (in .Params.tags "Beidseitig")) (not (in $processedPosts .)) (not $foundRegular) -}}
               {{- $finalPosts = $finalPosts | append . -}}
@@ -61,17 +62,24 @@
     {{- end -}}
     {{- if (in $page.Params.tags "Beidseitig") -}}
       {{- if and (eq (mod $pageNr 2) 0) (eq . true) -}}
-        {{- warnf "[print/book.html] Alignment will be wrong for double sided post on page %d! %s" $pageNr $page.RelPermalink -}}
+        {{- if $debug -}}
+          {{- warnf "[print/book.html] Alignment will be wrong for double sided post on page %d! %s" $pageNr $page.RelPermalink -}}
+        {{- end -}}
       {{- end -}}
     {{- end -}}
-    {{- warnf "[print/book.html] Post %s will be on page %d!" $page.RelPermalink $pageNr -}}
+    {{- if $debug -}}
+      {{- warnf "[print/book.html] Post %s will be on page %d!" $page.RelPermalink $pageNr -}}
+    {{- end -}}
     {{- $class := "" -}}
     {{- if not (modBool $pageNr 2) -}}
-      {{- $class = "odd" -}}
+      {{- $class = "recto" -}}
     {{- else -}}
-      {{- $class = "even" -}}
+      {{- $class = "verso" -}}
     {{- end -}}
-    <div data-page-nr="{{ $i }}">
+    {{- if (in $page.Params.tags "Beidseitig") -}}
+      {{- $class = printf "%s %s" $class "two-sided" -}}
+    {{- end -}}
+    <div class="{{ $class }}" data-page-nr="{{ $i }}">
       {{- partial "print/entry.html" $page -}}
     </div>
     {{- if (in $page.Params.tags "Beidseitig") -}}

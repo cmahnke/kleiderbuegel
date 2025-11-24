@@ -10,8 +10,10 @@ Diese Publikation wurde mit [Hugo](https://gohugo.io/) erstellt,
 
 Als Schriftarten kommen
 * [Bodoni Moda](https://indestructibletype.com/Bodoni) von indestructible type*
-* [Space Mono](https://github.com/googlefonts/spacemono) von Colophon Foundry
+* [Space Grotesk](https://floriankarsten.github.io/space-grotesk/) von Florian Karsten
 
 zum Einsatz.
 
-Die
+[Vivliostyle](https://vivliostyle.org/) wird für die PDF Konvertierung verwendet.
+
+Die Karte wird mit [Leaflet](https://leafletjs.com/) ertellt, das Urheberrecht für die Kartendaten liegt bei den [OpenStreetMap-Beitragende](https://www.openstreetmap.org/copyright)

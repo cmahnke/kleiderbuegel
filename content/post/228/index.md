@@ -14,6 +14,7 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - Beidseitig
+doublesided: true
 address: Northeim
 geojson:
   coordinates:

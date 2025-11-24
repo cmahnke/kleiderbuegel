@@ -1,0 +1,23 @@
+{{ $geojson := .Get "src" }}
+{{- $cluster := false -}}
+{{- if (.Get "cluster") -}}
+  {{- $cluster = .Get "cluster" -}}
+{{- end -}}
+{{- $marker := false -}}
+{{- if (.Get "marker") -}}
+  {{- $marker = .Get "marker" -}}
+{{- end -}}
+{{- $style := false -}}
+{{- if (.Get "style") -}}
+  {{- $style = .Get "style" -}}
+{{- end -}}
+{{- $bbox := false -}}
+{{- if (.Get "bbox") -}}
+  {{- $style = .Get "bbox" -}}
+{{- end -}}
+
+{{- partial "print/leaflet-map.html" (dict "context" . "geojson" $geojson "cluster" $cluster "marker" $marker "style" $style "bbox" $bbox) -}}
+
+{{- define "_partials/shortcodes/print-map-metadata.html" -}}
+  {{- (dict "css" slice "js" (slice "js/maps/leaflet-map.js") "scss" (slice "scss/print-map.scss")) | jsonify -}}
+{{- end -}}

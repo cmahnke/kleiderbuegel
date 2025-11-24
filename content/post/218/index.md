@@ -13,7 +13,6 @@ tags:
 - Hamburg
 - Warenhaus
 - "Material: Holz"
-- Beidseitig
 - Fahning
 address: Neuer Wall 19, Hamburg
 geojson:

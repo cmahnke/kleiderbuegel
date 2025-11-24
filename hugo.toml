@@ -109,6 +109,10 @@ timeout = 120
         source = "node_modules/@pagefind/default-ui"
         target = "assets/js/pagefind"
 
+    [[module.mounts]]
+        source = "node_modules/leaflet/dist"
+        target = "assets/scss/leaflet"
+
    [[module.mounts]]
        source = 'static/images'
        target = 'assets/images'

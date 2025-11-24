@@ -35,7 +35,7 @@
         <div class="hanger-top">
           <div class="full-height-image-container">
             {{- with .Resize (printf "%dx%d r270 webp picture" .Height .Width) -}}
-              <img class="buegel-top hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ $title }}" />
+              <img class="buegel-top hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "top" }}" />
             {{- end }}
           </div>
           {{- with .Params.content -}}
@@ -60,11 +60,11 @@
         <div class="full-height-image-container">
           {{- if gt $front.Width $front.Height -}}
             {{- with $front.Resize (printf "%dx%d r270 webp picture" $front.Height $front.Width) -}}
-              <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ .Title }}" />
+              <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "front" }}" />
             {{- end }}
           {{- else -}}
             {{- with $front -}}
-              <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ .Title }}" />
+              <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "front" }}" />
             {{- end }}
           {{- end -}}
         </div>
@@ -81,7 +81,7 @@
         <div class="hanger-back">
           <div class="full-height-image-container">
             {{- with .Resize (printf "%dx%d r90 webp picture" .Height .Width) -}}
-              <img class="buegel-back hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ $title }}" />
+              <img class="buegel-back hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "back" }}" />
             {{- end }}
           </div>
           {{- with .Params.content -}}

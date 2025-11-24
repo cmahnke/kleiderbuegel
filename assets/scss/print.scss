@@ -1,12 +1,18 @@
+@use 'sass:math';
+
 @use "npm-fonts/bodoni-moda" as * with (
   $font-base-path: '../'
 );
-@use "npm-fonts/space-mono" as * with (
+@use "npm-fonts/space-grotesk" as * with (
   $font-base-path: '../'
 );
 
+@use "leaflet/leaflet" as *;
+
+/* @use "print-map" as *; */
+
 $heading-font: 'Bodoni Moda', times;
-$body-font: 'Space Mono', serif;
+$body-font: 'Space Grotesk Variable', serif;
 
 @page  {
   size: 210mm 210mm !important;
@@ -15,23 +21,14 @@ $body-font: 'Space Mono', serif;
   /* marks: crop cross; */
 }
 
-
 @page :left {
   margin-left: 1cm;
   margin-right: 1.5cm;
 
-  @bottom-left {
+  @bottom-right {
     content: counter(page);
-    vertical-align: bottom;
-  }
-
-  article.entry .page .text {
-    order: 2;
-    text-align: right;
-  }
-
-  article.entry .page .image {
-    order: 1;
+    font-family: $body-font;
+    vertical-align: middle;
   }
 }
 
@@ -39,21 +36,53 @@ $body-font: 'Space Mono', serif;
   margin-left: 1.5cm;
   margin-right: 1cm;
 
-  @bottom-right {
+  @bottom-left {
     content: counter(page);
-    vertical-align: bottom;
+    font-family: $body-font;
+    vertical-align: middle;
   }
+}
 
-  article.entry .page .text {
+.recto,
+.verso .two-sided .page:nth-child(2n) {
+  .text {
     order: 1;
     text-align: left;
+
+    .heading-top,
+    .heading-front,
+    .heading-back {
+      text-align: end;
+      margin-right: -1.5cm;
+    }
   }
 
-  article.entry .page .image {
+  /* .hanger-back p */
+
+  .image {
     order: 2;
   }
 }
 
+.verso ,
+.recto .two-sided .page:nth-child(2n) {
+  .text {
+    order: 2;
+    text-align: right;
+
+    .heading-top,
+    .heading-front,
+    .heading-back {
+      text-align: start;
+      margin-left: -1.5cm;
+    }
+  }
+
+  .image {
+    order: 1;
+    transform: rotate(-180deg);
+  }
+}
 
 body {
   font-family: $body-font;
@@ -71,10 +100,37 @@ article {
     .heading-front,
     .heading-back {
 
+      font-variant: all-small-caps;
+      margin-top: -.5cm;
+      text-shadow: 0 0 10px white;
     }
 
     .hanger-img {
       filter: drop-shadow(2px 2px 2px #222);
+    }
+
+    .hanger-content {
+      flex-grow: 1;
+    }
+
+    .heading-imprint {
+      font-size: 12pt;
+      font-style: italic;
+    }
+
+    .additional-header {
+      font-weight: bold;
+    }
+
+    .donation,
+    .source {
+      .additional-header {
+        display: inline;
+
+        &:after {
+          content: ' ';
+        }
+      }
     }
 
     a,
@@ -99,6 +155,7 @@ article {
       .text {
         display: flex;
         width: 38.2%;
+        z-index: 100;
         flex-direction: column;
 
         .heading-info {
@@ -107,12 +164,25 @@ article {
 
         .hanger-back {
           align-self: flex-end;
+          font-style: italic;
+        }
+
+        ul, p {
+          margin-block-start: 6pt;
+          margin-block-end: 6pt;
+
         }
       }
 
       .image {
          width: 61.8%;
          height: 100vh;
+
+        .hanger-front,
+        .hanger-top,
+        .heading-back {
+          height: inherit;
+        }
       }
     }
   }
@@ -126,6 +196,7 @@ article {
   &.singe-page {
     counter-increment: pageNumber;
     break-after: page;
+    height: 100%;
 
     .post-title {
       bookmark-level: 1;
@@ -147,13 +218,9 @@ article {
 
   .full-height-image-container {
     z-index: -10;
-    /*
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    */
+    display: flex;
+    flex-direction: column;
+    height: inherit;
 
     .hanger-img {
       height: 100%;
@@ -165,6 +232,12 @@ article {
 section {
   page-break-after: always;
   break-after: page;
+
+  /*
+  &.front-matter {
+    height: 100%;
+  }
+  */
 }
 
 .page-number {
@@ -236,7 +309,7 @@ section {
       text-decoration: none;
       color: black;
 
-      &:after {
+      &::after {
         content: leader(dotted) target-counter(attr(href), pageNumber);
       }
     }
@@ -275,22 +348,73 @@ section {
 
 .singe-page {
   &.title {
+    position: relative;
+
     .title-heading {
+      position: absolute;
+      display: flex;
       transform: rotate(90deg);
+      width: 100vh;
+      z-index: 10;
+      top: 0;
+      font-size: 2.2cm;
+      left: 0;
+      bottom: 0;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    a {
+      height: inherit;
     }
 
     .title-logo {
-      transform: rotate(90deg);
-      height: 100%;
+      display: flex;
+      flex-direction: column;
+      z-index: 10;
+      opacity: .7;
+      margin-block-start: 0;
+      margin-block-end: 0;
+      height: inherit;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+
+      img {
+        height: 100%;
+        transform: rotate(90deg);
+      }
     }
 
     .bg {
       list-style-type: none;
-      font-family: $heading-font;
       padding-left: unset;
       margin: unset;
-      display: flex;
+      overflow: clip;
+      max-height: 100vh;
+      font-family: $body-font;
+
+
+      @for $i from 1 through 10 {
+        li:nth-child(#{$i}) {
+          z-index: #{'-' + $i};
+          font-size: #{$i * 3}rem;
+          opacity: #{1 - math.pow(math.log($i, 10), .25)};
+          margin-bottom: #{($i - 1) * 1.6}rem;
+          margin-right: #{($i - 1) * .8}rem;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          font-weight: #{(8 - $i) * 100};
+        }
+      }
     }
+  }
+
+  &.preface,
+  &.acknowledgements,
+  &.colophon {
+    text-align: justify;
+    hyphens: auto;
   }
 
   &.preface {
@@ -298,7 +422,10 @@ section {
   }
 
   &.map {
+    .map-wrapper {
+      height: 100%;
 
+    }
   }
 
   &.acknowledgements {
@@ -328,3 +455,4 @@ section {
   }
 
 }
+

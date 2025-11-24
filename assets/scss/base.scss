@@ -19,6 +19,7 @@ $border-radius: 1rem;
 $max-width: 90em;
 $content-bg-color: rgba(255, 255, 255, 0.7);
 $heading-font: 'Libre Baskerville', serif;
+$body-font: 'Nunito', sans-serif;
 $kleidungsstueck-border-radius: $border-radius;
 
 @use "swiper-slider" as *;
@@ -42,6 +43,11 @@ $kleidungsstueck-border-radius: $border-radius;
   $wood-texture-opacity: 0.5
 );
 $background: wood.$wood-light;
+
+:root {
+  --heading-font: #{$heading-font};
+  --body-font: #{$body-font};
+}
 
 html {
   background: url($background);
@@ -87,7 +93,7 @@ h4 {
 body {
     --max-width: 90rem;
     margin: unset;
-    font-family: 'Nunito', sans-serif;
+    font-family: $body-font;
     font-weight: 700;
     color: $font-color-body;
     min-height: 100vh;

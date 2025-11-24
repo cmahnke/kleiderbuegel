@@ -4,6 +4,7 @@ import View from 'ol/View';
 import GeoJSON from 'ol/format/GeoJSON.js';
 import MVT from 'ol/format/MVT.js';
 import Overlay from 'ol/Overlay';
+import Attribution from 'ol/control/Attribution.js';
 import {OSM, XYZ, Cluster, Vector as VectorSource, VectorTile as VectorTileSource} from 'ol/source';
 import {createEmpty, extend, getHeight, getWidth} from 'ol/extent';
 import {Control, FullScreen, Zoom} from 'ol/control';
@@ -17,7 +18,7 @@ var layers = {};
 layers['wiki'] = new TileLayer({
     source: new XYZ({
         attributions: [
-            OSM.ATTRIBUTION, 'Map data &copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap contributors</a>'],
+            OSM.ATTRIBUTION, 'Kartendaten &copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap-Beitragende</a>'],
         url: 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang=en'
     })
 });
@@ -173,11 +174,13 @@ export function initMap(element, url, source, cluster, marker, style) {
       baseLayer = layers['osm'];
     }
 
-
+    const attribution = new Attribution({
+      collapsible: true,
+    });
 
     var map = new Map({
             controls: [new Zoom({zoomInTipLabel: toolTips[lang]['zoomIn'], zoomOutTipLabel: toolTips[lang]['zoomOut']}),
-                       new FullScreen({tipLabel: toolTips[lang]['fullscreen']})],
+                       new FullScreen({tipLabel: toolTips[lang]['fullscreen']}), attribution],
             layers: [baseLayer],
             target: element,
         }),

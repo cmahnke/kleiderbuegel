@@ -15,6 +15,7 @@ tags:
 - Färberei
 - "Material: Holz"
 - Beidseitig
+doublesided: true
 address: Gifhorn
 geojson:
   coordinates:

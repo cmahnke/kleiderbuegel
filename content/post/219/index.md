@@ -14,6 +14,7 @@ tags:
 - Reinigung
 - "Material: Holz"
 - Beidseitig
+doublesided: true
 address: Scharzfelder Straße 87, Bad Lauterberg
 geojson:
   coordinates:
