@@ -113,6 +113,12 @@ timeout = 120
         source = "node_modules/leaflet/dist"
         target = "assets/scss/leaflet"
 
+    [[module.mounts]]
+        source = "node_modules/mapbox-gl/dist"
+        target = "assets/scss/mapbox-gl"
+
+
+
    [[module.mounts]]
        source = 'static/images'
        target = 'assets/images'

@@ -1,6 +1,11 @@
 {{- $slug := path.BaseName .Path -}}
 <article class="singe-page {{ $slug }}" data-title="{{ .Title }}">
   <div class="page">
+    {{- if .Param "show_title" -}}
+      {{- with .Title -}}
+        <h1 class="page-title">{{ . }}</h1>
+      {{- end -}}
+    {{- end -}}
     {{- .Content -}}
   </div>
 </article>

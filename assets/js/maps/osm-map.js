@@ -34,7 +34,7 @@ const shortbreadLayer = new VectorTileLayer({
     attributions: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
   })
 });
-//applyStyle(shortbreadLayer, 'https://tiles.versatiles.org/assets/styles/colorful/style.json');
+
 applyStyle(shortbreadLayer, style);
 vectorStyles['shortbread'] = shortbreadLayer;
 

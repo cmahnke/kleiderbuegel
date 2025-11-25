@@ -48,9 +48,12 @@
               <li class="index-sub-entry" data-ref="{{ .page.RelPermalink }}">
                 {{- $link := printf "#_%s" (replace .page.RelPermalink "/" "-") -}}
                 <a href="{{ $link }}">
-                  <div class="title">{{ .title }}</div>
+                  <span class="title">{{ .title }}</span>
                   {{- with .page.Description -}}
-                    <div class="description">{{ . }}</div>
+                    {{- if ne (trim . " ") "" -}}
+                      <br />
+                      <span class="description">{{ . }}</span>
+                    {{- end -}}
                   {{- end -}}
                 </a>
               </li>
@@ -61,9 +64,12 @@
       <li class="index-entry" data-ref="{{ .RelPermalink }}">
         {{- $link := printf "#_%s" (replace .RelPermalink "/" "-") -}}
         <a href="{{ $link }}">
-          <div class="title">{{ $title }}</div>
+          <span class="title">{{ $title }}</span>
           {{- with .Description -}}
-            <div class="description">{{ . }}</div>
+            {{- if ne (trim . " ") "" -}}
+              <br />
+              <span class="description">{{ . }}</span>
+            {{- end -}}
           {{- end -}}
         </a>
       <li>

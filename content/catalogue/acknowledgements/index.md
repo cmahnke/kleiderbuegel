@@ -4,4 +4,18 @@ layout: print
 weight: 1000
 params:
   print: true
+  show_title: true
 ---
+
+Dank an alle, die den Aufbau unterstützt haben:
+* **Gwendolyn Friedrich**
+* **Martin Melchert**
+
+
+Zusätzlich die folgenden Spendern:
+* **Helga Mahnke**
+* **Ingo Pfennigstorf**
+* **Karsten Heck**
+
+
+Und natürlich **Evelyn Kraßmann** für den Platz in ihren Schränken.

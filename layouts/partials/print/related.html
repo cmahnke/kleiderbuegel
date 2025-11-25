@@ -2,10 +2,9 @@
 {{- $related := "" -}}
 {{- with .Params.related -}}
     {{- range . -}}
-      {{/* TODO: this is jus a stupid trick to get the page */}}
+      {{/* TODO: this is just a stupid trick to get the page */}}
       {{- $relatedPath := printf "/post/%s" (string .) -}}
       {{- $nr := string . -}}
-      {{/* {{- with site.GetPage $relatedPath -}} */}}
       {{- with partial "content/hanger.html" $relatedPath -}}
         {{- $title := .Title -}}
         {{- if eq $title "" -}}
@@ -19,6 +18,7 @@
     {{- end -}}
 {{- end -}}
 {{- if ne $related "" -}}
+  <div class="additional-header">{{ i18n "related" }}</div>
   <ul class="related-list">
     {{- $related | safeHTML -}}
   </ul>

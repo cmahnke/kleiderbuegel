@@ -48,7 +48,11 @@
   }
 
   .ol-attribution {
-    font-family: var(--body-font);    
+    font-family: var(--body-font);
+    .ul {
+      padding: unset; 
+      padding-left: .4rem;
+    }
   }
 }
 

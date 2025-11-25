@@ -14,8 +14,19 @@
   <div class="page">
     <div class="text">
       <h2 class="post-title">{{ .Title }}</h2>
-      <h3 class="heading-front">{{ i18n "front" }}</h3>
+      <h3 class="heading-front"><span>{{ i18n "front" }}</span></h3>
       {{ partial "print/entry-content.html" . }}
+      {{- with .Resources.GetMatch "top*" -}}
+        <h3 class="heading-top"><span>{{ i18n "top" }}</span></h3>
+        <div class="hanger-top">
+          <h2 class="heading-imprint">{{ i18n "print" }}</h2>
+          {{- with .Params.content -}}
+            <div class="top-content">
+              {{- . | markdownify -}}
+            </div>
+          {{- end }}
+        </div>
+      {{- end }}
       {{- if eq (.Resources.GetMatch "back*") nil -}}
         <div class="hanger-back">
           <p>
@@ -31,18 +42,12 @@
 
     <div class="image">
       {{- with .Resources.GetMatch "top*" -}}
-        <h3 class="heading-top">{{ i18n "top" }}</h3>
         <div class="hanger-top">
           <div class="full-height-image-container">
             {{- with .Resize (printf "%dx%d r270 webp picture" .Height .Width) -}}
               <img class="buegel-top hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "top" }}" />
             {{- end }}
           </div>
-          {{- with .Params.content -}}
-            <div class="top-content">
-              {{- . | markdownify -}}
-            </div>
-          {{- end }}
         </div>
       {{- end }}
 
@@ -75,7 +80,16 @@
   {{- with .Resources.GetMatch "back*" -}}
     <div class="page">
       <div class="text">
-        <h3 class="heading-back">{{ i18n "back" }}</h3>
+        <h2 class="post-title">{{ $title }}</h2>  
+        <h3 class="heading-back"><span>{{ i18n "back" }}</span></h3>
+        <h2 class="heading-imprint">{{ i18n "print" }}</h2>
+        {{- with .Params.content -}}
+          <div class="back-content">
+            <p>
+              {{- . | markdownify -}}
+            </p>
+          </div>
+        {{- end }}
       </div>
       <div class="image">
         <div class="hanger-back">
@@ -84,13 +98,6 @@
               <img class="buegel-back hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "back" }}" />
             {{- end }}
           </div>
-          {{- with .Params.content -}}
-            <div class="back-content">
-              <p>
-                {{- . | markdownify -}}
-              </p>
-            </div>
-          {{- end }}
         </div>
       </div>
     </div>

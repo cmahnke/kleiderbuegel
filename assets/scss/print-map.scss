@@ -1,0 +1,18 @@
+@use "mapbox-gl/mapbox-gl";
+
+.map-wrapper {
+    height: 100%;
+
+    .map {
+        height: inherit;
+
+        .leaflet-control-container,
+        .leaflet-control-attribution {
+            display: none;
+        }
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
+}

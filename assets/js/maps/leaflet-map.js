@@ -3,6 +3,8 @@ import 'leaflet.markercluster';
 import 'leaflet.vectorgrid';
 import 'mapbox-gl-leaflet';
 
+import * as style from './kleiderbügel-style.json';
+
 var layers = {};
 
 layers['wiki'] = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang=en', {
@@ -15,11 +17,10 @@ layers['osm'] = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 
 var vectorStyles = {};
 
-vectorStyles['shortbread'] = L.vectorGrid.protobuf("https://vector.openstreetmap.org/shortbread_v1/{z}/{x}/{y}.mvt", {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
-    // The kleiderbügel-style.json needs to be converted to a VectorGrid-compatible format.
-    // vectorTileLayerStyles: style
-});
+vectorStyles['shortbread'] = L.mapboxGL({
+    // The style can be a URL to a JSON file or a style object
+    style: style
+})
 
 export function initMap(element, url, source, cluster, marker, style, bbox) {
 
@@ -126,7 +127,7 @@ export function initMap(element, url, source, cluster, marker, style, bbox) {
                         const bounds = [[bbox[1], bbox[0]], [bbox[3], bbox[2]]];
                         map.fitBounds(bounds, { padding: [30, 30] });
                     } else {
-                        //map.fitBounds(geoJsonLayer.getBounds(), { padding: [30, 30] });
+                        map.fitBounds(geoJsonLayer.getBounds(), { padding: [30, 30] });
                     }
                 })
                 .catch(function(body) {
