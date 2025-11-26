@@ -4051,23 +4051,6 @@
 		},
 		{
 			"source": "versatiles-shortbread",
-			"id": "boundary-state:outline",
-			"type": "line",
-			"source-layer": "boundaries",
-			"filter": [ "all", [ "==", "admin_level", 4 ], [ "!=", "maritime", true ], [ "!=", "disputed", true ], [ "!=", "coastline", true ] ],
-			"paint": {
-				"line-color": "rgb(250,245,240)",
-				"line-blur": 2,
-				"line-width": { "stops": [ [ 7, 0 ], [ 8, 2 ], [ 10, 4 ] ] },
-				"line-opacity": 0.75
-			},
-			"layout": {
-				"line-cap": "round",
-				"line-join": "round"
-			}
-		},
-		{
-			"source": "versatiles-shortbread",
 			"id": "boundary-country",
 			"type": "line",
 			"source-layer": "boundaries",
@@ -4094,22 +4077,6 @@
 			},
 			"layout": {
 				"line-cap": "square"
-			}
-		},
-		{
-			"source": "versatiles-shortbread",
-			"id": "boundary-state",
-			"type": "line",
-			"source-layer": "boundaries",
-			"filter": [ "all", [ "==", "admin_level", 4 ], [ "!=", "maritime", true ], [ "!=", "disputed", true ], [ "!=", "coastline", true ] ],
-			"paint": {
-				"line-color": "rgb(150,150,150)",
-				"line-width": { "stops": [ [ 7, 0 ], [ 8, 1 ], [ 10, 2 ] ] },
-				"line-dasharray": [ 2, 2 ]
-			},
-			"layout": {
-				"line-cap": "round",
-				"line-join": "round"
 			}
 		},
 		{
