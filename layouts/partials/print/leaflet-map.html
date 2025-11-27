@@ -31,16 +31,12 @@
 {{- $geojson := partial "geojson/featureCollection.geojson" $features -}}
 {{- $geojson := $geojson | jsonify }}
 
-{{- $id := md5 $geojson -}}
+{{- $id := printf "map_%s" (md5 $geojson) -}}
 {{- $var := printf "_%s" $id -}}
 <div class="map-wrapper">
   <div class="map" id="{{ $id }}"></div>
-  <div id="{{ $id }}-popup" class="ol-popup">
-    <a href="#" id="{{ $id }}-popup-closer" class="ol-popup-closer"></a>
-    <div id="{{ $id }}-popup-content"></div>
-  </div>
 </div>
 <script type="text/javascript">
   var geojson = {{ $geojson | safeJS }};
-  var {{ $var | safeJS }} = window.initMap('{{ $id | safeJS }}', geojson, 'osm', {{ $cluster | safeJS }}, {{ $marker | safeJS }} {{ if eq (printf "%T" $style) "string" }}, '{{ $style | safeJS }}' {{ else }}, undefined {{ end }} {{ if ne $bbox false }}, {{ $bbox | safeJS }} {{ end }});
+  var {{ $var | safeJS }} = window.initMap('#{{ $id | safeJS }}', geojson, 'osm', {{ $cluster | safeJS }}, {{ $marker | safeJS }} {{ if eq (printf "%T" $style) "string" }}, '{{ $style | safeJS }}' {{ else }}, undefined {{ end }} {{ if ne $bbox false }}, {{ $bbox | safeJS }} {{ end }});
 </script>

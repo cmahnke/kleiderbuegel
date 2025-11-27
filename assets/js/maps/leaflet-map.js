@@ -6,6 +6,7 @@ import '@maplibre/maplibre-gl-leaflet';
 import * as style from './kleiderbügel-style.json';
 
 var layers = {"shortbread": style};
+const padding = [30, 30];
 
 // TODO: This wil certainly fail with any other OpenLayers marker structure
 function leafletIcon(olIconStyle) {
@@ -54,6 +55,27 @@ function leafletIcon(olIconStyle) {
     img.src = src;
   });
 }
+// See https://stackoverflow.com/a/61511955
+function waitForElm(selector) {
+    return new Promise(resolve => {
+        if (document.querySelector(selector)) {
+            return resolve(document.querySelector(selector));
+        }
+
+        const observer = new MutationObserver(mutations => {
+            if (document.querySelector(selector)) {
+                observer.disconnect();
+                resolve(document.querySelector(selector));
+            }
+        });
+
+        // If you get "parameter 1 is not of type 'Node'" error, see https://stackoverflow.com/a/77855838/492336
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+}
 
 export async function initMap(element, geojson, source, cluster, marker, style, bbox) {
     console.log(bbox);
@@ -74,47 +96,54 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
     if (geojson !== undefined) {
         geojson = JSON.parse(geojson);
         geoJsonLayer = L.geoJson(geojson, {
-                            pointToLayer: function (feature, latlng) {
-                                return L.marker(latlng, markerOptions);
-                            },
-                            onEachFeature: function (feature, layer) {
-                                if (feature.properties && (feature.properties.name || feature.properties.popupContent)) {
-                                    let popupContent = '';
-                                    if (feature.properties.name) {
-                                        popupContent += '<h1>' + feature.properties.name + '</h1>';
-                                    }
-                                    if (feature.properties.popupContent) {
-                                        popupContent += feature.properties.popupContent;
-                                    }
-                                    layer.bindPopup(popupContent);
-                                }
-                            }
-                        });
+            pointToLayer: function (feature, latlng) {
+                return L.marker(latlng, markerOptions);
+            },
+            onEachFeature: function (feature, layer) {
+                if (feature.properties && (feature.properties.name || feature.properties.popupContent)) {
+                    let popupContent = '';
+                    if (feature.properties.name) {
+                        popupContent += '<h1>' + feature.properties.name + '</h1>';
+                    }
+                    if (feature.properties.popupContent) {
+                        popupContent += feature.properties.popupContent;
+                    }
+                    layer.bindPopup(popupContent);
+                }
+            }
+        });
         center = geoJsonLayer.getBounds().getCenter();
     }
     
-    var map = L.map(element, {
-        maxBounds: [[180, -Infinity], [-180, Infinity]],
-        maxBoundsViscosity: 1,
-        zoomControl: false,
-        renderer: L.svg(),
-        minZoom: 1,
-        maxZoom: 15,
-        center: center,
-        zoom: 5,
-        zoomSnap: .1
-    });    
+    let map, mapElem;
+    mapElem = document.querySelector(element);
+    //waitForElm(element).then((elm) => {
+    //    console.log(`Found element ${elm}`);
+    //    mapElem = elm;
+        map = L.map(mapElem, {
+            maxBounds: [[180, -Infinity], [-180, Infinity]],
+            maxBoundsViscosity: 1,
+            zoomControl: false,
+            renderer: L.svg(),
+            minZoom: 1,
+            maxZoom: 15,
+            center: center,
+            zoom: 3,
+            zoomSnap: .1
+        });
+    //});
 
+
+    let bounds;
     if (bbox && bbox.length === 4) {
-        const bounds = [[bbox[1], bbox[0]], [bbox[3], bbox[2]]];
-        map.fitBounds(bounds, { padding: [30, 30] });
+        bounds = [[bbox[1], bbox[0]], [bbox[3], bbox[2]]];
+        map.fitBounds(bounds, { padding: padding });
     }
     
     var gl = L.maplibreGL({
         style: layers[style]
     }).addTo(map);
     
-
     if (cluster !== undefined && cluster) {
         let markers = L.markerClusterGroup({
             //showCoverageOnHover: false,
@@ -143,23 +172,23 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
         map.addLayer(geoJsonLayer);
     }
 
-    if (bbox && bbox.length === 4) {
-        // bbox is [minLon, minLat, maxLon, maxLat]
-        // Leaflet bounds are [[minLat, minLon], [maxLat, maxLon]]
-        const bounds = [[bbox[1], bbox[0]], [bbox[3], bbox[2]]];
-        map.fitBounds(bounds, { padding: [30, 30] });
+    if (bounds !== undefined) {
+        map.fitBounds(bounds, { padding: padding });
     } else {
-        map.fitBounds(geoJsonLayer.getBounds(), { padding: [30, 30] });
-    }
-    // TODO remove this from partial
-    const popupContainer = document.getElementById(element + '-popup');
-    if (popupContainer) {
-        popupContainer.remove();
+        map.fitBounds(geoJsonLayer.getBounds(), { padding: padding });
     }
 
-    setTimeout(function(){
-        map.invalidateSize(true);}
-    ,1000)
+   const resizeObserver = new ResizeObserver(() => {
+        map.invalidateSize();
+        if (bounds !== undefined) {
+            map.fitBounds(bounds, { padding: padding });
+        }
+    });
+    if (mapElem !== null) {
+        resizeObserver.observe(mapElem);
+    } else {
+        console.error(`Couldn't set up resize observer for ${element}`)
+    }
 
     return map;
 }
