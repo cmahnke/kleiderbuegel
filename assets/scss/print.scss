@@ -53,8 +53,20 @@ $body-font: 'Space Grotesk Variable', serif;
   }
 }
 
+/*
+ @-adapt-footnote-area {
+  position: absolute;
+  bottom: 1cm;
+  right: 1,5cm;
+  left: 1.5cm;
+  height: 5cm;
+  width: 100%;
+ } 
+*/
+
 .page {
   counter-reset: link;
+  /*position: relative;*/
 }
 
 .recto,
@@ -521,7 +533,10 @@ section {
   }
 
   &.map {
-
+    p {
+      margin-block-start: .3cm;
+      margin-block-end: .3cm;
+    }
   }
 
   &.acknowledgements {

@@ -3,10 +3,10 @@
 */}}
 
 {{- $context := .context -}}
-{{- $geojson := .geojson -}}
-{{- if eq $geojson nil -}}
+{{- $section := .section -}}
+{{- if eq $section nil -}}
   {{/* Check if we only got one param, this will be the geojson referece */}}
-  {{- $geojson := . -}}
+  {{- $section = "post" -}}
 {{- end -}}
 {{- $cluster := .cluster -}}
 {{- if eq $cluster nil -}}
@@ -18,13 +18,18 @@
   {{- $marker = false -}}
 {{- end -}}
 {{- $style := .style -}}
-{{- if eq $style nil -}}
-  {{- $style = false -}}
+{{- if or (eq $style nil) (eq $style false) -}}
+  {{- $style = "undefined" -}}
 {{- end -}}
 {{- $bbox := .bbox -}}
-{{- if eq $bbox nil -}}
-  {{- $bbox = false -}}
+{{- if or (eq $bbox nil) (eq $bbox false) -}}
+  {{- $bbox = "undefined" -}}
 {{- end -}}
+
+{{- $pages := where site.Pages "Section" $section -}}
+{{- $features := where $pages ".Page.Params.geojson" "!=" nil -}}
+{{- $geojson := partial "geojson/featureCollection.geojson" $features -}}
+{{- $geojson := $geojson | jsonify }}
 
 {{- $id := md5 $geojson -}}
 {{- $var := printf "_%s" $id -}}
@@ -36,5 +41,6 @@
   </div>
 </div>
 <script type="text/javascript">
-  var {{ $var | safeJS }} = window.initMap('{{ $id | safeJS }}', '{{ $geojson | safeJS }}', 'osm', {{ $cluster | safeJS }}, {{ $marker | safeJS }} {{ if eq (printf "%T" $style) "string" }}, '{{ $style | safeJS }}' {{ end }} {{ if ne $bbox false }}, '{{ $bbox | safeJS }}' {{ end }});
+  var geojson = {{ $geojson | safeJS }};
+  var {{ $var | safeJS }} = window.initMap('{{ $id | safeJS }}', geojson, 'osm', {{ $cluster | safeJS }}, {{ $marker | safeJS }} {{ if eq (printf "%T" $style) "string" }}, '{{ $style | safeJS }}' {{ else }}, undefined {{ end }} {{ if ne $bbox false }}, {{ $bbox | safeJS }} {{ end }});
 </script>

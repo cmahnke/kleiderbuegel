@@ -114,8 +114,8 @@ timeout = 120
         target = "assets/scss/leaflet"
 
     [[module.mounts]]
-        source = "node_modules/mapbox-gl/dist"
-        target = "assets/scss/mapbox-gl"
+        source = "node_modules/maplibre-gl/dist"
+        target = "assets/scss/maplibre-gl"
 
 
 

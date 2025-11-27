@@ -1,4 +1,4 @@
-{{ $geojson := .Get "src" }}
+{{ $section := .Get "section" }}
 {{- $cluster := false -}}
 {{- if (.Get "cluster") -}}
   {{- $cluster = .Get "cluster" -}}
@@ -13,10 +13,10 @@
 {{- end -}}
 {{- $bbox := false -}}
 {{- if (.Get "bbox") -}}
-  {{- $style = .Get "bbox" -}}
+  {{- $bbox = .Get "bbox" -}}
 {{- end -}}
 
-{{- partial "print/leaflet-map.html" (dict "context" . "geojson" $geojson "cluster" $cluster "marker" $marker "style" $style "bbox" $bbox) -}}
+{{- partial "print/leaflet-map.html" (dict "context" . "section" $section "cluster" $cluster "marker" $marker "style" $style "bbox" $bbox) -}}
 
 {{- define "_partials/shortcodes/print-map-metadata.html" -}}
   {{- (dict "css" slice "js" (slice "js/maps/leaflet-map.js") "scss" (slice "scss/print-map.scss")) | jsonify -}}
