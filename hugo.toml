@@ -249,3 +249,6 @@ timeout = 120
 [security]
   [security.http]
     mediaTypes = ['^application/json$', '^application/json;\s?charset=[uU][tT][fF]-8$', '^application/sparql-results\+json;\s?charset=[uU][tT][fF]-8$']
+
+  [security.exec]
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^babel$', '^git$']

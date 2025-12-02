@@ -17,7 +17,13 @@
   {{- errorf "[print/print-pages.html] Needs params as dict, not just context" .RelPermalink -}}
 {{- end -}}
 
+{{- $tocEntries := slice -}}
 {{ $pages = where $pages ".Weight" $op $weight }}
 {{- range $pages.ByWeight -}}
-  {{- partial "print/page.html" . -}}
+  {{- if eq .Params.toc false -}}
+    {{- continue -}}
+  {{- end -}}
+  {{- $link := printf "#_%s" (replace .RelPermalink "/" "-") -}}
+  {{ $tocEntries = $tocEntries | append (dict "title" .Title "href" $link) }}
 {{- end -}}
+{{- return $tocEntries -}}

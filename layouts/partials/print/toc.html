@@ -1,0 +1,27 @@
+{{- $context := . -}}
+{{- $entries := slice -}}
+{{- if reflect.IsMap . -}}
+  {{- $context = .context -}}
+  {{- $entries = .entries -}}
+{{- else -}}
+  {{- errorf "[print/toc.html] Needs params as dict, not just context" .RelPermalink -}}
+{{- end -}}
+<nav role="doc-toc">
+  <h2>{{ i18n "toc" }}</h2>
+    {{- partial "print/toc-level.html" $entries -}}
+</nav>
+
+{{- define "_partials/print/toc-level.html" -}}
+  {{- $entries := . -}}
+  <ol>
+    {{- range $entries -}}
+      {{- if reflect.IsSlice . -}}
+        {{- partial "print/toc-level.html" . -}}
+      {{- else if reflect.IsMap . -}}
+        <li><a href="{{ .href }}">{{ .title }}</a>
+      {{- else -}}
+        {{- errorf "[print/toc.html] Unexpected TOC data type %#v" . -}}
+      {{- end -}}
+    {{- end -}}
+  </ol>
+{{- end -}}

@@ -4,6 +4,7 @@ layout: print
 weight: 1002
 params:
   print: true
+  toc: false
 ---
 
 {{< print-qr scale=10 text="http://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"  />}}

@@ -3,6 +3,8 @@
 {{- $printSection := where .Site.Pages "Section" "eq" "catalogue" -}}
 {{- $printSection = where $printSection ".Params.print" "eq" true -}}
 
+{{- $tocEntries := (partial "print/print-toc.html" (dict "context" . "pages" $printSection "op" "lt" "weight" 10 )) -}}
+
 <section class="front-matter">
   {{- partial "print/print-pages.html" (dict "context" . "pages" $printSection "op" "lt" "weight" 10 ) -}}
 </section>
@@ -11,8 +13,11 @@
 {{- range .Site.Home.Translations -}}
   {{- $hangers = $hangers | lang.Merge .Site.RegularPages -}}
 {{- end -}}
-<section class="entries" data-section-title="{{ i18n "entries" }}">
 
+{{- $id := "_entries" -}}
+{{- $title := i18n "entries"  -}}
+{{- $tocEntries = $tocEntries | append (dict "title" $title "href" (printf "#%s" $id)) -}}
+<section id="{{ $id }}" class="entries" data-section-title="{{ i18n "entries" }}">
   {{- $allPosts := (where $hangers "Params.type" "eq" "hanger").ByDate -}}
   {{- $finalPosts := slice -}}
   {{- $processedPosts := slice -}}
@@ -52,6 +57,7 @@
     even (2): left spread
     */}}
   {{- $pageNr := 1 -}}
+  {{- $sectionToc := slice -}}
   {{- range $i, $p := $finalPosts -}}
     {{- $page := . -}}
     {{- if eq (printf "%T" .) "page.Pages" -}}
@@ -82,25 +88,39 @@
     <div class="{{ $class }}" data-page-nr="{{ $i }}">
       {{- partial "print/entry.html" $page -}}
     </div>
+    {{- $link := printf "#_%s" (replace $page.RelPermalink "/" "-") -}}
+    {{- $sectionToc = $sectionToc | append (dict "title" $page.Title "href" $link) -}}
     {{- if (in $page.Params.tags "Beidseitig") -}}
       {{- $pageNr = add $pageNr 2 -}}
     {{- else -}}
       {{- $pageNr = add $pageNr 1 -}}
     {{- end -}}
   {{- end -}}
+  {{- $tocEntries = $tocEntries | append (slice $sectionToc) -}}
 </section>
 
 {{/* Indexes */}}
-<section class="indexes" data-section-title="{{ i18n "indexes" }}">
+{{- $id := "_indexes" -}}
+{{- $title := i18n "indexes"  -}}
+{{- $tocEntries = $tocEntries | append (dict "title" $title "href" (printf "#%s" $id)) -}}
+<section id="{{ $id }}" class="indexes" data-section-title="{{ $title }}">
   <h1 class="indexes"></h1>
   {{- $types := slice "place" "store" "retail_chain" "type" "feature" "purpose" "brand" "material" -}}
+  {{- $sectionToc := slice -}}
   {{- range $types -}}
     <article class="index-container">
-      <h2 class="index-heading">{{ i18n (printf "%sIndex" .) }}</h2>
+      {{- $id := printf "_index-%s" . -}}
+      {{- $title := i18n (printf "%sIndex" .) -}}
+      {{- $sectionToc = $sectionToc | append (dict "title" $title "href" (printf "#%s" $id)) -}}
+      <h2 id="{{ $id }}" class="index-heading">{{ $title }}</h2>
       {{- partial "print/index.html" . -}}
     </article>
   {{- end -}}
+  {{- $tocEntries = $tocEntries | append $sectionToc -}}
 </section>
+
+{{- $tocEntries = $tocEntries | append (partial "print/print-toc.html" (dict "context" . "pages" $printSection "op" "gt" "weight" 100 )) -}}
+{{- $toc := partial "print/toc.html" (dict "context" . "entries" $tocEntries ) -}}
 
 <section class="back-matter" data-section-title="{{ i18n "back-matter" }}">
   {{- partial "print/print-pages.html" (dict "context" . "pages" $printSection "op" "gt" "weight" 100 ) -}}

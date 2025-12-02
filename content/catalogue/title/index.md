@@ -4,6 +4,7 @@ layout: print
 weight: 1
 params:
   print: true
+  toc: false
 ---
 
 # Kleiderbügel

@@ -68,6 +68,9 @@ other = "Address"
 [uncertainLocation]
 other = "Exact address cannot be determined"
 
+[toc]
+other = "Table of Contents"
+
 # Classification
 
 [classification]
