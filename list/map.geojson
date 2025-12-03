@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Hubertus Trier",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eHubertus Trier\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e[unleserlich]\nHubertus\nTrier, Simeonstr. 43\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eSimeonstr. 43, Trier\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/166/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.641942,49.757637]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "W.E. Eggert",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eW.E. Eggert\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMundsburger Damm 4 22007 Hamburg\nW.E. Eggert\nAmtstrachten Tel. 040 / 2201887 / 88\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMundsburger Damm 4, Hamburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/165/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
