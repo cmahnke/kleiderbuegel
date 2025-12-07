@@ -1,0 +1,20 @@
+{{ $section := .Get "section" }}
+{{ $bbox := .Get "bbox" }}
+
+{{ $matchedPages := partial "geo/bbox-filter.html" (dict
+  "section"  $section
+  "bbox" $bbox
+) }}
+
+{{ if gt (len $matchedPages) 0 }}
+  <ul class="geo-filtered-pages" data-bbox="{{ $bbox }}">
+  {{ range $matchedPages }}
+    {{- $id := printf "_%s" (replace .RelPermalink "/" "-") -}}
+    <li>
+      <a href="{{ .RelPermalink }}" data-id-ref="{{ $id }}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+  </ul>
+{{ else }}
+  <p>No pages found within the specified geographic bounding box.</p>
+{{ end }}

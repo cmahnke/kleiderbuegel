@@ -1,0 +1,29 @@
+{{ $sectionName := .section }}
+{{ $bboxRaw := .bbox }}
+
+{{ $cleanStr := replace (replace $bboxRaw "[" "") "]" "" }}
+{{ $coords := split $cleanStr "," }}
+
+{{ $minLon := float (index $coords 0) }}
+{{ $minLat := float (index $coords 1) }}
+{{ $maxLon := float (index $coords 2) }}
+{{ $maxLat := float (index $coords 3) }}
+
+{{ $pages := where site.RegularPages "Section" $sectionName }}
+
+{{ $pagesMap := slice }}
+
+{{ range $pages }}
+  {{ if and .Params.geojson .Params.geojson.coordinates }}
+
+    {{ $lon := float (index .Params.geojson.coordinates 0) }}
+    {{ $lat := float (index .Params.geojson.coordinates 1) }}
+
+    {{ if and (ge $lon $minLon) (le $lon $maxLon) (ge $lat $minLat) (le $lat $maxLat) }}
+      {{ $pagesMap = $pagesMap | append . }}
+    {{ end }}
+
+  {{ end }}
+{{ end }}
+
+{{ return $pagesMap }}

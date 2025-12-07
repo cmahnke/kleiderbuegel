@@ -1,6 +1,6 @@
 import { addConsent } from './iframe-consent';
 import { initMap } from './maps/osm-map.js';
-import { fullscreen } from './fullscreen.js';
+//import { fullscreen } from './fullscreen.js';
 import Swiper from 'swiper';
 import { A11y, Navigation, Scrollbar, Keyboard, Mousewheel } from 'swiper/modules';
 import EffectCoverflow from './swiper-addons/effect-coverflow.mjs';

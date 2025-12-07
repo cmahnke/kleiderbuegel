@@ -1,8 +1,3 @@
-// import createShadow from '../../shared/create-shadow.mjs';
-// import effectInit from '../../shared/effect-init.mjs';
-// import effectTarget from '../../shared/effect-target.mjs';
-// import { getRotateFix, getSlideTransformEl } from '../../shared/utils.mjs';
-
 import { getSlideTransformEl, effectTarget, effectInit, createShadow, getRotateFix } from 'swiper/effect-utils';
 
 export default function EffectCoverflow({ swiper, extendParams, on }) {
