@@ -92,7 +92,11 @@
       {{- partial "print/entry.html" $page -}}
     </div>
     {{- $link := printf "#_%s" (replace $page.RelPermalink "/" "-") -}}
-    {{- $sectionToc = $sectionToc | append (dict "title" $page.Title "href" $link) -}}
+    {{- $tocTitle := $page.Title -}}
+    {{- if eq $tocTitle "" -}}
+      {{- $tocTitle = $page.Description -}}
+    {{- end -}}
+    {{- $sectionToc = $sectionToc | append (dict "title" $tocTitle "href" $link) -}}
     {{- if (in $page.Params.tags "Beidseitig") -}}
       {{- $pageNr = add $pageNr 2 -}}
     {{- else -}}

@@ -1,6 +1,6 @@
 ---
 date: 2026-08-18T12:47:44+02:00
-title: "Gustav Köstermeyer, Herrenkleider-Fabrik, Lübbecke/Westf."
+title: "Gustav Köstermeyer, Herrenkleider-Fabrik"
 type: hanger
 outputs:
 - html

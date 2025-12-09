@@ -1,5 +1,6 @@
 {{- $slug := path.BaseName .Path -}}
-<article class="singe-page {{ $slug }}" data-title="{{ .Title }}">
+{{- $id := printf "_%s" (replace .RelPermalink "/" "-") -}}
+<article class="singe-page {{ $slug }}" id="{{ $id }}" data-title="{{ .Title }}">
   <div class="page">
     {{- if .Param "show_title" -}}
       {{- with .Title -}}
