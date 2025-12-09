@@ -31,7 +31,7 @@
 {{- $geojson := partial "geojson/featureCollection.geojson" $features -}}
 {{- $geojson := $geojson | jsonify }}
 
-{{- $id := printf "map_%s" (md5 $geojson) -}}
+{{- $id := printf "map_%s" (md5 (printf "%s-%s" $geojson time.Now)) -}}
 {{- $var := printf "_%s" $id -}}
 <div class="map-wrapper">
   <div class="map" id="{{ $id }}" data-bbox="{{ $bbox }}"></div>
@@ -40,17 +40,6 @@
   var geojson = {{ $geojson | safeJS }};
   
   var {{ $var | safeJS }} = window.initMap('#{{ $id | safeJS }}', geojson, 'osm', {{ $cluster | safeJS }}, {{ $marker | safeJS }} {{ if eq (printf "%T" $style) "string" }}, '{{ $style | safeJS }}' {{ else }}, undefined {{ end }} {{ if ne $bbox false }}, {{ $bbox | safeJS }} {{ end }});
-  const mapElem = document.getElementById("{{ $id }}");
-  const resizeObserver = new ResizeObserver((entries) => {
-    const bbox = {{ if ne $bbox false }}{{ $bbox | safeJS }}{{else}}undefined{{ end }};
-    if (bbox !== undefined) {
-      {{ $var | safeJS }}.then((map) => {
-        map.invalidateSize();
-        const bounds = [[bbox[3], bbox[2]], [bbox[1], bbox[0]]];
-        map.fitBounds(bounds, { padding: [30, 30] });
-        console.log(bounds, "=>", map.getBounds())   
-      });
-    }
-  });
-  resizeObserver.observe(mapElem);
+  const {{ $var | safeJS }}mapElem = document.getElementById("{{ $id }}");
+
 </script>

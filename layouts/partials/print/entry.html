@@ -13,31 +13,38 @@
 <article data-id="{{ .RelPermalink }}" id="{{ $id }}" class="entry">
   <div class="page">
     <div class="text">
-      <h2 class="post-title">{{ .Title }}</h2>
-      <h3 class="heading-front"><span>{{ i18n "front" }}</span></h3>
-      {{ partial "print/entry-content.html" . }}
-      {{- with .Resources.GetMatch "top*" -}}
-        <h3 class="heading-top"><span>{{ i18n "top" }}</span></h3>
-        <div class="hanger-top">
-          <h2 class="heading-imprint">{{ i18n "print" }}</h2>
-          {{- with .Params.content -}}
-            <div class="top-content">
-              {{- . | markdownify -}}
-            </div>
-          {{- end }}
-        </div>
-      {{- end }}
-      {{- if eq (.Resources.GetMatch "back*") nil -}}
-        <div class="hanger-back">
-          <p>
-            {{- if (in $page.Params.tags "Beidseitig") -}}
-              {{- i18n "identical_back" -}}
-            {{- else -}}
-              {{- i18n "empty_back" -}}
-            {{- end -}}
-          </p>
-        </div>
-      {{- end -}}
+      <div class="text-content-top">
+        <h2 class="post-title">{{ .Title }}</h2>
+        <h3 class="heading-front"><span>{{ i18n "front" }}</span></h3>
+      </div>
+      <div class="text-content-center">
+        {{ partial "print/entry-content.html" . }}
+        {{- with .Resources.GetMatch "top*" -}}
+          <h3 class="heading-top"><span>{{ i18n "top" }}</span></h3>
+          <div class="hanger-top">
+            <h2 class="heading-imprint">{{ i18n "print" }}</h2>
+            {{- with .Params.content -}}
+              <div class="top-content">
+                {{- .  -}}
+              </div>
+            {{- end }}
+          </div>
+        {{- end }}
+      </div>
+      <div class="text-content-bottom">
+        {{- if eq (.Resources.GetMatch "back*") nil -}}
+          <div class="hanger-back">
+            <p>
+              {{- if (in $page.Params.tags "Beidseitig") -}}
+                {{- i18n "identical_back" -}}
+              {{- else -}}
+                {{- i18n "empty_back" -}}
+              {{- end -}}
+            </p>
+          </div>
+        {{- end -}}
+        <div class="footnote-area"></div>
+      </div>
     </div>
 
     <div class="image">
@@ -80,16 +87,20 @@
   {{- with .Resources.GetMatch "back*" -}}
     <div class="page">
       <div class="text">
-        <h2 class="post-title">{{ $title }}</h2>  
-        <h3 class="heading-back"><span>{{ i18n "back" }}</span></h3>
-        <h2 class="heading-imprint">{{ i18n "print" }}</h2>
-        {{- with .Params.content -}}
-          <div class="back-content">
-            <p>
-              {{- . | markdownify -}}
-            </p>
-          </div>
-        {{- end }}
+        <div class="text-content-top">
+          <h2 class="post-title">{{ $title }}</h2>  
+          <h3 class="heading-back"><span>{{ i18n "back" }}</span></h3>
+        </div>
+        <div class="text-content-center">
+          <h2 class="heading-imprint">{{ i18n "print" }}</h2>
+          {{- with .Params.content -}}
+            <div class="back-content">
+              <p>
+                {{- . -}}
+              </p>
+            </div>
+          {{- end }}
+        </div>
       </div>
       <div class="image">
         <div class="hanger-back">

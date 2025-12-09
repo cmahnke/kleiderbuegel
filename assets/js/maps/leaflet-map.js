@@ -1,8 +1,8 @@
 import L from 'leaflet';
 import 'leaflet.markercluster';
-import vectorTileLayer from 'leaflet-vector-tile-layer';
+import vectorTileLayer from './Leaflet.VectorTileLayer/VectorTileLayer';
 import '@maplibre/maplibre-gl-leaflet';
-import { leafletIcon, mapboxToLeafletVectorGrid } from './leaflet-util';
+import { leafletIcon, mapboxToLeafletVectorGrid, getFeatureLayer } from './leaflet-util';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 import * as mapStyle from './kleiderbügel-style.json';
@@ -54,7 +54,6 @@ function waitForElm(selector) {
 }
 
 export async function initMap(element, geojson, source, cluster, marker, style, bbox) {
-    console.log(bbox);
     if (!style in layers) {
         throw new Error(`'${style}' is not a valid style.`);
     }
@@ -91,14 +90,23 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
         center = geoJsonLayer.getBounds().getCenter();
     }
 
+    let bounds, maxBounds= [[180, -Infinity], [-180, Infinity]];
+    if (bbox && bbox.length === 4) {
+        //bounds = [[bbox[1], bbox[0]], [bbox[3], bbox[2]]];
+        bounds = [[bbox[3], bbox[2]], [bbox[1], bbox[0]]];
+        
+        maxBounds = bounds;
+    }
+
+
     let map, mapElem;
     mapElem = document.querySelector(element);
     //waitForElm(element).then((elm) => {
     //    console.log(`Found element ${elm}`);
     //    mapElem = elm;
         map = L.map(mapElem, {
-            maxBounds: [[180, -Infinity], [-180, Infinity]],
-            maxBoundsViscosity: 1,
+            maxBounds: maxBounds,
+            //maxBoundsViscosity: 1,
             zoomControl: false,
             renderer: L.svg(),
             minZoom: 1,
@@ -106,17 +114,15 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
             center: center,
             zoom: 3,
             zoomSnap: .1,
-            preferCanvas: false
+            preferCanvas: false,
+            lang: lang
         });
     //});
 
-
-    let bounds;
     if (bbox && bbox.length === 4) {
-        //bounds = [[bbox[1], bbox[0]], [bbox[3], bbox[2]]];
-        bounds = [[bbox[3], bbox[2]], [bbox[1], bbox[0]]];
         map.fitBounds(bounds, { padding: padding });
     }
+    
 
     var vectorLayer;
 
@@ -128,81 +134,86 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
       const vectorTileUrl = layers[style].sources["versatiles-" + style].tiles[0];
       const vectorTileAttribution = layers[style].sources["versatiles-" + style].attribution;
 
+
       // Handle background layer
       const backgroundLayer = mapStyle.layers.find(l => l.type === 'background');
       if (backgroundLayer && backgroundLayer.paint?.['background-color']) {
           mapElem.style.backgroundColor = backgroundLayer.paint['background-color'];
       }
 
-      // Example of how to use the new disabledFeatures parameter.
-      const disabledRules = {
-        'water_lines': [
-            {kind: 'basin'},
-            {tunnel: true},
-            {tunnel: 'culvert'}
-        ],
-        'water_polygons': [
-            {tunnel: true},
-            {tunnel: 'culvert'}
-        ],
-        'addresses': [],
-        'pois': [],
-        'public_transport': [],
-        'streets':[
-            { kind: 'narrow_gauge'},
-            { kind: 'cycleway' },
-            { bicycle: 'designated' }
-        ],
-        'street_polygons': [],
-        'street_labels': []
-      };
-
-      // Create a dedicated pane for labels to ensure they appear on top.
       map.createPane('labels');
-      map.getPane('labels').style.zIndex = 650; // Higher than the default overlay pane (400)
-      map.getPane('labels').style.pointerEvents = 'none'; // Allow clicks to pass through to layers below
+      map.getPane('labels').style.zIndex = 500;
+      map.getPane('labels').style.pointerEvents = 'none';
 
+      map.createPane('clusters');
+      map.getPane('clusters').style.zIndex = 650;
 
       // First, create the styling for polygons and lines, but disable label drawing.
-      const vectorTileStyling = mapboxToLeafletVectorGrid(mapStyle, map, disabledRules, false);
-      console.log(vectorTileStyling, vectorTileStyling);
-      
-      vectorTileStyling['*'] = function(properties, zoom) {
-        console.warn("Unhandled", properties, zoom);
-      }
+      const vectorTileStyling = mapboxToLeafletVectorGrid(mapStyle, map, false);
+      //console.log(vectorTileStyling, `${Object.keys(vectorTileStyling)}`);
 
       const vectorTileOptions = {
         attribution: vectorTileAttribution,
         vectorTileLayerStyles: vectorTileStyling,
+        minDetailZoom: 4,
         maxDetailZoom: 14,
         maxZoom: 20,
+        bounds: bounds,
+        reuseTiles : true,
+        layers: ["ocean", "water_polygons", "land", "water_lines", "dam_polygons", "dam_lines", "pier_polygons", "pier_lines", "sites", "street_polygons", "streets", "buildings", "bridges", "boundaries"]
       };
 
       vectorLayer = vectorTileLayer(vectorTileUrl, vectorTileOptions).addTo(map);
 
       // Label layer - just a hack for GridTile
-    //   const labelTileStyling = mapboxToLeafletVectorGrid(mapStyle, map, disabledRules, true);
-    //   const labelVectorTileOptions = {
-    //     attribution: vectorTileAttribution,
-    //     vectorTileLayerStyles: labelTileStyling,
-    //     maxZoom: 20,
-    //     maxDetailZoom: 14,
-    //     pane: 'labels'
-    //   };
+      const labelTileStyling = getFeatureLayer(mapStyle, map)
+      const labelCache = {};
+      const labelVectorTileOptions = {
+        style: labelTileStyling,
+        //featureToLayer: labelsLayer,
+        minDetailZoom: 7,
+        maxDetailZoom: 14,
+        maxZoom: 20,
+        pane: 'labels',
+        bounds: bounds,
+        reuseTiles : true,
+        layers: ["place_labels", "boundary_labels", "street_labels"],
+        // Pass a cache object to the styling function via the '*' property.
+        '*': { cache: labelCache }
+      };
 
-    //   let labelCache = [];
-    //   labelVectorTileOptions.getFeatureId = (f) => f.properties.name;
-    //   const labelVectorLayer = vectorTileLayer(vectorTileUrl, labelVectorTileOptions).addTo(map);
-    //   labelVectorLayer.on('loading', () => { labelCache = []; });
-    //   labelTileStyling['*'] = { cache: labelCache };
-    
+       const labelVectorLayer = vectorTileLayer(vectorTileUrl, labelVectorTileOptions)
+       
+       /*
+       console.log(labelVectorLayer);
+      labelVectorLayer.prototype.applyImageStyle = function(layer, style) {
+        if (style.divIcon) {
+          // If our style function returns a divIcon, use it.
+          layer.setIcon(style.divIcon);
+        } else if (style.icon) {
+          // Fallback to the original behavior if a regular icon is provided.
+          layer.setIcon(style.icon);
+        }
+      };
+      */
 
+       labelVectorLayer.addTo(map);
+
+       // Clear the label cache for a tile when it's loaded to start fresh.
+       labelVectorLayer.on('tileload', (e) => {
+         const tileKey = e.tile.x + ':' + e.tile.y + ':' + e.tile.z;
+         labelCache[tileKey] = [];
+       });
+
+
+      
     }
 
     if (cluster !== undefined && cluster) {
         let markers = L.markerClusterGroup({
             //showCoverageOnHover: false,
             maxClusterRadius: 40,
+            pane: 'clusters', // Assign clusters to the dedicated top pane.
             iconCreateFunction: function(cluster) {
                 const count = cluster.getChildCount();
                 const icon = markerOptions.icon;
@@ -233,19 +244,19 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
         map.fitBounds(geoJsonLayer.getBounds(), { padding: padding });
     }
 
-    /*
    const resizeObserver = new ResizeObserver(() => {
         map.invalidateSize();
         if (bounds !== undefined) {
             map.fitBounds(bounds, { padding: padding });
+            console.log("Resized map and fit to bounds: ", map.getBounds(), " expected: ", bounds, mapElem.clientWidth, mapElem.clientHeight);
         }
     });
     if (mapElem !== null) {
         resizeObserver.observe(mapElem);
     } else {
-        console.error(`Couldn't set up resize observer for ${element}`)
+        console.error(`Couldn't set up resize observer for`, mapElem)
     }
-    */
+
 
     return map;
 }

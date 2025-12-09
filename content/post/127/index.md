@@ -1,6 +1,6 @@
 ---
 date: 2025-03-04T12:47:44+02:00
-title: "Möller & Schade Das Haus der guten Kleidung Cuxhaven"
+title: "Möller & Schade"
 type: hanger
 outputs:
 - html

@@ -1,6 +1,6 @@
 ---
 date: 2024-09-10T12:47:44+02:00
-title: "MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt"
+title: "MOLLERUS reinigt MOLLERUS wäscht..."
 type: hanger
 outputs:
 - html

@@ -1,4 +1,5 @@
 {{- $context := . -}}
+{{- $section := .FirstSection -}}
 {{- $pages := site.AllPages -}}
 {{- $op := "lt" -}}
 {{- $weight := 10000 -}}
@@ -13,17 +14,31 @@
   {{- if isset . "weight" -}}
     {{- $weight = .weight -}}
   {{- end -}}
+  {{- if isset . "section" -}}
+    {{- $section = .section -}}
+  {{- end -}}
 {{- else -}}
   {{- errorf "[print/print-pages.html] Needs params as dict, not just context" .RelPermalink -}}
 {{- end -}}
 
 {{- $tocEntries := slice -}}
-{{ $pages = where $pages ".Weight" $op $weight }}
+{{- $pages = where $pages ".Weight" $op $weight -}}
+{{/* {{- $pages = where $pages "Parent" $section -}} */}}
 {{- range $pages.ByWeight -}}
   {{- if eq .Params.toc false -}}
     {{- continue -}}
   {{- end -}}
+
+  {{- if (ne (index .Ancestors 0) $section) -}}
+    {{- continue -}}
+  {{- end -}}
+
   {{- $link := printf "#_%s" (replace .RelPermalink "/" "-") -}}
   {{ $tocEntries = $tocEntries | append (dict "title" .Title "href" $link) }}
+  {{- if and (eq .Kind "section") (gt (len .Pages) 0) -}}
+    {{- $children := .Pages -}}
+    {{- $tocEntries = $tocEntries | append (slice (partial "print/print-toc.html" (dict "context" . "section" .CurrentSection "pages" $children "op" $op "weight" $weight ))) -}}
+  {{- else -}}
+  {{- end -}}
 {{- end -}}
 {{- return $tocEntries -}}

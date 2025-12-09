@@ -3,7 +3,7 @@ DOCKER_IMAGE="yeslogic/prince:latest"
 
 hugo -F -D --renderSegments print
 if [ -z "$1" ] ; then
-    npx vivliostyle build docs/print.html -o print.pdf
+    npx vivliostyle build --language de docs/print.html -o print.pdf
 else
     docker pull "$DOCKER_IMAGE"
     if [ $? -ne 0 ]; then

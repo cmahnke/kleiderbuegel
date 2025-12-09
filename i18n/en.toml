@@ -71,6 +71,15 @@ other = "Exact address cannot be determined"
 [toc]
 other = "Table of Contents"
 
+[noPagesFound]
+other = "No pages found within the specified geographic bounding box."
+
+[generated]
+other = "Generated on"
+
+[revision]
+other = "Revision"
+
 # Classification
 
 [classification]

@@ -15,3 +15,6 @@ params:
   alt="Attribution-NonCommercial-ShareAlike 4.0 International"
   class="cc"
   target="_blank" >}}
+
+
+{{< print-status >}}

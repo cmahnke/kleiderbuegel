@@ -6,15 +6,87 @@
   "bbox" $bbox
 ) }}
 
-{{ if gt (len $matchedPages) 0 }}
+{{- $type := "place" -}}
+{{- $tagPages := slice -}}
+{{- range $matchedPages }}
+  {{- range $tag := .Params.tags -}}
+    {{- $tagUrl := printf "%s%s" "tags/" ($tag | urlize) -}}
+    {{- $tagPath := (urls.Parse $tagUrl).Path -}}
+
+    {{- with site.GetPage $tagPath -}}
+      {{- if and (eq .Params.type $type) (not (in $tagPages .)) -}}
+        {{- $tagPages = $tagPages | append . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}  
+{{- end -}}
+
+{{ if gt (len $tagPages) 0 }}
+  <ul data-type="place" data-bbox="{{ $bbox }}" class="geo-filtered-pages index place">
+  {{- range $tagPages.ByTitle -}}
+    {{- $title := .Title -}}
+    {{- if eq $title "" -}}
+      {{- $title := i18n "noTitle" -}}
+    {{- end -}}
+    {{- $termPages := slice -}}
+    {{- $indexPages := slice -}}
+    {{- $pages := where $matchedPages "Params.type" "eq" "hanger" -}}
+
+    {{- $defaultTitle := .Title -}}
+    {{- if (isset .Params "tag") -}}
+      {{- $defaultTitle = .Params.tag -}}
+    {{- end -}}
+    {{- $termPages = where $pages ".Params.tags" "intersect" (slice $defaultTitle) -}}
+    {{- range $termPages -}}
+      {{- if eq .Title "" -}}
+        {{- $indexPages = $indexPages | append (dict "title" (i18n "noTitle") "page" .) -}}
+      {{- else if findRE `(?m)^\w` .Title -}}
+        {{- $indexPages = $indexPages | append (dict "title" .Title "page" .) -}}
+      {{- else -}}
+        {{- $indexPages = $indexPages | append (dict "title" .Title "page" .) -}}
+        {{- $cleanTitle := replaceRE `(?m)^.*?(\w.*\w).*$` "$1" .Title -}}
+        {{- $indexPages = $indexPages | append (dict "title" $cleanTitle "page" .) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $indexPages = sort $indexPages "title" "asc" -}}
+
+
+    {{- if gt (len $termPages) 0 -}}
+      <li class="index-entry">
+        <div class="title">{{ $title }}</div>
+        {{- with .Description -}}
+          <div class="description">{{ . }}</div>
+        {{- end -}}
+          <ul class="sub-index" data-sub-heading-title="{{ . }}">
+            {{- range $indexPages -}}
+              <li class="index-sub-entry" data-ref="{{ .page.RelPermalink }}">
+                {{- $link := printf "#_%s" (replace .page.RelPermalink "/" "-") -}}
+                <a href="{{ $link }}">
+                  <span class="title">{{ .title }}</span>
+                  {{- with .page.Description -}}
+                    {{- if ne (trim . " ") "" -}}
+                      <br />
+                      <span class="description">{{ . }}</span>
+                    {{- end -}}
+                  {{- end -}}
+                </a>
+              </li>
+            {{- end -}}
+          </ul>
+      </li>
+    {{- end -}}
+  {{- end -}}
+</ul>
+  {{/*
   <ul class="geo-filtered-pages" data-bbox="{{ $bbox }}">
-  {{ range $matchedPages }}
-    {{- $id := printf "_%s" (replace .RelPermalink "/" "-") -}}
-    <li>
-      <a href="{{ .RelPermalink }}" data-id-ref="{{ $id }}">{{ .Title }}</a>
-    </li>
-  {{ end }}
+    {{ range $matchedPages }}
+      {{- $id := printf "_%s" (replace .RelPermalink "/" "-") -}}
+      <li>
+        <a href="{{ .RelPermalink }}" data-id-ref="{{ $id }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
   </ul>
+  */}}
 {{ else }}
-  <p>No pages found within the specified geographic bounding box.</p>
+  <p>{{ i18n "noPagesFound" }}</p>
 {{ end }}

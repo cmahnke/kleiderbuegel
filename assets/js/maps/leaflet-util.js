@@ -1,4 +1,30 @@
 import L from 'leaflet';
+import {SVG} from "leaflet";
+//from './Leaflet.VectorTileLayer/VectorTileLayer';
+
+//import {VectorTileFeature} from "@mapbox/vector-tile";
+
+// A custom L.Icon class that renders a provided SVG element.
+const SvgIcon = L.Icon.extend({
+  options: {
+    // svgElement is the <g> element containing our label.
+    svgElement: null,
+  },
+
+  createIcon: function (oldIcon) {
+    const div = (oldIcon && oldIcon.tagName === 'DIV') ? oldIcon : document.createElement('div');
+    const options = this.options;
+
+    // The main container for the SVG.
+    const svg = SVG.create('svg');
+    svg.setAttribute('width', options.iconSize[0]);
+    svg.setAttribute('height', options.iconSize[1]);
+    svg.appendChild(options.svgElement);
+
+    div.appendChild(svg);
+    return div;
+  }
+});
 
 // TODO: This wil certainly fail with any other OpenLayers marker structure
 export function leafletIcon(olIconStyle) {
@@ -224,7 +250,7 @@ function resolveValue(value, zoom, properties) {
   return value;
 }
 
-export function mapboxToLeafletVectorGrid(mapboxStyle, map, disabledFeatures = {}, drawLabels = true) {
+export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
   const lang = map.options.lang;
   const leafletStyle = {};
 
@@ -260,25 +286,6 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, disabledFeatures = {
       const labelCache = leafletStyle['*']?.cache;
 
       const styles = [];
-
-      // First, check if the feature should be disabled based on the rules.
-      // This ensures that disabled features are immediately made invisible
-      // before any style matching is attempted.
-      if (disabledFeatures[sourceLayer]) {
-        const rules = disabledFeatures[sourceLayer];
-        if (rules.length === 0) {
-          // An empty rules array is a blanket rule to disable the entire source-layer.
-          return { stroke: false, fill: false };
-        }
-
-        const isDisabled = rules.some(conditions => {
-          return Object.keys(conditions).every(key => properties[key] == conditions[key]);
-        });
-
-        if (isDisabled) {
-          return { stroke: false, fill: false };
-        }
-      }
 
       // Iterate backwards to find the topmost layer that matches.
       // This correctly handles cases like 'road:outline' and 'road' where the top one should be rendered.
@@ -360,9 +367,6 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, disabledFeatures = {
               if (!iconImage || iconImage === '') {
                 // This is a text-only layer (a label).
                 if (drawLabels) {
-                  // Continue to render the label.
-                } else {
-                  // We are in the geometry-only pass, so skip rendering labels.
                   return { stroke: false, fill: false };
                 }
                 
@@ -375,10 +379,11 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, disabledFeatures = {
                   const fontFamily = Array.isArray(textFont) ? textFont.join(', ') : 'sans-serif';
                   const fs = resolveValue(layout['text-size'], zoom, properties) || 0;
 
-                  // If the font size is 0, the label should not be displayed.
+                  const fill = resolveValue(paint['text-color'], zoom, properties);
+                  const stroke = resolveValue(paint['text-halo-color'], zoom, properties);
+                  const strokeWidth = resolveValue(paint['text-halo-width'], zoom, properties);
+
                   if (fs <= 0) {
-                    // We found a matching layer, but the text size is 0, so it should be hidden.
-                    // We must return here and not continue to check other layers.
                     return { stroke: false, fill: false }; 
                   }
 
@@ -415,21 +420,34 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, disabledFeatures = {
                     labelCache.push(originalBox); // Add the original box to the cache
                   }
 
-                  const l = properties.name.length;
-                  const circleY = fs + 5;
-                  const h = circleY + 5, w = fs * l * 1.3; 
-                  const icon = L.icon({
-                      iconUrl: "data:image/svg+xml;base64," +
-                        btoa(unescape(encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" height="${h}" width="${w}" font-family="${fontFamily}">
-                      <text paint-order="stroke fill" fill="white" stroke="black" stroke-width="2" x="50%" y="${fs}" font-size="${fs}px" text-anchor="middle">${text}</text>
-                      <circle cx="${w/2}" cy="${circleY}" r="2" stroke="black" stroke-width="1" fill="white" />
-                      </svg>`))),
-                      iconSize: [w,h],
-                      iconAnchor: [w/2, circleY]
-                  });
+                  // Calculate icon dimensions
+                  const w = fs * (text ? text.length : 0) * 0.8;
+                  const h = fs + 10;
+                  const anchorY = fs;
 
+                  // Programmatically create the SVG elements instead of building a string.
+                  const group = SVG.create('g');
+
+                  const textElement = SVG.create('text');
+                  const attributes = {
+                    'paint-order': 'stroke fill', 'fill': fill, 'stroke': stroke,
+                    'stroke-width': strokeWidth, 'x': w / 2, 'y': fs,
+                    'font-size': `${fs}px`, 'font-family': fontFamily, 'text-anchor': 'middle'
+                  };
+                  for (const key in attributes) {
+                    textElement.setAttribute(key, attributes[key]);
+                  }
+                  textElement.textContent = text;
+                  group.appendChild(textElement);
+
+                  const icon = new SvgIcon({
+                      svgElement: group,
+                      iconSize: [w, h],
+                      iconAnchor: [w / 2, anchorY]
+                  });
+                  //return {graphics: group};
                   // Use zIndexOffset to ensure labels appear on top. Higher 'level' properties get a higher z-index.
-                  return { icon, zIndexOffset: 1000 + (properties.level || 0) };
+                  //return { icon, zIndexOffset: 1000 + (properties.level || 0) };
               } else {
                 // This is an icon symbol, not a text label. Skip if we are in the label-drawing pass.
                 if (drawLabels) {
@@ -447,18 +465,167 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, disabledFeatures = {
       }
 
       if (styles.length > 0) {
-        // Leaflet.VectorGrid can render a feature multiple times if an array of styles is returned.
-        // We reverse the array because we iterated forwards (bottom-to-top), 
-        // but Leaflet draws the first style in the array on the bottom.
         return styles.reverse();
       }
 
       // For debugging, make unstyled features visible.
-      console.warn(`Unstyled feature in source-layer '${sourceLayer}':`, properties, 'at zoom:', zoom);
+      //console.warn(`Unstyled feature in source-layer '${sourceLayer}':`, properties, 'at zoom:', zoom);
       return { stroke: false, fill: false };
       //return { color: 'magenta', weight: 2, fill: true, fillColor: 'magenta', fillOpacity: 0.4 };
     }
   }
 
   return leafletStyle;
+}
+
+// Use OffscreenCanvas for text measurement if available, otherwise fall back to a standard canvas.
+// This is slightly more performant and avoids creating a DOM element.
+const canvas = typeof OffscreenCanvas !== 'undefined' ? new OffscreenCanvas(0, 0) : document.createElement('canvas');
+const ctx = canvas.getContext('2d', { alpha: false });
+
+export function getFeatureLayer(mapboxStyle, map) {
+  //return function (feature, layerName, pxPerExtent, options) {
+    
+  return function (feature, layerName, zoom, tile) {
+    const properties = feature.properties;
+    const labelCache = this['*']?.cache;
+
+    //const self = featureLayerBase(feature, layerName, pxPerExtent, options);
+    // Find the corresponding layer style in the Mapbox style
+    const styleLayer = mapboxStyle.layers.find(l =>
+      l['source-layer'] === layerName &&
+      l.type === 'symbol' &&
+      createFilter(l.filter)(properties, zoom)
+    );
+
+    if (!styleLayer) {
+      return null; // Don't render if no style matches
+    }
+
+    // Check if the layer is visible at the current zoom level.
+    if ((styleLayer.minzoom && zoom < styleLayer.minzoom) || (styleLayer.maxzoom && zoom >= styleLayer.maxzoom)) {
+      return null;
+    }
+    const visibility = resolveValue(styleLayer.layout?.visibility, zoom, properties);
+    if (visibility === 'none') {
+      return null;
+    }
+
+    const paint = styleLayer.paint || {};
+    const layout = styleLayer.layout || {};
+
+    // Resolve text properties from the style
+    const lang = map.options.lang;
+    let text = properties['name_' + lang] || properties['name'];
+    const fs = resolveValue(layout['text-size'], zoom, properties) || 0;
+
+    if (!text || fs <= 0) {
+      return null;
+    }
+
+    const fontFamily = (mapboxStyle["ol:webfonts"] || mapboxStyle.metadata["ol:webfonts"]) || 'sans-serif';
+    ctx.font = `${fs}px ${fontFamily}`;
+    const w = ctx.measureText(text).width;
+
+    // --- Label Collision Detection ---
+    if (labelCache && feature.type === 1) { // Only check for Point features
+      const tileKey = tile.x + ':' + tile.y + ':' + tile.z;
+      if (!labelCache[tileKey]) {
+        labelCache[tileKey] = [];
+      }
+
+      const h = fs * 1.5;
+      const anchorY = h / 2;
+
+      // Get the screen coordinates of the point relative to the tile.
+      // VectorTileFeature geometry is normalized to a 0-4095 range.
+      const point = feature.loadGeometry()[0][0];
+      const scale = 256 / 4096;
+      const tileX = point.x * scale;
+      const tileY = point.y * scale;
+
+      // Calculate the bounding box of the label within the tile.
+      const margin = 10; // 5px margin on each side
+      const box = {
+        minX: tileX - (w / 2) - margin,
+        maxX: tileX + (w / 2) + margin,
+        minY: tileY - anchorY - margin,
+        maxY: tileY + (h - anchorY) + margin
+      };
+
+      // Check for overlap with existing labels in the cache for this tile.
+      const overlaps = labelCache[tileKey].some(b => box.maxX > b.minX && box.minX < b.maxX && box.maxY > b.minY && box.minY < b.maxY);
+      if (overlaps) return null; // Hide if it overlaps
+
+      labelCache[tileKey].push(box); // Add the box to the cache for this tile.
+    }
+
+    const h = fs * 1.5;
+    const anchorY = h / 2;
+    
+    const fill = resolveValue(paint['text-color'], zoom, properties);
+    const stroke = resolveValue(paint['text-halo-color'], zoom, properties);
+    const strokeWidth = resolveValue(paint['text-halo-width'], zoom, properties);
+    const textElement = SVG.create('text');
+    const attributes = {
+      'paint-order': 'stroke fill',
+      'stroke-width': strokeWidth,
+      'font-size': `${fs}px`,
+      'font-family': fontFamily,
+      'text-anchor': 'middle',
+      'x': w / 2,
+      'y': fs
+    };
+
+    attributes.fill = (typeof fill === 'object' && fill.color) ? fill.color : fill;
+    attributes['fill-opacity'] = (typeof fill === 'object' && fill.opacity) ? fill.opacity : 1;
+
+    attributes.stroke = (typeof stroke === 'object' && stroke.color) ? stroke.color : stroke;
+    attributes['stroke-opacity'] = (typeof stroke === 'object' && stroke.opacity) ? stroke.opacity : 1;
+
+    for (const key in attributes) {
+      textElement.setAttribute(key, attributes[key]);
+    }
+    textElement.textContent = text;
+    const group = SVG.create("g");
+    group.appendChild(textElement);
+
+    const svg = SVG.create('svg');
+    svg.setAttribute('width', w);
+    svg.setAttribute('height', h);
+    svg.setAttribute('viewBox', `0 0 ${w} ${h}`);
+
+    
+    const styleElement = SVG.create('style');
+    styleElement.textContent = `@font-face { font-family: "${fontFamily}"; src: local('${fontFamily}'), url("/fonts/space-grotesk-latin-ext-wght-normal.woff2") format("woff2-variations"); }`;
+    svg.appendChild(styleElement);
+  
+
+    svg.appendChild(group);
+    const svgString = new XMLSerializer().serializeToString(svg);
+    const iconUrl = 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(svgString)));
+    //console.log(svgString);
+
+    const icon = L.icon({
+      iconUrl: iconUrl,
+      iconSize: [w, h],
+      iconAnchor: [w / 2, anchorY]
+    });
+    
+    // Return a divIcon so our custom applyImageStyle function can use it.
+    //return { icon: L.divIcon({ html: svgString, iconSize: [w, h], iconAnchor: [w / 2, anchorY] })};
+   //return { icon: icon };
+    return svgIcon(group, w, h, w / 2, anchorY);
+  };
+}
+function svgIcon(svg, width, height, anchorX, anchorY) {
+  return {
+    icon : {
+      options: {
+        svg: svg,
+        iconSize: [width, height],
+        iconAnchor: [anchorX, anchorY]
+      }
+    }
+  };
 }

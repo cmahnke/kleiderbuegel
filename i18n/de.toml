@@ -71,6 +71,15 @@ other = "Genaue Adresse nicht ermittelbar"
 [toc]
 other = "Inhaltsverzeichnis"
 
+[noPagesFound]
+other = "Keine Seiten innerhalb des angegebenen geografischen Begrenzungsrahmens gefunden."
+
+[generated]
+other = "Generiert am"
+
+[revision]
+other = "Revision"
+
 # Classification
 
 [classification]

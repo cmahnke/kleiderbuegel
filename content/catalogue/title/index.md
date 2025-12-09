@@ -7,9 +7,11 @@ params:
   toc: false
 ---
 
-# Kleiderbügel
-{.title-heading}
-
+<div class="title-heading">
+  <h2>Die</h2>
+  <h1>Kleiderbügel</h1>
+  <h2>-sammlung Christian Mahnke</h2>
+</div>
 
 {{< print-image
   src="hanger.svg"

@@ -1,6 +1,6 @@
 ---
 date: 2024-11-05T12:47:44+02:00
-title: "Lüneburg W. Marwitz Wäscherei Färberei Chem. Reinigung Ruf 52044"
+title: "W. Marwitz Lüneburg"
 type: hanger
 outputs:
 - html
