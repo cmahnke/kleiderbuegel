@@ -1,6 +1,15 @@
 {{- $slug := path.BaseName .Path -}}
 {{- $id := printf "_%s" (replace .RelPermalink "/" "-") -}}
-<article class="singe-page {{ $slug }}" id="{{ $id }}" data-title="{{ .Title }}">
+{{- $class := printf "singe-page %s" $slug -}}
+{{- if gt (len .Ancestors.Reverse) 2 -}}
+  {{- range (after 2 .Ancestors.Reverse) -}}
+    {{- $class = printf "%s %s" $class (path.BaseName .Path) -}}
+  {{- end -}}
+{{- end -}}
+{{- if eq .Kind "section" -}}
+  {{- $class = printf "%s section" $class -}}
+{{- end -}}
+<article class="{{ $class }}" id="{{ $id }}" data-title="{{ .Title }}">
   <div class="page">
     {{- if .Param "show_title" -}}
       {{- with .Title -}}
@@ -8,5 +17,6 @@
       {{- end -}}
     {{- end -}}
     {{- .Content -}}
+    {{- partial "print/footnotes.html" . -}}
   </div>
 </article>

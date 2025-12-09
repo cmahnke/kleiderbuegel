@@ -1,0 +1,9 @@
+{{- with .Page.Store.Get "footnotes" -}}
+    {{- $list := . -}}
+    <div class="footnote-container">
+        {{- range  $key, $value := $list -}}
+            <span class="footnote-number">{{ $key }}</span>: <span class="footnote-content">{{ $value | safeHTML }}</span><br/>
+        {{- end -}}
+    </div>
+{{- end -}}
+{{- .Page.Store.Delete "footnotes" -}}

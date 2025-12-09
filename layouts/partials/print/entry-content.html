@@ -22,7 +22,7 @@
     {{- $remarks := . -}}
     {{- $remarks = replace $remarks "Aktuelle Webseite" (i18n "currentWebsite") -}}
     {{- $remarks = replace $remarks "Heutige Webseite" (i18n "currentWebsite") -}}
-    {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="remarks notes"><div class="additional-header">` (i18n "remarks") `:</div>` ($remarks | markdownify) `</div>` -}}
+    {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="remarks notes"><div class="additional-header">` (i18n "remarks") `:</div>` ($remarks | $.Page.RenderString) `</div>` -}}
   {{- end -}}
 
   {{- with .Params.related -}}
@@ -33,10 +33,10 @@
     {{- end -}}
   {{- end -}}
   {{- with .Params.source -}}
-    {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="source"><div class="additional-header">` (i18n "source" ) `:</div>` ( . | markdownify) `</div>` -}}
+    {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="source"><div class="additional-header">` (i18n "source" ) `:</div>` ( . | $.Page.RenderString) `</div>` -}}
   {{- end -}}
   {{- with .Params.donation -}}
-    {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="donation"><div class="additional-header">` (i18n "donation" ) `:</div>` ( . | markdownify) `</div>` -}}
+    {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="donation"><div class="additional-header">` (i18n "donation" ) `:</div>` ( . | $.Page.RenderString) `</div>` -}}
   {{- end -}}
 
   {{- range $tag := .Params.tags -}}
@@ -62,7 +62,7 @@
         {{- if isset .Params "type" -}}
           {{- if or (eq .Params.type "store") (eq .Params.type "retail_chain") -}}
             {{- if ne .Content "" -}}
-              {{- $additional = printf "%s%s%s%s" $additional `<div class="tag-content">` .Content `</div>` -}}
+              {{- $additional = printf "%s%s%s%s" $additional `<div class="tag-content">` (.RawContent | $.Page.RenderString) `</div>` -}}
             {{- end -}}
           {{- end -}}
         {{- end -}}

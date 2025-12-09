@@ -1,0 +1,21 @@
+{{- $target := .Destination -}}
+{{- $id := 1 -}}
+{{- $val := printf `<span class="footnote-title">%s</span>: <a href="%s"`  .Text  $target  -}}
+{{ with .Title}}
+    {{- $val = printf `%s title="%s"` $val . -}}
+{{ end }}
+{{ if strings.HasPrefix .Destination "http" }}
+    {{- $val = printf `%s target="_blank"` $val -}}
+{{ end }}
+{{- $val = printf `%s>%s</a>` $val $target -}}
+{{- with .Page.Store.Get "footnotes" -}}
+    {{- $id = add (len .) 1 -}}
+{{/*}}
+{{- else -}}
+    {{ .Page.Store.Add "footnotes" (string $id) $val }}
+*/}}
+{{- end -}}
+
+{{ .Page.Store.SetInMap "footnotes" (string $id) $val }}
+
+<a href="{{ $target | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}>{{ .Text | safeHTML }}<span class="footnote-number">{{ string $id }}</span></a>

@@ -7,6 +7,10 @@
     align-items: center;
     overflow: clip;
 
+    @media print {
+        pointer-events: none;
+    }
+
 
     .leaflet-container {
       max-height: 100vh;

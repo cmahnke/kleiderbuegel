@@ -25,7 +25,7 @@
             <h2 class="heading-imprint">{{ i18n "print" }}</h2>
             {{- with .Params.content -}}
               <div class="top-content">
-                {{- .  -}}
+                {{- . | safeHTML -}}
               </div>
             {{- end }}
           </div>
@@ -43,7 +43,8 @@
             </p>
           </div>
         {{- end -}}
-        <div class="footnote-area"></div>
+        <!--<div class="footnote-area"></div>-->
+        {{- partial "print/footnotes.html" . -}}
       </div>
     </div>
 
@@ -96,7 +97,7 @@
           {{- with .Params.content -}}
             <div class="back-content">
               <p>
-                {{- . -}}
+                {{- . | safeHTML -}}
               </p>
             </div>
           {{- end }}

@@ -5,6 +5,7 @@ weight: 1002
 params:
   print: true
   toc: false
+  numbered: false
 ---
 
 {{< print-qr scale=10 text="http://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"  />}}

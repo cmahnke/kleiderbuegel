@@ -103,7 +103,7 @@
       {{- $pageNr = add $pageNr 1 -}}
     {{- end -}}
   {{- end -}}
-  {{- $tocEntries = $tocEntries | append (slice $sectionToc) -}}
+  {{- $tocEntries = $tocEntries | append $sectionToc -}}
 </section>
 
 {{/* Indexes */}}
