@@ -20,7 +20,7 @@ params:
   * Aus Stoff: **{{< tags/tag-count "Material: Stoff" true >}}**
 
 * Typen / Besonderheiten
-  * Beidseitig beschriftete **{{< tags/tag-count "Beidseitig" true >}}**
+  * Beidseitig beschriftet: **{{< tags/tag-count "Beidseitig" true >}}**
   * Hosenbügel: **{{< tags/tag-count "Hosenbügel" true >}}**
   * Rockbügel: **{{< tags/tag-count "Rockbügel" true >}}**
   * Kinderbügel: **{{< tags/tag-count "Kinderbügel" true >}}**
@@ -28,7 +28,7 @@ params:
   * Mit Klammern: **{{< tags/tag-count "Klammern" true >}}**
   * Verstellbar: **{{< tags/tag-count "Verstellbar" true >}}**
   * Klappbar: **{{< tags/tag-count "Klappbar" true >}}**
-  * Kleiderbürste **{{< tags/tag-count "Kleiderbürste" true >}}**
+  * Kleiderbürste: **{{< tags/tag-count "Kleiderbürste" true >}}**
 
 * Spezifische Hersteller
   * Union: **{{< tags/tag-count "Union" true >}}**
@@ -62,6 +62,6 @@ params:
   * Ketelsen: **{{< tags/tag-count "Ketelsen" true >}}**
   * Möller & Schade: **{{< tags/tag-count "Möller & Schade" true >}}**
   * Erdmann: **{{< tags/tag-count "Erdmann" true >}}**
-  * C. Louis Weber : **{{< tags/tag-count "C. Louis Weber " true >}}**
+  * C. Louis Weber : **{{< tags/tag-count "C. Louis Weber" true >}}**
   * Flebbe: **{{< tags/tag-count "Flebbe" true >}}**
   * Overmeyer: **{{< tags/tag-count "Overmeyer" true >}}**

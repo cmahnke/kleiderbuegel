@@ -37,7 +37,7 @@ Keywords with fewer than three entries are not displayed.
   * Fabric: **{{< tags/tag-count "Material: Stoff" true >}}**
 
 * Types / Special features
-  * Labeled on both sides **{{< tags/tag-count "Beidseitig" true >}}**
+  * Labeled on both sides: **{{< tags/tag-count "Beidseitig" true >}}**
   * Trouser hangers: **{{< tags/tag-count "Hosenbügel" true >}}**
   * Skirt hangers: **{{< tags/tag-count "Rockbügel" true >}}**
   * Children's hangers: **{{< tags/tag-count "Kinderbügel" true >}}**
@@ -45,7 +45,7 @@ Keywords with fewer than three entries are not displayed.
   * Clothepins: **{{< tags/tag-count "Klammern" true >}}**
   * Adjustable: **{{< tags/tag-count "Verstellbar" true >}}**
   * Foldable: **{{< tags/tag-count "Klappbar" true >}}**
-  * Clothes brush **{{< tags/tag-count "Kleiderbürste" true >}}**
+  * Clothes brush: **{{< tags/tag-count "Kleiderbürste" true >}}**
 
 * Specific manufacturers
   * Union: **{{< tags/tag-count "Union" true >}}**
@@ -79,7 +79,7 @@ Keywords with fewer than three entries are not displayed.
   * Ketelsen: **{{< tags/tag-count "Ketelsen" true >}}**
   * Möller & Schade: **{{< tags/tag-count "Möller & Schade" true >}}**
   * Erdmann: **{{< tags/tag-count "Erdmann" true >}}**
-  * C. Louis Weber : **{{< tags/tag-count "C. Louis Weber " true >}}**
+  * C. Louis Weber : **{{< tags/tag-count "C. Louis Weber" true >}}**
   * Flebbe: **{{< tags/tag-count "Flebbe" true >}}**
   * Overmeyer: **{{< tags/tag-count "Overmeyer" true >}}**
 
