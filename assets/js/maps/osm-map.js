@@ -12,6 +12,7 @@ import {applyStyle} from 'ol-mapbox-style';
 import {Circle as CircleStyle, RegularShape, Style, Fill, Stroke, Text, Icon} from 'ol/style.js';
 
 import * as style from './kleiderbügel-style.json';
+import { icon } from 'leaflet';
 
 var layers = {};
 
@@ -82,8 +83,13 @@ export function initMap(element, url, source, cluster, marker, style) {
     const size = feature.get('features').length;
     if (size > 1) {
       if (marker !== undefined && marker) {
+        const icon = new Icon(marker);
+        //TODO: there seem to be a bug in OL with scaling icons in cluster styles
+        //const scale = 1 / size + (size / 30);
+        //console.log(scale);
+        //icon.setScale(scale);
         return [
-          new Style({image: new Icon(marker)}),
+          new Style({image: icon}),
           new Style({
             image: new CircleStyle({radius: 15, displacement: [-10, 25], fill: new Fill({color: 'rgba(255, 255, 255, 0.7)'})}),
             text: new Text({

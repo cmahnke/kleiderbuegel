@@ -211,9 +211,10 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
 
                 const iconUrl = icon.options.iconUrl;
                 const iconSize = icon.options.iconSize;
+                const additionalStyles = `transform: scale(${1 + (count / 20)});transform-origin: center center;`;
 
                 return L.divIcon({
-                    html: `<img src="${iconUrl}" style="width:${iconSize[0]}px;height:${iconSize[1]}px;"><span class="cluster-count">${count}</span>`,
+                    html: `<img src="${iconUrl}" style="width:${iconSize[0]}px;height:${iconSize[1]}px;${additionalStyles}"><span class="cluster-count">${count}</span>`,
                     className: 'leaflet-custom-marker-cluster',
                     iconSize: iconSize
                 });
