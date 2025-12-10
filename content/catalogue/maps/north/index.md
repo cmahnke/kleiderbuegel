@@ -11,5 +11,5 @@ params:
 
 {{< print-pb >}}
 
-# Bügel aus dieser Region
+# Bügel aus Norddeutschland
 {{< geo/bbox-filter secrion="post" bbox="[6.743846,52.851809,11.160350,55.055648]" >}}

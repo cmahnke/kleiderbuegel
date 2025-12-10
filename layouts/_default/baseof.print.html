@@ -1,0 +1,49 @@
+{{- $relative := 0 -}}
+{{- with .Site.Params.print.relative -}}
+  {{- $relative = . -}}
+{{- end -}}
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    <title>{{ site.Title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{- with .Site.Params.author -}}
+      {{- $author := . -}}
+      {{- if reflect.IsMap . -}}
+        {{- if (isset . "name") -}}
+            {{- $author = index . "name" -}}
+        {{- end -}}
+      {{- end -}}
+      <meta name="author" content="{{ $author }}">
+    {{- end -}}
+    <meta name="subject" content="{{ site.Title }}"/>
+    {{ $t := time.Now }}
+    {{ $format := "2 Jan 2006" }}
+    <meta name="date" content="{{ $t.Format $format }}"/>
+    {{- $cssOptions := dict "outputStyle" "compressed" "transpiler" "dartsass" "targetPath" "css/print.css" "includePaths" (slice "assets/css") -}}
+    {{- $css := resources.Get "scss/print.scss" | toCSS $cssOptions | fingerprint -}}
+    {{ with resources.Get "js/print.js" }}
+      {{$opts := dict
+        "minify" (not hugo.IsDevelopment)
+        "sourceMap" (cond hugo.IsDevelopment "external" "")
+        "targetPath" "js/print.js"
+        "loaders" (dict ".json" "json" ".css" "text" ".scss" "text")
+        "target" "es2018"
+      }}
+      {{ with . | js.Build $opts }}
+        {{ if hugo.IsDevelopment }}
+          <script src="{{ substr .RelPermalink $relative }}"></script>
+        {{ else }}
+          {{ with . | fingerprint }}
+            <script src="{{ substr .RelPermalink $relative }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    <link rel="stylesheet" href="{{ substr $css.RelPermalink $relative }}" type="text/css" integrity="{{ $css.Data.Integrity }}">
+  </head>
+  <body>
+    {{ block "content" . }}{{ end }}
+  </body>
+</html>

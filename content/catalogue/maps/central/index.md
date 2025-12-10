@@ -1,5 +1,5 @@
 ---
-title: Karte Mitteldeutschland
+title: Karte Südliches Norddeutschland / Mitteldeutschland
 layout: print
 weight: 12
 params:
@@ -11,5 +11,5 @@ params:
 
 {{< print-pb >}}
 
-# Bügel aus dieser Region
+# Bügel aus Mitteldeutschland
 {{< geo/bbox-filter secrion="post" bbox="[8.066540,50.856947,12.175426,52.411477]" >}}

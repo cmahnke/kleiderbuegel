@@ -6,6 +6,8 @@ import { leafletIcon, mapboxToLeafletVectorGrid, getFeatureLayer } from './leafl
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 import * as mapStyle from './kleiderbügel-style.json';
+import cssStyle from "leaflet/dist/leaflet.css";
+import markerStyle from "../../scss/print-map-marker.scss";
 
 const fontPath = undefined;
 const defaultFonts = "Space Grotesk Variable";
@@ -158,7 +160,7 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
         minDetailZoom: 4,
         maxDetailZoom: 14,
         maxZoom: 20,
-        bounds: bounds,
+        /* bounds: layerBbox(bounds, .2), */
         reuseTiles : true,
         layers: ["ocean", "water_polygons", "land", "water_lines", "dam_polygons", "dam_lines", "pier_polygons", "pier_lines", "sites", "street_polygons", "streets", "buildings", "bridges", "boundaries"]
       };
@@ -175,7 +177,7 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
         maxDetailZoom: 14,
         maxZoom: 20,
         pane: 'labels',
-        bounds: bounds,
+        /* bounds: layerBbox(bounds, .2), */
         reuseTiles : true,
         layers: ["place_labels", "boundary_labels", "street_labels"],
         // Pass a cache object to the styling function via the '*' property.
@@ -184,18 +186,6 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
 
        const labelVectorLayer = vectorTileLayer(vectorTileUrl, labelVectorTileOptions)
        
-       /*
-       console.log(labelVectorLayer);
-      labelVectorLayer.prototype.applyImageStyle = function(layer, style) {
-        if (style.divIcon) {
-          // If our style function returns a divIcon, use it.
-          layer.setIcon(style.divIcon);
-        } else if (style.icon) {
-          // Fallback to the original behavior if a regular icon is provided.
-          layer.setIcon(style.icon);
-        }
-      };
-      */
 
        labelVectorLayer.addTo(map);
 
@@ -204,9 +194,6 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
          const tileKey = e.tile.x + ':' + e.tile.y + ':' + e.tile.z;
          labelCache[tileKey] = [];
        });
-
-
-      
     }
 
     if (cluster !== undefined && cluster) {
@@ -227,7 +214,7 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
 
                 return L.divIcon({
                     html: `<img src="${iconUrl}" style="width:${iconSize[0]}px;height:${iconSize[1]}px;"><span class="cluster-count">${count}</span>`,
-                    className: 'custom-marker-cluster',
+                    className: 'leaflet-custom-marker-cluster',
                     iconSize: iconSize
                 });
             }
@@ -245,6 +232,28 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
     }
 
    const resizeObserver = new ResizeObserver(() => {
+    
+        mapElem.querySelectorAll('.leaflet-control-container').forEach(contolContainer => {
+            contolContainer.remove();
+        });
+
+        console.log(cssStyle);
+        const printStyle = CCSUtil.cleanCss(cssStyle) + '\n' + CCSUtil.cleanCss(markerStyle);
+        console.log("Full print style:", printStyle);
+        const leafletStyle = CCSUtil.filterStylesByPrefix(printStyle, '.leaflet')
+        console.log("Applying", leafletStyle, " to ", mapElem);
+        //CCSUtil.inlineStyle(mapElem, leafletStyle);
+        
+        const styleId = mapElem.id + '-leaflet-inline-style';
+        if (document.getElementById(styleId)) {
+            document.getElementById(styleId).remove();
+        }
+        const style = document.createElement('style');
+        style.id = styleId;
+        style.setAttribute("type", "text/css");
+        style.textContent = leafletStyle;
+        document.head.appendChild(style);
+                
         map.invalidateSize();
         if (bounds !== undefined) {
             map.fitBounds(bounds, { padding: padding });
@@ -259,4 +268,193 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
 
 
     return map;
+}
+
+
+function layerBbox(originalBBox, marginPercentage) {
+  const originalWidth = originalBBox.maxX - originalBBox.minX;
+  const originalHeight = originalBBox.maxY - originalBBox.minY;
+
+  const centerX = (originalBBox.minX + originalBBox.maxX) / 2;
+  const centerY = (originalBBox.minY + originalBBox.maxY) / 2;
+
+  const maxDimension = Math.max(originalWidth, originalHeight);
+  
+  const newSize = maxDimension * (1 + 2 * marginPercentage);
+
+  const halfSize = newSize / 2;
+
+  const newMinX = centerX - halfSize;
+  const newMaxX = centerX + halfSize;
+  
+  const newMinY = centerY - halfSize;
+  const newMaxY = centerY + halfSize;
+  
+  return {
+    minX: newMinX,
+    minY: newMinY,
+    maxX: newMaxX,
+    maxY: newMaxY,
+  };
+}
+
+class CCSUtil {
+    static inlineStyle(targetElement, cssString) {
+        const regex = /([^{]+)\{([\s\S]+?)\}/g;
+        //const regex = /((?:(?!@)[^{])+)\{([\s\S]+?)\}/g;
+        //const regex = /([^{]+)\{([^}]+)\}/g;
+        let match;
+
+        while ((match = regex.exec(cssString)) !== null) {
+            const selector = match[1].trim();
+            const propertiesString = match[2].trim();
+            
+            if (!selector) continue;
+
+            try {
+                const descendants = targetElement.querySelectorAll(selector);
+                
+                const properties = {};
+                propertiesString.split(';').forEach(declaration => {
+                    const parts = declaration.split(':').map(s => s.trim());
+                    if (parts.length === 2 && parts[0]) {
+                        const propertyNameCamel = parts[0].replace(/-([a-z])/g, (g) => g[1].toUpperCase());
+                        properties[propertyNameCamel] = parts[1];
+                    }
+                });
+
+                descendants.forEach(descendant => {
+                    for (const prop in properties) {
+                        descendant.style[prop] = properties[prop];
+                    }
+                });
+            } catch (e) {
+                console.error(`Error processing selector "${selector}"!`, e);
+            }
+        }
+    }
+
+    static filterStylesByPrefix(cssString, prefix) {
+        if (prefix !== '') {
+            const filteredRules = [];
+            const ruleMatchRegex = /([^{]+)\{([^}]+)\}/g;
+            let match;
+            while ((match = ruleMatchRegex.exec(cssString)) !== null) {
+                const fullSelectorString = match[1].trim();
+                const propertiesString = match[2].trim();
+                const selectors = fullSelectorString.split(',').map(s => s.trim());
+                const shouldIncludeRule = selectors.some(selector => {
+                    return selector.startsWith(prefix);
+                });
+
+                if (shouldIncludeRule) {
+                    filteredRules.push(`${fullSelectorString} { ${propertiesString} }`);
+                }
+            }
+            return filteredRules.join('\n');
+        }
+        return cssString;
+
+    }
+
+    static async getStyles(selectorPrefix = '', urls) {
+        if (urls !== undefined) {
+            //if (Array.isArray(urls) && urls.length > 0) {
+            if (typeof urls === 'string') {
+                urls = [urls];
+            }
+        } else {
+            urls = [];
+        }
+        document.querySelectorAll('link[rel="stylesheet"], link[rel="print-stylesheet"]').forEach(link => {
+            if (link.href) {
+                urls.push(link.href);
+            }
+        });
+        const styleElements = document.querySelectorAll('style');
+        if (urls.length === 0 && styleElements.length === 0) {
+            console.warn("No stylesheets!");
+            return "";
+        }    
+        const prefix = String(selectorPrefix || '').trim();
+
+        const fetchPromises = urls.map(async (href) => {
+            if (!href) return;
+            let cssText;
+            try {
+                const response = await fetch(href);
+                if (!response.ok) {
+                    console.error(`HTTP error fetching ${href}: status ${response.status}`);
+                    return;
+                }
+                cssText = await response.text();
+            } catch (error) {
+                console.error(`Failed to fetch stylesheet from ${href}:`, error);
+                return;
+            }
+            return cssText;
+        });
+
+        let cssParts = await Promise.all(fetchPromises);
+        styleElements.forEach(styleElement => {
+            cssParts.push(styleElement.textContent + '\n' || '');
+        });
+        
+        return CCSUtil.filterStylesByPrefix(cssParts.join('\n'), prefix);
+    }
+
+    static cleanCss(cssString) {
+        const commentRegex = /\/\*[\s\S]*?\*\//g;
+        let cleanedCss = cssString.replace(commentRegex, '');
+
+        let output = '';
+        let i = 0;
+        
+        while (i < cleanedCss.length) {
+            let char = cleanedCss[i];
+
+            if (char === '@') {
+                
+                let ruleStart = i;
+                let ruleEnd = cleanedCss.indexOf('{', ruleStart);
+
+                if (ruleEnd === -1) {
+                    ruleEnd = cleanedCss.indexOf(';', ruleStart);
+                    if (ruleEnd !== -1) {
+                        i = ruleEnd + 1; 
+                        continue;
+                    }
+                } else {
+                    let braceCount = 1;
+                    let j = ruleEnd + 1;
+
+                    while (j < cleanedCss.length) {
+                        let innerChar = cleanedCss[j];
+                        
+                        if (innerChar === '{') {
+                            braceCount++;
+                        } else if (innerChar === '}') {
+                            braceCount--;
+                        }
+
+                        if (braceCount === 0) {
+                            i = j + 1;
+                            break;
+                        }
+                        j++;
+                    }
+                    if (braceCount !== 0) {
+                        i = cleanedCss.length; 
+                    }
+                }
+
+            } else {
+                output += char;
+                i++;
+            }
+        }
+        
+        return output.trim().replace(/(\r?\n){2,}/g, '\n');
+    }
+
 }
