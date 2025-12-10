@@ -1,0 +1,106 @@
+{"@context": "http://iiif.io/api/presentation/3/context.json",
+"type": "Manifest",
+"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/167/",
+"viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
+  "label": { "en": [ "Attribution" ],
+    "de": [ "Namensnennung" ]
+  },
+  "value": {"de": ["Bereitgestellt von Projektemacher"]}
+}
+,"thumbnail": [{
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/167/front_hu_f6519ae91047c958.png",
+    "format": "image/jpeg",
+    "type":"Image",
+    "height": 170,
+    "width": 300
+  },{
+        "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/167/front/full/full/0/default.jpg",
+        "format": "image/jpeg",
+        "type":"Image",
+        "height": 2214,
+        "width": 3900,
+        "service": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/167/front",
+          "type": "ImageService2",
+          "profile":"level0"
+        }]
+      }],"provider": [
+  {
+    "id": "https://projektemacher.org/",
+    "type": "Agent",
+    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+    "homepage": [
+      {
+        "id": "https://projektemacher.org/",
+        "type": "Text",
+        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "format": "text/html"
+    }
+  ],
+  "logo": [
+    {"id": "https://projektemacher.org/images/logo.png",
+        "type": "Image",
+        "format": "image/png",
+        "height": 1024,
+        "width": 1024}
+  ],
+  "seeAlso": [
+    {
+      "id": "https://projektemacher.org/projektemacher.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "https://schema.org/"
+    }
+  ]
+  }
+]
+,
+
+"homepage": [
+  {
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/167/",
+    "type": "Text",
+    "format": "text/html",
+
+    "label": {
+        "de": [
+          "Kleiderbügel: Steigenberger Hotels"
+        ]}
+  }
+],"label": {
+    "de": [
+      "Steigenberger Hotels"
+    ]}
+,"items": [{
+          "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/167/canvas/front",
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 2214,
+            "width": 3900,
+            "thumbnail": [{
+                "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/167/front_hu_f6519ae91047c958.png",
+                "format": "image/jpeg",
+                "type":"Image",
+                "height": 170,
+                "width": 300
+              }
+            ],"items": [{
+            "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/167/annotation/front",
+            "type": "AnnotationPage",
+            "items":[{
+              "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/167/annotation/front/image",
+              "type": "Annotation",
+              "motivation":"painting",
+              "body":{"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/167/front/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 2214,
+                  "width": 3900,
+                  "service": [{
+                    "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/167/front",
+                    "type": "ImageService2",
+                    "profile":"level0"
+                  }]},
+              "target":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/167/canvas/front"
+            }]
+          }]
+       }]
+}
