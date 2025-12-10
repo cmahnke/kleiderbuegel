@@ -12,31 +12,33 @@
 
   {{- $additional := "" -}}
 
+  {{/*
   {{- with .Params.doublesided -}}
     {{- if . -}}
-      {{- $additional = printf "%s%s%s%s" $additional `<div class="doublesided"><div class="additional-header">` (i18n "doublesided") `</div></div>` -}}
+      {{- $additional = printf `%s<div class="doublesided"><div class="additional-header">%s</div></div>` $additional (i18n "doublesided") -}}
     {{- end -}}
   {{- end -}}
+  */}}
 
   {{- with .Params.remarks -}}
     {{- $remarks := . -}}
     {{- $remarks = replace $remarks "Aktuelle Webseite" (i18n "currentWebsite") -}}
     {{- $remarks = replace $remarks "Heutige Webseite" (i18n "currentWebsite") -}}
-    {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="remarks notes"><div class="additional-header">` (i18n "remarks") `:</div>` ($remarks | $.Page.RenderString) `</div>` -}}
+    {{- $additional = printf `%s<div class="remarks notes"><div class="additional-header">%s:</div>%s</div>` $additional (i18n "remarks") ($remarks | $.Page.RenderString) -}}
   {{- end -}}
 
   {{- with .Params.related -}}
     {{- if reflect.IsSlice . -}}
       {{- $additional = printf "%s%s" $additional (partial "print/related.html" $page) -}}
     {{- else -}}
-      {{- $additional = printf "%s%s" $additional ( . | markdownify)  -}}
+      {{- $additional = printf "%s%s" $additional ( . | $.Page.RenderString)  -}}
     {{- end -}}
   {{- end -}}
   {{- with .Params.source -}}
-    {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="source"><div class="additional-header">` (i18n "source" ) `:</div>` ( . | $.Page.RenderString) `</div>` -}}
+    {{- $additional = printf `%s<div class="source"><div class="additional-header">%s:</div>%s</div>` $additional (i18n "source" ) ( . | $.Page.RenderString) -}}
   {{- end -}}
   {{- with .Params.donation -}}
-    {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="donation"><div class="additional-header">` (i18n "donation" ) `:</div>` ( . | $.Page.RenderString) `</div>` -}}
+    {{- $additional = printf `%s<div class="donation"><div class="additional-header">%s:</div>%s</div>` $additional (i18n "donation" ) ( . | $.Page.RenderString) -}}
   {{- end -}}
 
   {{- range $tag := .Params.tags -}}
@@ -62,7 +64,7 @@
         {{- if isset .Params "type" -}}
           {{- if or (eq .Params.type "store") (eq .Params.type "retail_chain") -}}
             {{- if ne .Content "" -}}
-              {{- $additional = printf "%s%s%s%s" $additional `<div class="tag-content">` (.RawContent | $.Page.RenderString) `</div>` -}}
+              {{- $additional = printf `%s<div class="tag-content">%s</div>` $additional (.RawContent | $.Page.RenderString) -}}
             {{- end -}}
           {{- end -}}
         {{- end -}}

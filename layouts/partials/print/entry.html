@@ -35,7 +35,7 @@
         {{- if eq (.Resources.GetMatch "back*") nil -}}
           <div class="hanger-back">
             <p>
-              {{- if (in $page.Params.tags "Beidseitig") -}}
+              {{- if or (in $page.Params.tags "Beidseitig") .Params.doublesided -}}
                 {{- i18n "identical_back" -}}
               {{- else -}}
                 {{- i18n "empty_back" -}}
@@ -43,7 +43,6 @@
             </p>
           </div>
         {{- end -}}
-        <!--<div class="footnote-area"></div>-->
         {{- partial "print/footnotes.html" . -}}
       </div>
     </div>
