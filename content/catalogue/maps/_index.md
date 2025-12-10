@@ -18,4 +18,4 @@ Die beiden folgenden Karten zeigen die Regionen, aus denen sich Bügel in der Sa
 
 In der Kartendarstellung werden Lokalisierungen, die nah beieinander liegen, zusammengefasst und durch eine Zahl symbolisiert.
 
-Die der Karte zugrunde liegenden Daten  wurden von den [OpenStreetMap-Beitragenden](https://www.openstreetmap.org/copyright) erzeugt.
+Die der Karte zugrunde liegenden Daten  wurden von den [OpenStreetMap-Beitragenden](https://www.openstreetmap.org/copyright "OpenStreetMap-Beitragende") erzeugt.
