@@ -1,0 +1,6 @@
+{{- $noop := .Page.Content -}}
+{{- $toc := site.Store.Get "toc" -}}
+<!-- {{ jsonify $toc | safeHTML -}} -->
+<div class="inline-toc">
+    {{- partial "print/toc.html" (dict "context" .Page "entries" $toc "maxLevels" 2 ) -}}
+</div>

@@ -1,7 +1,7 @@
 ---
 title: Karte Südliches Norddeutschland / Mitteldeutschland
 layout: print
-weight: 12
+weight: 22
 params:
   print: true
   pages: 2

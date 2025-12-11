@@ -1,7 +1,7 @@
 ---
 title: Karten
 layout: print
-weight: 10
+weight: 20
 params:
   print: true
   pages: 2

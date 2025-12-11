@@ -1,7 +1,7 @@
 ---
 title: Die Sammlung in Zahlen
 layout: print
-weight: 20
+weight: 13
 params:
   print: true
   show_title: true

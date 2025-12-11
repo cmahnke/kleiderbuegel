@@ -96,7 +96,7 @@
     {{- if eq $tocTitle "" -}}
       {{- $tocTitle = $page.Description -}}
     {{- end -}}
-    {{- $sectionToc = $sectionToc | append (dict "title" $tocTitle "href" $link) -}}
+    {{- $sectionToc = $sectionToc | append (dict "title" $tocTitle "href" $link "type" $page.Params.type) -}}
     {{- if (in $page.Params.tags "Beidseitig") -}}
       {{- $pageNr = add $pageNr 2 -}}
     {{- else -}}
@@ -126,13 +126,16 @@
   {{- $tocEntries = $tocEntries | append $sectionToc -}}
 </section>
 
-<section class="back-matter" data-section-title="{{ i18n "back-matter" }}">
-  {{- partial "print/print-pages.html" (dict "context" . "pages" $printSection "op" "gt" "weight" 100 ) -}}
-</section>
-
 {{- range (partial "print/print-toc.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "gt" "weight" 100 )) -}}
   {{- $tocEntries = $tocEntries | append . -}}
 {{- end -}}
-{{- $toc := partial "print/toc.html" (dict "context" . "entries" $tocEntries ) -}}
+{{- site.Store.Set "toc" $tocEntries -}}
+<nav role="doc-toc">
+  <h2>{{ i18n "toc" }}</h2>
+  {{- $toc := partial "print/toc.html" (dict "context" . "entries" $tocEntries ) -}}
+  {{- $toc | safeHTML -}}
+</nav>
 
-{{- $toc -}}
+<section class="back-matter" data-section-title="{{ i18n "back-matter" }}">
+  {{- partial "print/print-pages.html" (dict "context" . "pages" $printSection "op" "gt" "weight" 100 ) -}}
+</section>

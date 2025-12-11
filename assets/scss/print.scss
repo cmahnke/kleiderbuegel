@@ -344,7 +344,7 @@ article {
     break-after: page;
   }
 
-  &.singe-page {
+  &.single-page {
     counter-increment: pageNumber;
     break-after: page;
     height: 100%;
@@ -521,7 +521,7 @@ section {
   }
 }
 
-.singe-page {
+.single-page {
   a,
   a:hover,
   a:visited {
@@ -541,6 +541,22 @@ section {
     /* this is the page title */
     h1:first-of-type {
       margin-bottom: 6pt;
+    }
+
+    .content-image {
+      margin-block-start: .4cm;
+      margin-block-end: .4cm;
+      max-height: 100vh;
+
+      img {
+        object-fit: contain;
+        max-width: 100%;
+      }
+
+      figcaption {
+        text-align: end;
+        font-size: 8pt;
+      }
     }
   }
 
@@ -633,7 +649,8 @@ section {
     }
   }
 
-  &.preface,
+  &.introduction,
+  &.collection,
   &.acknowledgements,
   &.colophon {
     h1, h2 , h3 {
@@ -682,14 +699,49 @@ section {
 
   }
 
-  &.preface,
+  &.introduction,
+  &.collection,
   &.acknowledgements,
   &.colophon {
     text-align: justify;
   }
 
-  &.preface {
+  &.collection,
+  &.introduction {
+    ul {
+      columns: 2;
+      gap: 5%;
 
+      &.ignore-first-level {
+        padding-left: .8cm;
+        list-style-type: none;
+      }
+
+      ul {
+        columns: unset;
+        gap: unset;
+      }
+
+      *:first-of-type {
+        margin-top: unset;
+      }
+
+      &.single {
+        columns: 1;
+
+        li {
+          &:first-of-type {
+            margin-top: unset;
+          }
+
+          margin-top: 6pt;
+        }
+      }
+
+      &>li {
+        break-inside: avoid-column;
+      }
+    }
   }
 
   &.maps {
@@ -705,11 +757,47 @@ section {
     
   }
 
+  &.collections,
+  &.acknowledgements,
+  &.colophon {
+    ul {
+      padding-left: .8cm;
+    }
+  }
+
   &.acknowledgements {
 
   }
 
   &.colophon {
+
+  }
+
+  &.toc {
+
+    .inline-toc {
+      font-size: 115%;
+      padding-left: .8cm;
+    }
+    
+    ol, ul {
+      list-style-type: none;
+      columns: 1;
+ 
+      ul, ol {
+        padding-left: .8cm;
+      }
+    }
+
+    li {
+      &.hanger {
+        display: none;
+      }
+
+      a::after {
+        content: leader(dotted) target-counter(attr(href), pageNumber);
+      }
+    }
 
   }
 
@@ -773,4 +861,8 @@ a {
   .footnote-title {
     font-weight: bold;
   }
+}
+
+[data-align-last-split-element="justify"] {
+  text-align-last: unset;
 }

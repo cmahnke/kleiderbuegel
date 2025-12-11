@@ -1,6 +1,6 @@
 {{- $slug := path.BaseName .Path -}}
 {{- $id := printf "_%s" (replace .RelPermalink "/" "-") -}}
-{{- $class := printf "singe-page %s" $slug -}}
+{{- $class := printf "single-page %s" $slug -}}
 {{- if gt (len .Ancestors.Reverse) 2 -}}
   {{- range (after 2 .Ancestors.Reverse) -}}
     {{- $class = printf "%s %s" $class (path.BaseName .Path) -}}

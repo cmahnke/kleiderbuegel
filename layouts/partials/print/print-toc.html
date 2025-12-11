@@ -23,7 +23,6 @@
 
 {{- $tocEntries := slice -}}
 {{- $pages = where $pages ".Weight" $op $weight -}}
-{{/* {{- $pages = where $pages "Parent" $section -}} */}}
 {{- range $pages.ByWeight -}}
   {{- if eq .Params.toc false -}}
     {{- continue -}}
@@ -37,8 +36,9 @@
   {{ $tocEntries = $tocEntries | append (dict "title" .Title "href" $link) }}
   {{- if and (eq .Kind "section") (gt (len .Pages) 0) -}}
     {{- $children := .Pages -}}
-    {{- $tocEntries = $tocEntries | append (slice (partial "print/print-toc.html" (dict "context" . "section" .CurrentSection "pages" $children "op" $op "weight" $weight ))) -}}
-  {{- else -}}
+    {{- $childToc :=  (partial "print/print-toc.html" (dict "context" . "section" .CurrentSection "pages" $children "op" $op "weight" $weight )) -}}
+    {{- $tocEntries = $tocEntries | append (slice) -}}
+    {{- $tocEntries = $tocEntries | append  $childToc -}}
   {{- end -}}
 {{- end -}}
 {{- return $tocEntries -}}
