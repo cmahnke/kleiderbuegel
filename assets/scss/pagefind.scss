@@ -39,6 +39,8 @@ body.section-search {
   }
 
   .content {
+    min-height: calc(100vh - (2.6em  + 1.4rem + 9rem + 2em + 1.6rem  + 3.6em + 1em));
+
     .post.search {
       display: flex;
       flex-direction: column;

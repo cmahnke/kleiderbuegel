@@ -6,7 +6,9 @@
   {{- if ne .Content "" -}}
     <h2 class="heading-imprint">{{ i18n "print" }}</h2>
     <div class="hanger-content">
-      {{- .Content -}}
+      <p>
+        {{- .RawContent | safeHTML -}}
+      </p>
     </div>
   {{- end -}}
 
