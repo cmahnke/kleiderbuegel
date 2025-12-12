@@ -13,7 +13,6 @@ tags:
 - "Material: Holz"
 - Hamburg
 - Bekleidungsgeschäft
-- Beidseitig
 doublesided: true
 address: Mundsburger Damm 4, Hamburg
 geojson:

@@ -15,7 +15,7 @@ Da Plastik aus ökologischen Gründen in den letzten Jahren zunehmend kritischer
 
 So gibt es eine [Untersuchung](https://www.ifeu.de/fileadmin/uploads/Kurzauswertung_-_Kleiderb%C3%BCgel_f%C3%BCr_Damenkleider.pdf "Kleiderbügel für Damenkleider") aus dem Jahr 2021, die die Ökobilanz verschiedener Materialien beleuchtet. Letztendlich kann festgehalten werden, dass die Mehrfachnutzung ökologisch immer sinnvoll ist.
 
-Beim Material setzt beispielsweise auch "Hooks Creative" an: Diese Firma hat ["Biokleiderbügel"](https://hooks-creative.com/hangers/bio/ "Hooks Creative Biokleiderbügel") aus Kaffeesatz, Kartoffelstärke, Maisstärke oder Zuckerrohr entwickelt..
+Beim Material setzt beispielsweise auch "Hooks Creative" an: Diese Firma hat ["Biokleiderbügel"](https://hooks-creative.com/hangers/bio/ "Hooks Creative Biokleiderbügel") aus Kaffeesatz, Kartoffelstärke, Maisstärke oder Zuckerrohr entwickelt...
 
 Auch in anderen Bereichen finden Innovationen statt: 2024 gewann der Schüler Lucas Li aus Baden-Baden mit seinem Projekt ["TheHänger"](https://www.jugend-forscht.de/projektdatenbank/thehaenger.html "TheHänger") bei Jugend forscht einen Preis für einen faltbaren Kleiderbügel.
 

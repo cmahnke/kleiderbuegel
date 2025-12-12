@@ -67,9 +67,15 @@
     {{- if not (in $page.Params.tags "Beidseitig") -}}
       {{- errorf "[check.html] Double sided tag missing for %s" .RelPermalink  -}}
     {{- end -}}
+    {{- if (isset $page.Params "doublesided") -}}
+      {{- errorf "[check.html] Hanger with back image and 'doublesided' param detected in %s" .RelPermalink  -}}
+    {{- end }}
   {{- else -}}
     {{- if and (in $page.Params.tags "Beidseitig") (not (isset $page.Params "doublesided")) -}}
       {{- errorf "[check.html] Double sided hanger without two images and 'doublesided' param detected in %s" .RelPermalink  -}}
+    {{- end }}
+    {{- if in $page.Params.tags "Beidseitig" -}}
+      {{- errorf "[check.html] Double sided hanger without two images in %s" .RelPermalink  -}}
     {{- end }}
   {{- end }}
 

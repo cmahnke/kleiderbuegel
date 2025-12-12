@@ -4,7 +4,6 @@ title: "Carl Schübeler"
 tags:
 - Warburg
 - "Material: Holz"
-- Beidseitig
 type: hanger
 resources:
 - src: "front.png"

@@ -12,7 +12,6 @@ resources:
 tags:
   - "Material: Holz"
   - Pelze
-  - Beidseitig
   - Toronto
 doublesided: true
 address: 676 Yonge St, Toronto, Canada

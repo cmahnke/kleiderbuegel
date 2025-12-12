@@ -13,7 +13,6 @@ doublesided: true
 tags:
   - "Material: Holz"
   - Witzenhausen
-  - Beidseitig
   - Repariert
 address: Witzenhausen
 geojson:

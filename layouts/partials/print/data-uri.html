@@ -1,0 +1,6 @@
+{{- $res := . -}}
+{{- if eq (printf "%T" $res) "*resources.resourceAdapter" -}}
+    data:{{ $res.MediaType }};base64,{{ $res.Content | base64Encode -}}
+{{- else -}}
+    {{- warnf "[print/data-uri.html] Input need to be a resourceAdapter!" -}}
+{{- end -}}

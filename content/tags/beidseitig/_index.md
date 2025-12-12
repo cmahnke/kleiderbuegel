@@ -1,5 +1,6 @@
 ---
-title: Beidseitig
+title: Beidseitig bedruckt
+tag: Beidseitig
 params:
   type: feature
 ---

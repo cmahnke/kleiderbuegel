@@ -12,7 +12,6 @@ resources:
 doublesided: true
 tags:
   - "Material: Holz"
-  - Beidseitig
   - Färberei
   - Osnabrück
 address: Osnabrück

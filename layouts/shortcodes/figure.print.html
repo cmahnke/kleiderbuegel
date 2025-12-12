@@ -8,7 +8,10 @@
   {{- $src := $u.String -}}
   {{- if not $u.IsAbs -}}
     {{- with or (.Page.Resources.Get $u.Path) (resources.Get $u.Path) -}}
-      {{- $src = .RelPermalink -}}
+      {{- $src = partial "print/data-uri.html" . -}}
+      {{- if eq $src "" -}}
+        {{- $src = .RelPermalink -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 

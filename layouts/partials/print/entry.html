@@ -14,7 +14,13 @@
   <div class="page">
     <div class="text">
       <div class="text-content-top">
-        <h2 class="post-title">{{ .Title }}</h2>
+        <h2 class="post-title {{ if eq $title "" }}description{{ end }}">
+          {{- if ne $title "" -}}
+            {{ $title }}
+          {{- else -}}
+            {{ .Description }}
+          {{- end -}}
+        </h2>
         <h3 class="heading-front"><span>{{ i18n "front" }}</span></h3>
       </div>
       <div class="text-content-center">
@@ -35,7 +41,7 @@
         {{- if eq (.Resources.GetMatch "back*") nil -}}
           <div class="hanger-back">
             <p>
-              {{- if or (in $page.Params.tags "Beidseitig") .Params.doublesided -}}
+              {{- if or .Params.doublesided -}}
                 {{- i18n "identical_back" -}}
               {{- else -}}
                 {{- i18n "empty_back" -}}

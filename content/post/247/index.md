@@ -13,7 +13,6 @@ tags:
 - "Material: Holz"
 - Hamburg
 - Bekleidungsgeschäft
-- Beidseitig
 doubleSided: true
 address: Alter Wall 22, Hamburg
 geojson:

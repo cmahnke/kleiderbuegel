@@ -16,7 +16,6 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Zierenberg
-- Beidseitig
 geojson:
   coordinates:
   - 9.292352

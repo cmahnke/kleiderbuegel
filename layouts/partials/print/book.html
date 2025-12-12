@@ -86,7 +86,11 @@
       {{- $class = "verso" -}}
     {{- end -}}
     {{- if (in $page.Params.tags "Beidseitig") -}}
-      {{- $class = printf "%s %s" $class "two-sided" -}}
+      {{- if ne (.Resources.GetMatch "back*") nil -}}
+        {{- $class = printf "%s %s" $class "two-sided" -}}
+      {{- else -}}
+        {{- errorf "[print/book.html] This should never happen %s" .RelPermalink -}}
+      {{- end -}}
     {{- end -}}
     <div class="{{ $class }}" data-page-nr="{{ $i }}">
       {{- partial "print/entry.html" $page -}}

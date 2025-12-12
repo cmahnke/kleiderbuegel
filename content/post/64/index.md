@@ -13,7 +13,6 @@ doublesided: true
 tags:
 - Werbung
 - "Material: Plastik"
-- Beidseitig
 remarks: |
   * [Manuela in der Wikipedia](https://de.wikipedia.org/wiki/Manuela_(S%C3%A4ngerin))
 related:

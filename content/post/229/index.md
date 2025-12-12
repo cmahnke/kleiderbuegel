@@ -13,7 +13,6 @@ tags:
 - Kiel
 - Bekleidungsgeschäft
 - "Material: Holz"
-- Beidseitig
 doublesided: true
 address: Holstenstraße 78, Kiel
 geojson:

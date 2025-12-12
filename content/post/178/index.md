@@ -13,7 +13,6 @@ tags:
 - "Material: Holz"
 - Hannover
 - Reinigung
-- Beidseitig
 doublesided: true
 address: Hannover
 geojson:

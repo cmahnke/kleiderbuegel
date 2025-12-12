@@ -13,7 +13,6 @@ tags:
 - Wolfhagen
 - Bekleidungsgeschäft
 - "Material: Holz"
-- Beidseitig
 doublesided: true
 address: Wolfhagen
 geojson:

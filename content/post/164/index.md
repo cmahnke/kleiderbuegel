@@ -11,7 +11,7 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
-- Beidseitig
+doublesided: true
 draft: true
 remarks: |
   # Gau XVII Niedersachsen-Mitte

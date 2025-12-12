@@ -11,7 +11,6 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Holz"
-  - Beidseitig
   - Schloss Holte
 doublesided: true
 address: Schloss Holte

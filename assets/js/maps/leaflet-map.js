@@ -271,7 +271,7 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
     return map;
 }
 
-
+/*
 function layerBbox(originalBBox, marginPercentage) {
   const originalWidth = originalBBox.maxX - originalBBox.minX;
   const originalHeight = originalBBox.maxY - originalBBox.minY;
@@ -298,12 +298,11 @@ function layerBbox(originalBBox, marginPercentage) {
     maxY: newMaxY,
   };
 }
+*/
 
 class CCSUtil {
     static inlineStyle(targetElement, cssString) {
         const regex = /([^{]+)\{([\s\S]+?)\}/g;
-        //const regex = /((?:(?!@)[^{])+)\{([\s\S]+?)\}/g;
-        //const regex = /([^{]+)\{([^}]+)\}/g;
         let match;
 
         while ((match = regex.exec(cssString)) !== null) {

@@ -9,7 +9,7 @@ params:
 
 ## Materialien
 
-Die Sammlung umfasst hauptsächlich Kleiderbügel aus Holz, die früher häufig mit Brandstempeln beschriftet wurden. Dabei wurde ein glühendes Stück Metall mit erhabener Schrift auf den Bügel gepresst, was eine dunkelbraune Verfärbung im Holz verursachte. Später wurde der Bügel nach der Beschriftung noch lackiert.
+Die Sammlung umfasst hauptsächlich Kleiderbügel aus Holz, die früher häufig mit Brandstempeln beschriftet wurden. Dabei wurde ein glühendes Stück Metall mit erhabener Schrift auf den Bügel gepresst, was eine dunkelbraune Verfärbung im Holz verursachte. Später wurde der Bügel nach der Beschriftung noch lackiert, um die Kleidung vor Splittern zu schützen.
 
 Das zweithäufigste Material in der Sammlung ist Plastik, das bei seiner Einführung in den Massenmarkt nach dem Zweiten Weltkrieg noch einen anderen Stellenwert hatte als heute. Plastikbügel werden meist im Siebdruckverfahren beschriftet. Besonders in den 70er Jahren fand es für avantgardistische Formen in kräftigen Farben Anwendung.
 Danach kommen Metall (meist in Verbindung mit Holz) und Stoff.
@@ -51,5 +51,5 @@ Die Beschriftung lässt sich grob in zwei Kategorien unterteilen: Erstens dient 
 
 ## Weitere Klassifikationen
 
-Zusätzlich existieren weitere Klassifikationen, z. B. ob ein Bügel beidseitig beschriftet ist, ob es sich um einen Scherzartikel handelt oder ob es sich um einen Werbeträger handelt. Letzteres ist etwas schwierig abzugrenzen, da die meisten Kleiderbügel auch Werbeträger sind.
-Zusätzlich werden Hersteller von Bügeln sowie Handelsketten und Geschäfte getrennt verschlagwortet, sofern es mehrere Bügel aus einer Quelle gibt.
+Es existieren außerdem weitere Klassifikationen, beispielsweise danach, ob ein Bügel beidseitig beschriftet ist oder ob es sich um einen Scherzartikel oder einen Werbeträger handelt. Letzteres ist jedoch schwierig abzugrenzen, da die meisten Kleiderbügel mindestens auch Werbeträger sind.
+Hersteller von Bügeln sowie Handelsketten und Geschäfte werden zusätzlich getrennt verschlagwortet, sofern es mehrere Bügel aus einer Quelle gibt.

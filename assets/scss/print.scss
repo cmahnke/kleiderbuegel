@@ -12,6 +12,8 @@
 $heading-font: 'Bodoni Moda', times;
 $body-font: 'Space Grotesk Variable', serif;
 
+$footnote-bottom-font-size: 6pt;
+
 @page  {
   size: 210mm 210mm !important;
   margin-top: 1cm;
@@ -67,6 +69,7 @@ $body-font: 'Space Grotesk Variable', serif;
   .text {
     order: 1;
     text-align: left;
+    padding-right: .2cm;
 
     .heading-top,
     .heading-front,
@@ -97,6 +100,7 @@ $body-font: 'Space Grotesk Variable', serif;
   .text {
     order: 2;
     text-align: right;
+    padding-left: .2cm;
 
     .heading-top,
     .heading-front,
@@ -279,6 +283,7 @@ article {
           .heading-front,
           .heading-back {
             position: absolute;
+            top: 1cm;
           }
           .heading-back {
             right: unset;
@@ -310,6 +315,10 @@ article {
         .footnote {
           float: bottom;
           float-reference: page;
+        }
+
+        a {
+          word-break: break-all;
         }
       }
 
@@ -363,6 +372,10 @@ article {
     -prince-bookmark-level: 2;
     bookmark-label: content(text);
     -prince-bookmark-label: content(text);
+
+    &.description {
+      font-style: italic;
+    }
   }
 
   .full-height-image-container {
@@ -544,18 +557,37 @@ section {
     }
 
     .content-image {
-      margin-block-start: .4cm;
-      margin-block-end: .4cm;
+      margin: .4cm auto;
       max-height: 100vh;
+      width: fit-content;
+      height: fit-content;
+
+      @for $i from 3 through 7 {
+        $number: $i * 10;
+        $height-value: $i * 10vh;
+        &.height-#{$number} {
+          
+          img {
+            height: #{$height-value};
+          }
+        }
+      }
 
       img {
         object-fit: contain;
         max-width: 100%;
+        width: auto;
+        height: inherit;
       }
 
       figcaption {
         text-align: end;
         font-size: 8pt;
+        font-style: italic;
+
+        p {
+          margin-top: 3pt;
+        }
       }
     }
   }
@@ -649,6 +681,7 @@ section {
     }
   }
 
+  &.toc,
   &.introduction,
   &.collection,
   &.acknowledgements,
@@ -715,6 +748,10 @@ section {
       &.ignore-first-level {
         padding-left: .8cm;
         list-style-type: none;
+
+        ul {
+          list-style-type: disc;
+        }
       }
 
       ul {
@@ -847,7 +884,7 @@ a {
 
 .footnote-container {
   position: relative;
-  font-size: 60%;
+  font-size: $footnote-bottom-font-size;
 
   &:before {
     content: '';

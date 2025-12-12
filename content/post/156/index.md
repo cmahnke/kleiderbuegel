@@ -13,7 +13,6 @@ tags:
   - "Material: Holz"
   - Flebbe
   - Braunschweig
-  - Beidseitig
   - Bekleidungsgeschäft
 doublesided: true
 address: Bohlweg 1, Braunschweig

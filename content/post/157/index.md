@@ -13,7 +13,6 @@ doublesided: true
 tags:
   - "Material: Holz"
   - Reinigung
-  - Beidseitig
   - Färberei
 ---
 Färberei HOTHO Reinigung

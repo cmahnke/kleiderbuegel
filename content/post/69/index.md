@@ -14,7 +14,6 @@ tags:
 - Stuttgart
 - Bekleidungsgeschäft
 - "Material: Holz"
-- Beidseitig
 address: Marktstraße 2, Stuttgart
 geojson:
   coordinates:

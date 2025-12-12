@@ -13,7 +13,6 @@ tags:
 - "Material: Holz"
 - München
 - Bekleidungsgeschäft
-- Beidseitig
 doublesided: true
 address: Marienplatz 11, München
 geojson:

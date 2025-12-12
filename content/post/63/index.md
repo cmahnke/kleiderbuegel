@@ -13,7 +13,6 @@ doublesided: true
 tags:
 - Werbung
 - "Material: Plastik"
-- Beidseitig
 remarks: |
   * [Twiggy in der Wikipedia](https://de.wikipedia.org/wiki/Twiggy)
 ---
