@@ -453,7 +453,7 @@ h1, h2, h3 {
 
     .index-sub-entry {
       a::after {
-        content: leader(dotted) target-counter(attr(href), pageNumber);
+        content: leader(dotted) target-counter(attr(href), page);
       }
     }
   }
@@ -832,7 +832,7 @@ section {
       }
 
       a::after {
-        content: leader(dotted) target-counter(attr(href), pageNumber);
+        content: leader(dotted) target-counter(attr(href), page);
       }
     }
 

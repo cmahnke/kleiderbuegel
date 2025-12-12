@@ -13,8 +13,11 @@ Kleiderbügel fristen heutzutage zwar ein Leben im Schrank, sind aber auch ein T
 
 Das [Blog](https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/) bietet einen Blick auf alte Kleiderbügel (derzeit {{< post-count section="post" type="hanger" >}}). Die abgebildeten Kleiderbügel sind verschlagwortet und werden ansonsten nicht kommentiert, auch die nicht, die vielleicht einer Distanzierung bedürften.
 
+## Allgemeines
 
 Die Wikipedia definiert [Kleiderbügel](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel "Wikipedia-Artikel über Kleiderbügel") als "Haushaltsgeräte, die zum Aufhängen von Kleidungsstücken in Schränken oder in Garderoben dienen."
 
+Sie existiren in vielen verschidenen Varianten, z.B. mit Steg oder Ohne, speziell für Röcke, Hosen, Anzüge, Accessoires oder Kinderkleidung.  Aus verschidenen Materialien wie Holz, Plastik oder Metall...
 
+## Aspekte
 
