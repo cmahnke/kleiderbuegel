@@ -108,8 +108,8 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKarl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKarl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWitzenhausen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/152/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "name": "Karl Kühne, Mass-Schneiderei",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKarl Kühne, Mass-Schneiderei\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKarl Kühne, Mass-Schneiderei Unterrieden Witzenhausen\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWitzenhausen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/152/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -288,8 +288,8 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Möller &amp; Schade Das Haus der guten Kleidung Cuxhaven",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMöller \u0026amp; Schade Das Haus der guten Kleidung Cuxhaven\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMöller \u0026amp; Schade\nDas Haus der guten Kleidung\nCuxhaven\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWesterwischweg 15, Cuxhaven\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/127/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "name": "Möller &amp; Schade",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMöller \u0026amp; Schade\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMöller \u0026amp; Schade\nDas Haus der guten Kleidung\nCuxhaven\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWesterwischweg 15, Cuxhaven\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/127/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -438,8 +438,8 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Lüneburg W. Marwitz Wäscherei Färberei Chem. Reinigung Ruf 52044",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eLüneburg W. Marwitz Wäscherei Färberei Chem. Reinigung Ruf 52044\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eLüneburg\nW. Marwitz\nWäscherei Färberei Chem. Reinigung\nRuf 52044\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eTheodor-Marwitz-Straße 1, Lüneburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/109/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "name": "W. Marwitz Lüneburg",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eW. Marwitz Lüneburg\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eLüneburg\nW. Marwitz\nWäscherei Färberei Chem. Reinigung\nRuf 52044\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eTheodor-Marwitz-Straße 1, Lüneburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/109/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -498,8 +498,8 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Mäntel und Pelze Eichmeyer &amp; Co., Hamburg Mönkebergstr.",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMönkebergstraße, Hamburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/105/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "name": "Mäntel und Pelze Eichmeyer &amp; Co.",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMäntel und Pelze Eichmeyer \u0026amp; Co.\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMäntel und Pelze Eichmeyer \u0026amp; Co., Hamburg Mönkebergstr.\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMönkebergstraße, Hamburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/105/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -543,8 +543,8 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eEngelbertstraße 2, Gelsenkirchen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/101/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "name": "MOLLERUS reinigt MOLLERUS wäscht...",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMOLLERUS reinigt MOLLERUS wäscht...\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eEngelbertstraße 2, Gelsenkirchen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/101/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -603,8 +603,8 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eErnst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eErnst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eLange Str. 39-45, Buxtehude\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "name": "Ernst Stackmann Buxtehude",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eErnst Stackmann Buxtehude\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eErnst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eLange Str. 39-45, Buxtehude\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/95/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -648,8 +648,8 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eOtto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eOtto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eTrzcianka\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/92/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "name": "Otto Plaumann Modewaren u. Ausstattung",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eOtto Plaumann Modewaren u. Ausstattung\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eOtto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eTrzcianka\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/92/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -708,8 +708,8 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "P.A. Das modische Textilhaus, Bad Mergentheim An der Stadtkirche",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eP.A. Das modische Textilhaus, Bad Mergentheim An der Stadtkirche\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eP.A. Das modische Textilhaus,\nBad Mergentheim\nAn der Stadtkirche\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBad Mergentheim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/88/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "name": "P.A. Das modische Textilhaus, Bad Mergentheim",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eP.A. Das modische Textilhaus, Bad Mergentheim\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eP.A. Das modische Textilhaus,\nBad Mergentheim\nAn der Stadtkirche\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBad Mergentheim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/88/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",

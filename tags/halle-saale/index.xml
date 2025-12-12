@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Halle an der Saale on Kleiderbügel</title>
+    <title>Halle (Saale) on Kleiderbügel</title>
     <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/halle-saale/</link>
-    <description>Recent content in Halle an der Saale on Kleiderbügel</description>
+    <description>Recent content in Halle (Saale) on Kleiderbügel</description>
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Kleiderbügel</copyright>
+    <lastBuildDate>Fri, 12 Dec 2025 02:19:10 +0100</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/halle-saale/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moritz Cahn</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/</link>
+      <pubDate>Mon, 22 Feb 2021 12:32:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/53/</guid>
+      <description>&lt;p&gt;Moritz Cahn, Halle a.S.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hermann Bauchwitz</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/26/</link>
+      <pubDate>Sun, 06 Dec 2020 12:32:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/26/</guid>
+      <description>&lt;p&gt;Hermann Bauchwitz, Halle a. S.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
