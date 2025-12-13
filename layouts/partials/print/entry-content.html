@@ -3,14 +3,20 @@
 {{- if or (not (isset .Params "type")) (and (isset .Params "type") (ne .Params.type "hanger")) -}}
   {{- .Content -}}
 {{- else -}}
-  {{- if ne .Content "" -}}
-    <h2 class="heading-imprint">{{ i18n "print" }}</h2>
-    <div class="hanger-content">
+
+  <h2 class="heading-imprint">{{ i18n "print" }}</h2>
+  <div class="hanger-content">
+    {{- if ne .Content "" -}}
       <p>
         {{- .RawContent | safeHTML -}}
       </p>
-    </div>
-  {{- end -}}
+      {{- else -}} 
+      <p class="noImprint">
+        {{ i18n "noTitle" }}
+      </p> 
+    {{- end -}}
+  </div>
+  
 
   {{- $additional := "" -}}
 

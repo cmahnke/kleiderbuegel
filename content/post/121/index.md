@@ -22,6 +22,7 @@ geojson:
   precision: exact
 related:
   - 188
+  - 149
 remarks: |
   * [Haus Erdmann in der Wikipedia](https://de.wikipedia.org/wiki/Haus_Erdmann_(Hannover-Mitte))
 ---

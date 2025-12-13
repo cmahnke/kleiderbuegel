@@ -15,23 +15,18 @@ resources:
   params:
     iiif: back/info.json
     content: |
-      Zum
-
+      <p>Zum</p>
       <p>10. Hochzeitstag</p>
-
-      Herzliche Glückwünsche
-
-      von Deinem
-
-      Dietmar, Albert, Harald
+      <p>Herzliche Glückwünsche</p>
+      <p>von Deinem</p>
+      <p>Dietmar, Albert, Harald</p>
 source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 tags:
 - "Material: Holz"
 - Beidseitig
 - Scherzartikel
 ---
-<p>wer hier befiehlt   —    das bin ich</p>
-
-<p>sieh es Dir an   —    Dein geliebter Mann</p>
-
-<br/><br/>
+<p>wer hier befiehlt</p>
+<p>das bin ich</p>
+<p>sieh es Dir an</p>
+<p>Dein geliebter Mann</p>

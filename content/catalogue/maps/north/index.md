@@ -1,7 +1,7 @@
 ---
 title: Karte Norddeutschland
 layout: print
-weight: 31
+weight: 32
 params:
   print: true
   pages: 2

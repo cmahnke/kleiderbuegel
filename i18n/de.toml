@@ -133,13 +133,13 @@ other = "Register der Geschäfte"
 other = "Register der Handelsketten"
 
 [typeIndex]
-other = "Register der Herkuftsbranchen"
+other = "Register der Arten ausgebener Stellen"
 
 [featureIndex]
-other = "Register der Besonderheiten"
+other = "Register der Funktionen"
 
 [purposeIndex]
-other = "Register der Bügel mit spezialisiertem Einsatzzweck"
+other = "Register der Anwendungszwecke"
 
 [materialIndex]
 other = "Register der Materialien"

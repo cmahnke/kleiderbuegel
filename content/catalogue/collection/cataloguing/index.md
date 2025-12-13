@@ -16,16 +16,16 @@ Die Sammlung umfasst vorwiegend Kleiderbügel aus Holz, die früher häufig mit 
 Das zweithäufigste Material in der Sammlung ist Plastik. Bei seiner Einführung in den Massenmarkt nach dem Zweiten Weltkrieg hatte es jedoch einen anderen Stellenwert als heute. Plastikbügel werden meist im Siebdruckverfahren beschriftet. Besonders in den 70er Jahren fand es für avantgardistische Formen in kräftigen Farben Anwendung.
 Danach folgen Metall (meist in Verbindung mit Holz) und Stoff.
 
-## Arten von Bügeln
+## Typen von Bügeln
 
-Kleiderbügel gibt es in verschidenen Varianeten, zum Beispiel nach Anwendungszweck oder weiteren Funktionen
+Kleiderbügel gibt es in verschiedenen Varianten, zum Beispiel nach Anwendungszweck oder weiteren Funktionen
 
 * **Anwendungszweck**
   * Hosenbügel
   * Rockbügel
   * Kinderbügel
   * Reisekleiderbügel
-* **Funktionen/Besonderheiten**
+* **Funktionen**
   * Verstellbar
   * Klappbar
   * Kleiderbürste

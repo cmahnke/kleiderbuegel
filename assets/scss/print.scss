@@ -184,6 +184,7 @@ article {
         z-index: 100;
         flex-direction: column;
         position: relative;
+        /* hyphens: auto; */
 
         .heading-top,
         .heading-front,
@@ -211,6 +212,12 @@ article {
 
         .hanger-content {
           margin-bottom: auto;
+          hyphens: none;
+          word-break: normal;
+
+          &.noImprint {
+            font-style: italic;
+          }
         }
 
         .donation,
@@ -226,6 +233,16 @@ article {
 
         .additional-content {
           margin-bottom: auto;
+          hyphens: auto;
+
+          /*
+          .tag-content {
+            p {
+              margin-left: .2cm;
+              margin-right: .2cm;
+            }
+          }
+          */
 
           .doublesided {
             display: none;
@@ -259,17 +276,23 @@ article {
           font-style: italic;
         }
 
+        /*
         .heading-imprint,
         .additional-header,
         .heading-info {
           margin-left: .2cm;
           margin-right: .2cm;
         }
+        */
 
         .heading-imprint {
-          margin-top: .2cm;;
-          font-size: 12pt;
+          margin-top: .2cm;;     
           font-style: italic;
+        }
+
+        .heading-info,
+        .heading-imprint {
+          font-size: 14pt;
         }
 
         .additional-header {
@@ -283,6 +306,11 @@ article {
         ul, p {
           margin-block-start: 6pt;
           margin-block-end: 6pt;
+        }
+
+        ul {
+          padding-inline-start: .5cm;
+          padding-left: .5cm;
         }
 
         .text-content-top {
@@ -322,7 +350,6 @@ article {
 
         .footnote {
           float: bottom;
-          float-reference: page;
         }
 
         a {
@@ -331,7 +358,7 @@ article {
       }
 
       .image {
-         width: $image-width%;
+         width: $image-width;
          height: 100vh;
 
         &:has(.hanger-top) {
@@ -666,13 +693,12 @@ section {
     }
 
     .title-heading {
-      order: 2;
       position: unset;
       width: $text-width;
       min-width: $text-width;
       justify-content: center;
       align-items: unset;    
-      transform: rotate(-90deg);
+      transform: rotate(90deg);
       align-self: center;
       display: inline-flex;
 
@@ -682,14 +708,14 @@ section {
     }
 
     .title-logo {
-      order: 1;
+
       margin-left: -3.5cm;
       margin-right: -3.5cm;
       position: unset;
       left: unset;
       top: unset; 
       bottom: unset;
-      transform: rotate(180deg);
+
       flex-basis: $image-width;
 
       img {
@@ -698,6 +724,22 @@ section {
         margin: unset;
       }
     }
+
+    .left {
+      .title-heading {
+        order: 2;
+        transform: rotate(-90deg);
+      }
+
+      .title-logo {
+        order: 1;
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  &.blank {
+    page: nonr;
   }
 
   &.title {
@@ -767,7 +809,7 @@ section {
       columns: 2;
       gap: 5%;
       padding-inline-start: 0;
-      margin-block-start: 0;
+      margin-block-start: 1em;
       margin-block-end: 0;
       list-style-type: none;
 

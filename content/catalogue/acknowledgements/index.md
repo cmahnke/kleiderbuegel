@@ -11,7 +11,7 @@ Dank an alle, die den Aufbau der Sammlung unterstützt haben:
 * **Gwendolyn Friedrich**
 * **Martin Melchert**
 
-Zusätzlich die folgenden Spendern:
+Zusätzlich an die folgenden Spenderinnen und Spender:
 * **Helga Mahnke**
 * **Ingo Pfennigstorf**
 * **Karsten Heck**
@@ -20,4 +20,4 @@ Und an den Karstadt-Sammler **Holger-Philipp Bergt** für {{< print-ref slug="17
 
 Sowie **Max Gallenkamp** für die Organisation der Ausstellung "Sammlungen Erzählen".
 
-Und natürlich **Evelyn Kraßmann** für den Platz in ihren Schränken.
+Und natürlich **Evelyn Kraßmann** für den Platz in ihren Schränken und das Lektorat.

@@ -13,6 +13,23 @@ params:
   * Ohne Geodaten: **{{< hanger-param "geojson" "eq" nil >}}**
   * Repariert: **{{< tags/tag-count "Repariert" true >}}**
   * Doppelseitig identisch: **{{< hanger-param "doublesided" "eq" true >}}**
+  * Beidseitig bedruckt: **{{< tags/tag-count "Beidseitig" true >}}**
+
+* Funktionen
+  * Mit Klammern: **{{< tags/tag-count "Klammern" true >}}**
+  * Verstellbar: **{{< tags/tag-count "Verstellbar" true >}}**
+  * Klappbar: **{{< tags/tag-count "Klappbar" true >}}**
+  * Kleiderbürste: **{{< tags/tag-count "Kleiderbürste" true >}}**
+
+* Anwendungszwecke
+  * Hosenbügel: **{{< tags/tag-count "Hosenbügel" true >}}**
+  * Rockbügel: **{{< tags/tag-count "Rockbügel" true >}}**
+  * Kinderbügel: **{{< tags/tag-count "Kinderbügel" true >}}**
+  * Reisekleiderbügel: **{{< tags/tag-count "Reisekleiderbügel" true >}}**
+
+* Spezifische Hersteller
+  * Union: **{{< tags/tag-count "Union" true >}}**
+  * ruwe: **{{< tags/tag-count "ruwe" true >}}**
 
 * Materialien
   * Aus Holz: **{{< tags/tag-count "Material: Holz" true >}}**
@@ -20,22 +37,7 @@ params:
   * (Teilweise) aus Metall: **{{< tags/tag-count "Material: Metall" true >}}**
   * Aus Stoff: **{{< tags/tag-count "Material: Stoff" true >}}**
 
-* Typen / Besonderheiten
-  * Beidseitig bedruckt: **{{< tags/tag-count "Beidseitig" true >}}**
-  * Hosenbügel: **{{< tags/tag-count "Hosenbügel" true >}}**
-  * Rockbügel: **{{< tags/tag-count "Rockbügel" true >}}**
-  * Kinderbügel: **{{< tags/tag-count "Kinderbügel" true >}}**
-  * Reisekleiderbügel: **{{< tags/tag-count "Reisekleiderbügel" true >}}**
-  * Mit Klammern: **{{< tags/tag-count "Klammern" true >}}**
-  * Verstellbar: **{{< tags/tag-count "Verstellbar" true >}}**
-  * Klappbar: **{{< tags/tag-count "Klappbar" true >}}**
-  * Kleiderbürste: **{{< tags/tag-count "Kleiderbürste" true >}}**
-
-* Spezifische Hersteller
-  * Union: **{{< tags/tag-count "Union" true >}}**
-  * ruwe: **{{< tags/tag-count "ruwe" true >}}**
-
-* Arten von Quellen
+* Arten der augebenen Stelle
   * Bekleidungsgeschäft: **{{< tags/tag-count "Bekleidungsgeschäft" true >}}**
   * Reinigung: **{{< tags/tag-count "Reinigung" true >}}**
   * Warenhaus: **{{< tags/tag-count "Warenhaus" true >}}**

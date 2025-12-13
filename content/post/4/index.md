@@ -14,4 +14,4 @@ tags:
 - Warenhaus
 - "Material: Holz"
 ---
-Gut gekleidet von **Karstadt**
+Gut gekleidet von <b>Karstadt</b>

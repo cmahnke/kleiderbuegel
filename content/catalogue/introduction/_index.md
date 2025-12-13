@@ -20,5 +20,5 @@ Dieser Katalog entstand in Vorbereitung auf die Ausstellung **"Sammlungen erzäh
 
 Der Band zeigt {{< post-count section="post" type="hanger" >}} alte Kleiderbügel, sie sind über Register erschlossen und teilweise mit weiterführenden Informationen versehen. Sie werden ansonsten nicht kommentiert, auch nicht diejenigen, die vielleicht einer Einordnung oder gar Distanzierung bedürften. Der Textteil bietet weitergehende allgemeine Informationen und erläutert meine Sammlungspraxis eingehender. 
 
-**Viel Spaß beim blättern!**
+**Viel Spaß beim Blättern!**
 {.center}

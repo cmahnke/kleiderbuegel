@@ -20,3 +20,10 @@
     {{- partial "print/footnotes.html" . -}}
   </div>
 </article>
+{{- if .Params.following_blank -}}
+<article class="{{ $class }}-blank blank" >
+  <div class="page blank">
+
+  </div>
+</article>
+{{- end -}}

@@ -16,8 +16,9 @@ tags:
   - Rockbügel
   - Verstellbar
   - Klammern
+donation: Helga Mahnke
+related:
+  - 41
 ---
 Union Rock-Jon
 D.B.Wz.
-
-Siehe auch [Jon-Jon (#41)](/post/41).

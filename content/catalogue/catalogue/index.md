@@ -6,6 +6,7 @@ params:
   print: true
   toc: false
   show_title: false
+  following_blank: true
 ---
 
 <div class="title-heading">

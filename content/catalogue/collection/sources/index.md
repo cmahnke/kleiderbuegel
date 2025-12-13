@@ -1,5 +1,5 @@
 ---
-title: Quellen für Erwerbung
+title: Quellen für Erwerbungen
 layout: print
 weight: 22
 params:
