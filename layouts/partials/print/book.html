@@ -6,6 +6,8 @@
 {{- $sectionPage := (index $printSection 0).Parent -}}
 {{- $printSection = where $printSection ".Params.print" "eq" true -}}
 
+{{- $indexTypes := slice "place" "store" "retail_chain" "type" "feature" "purpose" "brand" "material" -}}
+
 {{- $tocEntries := (partial "print/print-toc.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "lt" "weight" 100 )) -}}
 
 <section class="front-matter">
@@ -110,30 +112,38 @@
   {{- $tocEntries = $tocEntries | append $sectionToc -}}
 </section>
 
-{{/* Indexes */}}
+{{/* TOC Indexes*/}}
 {{- $id := "_indexes" -}}
 {{- $title := i18n "indexes"  -}}
 {{- $tocEntries = $tocEntries | append (dict "title" $title "href" (printf "#%s" $id)) -}}
-<section id="{{ $id }}" class="indexes" data-section-title="{{ $title }}">
-  <h1 class="indexes"></h1>
-  {{- $types := slice "place" "store" "retail_chain" "type" "feature" "purpose" "brand" "material" -}}
-  {{- $sectionToc := slice -}}
-  {{- range $types -}}
-    <article class="index-container">
-      {{- $id := printf "_index-%s" . -}}
-      {{- $title := i18n (printf "%sIndex" .) -}}
-      {{- $sectionToc = $sectionToc | append (dict "title" $title "href" (printf "#%s" $id)) -}}
-      <h2 id="{{ $id }}" class="index-heading">{{ $title }}</h2>
-      {{- partial "print/index.html" . -}}
-    </article>
-  {{- end -}}
-  {{- $tocEntries = $tocEntries | append $sectionToc -}}
-</section>
-
+{{- $sectionToc := slice -}}
+{{- range $indexTypes -}}
+  {{- $id := printf "_index-%s" . -}}
+  {{- $title := i18n (printf "%sIndex" .) -}}
+  {{- $sectionToc = $sectionToc | append (dict "title" $title "href" (printf "#%s" $id)) -}}
+{{- end -}}
+{{- $tocEntries = $tocEntries | append $sectionToc -}}
 {{- range (partial "print/print-toc.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "gt" "weight" 100 )) -}}
   {{- $tocEntries = $tocEntries | append . -}}
 {{- end -}}
 {{- site.Store.Set "toc" $tocEntries -}}
+
+{{/* Indexes */}}
+{{- $id := "_indexes" -}}
+{{- $title := i18n "indexes"  -}}
+<section id="{{ $id }}" class="indexes" data-section-title="{{ $title }}">
+  <h1 class="indexes"></h1>
+  {{- range $indexTypes -}}
+    <article class="index-container">
+      {{- $id := printf "_index-%s" . -}}
+      {{- $title := i18n (printf "%sIndex" .) -}}
+      <h2 id="{{ $id }}" class="index-heading">{{ $title }}</h2>
+      {{- partial "print/index.html" . -}}
+    </article>
+  {{- end -}}
+  
+</section>
+
 <nav role="doc-toc">
   <h2>{{ i18n "toc" }}</h2>
   {{- $toc := partial "print/toc.html" (dict "context" . "entries" $tocEntries ) -}}
