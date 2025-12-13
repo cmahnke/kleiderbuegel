@@ -215,7 +215,7 @@ article {
           hyphens: none;
           word-break: normal;
 
-          &.noImprint {
+          .noImprint {
             font-style: italic;
           }
         }
@@ -345,6 +345,11 @@ article {
 
           .footnote-container {
             margin-top: 1cm;
+
+            a {
+              hyphens: auto;
+              word-break: break-all;
+            }
           }
         }
 
@@ -353,7 +358,7 @@ article {
         }
 
         a {
-          word-break: break-all;
+          hyphens: auto;
         }
       }
 

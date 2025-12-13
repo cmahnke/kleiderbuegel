@@ -11,7 +11,7 @@ params:
 
 ({{< hanger-param "geojson" "ne" nil >}}) der Kleiderbügel sind entweder direkt mit Orten und Adressen bedruckt oder zumindest mit Firmennamen, zu denen sich ein Standort rekonstruieren lässt. Manchmal ist eine genaue Rekonstruktion schwierig, beispielsweise weil es nicht zu jeder Stadt historische Adressbücher gibt oder weil schlicht die Zeit für eine tiefgehende Recherche fehlt. Eine hilfreiche Quelle sind Regional-Wikis, wie sie häufig von lokalen Tageszeitungen betrieben werden.
 
-Die Verteilung der Sammlung über Zentraleuropa ist auf der nächsten Seite zu sehen. Die darauf folgenden Karten zeigen die Regionen, aus denen sich Bügel in der Sammlung häufen, inklusive einer Auflistung.
+Die folgenden Karten zeigen die Regionen, aus denen sich Bügel in der Sammlung häufen, inklusive einer Auflistung.
 
 * Norddeutschland
 * Südliches Norddeutschland
