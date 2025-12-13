@@ -45,6 +45,8 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
           Metall <span class="badge">(6)</span>
         </a><a href="/tags/pelze" class="btn btn-default cloud-tag" role="button" style="font-size: 21px;">
           Pelze / Kürschner <span class="badge">(6)</span>
+        </a><a href="/tags/schneiderei" class="btn btn-default cloud-tag" role="button" style="font-size: 21px;">
+          Schneiderei <span class="badge">(6)</span>
         </a><a href="/tags/union" class="btn btn-default cloud-tag" role="button" style="font-size: 21px;">
           Union <span class="badge">(6)</span>
         </a><a href="/tags/bremerhaven" class="btn btn-default cloud-tag" role="button" style="font-size: 19px;">
@@ -75,8 +77,6 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
           Rockbügel <span class="badge">(3)</span>
         </a><a href="/tags/scherzartikel" class="btn btn-default cloud-tag" role="button" style="font-size: 15px;">
           Scherzartikel <span class="badge">(3)</span>
-        </a><a href="/tags/schneiderei" class="btn btn-default cloud-tag" role="button" style="font-size: 15px;">
-          Schneiderei <span class="badge">(3)</span>
         </a><a href="/tags/verstellbar" class="btn btn-default cloud-tag" role="button" style="font-size: 15px;">
           Verstellbar <span class="badge">(3)</span>
         </a><a href="/tags/brenninkmayer" class="btn btn-default cloud-tag" role="button" style="font-size: 12px;">
@@ -264,7 +264,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
   
 
   
-<a href="/tags/schneiderei">3</a></strong></li>
+<a href="/tags/schneiderei">6</a></strong></li>
 <li>Versandhandel: <strong>
 
   
@@ -358,7 +358,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
   
 
   
-<a href="/tags/m%C3%B6ller-schade">1</a></strong></li>
+<a href="/tags/m%C3%B6ller--schade">1</a></strong></li>
 <li>Erdmann: <strong>
 
   

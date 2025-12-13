@@ -183,8 +183,8 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "Maßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMaßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMaßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWaidmannsluster Damm 14, Berlin\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/144/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "name": "Maßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMaßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMaßschneiderei Karl Kreutzer 1 Berlin 27 Waidmannsluster=Damm 14 Tel. 43 87 88\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWaidmannsluster Damm 14, Berlin\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/144/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
@@ -889,7 +889,7 @@
   "type": "Feature",
   "properties": {
       "name": "Klinik Wetterau der BfA",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKlinik Wetterau der BfA\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\u003ca href=\"https://wetterau.deutsche-rentenversicherung-reha-zentren.de/\" target=\"_blank\"\u003eKlinik Wetterau der BfA\u003c/a\u003e\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eZanderstraße 30-32, Bad Nauheim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/72/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKlinik Wetterau der BfA\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKlinik Wetterau der BfA\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eZanderstraße 30-32, Bad Nauheim\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/72/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",

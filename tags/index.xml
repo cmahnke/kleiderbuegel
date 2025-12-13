@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>de</language>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Fri, 12 Dec 2025 13:04:07 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 12:13:40 +0100</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Material: Holz</title>
@@ -150,13 +150,6 @@
       <description></description>
     </item>
     <item>
-      <title>Rottach - Egern</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/rottach---egern/</link>
-      <pubDate>Sun, 23 May 2021 12:47:44 +0200</pubDate>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/rottach---egern/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Material: Stoff</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-stoff/</link>
       <pubDate>Sun, 28 Mar 2021 12:47:44 +0200</pubDate>
@@ -182,6 +175,13 @@
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/landeshut/</link>
       <pubDate>Sun, 29 Nov 2020 14:30:44 +0200</pubDate>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/landeshut/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hosenbügel</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hosenb%C3%BCgel/</link>
+      <pubDate>Mon, 23 Nov 2020 14:29:44 +0200</pubDate>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/hosenb%C3%BCgel/</guid>
       <description></description>
     </item>
   </channel>
