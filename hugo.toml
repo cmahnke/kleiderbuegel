@@ -182,7 +182,9 @@ timeout = 120
     attribute = true
     strikethrough = true
 
-# TODO: Check of Quotation marks should be replaced with these: „”
+# TODO: Check of Quotation marks should be replaced with these: „ (&bdquo;) “ (&ldquo;)
+# Single Quotes ‚ (&sbquo;) ‘ (&lsquo;)
+# See https://de.wikipedia.org/wiki/Anf%C3%BChrungszeichen
 # Also make sure these get added to the print stylesheet.
 
   [markup.goldmark.extensions.typographer]
@@ -191,12 +193,14 @@ timeout = 120
     ellipsis = '&hellip;'
     emDash = '&mdash;'
     enDash = '&ndash;'
+    rightAngleQuote = '&raquo;'
+    #rightDoubleQuote = '&rdquo;'
+    rightDoubleQuote = '&bdquo;'
+    #rightSingleQuote = '&rsquo;'
+    rightSingleQuote = '&sbquo;'
     leftAngleQuote = '&laquo;'
     leftDoubleQuote = '&ldquo;'
     leftSingleQuote = '&lsquo;'
-    rightAngleQuote = '&raquo;'
-    rightDoubleQuote = '&rdquo;'
-    rightSingleQuote = '&rsquo;'
 
   [markup.goldmark.extensions.extras]
     [markup.goldmark.extensions.extras.insert]

@@ -596,6 +596,10 @@ section {
         }
       }
     }
+
+    .footnote-number {
+      margin-right: .5pt;
+    }
   }
 
   &.title {
@@ -909,6 +913,10 @@ a {
   position: relative;
   font-size: $footnote-bottom-font-size;
 
+  .footnote-number {
+    margin-right: unset !important;
+  }
+
   &:before {
     content: '';
     width: 5cm;
@@ -930,7 +938,7 @@ a {
 a.page-ref {
   .page-ref-title {
     &:before {
-      content: '“';
+      content: '„';
     }
 
     &:after {

@@ -12,6 +12,7 @@ params:
   * Scherzartikel: **{{< tags/tag-count "Scherzartikel" true >}}**
   * Ohne Geodaten: **{{< hanger-param "geojson" "eq" nil >}}**
   * Repariert: **{{< tags/tag-count "Repariert" true >}}**
+  * Doppelseitig identisch: **{{< hanger-param "doublesided" "eq" true >}}**
 
 * Materialien
   * Aus Holz: **{{< tags/tag-count "Material: Holz" true >}}**

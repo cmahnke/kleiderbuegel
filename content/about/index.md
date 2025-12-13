@@ -92,6 +92,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
   * Werbung: **{{< tags/tag-count "Werbung" true >}}**
   * Scherzartikel: **{{< tags/tag-count "Scherzartikel" true >}}**
   * Ohne Geodaten: **{{< hanger-param "geojson" "eq" nil >}}**
+  * Doppelseitig identisch: **{{< hanger-param "doublesided" "eq" true >}}**
   * Repariert: **{{< tags/tag-count "Repariert" true >}}**
 {.statistics}
 

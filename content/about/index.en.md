@@ -87,6 +87,7 @@ Keywords with fewer than three entries are not displayed.
   * Advertising: **{{< tags/tag-count "Werbung" true >}}**
   * Novelty items: **{{< tags/tag-count "Scherzartikel" true >}}**
   * Without geodata: **{{< hanger-param "geojson" "eq" nil >}}**
+  * Identical on both sides: **{{< hanger-param "doublesided" "eq" true >}}**
   * Repaired: **{{< tags/tag-count "Repariert" true >}}**
 {.statistics}
 
