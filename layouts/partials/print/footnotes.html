@@ -1,8 +1,17 @@
+{{- $domains := dict "xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de" "kleiderbügel.blaufusstölpel.de" -}}
+{{- $context := . -}}
 {{- with .Page.Store.Get "footnotes" -}}
     {{- $list := . -}}
     <div class="footnote-container">
         {{- range  $key, $value := $list -}}
-            <span class="footnote-number">{{ $key }}</span>: <span class="footnote-content">{{ $value | safeHTML }}</span><br/>
+            {{- $target := $value -}}
+            {{- range $from, $to := $domains -}}
+                {{- $target = replace $target $from $to -}}
+            {{- end -}}
+            {{- if strings.Contains $target "xn--" -}}
+                {{- warnf "[print/footnotes.html] Invalid Punicode domain name in footnote: %s for post %s" $value $context.RelPermalink -}}
+            {{- end -}}
+            <span class="footnote-number">{{ $key }}</span>: <span class="footnote-content">{{ $target | safeHTML }}</span><br/>
         {{- end -}}
     </div>
 {{- end -}}
