@@ -11,8 +11,11 @@
 
 {{- $pages = where $pages "Params.tags" "intersect" (slice $tag) -}}
 {{- if eq $link true -}}
-  {{- $tagURL := printf "tags/%s" ($tag | urlize) | relURL -}}
-  <a href="{{ $tagURL }}">{{- len $pages -}}</a>
+  {{- $tagUrl := printf "tags/%s" ($tag | urlize) | relURL -}}
+  {{- if or (strings.Contains $tag " ") (strings.Contains $tag "& ") -}}
+    {{- $tagUrl = printf "/%s%s" "tags/" ((replace (replace $tag "& " "-") " " "-") | urlize) -}}
+  {{- end -}}
+  <a href="{{ $tagUrl }}">{{- len $pages -}}</a>
 {{- else -}}
   {{- len $pages -}}
 {{- end -}}

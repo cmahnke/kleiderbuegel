@@ -14,6 +14,7 @@ tags:
   - "Material: Holz"
   - Witzenhausen
   - Repariert
+  - Schneiderei
 address: Witzenhausen
 geojson:
   coordinates:

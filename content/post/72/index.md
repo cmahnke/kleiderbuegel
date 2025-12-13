@@ -20,6 +20,8 @@ geojson:
   - 50.359036
   precision: exact
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+remarks: |
+  * [Klinik Wetterau der BfA](https://wetterau.deutsche-rentenversicherung-reha-zentren.de/)
 ---
 
-[Klinik Wetterau der BfA](https://wetterau.deutsche-rentenversicherung-reha-zentren.de/)
+Klinik Wetterau der BfA

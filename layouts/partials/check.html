@@ -106,6 +106,9 @@
   {{- range $tag := .Params.tags -}}
     {{- if ne $tag "" -}}
       {{- $tagUrl := printf "%s%s" "tags/" ($tag | urlize) -}}
+      {{- if or (strings.Contains $tag " ") (strings.Contains $tag "& ") -}}
+        {{- $tagUrl = printf "%s%s" "tags/" ((replace (replace $tag "& " "-") " " "-") | urlize) -}}
+      {{- end -}}
       {{- $termPath := (urls.Parse $tagUrl).Path -}}
       {{- with site.GetPage $termPath -}}
         {{- if ne $tag .Title -}}

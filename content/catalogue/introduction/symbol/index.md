@@ -1,7 +1,7 @@
 ---
 title: Kleiderbügel als Symbol
 layout: print
-weight: 4
+weight: 8
 params:
   print: true
   show_title: true

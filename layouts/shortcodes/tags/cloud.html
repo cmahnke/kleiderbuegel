@@ -24,6 +24,9 @@
     {{- $termTitle := "" -}}
     {{- if ne $tag "" -}}
       {{- $tagUrl := printf "%s%s" (printf "/%s/" $taxonomy) ($tag | urlize) -}}
+      {{- if or (strings.Contains $tag " ") (strings.Contains $tag "& ") -}}
+        {{- $tagUrl = printf "%s%s" (printf "/%s/" $taxonomy) ((replace (replace $tag "& " "-") " " "-") | urlize) -}}
+      {{- end -}}
 
       {{/* TODO: Check if this still works if .Site.BaseURL contains a path at the end - probably not */}}
       {{- $tagPath := (urls.Parse $tagUrl).Path -}}
@@ -46,6 +49,10 @@
         {{- end -}}
       {{- end -}}
       {{- if $definitionMissing -}}
+        {{/*
+        {{- errorf "[tags/cloud.html] Can't find term page %s" $tagPath -}}
+        */}}
+        
         {{- continue -}}
       {{- end -}}
 
@@ -96,7 +103,11 @@
   <div class="tagcloud">
     {{- range $filtered -}}
       {{- if .term -}}
-        {{- $tagURL := printf "tags/%s" (.Term | urlize) | relURL -}}
+        {{- $tag := .Term -}}
+        {{- $tagURL := printf "tags/%s" ($tag | urlize) | relURL -}}
+        {{- if or (strings.Contains $tag " ") (strings.Contains $tag "& ") -}}
+          {{- $tagUrl = printf "/%s%s" "tags/" ((replace (replace $tag "& " "-") " " "-") | urlize | relURL) -}}
+        {{- end -}}
         {{/* See http://www.johann-oberdorfer.eu/blog/2020/02/23/20-02-23_tag_cloud_for_hugo/ */}}
         {{- $divisor := (sub (math.Log $highest) (math.Log $lowest)) -}}
         {{- if not $divisor -}}

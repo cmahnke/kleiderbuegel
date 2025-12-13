@@ -58,6 +58,12 @@ $footnote-bottom-font-size: 6pt;
   }
 }
 
+/* Put translations in here */
+html[lang="de"] {
+
+
+}
+
 .page {
   counter-reset: link;
 }
@@ -228,7 +234,7 @@ article {
               font-style: italic;
 
               &::after {
-                content: ' S. ' target-counter(attr(href), pageNumber);
+                content: ' S. ' target-counter(attr(href), page);
               }
             }
 
@@ -718,18 +724,17 @@ section {
 
         p {
           font-weight: bold;
+          margin-top: 6pt;
+          margin-bottom: unset;
         }
 
         ul {
           margin-left: 6pt;
-          margin-top: 6pt;
+          /* margin-top: 6pt; */
           columns: unset;
-
         }
-
       }
     }
-
   }
 
   &.introduction,
@@ -759,9 +764,11 @@ section {
         gap: unset;
       }
 
+      /*
       *:first-of-type {
         margin-top: unset;
       }
+        */
 
       &.single {
         columns: 1;
@@ -813,8 +820,8 @@ section {
   &.toc {
 
     .inline-toc {
-      font-size: 115%;
-      padding-left: .8cm;
+      font-size: 105%;
+      /* padding-left: .8cm; */
     }
     
     ol, ul {
@@ -836,6 +843,22 @@ section {
       }
     }
 
+  }
+
+  &.imprint {
+    page: nonr;
+
+    .page{
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+
+      .imprint-container {
+        text-align: center;
+        font-size: large;
+
+      }
+    }
   }
 
   &.back {
@@ -902,4 +925,21 @@ a {
 
 [data-align-last-split-element="justify"] {
   text-align-last: unset;
+}
+
+a.page-ref {
+  .page-ref-title {
+    &:before {
+      content: '“';
+    }
+
+    &:after {
+      content: '”';
+    }
+  }
+
+  &:after {
+    content: ' ' target-counter(attr(href), page);
+    margin-right: 1pt;
+  }
 }

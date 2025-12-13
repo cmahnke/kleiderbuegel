@@ -1,4 +1,4 @@
-{{ $section := .Get "section" }}
+{{- $section := .Get "section" -}}
 {{- $cluster := false -}}
 {{- if (.Get "cluster") -}}
   {{- $cluster = .Get "cluster" -}}

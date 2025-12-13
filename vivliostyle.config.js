@@ -8,5 +8,6 @@ module.exports = {
     '/__vivliostyle-viewer/js/': 'docs/js/',
     '/__vivliostyle-viewer/images/': 'docs/images/',
     '/vivliostyle/docs/': 'docs/',
+    '/catalogue/': 'docs/catalogue/',
   },
 };

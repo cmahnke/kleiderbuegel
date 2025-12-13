@@ -24,6 +24,7 @@ files:
     - '404.html'
     - 'map/**'
     - 'en/map/**'
+    - 'print.html'
 content:
   ignore:
     - "<meta http-equiv=\"refresh\" content=\"0; url="

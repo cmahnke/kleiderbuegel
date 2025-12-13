@@ -11,6 +11,7 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Holz"
+  - Schneiderei
 related:
   - 51
 ---

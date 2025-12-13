@@ -10,7 +10,7 @@ resources:
   params:
     iiif: front/info.json
 tags:
-- Rottach - Egern
+- Rottach-Egern
 - Hotel
 - "Material: Holz"
 address: Seestraße 47, Rottach-Egern

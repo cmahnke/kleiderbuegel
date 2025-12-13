@@ -62,3 +62,21 @@ See also [IDN-Web-Converter](https://www.denic.de/service/tools/idn-web-converte
 
 # Date series generator
 https://onlinetools.com/time/generate-date-sequence
+
+
+# Data encoding
+
+Due to confusion on how to encode double sided hangers, this is the right way:
+
+For hangers with two identical sides use:
+```yaml
+params:
+    doublesided: true
+```
+
+For hangers with two different sides with two images use the tags "Beidseitig"
+
+```yaml
+tags:
+    - Beidseitig
+```

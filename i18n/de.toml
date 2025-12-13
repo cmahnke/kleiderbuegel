@@ -146,3 +146,6 @@ other = "Register der Materialien"
 
 [brandIndex]
 other = "Register der Hersteller"
+
+[pageAbbr]
+other = "S."

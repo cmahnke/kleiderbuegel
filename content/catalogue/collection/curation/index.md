@@ -1,7 +1,7 @@
 ---
 title: Sammeln und Kuratieren
 layout: print
-weight: 11
+weight: 21
 params:
   print: true
   show_title: true

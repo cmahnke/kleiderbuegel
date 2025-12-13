@@ -3,6 +3,9 @@
 */}}
 {{- $term := .Name -}}
 {{- $tagUrl := printf "%s%s" "tags/" ($term | urlize) -}}
+{{- if or (strings.Contains $term " ") (strings.Contains $term "& ") -}}
+  {{- $tagUrl = printf "%s%s" "tags/" ((replace (replace $term "& " "-") " " "-") | urlize) -}}
+{{- end -}}
 {{/* TODO: Check if this still works if .Site.BaseURL contains a path at the end - probably not */}}
 {{- $tagPath := (urls.Parse $tagUrl).Path -}}
 

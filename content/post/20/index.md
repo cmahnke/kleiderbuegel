@@ -4,6 +4,7 @@ title: "Rob'. Eucken, Schillerstr. 1"
 tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
+- Schneiderei
 type: hanger
 outputs:
 - html

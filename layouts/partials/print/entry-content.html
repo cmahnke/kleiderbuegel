@@ -38,6 +38,9 @@
   {{- range $tag := .Params.tags -}}
     {{- if ne $tag "" -}}
       {{- $tagUrl := printf "%s%s" "tags/" ($tag | urlize) -}}
+      {{- if or (strings.Contains $tag " ") (strings.Contains $tag "& ") -}}
+        {{- $tagUrl = printf "%s%s" "tags/" ((replace (replace $tag "& " "-") " " "-") | urlize) -}}
+      {{- end -}}
       {{- $tagPath := (urls.Parse $tagUrl).Path -}}
 
       {{- $tagPage := false -}}
@@ -63,7 +66,7 @@
           {{- end -}}
         {{- end -}}
       {{- else -}}
-        {{- errorf "[post-content.html] Can't find term page for %s (file %s) from %s" $tag $tagPath $page.RelPermalink -}}
+        {{- errorf "[print/entry-content.html] Can't find term page for %s (file %s) from %s" $tag $tagPath $page.RelPermalink -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}

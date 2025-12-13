@@ -1,7 +1,7 @@
 ---
 title: Ausstellungen und Bücher
 layout: print
-weight: 7
+weight: 19
 params:
   print: true
   show_title: false

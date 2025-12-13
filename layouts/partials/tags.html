@@ -5,14 +5,19 @@
     <ul class="tag-list">
       {{ range $tag := .Params.tags }}
         {{- $defaultLang := (index site.Languages 0).Lang -}}
+        {{- $tagTitle := $tag -}}
         {{- if ne $defaultLang $page.Language.Lang -}}
           {{- $translationKey := (replace (replace (replace $tag ":" "_") " " "_") "ä" "_") -}}
           {{- $tagTranslation := i18n $translationKey -}}
           {{- if ne $tagTranslation "" -}}
-            {{- $tag = $tagTranslation -}}
+            {{- $tagTitle = $tagTranslation -}}
           {{- end -}}
         {{- end -}}
-        <li class="tag"><a href="{{ "tags/" | relLangURL }}{{ $tag | urlize }}" title="{{ $tag }}">{{ $tag }}</a></li>
+        {{- $tagUrl := printf "%s" ($tag | urlize) -}}
+        {{- if or (strings.Contains $tag " ") (strings.Contains $tag "& ") -}}
+          {{- $tagUrl = printf "%s" ((replace (replace $tag "& " "-") " " "-") | urlize) -}}
+        {{- end -}}
+        <li class="tag"><a href="{{ "tags/" | relLangURL }}{{ $tagUrl | urlize }}" title="{{ $tagTitle }}">{{ $tagTitle }}</a></li>
       {{- end -}}
     </ul>
   </div>

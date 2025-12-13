@@ -21,5 +21,7 @@ geojson:
   precision: street
 remarks: |
   * [Wikipedia: Kaufhaus Alsberg](https://de.wikipedia.org/wiki/Kaufhaus_Alsberg)
+  * [Zentrum für Erinnerungskultur: „Das Alsberg-Haus ist in arischen Besitz übergegangen.“](https://www.erinnerungskultur-duisburg.de/2023/02/23/das-alsberg-haus-ist-in-arischen-besitz-uebergegangen/)
+  * [Kaufhaus Alsberg in Gelsenkirchen](http://www.gelsenzentrum.de/kaufhaus_alsberg_gelsenkirchen_arisierung_weka.htm)
 ---
 1875 Geschw. Alsberg, Coblenz 1925

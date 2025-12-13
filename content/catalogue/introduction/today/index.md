@@ -1,7 +1,7 @@
 ---
 title: Kleiderbügel heute
 layout: print
-weight: 6
+weight: 9
 params:
   print: true
   show_title: true

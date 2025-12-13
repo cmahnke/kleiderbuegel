@@ -1,7 +1,7 @@
 ---
 title: Die Sammlung in Zahlen
 layout: print
-weight: 13
+weight: 25
 params:
   print: true
   show_title: true
@@ -20,7 +20,7 @@ params:
   * Aus Stoff: **{{< tags/tag-count "Material: Stoff" true >}}**
 
 * Typen / Besonderheiten
-  * Beidseitig beschriftet: **{{< tags/tag-count "Beidseitig" true >}}**
+  * Beidseitig bedruckt: **{{< tags/tag-count "Beidseitig" true >}}**
   * Hosenbügel: **{{< tags/tag-count "Hosenbügel" true >}}**
   * Rockbügel: **{{< tags/tag-count "Rockbügel" true >}}**
   * Kinderbügel: **{{< tags/tag-count "Kinderbügel" true >}}**

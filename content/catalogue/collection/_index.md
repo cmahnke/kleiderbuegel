@@ -1,7 +1,7 @@
 ---
 title: Die Sammlung
 layout: print
-weight: 10
+weight: 20
 params:
   print: true
   show_title: true

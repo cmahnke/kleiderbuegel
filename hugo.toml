@@ -182,6 +182,9 @@ timeout = 120
     attribute = true
     strikethrough = true
 
+# TODO: Check of Quotation marks should be replaced with these: „”
+# Also make sure these get added to the print stylesheet.
+
   [markup.goldmark.extensions.typographer]
     apostrophe = '&rsquo;'
     disable = false
