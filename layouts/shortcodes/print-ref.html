@@ -23,7 +23,7 @@
   {{- else if eq (printf "%T" .) "string" -}}
     {{- $title = . -}}
   {{- end -}}
-  {{- $title = printf `<span class="page-ref-title">%s</span> %s` $title $pageAbbr -}}
+  {{- $title = printf `<span class="page-ref-title">%s</span>, %s` $title $pageAbbr -}}
 {{- else -}}
   {{- $title = $pageAbbr -}}
 {{- end -}}

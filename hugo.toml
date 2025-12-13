@@ -195,12 +195,12 @@ timeout = 120
     enDash = '&ndash;'
     rightAngleQuote = '&raquo;'
     #rightDoubleQuote = '&rdquo;'
-    rightDoubleQuote = '&bdquo;'
+    rightDoubleQuote = '&ldquo;'
     #rightSingleQuote = '&rsquo;'
-    rightSingleQuote = '&sbquo;'
+    rightSingleQuote = '&lsquo;'
     leftAngleQuote = '&laquo;'
-    leftDoubleQuote = '&ldquo;'
-    leftSingleQuote = '&lsquo;'
+    leftDoubleQuote = '&bdquo;'
+    leftSingleQuote = '&sbquo;'
 
   [markup.goldmark.extensions.extras]
     [markup.goldmark.extensions.extras.insert]

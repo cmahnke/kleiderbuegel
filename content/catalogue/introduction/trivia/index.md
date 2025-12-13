@@ -9,7 +9,7 @@ params:
 
 ## Kleiderbügel als Forschungsgegenstand
 
-In der (Kultur-)geschichtlichen Forschung finden sich vereinzelt auch Hinweise auf Kleiderbügel. Exemplarisch sei hier ein Eintrag im Blog des Focke-Museums Bremen genannat. Dort berichtet Asmut Brückmann wie ein gespendeter Kleiderbügel an das [Schiksal der Bremer Kaufmannsfamilie Silbermann](https://www.focke-museum.de/2021/01/28/ein-scheinbar-unscheinbarer-kleiderbuegel/ "Focke Museum: Über das Schicksal der Bremer Kaufmannsfamilie Silbermann") erinnert.
+In der (Kultur-)geschichtlichen Forschung finden sich vereinzelt auch Hinweise auf Kleiderbügel. Exemplarisch sei hier ein Eintrag im Blog des Focke-Museums Bremen genannat. Dort berichtet Asmut Brückmann wie ein gespendeter Kleiderbügel an das [Schicksal der Bremer Kaufmannsfamilie Silbermann](https://www.focke-museum.de/2021/01/28/ein-scheinbar-unscheinbarer-kleiderbuegel/ "Focke Museum: Über das Schicksal der Bremer Kaufmannsfamilie Silbermann") erinnert.
 In der Sammlung befinden sich einige Kleiderbügel, die mit Arisierungen und Verfolgungen im "3. Reich" in Zusammenhang stehen.
 
 ## Kleiderbügel als Bastelobjekte
