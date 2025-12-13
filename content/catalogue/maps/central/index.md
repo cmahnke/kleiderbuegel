@@ -12,4 +12,4 @@ params:
 {{< print-pb >}}
 
 # Bügel aus Mitteldeutschland
-{{< geo/bbox-filter secrion="post" bbox="[4.702148,47.606163,15.249023,54.762670]" >}}
+{{< geo/bbox-filter secrion="post" bbox="[8.366454,50.949654,11.250365,52.597926]" >}}
