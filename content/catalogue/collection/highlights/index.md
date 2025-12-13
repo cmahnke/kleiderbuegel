@@ -47,3 +47,4 @@ Der Bügel mit integrierter Kleiderbürste ({{< print-ref slug="250" >}}) aus de
 
 * {{< print-ref slug="25" title=true >}}: Mit seiner Jugendstil-Schriftart sicher einer der ältesten in der Sammlung.
 * {{< print-ref slug="143" title=true >}}: Mit seiner konsequenten Kleinschreibung war das Flebbe-Logo seiner Zeit weit voraus.
+{.single}
