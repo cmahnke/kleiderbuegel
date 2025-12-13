@@ -5,7 +5,7 @@
 <p>Die Kleiderbügel auf dieser Seite stehen nicht zum Verkauf! Allerdings bin ich bereit zu tauschen, zu spenden oder zu leihen, wenn eine der folgenden Kriterien auf die Anfrage zutrifft:</p>
 <ul>
 <li>Private Sammler: Sie haben eine renommierte Sammlung (nachgewiesen durch Medienberichterstattung) oder stellen ihre Sammlung öffentlich recherchierbar (z.B. durch Online-Katalog) bereit. Zusätzlich bieten sie ein gleichwertiges Objekt zum Tausch an.</li>
-<li>Öffentliche Einrichtungen (wie Archive und Museen): Sie stellen das Objekt (digitalisiert und mit Metadaten ausgestattet) kurzfristig in ein über das Web zugängliches Rechercheportal (wie &ldquo;<a href="https://www.archivportal-d.de/" target="_blank">Archivportal D</a>&rdquo;) ein und nennen in den Metadaten den Spender.</li>
+<li>Öffentliche Einrichtungen (wie Archive und Museen): Sie stellen das Objekt (digitalisiert und mit Metadaten ausgestattet) kurzfristig in ein über das Web zugängliches Rechercheportal (wie &bdquo;<a href="https://www.archivportal-d.de/" target="_blank">Archivportal D</a>&ldquo;) ein und nennen in den Metadaten den Spender.</li>
 <li>Für Leihgaben werden eine Namensnennung, ein Belegexemplar des Katalogs bzw. ein Foto im Kontext (mit vollen und dauerhaften Nutzungs- und Verwertungsrechten) erwartet.</li>
 </ul>
 <p>Weitere Informationen finden sie in in entsprechenden Abschnitten meiner Homepage:</p>
@@ -16,7 +16,7 @@
 <p>Bitte gehen sie bei Anfragen auf diese Punkte ein.</p>
 <h1 id="schlagworte">Schlagworte</h1>
 <p>Die verwendeten Schlagworte beschreiben in der Regel den Ort und die Art des beworbenen Unternehmens.
-Dabei werden z.B. Wäschereien und Reinigungen zu &ldquo;Reinigung&rdquo;, Pelzhandlungen und Kürschnermeister zu &ldquo;Pelze&rdquo;, Herrenausstatter und dergleichen zu &ldquo;Bekleidungsgeschäft&rdquo; und Kauf- und Warenhäuser zu &ldquo;Warenhaus&rdquo; zusammengefasst. Größere Unternehmen oder verschiedene Unternehmen im Besitz von Zweigen einer Familie werden nochmal extra verschlagwortet.
+Dabei werden z.B. Wäschereien und Reinigungen zu &bdquo;Reinigung&ldquo;, Pelzhandlungen und Kürschnermeister zu &bdquo;Pelze&ldquo;, Herrenausstatter und dergleichen zu &bdquo;Bekleidungsgeschäft&ldquo; und Kauf- und Warenhäuser zu &bdquo;Warenhaus&ldquo; zusammengefasst. Größere Unternehmen oder verschiedene Unternehmen im Besitz von Zweigen einer Familie werden nochmal extra verschlagwortet.
 Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
 
 
@@ -401,6 +401,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
   
 <a href="/tags/scherzartikel">3</a></strong></li>
 <li>Ohne Geodaten: <strong>58</strong></li>
+<li>Doppelseitig identisch: <strong>19</strong></li>
 <li>Repariert: <strong>
 
   
@@ -419,7 +420,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
 <p>Für das die Anzeige der Karte wird <a href="https://openlayers.org/" target="_blank">OpenLayers</a> verwendet, das Kartenmatrial wird vom <a href="https://www.openstreetmap.org/" target="_blank">OpenstreetMap</a> Projekt bereitgestellt. Das Theme basiert auf <a href="https://github.com/versatiles-org/versatiles-style" target="_blank">Versatiles</a>.</p>
 <p>Das <a href="https://gitlab.com/kaushalmodi/hugo-theme-refined/blob/master/layouts/shortcodes/figure.html" target="_blank">Einbinden der Bilder</a> und die <a href="http://www.johann-oberdorfer.eu/blog/2020/02/23/20-02-23_tag_cloud_for_hugo/" target="_blank">Tagcloud</a> sind aus den jeweils angebenen Quellen übernommen.</p>
 <h1 id="kontakt">Kontakt</h1>
-<p>&ldquo;Kleiderbügel&rdquo; ist ein <a href="https://projektemacher.org" target="_blank">Projekt</a> von <strong><a href="https://christianmahnke.de/" target="_blank">Christian Mahnke</a></strong>.</p>
+<p>&bdquo;Kleiderbügel&ldquo; ist ein <a href="https://projektemacher.org" target="_blank">Projekt</a> von <strong><a href="https://christianmahnke.de/" target="_blank">Christian Mahnke</a></strong>.</p>
 <p>Kontakt ist via <a href="mailto:kleiderbuegel@projektemacher.org">E-Mail</a> möglich.</p>
 <h1 id="datenschutzerklärung">Datenschutzerklärung</h1>
 <p>Die Datenschutzerklärung ist <a href="/privacy">hier</a> verfügbar.</p>
