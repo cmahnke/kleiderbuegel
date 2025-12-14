@@ -8,4 +8,4 @@ params:
 Hertie war eine Warenhauskette, die 1994 von Karstadt übernommen wurde. 1882 unter dem Namen Tietz gegründet (Hertie ist die Abkürzung für <u>Her</u>mann <u>Tie</u>tz), 1933 "arisiert".
 
 Weitere Quellen
-* [Wikipedia Artikel über Hertie](https://de.wikipedia.org/wiki/Hertie_Waren-_und_Kaufhaus)
+* [Hertie in der Wikipedia Artikel](https://de.wikipedia.org/wiki/Hertie_Waren-_und_Kaufhaus)

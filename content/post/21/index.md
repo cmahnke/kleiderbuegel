@@ -22,7 +22,7 @@ geojson:
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 remarks: |
   * [YouTube: Die Geschichte der Firma MARIS](https://www.youtube.com/watch?v=wqHPZQsgykw)
-  * [Wikipedia Artikel über den Gründer](https://de.wikipedia.org/wiki/Hermann_Marsian)
+  * Der Gründer [Hermann Marsian in der Wikipedia](https://de.wikipedia.org/wiki/Hermann_Marsian)
 ---
 
 Maris

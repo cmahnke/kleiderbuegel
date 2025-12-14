@@ -15,7 +15,7 @@ tags:
 - "Material: Holz"
 address: Seestraße 47, Rottach-Egern
 remarks: |
-  * [In der Wikipedia](https://de.wikipedia.org/wiki/Hotel_Bachmair_am_See)
+  * [Hotel Bachmair am See in der Wikipedia](https://de.wikipedia.org/wiki/Hotel_Bachmair_am_See)
 geojson:
   coordinates:
   - 11.763924

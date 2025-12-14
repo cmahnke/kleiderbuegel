@@ -14,7 +14,7 @@ tags:
   - "Material: Plastik"
 remarks: |
   * Aufkleber: Design [Danielo Silvestrin](https://de.wikipedia.org/wiki/Danilo_Silvestrin)
-  * Der Aufkleber beinahaltet das Logo von [Gunter Lambert](https://de.wikipedia.org/wiki/Gunther_Lambert)
+  * Der Aufkleber beinhaltet das Logo von [Gunter Lambert](https://de.wikipedia.org/wiki/Gunther_Lambert)
 related:
   - 124
 ---

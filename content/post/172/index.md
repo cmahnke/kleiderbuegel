@@ -32,7 +32,7 @@ geojson:
 related:
   - 11
 remarks: |
-  * [Warenhaus Rudolph Karstadt (Stettin)](https://de.wikipedia.org/wiki/Warenhaus_Rudolph_Karstadt_(Stettin))
+  * [Warenhaus Rudolph Karstadt (Stettin) in der Wikipedia](https://de.wikipedia.org/wiki/Warenhaus_Rudolph_Karstadt_(Stettin))
   * Getauscht mit Holger-Philipp Bergt gegen den [Bügel Karstadt Göttingen (#11)](/post/11)
 ---
 Karstadt

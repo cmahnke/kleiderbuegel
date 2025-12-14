@@ -14,7 +14,7 @@ tags:
 - Hotel
 remarks: |
   * [Steigenberger Hotels & Resorts](https://hrewards.com/de/steigenberger-hotels-resorts)
-  * [Wikipedia: H World International (vormals Deutsche Hospitality und Steigenberger Hotel Group)](https://de.wikipedia.org/wiki/H_World_International)
+  * Die ehemalige Deutsche Hospitality und Steigenberger Hotel Group, heute [H World International in der Wikipedia](https://de.wikipedia.org/wiki/H_World_International)
 ---
 Steigenberger
 H*O*T*E*L*S

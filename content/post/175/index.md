@@ -21,7 +21,7 @@ geojson:
   - 48.137144
   precision: exact
 remarks: |
-  * [Wikipedia: Ludwig Beck am Rathauseck](https://de.wikipedia.org/wiki/Ludwig_Beck_am_Rathauseck)
+  * [Ludwig Beck am Rathauseck in der Wikipedia](https://de.wikipedia.org/wiki/Ludwig_Beck_am_Rathauseck)
   * [Heutige Webseite](https://www.ludwigbeck.de/)
 ---
 Ludwig

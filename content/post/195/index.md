@@ -20,6 +20,7 @@ geojson:
   - 52.262521
   precision: exact
 remarks: |
-  * [Wikipedia](https://de.wikipedia.org/wiki/Hamburger_%26_Littauer)
+  * Ursprünglicher Name vor der "Arisierung" 1933 war Hamburger & Littauer 
+  * [Hamburger & Littauer in der Wikipedia](https://de.wikipedia.org/wiki/Hamburger_%26_Littauer)
 ---
 Rosbach & Risse

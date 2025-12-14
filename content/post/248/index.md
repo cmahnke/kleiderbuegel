@@ -26,7 +26,7 @@ geojson:
   - 53.551144
   precision: exact
 remarks: |
-  * [Wikipedia](https://de.wikipedia.org/wiki/Karstadt_M%C3%B6nckebergstra%C3%9Fe)
+  * [Karstadt Mönckebergstraße in der Wikipedia](https://de.wikipedia.org/wiki/Karstadt_M%C3%B6nckebergstra%C3%9Fe)
 ---
 KARSTADT
 Hamburg - Mönckebergstr.

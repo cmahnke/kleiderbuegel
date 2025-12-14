@@ -22,7 +22,7 @@ geojson:
   precision: city
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 remarks: |
-  * <a href="https://de.wikipedia.org/wiki/Kreis_Landeshut_i._Schles.">Kreis Landeshut in Schlesien in der Wikipedia</a>
+  * [Kreis Landeshut in Schlesien in der Wikipedia](https://de.wikipedia.org/wiki/Kreis_Landeshut_i._Schles.)
 ---
 
 Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)
