@@ -15,6 +15,7 @@ resources:
   params:
     iiif: front/info.json
 address: Düsseldorfer Str. 11, Jülich
+notes: https://wiki.genealogy.net/Kategorie:Adressbuch_f%C3%BCr_J%C3%BClich
 geojson:
   coordinates:
   - 6.357411

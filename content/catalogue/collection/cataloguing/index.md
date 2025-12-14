@@ -57,3 +57,7 @@ Es gibt außerdem weitere Klassifikationen, beispielsweise danach, ob ein Bügel
 Hersteller von Bügeln sowie Handelsketten und Geschäfte werden zusätzlich getrennt verschlagwortet, sofern es mehrere Bügel aus einer Quelle gibt.
 
 Da die Sammlung weiterhin in Gebrauch ist, werden Daten wie beispielsweise die Abmessungen nicht erfasst. Die Aufnahmen sind allerdings (meist) maßstabsgetreu, weshalb schmalere Bügel transparente Ränder haben.
+
+## Alte Schutzrechtsmarken
+
+Alte Schutzrechtsmarken wie D.R.G.M (Deutsches Reichs-GebrauchsMuster), D.R.W.Z. (Deutsches Reichs-WarenZeichen), DBGM (Deutsches Bundes-GebrauchsMuster) DBWz (Deutsches Bundes-WarenZeichen), werden nicht gesondert erfasst.

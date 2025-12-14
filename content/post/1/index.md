@@ -11,6 +11,7 @@ geojson:
   - 9.939238
   - 51.534399
   precision: exact
+notes: "Nicht geprüft: In Göttinger Adressbüchern der 1950er–1970er Jahre als eigenständiges Bekleidungsgeschäft geführt."
 resources:
 - src: "front.png"
   params:
