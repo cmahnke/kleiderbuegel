@@ -13,10 +13,12 @@ resources:
 - src: "back.png"
   params:
     iiif: back/info.json
-    content: "Bürste"
+    content: ""
 tags:
 - "Material: Holz"
 - Beidseitig
 - Kleiderbürste
 donation: Karsten Heck
 ---
+
+<i>Bürste</i>
