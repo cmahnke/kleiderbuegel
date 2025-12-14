@@ -188,7 +188,7 @@ article {
 
       .text {
         display: grid;
-        grid-template-rows: 5cm 4fr 1fr; /* 2fr 4fr 1fr; */
+        grid-template-rows: 4.5cm 4fr 1fr; /* 2fr 4fr 1fr; */
         width: $text-width;
         z-index: 100;
         flex-direction: column;

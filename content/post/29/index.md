@@ -33,5 +33,7 @@ source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 outputs:
 - html
 - iiif-manifest
+remarks: |
+  * [Sanostol in der Wikipedia](https://de.wikipedia.org/wiki/Sanostol)
 ---
 multi - Sanostol

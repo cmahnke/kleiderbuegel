@@ -23,6 +23,7 @@
   {{- $place := "" -}}
   {{- $features := slice -}}
   {{- $tagContent := "" -}}
+  {{- $changed := false -}}
 
   {{- range $tag := .Params.tags -}}
     {{- if ne $tag "" -}}
@@ -68,15 +69,18 @@
 
   {{- if ne $place "" -}}
     {{- $additional = printf `%s<div class="place"><div class="additional-header">%s: </div>%s</div>` $additional (i18n "place" ) $place -}}
+    {{ $changed = true -}}
   {{- end -}}
 
   {{- if gt (len $features) 0 -}}
     {{- $featureTitles := delimit $features ", " -}}
     {{- $additional = printf `%s<div class="features"><div class="additional-header">%s: </div>%s</div>` $additional (i18n "features" (len $features) ) $featureTitles -}}
-  {{- end -}}
+    {{ $changed = true -}}
+    {{- end -}}
 
   {{- if ne $tagContent "" -}}
     {{- $additional = printf `%s%s` $additional $tagContent -}}
+    {{ $changed = true -}}
   {{- end -}}
 
   {{- with .Params.remarks -}}
@@ -84,14 +88,17 @@
     {{- $remarks = replace $remarks "Aktuelle Webseite" (i18n "currentWebsite") -}}
     {{- $remarks = replace $remarks "Heutige Webseite" (i18n "currentWebsite") -}}
     {{- $additional = printf `%s<div class="remarks notes"><div class="additional-header">%s:</div>%s</div>` $additional (i18n "remarks") ($remarks | $.Page.RenderString) -}}
-  {{- end -}}
+    {{ $changed = true -}}
+    {{- end -}}
 
   {{- with .Params.related -}}
     {{- if reflect.IsSlice . -}}
       {{- $additional = printf "%s%s" $additional (partial "print/related.html" $page) -}}
     {{- else -}}
       {{- $additional = printf "%s%s" $additional ( . | $.Page.RenderString)  -}}
+      {{- errorf "[print/entry-content.html] Unexpected type for related, should be slice" -}}
     {{- end -}}
+    {{ $changed = true -}}
   {{- end -}}
 
   {{- with .Params.source -}}
@@ -102,7 +109,9 @@
   {{- end -}}
 
   {{- if ne $additional "" -}}
-    <h2 class="heading-info">{{ i18n "info" }}</h2>
+    {{- if $changed -}}
+      <h2 class="heading-info">{{ i18n "info" }}</h2>
+    {{- end -}}
     <div class="additional-content">
       {{- $additional | safeHTML -}}
     </div>
