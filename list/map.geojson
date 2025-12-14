@@ -1428,6 +1428,21 @@
 ,{
   "type": "Feature",
   "properties": {
+      "name": "Rob&#39;. Eucken, Schillerstr. 1",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eRob\u0026#39;. Eucken, Schillerstr. 1\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eRob\u0026lsquo;. Eucken, Schillerstr. 1 Ecke W.havenerstr,\nUniformen-Zivil-Maßkonfektion\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/20/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.105416,53.520103]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Färberei Kotzenberg",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eFärberei Kotzenberg\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eChem. Reinigung Färberei Kotzenberg Kleiderbad\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBismarckstraße 69B, Herford\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
