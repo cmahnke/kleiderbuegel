@@ -12,7 +12,7 @@ resources:
 - src: "back.png"
   params:
     iiif: back/info.json
-    content: "[Logo]"
+    content: "<i>[Logo]</i>"
 tags:
 - "Material: Holz"
 - Beidseitig
