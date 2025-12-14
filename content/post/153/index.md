@@ -20,5 +20,7 @@ geojson:
   - -79.385814
   - 43.667337 
   precision: exact
+remarks: |
+  * Der bisher einigel Bügel aus Nordamerika
 ---
 Cold Fur Storage & Repairs ALANA FURS 676 Yonge St. WA 5-3441

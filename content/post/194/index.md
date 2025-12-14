@@ -13,4 +13,4 @@ tags:
 - "Material: Holz"
 ---
 
- Mondern
+ Modern

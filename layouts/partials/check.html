@@ -103,6 +103,10 @@
     {{- end -}}
   {{- end -}}
 
+  {{- if and (isset .Params "source") (isset .Params "donation") -}}
+    {{- errorf "[check.html] Donation and source can't be set at thesame time in %s" .RelPermalink -}}
+  {{- end -}}
+
   {{- range $tag := .Params.tags -}}
     {{- if ne $tag "" -}}
       {{- $tagUrl := printf "%s%s" "tags/" ($tag | urlize) -}}

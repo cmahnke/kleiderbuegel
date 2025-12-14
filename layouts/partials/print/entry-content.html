@@ -34,12 +34,6 @@
       {{- $additional = printf "%s%s" $additional ( . | $.Page.RenderString)  -}}
     {{- end -}}
   {{- end -}}
-  {{- with .Params.source -}}
-    {{- $additional = printf `%s<div class="source"><div class="additional-header">%s:</div>%s</div>` $additional (i18n "source" ) ( . | $.Page.RenderString) -}}
-  {{- end -}}
-  {{- with .Params.donation -}}
-    {{- $additional = printf `%s<div class="donation"><div class="additional-header">%s:</div>%s</div>` $additional (i18n "donation" ) ( . | $.Page.RenderString) -}}
-  {{- end -}}
 
   {{- range $tag := .Params.tags -}}
     {{- if ne $tag "" -}}
@@ -75,6 +69,13 @@
         {{- errorf "[print/entry-content.html] Can't find term page for %s (file %s) from %s" $tag $tagPath $page.RelPermalink -}}
       {{- end -}}
     {{- end -}}
+  {{- end -}}
+
+  {{- with .Params.source -}}
+    {{- $additional = printf `%s<div class="source"><div class="additional-header">%s:</div>%s</div>` $additional (i18n "source" ) ( . | $.Page.RenderString) -}}
+  {{- end -}}
+  {{- with .Params.donation -}}
+    {{- $additional = printf `%s<div class="donation"><div class="additional-header">%s:</div>%s</div>` $additional (i18n "donation" ) ( . | $.Page.RenderString) -}}
   {{- end -}}
 
   {{- if ne $additional "" -}}

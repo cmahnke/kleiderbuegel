@@ -88,6 +88,10 @@ html[lang="de"] {
       right: 0;
     }
 
+    .additional-content {
+      justify-content: flex-start;
+    }
+
     .footnote-container {
       &:before {
         left: 0;
@@ -117,6 +121,11 @@ html[lang="de"] {
       margin-left: -1.5cm;
       transform: rotate(-90deg);
       left: 0;
+    }
+
+    .additional-content {
+      justify-content: flex-end;
+      align-items: unset
     }
 
     ul {
@@ -179,7 +188,7 @@ article {
 
       .text {
         display: grid;
-        grid-template-rows: 2fr 3fr 1fr;
+        grid-template-rows: 2fr 4fr 1fr;
         width: $text-width;
         z-index: 100;
         flex-direction: column;
@@ -234,6 +243,10 @@ article {
         .additional-content {
           margin-bottom: auto;
           hyphens: auto;
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+          justify-content: flex-start;
 
           /*
           .tag-content {
@@ -243,6 +256,11 @@ article {
             }
           }
           */
+
+          .donation,
+          .source {
+            margin-top: auto;
+          }
 
           .doublesided {
             display: none;
@@ -260,6 +278,10 @@ article {
           } 
 
           .tag-content {
+            p {
+              margin-block-start: unset;
+            }
+
             p:has(+ ul) {
               font-weight: bold;
               margin-block-end: 3pt;
@@ -276,18 +298,13 @@ article {
           font-style: italic;
         }
 
-        /*
-        .heading-imprint,
-        .additional-header,
-        .heading-info {
-          margin-left: .2cm;
-          margin-right: .2cm;
-        }
-        */
-
         .heading-imprint {
           margin-top: .2cm;;     
           font-style: italic;
+
+          & + .hanger-content {
+            min-height: 1.2cm;
+          } 
         }
 
         .heading-info,
@@ -324,11 +341,13 @@ article {
           .heading-back {
             right: unset;
           }
-
         }
 
         .text-content-center {
           position: relative;
+          height: 100%;
+          flex-direction: column;
+          display: flex;
 
           .heading-top {
             position: absolute;
@@ -344,7 +363,7 @@ article {
           /* align-self: flex-end; */
 
           .footnote-container {
-            margin-top: 1cm;
+            margin-top: .4cm;
 
             a {
               hyphens: auto;
@@ -434,12 +453,6 @@ article {
 section {
   page-break-after: always;
   break-after: page;
-
-  /*
-  &.front-matter {
-    height: 100%;
-  }
-  */
 }
 
 .page-number {
