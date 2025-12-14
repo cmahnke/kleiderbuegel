@@ -1,6 +1,6 @@
 ---
 title: Doublesided
 params:
-  type: feature
+  type: other
   tag: Beidseitig
 ---

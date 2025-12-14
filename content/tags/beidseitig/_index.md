@@ -2,5 +2,5 @@
 title: Beidseitig bedruckt
 tag: Beidseitig
 params:
-  type: feature
+  type: other
 ---

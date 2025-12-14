@@ -104,7 +104,11 @@
   {{- end -}}
 
   {{- if and (isset .Params "source") (isset .Params "donation") -}}
-    {{- errorf "[check.html] Donation and source can't be set at thesame time in %s" .RelPermalink -}}
+    {{- errorf "[check.html] Donation and source can't be set at the same time in %s" .RelPermalink -}}
+  {{- end -}}
+
+  {{- if or (isset .Params "seeAlso") (isset .Params "seealso") -}}
+    {{- errorf "[check.html] The param 'seeAlso' is deprecated use 'related' instead in %s" .RelPermalink -}}
   {{- end -}}
 
   {{- range $tag := .Params.tags -}}

@@ -188,7 +188,7 @@ article {
 
       .text {
         display: grid;
-        grid-template-rows: 2fr 4fr 1fr;
+        grid-template-rows: 5cm 4fr 1fr; /* 2fr 4fr 1fr; */
         width: $text-width;
         z-index: 100;
         flex-direction: column;
@@ -229,8 +229,26 @@ article {
           }
         }
 
+        .place,
+        .features,
+        .additional-header {
+          margin-bottom: 6pt;
+        }
+
+        .features .additional-header,
+        .place .additional-header {
+          display: inline;
+
+          &:after {
+            content: ' ';
+            /* display: inline-block; */
+          }
+        }
+
         .donation,
         .source {
+          margin-top: auto;
+
           .additional-header {
             display: inline;
 
@@ -238,6 +256,11 @@ article {
               content: ' ';
             }
           }
+        }
+
+        .hanger-number,
+        .doublesided {
+          display: none;
         }
 
         .additional-content {
@@ -257,24 +280,20 @@ article {
           }
           */
 
-          .donation,
-          .source {
-            margin-top: auto;
-          }
+          .related-list {
+            margin-top: 0;
+            
+            .related-list-item {
+              a {
+                font-style: italic;
 
-          .doublesided {
-            display: none;
-          }
-
-          .related-list .related-list-item {
-            a {
-              font-style: italic;
-
-              &::after {
-                content: ' S. ' target-counter(attr(href), page);
+                &::after {
+                  word-break: keep-all;
+                  text-wrap: nowrap;
+                  content: ' S. ' target-counter(attr(href), page);
+                }
               }
             }
-
           } 
 
           .tag-content {
@@ -317,11 +336,11 @@ article {
         }
 
         .heading-info {
-          margin-bottom: .3cm;
+          margin-bottom: .2cm;
         }
 
         ul, p {
-          margin-block-start: 6pt;
+          /* margin-block-start: 6pt; */
           margin-block-end: 6pt;
         }
 

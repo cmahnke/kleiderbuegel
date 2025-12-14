@@ -22,6 +22,9 @@ resources:
     iiif: back/info.json
     content: "Herren- und Knabenbekleidung"
 address: Königsplatz 38–40, Kassel
+related:
+  - 245
+  - 251
 geojson:
   coordinates:
   - 9.498939

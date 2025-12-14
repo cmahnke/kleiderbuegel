@@ -16,7 +16,7 @@
 
   {{- with .Params.doublesided -}}
     {{- if . -}}
-      {{- $additional = printf "%s%s%s%s" $additional `<div class="doublesided"><div class="additional-header">` (i18n "doublesided") `</div></div>` -}}
+      {{- $additional = printf `%s%s%s%s` $additional `<div class="doublesided"><div class="additional-header">` (i18n "doublesided") `</div></div>` -}}
     {{- end -}}
   {{- end -}}
 
@@ -24,23 +24,23 @@
     {{- $remarks := . -}}
     {{- $remarks = replace $remarks "Aktuelle Webseite" (i18n "currentWebsite") -}}
     {{- $remarks = replace $remarks "Heutige Webseite" (i18n "currentWebsite") -}}
-    {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="remarks notes"><div class="additional-header">` (i18n "remarks") `:</div>` ($remarks | markdownify) `</div>` -}}
+    {{- $additional = printf `%s%s%s%s%s%s` $additional `<div class="remarks notes"><div class="additional-header">` (i18n "remarks") `:</div>` ($remarks | markdownify) `</div>` -}}
   {{- end -}}
 
   {{- with .Params.related -}}
-    {{- $additional = printf "%s%s%s%s" $additional `<div class="related"><div class="additional-header">` (i18n "related") `:</div>` -}}
+    {{- $additional = printf `%s%s%s:</div>` $additional `<div class="related"><div class="additional-header">` (i18n "related") -}}
     {{- if reflect.IsSlice . -}}
-      {{- $additional = printf "%s%s" $additional (partial "content/related.html" $page) -}}
+      {{- $additional = printf `%s%s` $additional (partial "content/related.html" $page) -}}
     {{- else -}}
-      {{- $additional = printf "%s%s" $additional ( . | markdownify)  -}}
+      {{- $additional = printf `%s%s` $additional ( . | markdownify)  -}}
     {{- end -}}
-    {{- $additional = printf "%s%s" $additional  `</div>` -}}
+    {{- $additional = printf `%s</div>` $additional -}}
   {{- end -}}
   {{- with .Params.source -}}
-    {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="source"><div class="additional-header">` (i18n "source" ) `:</div>` ( . | markdownify) `</div>` -}}
+    {{- $additional = printf `%s%s%s%s%s%s` $additional `<div class="source"><div class="additional-header">` (i18n "source" ) `:</div>` ( . | markdownify) `</div>` -}}
   {{- end -}}
   {{- with .Params.donation -}}
-    {{- $additional = printf "%s%s%s%s%s%s" $additional `<div class="donation"><div class="additional-header">` (i18n "donation" ) `:</div>` ( . | markdownify) `</div>` -}}
+    {{- $additional = printf `%s%s%s%s%s%s` $additional `<div class="donation"><div class="additional-header">` (i18n "donation" ) `:</div>` ( . | markdownify) `</div>` -}}
   {{- end -}}
 
   {{- range $tag := .Params.tags -}}

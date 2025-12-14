@@ -11,7 +11,7 @@ Diese Publikation wurde mit [Hugo](https://gohugo.io/) erstellt, [Vivliostyle](h
 
 Als Schriftarten kommen [Bodoni Moda](https://indestructibletype.com/Bodoni) von indestructible type und [Space Grotesk](https://floriankarsten.github.io/space-grotesk/) von Florian Karsten zum Einsatz.
 
-Die Karte wird mit [Leaflet](https://leafletjs.com/) ertellt, das Urheberrecht für die Kartendaten liegt bei den [OpenStreetMap-Beitragenden](https://www.openstreetmap.org/copyright "OpenStreetMap-Beitragende").
+Die Karte wird mit [Leaflet](https://leafletjs.com/) (in Verbindung mit [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster) und [Leaflet.VectorTileLayer](https://gitlab.com/jkuebart/Leaflet.VectorTileLayer) von Joachim Kuebart) erstellt. Das Urheberrecht für die Kartendaten liegt bei den [OpenStreetMap-Beitragenden](https://www.openstreetmap.org/copyright "OpenStreetMap-Beitragende").
 
 Die gesamte Publikation wurde datengetrieben generiert, das wird auch durch das Titelblatt symbolisiert: Die Nummern sind Identifikatoren von Kleiderbügel in unterschiedlichen Systematiken:
 * **Q815240**: Wikidata

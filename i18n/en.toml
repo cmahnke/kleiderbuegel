@@ -103,6 +103,14 @@ other = "Type of hanger"
 [feature]
 other = "Special feature"
 
+[features]
+one = "Feature"
+other = "Features"
+
+[otherSpecial]
+one = "Other special feature"
+other = "Other special features"
+
 [brand]
 other = "Manufacturer"
 

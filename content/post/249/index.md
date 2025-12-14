@@ -25,11 +25,11 @@ geojson:
   - 8.583824
   - 53.555059
   precision: exact
-seeAlso: |
-  * [Ketelsen Bremerhaven-Bürger 42 (#97)](/post/97)
-  * [Bremerhaven Ketelsen Cuxhaven (#102)](/post/102)
-  * [Bremerhaven Ketelsen Hafenstr. 76-80 (#114)](/post/114)
-  * [Ketelsen (#122)](/post/122)
-  * [Emil Velde, Höhr - Grenzhausen (#227)](/post/227)
+# seeAlso: |
+#   * [Ketelsen Bremerhaven-Bürger 42 (#97)](/post/97)
+#   * [Bremerhaven Ketelsen Cuxhaven (#102)](/post/102)
+#   * [Bremerhaven Ketelsen Hafenstr. 76-80 (#114)](/post/114)
+#   * [Ketelsen (#122)](/post/122)
+#   * [Emil Velde, Höhr - Grenzhausen (#227)](/post/227)
 ---
 Armin Ketelsen / Wesermünde - Cuxhaven

@@ -20,7 +20,7 @@ geojson:
   - 53.584014
   precision: exact
 remarks: |
-  * [Werbung auf einer Sstraßenbahn bei traminfo.de](https://www.tram-info.de/wagenp/bild.htm?bremerhaven&80)
+  * [Werbung auf einer Straßenbahn bei traminfo.de](https://www.tram-info.de/wagenp/bild.htm?bremerhaven&80)
 ---
 Möbel
 von Döhlen

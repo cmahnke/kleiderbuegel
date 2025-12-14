@@ -20,5 +20,7 @@ geojson:
   - 10.525400
   - 52.262404
   precision: exact
+related:
+  - 156
 ---
 flebbe

@@ -21,8 +21,8 @@ geojson:
   - 51.315785
   precision: exact
 donation: Karsten Heck
-seeAlso: |
-  * [Overmeyer (#45)](/post/45)
-  * [Overmeyer (#45)](/post/245)
+related:
+  - 45
+  - 245
 ---
 Overmeyer  KASSEL, am Königsplatz  Herren-u.Juniorenkleidung

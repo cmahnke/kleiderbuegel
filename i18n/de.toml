@@ -103,6 +103,14 @@ other = "Art des Bügel"
 [feature]
 other = "Besonderheit"
 
+[features]
+one = "Funktion"
+other = "Funktionen"
+
+[otherSpecial]
+one = "Andere Besonderheit"
+other = "Andere Besonderheiten"
+
 [brand]
 other = "Hersteller"
 

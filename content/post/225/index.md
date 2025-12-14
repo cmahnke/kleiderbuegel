@@ -13,6 +13,7 @@ tags:
 - Union
 - "Material: Holz"
 - "Material: Metall"
+- Klappbar
 related:
   - 209
 ---

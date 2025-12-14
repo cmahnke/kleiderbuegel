@@ -11,7 +11,7 @@
           {{- $title = .Description -}}
         {{- end -}}
         {{- $link := printf "#_%s" (replace .RelPermalink "/" "-") -}}
-        {{- $related = printf `%s<li class="related-list-item"><a href="%s" title="%s">%s (#%s)</a></li>` $related  $link ($title | htmlEscape) $title $nr -}}
+        {{- $related = printf `%s<li class="related-list-item"><a href="%s" title="%s">%s<span class="hanger-number"> (#%s)</span></a></li>` $related  $link ($title | htmlEscape) $title $nr -}}
       {{- else -}}
         {{- warnf "[content/related.html] Unable to get related %s for %s, ignoring, maybe post is in the future" $relatedPath $page.RelPermalink -}}
       {{- end -}}
