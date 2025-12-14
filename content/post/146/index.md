@@ -15,6 +15,6 @@ remarks: |
   Leider nicht vollständig lesbar, aber wohl aus Frankreich
 ---
 CINTRES
-[B]EHLEB
-MODE[?]POSE
+<i>[B]</i>EHLEB
+MODE<i>[?]</i>POSE
 TENDEUR

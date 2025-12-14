@@ -18,5 +18,5 @@ remarks: |
 
 Puma
 
-<i>>In den unteren Rand geprägt:</i>
+<i>In den unteren Rand geprägt:</i>
 F44 DBGM 1987 875 EP Kunststoffwerk 3551 Niederasphe Hamburg 44

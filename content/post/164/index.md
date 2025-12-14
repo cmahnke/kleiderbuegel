@@ -13,6 +13,7 @@ tags:
 - "Material: Holz"
 doublesided: true
 draft: true
+source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 remarks: |
   Über den Gau XVII Niedersachsen-Mitte
   * [Reichsarbeitsdienst](https://de.wikipedia.org/wiki/Reichsarbeitsdienst)
