@@ -1,24 +1,36 @@
 ---
-title: Vorwort
+title: Einführung
 layout: print
-weight: 2
+weight: 3
 params:
   print: true
   show_title: true
 ---
 
-Ich sammle alte Alltagsgegenstände. Dabei sind meine Sammlungen oft Ausdruck bestimmter Lebensphasen. So stehen Kleiderbügel beispielsweise für den Drang, die eigene Wohnung individueller zu gestalten und auf den „Krempel” eines großen schwedischen Möbelhauses zu verzichten...
+Die Wikipedia definiert [Kleiderbügel](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel "Wikipedia-Artikel über Kleiderbügel") als "Haushaltsgeräte, die zum Aufhängen von Kleidungsstücken in Schränken oder in Garderoben dienen".
 
-Doch wie so oft beim Sammeln: Je mehr Varianten man anhäuft, desto mehr Unterschiede im auf den ersten Blick Gleichen erkennt man. So wurde aus einer impliziten Sammlung für die Nutzung eine explizite Sammlung.
+Sie existieren in vielen verschiedenen Varianten, beispielsweise mit oder ohne Steg, speziell für Röcke, Hosen, Anzüge, Accessoires oder Kinderkleidung. Aus verschidenen Materialien wie Holz, Plastik oder Metall. Sie sind aus verschiedenen Materialien wie Holz, Plastik oder Metall gefertigt. Sie können über zusätzliche Funktionen wie Klammern, Klemmen für Hosen, Kleiderbürsten, Größenverstellung oder Klappbarkeit verfügen, beispielsweise für Reisen. 
 
-Für diese Sammelleidenschaft prägte Eberhard Rhode den Begriff "Pertiologie" – die Bügelkunde. Seinem Ansatz zufolge untersucht die Proffesion Kleiderbügel nicht nur als Gebrauchsgegenstände, sondern als Zeugnisse der industriellen Entwicklung, der Mode- und der Werbegeschichte. Auch für mich ist dieser Ansatz das, was den Reiz des Sammelns von Bügeln ausmacht. Zuerst war es einfach nur das Alter - Kleiderbügel können erstaunlich langlebig sein - aber das war nur der Kristallisationskeim...
+## Eine kurze Geschichte
 
-Heutzutage fristen Kleiderbügel zwar ein Leben im Schrank, doch mit etwas Recherche lassen sich auch größere Zusammenhänge aufzeigen. Sie sind dabei nicht nur Teil der lokalen Wirtschaftsgeschichte. Als Werbeträger büßen sie ihren Funktionswert nicht so schnell ein wie ein eingetrockneter Kugelschreiber oder ein leeres Feuerzeug. Somit bieten sie zum Beispiel einen Einblick in eine Zeit, als der Bekleidungsmarkt und die dazugehörigen Dienstleistungen noch nicht so sehr von größeren Unternehmen dominiert wurden. Sie können auch an begangenes Unrecht erinnern und dessen Kontinuität aufzeigen. Im Folgenden werde ich jeweils mit Beispielen näher darauf eingehen.
+Die Nutzung von Kleiderbügeln begann um 1850. Sie wurden ursprünglich aus Draht gefertigt. 1903 erfand Albert J. Parkhouse in den USA den modernen Kleiderbügel aus Draht.
+
+In Deutschland wurde 1878 in Berlin die Firma L. Sakowski gegründet, der erste deutsche Hersteller von Kleiderbügeln aus Holz.
+
+Kurz vor Ende des 19. Jahrhunderts gründeten [Sinram und Wendt](https://de.wikipedia.org/wiki/Sinram_%26_Wendt_(Unternehmen) "Wikipedia: Sinram & Wendt") in Hannover eine Kleiderbügelfabrik, die später nach Hameln verlegt wurde. Die Produkte werden später unter dem Markennamen "UNION" bekannt. Sie wurden aber nicht nur unter dem eigenen Namen vertrieben, sondern auch für andere Unternehmen beschriftet. Sie waren so verbreitet, dass auch in diesem Band einige zu finden sind (siehe Register der Hersteller). Während ursprünglich nur Holzbügel hergestellt wurden, begann die Firma in der Nachkriegszeit auch Plastikbügel herzustellen.
+
+So wurde Hameln zu einem Zentrum der deutschen Kleiderbügelindustrie: 1924 eröffnete Adolf Pieper dort eine weitere Fabrik. Ein weiteres Zentrum ist Berlin. Dort sind 1929 dreizehn Hersteller [nachweisbar](https://digital.zlb.de/viewer/image/34115495_1929/4587/ "Berliner Adreßbuch, 1929, Teil II, Branchenverzeichnis, S. 396"). Nach dem Zweiten Weltkrieg wurde die MAWA Metallwarenfabrik in Pfaffenhofen gegründet. Das Unternehmen entwickelte sich zum Spezialisten für Metallkleiderbügel.
 
 {{< print-pb >}}
-Dieser Katalog entstand in Vorbereitung auf die Ausstellung **"Sammlungen erzählen"**, die Anfang 2026 im **Forum Wissen** in Göttingen stattfindet. Eine Motivation war, dass sich weder die gesamte Sammlung noch alle Erkenntnisse aus Platzgründen darstellen lassen. Dabei ist er umfangreicher als eine bloße Druckfassung des zugrundeliegenden [Blogs](https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/), dass zur Vorbereitung der Ausstellung ebenfalls überarbeitet wurde. 
+## Beschriftungen und Markierungen
 
-Der Band zeigt {{< post-count section="post" type="hanger" >}} alte Kleiderbügel, sie sind über Register erschlossen und teilweise mit weiterführenden Informationen versehen. Sie werden ansonsten nicht kommentiert, auch nicht diejenigen, die vielleicht einer Einordnung oder gar Distanzierung bedürften. Der Textteil bietet weitergehende allgemeine Informationen und erläutert meine Sammlungspraxis eingehender. 
+Neben ihrem offensichtlichen Nutzwert haben Kleiderbügel durch Beschriftungen und Markierungen schon sehr früh weitere Funktionen erhalten. Die wichtigste davon ist sicherlich die als Werbeträger. Meist wurde dazu einfach der Name des Unternehmens, ggf. ergänzt um einen Slogan, den Ort und die Art des Angebots oder der Dienstleistung auf den Bügel aufgebracht. 
 
-**Viel Spaß beim Blättern!**
-{.center}
+Ab den 60er Jahren wurden Bügel dann auch umfassender gestaltet. Gerade Plastikbügel eignen sich für modernere Druckverfahren wie den Siebdruck, der auch eine farbige Bedruckung zulässt.
+
+Eine weitere Funktion von Beschriftungen war die eines Besitznachweises, insbesondere, wenn ein Bügel nicht zum Mitnehmen gedacht war. Ein Beispiel hierfür sind Hotels. aber gerade die Verbindung von Verbot und Erinnerungswert hat in manchen Fällen die Verbringung in den eigenen Kleiderschrank eher befördert.
+
+Durch die Zuordnung typografischer Eigenschaften lassen sich Bügel grob datieren. Werbung muss nämlich immer auch den jeweiligen ästhetischen Geschmack der Zeit, also die jeweilige Modernität, berücksichtigen.
+
+## Scherzartikel
+Schließlich muss auch noch ein weiterer möglicher Verwendungszweck erwähnt werden: Vermutlich ist es der Nutzwert und die vergleichsweise niedrigen Herstellungskosten des Kleiderbügels zu verdanken, dass er im Bereich der Gelegenheitsgeschenke als Scherzartikel zum Einsatz kommt.
