@@ -12,9 +12,11 @@ resources:
 tags:
   - "Material: Holz"
 remarks: |
-  Leider nicht vollständig lesbar, aber wohl aus Frankreich
+  * Leider nicht vollständig lesbar, aber wohl aus Frankreich
+  * "Modèle déposé" bedeutet gesetzlich geschützt, vergleichbar mi einem Gebrauchsmuster in Deutschland
 ---
 CINTRES
 <i>[B]</i>EHLEB
-MODE<i>[?]</i>POSE
+MODÈLE DÉPOSÉ
+MODE DEPOSE
 TENDEUR

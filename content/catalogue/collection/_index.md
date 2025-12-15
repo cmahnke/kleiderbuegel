@@ -16,3 +16,5 @@ Im Jahr 2024 wurde der Webseite die Anzeige von Geoinformationen hinzugefügt. D
 Die Erweiterung der Sammlungsinformationen erfolgt seitdem kampagnenartig: Einmal im Jahr werden die Neuzugänge fotografiert, zusätzliche Informationen recherchiert und dann mit wöchentlichen Veröffentlichungsdaten versehen, sodass sich die Arbeit auf ein paar Wochen im Jahr konzentrieren lässt. 
 
 Inzwischen sind {{< post-count section="post" type="hanger" >}} Bügel erfasst, sie werden im folgenden Abschnitt präsentiert.
+
+Im Gegensatz zu vielen anderen Sammlungen werden die Sammlungsobjekte weiterhin benutzt. Das hat den Vorteil, dass man sich keine Gedanken über die Lagerung machen muss, solange genug Platz im Kleiderschrank vorhanden ist.
