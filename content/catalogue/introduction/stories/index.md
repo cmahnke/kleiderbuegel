@@ -25,7 +25,7 @@ Zudem sind Pelze und somit Kürschnerreien nach den Tierschutz-Protesten der 198
 Aufgrund jahrhundertelanger Beschränkungen beim Landbesitz und im Handwerk (Ausschluss von Zünften) konzentrierten sich Juden auf den Handel, insbesondere auf den Fern- und Textilhandel. Später führte dies zu einer starken Präsenz jüdischer Unternehmer in der Bekleidungsbranche. Sie spielten eine Schlüsselrolle bei der Etablierung der Konfektionsindustrie im 19. Jahrhundert. Dadurch wurde Kleidung erstmals standardisiert und für breite Bevölkerungsschichten erschwinglich. Aus dem Textilhandel gingen später viele große Warenhäuser wie Tietz oder Wertheim hervor.
 
 Unmittelbar nach der Machtergreifung im Jahr 1933 leiteten die Nationalsozialisten die sogenannte "Arisierung" ein. Damit war die gewaltsame Enteignung und Übertragung jüdischen Eigentums an nicht-jüdische Deutsche gemeint. Dieser systematische Raub und der daraus resultierende Ausschluss aus dem Wirtschaftsleben intensivierten sich im Laufe des Jahrzehnts, insbesondere nach den Nürnberger Gesetzen von 1935.
-Dies betraf selbstverständlich auch die Bekleidungsbranche, was sich an Kleiderbügeln nachvollziehen lässt:
+Dies betraf selbstverständlich auch die Bekleidungsbranche, was sich beispielsweise an diesen Kleiderbügeln nachvollziehen lässt:
 
 * {{< print-ref slug="53" title=true >}}: Der Inhaber Erich Cahn [wurde am 3. Juni 1942 in Sobibor ermordet](https://www.gedenkbuch.halle.de/gbdatensatz.php?num=18 "Eintrag im Gedenkbuch für die Toten des Holocaust in Halle")
 * {{< print-ref slug="71" title=true >}}: Der Gründer Eduard Herrmann wurde gezwungen sein Bekleidungsgeschäft an den Bonner Kaufmann Esders zu "verkaufen". Der Familie gelang die Flucht.

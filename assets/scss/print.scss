@@ -844,11 +844,14 @@ section {
     ul {
       font-size: 10pt;
       columns: 2;
-      gap: 5%;
+      gap: 4cm !important;
       padding-inline-start: 0;
       margin-block-start: 1em;
       margin-block-end: 0;
       list-style-type: none;
+      width: max-content;
+      white-space: nowrap;
+      margin: auto;
 
       li:first-of-type p {
         margin-top: unset;
