@@ -6,7 +6,7 @@
 {{- $sectionPage := (index $printSection 0).Parent -}}
 {{- $printSection = where $printSection ".Params.print" "eq" true -}}
 
-{{- $indexTypes := slice "place" "store" "retail_chain" "type" "feature" "purpose" "brand" "material" -}}
+{{- $indexTypes := slice "place" "store" "retail_chain" "type" "feature" "purpose" "brand" "material" "other" -}}
 
 {{- $tocEntries := (partial "print/print-toc.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "lt" "weight" 100 )) -}}
 

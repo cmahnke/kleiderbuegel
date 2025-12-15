@@ -1,6 +1,6 @@
 ---
 title: Repaired
 params:
-  type: feature
+  type: other
   tag: Repariert
 ---
