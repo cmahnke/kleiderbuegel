@@ -1,10 +1,11 @@
 ---
 title: Kolophon
 layout: print
-weight: 1001
+weight: 1002
 params:
   print: true
   show_title: true
+  following_blank: true
 ---
 
 Diese Publikation wurde mit [Hugo](https://gohugo.io/) erstellt, [Vivliostyle](https://vivliostyle.org/) wird für die PDF Konvertierung verwendet.

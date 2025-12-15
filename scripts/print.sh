@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 DOCKER_IMAGE="yeslogic/prince:latest"
 
+set -e
+
 hugo -F -D --renderSegments print
 if [ -z "$1" ] ; then
     npx vivliostyle build --language de docs/print.html -o print.pdf

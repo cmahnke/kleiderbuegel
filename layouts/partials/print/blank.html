@@ -1,0 +1,15 @@
+{{- $class := "" -}}
+{{- $context := . -}}
+{{- if reflect.IsMap . -}}
+  {{- $context = .context -}}
+  {{- if isset . "class" -}}
+    {{- $class = .class -}}
+  {{- else -}}
+    {{- errorf "[print/blank.html] Missing class!" -}}
+  {{- end -}}
+{{- end -}}
+<article class="{{ $class }}-blank blank" >
+  <div class="page blank">
+
+  </div>
+</article>

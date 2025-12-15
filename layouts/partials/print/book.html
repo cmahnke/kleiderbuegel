@@ -128,6 +128,9 @@
 {{- end -}}
 {{- site.Store.Set "toc" $tocEntries -}}
 
+{{- if eq (mod $pageNr 2) 0 -}}
+  {{- partial "print/blank.html" (dict "context" . "class" "entries") -}}
+{{- end -}}
 {{/* Indexes */}}
 {{- $id := "_indexes" -}}
 {{- $title := i18n "indexes"  -}}
