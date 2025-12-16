@@ -1,8 +1,6 @@
-{{- $context := . -}}
 {{- $entries := slice -}}
 {{- $maxLevels := 3 -}}
 {{- if reflect.IsMap . -}}
-  {{- $context = .context -}}
   {{- $entries = .entries -}}
   {{- with .maxLevels -}}
     {{- $maxLevels = . -}}
@@ -27,6 +25,9 @@
       {{- if reflect.IsSlice . -}}
         {{- partial "print/toc-level.html" (dict "entries" . "level" (add $level 1) "maxLevels" $maxLevels) -}}
       {{- else if reflect.IsMap . -}}
+        {{- if and (not (isset . "href")) (not (isset . "title")) -}}
+          {{- errorf "[print/toc.html] TOC entry malformed (missing title or href): %v" (jsonify .) -}}
+        {{- end -}}
         <li {{ with .type}} class="{{ . }}"{{ end }}><a href="{{ .href }}">{{ .title }}</a>
       {{- else -}}
         {{- errorf "[print/toc.html] Unexpected TOC data type %#v" . -}}

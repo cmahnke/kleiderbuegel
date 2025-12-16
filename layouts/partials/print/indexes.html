@@ -1,0 +1,44 @@
+{{- $indexTypes := slice "place" "store" "retail_chain" "type" "feature" "purpose" "brand" "material" "other" -}}
+{{- $context := . -}}
+{{- $tocOnly := false -}}
+{{- if reflect.IsMap . -}}
+  {{- $context = .context -}}
+  {{- if isset . "types" -}}
+    {{- $indexTypes = .types -}}
+  {{- end -}}
+  {{- if isset . "toconly" -}}
+    {{- $tocOnly = .toconly -}}
+  {{- end -}}
+{{- else -}}
+  {{- errorf "[print/indexes.html] Needs params as dict, not just context in %s" .RelPermalink -}}
+  {{ with templates.Current }}
+    {{ range .Ancestors }}
+      {{- warnf "[print/indexes.html] Called from: %s" .Filename -}}
+    {{ end }}
+  {{ end }}
+{{- end -}}
+
+{{/* Indexes */}}
+{{- $id := "_indexes" -}}
+{{- $title := i18n "indexes" -}}
+{{- $tocEntries := slice (dict "title" $title "href" (printf "#%s" $id)) -}}
+{{- $sectionToc := slice -}}
+{{- $content := printf `<section id="%s" class="indexes" data-section-title="%s">` $id $title -}}
+  {{- $content = printf `%s<h1 class="indexes"></h1>` $content -}}
+  {{- range $indexTypes -}}
+      {{- $content = printf `%s<article class="index-container">` $content -}}
+      {{- $id := printf "_index-%s" . -}}
+      {{- $title := i18n (printf "%sIndex" .) -}}
+      {{- $sectionToc = $sectionToc | append (dict "title" $title "href" (printf "#%s" $id)) -}}
+      {{- if eq $tocOnly false -}}
+        {{- $content = printf `%s<h2 id="%s" class="index-heading">%s</h2>` $content $id $title -}}
+        {{- $content = printf "%s%s" $content (partial "print/index.html" .) -}}
+        {{- $content = printf `%s</article>` $content -}}
+      {{- end -}}
+  {{- end -}}
+{{- $content = printf `%s</section>` $content -}}
+{{- $tocEntries = $tocEntries | append (slice $sectionToc) -}}
+{{- if eq $tocOnly true -}}
+  {{- $content = false -}}
+{{- end -}}
+{{- return (dict "content" $content "toc" $tocEntries) -}}

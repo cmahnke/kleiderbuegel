@@ -15,6 +15,8 @@ cascade:
       kind: '{page,section}'
       lang: de
       path: '**'
+    outputs:
+      - print
     params:
       archive: false
       news: false

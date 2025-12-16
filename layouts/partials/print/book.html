@@ -1,158 +1,50 @@
-{{- $debug := partialCached "functions/debug/enabled.html" . -}}
-
 {{- $section := "catalogue" -}}
+{{- $indexTypes := slice "place" "store" "retail_chain" "type" "feature" "purpose" "brand" "material" "other" -}}
 
 {{- $printSection := where .Site.Pages "Section" "eq" $section -}}
 {{- $sectionPage := (index $printSection 0).Parent -}}
 {{- $printSection = where $printSection ".Params.print" "eq" true -}}
 
-{{- $indexTypes := slice "place" "store" "retail_chain" "type" "feature" "purpose" "brand" "material" "other" -}}
-
-{{- $tocEntries := (partial "print/print-toc.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "lt" "weight" 100 )) -}}
-
-<section class="front-matter">
-  {{- partial "print/print-pages.html" (dict "context" . "pages" $printSection "op" "lt" "weight" 100 ) -}}
-</section>
-
-{{- $hangers := .Site.Pages -}}
-{{- range .Site.Home.Translations -}}
-  {{- $hangers = $hangers | lang.Merge .Site.RegularPages -}}
-{{- end -}}
-
-{{- $id := "_entries" -}}
-{{- $title := i18n "entries"  -}}
-{{- $tocEntries = $tocEntries | append (dict "title" $title "href" (printf "#%s" $id)) -}}
-<section id="{{ $id }}" class="entries" data-section-title="{{ i18n "entries" }}">
-  {{- $allPosts := (where $hangers "Params.type" "eq" "hanger").ByDate -}}
-  {{- $finalPosts := slice -}}
-  {{- $processedPosts := slice -}}
-  {{- $pageCount := 1 -}}
-
-   {{- range $i, $p := $allPosts -}}
-    {{- if not (in $processedPosts $p) -}}
-      {{- if (in $p.Params.tags "Beidseitig") -}}
-        {{- if eq (mod $pageCount 2) 0 -}}
-          {{- $foundRegular := false -}}
-          {{- if $debug -}}
-            {{- warnf "[print/book.html] Moving double sided post %s" $p.RelPermalink -}}
-          {{- end -}}
-          {{- range after $i $allPosts -}}
-            {{- if and (not (in .Params.tags "Beidseitig")) (not (in $processedPosts .)) (not $foundRegular) -}}
-              {{- $finalPosts = $finalPosts | append . -}}
-              {{- $processedPosts = $processedPosts | append . -}}
-              {{- $pageCount = add $pageCount 1 -}}
-              {{- $foundRegular = true -}}
-            {{- end -}}
-          {{- end -}}
-        {{- end -}}
-      {{- end -}}
-      {{- if not (in $processedPosts $p) }}
-        {{- $finalPosts = $finalPosts | append $p -}}
-        {{- if (in $p.Params.tags "Beidseitig") -}}
-          {{- $pageCount = add $pageCount 2 -}}
-        {{- else -}}
-          {{- $pageCount = add $pageCount 1 -}}
-        {{- end -}}
-      {{- end -}}
-      {{- $processedPosts = $processedPosts | append $p | uniq -}}
-    {{- end -}}
-  {{- end -}}
-  {{/*
-    odd (1): right spread
-    even (2): left spread
-    */}}
-  {{- $pageNr := 1 -}}
-  {{- $sectionToc := slice -}}
-  {{- range $i, $p := $finalPosts -}}
-    {{- $page := . -}}
-    {{- if eq (printf "%T" .) "page.Pages" -}}
-      {{- $page = index . 0 -}}
-    {{- end -}}
-    {{- if eq $page nil -}}
-      {{- continue -}}
-    {{- end -}}
-    {{- if (in $page.Params.tags "Beidseitig") -}}
-      {{- if and (eq (mod $pageNr 2) 0) (eq . true) -}}
-        {{- if $debug -}}
-          {{- warnf "[print/book.html] Alignment will be wrong for double sided post on page %d! %s" $pageNr $page.RelPermalink -}}
-        {{- end -}}
-      {{- end -}}
-    {{- end -}}
-    {{- if $debug -}}
-      {{- warnf "[print/book.html] Post %s will be on page %d!" $page.RelPermalink $pageNr -}}
-    {{- end -}}
-    {{- $class := "" -}}
-    {{- if not (modBool $pageNr 2) -}}
-      {{- $class = "recto" -}}
-    {{- else -}}
-      {{- $class = "verso" -}}
-    {{- end -}}
-    {{- if (in $page.Params.tags "Beidseitig") -}}
-      {{- if ne (.Resources.GetMatch "back*") nil -}}
-        {{- $class = printf "%s %s" $class "two-sided" -}}
-      {{- else -}}
-        {{- errorf "[print/book.html] This should never happen %s" .RelPermalink -}}
-      {{- end -}}
-    {{- end -}}
-    <div class="{{ $class }}" data-page-nr="{{ $i }}">
-      {{- partial "print/entry.html" $page -}}
-    </div>
-    {{- $link := printf "#_%s" (replace $page.RelPermalink "/" "-") -}}
-    {{- $tocTitle := $page.Title -}}
-    {{- if eq $tocTitle "" -}}
-      {{- $tocTitle = $page.Description -}}
-    {{- end -}}
-    {{- $sectionToc = $sectionToc | append (dict "title" $tocTitle "href" $link "type" $page.Params.type) -}}
-    {{- if (in $page.Params.tags "Beidseitig") -}}
-      {{- $pageNr = add $pageNr 2 -}}
-    {{- else -}}
-      {{- $pageNr = add $pageNr 1 -}}
-    {{- end -}}
-  {{- end -}}
-  {{- $tocEntries = $tocEntries | append $sectionToc -}}
-</section>
-
-{{/* TOC Indexes*/}}
-{{- $id := "_indexes" -}}
-{{- $title := i18n "indexes"  -}}
-{{- $tocEntries = $tocEntries | append (dict "title" $title "href" (printf "#%s" $id)) -}}
-{{- $sectionToc := slice -}}
-{{- range $indexTypes -}}
-  {{- $id := printf "_index-%s" . -}}
-  {{- $title := i18n (printf "%sIndex" .) -}}
-  {{- $sectionToc = $sectionToc | append (dict "title" $title "href" (printf "#%s" $id)) -}}
-{{- end -}}
-{{- $tocEntries = $tocEntries | append $sectionToc -}}
-{{- range (partial "print/print-toc.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "gt" "weight" 100 )) -}}
+{{/* First pass, generate TOC*/}}
+{{- site.Store.Set "toc" slice -}}
+{{- $frontMatter := partial "print/print-pages.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "lt" "weight" 100 "sectionclass" "front-matter" "toconly" true) -}}
+{{- $tocEntries := $frontMatter.toc -}}
+{{- $entries := partial "print/entries.html" (dict "context" .) -}}
+{{- $tocEntries = $tocEntries | append $entries.toc -}}
+{{- $indexes := partial "print/indexes.html" (dict "context" .) -}}
+{{- $tocEntries = $tocEntries | append $indexes.toc -}}
+{{- $backmatter := partial "print/print-pages.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "gt" "weight" 100 "sectionclass" "back-matter" "sectiontitle" (i18n "back-matter") "toconly" true) -}}
+{{- range $backmatter.toc -}}
   {{- $tocEntries = $tocEntries | append . -}}
 {{- end -}}
+
 {{- site.Store.Set "toc" $tocEntries -}}
 
-{{- if eq (mod $pageNr 2) 0 -}}
-  {{- partial "print/blank.html" (dict "context" . "class" "entries") -}}
-{{- end -}}
-{{/* Indexes */}}
-{{- $id := "_indexes" -}}
-{{- $title := i18n "indexes"  -}}
-<section id="{{ $id }}" class="indexes" data-section-title="{{ $title }}">
-  <h1 class="indexes"></h1>
-  {{- range $indexTypes -}}
-    <article class="index-container">
-      {{- $id := printf "_index-%s" . -}}
-      {{- $title := i18n (printf "%sIndex" .) -}}
-      <h2 id="{{ $id }}" class="index-heading">{{ $title }}</h2>
-      {{- partial "print/index.html" . -}}
-    </article>
+{{/* Second pass, (re-)generate content */}}
+{{- $frontMatter := partial "print/print-pages.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "lt" "weight" 100 "sectionclass" "front-matter") -}}
+{{- $frontMatter.content | safeHTML -}}
+
+{{- $entries.content | safeHTML -}}
+{{- $indexes.content | safeHTML -}}
+
+{{- $backmatter := partial "print/print-pages.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "gt" "weight" 100 "sectionclass" "back-matter" "sectiontitle" (i18n "back-matter")) -}}
+{{- $backmatter.content | safeHTML -}}
+
+{{- partial "print/vivliostyle-toc.html" (dict "context" . "entries" $tocEntries) -}}
+
+
+{{ define "_partials/print/vivliostyle-toc.html" }}
+  {{- $context := . -}}
+  {{- $entries := slice -}}
+  {{- if reflect.IsMap . -}}
+    {{- $context = .context -}}
+    {{- $entries = .entries -}}
+  {{- else -}}
+    {{- errorf "[print/toc.html] Needs params as dict, not just context" .RelPermalink -}}
   {{- end -}}
-  
-</section>
-
-<nav role="doc-toc">
-  <h2>{{ i18n "toc" }}</h2>
-  {{- $toc := partial "print/toc.html" (dict "context" . "entries" $tocEntries ) -}}
-  {{- $toc | safeHTML -}}
-</nav>
-
-<section class="back-matter" data-section-title="{{ i18n "back-matter" }}">
-  {{- partial "print/print-pages.html" (dict "context" . "pages" $printSection "op" "gt" "weight" 100 ) -}}
-</section>
+  <nav role="doc-toc">
+    <h2>{{ i18n "toc" }}</h2>
+    {{- $toc := partial "print/toc.html" (dict "entries" $entries ) -}}
+    {{- $toc | safeHTML -}}
+  </nav>
+{{- end -}}

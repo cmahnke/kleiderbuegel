@@ -1,4 +1,6 @@
 {{- $page := . -}}
+
+{{- partial "check.html" $page -}}
 {{- $doubleSided := false -}}
 {{- if (in $page.Params.tags "Beidseitig") -}}
   {{- $doubleSided = true -}}

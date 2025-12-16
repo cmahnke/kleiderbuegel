@@ -1,0 +1,128 @@
+{{- $debug := partialCached "functions/debug/enabled.html" . -}}
+
+{{- $context := . -}}
+{{- $tocOnly := false -}}
+{{- if reflect.IsMap . -}}
+  {{- $context = .context -}}
+  {{- if isset . "toconly" -}}
+    {{- $tocOnly = .toconly -}}
+  {{- end -}}
+{{- else -}}
+  {{- errorf "[print/entries.html] Needs params as dict, not just context in %s" .RelPermalink -}}
+{{- end -}}
+
+{{- $tocEntries := slice -}}
+
+{{- $hangers := site.Pages -}}
+{{- range .Site.Home.Translations -}}
+  {{- $hangers = $hangers | lang.Merge .Site.RegularPages -}}
+{{- end -}}
+
+{{- $id := "_entries" -}}
+{{- $title := i18n "entries" -}}
+
+{{- $tocEntries = $tocEntries | append (dict "title" $title "href" (printf "#%s" $id)) -}}
+
+{{- $content := printf `<section id="%s" class="entries" data-section-title="%s">` $id (i18n "entries") -}}
+{{- $allPosts := (where $hangers "Params.type" "eq" "hanger").ByDate -}}
+{{- $finalPosts := slice -}}
+{{- $processedPosts := slice -}}
+{{- $pageCount := 1 -}}
+
+{{- range $i, $p := $allPosts -}}
+{{- if not (in $processedPosts $p) -}}
+    {{- if (in $p.Params.tags "Beidseitig") -}}
+    {{- if eq (mod $pageCount 2) 0 -}}
+        {{- $foundRegular := false -}}
+        {{- if $debug -}}
+        {{- warnf "[print/entries.html] Moving double sided post %s" $p.RelPermalink -}}
+        {{- end -}}
+        {{- range after $i $allPosts -}}
+        {{- if and (not (in .Params.tags "Beidseitig")) (not (in $processedPosts .)) (not $foundRegular) -}}
+            {{- $finalPosts = $finalPosts | append . -}}
+            {{- $processedPosts = $processedPosts | append . -}}
+            {{- $pageCount = add $pageCount 1 -}}
+            {{- $foundRegular = true -}}
+        {{- end -}}
+        {{- end -}}
+    {{- end -}}
+    {{- end -}}
+    {{- if not (in $processedPosts $p) }}
+        {{- $finalPosts = $finalPosts | append $p -}}
+        {{- if (in $p.Params.tags "Beidseitig") -}}
+            {{- $pageCount = add $pageCount 2 -}}
+        {{- else -}}
+            {{- $pageCount = add $pageCount 1 -}}
+        {{- end -}}
+    {{- end -}}
+    {{- $processedPosts = $processedPosts | append $p | uniq -}}
+    {{- end -}}
+{{- end -}}
+  {{/*
+    odd (1): right spread
+    even (2): left spread
+    */}}
+  {{- $pageNr := 1 -}}
+  {{- $sectionToc := slice -}}
+  {{- range $i, $p := $finalPosts -}}
+    {{- $page := . -}}
+    {{- if eq (printf "%T" .) "page.Pages" -}}
+      {{- $page = index . 0 -}}
+    {{- end -}}
+    {{- if eq $page nil -}}
+      {{- continue -}}
+    {{- end -}}
+    {{- if (in $page.Params.tags "Beidseitig") -}}
+      {{- if and (eq (mod $pageNr 2) 0) (eq . true) -}}
+        {{- if $debug -}}
+          {{- warnf "[print/entries.html] Alignment will be wrong for double sided post on page %d! %s" $pageNr $page.RelPermalink -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $debug -}}
+      {{- warnf "[print/entries.html] Post %s will be on page %d!" $page.RelPermalink $pageNr -}}
+    {{- end -}}
+    {{- $class := "" -}}
+    {{- if not (modBool $pageNr 2) -}}
+      {{- $class = "recto" -}}
+    {{- else -}}
+      {{- $class = "verso" -}}
+    {{- end -}}
+    {{- if (in $page.Params.tags "Beidseitig") -}}
+      {{- if ne (.Resources.GetMatch "back*") nil -}}
+        {{- $class = printf "%s %s" $class "two-sided" -}}
+      {{- else -}}
+        {{- errorf "[print/entries.html] This should never happen %s" .RelPermalink -}}
+      {{- end -}}
+    {{- end -}}
+    {{/*
+    <div class="{{ $class }}" data-page-nr="{{ $i }}">
+      {{- partial "print/entry.html" $page -}}
+    </div>
+    */}}
+
+    {{- $content = printf `%s<div class="%s" data-page-nr="%s">` $content $class $i -}}
+    {{- $content = printf `%s%s` $content (partial "print/entry.html" $page) -}}
+    {{- $content = printf `%s</div>` $content -}}
+
+    {{- $link := printf "#_%s" (replace $page.RelPermalink "/" "-") -}}
+    {{- $tocTitle := $page.Title -}}
+    {{- if eq $tocTitle "" -}}
+      {{- $tocTitle = $page.Description -}}
+    {{- end -}}
+    {{- $sectionToc = $sectionToc | append (dict "title" $tocTitle "href" $link "type" $page.Params.type) -}}
+    {{- if (in $page.Params.tags "Beidseitig") -}}
+      {{- $pageNr = add $pageNr 2 -}}
+    {{- else -}}
+      {{- $pageNr = add $pageNr 1 -}}
+    {{- end -}}
+  {{- end -}}
+{{- $tocEntries = $tocEntries | append (slice $sectionToc) -}}
+{{- $content = printf `%s</section>` $content -}}
+{
+
+{{- if eq (mod $pageNr 2) 0 -}}
+  {{- $content = printf `%s%s` $content (partial "print/blank.html" (dict "context" . "class" "entries")) -}}
+{{- end -}}
+
+{{return dict "content" $content "toc" $tocEntries -}}
