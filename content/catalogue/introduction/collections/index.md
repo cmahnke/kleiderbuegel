@@ -1,5 +1,5 @@
 ---
-title: Sammlungen und Museen
+title: "Sammlungen, Museen und Ausstellungen"
 layout: print
 weight: 18
 params:
@@ -16,7 +16,24 @@ Die Sammlung ist nicht die erste und einzige ihrer Art, trotzdem ist die Anzahl 
 
 ## Digital
 
-Auf Wikimedia Commons gibt es eine kleine Sammlung von [Abbildungen von Kleiderbügeln](https://commons.wikimedia.org/wiki/Category:Clothes_hangers "Wikimedia Commons: Kleiderbügel"), einige davon finden sich auch in dieser Sammlung. Das Deutsche Kunststoff-Museum hat ebenfalls [einige Kleiderbügel in seiner Sammlung](https://www.deutsches-kunststoff-museum.de/sammlung/virtuelles-museum/?search=Kleiderb%C3%BCgel "Suche nach &quot;Kleiderbügel&quot; im Deutschen Kunststoff-Museum").
+Auf Wikimedia Commons gibt es eine kleine Sammlung von [Abbildungen von Kleiderbügeln](https://commons.wikimedia.org/wiki/Category:Clothes_hangers "Wikimedia Commons: Kleiderbügel"), einige davon finden sich auch in dieser Sammlung. Das Deutsche Kunststoff-Museum hat ebenfalls [einige Kleiderbügel in seiner Sammlung](https://www.deutsches-kunststoff-museum.de/sammlung/virtuelles-museum/?search=Kleiderb%C3%BCgel "Suche nach &quot;Kleiderbügel&quot; im Deutschen Kunststoff-Museum"). Eine Suche über die Bestände mehrerer Museen erlaubt [museum-digital](https://nat.museum-digital.de/objects?s=fulltext:Kleiderb%C3%BCgel "Suche nach &quot;Kleiderbügel&quot; in museum-digital").
 
-# Museum
-In der Schweiz existiert sogar ein [Kleiderbügelmuseum](https://dunkel-service.ch/kleiderbuegel-museum/ "Kleiderbügelmuseum Basel"). Betrieber ist der  Dunkel-Service Basel, ein Fachgeschäft für Kleiderbügel, Kleiderständer usw.
+# Museen
+Kleiderbügel sind auch in Museen zu finden, hier eine Auswahl:
+* Das Historische Museum Frankfurt [hat einige Kleiderbügel](https://blog.historisches-museum-frankfurt.de/viele-schone-kleiderbugel/)
+* In der Schweiz existiert sogar ein [Kleiderbügelmuseum](https://dunkel-service.ch/kleiderbuegel-museum/ "Kleiderbügelmuseum Basel"). Betrieber ist der  Dunkel-Service Basel, ein Fachgeschäft für Kleiderbügel, Kleiderständer usw.
+
+# Ausstellungen
+
+* **21. Februar bis 26. Mai 2019: [Aufgehängt und abgehakt, Museum Industriekultur Nürberg](https://museen.nuernberg.de/museum-industriekultur/kalender-details/geschichte-kleiderbuegel-1611 "Ausstellung Aufgehängt und abgehakt")**
+  In Zusammenarbeit mit dem Sammler Matthias Dülp.
+* **17. März bis 5. Mai 2024: [Bügel-Geschichten, Torgalerie Rothenklempenow](https://www.raa-mv.de/aktuelles/grenzueberschreitende-zeitreise-die-ausstellung-in-der-torgalerie/ "Ausstellung Bügel-Geschichten")**
+  Mit Schwerpunkt auf historischen Kleiderbügel aus Warenhäusern in Pasewalk, Löcknitz und Stettin.
+{.single}
+
+# Bücher
+
+* **Cintres Hangers**
+  Von Daniel Rozensztroch. (Le Passage, 2002). ISBN-10: 284742007X
+  Ein schön bebildertes Buch über Kleiderbügel.
+{.single}
