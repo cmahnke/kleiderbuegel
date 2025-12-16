@@ -108,8 +108,8 @@ one = "Funktion"
 other = "Funktionen"
 
 [other]
-one = "Andere Besonderheit"
-other = "Andere Besonderheiten"
+one = "Besonderheit"
+other = "Besonderheiten"
 
 [brand]
 other = "Hersteller"
@@ -156,7 +156,7 @@ other = "Register der Materialien"
 other = "Register der Hersteller"
 
 [otherIndex]
-other = "Register der anderen Besonderheiten"
+other = "Register der Besonderheiten"
 
 [pageAbbr]
 other = "S."

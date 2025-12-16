@@ -241,5 +241,8 @@ other = "Register of materials"
 [brandIndex]
 other = "Register of manufacturers"
 
+[otherIndex]
+other = "Register of special features"
+
 [pageAbbr]
 other = "p."

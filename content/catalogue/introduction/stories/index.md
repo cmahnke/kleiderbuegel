@@ -9,7 +9,7 @@ params:
 
 Kleiderbügel erzählen viele Geschichten, von persönlichen, wie z.B. durch die Bügel, die man im Hotel (z.B. {{< print-ref slug="103" >}}) oder beim Wehrdienst (z.B. {{< print-ref slug="120" >}}) mitgehen lassen hat, über regionale Entwicklungen als auch die ganz große Weltgeschichte.
 
-Während persönliche Geschichten mit dem Besitzwechsel verschwinden – spätestens, wenn die Stücke in eine Sammlung aufgenommen werden –, bleiben die großen Geschichten erhalten und lassen sich auch im Nachhinein rekonstruieren. Gerade die Langlebigkeit von Kleiderbügeln macht sie oft zu stummen Zeugen des 20. Jahrhunderts. 
+Während persönliche Geschichten mit dem Besitzwechsel verschwinden – spätestens, wenn die Stücke in eine Sammlung aufgenommen werden –, bleiben die großen Geschichten erhalten und lassen sich auch im Nachhinein rekonstruieren. Gerade die Langlebigkeit von Kleiderbügeln, die teilweise durch Reparaturen ermöglicht wird, macht sie oft zu stummen Zeugen des 20. Jahrhunderts. 
 
 ## Wirtschaftsstrukturen
 
