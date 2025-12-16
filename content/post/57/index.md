@@ -12,6 +12,7 @@ resources:
 tags:
 - Hettlage
 - "Material: Holz"
+- Haken
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 remarks: |
   * [Hettlage und Lampe im veikkos-archiv](https://www.veikkos-archiv.com/index.php?title=Hettlage_%26_Lampe)

@@ -1,9 +1,13 @@
-{{/*
-{{- $noop := .Page.Content -}}
-*/}}
-{{- $toc := site.Store.Get "toc" -}}
-{{- warnf "=> %s for %s" (jsonify $toc) .Page -}}
-<!-- {{ jsonify $toc | safeHTML -}} -->
 <div class="inline-toc">
+  {{- $toc := site.Store.Get "toc" -}}
+  {{- if eq $toc nil -}}
+    {{- $noop := .Page.Content -}}
+  {{- end -}}
+  {{- if eq $toc nil -}}
+    {{- warnf "[print/print-toc.html] TOC not found for %s" .Page.RelPermalink -}}
+    <p style="color:red; font-size: 4rem; font-weight: bold; text-align: center;">No TOC found!</p>
+    <p style="color:red; font-size: 4rem; font-weight: bold; text-align: center;">Make sure to build using the right output format segment: <code style="font-family: Courier;">hugo -F -D --renderSegments print</code></p>   
+  {{- else -}}
     {{- partial "print/toc.html" (dict "entries" $toc "maxLevels" 2 ) -}}
+  {{- end -}}
 </div>

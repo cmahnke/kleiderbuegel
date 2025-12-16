@@ -20,6 +20,7 @@ tags:
 - Göttingen
 - Bekleidungsgeschäft
 - "Material: Holz"
+- Haken
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 Bekleidungshaus Junge, Gegenüber Hauptpostamt Göttingen

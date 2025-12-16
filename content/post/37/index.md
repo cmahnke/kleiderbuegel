@@ -5,6 +5,7 @@ tags:
 - Pforzheim
 - Versandhandel
 - "Material: Holz"
+- Haken
 type: hanger
 resources:
 - src: "front.png"

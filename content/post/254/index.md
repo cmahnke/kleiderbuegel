@@ -1,7 +1,8 @@
 ---
-date: 2026-09-01T12:47:44+02:00
-title: "Union elegant"
+date: 2027-08-10T12:47:44+02:00
+title: ""
 type: hanger
+description: "Holzbügel mit Haken" 
 outputs:
 - html
 - iiif-manifest
@@ -11,7 +12,5 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
-- Union
 - Haken
 ---
-Union elegant

@@ -13,6 +13,7 @@ tags:
 - "Material: Holz"
 - "Material: Metall"
 - Verstellbar
+- Haken
 source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 ---
 POL
