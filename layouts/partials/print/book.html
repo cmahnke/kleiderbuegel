@@ -11,9 +11,11 @@
 {{- $tocEntries := $frontMatter.toc -}}
 {{- $entries := partial "print/entries.html" (dict "context" .) -}}
 {{- $tocEntries = $tocEntries | append $entries.toc -}}
+{{- $middle := partial "print/print-pages.html" (dict "context" . "section" $sectionPage "pages" $printSection "filter" (slice (dict "op" "gt" "weight" 100) (dict "op" "lt" "weight" 100)) "sectionclass" "front-matter" "toconly" true) -}}
+{{- $tocEntries = $tocEntries | append $middle.toc -}}
 {{- $indexes := partial "print/indexes.html" (dict "context" .) -}}
 {{- $tocEntries = $tocEntries | append $indexes.toc -}}
-{{- $backmatter := partial "print/print-pages.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "gt" "weight" 100 "sectionclass" "back-matter" "sectiontitle" (i18n "back-matter") "toconly" true) -}}
+{{- $backmatter := partial "print/print-pages.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "gt" "weight" 999 "sectionclass" "back-matter" "sectiontitle" (i18n "back-matter") "toconly" true) -}}
 {{- range $backmatter.toc -}}
   {{- $tocEntries = $tocEntries | append . -}}
 {{- end -}}
@@ -25,6 +27,9 @@
 {{- $frontMatter.content | safeHTML -}}
 
 {{- $entries.content | safeHTML -}}
+{{- $middle := partial "print/print-pages.html" (dict "context" . "section" $sectionPage "pages" $printSection "filter" (slice (dict "op" "gt" "weight" 100) (dict "op" "lt" "weight" 100)) "sectionclass" "front-matter" "toconly" true) -}}
+{{- $middle.content | safeHTML -}}
+
 {{- $indexes.content | safeHTML -}}
 
 {{- $backmatter := partial "print/print-pages.html" (dict "context" . "section" $sectionPage "pages" $printSection "op" "gt" "weight" 100 "sectionclass" "back-matter" "sectiontitle" (i18n "back-matter")) -}}

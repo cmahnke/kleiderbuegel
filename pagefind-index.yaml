@@ -24,6 +24,8 @@ files:
     - '404.html'
     - 'map/**'
     - 'en/map/**'
+    - 'catalogue/**'
+    - 'en/catalogue/**'
     - 'print.html'
 content:
   ignore:

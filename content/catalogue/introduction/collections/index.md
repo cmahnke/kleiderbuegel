@@ -24,6 +24,7 @@ Kleiderbügel sind auch in Museen zu finden, hier eine Auswahl:
 * In der Schweiz existiert sogar ein [Kleiderbügelmuseum](https://dunkel-service.ch/kleiderbuegel-museum/ "Kleiderbügelmuseum Basel"). Betrieber ist der  Dunkel-Service Basel, ein Fachgeschäft für Kleiderbügel, Kleiderständer usw.
 {.single}
 
+{{< print-pb >}}
 # Ausstellungen
 * **21. Februar bis 26. Mai 2019: [Aufgehängt und abgehakt, Museum Industriekultur Nürberg](https://museen.nuernberg.de/museum-industriekultur/kalender-details/geschichte-kleiderbuegel-1611 "Ausstellung Aufgehängt und abgehakt")**
   In Zusammenarbeit mit dem Sammler Matthias Dülp.

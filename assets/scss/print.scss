@@ -131,6 +131,25 @@ html[lang="de"] {
     ul {
       direction: rtl;
       padding-right: .5cm;
+
+      /*
+      a.page-ref {
+        .page-ref-title {
+          &:after {
+            content: '„';
+          }
+
+          &:before {
+            content: '”';
+          }
+        }
+
+        &:before {
+          content: ' ' target-counter(attr(href), page);
+          margin-right: 1pt;
+        }
+      }
+      */
     }
 
     .footnote-container {
@@ -999,7 +1018,7 @@ section {
 
       .imprint-container {
         text-align: center;
-        font-size: large;
+        font-size: 60%;
 
       }
     }

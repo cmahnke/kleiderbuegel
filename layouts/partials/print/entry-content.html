@@ -87,6 +87,9 @@
     {{- $remarks := . -}}
     {{- $remarks = replace $remarks "Aktuelle Webseite" (i18n "currentWebsite") -}}
     {{- $remarks = replace $remarks "Heutige Webseite" (i18n "currentWebsite") -}}
+    {{- $remarks = replace $remarks "Aktuelle Homepage" (i18n "currentWebsite") -}}
+    {{- $remarks = replace $remarks "Heutige Homepage" (i18n "currentWebsite") -}}
+    {{- $remarks = replace $remarks "Derzeitige Homepage" (i18n "currentWebsite") -}}
     {{- $additional = printf `%s<div class="remarks notes"><div class="additional-header">%s:</div>%s</div>` $additional (i18n "remarks") ($remarks | $.Page.RenderString) -}}
     {{ $changed = true -}}
     {{- end -}}

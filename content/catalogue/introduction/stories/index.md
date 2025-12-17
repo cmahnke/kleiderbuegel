@@ -1,7 +1,7 @@
 ---
 title: Geschichte(n)
 layout: print
-weight: 5
+weight: 9
 params:
   print: true
   show_title: true

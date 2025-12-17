@@ -1,7 +1,7 @@
 ---
 title: Sonstiges
 layout: print
-weight: 10
+weight: 12
 params:
   print: true
   show_title: true

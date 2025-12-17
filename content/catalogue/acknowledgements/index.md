@@ -18,6 +18,6 @@ Zusätzlich an die folgenden Spenderinnen und Spender:
 
 Und an den Karstadt-Sammler **Holger-Philipp Bergt** für {{< print-ref slug="172" title=true >}}.
 
-Sowie **Max Gallenkamp** für die Organisation der Ausstellung "Sammlungen Erzählen".
+Sowie **Max Gallenkamp** und **Pia Denkmann** für die Organisation der Ausstellung "Sammlungen Erzählen".
 
 Und natürlich **Evelyn Kraßmann** für den Platz in ihren Schränken und das Lektorat.

@@ -1,7 +1,7 @@
 ---
 title: Einführung
 layout: print
-weight: 3
+weight: 6
 params:
   print: true
   show_title: true

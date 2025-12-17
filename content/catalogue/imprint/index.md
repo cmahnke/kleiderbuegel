@@ -1,7 +1,7 @@
 ---
 title: Impressum
 layout: print
-weight: 1003
+weight: 2
 params:
   print: true
   show_title: false

@@ -1,7 +1,7 @@
 ---
 title: Vorwort
 layout: print
-weight: 2
+weight: 5
 params:
   print: true
   show_title: true
