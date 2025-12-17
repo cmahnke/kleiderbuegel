@@ -71,7 +71,8 @@ html[lang="de"] {
 }
 
 .recto,
-.verso .two-sided .page:nth-child(2n) {
+.verso.two-sided .page:nth-child(2n),
+.verso.two-sided .page:has(.hanger-back) {
   page: entry-right;
 
   .text {
@@ -131,25 +132,6 @@ html[lang="de"] {
     ul {
       direction: rtl;
       padding-right: .5cm;
-
-      /*
-      a.page-ref {
-        .page-ref-title {
-          &:after {
-            content: '„';
-          }
-
-          &:before {
-            content: '”';
-          }
-        }
-
-        &:before {
-          content: ' ' target-counter(attr(href), page);
-          margin-right: 1pt;
-        }
-      }
-      */
     }
 
     .footnote-container {
@@ -376,9 +358,11 @@ article {
             position: absolute;
             top: 1cm;
           }
+          /*
           .heading-back {
             right: unset;
           }
+          */
         }
 
         .text-content-center {
@@ -1108,5 +1092,19 @@ a.page-ref {
   &:after {
     content: ' ' target-counter(attr(href), page);
     margin-right: 1pt;
+  }
+}
+
+/* TODO: Merge with rest, currently just a hack */
+.verso.two-sided.opposite {
+  .text {
+    padding-left: unset !important;
+
+    .heading-back {
+      margin-right: -1.3cm !important;
+      top: .8cm !important;
+      margin-bottom: -3pt;
+      left: unset;
+    }
   }
 }

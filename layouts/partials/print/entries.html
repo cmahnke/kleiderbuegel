@@ -1,5 +1,7 @@
 {{- $debug := partialCached "functions/debug/enabled.html" . -}}
 
+{{- $opposite := 1 -}}
+
 {{- $context := . -}}
 {{- $tocOnly := false -}}
 {{- if reflect.IsMap . -}}
@@ -30,33 +32,33 @@
 {{- $pageCount := 1 -}}
 
 {{- range $i, $p := $allPosts -}}
-{{- if not (in $processedPosts $p) -}}
+  {{- if not (in $processedPosts $p) -}}
     {{- if (in $p.Params.tags "Beidseitig") -}}
-    {{- if eq (mod $pageCount 2) 0 -}}
+      {{- if eq (mod $pageCount 2) $opposite -}}
         {{- $foundRegular := false -}}
         {{- if $debug -}}
-        {{- warnf "[print/entries.html] Moving double sided post %s" $p.RelPermalink -}}
+          {{- warnf "[print/entries.html] Moving double sided post %s" $p.RelPermalink -}}
         {{- end -}}
         {{- range after $i $allPosts -}}
-        {{- if and (not (in .Params.tags "Beidseitig")) (not (in $processedPosts .)) (not $foundRegular) -}}
+          {{- if and (not (in .Params.tags "Beidseitig")) (not (in $processedPosts .)) (not $foundRegular) -}}
             {{- $finalPosts = $finalPosts | append . -}}
             {{- $processedPosts = $processedPosts | append . -}}
             {{- $pageCount = add $pageCount 1 -}}
             {{- $foundRegular = true -}}
+          {{- end -}}
         {{- end -}}
-        {{- end -}}
-    {{- end -}}
+      {{- end -}}
     {{- end -}}
     {{- if not (in $processedPosts $p) }}
-        {{- $finalPosts = $finalPosts | append $p -}}
-        {{- if (in $p.Params.tags "Beidseitig") -}}
-            {{- $pageCount = add $pageCount 2 -}}
-        {{- else -}}
-            {{- $pageCount = add $pageCount 1 -}}
-        {{- end -}}
+      {{- $finalPosts = $finalPosts | append $p -}}
+      {{- if (in $p.Params.tags "Beidseitig") -}}
+        {{- $pageCount = add $pageCount 2 -}}
+      {{- else -}}
+        {{- $pageCount = add $pageCount 1 -}}
+      {{- end -}}
     {{- end -}}
-    {{- $processedPosts = $processedPosts | append $p | uniq -}}
-    {{- end -}}
+  {{- $processedPosts = $processedPosts | append $p | uniq -}}
+  {{- end -}}
 {{- end -}}
   {{/*
     odd (1): right spread
@@ -93,6 +95,9 @@
         {{- $class = printf "%s %s" $class "two-sided" -}}
       {{- else -}}
         {{- errorf "[print/entries.html] This should never happen %s" .RelPermalink -}}
+      {{- end -}}
+      {{- if eq $opposite 1 -}}
+        {{- $class = printf "%s %s" $class "opposite" -}}
       {{- end -}}
     {{- end -}}
 

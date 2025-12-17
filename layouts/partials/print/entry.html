@@ -1,4 +1,16 @@
 {{- $page := . -}}
+{{- $opposite := 1 -}}
+
+{{- if reflect.IsMap . -}}
+  {{- $page = .context -}}
+  {{- if isset . "opposite" -}}
+    {{- $opposite = .opposite -}}
+  {{- end -}}
+{{/*
+{{- else -}}
+  {{- errorf "[print/entry.html] Needs params as dict, not just context in %s" .RelPermalink -}}
+*/}}
+{{- end -}}
 
 {{- partial "check.html" $page -}}
 {{- $doubleSided := false -}}
@@ -97,10 +109,14 @@
       <div class="text">
         <div class="text-content-top">
           <h2 class="post-title {{ if eq $title "" }}description{{ end }}">
-            {{- if ne $title "" -}}
-              {{ $title }}
+            {{- if ne $opposite 1 -}}
+              {{- if ne $title "" -}}
+                {{ $title }}
+              {{- else -}}
+                {{ $page.Description }}
+              {{- end -}}
             {{- else -}}
-              {{ $page.Description }}
+              &nbsp;
             {{- end -}}
           </h2>
           <h3 class="heading-back"><span>{{ i18n "back" }}</span></h3>
