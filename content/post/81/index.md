@@ -15,4 +15,6 @@ tags:
 related:
   - 158
   - 168
+remarks: |
+  Siehe Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, S. 217
 ---

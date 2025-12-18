@@ -13,6 +13,7 @@ tags:
 - "Material: Holz"
 - "Material: Metall"
 - Klappbar
+- Haken
 related:
   - 225
 ---

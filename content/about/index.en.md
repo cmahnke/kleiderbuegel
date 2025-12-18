@@ -36,12 +36,13 @@ Keywords with fewer than three entries are not displayed.
   * (Partially) metal: **{{< tags/tag-count "Material: Metall" true >}}**
   * Fabric: **{{< tags/tag-count "Material: Stoff" true >}}**
 
-* Types / Special features
-  * Labeled on both sides: **{{< tags/tag-count "Beidseitig" true >}}**
+* Types
   * Trouser hangers: **{{< tags/tag-count "Hosenbügel" true >}}**
   * Skirt hangers: **{{< tags/tag-count "Rockbügel" true >}}**
   * Children's hangers: **{{< tags/tag-count "Kinderbügel" true >}}**
   * Travel clothes hanger: **{{< tags/tag-count "Reisekleiderbügel" true >}}**
+
+* Features
   * Clothepins: **{{< tags/tag-count "Klammern" true >}}**
   * Adjustable: **{{< tags/tag-count "Verstellbar" true >}}**
   * Foldable: **{{< tags/tag-count "Klappbar" true >}}**
@@ -84,6 +85,7 @@ Keywords with fewer than three entries are not displayed.
   * Overmeyer: **{{< tags/tag-count "Overmeyer" true >}}**
 
 * Other classifications
+  * Labeled on both sides: **{{< tags/tag-count "Beidseitig" true >}}**
   * Advertising: **{{< tags/tag-count "Werbung" true >}}**
   * Novelty items: **{{< tags/tag-count "Scherzartikel" true >}}**
   * Without geodata: **{{< hanger-param "geojson" "eq" nil >}}**
@@ -106,6 +108,10 @@ The visualization of the clothes rack is implemented with [Swiper JS](https://sw
 OpenLayers (https://openlayers.org/) is used to display the map, and the map material is provided by the OpenstreetMap (https://www.openstreetmap.org/) project. The theme is based on Versatiles (https://github.com/versatiles-org/versatiles-style).
 
 The [integration of images](https://gitlab.com/kaushalmodi/hugo-theme-refined/blob/master/layouts/shortcodes/figure.html) and the [tag cloud](http://www.johann-oberdorfer.eu/blog/ 2020/02/23/20-02-23_tag_cloud_for_hugo/) are taken from the sources indicated.
+
+# Brand names and trademarks
+
+Brand names and protected trademarks are the property of their respective owners. Their mention is purely descriptive in nature; they are not affiliated with or cooperating in any way with the collection.
 
 # Contact
 

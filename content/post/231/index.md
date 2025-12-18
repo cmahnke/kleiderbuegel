@@ -14,6 +14,8 @@ tags:
 - Klappbar
 - Union
 - Reisekleiderbügel
+remarks: |
+  Siehe Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, S. 214
 ---
 Union
 

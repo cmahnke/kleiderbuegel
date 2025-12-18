@@ -42,12 +42,14 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
   * Aus Stoff: **{{< tags/tag-count "Material: Stoff" true >}}**
 
 * Typen / Besonderheiten
-  * Beidseitig beschriftet: **{{< tags/tag-count "Beidseitig" true >}}**
   * Hosenbügel: **{{< tags/tag-count "Hosenbügel" true >}}**
   * Rockbügel: **{{< tags/tag-count "Rockbügel" true >}}**
   * Kinderbügel: **{{< tags/tag-count "Kinderbügel" true >}}**
   * Reisekleiderbügel: **{{< tags/tag-count "Reisekleiderbügel" true >}}**
+
+* Funktionen
   * Mit Klammern: **{{< tags/tag-count "Klammern" true >}}**
+  * Mit Haken: **{{< tags/tag-count "Haken" true >}}**
   * Verstellbar: **{{< tags/tag-count "Verstellbar" true >}}**
   * Klappbar: **{{< tags/tag-count "Klappbar" true >}}**
   * Kleiderbürste: **{{< tags/tag-count "Kleiderbürste" true >}}**
@@ -89,6 +91,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.
   * Overmeyer: **{{< tags/tag-count "Overmeyer" true >}}**
 
 * Weitere Klassifikationen
+  * Beidseitig beschriftet: **{{< tags/tag-count "Beidseitig" true >}}**
   * Werbung: **{{< tags/tag-count "Werbung" true >}}**
   * Scherzartikel: **{{< tags/tag-count "Scherzartikel" true >}}**
   * Ohne Geodaten: **{{< hanger-param "geojson" "eq" nil >}}**
@@ -111,6 +114,10 @@ Die Visualisierung der Kleiderstange ist mit [Swiper JS](https://swiperjs.com/) 
 Für das die Anzeige der Karte wird [OpenLayers](https://openlayers.org/) verwendet, das Kartenmatrial wird vom [OpenstreetMap](https://www.openstreetmap.org/) Projekt bereitgestellt. Das Theme basiert auf [Versatiles](https://github.com/versatiles-org/versatiles-style).
 
 Das [Einbinden der Bilder](https://gitlab.com/kaushalmodi/hugo-theme-refined/blob/master/layouts/shortcodes/figure.html) und die [Tagcloud](http://www.johann-oberdorfer.eu/blog/2020/02/23/20-02-23_tag_cloud_for_hugo/) sind aus den jeweils angebenen Quellen übernommen.
+
+# Markennamen und Warenzeichen
+
+Markennamen und geschützte Warenzeichen sind Eigentum ihrer jeweiligen Inhaber. Ihre Erwähnung hat lediglich beschreibenden Charakter, sie stehen in keinerlei Partnerschaft oder Kooperation zur Sammlung.
 
 # Kontakt
 
