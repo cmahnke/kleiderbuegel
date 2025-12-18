@@ -856,6 +856,10 @@ section {
       white-space: nowrap;
       margin: auto;
 
+      &:has(ul) {
+        margin: 1em auto;
+      }
+
       li:first-of-type p {
         margin-top: unset;
       }
@@ -882,6 +886,7 @@ section {
     }
   }
 
+  &.preface,
   &.introduction,
   &.collection,
   &.acknowledgements,
