@@ -13,11 +13,11 @@ Während persönliche Geschichten mit dem Besitzwechsel verschwinden – spätes
 
 ## Wirtschaftsstrukturen
 
-Von der Wiederaufbauphase nach dem Zweiten Weltkrieg in den 1950er Jahren bis zur Jahrtausendwende erlebte die Einzelhandelslandschaft in Deutschland eine tiefgreifende Konzentration. In den Innenstädten manifestiert sich dieser Wandel vor allem im Ersatz kleinteiliger Strukturen aus traditionellen Schneidereien und inhabergeführten Modehäusern durch vertikal integrierte Filialketten. Parallel dazu hat bei der Herstellung von Bekleidung eine Konzentration stattgefunden, während gleichzeitig die Menge an importeter Kleidung angestiegen ist (Vervierfachung zwischen 1980 und 2000, wie eine [Untersuchung aus dem Jahr 2002 zeigt](https://www.ifo.de/DocDL/ifosd_2002_19_5.pdf "Strukturwandel als Tagesgeschäft von Ulrich Adler")).
+Von der Wiederaufbauphase nach dem Zweiten Weltkrieg in den 1950er Jahren bis zur Jahrtausendwende erlebte die Einzelhandelslandschaft in Deutschland eine tiefgreifende Konzentration. In den Innenstädten manifestiert sich dieser Wandel vor allem im Ersatz kleinteiliger Strukturen aus traditionellen Schneidereien und inhabergeführten Modehäusern durch vertikal integrierte Filialketten. Parallel dazu hat bei der Herstellung von Bekleidung eine Konzentration stattgefunden, während gleichzeitig die Menge an importierter Kleidung angestiegen ist (Vervierfachung zwischen 1980 und 2000, wie eine [Untersuchung aus dem Jahr 2002 zeigt](https://www.ifo.de/DocDL/ifosd_2002_19_5.pdf "Strukturwandel als Tagesgeschäft von Ulrich Adler")).
 
 Eine ähnliche Entwicklung lässt sich auch in der Branche der Bekleidungsdienstleistungen (Reinigungen, Färbereien etc.) beobachten. Dort dauert dieser Prozess noch an. So berichtet der Deutsche Textilreinigungsverband von einer Reduktion [von ca. 6700 Wäschereien im Jahr 2006 auf ca. 3600 im Jahr 2021](https://www.dtv-deutschland.org/zahlen-und-fakten.html "Deutsche Textilreinigungsverband: Zahlen und Fakten zur Textil-Dienstleistungsbranche in Deutschland"). Hinzu kommt, dass die stark gestiegene Verbreitung von Waschmaschinen in Haushalten dazu geführt hat, dass private Reinigungsaufträge stark zurückgegangen sind.
 
-Zudem sind Pelze und somit Kürschnerreien nach den Tierschutz-Protesten der 1980er-Jahre aus der Mode gefallen und zu einem Randphänomen geworden.
+Zudem sind Pelze und somit Kürschnereien nach den Tierschutz-Protesten der 1980er-Jahre aus der Mode gefallen und zu einem Randphänomen geworden.
 
 {{< print-pb >}}
 ## Unrecht
@@ -28,7 +28,7 @@ Unmittelbar nach der Machtergreifung im Jahr 1933 leiteten die Nationalsozialist
 Dies betraf selbstverständlich auch die Bekleidungsbranche, was sich beispielsweise an diesen Kleiderbügeln nachvollziehen lässt:
 
 * {{< print-ref slug="53" title=true >}}: Der Inhaber Erich Cahn [wurde am 3. Juni 1942 in Sobibor ermordet](https://www.gedenkbuch.halle.de/gbdatensatz.php?num=18 "Eintrag im Gedenkbuch für die Toten des Holocaust in Halle")
-* {{< print-ref slug="71" title=true >}}: Der Gründer Eduard Herrmann wurde gezwungen sein Bekleidungsgeschäft an den Bonner Kaufmann Esders zu "verkaufen". Der Familie gelang die Flucht.
+* {{< print-ref slug="71" title=true >}}: Der Gründer Eduard Herrmann wurde gezwungen, sein Bekleidungsgeschäft an den Bonner Kaufmann Esders zu "verkaufen". Der Familie gelang die Flucht.
 * {{< print-ref slug="173" title=true >}}: [Alsberg](https://de.wikipedia.org/wiki/Kaufhaus_Alsberg "Wikipedia: Kaufhaus Alsberg") war einst das drittgrößte Warenhausunternehmen Deutschlands (nach Tietz und Karstadt). Nach der Arisierung wurde der Name geändert und das Unternehmen ist heute so gut wie vergessen.
 * Fahning, {{< print-ref slug="48" >}} und {{< print-ref slug="218" >}}: [Die Damenbekleidungsfirma Gebr. Hirschfeld](https://de.wikipedia.org/wiki/Gebr._Hirschfeld "Wikipedia: Gebr. Hirschfeld") wurde nach der Reichspogromnacht an Franz Fahning verkauft.
 {.single}

@@ -9,7 +9,7 @@ params:
 ---
 
 <div class="imprint-container">
-<span style="font-weight: bold;">"Die Kleiderbügelsammlung Christian Mahnke"</span> erschien im Rahmen der Sonderaustellung "Sammlungen erzählen" im Forum Wissen Göttingen 2026
+<span style="font-weight: bold;">"Die Kleiderbügelsammlung Christian Mahnke"</span> erschien im Rahmen der Sonderausstellung "Sammlungen erzählen" im Forum Wissen Göttingen 2026
 <p>
 Autor: <span style="font-weight: bold;">Christian Mahnke</span>, Weender Landstraße 2, Göttingen
 </p>

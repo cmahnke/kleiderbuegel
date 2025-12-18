@@ -21,7 +21,7 @@ Selbstverständlich sind die meisten Kleiderbügel auch Werbeträger, allerdings
 
 In den 70er-Jahren gab es eine bemerkenswerte Welle sehr auffälliger Plastikkleiderbügel in kräftigen Farben. Sie zeichneten sich durch ein eher unkonventionelles Design – soweit die Funktionalität es zuließ – und eine flache Form aus. Es gab verschiedene Varianten verschiedener Hersteller, was diese Phase so einzigartig macht. Nie zuvor oder danach gab es so explizite "Modekleiderbügel".
 
-* {{< print-ref slug="100" title=true >}}: Eine Variante, die im Netz öfter zu finden ist, das Design stammt von [Danielo Silvestrin](https://de.wikipedia.org/wiki/Danilo_Silvestrin). Auf den Aufklebern findet sich das Logo von Gunter Lambert.
+* {{< print-ref slug="100" title=true >}}: Eine Variante, die im Netz öfter zu finden ist, das Design stammt von [Danilo Silvestrin](https://de.wikipedia.org/wiki/Danilo_Silvestrin). Auf den Aufklebern findet sich das Logo von Gunter Lambert.
 * {{< print-ref slug="252" title=true >}}: Es gibt auch eine Variante mit Ösen für Gürtel und Krawatten.
 * {{< print-ref slug="140" title=true >}}: Eine weitere Variante
 {.single}
@@ -31,9 +31,9 @@ In den 70er-Jahren gab es eine bemerkenswerte Welle sehr auffälliger Plastikkle
 
 In der ersten Hälfte des 20. Jahrhunderts wurde auch mit besonderen Funktionen experimentiert:
 
-* {{< print-ref slug="55" title=true >}}: Ein verstellbarer Bügel, mit Größenangeben.
+* {{< print-ref slug="55" title=true >}}: Ein verstellbarer Bügel, mit Größenangaben.
 * {{< print-ref slug="208" title=true >}}: Ein verstellbarer Rockbügel.
-* {{< print-ref slug="225" title=true >}}: Ein klappbarer Bügel, der Überzug dient dazu das Rutschen der Kleidung zu verhindern.
+* {{< print-ref slug="225" title=true >}}: Ein klappbarer Bügel, der Überzug dient dazu, das Rutschen der Kleidung zu verhindern.
 {.single}
 
 Auch das in den 1950er-Jahren noch relativ neue Material Plastik hat Innovationen angeregt:

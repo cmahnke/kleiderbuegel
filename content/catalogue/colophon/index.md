@@ -24,3 +24,5 @@ Markennamen und geschützte Warenzeichen sind Eigentum ihrer jeweiligen Inhaber.
 
 ## Abbildungen
 * [Plakat gegen Abtreibung beim Frauenmarsch in Frankfurt](https://commons.wikimedia.org/wiki/File:Frankfurt_Women%27s_March_2017_-_Abortion_Poster.jpg), 2017 von ZeWrestler, lizensiert unter [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
+
+Alle anderen Abbildungen, sofern nicht anders angegeben: Christian Mahnke

@@ -46,7 +46,7 @@ Die Beschriftung lässt sich grob in zwei Kategorien unterteilen: Erstens dient 
 * Schneiderei
 * Versandhandel
 * Gaststätte
-* Theate
+* Theater
 * Klinik
 * Kleidungsfabrik
 * Möbelhaus
