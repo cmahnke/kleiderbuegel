@@ -15,6 +15,7 @@ Zusätzlich an die folgenden Spenderinnen und Spender:
 * **Helga Mahnke**
 * **Ingo Pfennigstorf**
 * **Karsten Heck**
+* **Gisela Thöne**
 
 Und an den Karstadt-Sammler **Holger-Philip Bergt** für {{< print-ref slug="172" title=true >}}.
 
