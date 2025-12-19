@@ -11,9 +11,9 @@ Die einzelnen Kleiderbügel werden nach verschiedenen Kriterien katalogisiert. A
 
 ## Materialien
 
-Die Sammlung umfasst vorwiegend Kleiderbügel aus Holz, die früher häufig mit Brandstempeln beschriftet wurden. Dabei wurde ein glühendes Stück Metall mit erhabener Schrift auf den Bügel gepresst, wodurch das Holz dunkelbraun verfärbt wurde. Anschließend wurde der Bügel nach der Beschriftung häufig noch lackiert, um die Kleidung vor Splittern zu schützen.
+Die Sammlung umfasst vorwiegend Kleiderbügel aus Holz, die früher häufig mit Brand&shy;stempeln beschriftet wurden. Dabei wurde ein glühendes Stück Metall mit erhabener Schrift auf den Bügel gepresst, wodurch das Holz dunkelbraun verfärbt wurde. Anschließend wurde der Bügel nach der Beschriftung häufig noch lackiert, um die Kleidung vor Splittern zu schützen.
 
-Das zweithäufigste Material in der Sammlung ist Plastik. Bei seiner Einführung in den Massenmarkt nach dem Zweiten Weltkrieg hatte es jedoch einen anderen Stellenwert als heute. Plastikbügel werden meist im Siebdruckverfahren beschriftet. Besonders in den 70er Jahren fand es für avantgardistische Formen in kräftigen Farben Anwendung.
+Das zweithäufigste Material in der Sammlung ist Plastik. Bei seiner Einführung in den Massenmarkt nach dem Zweiten Weltkrieg hatte es jedoch einen anderen Stellenwert als heute. Plastikbügel werden meist im Siebdruckverfahren beschriftet. Besonders in den 1970er Jahren fand es für avantgardistische Formen in kräftigen Farben Anwendung.
 Danach folgen Metall (meist in Verbindung mit Holz) und Stoff.
 
 ## Typen von Bügeln
@@ -40,7 +40,7 @@ Die Beschriftung lässt sich grob in zwei Kategorien unterteilen: Erstens dient 
 * Reinigung
 * Warenhaus
 * Hotel
-* Pelze
+* Kürschnerei (Pelzhandel)
 * Färberei
 * Staatliche Organisation
 * Schneiderei
@@ -54,7 +54,7 @@ Die Beschriftung lässt sich grob in zwei Kategorien unterteilen: Erstens dient 
 ## Weitere Klassifikationen
 
 Es gibt außerdem weitere Klassifikationen, beispielsweise danach, ob ein Bügel repariert wurde, beidseitig bedruckt ist oder ob es sich um einen Scherzartikel oder einen Werbeträger handelt. Letzteres ist jedoch schwierig abzugrenzen, da die meisten Kleiderbügel mindestens auch Werbeträger sind.
-Hersteller von Bügeln sowie Handelsketten und Geschäfte werden zusätzlich getrennt verschlagwortet, sofern es mehrere Bügel aus einer Quelle gibt.
+Hersteller von Bügeln sowie Handelsketten und Geschäfte werden zusätzlich getrennt verschlagwortet sofern es mehrere Bügel aus einer Quelle gibt.
 
 Da die Sammlung weiterhin in Gebrauch ist, werden Daten wie beispielsweise die Abmessungen nicht erfasst. Die Aufnahmen sind allerdings (meist) maßstabsgetreu, weshalb schmalere Bügel transparente Ränder haben.
 
