@@ -31,7 +31,7 @@ $image-width: 61.8%;
   margin-left: 1cm;
   margin-right: 1.5cm;
 
-  @bottom-right {
+  @bottom-center {
     content: counter(page);
     font-family: $body-font;
     vertical-align: middle;
@@ -42,7 +42,7 @@ $image-width: 61.8%;
   margin-left: 1.5cm;
   margin-right: 1cm;
 
-  @bottom-left {
+  @bottom-center {
     content: counter(page);
     font-family: $body-font;
     vertical-align: middle;
@@ -58,6 +58,10 @@ $image-width: 61.8%;
   @bottom-left {
     content: '';
   }
+
+   @bottom-center {
+    content: '';
+   }
 }
 
 /* Put translations in here */
