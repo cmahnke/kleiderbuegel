@@ -20,7 +20,7 @@ Die gesamte Publikation wurde datengetrieben generiert, das wird auch durch das 
 * **4418**: Museum of Modern Art work ID
 * **17199**: museum-digital tag ID
 
-Markennamen und geschützte Warenzeichen sind Eigentum ihrer jeweiligen Inhaber. Ihre Erwähnung hat lediglich beschreibenden Charakter, sie stehen in keinerlei Partnerschaft oder Kooperation zur Sammlung.
+Markennamen und geschützte Warenzeichen sind Eigentum ihrer jeweiligen Inhaber. Ihre Erwähnung hat lediglich beschreibenden Charakter, sie stehen in keinerlei Partnerschaft oder Kooperation zur Sammlung bzw. zum Autor.
 
 ## Abbildungen
 * [Plakat gegen Abtreibung beim Frauenmarsch in Frankfurt](https://commons.wikimedia.org/wiki/File:Frankfurt_Women%27s_March_2017_-_Abortion_Poster.jpg), 2017 von ZeWrestler, lizenziert unter [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.de)

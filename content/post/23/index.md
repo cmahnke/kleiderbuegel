@@ -14,4 +14,4 @@ resources:
   params:
     iiif: front/info.json
 ---
-D.R.W.Z. Union 3 D.R.W.Z.
+D.R.Wz. Union 3 D.R.Wz.

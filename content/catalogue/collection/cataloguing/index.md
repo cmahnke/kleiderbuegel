@@ -18,7 +18,7 @@ Danach folgen Metall (meist in Verbindung mit Holz) und Stoff.
 
 ## Typen von Bügeln
 
-Kleiderbügel gibt es in verschiedenen Varianten, zum Beispiel nach Anwendungszweck oder weiteren zusätzlichen Funktionen
+Kleiderbügel gibt es in verschiedenen Varianten, zum Beispiel nach Anwendungszweck oder zusätzlichen Funktionen
 
 * **Anwendungszweck**
   * Hosenbügel
@@ -62,4 +62,4 @@ Da die Sammlung weiterhin in Gebrauch ist, werden Daten wie beispielsweise die A
 
 ## Alte Schutzrechtsmarken
 
-Alte Schutzrechtsmarken wie D.R.G.M (<b>D</b>eutsches <b>R</b>eichs<b>g</b>ebrauchs<b>m</b>uster), D.R.W.Z. (<b>D</b>eutsches <b>R</b>eichs<b>w</b>aren<b>z</b>eichen), DBGM (<b>D</b>eutsches <b>B</b>undes<b>g</b>ebrauchs<b>m</b>uster) DBWz (<b>D</b>eutsches <b>B</b>undes<b>w</b>aren<b>z</b>eichen), werden nicht gesondert erfasst.
+Alte Schutzrechtsmarken wie D.R.G.M (<b>D</b>eutsches <b>R</b>eichs<b>g</b>ebrauchs<b>m</b>uster), D.R.W.Z., auch D.R.Wz (<b>D</b>eutsches <b>R</b>eichs<b>w</b>aren<b>z</b>eichen), DBGM (<b>D</b>eutsches <b>B</b>undes<b>g</b>ebrauchs<b>m</b>uster) DBWz (<b>D</b>eutsches <b>B</b>undes<b>w</b>aren<b>z</b>eichen), werden nicht gesondert erfasst.
