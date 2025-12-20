@@ -614,6 +614,13 @@ section {
 }
 
 .single-page {
+  u {
+    /* text-underline-offset: from-font; */
+    text-underline-offset: 2.4pt;
+    text-decoration-color: rgba(0, 0, 0, 0.8);
+    text-decoration-thickness: .6pt;
+  }
+
   a,
   a:hover,
   a:visited {

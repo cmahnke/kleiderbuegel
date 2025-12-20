@@ -7,7 +7,7 @@ params:
   show_title: true
 ---
 
-Die vorliegende Sammlung befindet sich seit ca. 2015 im Aufbau. Ursprünglich diente sie lediglich dazu, langweilige (Plastik-) Bügel im eigenen Kleiderschrank durch interessante Gegenstände zu ersetzen. Ab ca. 2020 waren jedoch mehr Bügel vorhanden, als in den Schrank passten. Da die Sammlung ursprünglich gar nicht als solche gedacht war, wurden die Objekte auch nicht systematisch erfasst. 
+Die vorliegende Sammlung befindet sich seit ca. 2015 im Aufbau. Ursprünglich diente sie lediglich dazu, langweilige (Plastik-) Bügel im eigenen Kleiderschrank durch interessantere und auch stabilere, langlebigere Bügel zu ersetzen. Ab ca. 2020 waren jedoch mehr Bügel vorhanden, als in den Schrank passten. Da die Sammlung ursprünglich gar nicht als solche gedacht war, wurden die Objekte auch nicht systematisch erfasst. 
 
 Die Präsentation als [Blog](https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/) ist ein typisches "Corona-Projekt": Die ersten Vorarbeiten zur Gestaltung und Datenerfassung begannen im Sommer 2020, der erste Beitrag konnte dann im Herbst 2020 veröffentlicht werden. Dabei wurden einige Beiträge in die Aufbauphase rückdatiert.
 

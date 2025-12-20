@@ -15,8 +15,9 @@ params:
   * Doppelseitig identisch: **{{< hanger-param "doublesided" "eq" true >}}**
   * Beidseitig bedruckt: **{{< tags/tag-count "Beidseitig" true >}}**
 
-* Funktionen
+* Zusätzliche Funktionen
   * Mit Klammern: **{{< tags/tag-count "Klammern" true >}}**
+  * Mit Haken: **{{< tags/tag-count "Haken" true >}}**
   * Verstellbar: **{{< tags/tag-count "Verstellbar" true >}}**
   * Klappbar: **{{< tags/tag-count "Klappbar" true >}}**
   * Kleiderbürste: **{{< tags/tag-count "Kleiderbürste" true >}}**

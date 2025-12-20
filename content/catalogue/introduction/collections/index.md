@@ -11,7 +11,7 @@ params:
 Die Sammlung ist nicht die erste und einzige ihrer Art, trotzdem ist die Anzahl der Kleiderbügelsammler überschaubar. Zwei besonders medienpräsente Sammler müssen an dieser Stelle genannt und anerkannt werden:
 
 * **Matthias Dülp** macht seine ca. 7.000 Kleiderbügel umfassende Sammlung im [Kleiderbügelmuseum Etlaswind](https://www.facebook.com/p/Kleiderb%C3%BCgelmuseum-Etlaswind-100072127089149/ "Facebook: Kleiderbügelmuseum Etlaswind") öffentlich zugänglich. Er ist mit seiner Sammlung regelmäßig in regionalen Medien vertreten und hat sie Anfang 2019 im Museum Industriekultur Nürnberg ausgestellt.
-* **Eberhard Rhode** hat über 3.000 Kleiderbügel gesammelt. Von ihm ist das Zitat ["Mit meiner Sammlung könnte man einen halben Tag heizen"](https://taz.de/Mit-meiner-Sammlung-koennte-man-einenhalben-Tag-heizen/!5206142/ "TAZ: „Mit meiner Sammlung könnte man einen halben Tag heizen“") überliefert. Er beleuchtet das Thema aus einem erfrischenden Blickwinkel. Der Artikel bietet zudem einen Überblick über die Sammlerszene.
+* **Eberhard Rhode** hat über 3.000 Kleiderbügel gesammelt. Von ihm ist das Zitat ["Mit meiner Sammlung könnte man einen halben Tag heizen"](https://taz.de/Mit-meiner-Sammlung-koennte-man-einenhalben-Tag-heizen/!5206142/ "TAZ: „Mit meiner Sammlung könnte man einen halben Tag heizen“") überliefert, womit er das Thema mit Humor aus einem erfrischenden Blickwinkel beleuchtet. Der Artikel bietet zudem einen Überblick über die Sammlerszene.
 {.single}
 
 ## Digital

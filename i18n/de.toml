@@ -144,7 +144,7 @@ other = "Register der Handelsketten"
 other = "Register der Arten ausgebener Stellen"
 
 [featureIndex]
-other = "Register der Funktionen"
+other = "Register der zusätzlichen Funktionen"
 
 [purposeIndex]
 other = "Register der Anwendungszwecke"

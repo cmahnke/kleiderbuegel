@@ -11,27 +11,29 @@ Die einzelnen Kleiderbügel werden nach verschiedenen Kriterien katalogisiert. A
 
 ## Materialien
 
-Die Sammlung umfasst vorwiegend Kleiderbügel aus Holz, die früher häufig mit Brand&shy;stempeln beschriftet wurden. Dabei wurde ein glühendes Stück Metall mit erhabener Schrift auf den Bügel gepresst, wodurch das Holz dunkelbraun verfärbt wurde. Anschließend wurde der Bügel nach der Beschriftung häufig noch lackiert, um die Kleidung vor Splittern zu schützen.
+Die Sammlung umfasst vorwiegend Kleiderbügel aus Holz, die früher häufig mit Brand&shy;stempeln beschriftet wurden. Dabei wurde ein glühendes Stück Metall mit erhabener Schrift auf den Bügel gepresst, wodurch das Holz dunkelbraun verfärbt wurde. Anschließend wurde der Bügel häufig noch lackiert, um die Kleidung vor Splittern zu schützen, aber auch um das Holz zu schützen und dem Bügel durch die Lackierung ein edleres Ansehen zu verleihen.
 
 Das zweithäufigste Material in der Sammlung ist Plastik. Bei seiner Einführung in den Massenmarkt nach dem Zweiten Weltkrieg hatte es jedoch einen anderen Stellenwert als heute. Plastikbügel werden meist im Siebdruckverfahren beschriftet. Besonders in den 1970er Jahren fand es für avantgardistische Formen in kräftigen Farben Anwendung.
 Danach folgen Metall (meist in Verbindung mit Holz) und Stoff.
 
 ## Typen von Bügeln
 
-Kleiderbügel gibt es in verschiedenen Varianten, zum Beispiel nach Anwendungszweck oder weiteren Funktionen
+Kleiderbügel gibt es in verschiedenen Varianten, zum Beispiel nach Anwendungszweck oder weiteren zusätzlichen Funktionen
 
 * **Anwendungszweck**
   * Hosenbügel
   * Rockbügel
   * Kinderkleiderbügel
   * Reisekleiderbügel
-* **Funktionen**
+* **Zusätzliche Funktionen**
   * Verstellbar
   * Klappbar
   * Kleiderbürste
   * Mit Klammern
+  * Mit Haken
 {.ignore-first-level}
 
+{{< print-pb >}}
 ## Ausgebenden Stellen
 
 Die Beschriftung lässt sich grob in zwei Kategorien unterteilen: Erstens dient sie als Werbeträger und zweitens als eine Art Besitznachweis. Letzteres gilt insbesondere dann, wenn die Bügel nicht zur Mitnahme gedacht sind, beispielsweise in Hotels oder bei staatlichen Organisationen.
@@ -40,7 +42,7 @@ Die Beschriftung lässt sich grob in zwei Kategorien unterteilen: Erstens dient 
 * Reinigung
 * Warenhaus
 * Hotel
-* Kürschnerei (Pelzhandel)
+* Kürschnerei (Pelze)
 * Färberei
 * Staatliche Organisation
 * Schneiderei
@@ -60,4 +62,4 @@ Da die Sammlung weiterhin in Gebrauch ist, werden Daten wie beispielsweise die A
 
 ## Alte Schutzrechtsmarken
 
-Alte Schutzrechtsmarken wie D.R.G.M (Deutsches Reichs-GebrauchsMuster), D.R.W.Z. (Deutsches Reichs-WarenZeichen), DBGM (Deutsches Bundes-GebrauchsMuster) DBWz (Deutsches Bundes-WarenZeichen), werden nicht gesondert erfasst.
+Alte Schutzrechtsmarken wie D.R.G.M (<b>D</b>eutsches <b>R</b>eichs<b>g</b>ebrauchs<b>m</b>uster), D.R.W.Z. (<b>D</b>eutsches <b>R</b>eichs<b>w</b>aren<b>z</b>eichen), DBGM (<b>D</b>eutsches <b>B</b>undes<b>g</b>ebrauchs<b>m</b>uster) DBWz (<b>D</b>eutsches <b>B</b>undes<b>w</b>aren<b>z</b>eichen), werden nicht gesondert erfasst.

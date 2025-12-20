@@ -25,9 +25,9 @@ Nach dem Zweiten Weltkrieg wurde die [MAWA Metallwarenfabrik](https://www.mawa.d
 {{< print-pb >}}
 ## Beschriftungen und Markierungen
 
-Neben ihrem offensichtlichen Nutzwert haben Kleiderbügel durch Beschriftungen und Markierungen schon sehr früh weitere Funktionen erhalten. Die wichtigste davon ist sicherlich die als Werbeträger. Meist wurde dazu einfach der Name des Unternehmens, ggf. ergänzt um einen Slogan, den Ort und die Art des Angebots oder der Dienstleistung auf den Bügel aufgebracht. 
+Neben ihrem offensichtlichen Nutzwert haben Kleiderbügel durch Beschriftungen und Markierungen schon sehr früh weitere Funktionen erfüllt. Die wichtigste davon ist sicherlich die als Werbeträger. Meist wurde dazu einfach der Name des Unternehmens, ggf. ergänzt um einen Slogan, den Ort und die Art des Angebots oder der Dienstleistung auf den Bügel aufgebracht. 
 
-Ab den 60er Jahren wurden Bügel dann auch umfassender gestaltet. Gerade Plastikbügel eignen sich für modernere Druckverfahren wie den Siebdruck, der auch eine farbige Bedruckung zulässt.
+Ab den 1960er Jahren wurden Bügel dann auch umfassender gestaltet. Gerade Plastikbügel eignen sich für modernere Druckverfahren wie den Siebdruck, der auch eine farbige Bedruckung zulässt.
 
 Eine weitere Funktion von Beschriftungen war die des Besitznachweises, insbesondere wenn ein Bügel nicht zum Mitnehmen gedacht war. Ein Beispiel hierfür sind Hotels. Aber gerade die Verbindung von Verbot und Erinnerungswert hat in manchen Fällen die Verbringung in den eigenen Kleiderschrank eher befördert.
 
