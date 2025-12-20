@@ -13,7 +13,7 @@ Die Präsentation als [Blog](https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.d
 
 Im Jahr 2024 wurde der Webseite die Anzeige von Geoinformationen hinzugefügt. Dafür wurde jeder bis dahin erfasste Bügel noch einmal überprüft und bei Bedarf eine umfangreichere Recherche durchgeführt. Dadurch konnten in vielen Fällen auch weitere externe Informationen verlinkt werden.
 
-Die Erweiterung der Sammlungsinformationen erfolgt seitdem kampagnenartig: Einmal im Jahr werden die Neuzugänge fotografiert, zusätzliche Informationen recherchiert und dann mit wöchentlichen Veröffentlichungsdaten versehen, sodass sich die Arbeit auf ein paar Wochen im Jahr konzentrieren lässt. 
+Die Erweiterung der Sammlungsinformationen erfolgt seitdem kampagnenmäßig: Einmal im Jahr werden die Neuzugänge fotografiert, zusätzliche Informationen recherchiert und dann mit wöchentlichen Veröffentlichungsdaten versehen, sodass sich die Arbeit auf ein paar Wochen im Jahr konzentrieren lässt. 
 
 Inzwischen sind {{< post-count section="post" type="hanger" >}} Bügel erfasst, sie werden im folgenden Abschnitt präsentiert.
 

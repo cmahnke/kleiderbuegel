@@ -23,7 +23,7 @@ Kleiderbügel gibt es in verschiedenen Varianten, zum Beispiel nach Anwendungszw
 * **Anwendungszweck**
   * Hosenbügel
   * Rockbügel
-  * Kinderbügel
+  * Kinderkleiderbügel
   * Reisekleiderbügel
 * **Funktionen**
   * Verstellbar
@@ -32,7 +32,7 @@ Kleiderbügel gibt es in verschiedenen Varianten, zum Beispiel nach Anwendungszw
   * Mit Klammern
 {.ignore-first-level}
 
-## Arten von ausgebenden Stellen
+## Ausgebenden Stellen
 
 Die Beschriftung lässt sich grob in zwei Kategorien unterteilen: Erstens dient sie als Werbeträger und zweitens als eine Art Besitznachweis. Letzteres gilt insbesondere dann, wenn die Bügel nicht zur Mitnahme gedacht sind, beispielsweise in Hotels oder bei staatlichen Organisationen.
 
