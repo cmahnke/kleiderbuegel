@@ -16,5 +16,4 @@ tags:
 - Klappbar
 remarks: | 
   Vier Bügel in einem, können entweder horizontal oder vertikal in den Schrank gehängt werden.
-
 ---

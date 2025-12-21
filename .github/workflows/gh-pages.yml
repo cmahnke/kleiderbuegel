@@ -90,6 +90,11 @@ jobs:
         run: |
           ./scripts/print.sh
 
+      - name: Print cleanup
+        run: |
+          rm -rf docs/catalogue
+          find docs/post -name "*_*.png" -size +1M -type f -exec rm {} \;
+
       - name: Puppeteer
         run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh
 

@@ -1034,18 +1034,45 @@ section {
     align-items: center;
     page: nonr;
 
+    .page {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: center;
+    }
+
     figure {
       margin-block-start: 0;
       margin-block-end: 0;
       margin-inline-start: 0;
       margin-inline-end: 0;
-    }
 
-    img {
-      object-fit: contain;
-      aspect-ratio: 1/1;
-      width: 5cm;
-      min-width: 5cm;
+      &.cc,
+      &.cm {
+        display: flex;
+        justify-content: center;
+
+        img {
+          object-fit: contain;
+          /* aspect-ratio: 1/1; */
+        }
+      }
+
+      &.cc {
+        img {
+          width: 5cm;
+          min-width: 5cm;
+        }
+      }
+
+      &.cm {
+        margin-top: 1cm;
+
+        img {
+          width: 3cm;
+          min-width: 3cm;
+        }
+      }
     }
   }
 }
@@ -1058,6 +1085,7 @@ nav[role="doc-toc"] {
   font-size: xx-small;
   width: 100%;
   text-align: center;
+  margin-top: .5cm;
 }
 
 a {

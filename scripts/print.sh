@@ -5,8 +5,8 @@ set -e
 
 hugo -F -D --renderSegments print
 if [ -z "$1" ] ; then
-    # --preflight press-ready
-    npx vivliostyle build  --language de docs/print.html -o print.pdf
+    #--image ghcr.io/vivliostyle/cli:main --preflight press-ready
+    npx vivliostyle build --language de docs/print.html -o print.pdf
 else
     docker pull "$DOCKER_IMAGE"
     if [ $? -ne 0 ]; then
