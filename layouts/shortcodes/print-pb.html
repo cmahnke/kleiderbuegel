@@ -1,1 +1,8 @@
+{{- $footnotes := false -}}
+{{- with .Get "footnotes" -}}
+  {{- $footnotes = . -}}
+{{- end -}}
+{{- if $footnotes -}}
+  {{- partial "print/footnotes.html" .Page -}}
+{{- end -}}
 </div><div class="page">
