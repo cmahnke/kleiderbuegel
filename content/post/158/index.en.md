@@ -15,4 +15,6 @@ tags:
 related:
   - 81
   - 168
+remarks: |
+  Presumably designed by [Ingo Maurer](https://en.wikipedia.org/wiki/Ingo_Maurer)
 ---

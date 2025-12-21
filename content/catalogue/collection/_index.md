@@ -13,4 +13,4 @@ Die Präsentation als [Blog](https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.d
 
 Im Jahr 2024 wurde der Webseite die Anzeige von Geoinformationen hinzugefügt. Dafür wurde jeder bis dahin erfasste Bügel noch einmal überprüft und bei Bedarf eine umfangreichere Recherche durchgeführt. Dadurch konnten in vielen Fällen auch weitere externe Informationen verlinkt werden.
 
-Im Gegensatz zu vielen anderen Sammlungen werden die Sammlungsobjekte weiterhin benutzt. Das hat den Vorteil, dass man sich keine Gedanken über die Lagerung machen muss, solange genug Platz im Kleiderschrank vorhanden ist.
+Im Gegensatz zu vielen anderen Sammlungen werden die Objekte dieser Sammlung weiterhin benutzt. Das hat den Vorteil, dass man sich keine Gedanken über die Lagerung machen muss, solange genügend Platz im Kleiderschrank vorhanden ist. Das bedeutet allerdings auch, dass eine eventuelle Abnutzung in Kauf genommen wird.

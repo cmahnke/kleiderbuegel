@@ -58,7 +58,7 @@ Die Beschriftung lässt sich grob in zwei Kategorien unterteilen: Erstens dient 
 Es gibt außerdem weitere Klassifikationen, beispielsweise danach, ob ein Bügel repariert wurde, beidseitig bedruckt ist oder ob es sich um einen Scherzartikel oder einen Werbeträger handelt. Letzteres ist jedoch schwierig abzugrenzen, da die meisten Kleiderbügel mindestens auch Werbeträger sind.
 Hersteller von Bügeln sowie Handelsketten und Geschäfte werden zusätzlich getrennt verschlagwortet sofern es mehrere Bügel aus einer Quelle gibt.
 
-Da die Sammlung weiterhin in Gebrauch ist, werden Daten wie beispielsweise die Abmessungen nicht erfasst. Die Aufnahmen sind allerdings (meist) maßstabsgetreu, weshalb schmalere Bügel transparente Ränder haben.
+Da die Sammlung weiterhin in Gebrauch ist, werden Daten wie beispielsweise die Abmessungen nicht erfasst. Die Aufnahmen werden allerdings mit einer Breite von ca. 40 Zentimetern gemacht, weshalb schmalere Bügel transparente Ränder haben. Dadurch werden sie im Blog maßstabsgetreu präsentiert.
 
 ## Alte Schutzrechtsmarken
 

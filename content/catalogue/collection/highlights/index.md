@@ -19,11 +19,12 @@ Selbstverständlich sind die meisten Kleiderbügel auch Werbeträger, allerdings
 
 ## Avantgardistische Modelle der 1970er Jahre
 
-In den 1970er-Jahren gab es eine bemerkenswerte Welle sehr auffälliger Plastikkleiderbügel in kräftigen Farben. Sie zeichneten sich - soweit die Funktionalität es zuließ - durch ein eher unkonventionelles Design und eine flachere Form aus. Es gab verschiedene Varianten verschiedener Hersteller, was diese Phase so einzigartig macht. Nie zuvor oder danach gab es so explizite "Modekleiderbügel".
+In den 1970er-Jahren gab es eine bemerkenswerte Welle sehr auffälliger Plastik-Kleiderbügel in kräftigen Farben. Sie zeichneten sich – soweit die Funktionalität es zuließ – durch ein eher unkonventionelles Design mit runden Formen und einer flachen Gestaltung aus. Es gab verschiedene Varianten verschiedener Hersteller, die teilweise bekannten Designern zugeschrieben werden. Dies macht diese Phase einzigartig, denn nie zuvor oder danach gab es so explizite "Modekleiderbügel".
 
-* {{< print-ref slug="100" title=true >}}: Eine Variante, die im Netz öfter zu finden ist, das Design stammt von [Danilo Silvestrin](https://de.wikipedia.org/wiki/Danilo_Silvestrin). Auf den Aufklebern findet sich das Logo von Gunter Lambert.
+* {{< print-ref slug="100" title=true >}}: Eine Variante entworfen von von [Danilo Silvestrin](https://de.wikipedia.org/wiki/Danilo_Silvestrin), vertrieben von [Gunter Lambert](https://de.wikipedia.org/wiki/Gunther_Lambert).
+* {{< print-ref slug="140" title=true >}}: Eine Variante, die [Ingo Maurer](https://de.wikipedia.org/wiki/Ingo_Maurer) zugeschrieben wird.
 * {{< print-ref slug="252" title=true >}}: Es gibt auch eine Variante mit Ösen für Gürtel und Krawatten.
-* {{< print-ref slug="140" title=true >}}: Eine weitere Variante
+
 {.single}
 
 {{< print-pb >}}

@@ -16,5 +16,6 @@ related:
   - 158
   - 168
 remarks: |
-  See Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, p. 217
+  * See Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, p. 217
+  * Presumably designed by [Ingo Maurer](https://en.wikipedia.org/wiki/Ingo_Maurer)
 ---

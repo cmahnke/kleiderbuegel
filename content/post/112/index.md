@@ -12,4 +12,6 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Plastik"
+remarks: |
+  Vermutlich von Jürgen Lange für die Garderobe "Quadro" von Schönbuch entworfen
 ---

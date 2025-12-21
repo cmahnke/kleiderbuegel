@@ -11,7 +11,7 @@ Heutzutage sind Kleiderbügel aus Warenhäusern und von Bekleidungsketten meist 
 
 Gerade die Plastikbügel sind zu Wegwerfartikeln geworden. Oft findet man sie in Kisten mit der Beschriftung „zu verschenken” vor Bekleidungsgeschäften.
 
-Da Plastik aus ökologischen Gründen in den letzten Jahren zunehmend kritischer gesehen wird, gab es einige Initiativen, die sich auch des Kleiderbügels annahmen. So gibt es eine [Untersuchung](https://www.ifeu.de/fileadmin/uploads/Kurzauswertung_-_Kleiderb%C3%BCgel_f%C3%BCr_Damenkleider.pdf "Kleiderbügel für Damenkleider") aus dem Jahr 2021, die die Ökobilanz verschiedener Materialien beleuchtet. Letztlich kann festgehalten werden, dass die Mehrfachnutzung ökologisch immer sinnvoll ist.
+Da Plastik aus ökologischen Gründen in den letzten Jahren zunehmend kritischer gesehen wird, gab es einige Initiativen, die sich auch des Kleiderbügels annahmen. So gibt es eine [Untersuchung](https://www.ifeu.de/fileadmin/uploads/Kurzauswertung_-_Kleiderb%C3%BCgel_f%C3%BCr_Damenkleider.pdf "Kleiderbügel für Damenkleider") aus dem Jahr 2021, die die Ökobilanz verschiedener Materialien, wie Plastik und Metall, beleuchtet. Auch wenn die Untersuchung primär die Nutzung in gewerblichen Zusammenhängen betrachtet, lässt sich eine Erkenntnis verallgemeinern: Die Mehrfachnutzung ist aus ökologischer Sicht immer sinnvoll.
 
 Beim Material setzt beispielsweise auch "Hooks Creative" an: Diese Firma hat ["Biokleiderbügel"](https://hooks-creative.com/hangers/bio/ "Hooks Creative Biokleiderbügel") aus Kaffeesatz, Kartoffelstärke, Maisstärke oder Zuckerrohr entwickelt.
 

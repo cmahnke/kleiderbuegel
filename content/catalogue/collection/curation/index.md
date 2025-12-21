@@ -13,7 +13,7 @@ Wenn ein neuer Bügel erschlossen wird, werden zunächst die beschrifteten Seite
 
 Bügel mit Orts- und Kontextangaben, z.B. dem Geschäftsnamen sind dabei recht hilfreich, da sie einen Anhaltspunkt bieten. Oft reicht dieser zumindest für eine geografische Zuordnung. Da die meisten der Firmen, die die Bügel herausgegeben haben, nicht mehr existieren, eröffnet der Hinweis auf den Ort auch den Recherchezugang, z.B. die Suche in historischen Adressbüchern oder in Werbeteilen lokaler historischer Tageszeitungen. Eine große Hilfe ist dabei das [Portal Historischer Adressbücher](https://wiki.genealogy.net/Portal:Adressbuch) von GenWiki!, einem Angebot des [Vereins für Computergenealogie](https://wiki.genealogy.net/Verein_f%C3%BCr_Computergenealogie_e.V. "Verein für Computergenealogie"). Für Recherchen in alten Gewerberegistern bietet sich die Seite [NorthData](https://www.northdata.de/) an, die verschiedene Quellen vernetzt und aufbereitet. 
 
-Zusätzlich werden Schlagworte nach Material, Typ, Besonderheiten, Art des Ausgebers und weiteren Klassifikationen vergeben. Diese dienen dann auch der Erzeugung von Registern, wie sie am Ende dieses Bandes zu finden sind.
+Zusätzlich werden Schlagworte nach Material, Typ, Besonderheiten, Art des Ausgebers und weiteren Klassifikationen vergeben (siehe auch {{< print-ref slug="cataloguing" section="catalogue/collection" >}}). Diese dienen dann auch der Erzeugung der am Ende dieses Bandes zu findenden Register.
 
 Die Erweiterung der Sammlungsinformationen erfolgt seitdem kampagnenmäßig: Einmal im Jahr werden die Neuzugänge fotografiert, zusätzliche Informationen recherchiert und dann mit wöchentlichen Veröffentlichungsdaten versehen, sodass sich die Arbeit auf ein paar Wochen im Jahr konzentrieren lässt. 
 
