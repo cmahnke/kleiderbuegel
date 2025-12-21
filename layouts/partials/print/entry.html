@@ -91,9 +91,21 @@
         {{- end }}
         <div class="full-height-image-container">
           {{- if gt $front.Width $front.Height -}}
-            {{- with $front.Resize (printf "%dx%d r270 webp picture" $front.Height $front.Width) -}}
-              <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "front" }}" />
+            {{- $size := mul $front.Width $front.Height -}}
+            {{/*
+            {{- if gt $size (mul 3072 2560) -}}
+              {{- warnf "[print/entry.html] Large image detected (%dx%d) %d for %s, using png instead of webp." $front.Width $front.Height $size .RelPermalink -}}
+            */}}
+              {{- with $front.Resize (printf "%dx%d r270 png" $front.Height $front.Width) -}}
+                <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "front" }}" />
+              {{- end }}
+            {{/*
+            {{- else -}}
+              {{- with $front.Resize (printf "%dx%d r270 webp picture" $front.Height $front.Width) -}}
+                <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "front" }}" />
+              {{- end }}
             {{- end }}
+            */}}
           {{- else -}}
             {{- with $front -}}
               <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "front" }}" />
