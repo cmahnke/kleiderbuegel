@@ -10,6 +10,3 @@
 [submodule "themes/projektemacher-base"]
 	path = themes/projektemacher-base
 	url = https://github.com/cmahnke/projektemacher-base.git
-[submodule "themes/hugo-xml-exporter"]
-	path = themes/hugo-xml-exporter
-	url = https://github.com/cmahnke/hugo-xml-exporter.git
