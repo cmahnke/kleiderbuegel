@@ -73,16 +73,7 @@ jobs:
         run: |
           ./scripts/post-build/index.sh
 
-      # - name: Create print HTML
-      #   run: |
-      #     hugo -F --renderSegments print
-
-      # - name: Generate catalogue
-      #   run: |
-      #     docker run -v `pwd`:`pwd` -w `pwd` yeslogic/prince:latest --fileroot `pwd`/docs docs/print.html -o catalogue.pdf
-      #     gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dPDFSETTINGS=/ebook -dFastWebView -dUseCropBox -dNOPAUSE -dBATCH -sOutputFile=docs/catalogue.pdf catalogue.pdf
-
-      - name: Create print HTML
+      - name: Create print PDF
         run: |
           ./scripts/print.sh
 
