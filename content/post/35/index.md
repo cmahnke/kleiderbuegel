@@ -19,7 +19,7 @@ resources:
 - src: "back.png"
   params:
     iiif: back/info.json
-    content: Für gute Kleidung Ebbinghaus
+    content: Berlin hat es längst heraus . . . .
 source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 address: Bundesallee 104, Berlin
 geojson:
@@ -33,4 +33,5 @@ remarks: |
   * [Gebäude von Hans Schaefers](https://germanpostwarmodern.tumblr.com/post/183043684215/clothing-store-ebbinghaus-1962-in-berlin)
   * [Das Gebäude ind der Berliner Denkmaldatenbank](https://denkmaldatenbank.berlin.de/daobj.php?obj_dok_nr=09066180)
 ---
-Berlin hat es längst heraus . . . .
+
+Für gute Kleidung Ebbinghaus

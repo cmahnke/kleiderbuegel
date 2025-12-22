@@ -4,6 +4,5 @@ outputs:
   - iiif-collection
   - html
   - rss
-  - xml-export
   - print
 ---
