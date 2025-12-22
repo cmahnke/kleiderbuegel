@@ -19,7 +19,7 @@ Stoff ist eher selten als Material zu finden und wird in der Regel als Schutzüb
 
 ## Typen von Bügeln
 
-Da es Kleiderbügel in verschiedenen Varianten gibt, werden besondere erfasst. Beispiele hierfür sind spezialisierte Anwendungszwecke oder zusätzliche Funktionen. 
+Da es Kleiderbügel in verschiedenen Varianten gibt, werden besondere erfasst. Beispiele hierfür sind spezialisierte Anwendungszwecke oder zusätzliche Funktionen.
 
 * **Anwendungszweck**
   * Hosenbügel
