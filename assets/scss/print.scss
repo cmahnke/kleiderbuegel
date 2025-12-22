@@ -994,6 +994,16 @@ section {
 
   }
 
+  &.anatomy {
+    .anatomy {
+      height: calc(100vh - 2em - 6pt - 1cm);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
   &.colophon {
     ul,
     p {
