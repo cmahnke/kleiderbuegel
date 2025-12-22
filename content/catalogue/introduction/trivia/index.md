@@ -1,11 +1,19 @@
 ---
-title: Kleiderbügel als Bastelobjekte
+title: Spaß mit Kleiderbügeln
 layout: print
 weight: 18
 params:
   print: true
   show_title: true
 ---
+
+Auch wenn die Aufzählung nicht abschließend ist, soll an dieser Stelle schließlich noch weitere mögliche Verwendungszweck erwähnt werden.
+
+## Scherzartikel
+
+Kleiderbügel können auch als Scherzartikel eingesetzt werden. Vermutlich ist es dem Nutzwert und den vergleichsweise niedrigen Herstellungskosten zu verdanken, dass sich Kleiderbügel auch als Scherzartikel und Gelegenheitsgeschenk eignen. Beispiele dafür finden sich im Katalog.
+
+## Kleiderbügel als Bastelobjekte
 
 Bei der Suche nach neuen Sammlungsobjekten stößt man auch häufig auf modifizierte Kleiderbügel, da diese auch beliebte Bastelobjekte sind. Am bekanntesten ist sicherlich der umhäkelte Bügel. Er dient nicht nur dazu, einen (Holz-) Kleiderbügel farbenfroher zu gestalten, sondern ist auch praktisch. Während lackierte Holzbügel häufig "rutschig" sind, sorgt der selbst gebastelte Überzug dafür, dass Kleidungsstücke nicht mehr herunterrutschen.
 

@@ -24,6 +24,7 @@ Die Anzahl an Kleiderbügelsammlern ist überschaubar, hier die medial präsente
 * [Bayern 2: Von dem Nutzen und der Schönheit des Kleiderbügels (26.3.2019)](https://www.br.de/radio/bayern2/von-dem-nutzen-und-der-schoenheit-des-kleiderbuegels-zeit-fuer-bayern-100.html)
 * [Museen der Stadt Nürnberg: Ausstellung „Aufgehängt und abgehakt“ (21.2.2019)](https://museenblog-nuernberg.de/2019/02/21/aufgehaengt-und-abgehakt/?pk_campaign=Teaser&pk_kwd=ausstellung_kleiderbuegel_ik)
 * [Bayerischer Rundfunk | Frankenschau: Eine verrückte Sammlung: Über 3000 Kleiderbügel (19.2.2019)](https://www.youtube.com/watch?v=4lOiqDQEE88)
+* [Kleiderbügelprivatmuseumsdirektor: Matthias Dülp und seine faszinierende Sammlung](https://www.mawa.de/de/mawa-blog/kleiderbuegelprivatmuseumsdirektor-matthias-duelp-und-seine-faszinierende-sammlung)
 
 ### Beiträge mit und über Eberhard Rhode
 
@@ -41,3 +42,18 @@ Die Anzahl an Kleiderbügelsammlern ist überschaubar, hier die medial präsente
 * [buegel.de](https://www.buegel.de/service-kontakt/logodruck/)
 * [pieper hangers](https://www.pieperhangers.de)
 * [weber Kleiderbügel](https://weber-kleiderbuegel.lwa-wip.de/produkte/kleiderbuegel-mit-druck/)
+
+## Ausstellungen
+* [Kleiderbügel erzählen Geschichte](https://westerwaldmuseum.de/pressestimmen/kleiderbuegel-erzaehlen.html)
+
+## Blog und Zeitungsbeiträge Beiträge 
+
+* [Ein Kleiderbügel erzählt eine Geschichte](https://www.aktives-museum-suedwestfalen.de/ein-kleiderbuegel-erzaehlt-eine-geschichte/)
+* [Kleiderbügel-Geschichten](https://www.lokalkompass.de/essen-nord/c-kultur/kleiderbuegel-geschichten-teil-1_a550914)
+* [Kleiderbügel aus Garnhülsen und Draht](https://industriemuseum.lvr.de/de/sammlung/sammlung_entdecken/oekologie___recycling/kleiderbuegel/Kleiderbuegel_aus_Garnhuelsen_und_Draht.html)
+* [Was Kleiderbügel erzählen können](https://www.welt.de/print-welt/article193101/Was-Kleiderbuegel-erzaehlen-koennen.html)
+
+## Unternehmen(-sgeschichten)
+
+* [Weber Kleiderbügel](https://weber-hangers.com/ueber-uns/das-unternehmen/)
+* [pieper hangers](https://www.pieperhangers.de/index.htm)
