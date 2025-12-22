@@ -1,7 +1,7 @@
 ---
 title: "Sammlungen, Museen und Ausstellungen"
 layout: print
-weight: 18
+weight: 12
 params:
   print: true
   show_title: false

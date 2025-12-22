@@ -17,4 +17,6 @@ Beim Material setzt beispielsweise auch "Hooks Creative" an: Diese Firma hat ["B
 
 Auch in anderen Bereichen finden Innovationen statt: 2024 gewann der Schüler Lucas Li aus Baden-Baden mit seinem Projekt ["TheHänger"](https://www.jugend-forscht.de/projektdatenbank/thehaenger.html "TheHänger") bei Jugend forscht einen Preis für einen faltbaren Kleiderbügel.
 
+[Ingo Maurer](https://de.wikipedia.org/wiki/Ingo_Maurer) hat die Lüsterinstallation ["Oh Man, it's a Ray!"](https://www.ingo-maurer.com/de/produkte/oh-man-its-a-ray/ "&quot;Oh Man, it's a Ray!&quot; von Ingo Maurer") entworfen, die an ein Mobile aus Kleiderbügeln erinnert.
+
 Der Weltmarkt für Kleiderbügel hatte im Jahr 2024 einen Umfang von geschätzten [2,5 Milliarden US-Dollar](https://www.verifiedmarketreports.com/de/product/clothes-hangers-coat-hangers-market/ "Global Clothes Hangers (Coat Hangers) Market Size"), daher ist auch weiterhin mit Neuerungen zu rechnen.

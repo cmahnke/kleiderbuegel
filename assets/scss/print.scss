@@ -636,6 +636,18 @@ section {
   .page {
     position: relative;
 
+    h2:first-child {
+      padding-top: 4.5pt;
+      padding-bottom: 4.5pt;
+      margin-bottom: 6pt;
+    }
+
+    h3:first-child {
+      padding-top: 7.875pt;
+      padding-bottom: 7.875pt;
+      margin-bottom: 6pt;
+    }
+
     .footnote-container {
       position: absolute;
       bottom: 0;
@@ -652,7 +664,7 @@ section {
       width: fit-content;
       height: fit-content;
 
-      @for $i from 3 through 7 {
+      @for $i from 3 through 9 {
         $number: $i * 10;
         $height-value: $i * 10vh;
         &.height-#{$number} {
@@ -660,6 +672,14 @@ section {
           img {
             height: #{$height-value};
           }
+        }
+      }
+
+      &.width-100 {
+        img {
+          width: 100%;
+          height: auto;
+          max-width: 100vw;
         }
       }
 

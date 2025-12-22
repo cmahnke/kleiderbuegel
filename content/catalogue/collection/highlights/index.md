@@ -24,7 +24,6 @@ In den 1970er-Jahren gab es eine bemerkenswerte Welle sehr auffälliger Plastik-
 * {{< print-ref slug="100" title=true >}}: Eine Variante entworfen von von [Danilo Silvestrin](https://de.wikipedia.org/wiki/Danilo_Silvestrin), vertrieben von [Gunter Lambert](https://de.wikipedia.org/wiki/Gunther_Lambert).
 * {{< print-ref slug="140" title=true >}}: Eine Variante, die [Ingo Maurer](https://de.wikipedia.org/wiki/Ingo_Maurer) zugeschrieben wird.
 * {{< print-ref slug="252" title=true >}}: Es gibt auch eine Variante mit Ösen für Gürtel und Krawatten.
-
 {.single}
 
 {{< print-pb >}}
