@@ -1163,7 +1163,7 @@
         },{
           "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/manifest.json",
           "type": "Manifest","thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front_hu_d212dc7c1f27e982.png",
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front_hu_d9d68c708e1c5cc5.png",
     "format": "image/jpeg",
     "type":"Image",
     "height": 128,
@@ -1172,8 +1172,8 @@
         "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front/full/full/0/default.jpg",
         "format": "image/jpeg",
         "type":"Image",
-        "height": 1658,
-        "width": 3883,
+        "height": 1661,
+        "width": 3882,
         "service": [{
           "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front",
           "type": "ImageService2",

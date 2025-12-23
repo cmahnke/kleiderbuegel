@@ -8,7 +8,7 @@
   "value": {"de": ["Bereitgestellt von Projektemacher"]}
 }
 ,"thumbnail": [{
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front_hu_d212dc7c1f27e982.png",
+    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front_hu_d9d68c708e1c5cc5.png",
     "format": "image/jpeg",
     "type":"Image",
     "height": 128,
@@ -17,8 +17,8 @@
         "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front/full/full/0/default.jpg",
         "format": "image/jpeg",
         "type":"Image",
-        "height": 1658,
-        "width": 3883,
+        "height": 1661,
+        "width": 3882,
         "service": [{
           "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front",
           "type": "ImageService2",
@@ -73,10 +73,10 @@
     ]}
 ,"items": [{
           "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/canvas/front",
-          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 1658,
-            "width": 3883,
+          "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 1661,
+            "width": 3882,
             "thumbnail": [{
-                "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front_hu_d212dc7c1f27e982.png",
+                "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front_hu_d9d68c708e1c5cc5.png",
                 "format": "image/jpeg",
                 "type":"Image",
                 "height": 128,
@@ -92,8 +92,8 @@
               "body":{"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front/full/full/0/default.jpg",
                   "type": "Image",
                   "format": "image/jpeg",
-                  "height": 1658,
-                  "width": 3883,
+                  "height": 1661,
+                  "width": 3882,
                   "service": [{
                     "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/front",
                     "type": "ImageService2",
@@ -104,10 +104,10 @@
           }]
        },{
           "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/canvas/back",
-          "type": "Canvas","label": {"de":["Rückansicht"],"en":["Back"]},"height": 1661,
-            "width": 3882,
+          "type": "Canvas","label": {"de":["Rückansicht"],"en":["Back"]},"height": 1658,
+            "width": 3883,
             "thumbnail": [{
-                "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/back_hu_d9d68c708e1c5cc5.png",
+                "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/back_hu_d212dc7c1f27e982.png",
                 "format": "image/jpeg",
                 "type":"Image",
                 "height": 128,
@@ -123,8 +123,8 @@
               "body":{"id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/back/full/full/0/default.jpg",
                   "type": "Image",
                   "format": "image/jpeg",
-                  "height": 1661,
-                  "width": 3882,
+                  "height": 1658,
+                  "width": 3883,
                   "service": [{
                     "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/back",
                     "type": "ImageService2",

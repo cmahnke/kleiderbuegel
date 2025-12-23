@@ -1279,7 +1279,7 @@
   "type": "Feature",
   "properties": {
       "name": "Ebbinghaus",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eEbbinghaus\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eBerlin hat es längst heraus . . . .\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBundesallee 104, Berlin\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eEbbinghaus\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eFür gute Kleidung Ebbinghaus\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBundesallee 104, Berlin\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/35/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
   "geometry": {
     "type": "Point",
