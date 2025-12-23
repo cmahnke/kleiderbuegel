@@ -70,6 +70,14 @@ html[lang="de"] {
 
 }
 
+/*
+ul,
+p {
+  margin-block-start: 10pt;
+  margin-block-end: 10pt;
+}
+*/
+
 .page {
   counter-reset: link;
 }
@@ -992,6 +1000,14 @@ section {
 
   &.acknowledgements {
 
+  }
+
+  &.stories {
+    ul, 
+    ul + p {
+      margin-top: 10pt;
+      margin-bottom: 10ptem;
+    }
   }
 
   &.anatomy {
