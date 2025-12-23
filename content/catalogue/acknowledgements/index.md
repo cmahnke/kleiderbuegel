@@ -1,7 +1,7 @@
 ---
 title: Danksagungen
 layout: print
-weight: 1001
+weight: 1011
 params:
   print: true
   show_title: true

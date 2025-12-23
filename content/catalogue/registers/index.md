@@ -1,18 +1,15 @@
 ---
-title: Titelseite
+title: Register
 layout: print
-weight: 1
+weight: 101
 params:
   print: true
   toc: false
-  numbered: false
-#  following_blank: true
+  show_title: false
 ---
 
 <div class="title-heading">
-  <h2>Die</h2>
-  <h1>Kleiderbügel</h1>
-  <h2>-sammlung Christian Mahnke</h2>
+  <h1>Register</h1>
 </div>
 
 {{< print-image
@@ -21,8 +18,3 @@ params:
   class="title-logo"
   link="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/" >}}
 
-* Q815240
-* 300239360
-* 4418
-* 17199
-{.bg}

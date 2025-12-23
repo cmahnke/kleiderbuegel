@@ -45,16 +45,16 @@
   {{- errorf "[print/print-pages.html] Needs params as dict, not just context" .RelPermalink -}}
 {{- end -}}
 
-{{/*
-{{- $pages := where $allPages ".Weight" $op $weight }}
-*/}}
 {{- $pages := slice -}}
 {{- if len $filter -}}
   {{-  range $index, $f := $filter -}}
     {{- if eq $index 0 -}}
       {{- $pages = where $allPages ".Weight" $f.op $f.weight -}}
     {{- else -}}
+      {{/*
       {{- $pages = $pages | append (where $pages ".Weight" $f.op $f.weight) -}}
+      */}}
+      {{- $pages = where $pages ".Weight" $f.op $f.weight -}}
     {{- end -}}
   {{- end -}}
   {{- $pages = $pages | uniq -}}

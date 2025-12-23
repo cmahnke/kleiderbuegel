@@ -14,7 +14,7 @@ params:
 </div>
 
 {{< print-image
-  src="hanger.svg"
+  src="../../images/hanger.svg"
   alt="Schatten eines Drahtkleiderbügels"
   class="title-logo"
   link="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/" >}}

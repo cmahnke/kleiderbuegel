@@ -1,7 +1,7 @@
 ---
 title: Kolophon
 layout: print
-weight: 1002
+weight: 1012
 params:
   print: true
   show_title: true

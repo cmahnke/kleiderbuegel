@@ -715,6 +715,7 @@ section {
   }
 
   &.title,
+  &.registers,
   &.catalogue {
     position: relative;
 
@@ -764,6 +765,7 @@ section {
     }
   }
 
+  &.registers,
   &.catalogue {
     .page {
       display: flex;
@@ -1017,6 +1019,27 @@ section {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+  }
+
+  &.types {
+    .images {
+      columns: 2;
+      gap: 1cm;
+      padding-inline-start: 0;
+      list-style-type: none;
+
+      .content-image {
+        width: inherit;
+        margin:  unset;
+        max-width: unset;
+
+        svg {
+          width: 100%;
+        }
+      }
+
+      li {}
     }
   }
 
