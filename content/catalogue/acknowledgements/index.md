@@ -13,6 +13,7 @@ Dank an alle, die den Aufbau der Sammlung unterstützt haben:
 
 Zusätzlich an die folgenden Spenderinnen und Spender:
 * **Helga Mahnke**
+* **Wiebke Mahnke**
 * **Ingo Pfennigstorf**
 * **Karsten Heck**
 * **Gisela Thöne**
