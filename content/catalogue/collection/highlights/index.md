@@ -41,7 +41,7 @@ Auch das in den 1950er-Jahren noch relativ neue Material Plastik hat Innovatione
 * {{< print-ref slug="206" title=true >}}: Ein Bügel mit Wäscheklammern.
 {.single}
 
-Der Bügel mit integrierter Kleiderbürste ({{< print-ref slug="250" >}}) aus der Zeit, in der Teak skandinavisches Lebensgefühl transportierte, ist schon fast ein Klassiker. Aus dem ausgehenden 20 Jahrhundert stammt der Kravattenbügel ({{< print-ref slug="261" >}}).
+Der Bügel mit integrierter Kleiderbürste ({{< print-ref slug="250" >}}) aus der Zeit, in der Teak skandinavisches Lebensgefühl transportierte, ist schon fast ein Klassiker. Aus dem ausgehenden 20. Jahrhundert stammt der Krawattenbügel ({{< print-ref slug="261" >}}).
 
 ## Typografisch interessante Bügel
 

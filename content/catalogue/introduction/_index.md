@@ -32,6 +32,6 @@ Neben ihrem offensichtlichen Nutzwert haben Kleiderbügel durch Beschriftungen u
 
 Ab den 1960er Jahren wurden Bügel dann auch umfassender gestaltet. Gerade Plastikbügel eignen sich für modernere Druckverfahren wie den Siebdruck, der auch eine farbige Bedruckung zulässt.
 
-Eine weitere Funktion von Beschriftungen war die des Besitznachweises, insbesondere wenn ein Bügel nicht zum Mitnehmen gedacht war. Ein Beispiel hierfür sind Hotels. Dies dürfte jedoch den gegenteiligen Effekt gehabt haben und den Diebstahl von Kleiderbügeln als "nützliches Souvenir" eher befördert haben - ähnlich wie bei anderen mit Logos und Werbeaufdrucken versehenen Gegenständen, wie beispielsweise Besteck oder Aschenbechern.
+Eine weitere Funktion von Beschriftungen war die des Besitznachweises, insbesondere wenn ein Bügel nicht zum Mitnehmen gedacht war. Ein Beispiel hierfür sind Hotels. Dies dürfte jedoch den gegenteiligen Effekt gehabt haben und den Diebstahl von Kleiderbügeln als "nützliches Souvenir" eher befördert haben - ähnlich wie bei anderen mit Logos und Werbeaufdrucken versehenen Gegenständen wie beispielsweise Besteck oder Aschenbechern.
 
 Durch die Zuordnung typografischer Eigenschaften lassen sich Bügel grob datieren. Denn Werbung spiegelt immer auch den ästhetischen Geschmack einer Zeit oder Mode wider.

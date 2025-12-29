@@ -7,7 +7,7 @@ params:
   show_title: true
 ---
 
-Auch wenn die Aufzählung nicht abschließend ist, soll an dieser Stelle schließlich noch weitere mögliche Verwendungszweck erwähnt werden.
+Auch wenn die Aufzählung nicht abschließend ist, sollen an dieser Stelle schließlich noch weitere mögliche Verwendungszweck erwähnt werden.
 
 ## Scherzartikel
 
