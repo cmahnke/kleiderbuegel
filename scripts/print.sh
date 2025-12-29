@@ -18,6 +18,7 @@ else
         exit 1
     fi
 
+    ICC_PROFILE=ISOcoated_v2_eci.icc
     ICC_PROFILE_DIR=""
     if [ -d "/usr/share/color/icc" ] ; then
         ICC_PROFILE_DIR="/usr/share/color/icc"
@@ -27,37 +28,32 @@ else
         ICC_PROFILE_DIR="/Library/ColorSync/Profiles"
     fi
 
-    echo "Using ICC Profiles from $ICC_PROFILE_DIR"
+    if [ ! -f "$ICC_PROFILE_DIR$ICC_PROFILE" ] ; then
+      wget -nc https://github.com/GitBruno/myProfiles/raw/refs/heads/master/ECI_Offset_2009/ISOcoated_v2_eci.icc
+      ICC_PROFILE_DIR="."
+      echo "Downloaded ICC profile"
+    else 
+      echo "Using ICC Profiles from $ICC_PROFILE_DIR"
+    fi
 
-    wget -nc https://github.com/GitBruno/myProfiles/raw/refs/heads/master/ECI_Offset_2009/ISOcoated_v2_eci.icc
     hugo -F -D --environment print --renderSegments print
-    npx vivliostyle build --preflight press-ready --preflight-option  --language de docs/print.html -o print-press-ready.pdf
+    npx vivliostyle build --preflight press-ready --preflight-option boundary-boxes --language de docs/print.html -o print-press-ready.pdf
 
-    gs -dPDFX4 -dBATCH -dNOPAUSE -dSAFER -sDEVICE=pdfwrite \
-      -dCompatibilityLevel=1.6 -dPDFSETTINGS=/printer \
-      -dDEVICEWIDTHPOINTS=612.28 -dDEVICEHEIGHTPOINTS=612.28 -dFIXEDMEDIA \
-      -sProcessColorModel=DeviceCMYK -sColorConversionStrategy=UseDeviceIndependentColor -sDefaultRGBProfile=sRGB.icc -sOutputICCProfile=ISOcoated_v2_eci.icc \
-      -sOutputFile=print-press-ready_bleed.pdf \
-      -c '<</PageOffset [8.5 8.5]>> setpagedevice' \
-      -c '<< /TrimBox [8.5 8.5 603.78 603.78] /BleedBox [0 0 612.28 612.28] >> setpagedevice' \
-      -f print-press-ready.pdf
+    # See https://ghostscript.readthedocs.io/en/latest/VectorDevices.html
+    # gs -dPDFX=4 -dBATCH -dNOPAUSE -dSAFER -sDEVICE=pdfwrite \
+    ##  -units PixelsPerInch -density 600 \
+    #   -dPDFSETTINGS=/print -r600 -dGrayImageResolution=600 -dMonoImageResolution=600 -dColorImageResolution=600 \
+    #   -dCompatibilityLevel=1.6 -dPDFSETTINGS=/printer \
+    #   -dDEVICEWIDTHPOINTS=612.28 -dDEVICEHEIGHTPOINTS=612.28 -dFIXEDMEDIA \
+    #   -sProcessColorModel=DeviceCMYK -sColorConversionStrategy=UseDeviceIndependentColor -sDefaultRGBProfile=sRGB.icc \
+    #   -sOutputFile=print-press-ready_X4.pdf \
+    #   -c '<</PageOffset [8.5 8.5]>> setpagedevice' \
+    #   -c '<< /TrimBox [8.5 8.5 603.78 603.78] /BleedBox [0 0 612.28 612.28] >> setpagedevice' \
+    #   -f print-press-ready.pdf
 
 
+    #-sICCProfilesDir=$ICC_PROFILE_DIR -sOutputICCProfile=ISOcoated_v2_eci.icc \
+    # -sICCProfilesDir=$ICC_PROFILE_DIR -sOutputICCProfile=ISOcoated_v2_eci.icc
 
-
-    gs -dPDFX4 -dBATCH -dNOPAUSE -dSAFER -sDEVICE=pdfwrite -dCompatibilityLevel=1.6 -dPDFSETTINGS=/printer \
-       -dDEVICEWIDTHPOINTS=612.28 -dDEVICEHEIGHTPOINTS=612.28 -dFIXEDMEDIA \
-       -sProcessColorModel=DeviceCMYK -sColorConversionStrategy=UseDeviceIndependentColor -sDefaultRGBProfile=sRGB.icc -sOutputICCProfile=ISOcoated_v2_eci.icc \
-       -sOutputFile=print-press-ready_X4.pdf \
-       -c '<</PageOffset [8.5 8.5] /BeginPage { [/TrimBox [8.5 8.5 603.78 603.78] /BleedBox [0 0 612.28 612.28] /PUT pdfmark } >> setpagedevice' \
-       -f ./config/print/pdfx_settings.ps print-press-ready.pdf
-       #-c '<</PageOffset [8.5 8.5]>> setpagedevice' \
-       #-c '[/PAGES << /TrimBox [8.5 8.5 603.78 850.39] /BleedBox [0 0 612.28 858.89] >> /PUT pdfmark' \
-       #-f print-press-ready.pdf
-    # -sICCProfilesDir=$ICC_PROFILE_DIR
-    # ./config/print/pdfx_settings.ps \
-    #-c "[/CurPage << /TrimBox [8.5 8.5 603.78 850.39] /BleedBox [0 0 612.28 858.89] >> /PUT pdfmark" \
-
-#   -sProcessColorModel=DeviceCMYK -sColorConversionStrategy=CMYK \
 
 fi

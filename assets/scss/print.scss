@@ -8,7 +8,7 @@
 
 @use "leaflet/leaflet" as *;
 @use "print-map" as *;
-
+@use "hugo:vars" as v;
 
 $heading-font: 'Bodoni Moda', times;
 $body-font: 'Space Grotesk Variable', serif;
@@ -21,6 +21,10 @@ $image-width: 61.8%;
   size: 210mm 210mm !important;
   margin-top: 1cm;
   margin-bottom: 1cm;
+
+  @if v.$print {
+    bleed: 3mm;
+  }
   /* marks: crop cross; */
 
   @footnote {
@@ -202,18 +206,16 @@ article {
 
       .text {
         display: grid;
-        grid-template-rows: 4.5cm 4fr 1fr; /* 2fr 4fr 1fr; */
+        grid-template-rows: 4.5cm 4fr 1fr;
         width: $text-width;
         z-index: 100;
         flex-direction: column;
         position: relative;
-        /* hyphens: auto; */
 
         .heading-top,
         .heading-front,
         .heading-back {
           font-variant: all-small-caps;
-          /*margin-top: -.5cm; */
 
           span {
             padding: 0 .2rem;
@@ -221,10 +223,11 @@ article {
             background-color: white;
 
             @media screen {
-              text-shadow: 0 0 10px white;
               padding: unset;
               border-radius: unset;
               background-color: unset;
+              text-shadow: 0 0 3mm white, 0 0 1.5mm white, 0 0 2mm white, 0 0 2mm white,
+                         0 0 1mm white, 0 0 1mm white, 0 0 1.5mm white;
             }
           }
         }

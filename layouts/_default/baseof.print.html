@@ -21,7 +21,11 @@
     {{ $t := time.Now }}
     {{ $format := "2 Jan 2006" }}
     <meta name="date" content="{{ $t.Format $format }}"/>
-    {{- $cssOptions := dict "outputStyle" "compressed" "transpiler" "dartsass" "targetPath" "css/print.css" "includePaths" (slice "assets/css") -}}
+    {{- $scssVars := dict "print" (css.Unquoted false) -}}
+    {{- if eq hugo.Environment "print" -}}
+      {{- $scssVars = dict "print" (css.Unquoted true) -}}
+    {{- end -}}
+    {{- $cssOptions := dict "outputStyle" "compressed" "transpiler" "dartsass" "targetPath" "css/print.css" "includePaths" (slice "assets/css") "vars" $scssVars -}}
     {{- $css := resources.Get "scss/print.scss" | toCSS $cssOptions | fingerprint -}}
     {{ with resources.Get "js/print.js" }}
       {{$opts := dict
