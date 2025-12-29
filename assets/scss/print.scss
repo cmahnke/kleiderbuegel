@@ -2,9 +2,10 @@
 @use "npm-fonts/bodoni-moda" as * with (
   $font-base-path: '../'
 );
-@use "npm-fonts/space-grotesk" as * with (
+@use "npm-fonts/space-grotesk-variable" as * with (
   $font-base-path: '../'
 );
+
 @use "leaflet/leaflet" as *;
 @use "print-map" as *;
 

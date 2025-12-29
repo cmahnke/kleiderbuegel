@@ -1,5 +1,11 @@
 @use "print-map-marker";
 
+@use "npm-fonts/space-grotesk" as * with (
+  $font-base-path: '../'
+);
+
+$map-font: 'Space Grotesk', sans-serif;
+
 .map-wrapper {
     height: 100%;
     display: flex;
@@ -12,6 +18,9 @@
         display: block;
     }
 
+    .leaflet-labels-pane svg text {
+      font-family: $map-font;
+    }
 
     .leaflet-container {
       max-height: 100vh;

@@ -10,7 +10,7 @@ import cssStyle from "leaflet/dist/leaflet.css";
 import markerStyle from "../../scss/print-map-marker.scss";
 
 const fontPath = undefined;
-const defaultFonts = "Space Grotesk Variable";
+const defaultFonts = "'Space Grotesk', sans-serif";
 
 const languageDetector = new LanguageDetector(null, {order: ['querystring',  'navigator', 'htmlTag', 'path'],
     lookupQuerystring: 'lang',
