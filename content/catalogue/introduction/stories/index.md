@@ -38,7 +38,7 @@ Viele dieser erzwungenen Verkäufe wurden nach dem Zweiten Weltkrieg nicht direk
 {{< print-pb >}}
 ### Kleiderbügel als Forschungsgegenstand
 
-In der (kultur-) geschichtlichen Forschung finden sich vereinzelt Hinweise auf Kleiderbügel. Exemplarisch sei hier ein Eintrag im Blog des Focke-Museums Bremen genannt. Dort berichtet Asmut Brückmann, wie ein gespendeter Kleiderbügel an das [Schicksal der Bremer Kaufmannsfamilie Silbermann](https://www.focke-museum.de/2021/01/28/ein-scheinbar-unscheinbarer-kleiderbuegel/ "Focke Museum: Über das Schicksal der Bremer Kaufmannsfamilie Silbermann") erinnert.
+Wie bei den zuvor gezeigten Beispielen werden Kleiderbügel auch von der (kultur-) geschichtlichen Forschung als Quellen verwendet: Exemplarisch sei hier ein Eintrag im Blog des Focke-Museums Bremen genannt. Dort berichtet Asmut Brückmann, wie ein gespendeter Kleiderbügel an das [Schicksal der Bremer Kaufmannsfamilie Silbermann](https://www.focke-museum.de/2021/01/28/ein-scheinbar-unscheinbarer-kleiderbuegel/ "Focke Museum: Über das Schicksal der Bremer Kaufmannsfamilie Silbermann") erinnert.
 In der Sammlung befinden sich einige Kleiderbügel, die mit "Arisierungen" und Verfolgungen im "3. Reich" in Zusammenhang stehen.
 
 ## Krieg
