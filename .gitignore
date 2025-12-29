@@ -39,3 +39,5 @@ print.pdf
 book.pdf
 .vs-*
 .vivliostyle
+ISOcoated_v2_eci.icc
+print*.pdf
