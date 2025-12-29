@@ -7,7 +7,7 @@ params:
   show_title: true
 ---
 
-Die einzelnen Kleiderbügel werden nach verschiedenen Kriterien katalogisiert. Auf dieser Grundlage werden beispielsweise die Register am Ende des Bandes oder die Statistik ({{ print-ref section="catalogue/collection" slug="statistics"}}) generiert.
+Die einzelnen Kleiderbügel werden nach verschiedenen Kriterien katalogisiert. Auf dieser Grundlage werden beispielsweise die Register am Ende des Bandes oder die Statistik ({{< print-ref section="catalogue/collection" slug="statistics" >}}) generiert.
 
 ## Materialien
 
@@ -19,7 +19,7 @@ Stoff ist eher selten als Material zu finden und wird in der Regel als Schutzüb
 
 ## Typen von Bügeln
 
-Da es Kleiderbügel in verschiedenen Varianten gibt, werden besondere erfasst. Beispiele hierfür sind spezialisierte Anwendungszwecke oder zusätzliche Funktionen.
+Da es Kleiderbügel in verschiedenen Varianten gibt, werden Besonderheiten erfasst. Beispiele hierfür sind spezialisierte Anwendungszwecke oder zusätzliche Funktionen.
 
 * **Anwendungszweck**
   * Hosenbügel
