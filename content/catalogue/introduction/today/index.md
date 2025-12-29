@@ -7,9 +7,9 @@ params:
   show_title: true
 ---
 
-Heutzutage sind Kleiderbügel aus Warenhäusern und von Bekleidungsketten meist aus Plastik. Luxus-Boutiquen setzen jedoch nach wie vor auf Holz als Material und auf eine aufwendige Gestaltung, um den Luxuscharakter zu unterstreichen. Andere Exemplare aus Holz sind eher den Wohnaccessoires zuzuordnen und daher auch in Möbel- oder Einrichtungshäusern erhältlich.
+Heutzutage sind Kleiderbügel aus Warenhäusern und von Bekleidungsketten meist aus Plastik. Boutiquen des höheren Preissegments setzen jedoch nach wie vor auf Holz als Material und auf eine aufwendige Gestaltung, um den Luxuscharakter zu unterstreichen. Andere Exemplare aus Holz sind eher den Wohnaccessoires zuzuordnen und daher auch in Möbel- oder Einrichtungshäusern erhältlich.
 
-Gerade die Plastikbügel sind zu Wegwerfartikeln geworden. Oft findet man sie in Kisten mit der Beschriftung „zu verschenken” vor Bekleidungsgeschäften.
+Gerade die Plastikbügel sind zu Wegwerfartikeln geworden. Oft findet man sie in Kisten mit der Beschriftung "zu verschenken" vor Bekleidungsgeschäften.
 
 Da Plastik aus ökologischen Gründen in den letzten Jahren zunehmend kritischer gesehen wird, gab es einige Initiativen, die sich auch des Kleiderbügels annahmen. So gibt es eine [Untersuchung](https://www.ifeu.de/fileadmin/uploads/Kurzauswertung_-_Kleiderb%C3%BCgel_f%C3%BCr_Damenkleider.pdf "Kleiderbügel für Damenkleider") aus dem Jahr 2021, die die Ökobilanz verschiedener Materialien, wie Plastik und Metall, beleuchtet. Auch wenn die Untersuchung primär die Nutzung in gewerblichen Zusammenhängen betrachtet, lässt sich eine Erkenntnis verallgemeinern: Die Mehrfachnutzung ist aus ökologischer Sicht immer sinnvoll. Auch die "Sendung mit der Maus" hat sich in der Vergangenheit mit dem [Recycling und der Herstellung](https://kinder.wdr.de/tv/die-sendung-mit-der-maus/av/video-kleiderbuegel-100.html "Sendung mit der Maus: Recycling und der Herstellung") und dem [Design](https://www.wdrmaus.de/filme/sachgeschichten/kleiderbuegel_design.php5 "Sendung mit der Maus: Kleiderbügel-Design") von Kleiderbügeln beschäftigt.
 

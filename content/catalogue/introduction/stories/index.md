@@ -24,7 +24,7 @@ Zudem sind ganze Industrie- und Handwerkszweige nahezu gänzlich weggebrochen. S
 
 Aufgrund jahrhundertelanger Beschränkungen beim Landbesitz und im Handwerk (Ausschluss von Zünften) konzentrierten sich Juden auf den Handel, insbesondere auf den Fern- und Textilhandel. Später führte dies zu einer starken Präsenz jüdischer Unternehmer in der Bekleidungsbranche. Sie spielten eine Schlüsselrolle bei der Etablierung der Konfektionsindustrie im 19. Jahrhundert. Dadurch wurde Kleidung erstmals standardisiert und und als "Stangenware" für breite Bevölkerungsschichten erschwinglich. Aus dem Textilhandel gingen später viele große Warenhäuser wie Tietz (später Hertie) oder Wertheim hervor.
 
-Unmittelbar nach der Machtergreifung im Jahr 1933 leiteten die Nationalsozialisten die sogenannte ["Arisierung"](https://www.bpb.de/themen/antisemitismus/dossier-antisemitismus/was-heisst-antisemitismus/glossar-antisemitismus/559869/arisierung/ "bpb: &quot;Arisierung&quot;") ein. Damit war die systematische Verdrängung von Juden aus dem Wirtschaftsleben sowie die damit verbundene gewaltsame Enteignung und Übertragung jüdischen Eigentums an nicht-jüdische Deutsche gemeint. Dieser systematische Raub intensivierten sich im Laufe des Jahrzehnts, insbesondere nach den Nürnberger Gesetzen von 1935. Dies betraf selbstverständlich auch die Bekleidungsbranche, was sich beispielsweise an diesen Kleiderbügeln nachvollziehen lässt:
+Unmittelbar nach der Machtergreifung im Jahr 1933 leiteten die Nationalsozialisten die sogenannte ["Arisierung"](https://www.bpb.de/themen/antisemitismus/dossier-antisemitismus/was-heisst-antisemitismus/glossar-antisemitismus/559869/arisierung/ "bpb: &quot;Arisierung&quot;") ein. Damit war die systematische Verdrängung von Juden aus dem Wirtschaftsleben sowie die damit verbundene gewaltsame Enteignung und Übertragung jüdischen Eigentums an nicht-jüdische Deutsche gemeint. Dieser systematische Raub intensivierte sich im Laufe des Jahrzehnts, insbesondere nach den Nürnberger Gesetzen von 1935. Dies betraf selbstverständlich auch die Bekleidungsbranche, was sich beispielsweise an diesen Kleiderbügeln nachvollziehen lässt:
 
 * {{< print-ref slug="53" title=true >}}: Der Inhaber Erich Cahn [wurde am 3. Juni 1942 in Sobibor ermordet](https://www.gedenkbuch.halle.de/gbdatensatz.php?num=18 "Eintrag im Gedenkbuch für die Toten des Holocaust in Halle")
 * {{< print-ref slug="71" title=true >}}: Der Gründer Eduard Herrmann wurde gezwungen, sein Bekleidungsgeschäft an den Bonner Kaufmann Esders zu "verkaufen". Der Familie gelang die Flucht.
@@ -33,7 +33,7 @@ Unmittelbar nach der Machtergreifung im Jahr 1933 leiteten die Nationalsozialist
 {.single}
 <!-- * {{< print-ref slug="195" title=true >}}: 1888 als [Hamburger & Littauer](https://de.wikipedia.org/wiki/Hamburger_%26_Littauer "Wikipedia: Hamburger & Littauer") gegründet, 1933 "arisiert". -->
 
-Viele dieser erzwungenen Verkäufe wurden nach dem Zweiten Weltkrieg nicht direkt rückgängig gemacht, oder die Vorbesitzer entschädigt. Es dauerte teilweise Jahrzehnte, besonders wenn z.B. Immobilien auf dem Gebiet der ehemaligen DDR betroffen waren.
+Viele dieser erzwungenen Verkäufe wurden nach dem Zweiten Weltkrieg nicht direkt rückgängig gemacht oder die Vorbesitzer entschädigt. Es dauerte teilweise Jahrzehnte, besonders wenn z.B. Immobilien auf dem Gebiet der ehemaligen DDR betroffen waren.
 
 {{< print-pb >}}
 ### Kleiderbügel als Forschungsgegenstand
