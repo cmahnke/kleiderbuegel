@@ -1,0 +1,3 @@
+{{- if eq hugo.Environment "print" -}}
+  {{- .Inner | $.Page.RenderString -}}
+{{- end -}}

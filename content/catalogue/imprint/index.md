@@ -16,6 +16,9 @@ Autor: <span style="font-weight: bold;">Christian Mahnke</span>, Weender Landstr
 <p style="font-weight: bold;margin: .5cm;">1. Auflage 2025</p>
 Druck im Auftrag des Autors:
 <br>
+{{< print-env >}}
+Print Simply GmbH, Bornweg 100, 61191 Rosbach v.d.H.
+{{< /print-env >}}
 <br>
 <br>
 Kontaktadresse: <span style="font-weight: bold;">kleiderbuegel@projektemacher.org</span>
