@@ -40,4 +40,5 @@ book.pdf
 .vs-*
 .vivliostyle
 ISOcoated_v2_eci.icc
+ISOcoated_v2_300_eci.icc
 print*.pdf

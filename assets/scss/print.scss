@@ -24,8 +24,8 @@ $image-width: 61.8%;
 
   @if v.$print {
     bleed: 3mm;
+    /* marks: crop cross; */
   }
-  /* marks: crop cross; */
 
   @footnote {
     float: bottom;

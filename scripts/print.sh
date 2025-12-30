@@ -18,7 +18,7 @@ else
         exit 1
     fi
 
-    ICC_PROFILE=ISOcoated_v2_eci.icc
+    ICC_PROFILE=ISOcoated_v2_300_eci.icc
     ICC_PROFILE_DIR=""
     if [ -d "/usr/share/color/icc" ] ; then
         ICC_PROFILE_DIR="/usr/share/color/icc"
@@ -28,30 +28,39 @@ else
         ICC_PROFILE_DIR="/Library/ColorSync/Profiles"
     fi
 
-    if [ ! -f "$ICC_PROFILE_DIR$ICC_PROFILE" ] ; then
-      wget -nc https://github.com/GitBruno/myProfiles/raw/refs/heads/master/ECI_Offset_2009/ISOcoated_v2_eci.icc
+    if [ ! -f "$ICC_PROFILE_DIR/$ICC_PROFILE" ] ; then
+      wget -nc https://github.com/adamcooke/lizard/raw/refs/heads/master/colorspaces/CMYK/ISOcoated_v2_300_eci.icc
       ICC_PROFILE_DIR="."
       echo "Downloaded ICC profile"
     else 
       echo "Using ICC Profiles from $ICC_PROFILE_DIR"
     fi
 
+
+    cp "$ICC_PROFILE_DIR/$ICC_PROFILE" node_modules/press-ready/assets
+    sed -i -e "s/JapanColor2001Coated.icc/$ICC_PROFILE/g" node_modules/press-ready/lib/ghostScript.js
+    cp scripts/print/PDFX_def.ps.mustache node_modules/press-ready/assets/PDFX_def.ps.mustache
+
     hugo -F -D --environment print --renderSegments print
-    npx vivliostyle build --preflight press-ready --preflight-option boundary-boxes --language de docs/print.html -o print-press-ready.pdf
+    npx vivliostyle build --preflight press-ready-local --language de docs/print.html -o print-press-ready.pdf
+    #--preflight-option boundary-boxes
+
+    # One can either hack the press-ready npm module or pass to ghostsript afterwards
+    # For the first option https://github.com/plangrid/ghostpdl/blob/master/lib/PDFX_def.ps
 
     # See https://ghostscript.readthedocs.io/en/latest/VectorDevices.html
-    # gs -dPDFX=4 -dBATCH -dNOPAUSE -dSAFER -sDEVICE=pdfwrite \
+    gs -dPDFX=4 -dBATCH -dNOPAUSE -dSAFER -sDEVICE=pdfwrite \
+      -dPDFSETTINGS=/printer -r600 -dGrayImageResolution=600 -dMonoImageResolution=600 -dColorImageResolution=600 \
+      -dCompatibilityLevel=1.6 -dPDFSETTINGS=/printer \
+      -sProcessColorModel=DeviceCMYK -sColorConversionStrategy=UseDeviceIndependentColor -sDefaultRGBProfile=sRGB.icc \
+      -sOutputFile=print-press-ready_X4.pdf \
+      -f print-press-ready.pdf
+
+    ## -dNumRenderingThreads=8 -dBandBufferSpace=500000000 -dBufferSpace=1000000000
     ##  -units PixelsPerInch -density 600 \
-    #   -dPDFSETTINGS=/print -r600 -dGrayImageResolution=600 -dMonoImageResolution=600 -dColorImageResolution=600 \
-    #   -dCompatibilityLevel=1.6 -dPDFSETTINGS=/printer \
-    #   -dDEVICEWIDTHPOINTS=612.28 -dDEVICEHEIGHTPOINTS=612.28 -dFIXEDMEDIA \
-    #   -sProcessColorModel=DeviceCMYK -sColorConversionStrategy=UseDeviceIndependentColor -sDefaultRGBProfile=sRGB.icc \
-    #   -sOutputFile=print-press-ready_X4.pdf \
-    #   -c '<</PageOffset [8.5 8.5]>> setpagedevice' \
-    #   -c '<< /TrimBox [8.5 8.5 603.78 603.78] /BleedBox [0 0 612.28 612.28] >> setpagedevice' \
-    #   -f print-press-ready.pdf
-
-
+    ##   -dDEVICEWIDTHPOINTS=612.28 -dDEVICEHEIGHTPOINTS=612.28 -dFIXEDMEDIA \
+    ##   -c '<</PageOffset [8.5 8.5]>> setpagedevice' \
+    ##   -c '<< /TrimBox [8.5 8.5 603.78 603.78] /BleedBox [0 0 612.28 612.28] >> setpagedevice' \
     #-sICCProfilesDir=$ICC_PROFILE_DIR -sOutputICCProfile=ISOcoated_v2_eci.icc \
     # -sICCProfilesDir=$ICC_PROFILE_DIR -sOutputICCProfile=ISOcoated_v2_eci.icc
 

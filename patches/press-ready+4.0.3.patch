@@ -1,0 +1,30 @@
+diff --git a/node_modules/press-ready/assets/ISOcoated_v2_300_eci.icc b/node_modules/press-ready/assets/ISOcoated_v2_300_eci.icc
+new file mode 100755
+index 0000000..0c46e9e
+Binary files /dev/null and b/node_modules/press-ready/assets/ISOcoated_v2_300_eci.icc differ
+diff --git a/node_modules/press-ready/lib/ghostScript.js b/node_modules/press-ready/lib/ghostScript.js
+index 050e45c..2848047 100644
+--- a/node_modules/press-ready/lib/ghostScript.js
++++ b/node_modules/press-ready/lib/ghostScript.js
+@@ -21,6 +21,10 @@ function isGhostscriptAvailable() {
+ }
+ exports.isGhostscriptAvailable = isGhostscriptAvailable;
+ async function ghostScript({ inputPath, outputPath, pdfxDefTemplatePath = upath_1.default.join(ASSETS_DIR, 'PDFX_def.ps.mustache'), sourceIccProfilePath = upath_1.default.join(ASSETS_DIR, 'JapanColor2001Coated.icc'), grayScale = false, enforceOutline = false, boundaryBoxes = false, title = 'Auto-generated PDF (press-ready)', }) {
++    const numTreads = 8;
++    const pdfxVersion = 4;
++    const bandBufferSpace = 500000000;
++    const bufferSpace = 1000000000;
+     const workingDir = os_1.tmpdir();
+     const id = uuid_1.v4();
+     // ICC profile
+@@ -40,6 +44,10 @@ async function ghostScript({ inputPath, outputPath, pdfxDefTemplatePath = upath_
+             (shelljs_1.default.which('gswin32c') && 'gswin32c'))) ||
+         'gs';
+     const gsOptions = [
++        `-dNumRenderingThreads=${numTreads}`,
++        `-dBandBufferSpace=${bandBufferSpace}`,
++        `-dBufferSpace=${bufferSpace}`,
++        //`-dPDFX=${pdfxVersion}`,
+         '-dPDFX',
+         '-dBATCH',
+         '-dNOPAUSE',
