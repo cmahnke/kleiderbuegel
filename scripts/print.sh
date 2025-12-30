@@ -57,13 +57,4 @@ else
     #   -sOutputFile=print-press-ready_X4.pdf \
     #   -f print-press-ready.pdf
 
-    ## -dNumRenderingThreads=8 -dBandBufferSpace=500000000 -dBufferSpace=1000000000
-    ##  -units PixelsPerInch -density 600 \
-    ##   -dDEVICEWIDTHPOINTS=612.28 -dDEVICEHEIGHTPOINTS=612.28 -dFIXEDMEDIA \
-    ##   -c '<</PageOffset [8.5 8.5]>> setpagedevice' \
-    ##   -c '<< /TrimBox [8.5 8.5 603.78 603.78] /BleedBox [0 0 612.28 612.28] >> setpagedevice' \
-    #-sICCProfilesDir=$ICC_PROFILE_DIR -sOutputICCProfile=ISOcoated_v2_eci.icc \
-    # -sICCProfilesDir=$ICC_PROFILE_DIR -sOutputICCProfile=ISOcoated_v2_eci.icc
-
-
 fi
