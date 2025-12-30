@@ -49,12 +49,13 @@ else
     # For the first option https://github.com/plangrid/ghostpdl/blob/master/lib/PDFX_def.ps
 
     # See https://ghostscript.readthedocs.io/en/latest/VectorDevices.html
-    gs -dPDFX=4 -dBATCH -dNOPAUSE -dSAFER -sDEVICE=pdfwrite \
-      -dPDFSETTINGS=/printer -r600 -dGrayImageResolution=600 -dMonoImageResolution=600 -dColorImageResolution=600 \
-      -dCompatibilityLevel=1.6 -dPDFSETTINGS=/printer \
-      -sProcessColorModel=DeviceCMYK -sColorConversionStrategy=UseDeviceIndependentColor -sDefaultRGBProfile=sRGB.icc \
-      -sOutputFile=print-press-ready_X4.pdf \
-      -f print-press-ready.pdf
+    # gs -dNumRenderingThreads=8 -dBandBufferSpace=500000000 -dBufferSpace=1000000000 \
+    #   -dPDFX=4 -dBATCH -dNOPAUSE -dSAFER -sDEVICE=pdfwrite \
+    #   -dPDFSETTINGS=/printer -r600 -dGrayImageResolution=600 -dMonoImageResolution=600 -dColorImageResolution=600 \
+    #   -dCompatibilityLevel=1.6 -dPDFSETTINGS=/printer \
+    #   -sProcessColorModel=DeviceCMYK -sColorConversionStrategy=UseDeviceIndependentColor -sDefaultRGBProfile=sRGB.icc \
+    #   -sOutputFile=print-press-ready_X4.pdf \
+    #   -f print-press-ready.pdf
 
     ## -dNumRenderingThreads=8 -dBandBufferSpace=500000000 -dBufferSpace=1000000000
     ##  -units PixelsPerInch -density 600 \
