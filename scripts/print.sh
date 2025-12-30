@@ -39,7 +39,7 @@ else
 
     cp "$ICC_PROFILE_DIR/$ICC_PROFILE" node_modules/press-ready/assets
     sed -i -e "s/JapanColor2001Coated.icc/$ICC_PROFILE/g" node_modules/press-ready/lib/ghostScript.js
-    cp scripts/print/PDFX_def.ps.mustache node_modules/press-ready/assets/PDFX_def.ps.mustache
+    cp scripts/print/PDFX4_def.ps.mustache node_modules/press-ready/assets/PDFX_def.ps.mustache
 
     hugo -F -D --environment print --renderSegments print
     npx vivliostyle build --preflight press-ready-local --language de docs/print.html -o print-press-ready.pdf
