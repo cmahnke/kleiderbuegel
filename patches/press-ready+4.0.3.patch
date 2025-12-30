@@ -1,10 +1,7 @@
-diff --git a/node_modules/press-ready/lib/ghostScript.js b/node_modules/press-ready/lib/ghostScript.js-e
-similarity index 88%
-rename from node_modules/press-ready/lib/ghostScript.js
-rename to node_modules/press-ready/lib/ghostScript.js-e
+diff --git a/node_modules/press-ready/lib/ghostScript.js b/node_modules/press-ready/lib/ghostScript.js
 index 050e45c..b0a8339 100644
 --- a/node_modules/press-ready/lib/ghostScript.js
-+++ b/node_modules/press-ready/lib/ghostScript.js-e
++++ b/node_modules/press-ready/lib/ghostScript.js
 @@ -21,6 +21,11 @@ function isGhostscriptAvailable() {
  }
  exports.isGhostscriptAvailable = isGhostscriptAvailable;
