@@ -19,4 +19,6 @@ tags:
 - Beidseitig
 - Kleiderbürste
 donation: Karsten Heck
+remarks: |
+  * See Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, p. 184
 ---
