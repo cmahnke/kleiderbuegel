@@ -8,8 +8,10 @@ displayinlist: false
 archive: false
 news: false
 sectionContent: false
+sitemap:
+  disable: true
 cascade:
-  - _target:
+  - target:
       kind: '{page,section}'
       lang: de
       path: '**'
