@@ -26,7 +26,7 @@ Kleiderbügel sind auch in Museen zu finden, hier eine Auswahl:
 * Eine Suche über die Bestände mehrerer Museen erlaubt [museum-digital](https://nat.museum-digital.de/objects?s=fulltext:Kleiderb%C3%BCgel "Suche nach &quot;Kleiderbügel&quot; in museum-digital").
 {.single}
 
-{{< print-pb >}}
+{{< print/pb >}}
 # Ausstellungen
 Kleiderbügel waren und sind immer wieder Gegenstand musealer Ausstellungen, hier seien einige Beispiele aufgelistet:
 * **Januar 2006: [Achtung: Nicht bügelfrei, Ausstellungsraum im Portland-Cement-Haus Berlin](https://rp-online.de/kultur/garderoben-schau-zeigt-her-eure-buegel_aid-17521225 "Rheinische Post-Online: Garderoben-Schau: Zeigt her eure Bügel!")**

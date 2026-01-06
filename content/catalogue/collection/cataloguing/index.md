@@ -7,7 +7,7 @@ params:
   show_title: true
 ---
 
-Die einzelnen Kleiderbügel werden nach verschiedenen Kriterien katalogisiert. Auf dieser Grundlage werden beispielsweise die Register am Ende des Bandes oder die Statistik ({{< print-ref section="catalogue/collection" slug="statistics" >}}) generiert.
+Die einzelnen Kleiderbügel werden nach verschiedenen Kriterien katalogisiert. Auf dieser Grundlage werden beispielsweise die Register am Ende des Bandes oder die Statistik ({{< print/ref section="catalogue/collection" slug="statistics" >}}) generiert.
 
 ## Materialien
 
@@ -34,7 +34,7 @@ Da es Kleiderbügel in verschiedenen Varianten gibt, werden Besonderheiten erfas
   * Mit Haken
 {.ignore-first-level}
 
-{{< print-pb >}}
+{{< print/pb >}}
 ## Ausgebenden Stellen
 
 Die Beschriftung lässt sich grob in zwei Kategorien unterteilen: Erstens dient sie als Werbeträger und zweitens als eine Art Besitznachweis. Letzteres gilt insbesondere dann, wenn die Bügel nicht zur Mitnahme gedacht sind, beispielsweise in Hotels oder bei staatlichen Organisationen.

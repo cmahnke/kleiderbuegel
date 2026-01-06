@@ -12,9 +12,8 @@ params:
   <h1>Register</h1>
 </div>
 
-{{< print-image
+{{< print/image
   src="../../images/hanger.svg"
   alt="Schatten eines Drahtkleiderbügels"
   class="title-logo"
   link="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/" >}}
-

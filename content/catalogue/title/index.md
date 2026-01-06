@@ -15,7 +15,7 @@ params:
   <h2>-sammlung Christian Mahnke</h2>
 </div>
 
-{{< print-image
+{{< print/image
   src="../../images/hanger.svg"
   alt="Schatten eines Drahtkleiderbügels"
   class="title-logo"

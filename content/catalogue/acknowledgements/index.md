@@ -18,7 +18,7 @@ Zusätzlich an die folgenden Spenderinnen und Spender:
 * **Karsten Heck**
 * **Gisela Thöne**
 
-Und an den Karstadt-Sammler **Holger-Philip Bergt** für {{< print-ref slug="172" title=true >}}.
+Und an den Karstadt-Sammler **Holger-Philip Bergt** für {{< print/ref slug="172" title=true >}}.
 
 Sowie **Max Gallenkamp** und **Pia Denkmann** für die Organisation der Ausstellung "Sammlungen erzählen".
 
