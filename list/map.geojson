@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Karstadt Stettin",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKarstadt Stettin\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKarstadt\nStettin Breitestraße.\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eKsiędza Kardynała Stefana Wyszyńskiego 30, Szczecin, Polen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/172/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [14.555894,53.423831]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Otto Werner",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eOtto Werner\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eOtto Werner\nZieht Sie richtig an!\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGroße Packhofstraße 1, Hannover\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/170/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
