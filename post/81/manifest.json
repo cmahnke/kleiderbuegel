@@ -1,16 +1,25 @@
 {"@context": "http://iiif.io/api/presentation/3/context.json",
 "type": "Manifest",
 "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/81/",
-"viewingDirection": "left-to-right","behavior":["paged"],
-"summary": {
-    "de": [
-      "Orangener 70er Jahre Plastikbügel"
-    ],
-      "en": [
-        "Orange 1970s plastic hanger"
-      ]
-    }
-,"requiredStatement": {
+"viewingDirection": "left-to-right","behavior":["paged"],"summary":{"de":["Orangener 70er Jahre Plastikbügel"],"en":["Orange 1970s plastic hanger"]},
+
+
+  
+  
+  
+  
+      
+  
+  
+
+  
+  
+  
+  
+      
+  
+  
+"requiredStatement": {
   "label": { "en": [ "Attribution" ],
     "de": [ "Namensnennung" ]
   },
@@ -37,23 +46,19 @@
   {
     "id": "https://projektemacher.org/",
     "type": "Agent",
-    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
-    "homepage": [
+    "label": {"de":["Projektemacher"],"en":["Projektemacher"]},"homepage": [
       {
         "id": "https://projektemacher.org/",
         "type": "Text",
-        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "label": {"de":["Projektemacher"],"en":["Projektemacher"]},
         "format": "text/html"
-    }
-  ],
-  "logo": [
-    {"id": "https://projektemacher.org/images/logo.png",
+    }],
+  "logo": [{"id": "https://projektemacher.org/images/logo.png",
         "type": "Image",
         "format": "image/png",
         "height": 1024,
         "width": 1024}
-  ],
-  "seeAlso": [
+  ],"seeAlso": [
     {
       "id": "https://projektemacher.org/projektemacher.json",
       "type": "Dataset",
@@ -63,32 +68,7 @@
   ]
   }
 ]
-,
-
-"homepage": [
-  {
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/81/",
-    "type": "Text",
-    "format": "text/html",
-
-    "label": {
-        "de": [
-          "Kleiderbügel: "
-        ],
-          "en": [
-            "Kleiderbügel: "
-          ]
-        }
-  }
-],"label": {
-    "de": [
-      ""
-    ],
-      "en": [
-        ""
-      ]
-    }
-,"items": [{
+,"homepage": [{"format":"text/html","id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/81/","label":{"de":["Kleiderbügel: "],"en":["Kleiderbügel: "]},"type":"Text"}],"label": {"de":[""],"en":[""]},"items": [{
           "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/81/canvas/front",
           "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 2496,
             "width": 3771,

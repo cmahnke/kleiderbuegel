@@ -1,7 +1,17 @@
 {"@context": "http://iiif.io/api/presentation/3/context.json",
 "type": "Manifest",
 "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/",
-"viewingDirection": "left-to-right","behavior":["paged"],"requiredStatement": {
+"viewingDirection": "left-to-right","behavior":["paged"],
+
+
+  
+  
+  
+  
+      
+  
+  
+"requiredStatement": {
   "label": { "en": [ "Attribution" ],
     "de": [ "Namensnennung" ]
   },
@@ -28,23 +38,19 @@
   {
     "id": "https://projektemacher.org/",
     "type": "Agent",
-    "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
-    "homepage": [
+    "label": {"de":["Projektemacher"],"en":["Projektemacher"]},"homepage": [
       {
         "id": "https://projektemacher.org/",
         "type": "Text",
-        "label": { "en": [ "Projektemacher" ], "de": [ "Projektemacher" ] },
+        "label": {"de":["Projektemacher"],"en":["Projektemacher"]},
         "format": "text/html"
-    }
-  ],
-  "logo": [
-    {"id": "https://projektemacher.org/images/logo.png",
+    }],
+  "logo": [{"id": "https://projektemacher.org/images/logo.png",
         "type": "Image",
         "format": "image/png",
         "height": 1024,
         "width": 1024}
-  ],
-  "seeAlso": [
+  ],"seeAlso": [
     {
       "id": "https://projektemacher.org/projektemacher.json",
       "type": "Dataset",
@@ -54,24 +60,7 @@
   ]
   }
 ]
-,
-
-"homepage": [
-  {
-    "id": "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/",
-    "type": "Text",
-    "format": "text/html",
-
-    "label": {
-        "de": [
-          "Kleiderbügel: J.Braun Gr. Johannisstraße 3"
-        ]}
-  }
-],"label": {
-    "de": [
-      "J.Braun Gr. Johannisstraße 3"
-    ]}
-,"items": [{
+,"homepage": [{"format":"text/html","id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/","label":{"de":["Kleiderbügel: J.Braun Gr. Johannisstraße 3"]},"type":"Text"}],"label": {"de":["J.Braun Gr. Johannisstraße 3"]},"items": [{
           "id":"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/73/canvas/front",
           "type": "Canvas","label": {"de":["Vorderansicht"],"en":["Front"]},"height": 1648,
             "width": 3864,
