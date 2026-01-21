@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Geschw. Alsberg",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eGeschw. Alsberg\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e1875 Geschw. Alsberg, Coblenz 1925\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eAm Plan, Koblenz\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/173/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.59516,50.36024]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Karstadt Stettin",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKarstadt Stettin\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKarstadt\nStettin Breitestraße.\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eKsiędza Kardynała Stefana Wyszyńskiego 30, Szczecin, Polen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/172/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
