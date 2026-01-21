@@ -42,6 +42,8 @@ $kleidungsstueck-border-radius: $border-radius;
 @use  "textures/wood" with (
   $wood-texture-opacity: 0.5
 );
+@use "iframes" as *;
+
 $background: wood.$wood-light;
 
 :root {

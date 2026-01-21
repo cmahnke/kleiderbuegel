@@ -1,0 +1,50 @@
+.section-iframes {
+  background: unset;
+
+  #head,
+  .footer {
+    display: none;
+  }
+
+  .iframe-list {
+    margin: auto;
+    width: 80%;
+    max-width: var(--max-width);
+
+    pre,
+    code {
+      padding: 1em;
+      margin: 1em;
+      background-color: gray;
+      border-radius: 1rem;
+    }
+  }
+
+  &:not(.dir-iframes) {
+
+    .post-title {
+      display: none;
+    }
+
+    .main>.post {
+      max-width: unset;
+      margin: unset;
+      width: unset;
+
+      .content {
+        padding: unset;
+      }
+    }
+
+  }
+
+  .map-wrapper {
+    height: 100vh;
+    width: 100%;
+  }
+
+}
+
+html:has(body.section-iframes) {
+  background: unset;
+}
