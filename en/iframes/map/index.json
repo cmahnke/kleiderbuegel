@@ -1,0 +1,11 @@
+{"meta": {"date": "0001-01-01 00:00:00 +0000 UTC", "title": "Map view", "type": "<no value>" }, "images": {}, "content": "<div class="map-wrapper">
+  <div class="map" id="a56fce4688ee0fb056cf1a7865d152df"></div>
+  <div id="a56fce4688ee0fb056cf1a7865d152df-popup" class="ol-popup">
+    <a href="#" id="a56fce4688ee0fb056cf1a7865d152df-popup-closer" class="ol-popup-closer"></a>
+    <div id="a56fce4688ee0fb056cf1a7865d152df-popup-content"></div>
+  </div>
+</div>
+<script type="text/javascript">
+  var _a56fce4688ee0fb056cf1a7865d152df = window.initMap('a56fce4688ee0fb056cf1a7865d152df', '\/list\/map.geojson', 'osm', true, {src: '/images/geomarker.svg', scale: 0.1, anchorXUnits: 'fraction', anchorYUnits: 'fraction', anchor: [0.9, 1]} , 'shortbread' );
+  _a56fce4688ee0fb056cf1a7865d152df.updateSize();
+</script>"}
