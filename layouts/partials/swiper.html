@@ -1,0 +1,30 @@
+{{- $widthDesktop := 330 -}}
+{{- $widthMobile := 165 -}}
+{{- $hangers := . -}}
+<div class="swiper rail-container">
+  <div class="swiper-wrapper">
+    {{- range where $hangers "Params.type" "eq" "hanger" -}}
+      {{- $title := .Params.title -}}
+      {{- $front := .Resources.GetMatch "front*" -}}
+      {{- $thumbDesktop := $front.Resize (printf "%dx webp picture" $widthDesktop) -}}
+      {{- $thumbMobile := $front.Resize (printf "%dx webp picture" $widthMobile) -}}
+      {{- $heightDesktop := $thumbDesktop.Height -}}
+      {{- $heightMobile := $thumbMobile.Height -}}
+      {{- $large := $front.Resize "1600x webp picture" -}}
+      {{- $content := (partial "page.html" .) -}}
+      {{- $id := printf "hanger-%s" (delimit (shuffle (seq 1 9)) "") -}}
+      <div class="swiper-slide">
+        <div class="swiper-slide-transform">
+          <div class="hanger-post-content" id="{{ $id }}" style="display: none;">{{ $content | safeHTML }}</div>
+          <picture>
+            <source media="(width <= 740px)" width="{{ $widthMobile }}" height="{{ $heightMobile }}" srcset="{{ $thumbMobile.RelPermalink }}">
+            <img width="{{ $widthDesktop }}" height="{{ $heightDesktop }}" loading="lazy" class="buegel" src="{{ $thumbDesktop.RelPermalink }}" alt="{{ .Title }}" data-image="{{ $large.RelPermalink }}" data-content-id="{{ $id }}"/>
+          </picture>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+  <div class="swiper-scrollbar"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>

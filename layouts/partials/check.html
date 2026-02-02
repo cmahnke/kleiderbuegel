@@ -130,13 +130,13 @@
           {{- $termPages = $termPages | lang.Merge site.Pages -}}
         {{- end -}}
         {{- $termPages = where $termPages ".Kind" "eq" "term" -}}
-        {{- $alias := printf "/%s" $termPath -}}
+        {{- $alias := printf "%s%s" ("/" | relLangURL) $termPath -}}
         {{- $termPages = where $termPages ".Aliases" "intersect" (slice $alias) -}}
         {{- $termPage := index $termPages 0 -}}
         {{- if ne $termPage nil -}}
           {{- warnf "[check.html] Term page for %s (file %s) from %s is an alias" $tag $termPath $page.RelPermalink -}}
         {{- else -}}
-          {{- errorf "[check.html] Can't find term page for %s (file %s) from %s"  $tag $termPath $page.RelPermalink -}}
+          {{- errorf "[check.html] Can't find term page for %s (file %s or alias %s) from %s" $tag $termPath $alias $page.RelPermalink -}}
         {{- end -}}
       {{- end -}}
     {{- end -}}

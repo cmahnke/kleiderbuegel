@@ -60,7 +60,7 @@
           {{- $termPages = $termPages | lang.Merge site.Pages -}}
         {{- end -}}
         {{- $termPages = where $termPages ".Kind" "eq" "term" -}}
-        {{- $alias := printf "/%s" $tagPath -}}
+        {{- $alias := printf "%s%s" ("/" | relLangURL) $tagPath -}}
         {{- $termPages = where $termPages ".Aliases" "intersect" (slice $alias) -}}
         {{- $tagPage = index $termPages 0 -}}
       {{- end -}}
