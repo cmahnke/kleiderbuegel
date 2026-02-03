@@ -6,6 +6,7 @@ const defaultSize = 330;
 function wrapInLink(element, url) {
   const link = document.createElement('a');
   link.href = url;
+  link.setAttribute('target', '_blank');
 
   element.parentNode.insertBefore(link, element);
   link.appendChild(element);
