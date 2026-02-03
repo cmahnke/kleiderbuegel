@@ -20,6 +20,7 @@ function slider(elem, size) {
 
   elem.querySelectorAll('.swiper-slide picture').forEach(picture => {
     const url = picture.parentNode.parentNode.dataset.link;
+    picture.parentNode.querySelector('source').remove();
     wrapInLink(picture, url);
   });
 
@@ -37,7 +38,7 @@ function slider(elem, size) {
     mousewheel: true,
     loop: true,
     normalizeSlideIndex: false,
-    spaceBetween: spacing,
+    //spaceBetween: spacing,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",

@@ -1,6 +1,7 @@
 .section-iframes {
   &.dir-iframesslider {
     .swiper {
+      margin-top: 1em;
       /*
       margin-top: 1em;
       padding-top: 1em;
@@ -21,7 +22,7 @@
         }
 
         img {
-          margin: unset;
+          margin: auto;
           max-width: unset;
           width: unset;
         }
