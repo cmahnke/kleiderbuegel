@@ -2,6 +2,10 @@
   background: none transparent;
 
   &.dir-iframesslider {
+    .content {
+      background-color: unset;
+    }
+
     .swiper {
       margin-top: 1em;
       /*
