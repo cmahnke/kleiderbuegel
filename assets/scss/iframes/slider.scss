@@ -1,0 +1,36 @@
+.section-iframes {
+  &.dir-iframesslider {
+    .swiper {
+      /*
+      margin-top: 1em;
+      padding-top: 1em;
+      padding-bottom: unset;
+      */
+
+      .swiper-wrapper {
+        padding-top: unset;
+
+        .swiper-slide {
+          perspective: unset;
+          transform-style: unset;
+          transform-origin: unset;
+
+          .swiper-slide-active {
+            transform: unset;
+          }
+        }
+
+        img {
+          margin: unset;
+          max-width: unset;
+          width: unset;
+        }
+
+      }
+
+      .swiper-scrollbar {
+        margin-bottom: unset;
+      }
+    }
+  }
+}

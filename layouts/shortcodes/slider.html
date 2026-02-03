@@ -4,7 +4,11 @@
 {{- end -}}
 {{- partial "swiper.html" $hangers -}}
 
+<script type="text/javascript">
+  slider(document.querySelector('.swiper'));
+</script>
+
 
 {{- define "_partials/shortcodes/slider-metadata.html" -}}
-  {{- (dict "css" slice "js" (slice "js/iframes/slider.js") "scss" slice) | jsonify -}}
+  {{- (dict "css" slice "js" (slice "js/iframes/slider.js") "scss" (slice "scss/iframes/slider.scss")) | jsonify -}}
 {{- end -}}

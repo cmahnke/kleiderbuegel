@@ -13,7 +13,7 @@
       {{- $large := $front.Resize "1600x webp picture" -}}
       {{- $content := (partial "page.html" .) -}}
       {{- $id := printf "hanger-%s" (delimit (shuffle (seq 1 9)) "") -}}
-      <div class="swiper-slide">
+      <div class="swiper-slide" data-link="{{ .Permalink }}">
         <div class="swiper-slide-transform">
           <div class="hanger-post-content" id="{{ $id }}" style="display: none;">{{ $content | safeHTML }}</div>
           <picture>
