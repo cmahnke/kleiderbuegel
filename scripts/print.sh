@@ -32,7 +32,7 @@ else
       wget -nc https://github.com/adamcooke/lizard/raw/refs/heads/master/colorspaces/CMYK/ISOcoated_v2_300_eci.icc
       ICC_PROFILE_DIR="."
       echo "Downloaded ICC profile"
-    else 
+    else
       echo "Using ICC Profiles from $ICC_PROFILE_DIR"
     fi
 

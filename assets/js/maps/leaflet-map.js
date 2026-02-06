@@ -8,6 +8,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import * as mapStyle from './kleiderbügel-style.json';
 import cssStyle from "leaflet/dist/leaflet.css";
 import markerStyle from "../../scss/print-map-marker.scss";
+import fixesStyle from "../../scss/print-map-fixes.scss";
 
 const fontPath = undefined;
 const defaultFonts = "'Space Grotesk', sans-serif";
@@ -96,7 +97,7 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
     if (bbox && bbox.length === 4) {
         //bounds = [[bbox[1], bbox[0]], [bbox[3], bbox[2]]];
         bounds = [[bbox[3], bbox[2]], [bbox[1], bbox[0]]];
-        
+
         maxBounds = bounds;
     }
 
@@ -124,7 +125,7 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
     if (bbox && bbox.length === 4) {
         map.fitBounds(bounds, { padding: padding });
     }
-    
+
 
     var vectorLayer;
 
@@ -185,7 +186,7 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
       };
 
        const labelVectorLayer = vectorTileLayer(vectorTileUrl, labelVectorTileOptions)
-       
+
 
        labelVectorLayer.addTo(map);
 
@@ -233,18 +234,18 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
     }
 
    const resizeObserver = new ResizeObserver(() => {
-    
-        mapElem.querySelectorAll('.leaflet-control-container').forEach(contolContainer => {
-            contolContainer.remove();
+
+        mapElem.querySelectorAll('.leaflet-control-container').forEach(controlContainer => {
+            controlContainer.remove();
         });
 
         console.log(cssStyle);
-        const printStyle = CCSUtil.cleanCss(cssStyle) + '\n' + CCSUtil.cleanCss(markerStyle);
+        const printStyle = CCSUtil.cleanCss(cssStyle) + '\n' + CCSUtil.cleanCss(fixesStyle) + '\n' + CCSUtil.cleanCss(markerStyle);
         console.log("Full print style:", printStyle);
         const leafletStyle = CCSUtil.filterStylesByPrefix(printStyle, '.leaflet')
         console.log("Applying", leafletStyle, " to ", mapElem);
         //CCSUtil.inlineStyle(mapElem, leafletStyle);
-        
+
         const styleId = mapElem.id + '-leaflet-inline-style';
         if (document.getElementById(styleId)) {
             document.getElementById(styleId).remove();
@@ -254,7 +255,7 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
         style.setAttribute("type", "text/css");
         style.textContent = leafletStyle;
         document.head.appendChild(style);
-                
+
         map.invalidateSize();
         if (bounds !== undefined) {
             map.fitBounds(bounds, { padding: padding });
@@ -280,17 +281,17 @@ function layerBbox(originalBBox, marginPercentage) {
   const centerY = (originalBBox.minY + originalBBox.maxY) / 2;
 
   const maxDimension = Math.max(originalWidth, originalHeight);
-  
+
   const newSize = maxDimension * (1 + 2 * marginPercentage);
 
   const halfSize = newSize / 2;
 
   const newMinX = centerX - halfSize;
   const newMaxX = centerX + halfSize;
-  
+
   const newMinY = centerY - halfSize;
   const newMaxY = centerY + halfSize;
-  
+
   return {
     minX: newMinX,
     minY: newMinY,
@@ -308,12 +309,12 @@ class CCSUtil {
         while ((match = regex.exec(cssString)) !== null) {
             const selector = match[1].trim();
             const propertiesString = match[2].trim();
-            
+
             if (!selector) continue;
 
             try {
                 const descendants = targetElement.querySelectorAll(selector);
-                
+
                 const properties = {};
                 propertiesString.split(';').forEach(declaration => {
                     const parts = declaration.split(':').map(s => s.trim());
@@ -375,7 +376,10 @@ class CCSUtil {
         if (urls.length === 0 && styleElements.length === 0) {
             console.warn("No stylesheets!");
             return "";
-        }    
+        } else {
+          console.log('Using URLs: ', urls)
+        }
+
         const prefix = String(selectorPrefix || '').trim();
 
         const fetchPromises = urls.map(async (href) => {
@@ -399,7 +403,7 @@ class CCSUtil {
         styleElements.forEach(styleElement => {
             cssParts.push(styleElement.textContent + '\n' || '');
         });
-        
+
         return CCSUtil.filterStylesByPrefix(cssParts.join('\n'), prefix);
     }
 
@@ -409,19 +413,19 @@ class CCSUtil {
 
         let output = '';
         let i = 0;
-        
+
         while (i < cleanedCss.length) {
             let char = cleanedCss[i];
 
             if (char === '@') {
-                
+
                 let ruleStart = i;
                 let ruleEnd = cleanedCss.indexOf('{', ruleStart);
 
                 if (ruleEnd === -1) {
                     ruleEnd = cleanedCss.indexOf(';', ruleStart);
                     if (ruleEnd !== -1) {
-                        i = ruleEnd + 1; 
+                        i = ruleEnd + 1;
                         continue;
                     }
                 } else {
@@ -430,7 +434,7 @@ class CCSUtil {
 
                     while (j < cleanedCss.length) {
                         let innerChar = cleanedCss[j];
-                        
+
                         if (innerChar === '{') {
                             braceCount++;
                         } else if (innerChar === '}') {
@@ -444,7 +448,7 @@ class CCSUtil {
                         j++;
                     }
                     if (braceCount !== 0) {
-                        i = cleanedCss.length; 
+                        i = cleanedCss.length;
                     }
                 }
 
@@ -453,7 +457,7 @@ class CCSUtil {
                 i++;
             }
         }
-        
+
         return output.trim().replace(/(\r?\n){2,}/g, '\n');
     }
 

@@ -80,3 +80,26 @@ For hangers with two different sides with two images use the tags "Beidseitig"
 tags:
     - Beidseitig
 ```
+
+# Katalog
+
+## Drucken
+
+### Online Fassung
+
+```
+./script/print.sh
+```
+
+### Druckfassung
+
+```
+./script/print.sh print
+```
+
+## Vorschau
+
+```
+hugo -F -D --renderSegments print
+npx vivliostyle preview --language de docs/print.html
+```
