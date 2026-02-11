@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "August Wellhölter Herford",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eAugust Wellhölter Herford\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eAugust Wellhölter Herford, Alter Markt II\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eAlter Markt 2, Herford\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/176/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.671006,52.114049]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Ludwig Beck München",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eLudwig Beck München\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eLudwig\nBeck\nAm Rathauseck\nMünchen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMarienplatz 11, München\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/175/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
