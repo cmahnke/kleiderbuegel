@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Reinigung Centralux Hannover",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eReinigung Centralux Hannover\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eReinigung Centralux Hannover\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eHannover\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/178/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.732,52.3759]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "August Wellhölter Herford",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eAugust Wellhölter Herford\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eAugust Wellhölter Herford, Alter Markt II\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eAlter Markt 2, Herford\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/176/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
