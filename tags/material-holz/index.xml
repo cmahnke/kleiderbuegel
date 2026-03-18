@@ -9,8 +9,15 @@
     <managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
     <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Thu, 12 Mar 2026 13:08:47 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 19:46:29 +0100</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WARG</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/181/</link>
+      <pubDate>Tue, 17 Mar 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/181/</guid>
+      <description>&lt;p&gt;WARG&#xA;Herrenkleidung&#xA;Poststr. 10&lt;/p&gt;&#xA;&lt;p&gt;Damenkleidung&#xA;Westcellertorstr. 16-17&lt;/p&gt;</description>
+    </item>
     <item>
       <title>FOX</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/180/</link>
@@ -178,13 +185,6 @@
       <pubDate>Tue, 09 Sep 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/154/</guid>
       <description>&lt;p&gt;Cloppenburg&#xA;Union-&#xA;Record&#xA;Cloppenburg&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ALANA FURS</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/153/</link>
-      <pubDate>Tue, 02 Sep 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/153/</guid>
-      <description>&lt;p&gt;Cold Fur Storage &amp;amp; Repairs ALANA FURS 676 Yonge St. WA 5-3441&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

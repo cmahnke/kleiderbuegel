@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "WARG",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eWARG\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\u003cp\u003eWARG\nHerrenkleidung\nPoststr. 10\u003c/p\u003e\n\u003cp\u003eDamenkleidung\nWestcellertorstr. 16-17\u003c/p\u003e\n\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWestcellertorstr. 16-17, Celle\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/181/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.079931,52.622401]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Bollerer Freiburg/Br.",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eBollerer Freiburg/Br.\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eBollerer\nFreiburg/Br.\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eKaiser-Joseph-Str. 202-206, Freiburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/179/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },

@@ -9,8 +9,15 @@
     <managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
     <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
     <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Thu, 12 Mar 2026 13:08:47 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 19:46:29 +0100</lastBuildDate>
     <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bekleidungsgesch%C3%A4ft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WARG</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/181/</link>
+      <pubDate>Tue, 17 Mar 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/181/</guid>
+      <description>&lt;p&gt;WARG&#xA;Herrenkleidung&#xA;Poststr. 10&lt;/p&gt;&#xA;&lt;p&gt;Damenkleidung&#xA;Westcellertorstr. 16-17&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Bollerer Freiburg/Br.</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/179/</link>
@@ -178,13 +185,6 @@
       <pubDate>Tue, 28 Jan 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/121/</guid>
       <description>&lt;p&gt;Erdmann&#xA;Kleidung&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kassel Modehaus Schulz Witzenhausen</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/117/</link>
-      <pubDate>Tue, 31 Dec 2024 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/117/</guid>
-      <description>&lt;p&gt;Kassel Modehaus Schulz Witzenhausen&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
