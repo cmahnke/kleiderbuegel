@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2026-03-26T10:27:59.809726Z" version="8.18.0">
+<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2026-04-01T08:24:29.152108Z" version="8.18.0">
   <properties>
     <property>
       <name>width</name>
-      <value type="gint">3875</value>
+      <value type="gint">3831</value>
     </property>
     <property>
       <name>height</name>
@@ -23,11 +23,11 @@
     </property>
     <property>
       <name>xres</name>
-      <value type="gdouble">2.835</value>
+      <value type="gdouble">2.8340000000000001</value>
     </property>
     <property>
       <name>yres</name>
-      <value type="gdouble">2.835</value>
+      <value type="gdouble">2.8340000000000001</value>
     </property>
     <property>
       <name>vips-loader</name>

@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Centralhaus elg. Herrenmode, Stettin",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eCentralhaus elg. Herrenmode, Stettin\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eCentralhaus elg. Herrenmode, Stettin, Kl. Domstr. 181\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eMariacka, Szczecin, Polen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/183/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [14.55629,53.42648]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "WARG",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eWARG\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\u003cp\u003eWARG\nHerrenkleidung\nPoststr. 10\u003c/p\u003e\n\u003cp\u003eDamenkleidung\nWestcellertorstr. 16-17\u003c/p\u003e\n\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWestcellertorstr. 16-17, Celle\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/181/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
