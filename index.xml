@@ -10,6 +10,15 @@
     <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
     <copyright>Kleiderbügel</copyright><atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Stabil</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/184/</link>
+      <pubDate>Tue, 07 Apr 2026 12:47:44 +0200</pubDate>
+      <author>mail@christianmahnke.de (Christian Mahnke)</author>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/184/</guid>
+      <description>&lt;p&gt;Stabil&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Centralhaus elg. Herrenmode, Stettin</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/183/</link>
       <pubDate>Tue, 31 Mar 2026 12:47:44 +0200</pubDate>
@@ -257,15 +266,6 @@ Chem. Reinigung&lt;/p&gt;</description>
 &lt;li&gt;jQuery wurde entfernt, die Visualisierung der Kleiderstange ist nun mit &lt;a href=&#34;https://swiperjs.com/&#34; target=&#34;_blank&#34;&gt;Swiper JS&lt;/a&gt; realisiert.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Zu der Ausstellung gibt es weitere Informationen mehr ab 2026!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Camel</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/159/</link>
-      <pubDate>Tue, 14 Oct 2025 12:47:44 +0200</pubDate>
-      <author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/159/</guid>
-      <description>&lt;p&gt;&lt;i&gt;Nur das [Camel Logo]&lt;/i&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
