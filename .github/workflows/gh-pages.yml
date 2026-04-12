@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  HUGO_VERSION: 0.160.0
+  HUGO_VERSION: 0.160.1
   DEPENDENCY_MANAGER: npm
   PYTHON_VERSION: '3.13'
 
@@ -55,7 +55,7 @@ jobs:
 
       - name: Install Hugo
         run: |
-          ./themes/projektemacher-base/scripts/github/setup-hugo.sh https://github.com/cmahnke/projektemacher-hugo/releases/download/latest/hugo_esbuild_0.160.0_linux-amd64.tar.gz
+          ./themes/projektemacher-base/scripts/github/setup-hugo.sh https://github.com/cmahnke/projektemacher-hugo/releases/download/latest/hugo_esbuild_${{ env.HUGO_VERSION }}_linux-amd64.tar.gz
 
       - name: Create IIIF derivates
         run: docker run -v ${PWD}:${PWD} -e URL_PREFIX="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/" ghcr.io/cmahnke/iiif-action:latest-jxl-uploader sh -c "cd ${PWD} && ./scripts/iiif.sh"
