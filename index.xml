@@ -10,6 +10,16 @@
     <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
     <copyright>Kleiderbügel</copyright><atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>UNITED COLORS OF BENETTON.</title>
+      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/185/</link>
+      <pubDate>Tue, 14 Apr 2026 12:47:44 +0200</pubDate>
+      <author>mail@christianmahnke.de (Christian Mahnke)</author>
+      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/185/</guid>
+      <description>&lt;p&gt;UNITED COLORS
+OF BENETTON.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Stabil</title>
       <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/184/</link>
       <pubDate>Tue, 07 Apr 2026 12:47:44 +0200</pubDate>
@@ -246,26 +256,6 @@ Einbeck&lt;/p&gt;</description>
       <description>&lt;p&gt;Wäscherei Kleiderbad
 Meyer
 Chem. Reinigung&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Neuerungen 2025</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/news-2025/</link>
-      <pubDate>Sun, 19 Oct 2025 07:30:07 +0200</pubDate>
-      <author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/news-2025/</guid>
-      <description>&lt;p&gt;Für eine kommende Ausstellung wurde diese Seite etwas überarbeitet:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Die Navigation wurde etwas verbessert&lt;/li&gt;
-&lt;li&gt;Der jeweils aktuelle Kleiderbügel wird nun auf der Startseite angezeigt&lt;/li&gt;
-&lt;li&gt;Die Karte ist größer und kontrastreicher&lt;/li&gt;
-&lt;li&gt;Es gibt nun eine Suchfunktion&lt;/li&gt;
-&lt;li&gt;Die Ladezeit wurde deutlich beschleunigt&lt;/li&gt;
-&lt;li&gt;Es gibt nun Statistiken zu den Kleiderbügeln&lt;/li&gt;
-&lt;li&gt;Es gibt eine englische Übersetzung&lt;/li&gt;
-&lt;li&gt;jQuery wurde entfernt, die Visualisierung der Kleiderstange ist nun mit &lt;a href=&#34;https://swiperjs.com/&#34; target=&#34;_blank&#34;&gt;Swiper JS&lt;/a&gt; realisiert.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Zu der Ausstellung gibt es weitere Informationen mehr ab 2026!&lt;/p&gt;</description>
     </item>
     
   </channel>
