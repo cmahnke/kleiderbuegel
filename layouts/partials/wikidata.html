@@ -41,7 +41,7 @@
 
   {{- with try (resources.GetRemote $queryURL $queryOpts) -}}
     {{- with .Err -}}
-      {{- errorf "Unable to get remote resource %s: %s"  $queryURL . -}}
+      {{- warnf "Unable to get remote resource %s: %s"  $queryURL . -}}
     {{- else with .Value -}}
       {{- $data := .Content | transform.Unmarshal -}}
       {{- if and (reflect.IsMap $data.results) (isset $data.results "bindings") (reflect.IsSlice $data.results.bindings) (gt (len $data.results.bindings) 0) -}}
@@ -52,7 +52,7 @@
         {{- warnf "[wikidata.html] Failed to get Wikidata entry for id %s on page %s" $id $page.RelPermalink -}}
       {{- end -}}
     {{- else -}}
-      {{- errorf "Unable to get remote resource %s" $queryURL -}}
+      {{- errorf "[wikidata.html] Unable to get remote resource %s" $queryURL -}}
     {{- end -}}
   {{- end -}}
 
