@@ -25,15 +25,6 @@ jobs:
         with:
           submodules: true
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Install required dependencies
-        run: |
-          ./scripts/github-setup.sh
-
       - name: Setup Node.js
         uses: actions/setup-node@v6.4.0
         with:
@@ -43,9 +34,14 @@ jobs:
         with:
           version: 9
 
-      - name: Install Node dependencies
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install required dependencies
         run: |
-          yarn install
+          ./scripts/github-setup.sh
 
       # - name: Setup Hugo
       #   uses: peaceiris/actions-hugo@v3.0.0
