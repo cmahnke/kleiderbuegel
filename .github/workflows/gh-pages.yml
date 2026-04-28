@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  HUGO_VERSION: 0.160.1
+  HUGO_VERSION: 0.161.0
   DEPENDENCY_MANAGER: npm
   PYTHON_VERSION: '3.13'
 
@@ -55,7 +55,7 @@ jobs:
 
       - name: Install Hugo
         run: |
-          ./themes/projektemacher-base/scripts/github/setup-hugo.sh https://github.com/cmahnke/projektemacher-hugo/releases/download/latest/hugo_esbuild_${{ env.HUGO_VERSION }}_linux-amd64.tar.gz
+          ./themes/projektemacher-base/scripts/github/setup-hugo.sh ${{ env.HUGO_VERSION }}
 
       - name: Get Hugo cache
         uses: actions/cache@v5
