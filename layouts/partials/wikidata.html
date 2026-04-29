@@ -39,6 +39,10 @@
 
   {{- $wikiLinks := slice -}}
 
+  {{- with site.Params.useragent -}}
+    {{- $queryOpts = $queryOpts | merge (dict "User-Agent" .) -}}
+  {{- end -}}
+
   {{- with try (resources.GetRemote $queryURL $queryOpts) -}}
     {{- with .Err -}}
       {{- warnf "Unable to get remote resource %s: %s"  $queryURL . -}}

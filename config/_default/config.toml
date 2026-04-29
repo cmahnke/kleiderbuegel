@@ -5,6 +5,7 @@
     cc = false
     disableScale = true
     debug = false
+    useragent = "HugoBot/1.0 (https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/; User:CMahnke)"
 
     [params.print]
       relative = 1
