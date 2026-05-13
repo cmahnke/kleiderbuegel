@@ -94,7 +94,7 @@ jobs:
           cp archived-urls.txt docs/
 
       - name: Deploy site
-        uses: peaceiris/actions-gh-pages@v4.0.0
+        uses: peaceiris/actions-gh-pages@v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
