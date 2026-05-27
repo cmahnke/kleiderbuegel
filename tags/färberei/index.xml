@@ -1,57 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Färberei on Kleiderbügel</title>
-    <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/f%C3%A4rberei/</link>
-    <description>Recent content in Färberei on Kleiderbügel</description>
-    <generator>Hugo</generator>
-    <language>de</language>
-    <managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
-    <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
-    <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Tue, 26 May 2026 08:52:07 +0200</lastBuildDate>
-    <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/f%C3%A4rberei/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Färberei ALT</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/190/</link>
-      <pubDate>Tue, 19 May 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/190/</guid>
-      <description>&lt;p&gt;Färberei ALT, Heilbronn Tel. 858804 Chem. Reinigung&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Färberei HOTHO Reinigung</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/</link>
-      <pubDate>Tue, 30 Sep 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/</guid>
-      <description>&lt;p&gt;Färberei HOTHO Reinigung&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Färberei Croon Osnabrück</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/151/</link>
-      <pubDate>Tue, 19 Aug 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/151/</guid>
-      <description>&lt;p&gt;Färberei Croon Osnabrück&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Färberei Bode Reinigung</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/128/</link>
-      <pubDate>Tue, 11 Mar 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/128/</guid>
-      <description>&lt;p&gt;Färberei Bode Reinigung&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>W. Marwitz Lüneburg</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/109/</link>
-      <pubDate>Tue, 05 Nov 2024 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/109/</guid>
-      <description>&lt;p&gt;Lüneburg&#xA;W. Marwitz&#xA;Wäscherei Färberei Chem. Reinigung&#xA;Ruf 52044&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Färberei Kotzenberg</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/</link>
-      <pubDate>Mon, 26 Oct 2020 18:45:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/</guid>
-      <description>&lt;p&gt;Chem. Reinigung Färberei Kotzenberg Kleiderbad&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Färberei on Kleiderbügel</title>
+		<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/f%C3%A4rberei/</link>
+		<description>Recent content in Färberei on Kleiderbügel</description>
+		<generator>Hugo</generator>
+		<language>de</language>
+		
+			<managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
+		
+		
+			<webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
+		
+		
+			<copyright>Kleiderbügel</copyright>
+		
+		
+			<lastBuildDate>Wed, 27 May 2026 07:25:06 +0200</lastBuildDate>
+		
+			<atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/f%C3%A4rberei/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Färberei ALT</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/190/</link>
+				<pubDate>Tue, 19 May 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/190/</guid>
+				<description>&lt;p&gt;Färberei ALT, Heilbronn Tel. 858804 Chem. Reinigung&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Färberei HOTHO Reinigung</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/</link>
+				<pubDate>Tue, 30 Sep 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/157/</guid>
+				<description>&lt;p&gt;Färberei HOTHO Reinigung&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Färberei Croon Osnabrück</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/151/</link>
+				<pubDate>Tue, 19 Aug 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/151/</guid>
+				<description>&lt;p&gt;Färberei Croon Osnabrück&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Färberei Bode Reinigung</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/128/</link>
+				<pubDate>Tue, 11 Mar 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/128/</guid>
+				<description>&lt;p&gt;Färberei Bode Reinigung&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>W. Marwitz Lüneburg</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/109/</link>
+				<pubDate>Tue, 05 Nov 2024 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/109/</guid>
+				<description>&lt;p&gt;Lüneburg&#xA;W. Marwitz&#xA;Wäscherei Färberei Chem. Reinigung&#xA;Ruf 52044&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Färberei Kotzenberg</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/</link>
+				<pubDate>Mon, 26 Oct 2020 18:45:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/18/</guid>
+				<description>&lt;p&gt;Chem. Reinigung Färberei Kotzenberg Kleiderbad&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

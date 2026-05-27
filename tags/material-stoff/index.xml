@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Material: Stoff on Kleiderbügel</title>
-    <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-stoff/</link>
-    <description>Recent content in Material: Stoff on Kleiderbügel</description>
-    <generator>Hugo</generator>
-    <language>de</language>
-    <managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
-    <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
-    <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Tue, 26 May 2026 08:52:07 +0200</lastBuildDate>
-    <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-stoff/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>korallino</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/62/</link>
-      <pubDate>Sun, 28 Mar 2021 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/62/</guid>
-      <description>&lt;p&gt;korallino&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Material: Stoff on Kleiderbügel</title>
+		<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-stoff/</link>
+		<description>Recent content in Material: Stoff on Kleiderbügel</description>
+		<generator>Hugo</generator>
+		<language>de</language>
+		
+			<managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
+		
+		
+			<webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
+		
+		
+			<copyright>Kleiderbügel</copyright>
+		
+		
+			<lastBuildDate>Wed, 27 May 2026 07:25:06 +0200</lastBuildDate>
+		
+			<atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-stoff/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>korallino</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/62/</link>
+				<pubDate>Sun, 28 Mar 2021 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/62/</guid>
+				<description>&lt;p&gt;korallino&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

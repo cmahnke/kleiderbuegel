@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>München on Kleiderbügel</title>
-    <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/m%C3%BCnchen/</link>
-    <description>Recent content in München on Kleiderbügel</description>
-    <generator>Hugo</generator>
-    <language>de</language>
-    <managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
-    <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
-    <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Tue, 26 May 2026 08:52:07 +0200</lastBuildDate>
-    <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/m%C3%BCnchen/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ludwig Beck München</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/175/</link>
-      <pubDate>Tue, 03 Feb 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/175/</guid>
-      <description>&lt;p&gt;Ludwig&#xA;Beck&#xA;Am Rathauseck&#xA;München&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Zechbauer Herrenausstatter</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/174/</link>
-      <pubDate>Tue, 27 Jan 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/174/</guid>
-      <description>&lt;p&gt;Zechbauer Herrenausstatter&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Loden - Frey München</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/169/</link>
-      <pubDate>Tue, 23 Dec 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/169/</guid>
-      <description>&lt;p&gt;Loden - Frey München&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>München on Kleiderbügel</title>
+		<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/m%C3%BCnchen/</link>
+		<description>Recent content in München on Kleiderbügel</description>
+		<generator>Hugo</generator>
+		<language>de</language>
+		
+			<managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
+		
+		
+			<webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
+		
+		
+			<copyright>Kleiderbügel</copyright>
+		
+		
+			<lastBuildDate>Wed, 27 May 2026 07:25:06 +0200</lastBuildDate>
+		
+			<atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/m%C3%BCnchen/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ludwig Beck München</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/175/</link>
+				<pubDate>Tue, 03 Feb 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/175/</guid>
+				<description>&lt;p&gt;Ludwig&#xA;Beck&#xA;Am Rathauseck&#xA;München&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Zechbauer Herrenausstatter</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/174/</link>
+				<pubDate>Tue, 27 Jan 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/174/</guid>
+				<description>&lt;p&gt;Zechbauer Herrenausstatter&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Loden - Frey München</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/169/</link>
+				<pubDate>Tue, 23 Dec 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/169/</guid>
+				<description>&lt;p&gt;Loden - Frey München&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

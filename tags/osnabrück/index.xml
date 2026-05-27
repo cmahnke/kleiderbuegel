@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Osnabrück on Kleiderbügel</title>
-    <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/osnabr%C3%BCck/</link>
-    <description>Recent content in Osnabrück on Kleiderbügel</description>
-    <generator>Hugo</generator>
-    <language>de</language>
-    <managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
-    <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
-    <copyright>Kleiderbügel</copyright>
-    <lastBuildDate>Tue, 26 May 2026 08:52:07 +0200</lastBuildDate>
-    <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/osnabr%C3%BCck/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Färberei Croon Osnabrück</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/151/</link>
-      <pubDate>Tue, 19 Aug 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/151/</guid>
-      <description>&lt;p&gt;Färberei Croon Osnabrück&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Osnabrück on Kleiderbügel</title>
+		<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/osnabr%C3%BCck/</link>
+		<description>Recent content in Osnabrück on Kleiderbügel</description>
+		<generator>Hugo</generator>
+		<language>de</language>
+		
+			<managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
+		
+		
+			<webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
+		
+		
+			<copyright>Kleiderbügel</copyright>
+		
+		
+			<lastBuildDate>Wed, 27 May 2026 07:25:06 +0200</lastBuildDate>
+		
+			<atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/osnabr%C3%BCck/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Färberei Croon Osnabrück</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/151/</link>
+				<pubDate>Tue, 19 Aug 2025 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/151/</guid>
+				<description>&lt;p&gt;Färberei Croon Osnabrück&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

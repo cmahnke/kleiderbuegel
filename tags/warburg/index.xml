@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Warburg on Kleiderbügel</title>
-    <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/warburg/</link>
-    <description>Recent content in Warburg on Kleiderbügel</description>
-    <generator>Hugo</generator>
-    <language>de</language>
-    <managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
-    <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
-    <copyright>Kleiderbügel</copyright>
-    <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/warburg/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Konfektionshaus Fritz Becker Warburg i. W.</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/</link>
-      <pubDate>Tue, 09 Jul 2024 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/</guid>
-      <description>&lt;p&gt;Konfektionshaus Fritz Becker Warburg i. W.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Carl Schübeler</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/</link>
-      <pubDate>Sat, 13 Feb 2021 12:32:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/</guid>
-      <description>&lt;p&gt;Carl Schübeler Warburg - Westf.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Warburg on Kleiderbügel</title>
+		<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/warburg/</link>
+		<description>Recent content in Warburg on Kleiderbügel</description>
+		<generator>Hugo</generator>
+		<language>de</language>
+		
+			<managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
+		
+		
+			<webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
+		
+		
+			<copyright>Kleiderbügel</copyright>
+		
+		
+			<atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/warburg/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Konfektionshaus Fritz Becker Warburg i. W.</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/</link>
+				<pubDate>Tue, 09 Jul 2024 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/93/</guid>
+				<description>&lt;p&gt;Konfektionshaus Fritz Becker Warburg i. W.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Carl Schübeler</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/</link>
+				<pubDate>Sat, 13 Feb 2021 12:32:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/50/</guid>
+				<description>&lt;p&gt;Carl Schübeler Warburg - Westf.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

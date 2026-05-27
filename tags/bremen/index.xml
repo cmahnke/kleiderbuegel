@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bremen on Kleiderbügel</title>
-    <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bremen/</link>
-    <description>Recent content in Bremen on Kleiderbügel</description>
-    <generator>Hugo</generator>
-    <language>de</language>
-    <managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
-    <webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
-    <copyright>Kleiderbügel</copyright>
-    <atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bremen/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Rud. Behrmann Bremen</title>
-      <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/25/</link>
-      <pubDate>Tue, 01 Dec 2020 12:32:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-      <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/25/</guid>
-      <description>&lt;p&gt;Rud. Behrmann Bremen, Ruddestrasse 15&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Bremen on Kleiderbügel</title>
+		<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bremen/</link>
+		<description>Recent content in Bremen on Kleiderbügel</description>
+		<generator>Hugo</generator>
+		<language>de</language>
+		
+			<managingEditor>mail@christianmahnke.de (Christian Mahnke)</managingEditor>
+		
+		
+			<webMaster>mail@christianmahnke.de (Christian Mahnke)</webMaster>
+		
+		
+			<copyright>Kleiderbügel</copyright>
+		
+		
+			<atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/bremen/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Rud. Behrmann Bremen</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/25/</link>
+				<pubDate>Tue, 01 Dec 2020 12:32:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/25/</guid>
+				<description>&lt;p&gt;Rud. Behrmann Bremen, Ruddestrasse 15&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
