@@ -42,7 +42,7 @@ jobs:
       - name: Install required dependencies
         run: |
           ./scripts/github-setup.sh
-          puppeteer install chrome@latest
+          npx puppeteer install chrome@latest
 
       - name: Install Hugo
         run: |
