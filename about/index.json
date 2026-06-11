@@ -1,4 +1,4 @@
-{"meta": {"date": "0001-01-01 00:00:00 +0000 UTC", "title": "Über diese Seite", "type": "<no value>" }, "images": {}, "content": "<p>Dieses Blog bietet einen Blick auf alte <a href="https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel" target="_blank">Kleiderbügel</a> (derzeit 190) und ist ein Teil des <a href="https://xn--blaufusstlpel-qmb.de" target="_blank">Blaufußtölpels</a>. Die abgebildeten Kleiderbügel sind verschlagwortet und werden ansonsten nicht kommentiert, auch die nicht, die vielleicht einer Distanzierung bedürften.</p>
+{"meta": {"date": "0001-01-01 00:00:00 +0000 UTC", "title": "Über diese Seite", "type": "<no value>" }, "images": {}, "content": "<p>Dieses Blog bietet einen Blick auf alte <a href="https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel" target="_blank">Kleiderbügel</a> (derzeit 192) und ist ein Teil des <a href="https://xn--blaufusstlpel-qmb.de" target="_blank">Blaufußtölpels</a>. Die abgebildeten Kleiderbügel sind verschlagwortet und werden ansonsten nicht kommentiert, auch die nicht, die vielleicht einer Distanzierung bedürften.</p>
 <p>Kleiderbügel fristen heutzutage zwar ein Leben im Schrank, sind aber auch ein Teil von lokaler Wirtschaftsgeschichte. Als Werbeträger, die ihren Funktionswert nicht so schnell einbüßen wie ein eingetrockneter Kugelschreiber oder ein leeres Feuerzeug, bieten sie einen Einblick in eine Zeit, als der Bekleidungsmarkt und Dienstleistungen dazu noch nicht so sehr von größeren Unternehmen dominiert wurden.</p>
 <p>Bei einigen Kleiderbügeln ist auch die Quelle angegeben, allerdings habe ich es gerade bei Exemplaren, die schon länger in meiner Sammlung sind, auch inzwischen vergessen. Ebenfalls ohne Quellenangabe sind die Exemplare, die ich auf diversen Flohmärkten erstanden habe.</p>
 <p>An dieser Stelle einen herzlichen Dank an Gwen von <a href="https://www.neue-arbeit-brockensammlung.de/zweigstelle-kim/" target="_blank">KiM Göttingen</a> für ihre Unterstützung!</p>
@@ -22,15 +22,15 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
 
   
 <div class="tagcloud"><a href="/tags/material-holz" class="btn btn-default cloud-tag" role="button" style="font-size: 48px;">
-          Holz <span class="badge">(178)</span>
+          Holz <span class="badge">(180)</span>
         </a><a href="/tags/bekleidungsgesch%C3%A4ft" class="btn btn-default cloud-tag" role="button" style="font-size: 40px;">
-          Bekleidungsgeschäft <span class="badge">(72)</span>
+          Bekleidungsgeschäft <span class="badge">(73)</span>
         </a><a href="/tags/reinigung" class="btn btn-default cloud-tag" role="button" style="font-size: 30px;">
           Reinigung <span class="badge">(19)</span>
+        </a><a href="/tags/beidseitig" class="btn btn-default cloud-tag" role="button" style="font-size: 28px;">
+          Beidseitig bedruckt <span class="badge">(15)</span>
         </a><a href="/tags/g%C3%B6ttingen" class="btn btn-default cloud-tag" role="button" style="font-size: 28px;">
           Göttingen <span class="badge">(15)</span>
-        </a><a href="/tags/beidseitig" class="btn btn-default cloud-tag" role="button" style="font-size: 27px;">
-          Beidseitig bedruckt <span class="badge">(14)</span>
         </a><a href="/tags/material-plastik" class="btn btn-default cloud-tag" role="button" style="font-size: 25px;">
           Plastik <span class="badge">(11)</span>
         </a><a href="/tags/warenhaus" class="btn btn-default cloud-tag" role="button" style="font-size: 25px;">
@@ -38,11 +38,11 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
         </a><a href="/tags/hannover" class="btn btn-default cloud-tag" role="button" style="font-size: 24px;">
           Hannover <span class="badge">(10)</span>
         </a><a href="/tags/hotel" class="btn btn-default cloud-tag" role="button" style="font-size: 24px;">
-          Hotel <span class="badge">(9)</span>
+          Hotel <span class="badge">(10)</span>
         </a><a href="/tags/werbung" class="btn btn-default cloud-tag" role="button" style="font-size: 24px;">
           Werbung <span class="badge">(9)</span>
-        </a><a href="/tags/union" class="btn btn-default cloud-tag" role="button" style="font-size: 22px;">
-          Union <span class="badge">(7)</span>
+        </a><a href="/tags/union" class="btn btn-default cloud-tag" role="button" style="font-size: 23px;">
+          Union <span class="badge">(8)</span>
         </a><a href="/tags/f%C3%A4rberei" class="btn btn-default cloud-tag" role="button" style="font-size: 20px;">
           Färberei <span class="badge">(6)</span>
         </a><a href="/tags/hettlage" class="btn btn-default cloud-tag" role="button" style="font-size: 20px;">
@@ -111,6 +111,8 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
           Szczecin / Stettin <span class="badge">(2)</span>
         </a><a href="/tags/testorp" class="btn btn-default cloud-tag" role="button" style="font-size: 12px;">
           Testorp <span class="badge">(2)</span>
+        </a><a href="/tags/union-globus" class="btn btn-default cloud-tag" role="button" style="font-size: 12px;">
+          Union Globus <span class="badge">(2)</span>
         </a><a href="/tags/warburg" class="btn btn-default cloud-tag" role="button" style="font-size: 12px;">
           Warburg <span class="badge">(2)</span>
         </a><a href="/tags/witzenhausen" class="btn btn-default cloud-tag" role="button" style="font-size: 12px;">
@@ -119,7 +121,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
 <h2 id="weitere-statistiken">Weitere Statistiken</h2>
 <ul class="statistics">
 <li>
-<p>Alle Kleiderbügel: <strong>190</strong></p>
+<p>Alle Kleiderbügel: <strong>192</strong></p>
 </li>
 <li>
 <p>Materialien</p>
@@ -129,7 +131,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
   
 
   
-<a href="/tags/material-holz">178</a></strong></li>
+<a href="/tags/material-holz">180</a></strong></li>
 <li>Aus Plastik: <strong>
 
   
@@ -222,7 +224,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
   
 
   
-<a href="/tags/union">7</a></strong></li>
+<a href="/tags/union">8</a></strong></li>
 <li>ruwe: <strong>
 
   
@@ -239,7 +241,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
   
 
   
-<a href="/tags/bekleidungsgesch%C3%A4ft">72</a></strong></li>
+<a href="/tags/bekleidungsgesch%C3%A4ft">73</a></strong></li>
 <li>Reinigung: <strong>
 
   
@@ -257,7 +259,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
   
 
   
-<a href="/tags/hotel">9</a></strong></li>
+<a href="/tags/hotel">10</a></strong></li>
 <li>Pelze: <strong>
 
   
@@ -410,7 +412,7 @@ Schlagworte mit weniger als drei Einträgen werden nicht angezeigt.</p>
   
 
   
-<a href="/tags/beidseitig">14</a></strong></li>
+<a href="/tags/beidseitig">15</a></strong></li>
 <li>Werbung: <strong>
 
   
