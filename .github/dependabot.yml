@@ -16,8 +16,6 @@ updates:
     ignore:
       - dependency-name: leaflet-vector-tile-layer
         versions: [ ">=1.0.0" ]
-      - dependency-name: @vivliostyle/cli
-        versions: [ ">=10.3" ]
     groups:
       npm:
         patterns:
