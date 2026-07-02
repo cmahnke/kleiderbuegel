@@ -16,9 +16,16 @@
 			<copyright>Kleiderbügel</copyright>
 		
 		
-			<lastBuildDate>Tue, 30 Jun 2026 00:00:25 +0200</lastBuildDate>
+			<lastBuildDate>Thu, 02 Jul 2026 01:10:26 +0200</lastBuildDate>
 		
 			<atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Otto-Versand Hamburg</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/196/</link>
+				<pubDate>Tue, 30 Jun 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/196/</guid>
+				<description>&lt;p&gt;Otto-Versand, Hamburg&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Rosbach &amp; Risse</title>
 				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/195/</link>
@@ -186,13 +193,6 @@
 				<pubDate>Tue, 13 Jan 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
 				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/172/</guid>
 				<description>&lt;p&gt;Karstadt&#xA;Stettin Breitestraße.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>DURELASTIC</title>
-				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/171/</link>
-				<pubDate>Tue, 06 Jan 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/171/</guid>
-				<description></description>
 			</item>
 	</channel>
 </rss>

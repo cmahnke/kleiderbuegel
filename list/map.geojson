@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Otto-Versand Hamburg",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eOtto-Versand Hamburg\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eOtto-Versand, Hamburg\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWerner-Otto-Straße 1-7, 22179 Hamburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/196/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.071455,53.60101]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Rosbach &amp; Risse",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eRosbach \u0026amp; Risse\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eRosbach \u0026amp; Risse\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eKohlmarkt 3, Braunschweig\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/195/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
