@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Modehaus Wagner Göttingen",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eModehaus Wagner Göttingen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003e\u003c/div\u003e\u003cdiv class=\"popup-address\"\u003eGenaue Adresse nicht ermittelbar\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWeender Straße, Göttingen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/197/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.93537,51.53307]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Otto-Versand Hamburg",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eOtto-Versand Hamburg\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eOtto-Versand, Hamburg\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWerner-Otto-Straße 1-7, 22179 Hamburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/196/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
