@@ -87,15 +87,20 @@ jobs:
       - name: Puppeteer
         run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh
 
-      - name: Achive links
-        run: python ./themes/projektemacher-base/scripts/archive.py -d docs/ -e kleiderbügel.blaufusstölpel.de,xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de,xn--blaufusstlpel-qmb.de -a 30 -o archived-urls.txt
-
-      - name: Save URL list
-        run: |
-          cp archived-urls.txt docs/
+      # - name: Achive links
+      #   run: python ./themes/projektemacher-base/scripts/archive.py -d docs/ -e kleiderbügel.blaufusstölpel.de,xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de,xn--blaufusstlpel-qmb.de -a 30 -o archived-urls.txt
+      #
+      # - name: Save URL list
+      #   run: |
+      #     cp archived-urls.txt docs/
 
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
+
+  archive:
+    needs: deploy
+    uses: ./.github/workflows/archive.yml
+    secrets: inherit
