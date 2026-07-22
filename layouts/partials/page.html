@@ -6,6 +6,14 @@
     <div class="content">
       <button class="close-hanger"></button>
       <h1 class="post-title">{{ .Title }}</h1>
+      {{- if eq $class "text" -}}
+        <div class="date">
+            <a href="{{ .RelPermalink }}">
+              {{- .Date | time.Format ":date_full" -}}
+            </a>
+        </div>
+      {{- end -}}
+
       {{- if eq $class "hanger" -}}
         {{- $page := . -}}
         <h2 class="heading-front">{{ i18n "front" }}</h2>
@@ -71,11 +79,13 @@
      </div>
     {{- if and (not .Params.hideMeta) (not .Params.metaPage) -}}
       <div class="meta">
-        <div class="date">
-            <a href="{{ .RelPermalink }}">
-              {{- .Date | time.Format ":date_full" -}}
-            </a>
-        </div>
+        {{- if ne $class "text" -}}
+          <div class="date">
+              <a href="{{ .RelPermalink }}">
+                {{- .Date | time.Format ":date_full" -}}
+              </a>
+          </div>
+        {{- end -}}
         <div class="meta-spacer">
             {{ if eq $class "hanger" }}
               {{- $hangers := (where (where .Site.Pages "Section" "post") "Params.type" "hanger").Reverse -}}

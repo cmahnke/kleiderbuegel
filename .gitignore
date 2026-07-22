@@ -42,3 +42,4 @@ book.pdf
 ISOcoated_v2_eci.icc
 ISOcoated_v2_300_eci.icc
 print*.pdf
+content/**/ogPreview.en/*

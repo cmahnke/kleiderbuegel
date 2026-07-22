@@ -1,0 +1,13 @@
+packages:
+  - .
+allowBuilds:
+  canvas: true
+  core-js: true
+  es5-ext: true
+  esbuild: true
+  protobufjs: true
+  puppeteer: true
+  sharp: true
+  tify: true
+blockExoticSubdeps: false
+ignoreScripts: false

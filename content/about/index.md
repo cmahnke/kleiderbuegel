@@ -19,10 +19,14 @@ Die Kleiderbügel auf dieser Seite stehen nicht zum Verkauf! Allerdings bin ich 
 * Für Leihgaben werden eine Namensnennung, ein Belegexemplar des Katalogs bzw. ein Foto im Kontext (mit vollen und dauerhaften Nutzungs- und Verwertungsrechten) erwartet.
 
 Weitere Informationen finden sie in in entsprechenden Abschnitten meiner Homepage:
-* [Schenkungen  / Spenden](https://christianmahnke.de/collections/#donations)
+* [Schenkungen / Spenden](https://christianmahnke.de/collections/#donations)
 * [Leihgaben](https://christianmahnke.de/collections/#loans)
 
 Bitte gehen sie bei Anfragen auf diese Punkte ein.
+
+# Buch
+
+Für die Ausstellung ["Sammlungen Erzählen"](https://sammlungen-erzaehlen.gbv.de/) im [Forum Wissen Göttingen](https://www.forum-wissen.de/) erschien auch der gedruckte Sammlungskatalog: [Die Kleiderbügelsammlung Christian Mahnke](/post/coat-hangers-book/kleiderbuegel-2025.pdf).
 
 # Schlagworte
 

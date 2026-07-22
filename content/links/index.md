@@ -45,15 +45,22 @@ Die Anzahl an Kleiderbügelsammlern ist überschaubar, hier die medial präsente
 
 ## Ausstellungen
 * [Kleiderbügel erzählen Geschichte](https://westerwaldmuseum.de/pressestimmen/kleiderbuegel-erzaehlen.html)
+* [Sammlungen Erzählen: Kleiderbügel](https://sammlungen-erzaehlen.gbv.de/kleiderbuegel/)
 
-## Blog und Zeitungsbeiträge Beiträge 
+## Blog- und Zeitungsbeiträge
 
 * [Ein Kleiderbügel erzählt eine Geschichte](https://www.aktives-museum-suedwestfalen.de/ein-kleiderbuegel-erzaehlt-eine-geschichte/)
 * [Kleiderbügel-Geschichten](https://www.lokalkompass.de/essen-nord/c-kultur/kleiderbuegel-geschichten-teil-1_a550914)
 * [Kleiderbügel aus Garnhülsen und Draht](https://industriemuseum.lvr.de/de/sammlung/sammlung_entdecken/oekologie___recycling/kleiderbuegel/Kleiderbuegel_aus_Garnhuelsen_und_Draht.html)
 * [Was Kleiderbügel erzählen können](https://www.welt.de/print-welt/article193101/Was-Kleiderbuegel-erzaehlen-koennen.html)
+* [Blick aktuell: Wenn Kleiderbügel erzählen (Über die Sammlung von Ottmar Gies)](https://www.blick-aktuell.de/Berichte/Wenn-Kleiderbuegel-erzaehlen-333684.html)
 
 ## Unternehmen(-sgeschichten)
 
 * [Weber Kleiderbügel](https://weber-hangers.com/ueber-uns/das-unternehmen/)
 * [pieper hangers](https://www.pieperhangers.de/index.htm)
+
+## Weitere museale Sammlungen und Einzelstücke
+
+* [Suche im Jüdischen Museum Berlin](https://objekte.jmberlin.de/Schlagworte/ART454190?q=Kleiderbügel)
+* [Suche in der Deutschen Digitalen Bibliothek](https://www.deutsche-digitale-bibliothek.de/searchresults?query=Kleiderbügel&isThumbnailFiltered=true)

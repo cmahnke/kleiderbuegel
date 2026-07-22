@@ -5,6 +5,8 @@ metaPage: true
 hideMeta: true
 ---
 
+All Links in German.
+
 ## General
 * [Kleiderbügel in der Wikipedia](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel)
 * [Kleiderbügel bei Strukturwalzen](https://www.strukturwalzen.de/sammler-kleiderbuegel-berlin-eberhard-rohde.htm)
@@ -41,3 +43,25 @@ The number of clothes hanger collectors is manageable. Here are the most promine
 * [buegel.de](https://www.buegel.de/service-kontakt/logodruck/)
 * [pieper hangers](https://www.pieperhangers.de)
 * [weber Kleiderbügel](https://weber-kleiderbuegel.lwa-wip.de/produkte/kleiderbuegel-mit-druck/)
+
+## Exhibitions
+* [Clothes hangers tell a story](https://westerwaldmuseum.de/pressestimmen/kleiderbuegel-erzaehlen.html)
+* [Collections Tell a Story: Clothes hangers](https://sammlungen-erzaehlen.gbv.de/kleiderbuegel/)
+
+## Blog and newspaper articles
+
+* [A clothes hanger tells a story](https://www.aktives-museum-suedwestfalen.de/ein-kleiderbuegel-erzaehlt-eine-geschichte/)
+* [Clothes Hanger Stories](https://www.lokalkompass.de/essen-nord/c-kultur/kleiderbuegel-geschichten-teil-1_a550914)
+* [Clothes hangers made from yarn spools and wire](https://industriemuseum.lvr.de/de/sammlung/sammlung_entdecken/oekologie___recycling/kleiderbuegel/Kleiderbuegel_aus_Garnhuelsen_und_Draht.html)
+* [What clothes hangers can tell us](https://www.welt.de/print-welt/article193101/Was-Kleiderbuegel-erzaehlen-koennen.html)
+* [Blick aktuell: When clothes hangers tell a story (On Ottmar Gies’s collection)](https://www.blick-aktuell.de/Berichte/Wenn-Kleiderbuegel-erzaehlen-333684.html)
+
+## Companies (and their stories)
+
+* [Weber Clothes Hangers](https://weber-hangers.com/ueber-uns/das-unternehmen/)
+* [pieper hangers](https://www.pieperhangers.de/index.htm)
+
+## Other museum collections and individual items
+
+* [Search the Jewish Museum Berlin](https://objekte.jmberlin.de/Schlagworte/ART454190?q=Kleiderbügel)
+* [Search the German Digital Library](https://www.deutsche-digitale-bibliothek.de/searchresults?query=Kleiderbügel&isThumbnailFiltered=true)

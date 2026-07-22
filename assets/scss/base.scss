@@ -525,6 +525,11 @@ strong {
             align-self: flex-start;
             text-align: left;
             width: 100%;
+
+            & + .date {
+              margin-top: -2.4rem;
+              margin-bottom: 1.6rem;
+            }
           }
         }
 

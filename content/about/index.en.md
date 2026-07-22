@@ -13,10 +13,14 @@ Although clothes hangers nowadays lead a life in the closet, they are also part 
 * For loans, attribution, a copy of the catalog, or a photo in context (with full and permanent rights of use and exploitation) are expected.
 
 Further information can be found in the relevant sections of my homepage:
-* [Donations  / Gifts](https://christianmahnke.de/collections/#donations)
+* [Donations / Gifts](https://christianmahnke.de/collections/#donations)
 * [Loans](https://christianmahnke.de/collections/#loans)
 
 Please address these points in your inquiries.
+
+# Buch
+
+A printed catalogue of the collection was also published to accompany the exhibition ["Sammlungen Erzählen"](https://sammlungen-erzaehlen.gbv.de/) at the [Forum Wissen Göttingen](https://www.forum-wissen.de/): [Die Kleiderbügelsammlung Christian Mahnke](/post/coat-hangers-book/kleiderbuegel-2025.pdf) (German only).
 
 # Keywords
 
