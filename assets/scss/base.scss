@@ -531,6 +531,10 @@ strong {
               margin-bottom: 1.6rem;
             }
           }
+
+          .pdf-preview.pdfobject-container {
+            display: none;
+          }
         }
 
         &.weekly {

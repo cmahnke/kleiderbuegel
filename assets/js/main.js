@@ -4,12 +4,13 @@ import { initMap } from './maps/osm-map.js';
 import Swiper from 'swiper';
 import { A11y, Navigation, Scrollbar, Keyboard, Mousewheel } from 'swiper/modules';
 import EffectCoverflow from './swiper-addons/effect-coverflow.mjs';
-
+import PDFObject from 'pdfobject/pdfobject.js';
 
 const defaultSize = 330;
 
 window.addConsent = addConsent;
 window.initMap = initMap;
+window.PDFObject = PDFObject;
 
 function hangerHandler (elem) {
   const id = elem.dataset.contentId;
