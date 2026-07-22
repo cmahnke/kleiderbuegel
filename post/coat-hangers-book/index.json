@@ -1,0 +1,18 @@
+{"meta": {"date": "2026-01-01 10:22:44 +0200 +0200", "title": "Das Kleiderbügel-Blog als Buch", "type": "text" }, "images": {}, "content": "<p>Nachdem das <a href="/post/kleiderbuegel-2025/">Kleiderbügel-Blog im Herbst überarbeitet</a> wurde, ist nun auch ein Sammlungskatalog verfügbar.</p>
+<div id="_pdf-8fec8ccc301218bf4738293910396d6f" class="pdf-preview"></div>
+  <div id="_pdf-8fec8ccc301218bf4738293910396d6f-download" class="pdf-preview-download"></div>
+  <script>
+    
+    let options__pdf8fec8ccc301218bf4738293910396d6f = {
+      page:  1 ,
+      pdfOpenParams: {
+        zoom: '100%'
+      },
+      fallbackLink: "<p class='pdf-preview-download-fallback'><a href='https:\/\/xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de\/post\/coat-hangers-book\/\/post\/coat-hangers-book\/kleiderbuegel-2025.pdf'>: PDF Download</a></p>"
+    };
+    window.addEventListener('DOMContentLoaded', (event) => {
+      PDFObject.embed("\/post\/coat-hangers-book\/kleiderbuegel-2025.pdf", "#_pdf-8fec8ccc301218bf4738293910396d6f", options__pdf8fec8ccc301218bf4738293910396d6f);
+    });
+  </script><a class="pdf-preview-download" href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/coat-hangers-book//post/coat-hangers-book/kleiderbuegel-2025.pdf" download>
+      Als PDF herunterladen
+    </a>"}
