@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Großwäscherei „Edelweiß“ Hagen i.W.",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eGroßwäscherei „Edelweiß“ Hagen i.W.\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eGroßwäscherei „Edelweiß“ Hagen i.W.\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eAlexanderstraße 84, 58097 Hagen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/202/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.468278,51.375889]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "Korbmacher",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKorbmacher\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKorbmacher\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eSchützenstraße 4, Peine\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/201/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
