@@ -14,7 +14,9 @@ build:
 cascade:
   - target:
       kind: '{page,section}'
-      lang: de
+      sites:
+        matrix:
+          languages: [de]
       path: '**'
     layout: iframe
     params:
