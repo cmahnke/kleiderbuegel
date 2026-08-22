@@ -66,7 +66,7 @@ jobs:
 
       - name: Generate stats
         run: |
-          ./themes/projektemacher-base/scripts/stat.sh
+          ./themes/projektemacher-base/scripts/stat.py
 
       - name: Build Hugo site
         run: hugo --printI18nWarnings --printUnusedTemplates
