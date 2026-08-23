@@ -1,9 +1,8 @@
 baseURL = "https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"
-languageCode = "de"
+locale = "de"
 title = "Kleiderbügel"
 publishDir = "docs"
 canonifyurls = true
-languagecode = "de"
 defaultcontentlanguage = "de"
 rssLimit = 25
 theme = ["projektemacher-base"]
@@ -16,7 +15,7 @@ timeout = 120
 
 [languages]
   [languages.de]
-    languagename = "Deutsch"
+    label = "Deutsch"
 
     [languages.de.menu]
       [[languages.de.menu.main]]
@@ -51,7 +50,7 @@ timeout = 120
 
 
   [languages.en]
-    languagename = "English"
+    label = "English"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -250,7 +249,7 @@ timeout = 120
 
 [[cascade]]
   outputs = ['html','rss', 'iiif-collection']
-  [cascade._target]
+  [cascade.target]
     kind = "term"
 
 [security]
