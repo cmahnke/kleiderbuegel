@@ -1,4 +1,3 @@
-//import previewr from "pagedjs/polyfill";
 import { Previewer } from "pagedjs";
 
 
