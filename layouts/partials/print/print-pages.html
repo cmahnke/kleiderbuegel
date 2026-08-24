@@ -1,5 +1,5 @@
 {{- $context := . -}}
-{{- $allPages := site.AllPages -}}
+{{- $allPages := partial "hugo/site/AllPages" . -}}
 {{- $op := "lt" -}}
 {{- $weight := 10000 -}}
 {{- $filter := slice (dict "op" "lt" "weight" 10000) -}}
