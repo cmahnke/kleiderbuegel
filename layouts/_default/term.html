@@ -30,7 +30,7 @@
       </div>
     </div>
   {{- end -}}
-  {{- if ne .Language site.Sites.Default.Language -}}
+  {{- if ne .Language hugo.Sites.Default.Language -}}
     {{- $termPages := .Site.Pages -}}
     {{- range .Site.Home.Translations -}}
       {{- $termPages = $termPages | lang.Merge .Site.RegularPages -}}
