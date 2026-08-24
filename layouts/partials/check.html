@@ -47,7 +47,7 @@
       {{- if not $material -}}
         {{- errorf "[check.html] Material missing for %s" .RelPermalink -}}
       {{- end -}}
-      {{- $defaultLang := (index .Site.Languages 0).Lang -}}
+      {{- $defaultLang := hugo.Sites.Default.Language.Lang -}}
       {{- if ne $defaultLang .Language.Lang -}}
         {{- range $tag := .Params.tags -}}
           {{- $tagTranslation := i18n $tag -}}
