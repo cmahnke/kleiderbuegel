@@ -26,12 +26,12 @@
       pdfOpenParams: {
         zoom: &#39;100%&#39;
       },
-      fallbackLink: &#34;&lt;p class=&#39;pdf-preview-download-fallback&#39;&gt;&lt;a href=&#39;https:\/\/xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de\/en\/post\/coat-hangers-book\/\/post\/coat-hangers-book\/kleiderbuegel-2025.pdf&#39;&gt;: PDF Download&lt;/a&gt;&lt;/p&gt;&#34;
+      fallbackLink: &#34;&lt;p class=&#39;pdf-preview-download-fallback&#39;&gt;&lt;a href=&#39;\/post\/coat-hangers-book\/\/post\/coat-hangers-book\/kleiderbuegel-2025.pdf&#39;&gt;: PDF Download&lt;/a&gt;&lt;/p&gt;&#34;
     };
     window.addEventListener(&#39;DOMContentLoaded&#39;, (event) =&gt; {
-      PDFObject.embed(&#34;\/post\/coat-hangers-book\/kleiderbuegel-2025.pdf&#34;, &#34;#_pdf-8fec8ccc301218bf4738293910396d6f&#34;, options__pdf8fec8ccc301218bf4738293910396d6f);
+      PDFObject.embed(&#34;\/post\/coat-hangers-book\/\/post\/coat-hangers-book\/kleiderbuegel-2025.pdf&#34;, &#34;#_pdf-8fec8ccc301218bf4738293910396d6f&#34;, options__pdf8fec8ccc301218bf4738293910396d6f);
     });
-  &lt;/script&gt;&lt;a class=&#34;pdf-preview-download&#34; href=&#34;https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/coat-hangers-book//post/coat-hangers-book/kleiderbuegel-2025.pdf&#34; download&gt;
+  &lt;/script&gt;&lt;a class=&#34;pdf-preview-download&#34; href=&#34;https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/coat-hangers-book//post/coat-hangers-book/kleiderbuegel-2025.pdf&#34; download&gt;
       Download as PDF
     &lt;/a&gt;</description>
     </item>
