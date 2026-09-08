@@ -1,0 +1,12 @@
+numpy>=1.26,<3
+pillow>=11
+pillow-heif>=1.0
+opencv-python>=4.10
+torch>=2.6
+torchvision>=0.21
+ultralytics>=8.3
+rembg>=2.0.70
+onnxruntime>=1.19
+transformers>=4.44
+timm>=1.0
+einops>=0.8

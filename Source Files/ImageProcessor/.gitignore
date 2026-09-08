@@ -1,0 +1,18 @@
+# --- downloaded (deps + model weights) ---
+/.venv/
+/models/
+/weights/
+/mobileclip2_b.ts
+
+# --- generated (pipeline outputs, intermediates, caches, logs) ---
+/output*/
+/tmp/
+/test_images/synthetic/
+
+# user-provided photos: content, not source (remove this line to version them)
+/test_images/real/
+
+# --- misc generated ---
+__pycache__/
+*.py[cod]
+.DS_Store
