@@ -6,11 +6,19 @@
 	},
 	"glyphs": "https://tiles.versatiles.org/assets/glyphs/{fontstack}/{range}.pbf",
 	"sprite": [
-		{
-			"id": "basics",
-			"url": "https://tiles.versatiles.org/assets/sprites/basics/sprites"
-		}
-	],
+    {
+      "id": "base",
+      "url": "/map-styles/sprites/base"
+    },
+    {
+      "id": "extras",
+      "url": "/map-styles/sprites/extras"
+    },
+    {
+      "id": "icons",
+      "url": "/map-styles/sprites/icons"
+    }
+  ],
 	"sources": {
 		"versatiles-shortbread": {
 			"attribution": "© <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
