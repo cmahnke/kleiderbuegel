@@ -38,6 +38,13 @@ $DEPENDENCY_MANAGER install
 
 #npx puppeteer browsers install chromium
 
+# VersaTiles style + sprites (self-hosted map style)
+echo "Set SKIP_VERSATILES to something to disable generation of VersaTiles style and sprites"
+
+if [ -z "$SKIP_VERSATILES" ] ; then
+    ./scripts/versatiles.sh
+fi
+
 ./scripts/map.sh
 ./scripts/svgo.sh
 python ./scripts/create_masks.py "content/post/**/front.png" "content/post/**/top.png" "content/post/**/back.png"
