@@ -717,30 +717,18 @@
       "type": "fill",
       "source-layer": "sites",
       "filter": [
-        "any",
+        "in",
         [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "university"
+          "get",
+          "kind"
         ],
         [
-          "==",
+          "literal",
           [
-            "get",
-            "kind"
-          ],
-          "college"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "school"
+            "university",
+            "college",
+            "school"
+          ]
         ]
       ],
       "paint": {
@@ -830,22 +818,17 @@
       "type": "fill",
       "source-layer": "sites",
       "filter": [
-        "any",
+        "in",
         [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "parking"
+          "get",
+          "kind"
         ],
         [
-          "==",
+          "literal",
           [
-            "get",
-            "kind"
-          ],
-          "bicycle_parking"
+            "parking",
+            "bicycle_parking"
+          ]
         ]
       ],
       "paint": {
@@ -4480,12 +4463,18 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           [
             "get",
             "kind"
           ],
-          "rail"
+          [
+            "literal",
+            [
+              "rail",
+              "light_rail"
+            ]
+          ]
         ],
         [
           "!",
@@ -4546,129 +4535,18 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           [
             "get",
             "kind"
           ],
-          "rail"
-        ],
-        [
-          "has",
-          "service"
-        ],
-        [
-          "==",
           [
-            "get",
-            "tunnel"
-          ],
-          true
-        ]
-      ],
-      "paint": {
-        "line-color": "rgb(212,218,223)",
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          14,
-          0,
-          15,
-          1,
-          16,
-          1,
-          20,
-          14
-        ],
-        "line-opacity": 0.5
-      },
-      "minzoom": 14,
-      "source": "versatiles-shortbread"
-    },
-    {
-      "id": "tunnel-transport-lightrail:outline",
-      "type": "line",
-      "source-layer": "streets",
-      "filter": [
-        "all",
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "light_rail"
-        ],
-        [
-          "!",
-          [
-            "has",
-            "service"
+            "literal",
+            [
+              "rail",
+              "light_rail"
+            ]
           ]
-        ],
-        [
-          "==",
-          [
-            "get",
-            "tunnel"
-          ],
-          true
-        ]
-      ],
-      "paint": {
-        "line-color": "rgb(212,218,223)",
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          8,
-          1,
-          13,
-          1,
-          15,
-          1,
-          20,
-          14
-        ],
-        "line-opacity": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          11,
-          0,
-          12,
-          0.5
-        ]
-      },
-      "minzoom": 11,
-      "source": "versatiles-shortbread"
-    },
-    {
-      "id": "tunnel-transport-lightrail-service:outline",
-      "type": "line",
-      "source-layer": "streets",
-      "filter": [
-        "all",
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "light_rail"
         ],
         [
           "has",
@@ -4911,12 +4789,18 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           [
             "get",
             "kind"
           ],
-          "rail"
+          [
+            "literal",
+            [
+              "rail",
+              "light_rail"
+            ]
+          ]
         ],
         [
           "!",
@@ -4979,133 +4863,18 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           [
             "get",
             "kind"
           ],
-          "rail"
-        ],
-        [
-          "has",
-          "service"
-        ],
-        [
-          "==",
           [
-            "get",
-            "tunnel"
-          ],
-          true
-        ]
-      ],
-      "paint": {
-        "line-color": "rgb(225,229,232)",
-        "line-dasharray": [
-          2,
-          2
-        ],
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          15,
-          0,
-          16,
-          1,
-          20,
-          10
-        ],
-        "line-opacity": 0.5
-      },
-      "minzoom": 14,
-      "source": "versatiles-shortbread"
-    },
-    {
-      "id": "tunnel-transport-lightrail",
-      "type": "line",
-      "source-layer": "streets",
-      "filter": [
-        "all",
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "light_rail"
-        ],
-        [
-          "!",
-          [
-            "has",
-            "service"
+            "literal",
+            [
+              "rail",
+              "light_rail"
+            ]
           ]
-        ],
-        [
-          "==",
-          [
-            "get",
-            "tunnel"
-          ],
-          true
-        ]
-      ],
-      "paint": {
-        "line-color": "rgb(225,229,232)",
-        "line-dasharray": [
-          2,
-          2
-        ],
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          14,
-          0,
-          15,
-          1,
-          20,
-          10
-        ],
-        "line-opacity": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          14,
-          0,
-          15,
-          0.5
-        ]
-      },
-      "minzoom": 14,
-      "source": "versatiles-shortbread"
-    },
-    {
-      "id": "tunnel-transport-lightrail-service",
-      "type": "line",
-      "source-layer": "streets",
-      "filter": [
-        "all",
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "light_rail"
         ],
         [
           "has",
@@ -8497,12 +8266,18 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           [
             "get",
             "kind"
           ],
-          "rail"
+          [
+            "literal",
+            [
+              "rail",
+              "light_rail"
+            ]
+          ]
         ],
         [
           "!",
@@ -8571,144 +8346,18 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           [
             "get",
             "kind"
           ],
-          "rail"
-        ],
-        [
-          "has",
-          "service"
-        ],
-        [
-          "!=",
           [
-            "get",
-            "bridge"
-          ],
-          true
-        ],
-        [
-          "!=",
-          [
-            "get",
-            "tunnel"
-          ],
-          true
-        ]
-      ],
-      "paint": {
-        "line-color": "rgb(177,187,196)",
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          14,
-          0,
-          15,
-          1,
-          16,
-          1,
-          20,
-          14
-        ]
-      },
-      "minzoom": 14,
-      "source": "versatiles-shortbread"
-    },
-    {
-      "id": "transport-lightrail:outline",
-      "type": "line",
-      "source-layer": "streets",
-      "filter": [
-        "all",
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "light_rail"
-        ],
-        [
-          "!",
-          [
-            "has",
-            "service"
+            "literal",
+            [
+              "rail",
+              "light_rail"
+            ]
           ]
-        ],
-        [
-          "!=",
-          [
-            "get",
-            "bridge"
-          ],
-          true
-        ],
-        [
-          "!=",
-          [
-            "get",
-            "tunnel"
-          ],
-          true
-        ]
-      ],
-      "paint": {
-        "line-color": "rgb(177,187,196)",
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          8,
-          1,
-          13,
-          1,
-          15,
-          1,
-          20,
-          14
-        ],
-        "line-opacity": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          11,
-          0,
-          12,
-          1
-        ]
-      },
-      "minzoom": 11,
-      "source": "versatiles-shortbread"
-    },
-    {
-      "id": "transport-lightrail-service:outline",
-      "type": "line",
-      "source-layer": "streets",
-      "filter": [
-        "all",
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "light_rail"
         ],
         [
           "has",
@@ -8995,78 +8644,24 @@
       "type": "line",
       "source-layer": "aerialways",
       "filter": [
-        "any",
+        "in",
         [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "cable_car"
+          "get",
+          "kind"
         ],
         [
-          "==",
+          "literal",
           [
-            "get",
-            "kind"
-          ],
-          "gondola"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "goods"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "chair_lift"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "drag_lift"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "t-bar"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "j-bar"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "platter"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "rope-tow"
+            "cable_car",
+            "gondola",
+            "goods",
+            "chair_lift",
+            "drag_lift",
+            "t-bar",
+            "j-bar",
+            "platter",
+            "rope-tow"
+          ]
         ]
       ],
       "paint": {
@@ -9099,12 +8694,18 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           [
             "get",
             "kind"
           ],
-          "rail"
+          [
+            "literal",
+            [
+              "rail",
+              "light_rail"
+            ]
+          ]
         ],
         [
           "!",
@@ -9175,148 +8776,18 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           [
             "get",
             "kind"
           ],
-          "rail"
-        ],
-        [
-          "has",
-          "service"
-        ],
-        [
-          "!=",
           [
-            "get",
-            "bridge"
-          ],
-          true
-        ],
-        [
-          "!=",
-          [
-            "get",
-            "tunnel"
-          ],
-          true
-        ]
-      ],
-      "paint": {
-        "line-color": "rgb(200,207,214)",
-        "line-dasharray": [
-          2,
-          2
-        ],
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          15,
-          0,
-          16,
-          1,
-          20,
-          10
-        ]
-      },
-      "minzoom": 14,
-      "source": "versatiles-shortbread"
-    },
-    {
-      "id": "transport-lightrail",
-      "type": "line",
-      "source-layer": "streets",
-      "filter": [
-        "all",
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "light_rail"
-        ],
-        [
-          "!",
-          [
-            "has",
-            "service"
+            "literal",
+            [
+              "rail",
+              "light_rail"
+            ]
           ]
-        ],
-        [
-          "!=",
-          [
-            "get",
-            "bridge"
-          ],
-          true
-        ],
-        [
-          "!=",
-          [
-            "get",
-            "tunnel"
-          ],
-          true
-        ]
-      ],
-      "paint": {
-        "line-color": "rgb(200,207,214)",
-        "line-dasharray": [
-          2,
-          2
-        ],
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          14,
-          0,
-          15,
-          1,
-          20,
-          10
-        ],
-        "line-opacity": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          14,
-          0,
-          15,
-          1
-        ]
-      },
-      "minzoom": 14,
-      "source": "versatiles-shortbread"
-    },
-    {
-      "id": "transport-lightrail-service",
-      "type": "line",
-      "source-layer": "streets",
-      "filter": [
-        "all",
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "light_rail"
         ],
         [
           "has",
@@ -9607,78 +9078,24 @@
       "type": "line",
       "source-layer": "aerialways",
       "filter": [
-        "any",
+        "in",
         [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "cable_car"
+          "get",
+          "kind"
         ],
         [
-          "==",
+          "literal",
           [
-            "get",
-            "kind"
-          ],
-          "gondola"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "goods"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "chair_lift"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "drag_lift"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "t-bar"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "j-bar"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "platter"
-        ],
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "rope-tow"
+            "cable_car",
+            "gondola",
+            "goods",
+            "chair_lift",
+            "drag_lift",
+            "t-bar",
+            "j-bar",
+            "platter",
+            "rope-tow"
+          ]
         ]
       ],
       "paint": {
@@ -13602,12 +13019,18 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           [
             "get",
             "kind"
           ],
-          "rail"
+          [
+            "literal",
+            [
+              "rail",
+              "light_rail"
+            ]
+          ]
         ],
         [
           "!",
@@ -13671,134 +13094,18 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           [
             "get",
             "kind"
           ],
-          "rail"
-        ],
-        [
-          "has",
-          "service"
-        ],
-        [
-          "==",
           [
-            "get",
-            "bridge"
-          ],
-          true
-        ]
-      ],
-      "paint": {
-        "line-color": "rgb(177,187,196)",
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          14,
-          0,
-          15,
-          1,
-          16,
-          1,
-          20,
-          14
-        ]
-      },
-      "layout": {
-        "line-cap": "butt"
-      },
-      "minzoom": 14,
-      "source": "versatiles-shortbread"
-    },
-    {
-      "id": "bridge-transport-lightrail:outline",
-      "type": "line",
-      "source-layer": "streets",
-      "filter": [
-        "all",
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "light_rail"
-        ],
-        [
-          "!",
-          [
-            "has",
-            "service"
+            "literal",
+            [
+              "rail",
+              "light_rail"
+            ]
           ]
-        ],
-        [
-          "==",
-          [
-            "get",
-            "bridge"
-          ],
-          true
-        ]
-      ],
-      "paint": {
-        "line-color": "rgb(177,187,196)",
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          8,
-          1,
-          13,
-          1,
-          15,
-          1,
-          20,
-          14
-        ],
-        "line-opacity": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          11,
-          0,
-          12,
-          1
-        ]
-      },
-      "layout": {
-        "line-cap": "butt"
-      },
-      "minzoom": 11,
-      "source": "versatiles-shortbread"
-    },
-    {
-      "id": "bridge-transport-lightrail-service:outline",
-      "type": "line",
-      "source-layer": "streets",
-      "filter": [
-        "all",
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "light_rail"
         ],
         [
           "has",
@@ -14048,12 +13355,18 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           [
             "get",
             "kind"
           ],
-          "rail"
+          [
+            "literal",
+            [
+              "rail",
+              "light_rail"
+            ]
+          ]
         ],
         [
           "!",
@@ -14119,138 +13432,18 @@
       "filter": [
         "all",
         [
-          "==",
+          "in",
           [
             "get",
             "kind"
           ],
-          "rail"
-        ],
-        [
-          "has",
-          "service"
-        ],
-        [
-          "==",
           [
-            "get",
-            "bridge"
-          ],
-          true
-        ]
-      ],
-      "paint": {
-        "line-color": "rgb(200,207,214)",
-        "line-dasharray": [
-          2,
-          2
-        ],
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          15,
-          0,
-          16,
-          1,
-          20,
-          10
-        ]
-      },
-      "layout": {
-        "line-cap": "butt"
-      },
-      "minzoom": 14,
-      "source": "versatiles-shortbread"
-    },
-    {
-      "id": "bridge-transport-lightrail",
-      "type": "line",
-      "source-layer": "streets",
-      "filter": [
-        "all",
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "light_rail"
-        ],
-        [
-          "!",
-          [
-            "has",
-            "service"
+            "literal",
+            [
+              "rail",
+              "light_rail"
+            ]
           ]
-        ],
-        [
-          "==",
-          [
-            "get",
-            "bridge"
-          ],
-          true
-        ]
-      ],
-      "paint": {
-        "line-color": "rgb(200,207,214)",
-        "line-dasharray": [
-          2,
-          2
-        ],
-        "line-width": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          14,
-          0,
-          15,
-          1,
-          20,
-          10
-        ],
-        "line-opacity": [
-          "interpolate",
-          [
-            "linear"
-          ],
-          [
-            "zoom"
-          ],
-          14,
-          0,
-          15,
-          1
-        ]
-      },
-      "layout": {
-        "line-cap": "butt"
-      },
-      "minzoom": 14,
-      "source": "versatiles-shortbread"
-    },
-    {
-      "id": "bridge-transport-lightrail-service",
-      "type": "line",
-      "source-layer": "streets",
-      "filter": [
-        "all",
-        [
-          "==",
-          [
-            "get",
-            "kind"
-          ],
-          "light_rail"
         ],
         [
           "has",
@@ -14509,60 +13702,22 @@
       "type": "line",
       "source-layer": "boundaries",
       "filter": [
-        "any",
+        "all",
         [
-          "all",
+          "==",
           [
-            "==",
-            [
-              "get",
-              "admin_level"
-            ],
-            2
+            "get",
+            "admin_level"
           ],
-          [
-            "!=",
-            [
-              "get",
-              "disputed"
-            ],
-            true
-          ],
-          [
-            "!=",
-            [
-              "get",
-              "maritime"
-            ],
-            true
-          ]
+          2
         ],
         [
-          "all",
+          "!=",
           [
-            "==",
-            [
-              "get",
-              "admin_level"
-            ],
-            2
+            "get",
+            "maritime"
           ],
-          [
-            "==",
-            [
-              "get",
-              "disputed"
-            ],
-            true
-          ],
-          [
-            "!=",
-            [
-              "get",
-              "maritime"
-            ],
-            true
-          ]
+          true
         ]
       ],
       "paint": {
