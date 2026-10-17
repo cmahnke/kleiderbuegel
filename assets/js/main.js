@@ -1,5 +1,4 @@
-import { addConsent } from './iframe-consent';
-import { initMap } from './maps/osm-map.js';
+import 'ts/iframe-consent';
 //import { fullscreen } from './fullscreen.js';
 import Swiper from 'swiper';
 import { A11y, Navigation, Scrollbar, Keyboard, Mousewheel } from 'swiper/modules';
@@ -8,8 +7,6 @@ import PDFObject from 'pdfobject/pdfobject.js';
 
 const defaultSize = 330;
 
-window.addConsent = addConsent;
-window.initMap = initMap;
 window.PDFObject = PDFObject;
 
 function hangerHandler (elem) {
