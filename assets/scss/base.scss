@@ -22,7 +22,7 @@ $heading-font: "Libre Baskerville", serif;
 $body-font: "Nunito", sans-serif;
 $kleidungsstueck-border-radius: $border-radius;
 
-@use "menu" as *;
+@use "menu" with ($font-color-body: $font-color-body);
 @use "swiper-slider" as *;
 @use "table" as *;
 @use "cabinet" as *;
