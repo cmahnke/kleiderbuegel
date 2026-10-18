@@ -262,4 +262,4 @@ timeout = 120
     urls = ['^https://query.wikidata.org/sparql.*', 'https://www.wikidata.org', '^https://christianmahnke.de/*']
 
   [security.exec]
-    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^babel$', '^git$']
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^babel$', '^git$', '^node$', '^tailwindcss$']
