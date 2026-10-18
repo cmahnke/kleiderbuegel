@@ -8,6 +8,7 @@ params:
 ---
 
 # Sammlungen
+
 Die Sammlung ist nicht die erste und einzige ihrer Art, trotzdem ist die Anzahl der Kleiderbügelsammler überschaubar. Zwei besonders medienpräsente Sammler müssen an dieser Stelle genannt und anerkannt werden:
 
 * **Matthias Dülp** macht seine ca. 7.000 Kleiderbügel umfassende Sammlung im [Kleiderbügelmuseum Etlaswind](https://www.facebook.com/p/Kleiderb%C3%BCgelmuseum-Etlaswind-100072127089149/ "Facebook: Kleiderbügelmuseum Etlaswind") öffentlich zugänglich. Er ist mit seiner Sammlung regelmäßig in regionalen Medien vertreten und hat sie Anfang 2019 im Museum Industriekultur Nürnberg ausgestellt.
@@ -19,7 +20,9 @@ Die Sammlung ist nicht die erste und einzige ihrer Art, trotzdem ist die Anzahl 
 Auf Wikimedia Commons gibt es eine kleine Sammlung von [Abbildungen von Kleiderbügeln](https://commons.wikimedia.org/wiki/Category:Clothes_hangers "Wikimedia Commons: Kleiderbügel"), einige davon finden sich auch in dieser Sammlung.  
 
 # Museen
+
 Kleiderbügel sind auch in Museen zu finden, hier eine Auswahl:
+
 * Das Historische Museum Frankfurt [hat einige Kleiderbügel](https://blog.historisches-museum-frankfurt.de/viele-schone-kleiderbugel/)
 * Das Deutsche Kunststoff-Museum hat ebenfalls [einige Kleiderbügel in seiner Sammlung](https://www.deutsches-kunststoff-museum.de/sammlung/virtuelles-museum/?search=Kleiderb%C3%BCgel "Suche nach &quot;Kleiderbügel&quot; im Deutschen Kunststoff-Museum")
 * In der Schweiz existiert sogar ein [Kleiderbügelmuseum](https://dunkel-service.ch/kleiderbuegel-museum/ "Kleiderbügelmuseum Basel"). Betreiber ist der  Dunkel-Service Basel, ein Fachgeschäft für Kleiderbügel, Kleiderständer usw.
@@ -27,8 +30,11 @@ Kleiderbügel sind auch in Museen zu finden, hier eine Auswahl:
 {.single}
 
 {{< print/pb >}}
+
 # Ausstellungen
+
 Kleiderbügel waren und sind immer wieder Gegenstand musealer Ausstellungen, hier seien einige Beispiele aufgelistet:
+
 * **Januar 2006: [Achtung: Nicht bügelfrei, Ausstellungsraum im Portland-Cement-Haus Berlin](https://rp-online.de/kultur/garderoben-schau-zeigt-her-eure-buegel_aid-17521225 "Rheinische Post-Online: Garderoben-Schau: Zeigt her eure Bügel!")**
   In Zusammenarbeit mit dem Sammler Eberhard Rhod.
 * **21. Februar bis 26. Mai 2019: [Aufgehängt und abgehakt, Museum Industriekultur Nürnberg](https://museen.nuernberg.de/museum-industriekultur/kalender-details/geschichte-kleiderbuegel-1611 "Ausstellung Aufgehängt und abgehakt")**

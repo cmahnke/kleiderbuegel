@@ -17,4 +17,4 @@ related:
   - 134
 ---
 
-*** Hettlage & Lampe ***
+***Hettlage & Lampe***

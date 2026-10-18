@@ -1,7 +1,7 @@
 @use "pagefind/ui" as *;
 
-$search-light: '' !default;
-$search-dark: '' !default;
+$search-light: "" !default;
+$search-dark: "" !default;
 $search-button-background-color: transparent !default;
 $search-border-color-inactive: lightgrey !default;
 $search-border-color-active: #ff073a !default;
@@ -10,9 +10,9 @@ $search-border-color-active: #ff073a !default;
   --pagefind-ui-scale: 1;
   --pagefind-ui-primary: #034ad8;
   --pagefind-ui-text: #393939;
-  --pagefind-ui-background: #ffffff;
-  --pagefind-ui-border: #eeeeee;
-  --pagefind-ui-tag: #eeeeee;
+  --pagefind-ui-background: #fff;
+  --pagefind-ui-border: #eee;
+  --pagefind-ui-tag: #eee;
   --pagefind-ui-border-width: 2px;
   --pagefind-ui-border-radius: 8px;
   --pagefind-ui-image-border-radius: 8px;
@@ -20,15 +20,14 @@ $search-border-color-active: #ff073a !default;
   --pagefind-ui-font: sans-serif;
 }
 
-.search-icon:after {
-    display: inline-block;
-    line-height: 1.8rem;
-    content: url($search-light);
-    vertical-align: middle;
+.search-icon::after {
+  display: inline-block;
+  line-height: 1.8rem;
+  content: url($search-light);
+  vertical-align: middle;
 }
 
 body.section-search {
-
   .page-wrapper {
     display: flex;
     flex-direction: column;
@@ -39,7 +38,9 @@ body.section-search {
   }
 
   .content {
-    min-height: calc(100vh - (2.6em  + 1.4rem + 9rem + 2em + 1.6rem  + 3.6em + 1em));
+    min-height: calc(
+      100vh - (2.6em + 1.4rem + 9rem + 2em + 1.6rem + 3.6em + 1em)
+    );
 
     .post.search {
       display: flex;
@@ -72,7 +73,7 @@ body.section-search {
           align-items: center;
           line-height: unset;
           height: 2em;
-          padding: 0 .8em;
+          padding: 0 0.8em;
           color: inherit;
           background-color: #d3d3d3;
           font-size: inherit;
@@ -80,19 +81,19 @@ body.section-search {
           border-bottom-right-radius: 5px;
 
           @media (max-width: 35em) {
-            padding: 0 .4em;
+            padding: 0 0.4em;
           }
 
           .search-icon {
-            margin-right: .6rem;
+            margin-right: 0.6rem;
 
-            &:after {
+            &::after {
               content: url($search-dark);
               transition: all 300ms;
               width: 1em;
               height: 1em;
               vertical-align: sub;
-              }
+            }
           }
         }
       }
@@ -103,7 +104,7 @@ body.section-search {
         gap: 1rem;
         min-width: 80%;
 
-        @media (max-width : 35em) {
+        @media (max-width: 35em) {
           flex-direction: column;
         }
 
@@ -113,20 +114,20 @@ body.section-search {
           flex-direction: column;
           max-width: 30%;
 
-
           @media (max-width: 75em) {
             max-width: 50%;
           }
 
-          @media (max-width : 35em) {
+          @media (max-width: 35em) {
             max-width: unset;
           }
 
           .search-filter-single {
             display: flex;
             justify-content: flex-end;
-            padding: .4rem;
-            border: var(--pagefind-ui-border-width) solid var(--pagefind-ui-border);
+            padding: 0.4rem;
+            border: var(--pagefind-ui-border-width) solid
+              var(--pagefind-ui-border);
 
             &:not(:has(.pagefind-modular-filter-pill)) {
               display: none;
@@ -146,14 +147,14 @@ body.section-search {
               justify-content: flex-end;
 
               .pagefind-modular-filter-pill {
-                padding: .4rem;
+                padding: 0.4rem;
                 height: 2.4rem;
-                border-radius: .8rem;
+                border-radius: 0.8rem;
                 line-height: unset;
 
                 &:has(span[data-filter-count="0"]) {
                   opacity: 0;
-                  display: none
+                  display: none;
                 }
               }
             }
@@ -161,7 +162,7 @@ body.section-search {
         }
 
         .search-result-container {
-          padding-left: .4rem;
+          padding-left: 0.4rem;
 
           .pagefind-modular-list-result {
             border-top: unset;
@@ -173,14 +174,13 @@ body.section-search {
 
             .pagefind-modular-list-thumb {
               width: 330px;
-
             }
 
             .pagefind-modular-list-title {
               .pagefind-modular-list-link {
-                &:before,
-                &:after {
-                    content: unset !important;
+                &::before,
+                &::after {
+                  content: unset !important;
                 }
               }
             }

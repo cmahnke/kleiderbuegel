@@ -6,4 +6,5 @@ params:
 ---
 
 Weitere Quellen
+
 * [Hettlage in der Wikipedia](https://de.wikipedia.org/wiki/Hettlage_%28Unternehmen%29)

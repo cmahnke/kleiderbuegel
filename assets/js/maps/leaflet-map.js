@@ -57,7 +57,7 @@ function waitForElm(selector) {
 }
 
 export async function initMap(element, geojson, source, cluster, marker, style, bbox) {
-    if (!style in layers) {
+    if (!(style in layers)) {
         throw new Error(`'${style}' is not a valid style.`);
     }
 

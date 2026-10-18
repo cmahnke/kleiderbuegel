@@ -8,7 +8,7 @@ params:
   numbered: false
 ---
 
-{{< print/qr scale=8 text="http://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"  />}}
+{{< print/qr scale=8 text="<http://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/>"  />}}
 
 {{< print/image
   src="CC_BY-NC-SA.svg"

@@ -19,4 +19,4 @@ Bei der Suche nach neuen Sammlungsobjekten stößt man auch häufig auf modifizi
 
 Eine weitere beliebte Verwendung ist das Aufhängen von anderen Gegenständen. Entweder nutzt man den Hosensteg, um beispielsweise Zeitschriften oder Handtücher aufzuhängen, oder man schlägt einfach Nägel hinein. Ebenso ist es möglich, aus einem Kleiderbügel einen Stummen Diener zu basteln.
 
-Besonders Drahtkleiderbügel eignen sich zum Basteln, da sie sich leicht in die gewünschte Form bringen lassen. Den Möglichkeiten sind keine Grenzen gesetzt. 
+Besonders Drahtkleiderbügel eignen sich zum Basteln, da sie sich leicht in die gewünschte Form bringen lassen. Den Möglichkeiten sind keine Grenzen gesetzt.

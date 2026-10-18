@@ -13,6 +13,7 @@ Although clothes hangers nowadays lead a life in the closet, they are also part 
 * For loans, attribution, a copy of the catalog, or a photo in context (with full and permanent rights of use and exploitation) are expected.
 
 Further information can be found in the relevant sections of my homepage:
+
 * [Donations / Gifts](https://christianmahnke.de/collections/#donations)
 * [Loans](https://christianmahnke.de/collections/#loans)
 
@@ -31,7 +32,6 @@ Keywords with fewer than three entries are not displayed.
 {{< tags/cloud tag="kleiderbuegel" >}}
 
 ## Further statistics
-
 
 * All hangers: **{{< post-count section=post type=hanger >}}**
 * Materials
@@ -109,9 +109,9 @@ The fonts used are [Libre Baskerville](www.impallari.com/projects/overview/libre
 
 The visualization of the clothes rack is implemented with [Swiper JS](https://swiperjs.com/).
 
-OpenLayers (https://openlayers.org/) is used to display the map, and the map material is provided by the OpenstreetMap (https://www.openstreetmap.org/) project. The theme is based on Versatiles (https://github.com/versatiles-org/versatiles-style).
+OpenLayers (<https://openlayers.org/>) is used to display the map, and the map material is provided by the OpenstreetMap (<https://www.openstreetmap.org/>) project. The theme is based on Versatiles (<https://github.com/versatiles-org/versatiles-style>).
 
-The [integration of images](https://gitlab.com/kaushalmodi/hugo-theme-refined/blob/master/layouts/shortcodes/figure.html) and the [tag cloud](http://www.johann-oberdorfer.eu/blog/ 2020/02/23/20-02-23_tag_cloud_for_hugo/) are taken from the sources indicated.
+The [integration of images](https://gitlab.com/kaushalmodi/hugo-theme-refined/blob/master/layouts/shortcodes/figure.html) and the [tag cloud](<http://www.johann-oberdorfer.eu/blog/> 2020/02/23/20-02-23_tag_cloud_for_hugo/) are taken from the sources indicated.
 
 # Brand names and trademarks
 

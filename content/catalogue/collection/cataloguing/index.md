@@ -35,6 +35,7 @@ Da es Kleiderbügel in verschiedenen Varianten gibt, werden Besonderheiten erfas
 {.ignore-first-level}
 
 {{< print/pb >}}
+
 ## Ausgebenden Stellen
 
 Die Beschriftung lässt sich grob in zwei Kategorien unterteilen: Erstens dient sie als Werbeträger und zweitens als eine Art Besitznachweis. Letzteres gilt insbesondere dann, wenn die Bügel nicht zur Mitnahme gedacht sind, beispielsweise in Hotels oder bei staatlichen Organisationen.

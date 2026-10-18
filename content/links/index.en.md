@@ -8,10 +8,12 @@ hideMeta: true
 All Links in German.
 
 ## General
+
 * [Kleiderbügel in der Wikipedia](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel)
 * [Kleiderbügel bei Strukturwalzen](https://www.strukturwalzen.de/sammler-kleiderbuegel-berlin-eberhard-rohde.htm)
 
 ## Museum
+
 * [The Coat Hanger Museum of Dunkel-Service Basel](https://dunkel-service.ch/kleiderbuegel-museum/)
 
 ## Collectors
@@ -36,6 +38,7 @@ The number of clothes hanger collectors is manageable. Here are the most promine
 * [Tagesspiegel: Berlin: Aufgehängt (21.1.2006)](https://www.tagesspiegel.de/berlin/aufgehangt-1295527.html)
 
 ## Clothes hangers in research
+
 * [Focke Museum: Über das Schicksal der Bremer Kaufmannsfamilie Silbermann](https://www.focke-museum.de/2021/01/28/ein-scheinbar-unscheinbarer-kleiderbuegel/)
 
 ## Have clothes hangers printed
@@ -45,6 +48,7 @@ The number of clothes hanger collectors is manageable. Here are the most promine
 * [weber Kleiderbügel](https://weber-kleiderbuegel.lwa-wip.de/produkte/kleiderbuegel-mit-druck/)
 
 ## Exhibitions
+
 * [Clothes hangers tell a story](https://westerwaldmuseum.de/pressestimmen/kleiderbuegel-erzaehlen.html)
 * [Collections Tell a Story: Clothes hangers](https://sammlungen-erzaehlen.gbv.de/kleiderbuegel/)
 

@@ -2,10 +2,10 @@
 @use "print-map-fixes";
 
 @use "npm-fonts/space-grotesk" as * with (
-  $font-base-path: '../'
+  $font-base-path: "../"
 );
 
-$map-font: 'Space Grotesk', sans-serif;
+$map-font: "Space Grotesk", sans-serif;
 
 .map-wrapper {
   height: 100%;
@@ -15,8 +15,8 @@ $map-font: 'Space Grotesk', sans-serif;
   overflow: clip;
 
   @media print {
-      pointer-events: none;
-      display: block;
+    pointer-events: none;
+    display: block;
   }
 
   .leaflet-labels-pane svg text {
@@ -45,7 +45,6 @@ $map-font: 'Space Grotesk', sans-serif;
     .leaflet-map-pane svg {
       overflow: visible;
     }
-
   }
 
   .map {
@@ -53,11 +52,11 @@ $map-font: 'Space Grotesk', sans-serif;
 
     .leaflet-control-container,
     .leaflet-control-attribution {
-        display: none;
+      display: none;
     }
 
     &:focus-visible {
-        outline: none;
+      outline: none;
     }
   }
 }

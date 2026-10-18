@@ -316,7 +316,7 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
           }
 
           switch (layer.type) {
-            case 'fill':
+            case 'fill': {
               style.fill = true;
               const fillColor = resolveValue(paint['fill-color'], zoom, properties);
               if (typeof fillColor === 'object' && fillColor.color) {
@@ -334,7 +334,8 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
                 style.stroke = false;
               }
               break;
-            case 'line':
+            }
+            case 'line': {
               const lineColor = resolveValue(paint['line-color'], zoom, properties);
               if (typeof lineColor === 'object' && lineColor.color) {
                 style.color = lineColor.color;
@@ -353,6 +354,7 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
               style.lineCap = resolveValue(layout['line-cap'], zoom, properties);
               style.lineJoin = resolveValue(layout['line-join'], zoom, properties);
               break;
+            }
             case 'circle':
               style.radius = resolveValue(paint['circle-radius'], zoom, properties);
               style.color = resolveValue(paint['circle-stroke-color'], zoom, properties);
@@ -362,7 +364,7 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
               style.fillOpacity = resolveValue(paint['circle-opacity'], zoom, properties);
               style.fill = true;
               break;
-            case 'symbol':
+            case 'symbol': {
               const iconImage = resolveValue(layout['icon-image'], zoom, properties);
               if (!iconImage || iconImage === '') {
                 // This is a text-only layer (a label).
@@ -455,6 +457,8 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
                 }
                 // If we are in the geometry pass, we would handle the icon here.
               }
+              // falls through - unhandled icon symbols are reported by the default case
+            }
             default:
               console.warn(`Unsupported layer type: ${layer.type}`);
               continue;

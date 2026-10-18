@@ -27,6 +27,7 @@ In den 1970er-Jahren gab es eine bemerkenswerte Welle sehr auffälliger Plastik-
 {.single}
 
 {{< print/pb >}}
+
 ## Besondere Formen und Funktionen
 
 In der ersten Hälfte des 20. Jahrhunderts wurde auch mit besonderen Funktionen experimentiert:

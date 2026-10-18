@@ -13,6 +13,7 @@ content/**/ogPreview*.*g
 **/.DS_Store
 assets/css
 static/fonts
+static/map-styles
 static/images/geomarker.svg
 static/images/card.svg
 static/images/marker-base.svg

@@ -17,4 +17,4 @@ params:
   src="../../images/hanger.svg"
   alt="Schatten eines Drahtkleiderbügels"
   class="title-logo"
-  link="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/" >}}
+  link="<https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/>" >}}

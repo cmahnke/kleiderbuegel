@@ -114,7 +114,7 @@ other = "Other special features"
 [brand]
 other = "Manufacturer"
 
-#Tags
+# Tags
 
 [Material__Holz]
 other = "Material: Wood"

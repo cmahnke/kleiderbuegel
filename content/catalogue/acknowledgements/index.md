@@ -8,10 +8,12 @@ params:
 ---
 
 Dank an alle, die den Aufbau der Sammlung unterstützt haben:
+
 * **Gwendolyn Friedrich**
 * **Martin Melchert**
 
 Zusätzlich an die folgenden Spenderinnen und Spender:
+
 * **Helga Mahnke**
 * **Wiebke Mahnke**
 * **Ingo Pfennigstorf**

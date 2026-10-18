@@ -5,6 +5,7 @@ type: text
 ---
 
 This page has been slightly revised for an upcoming exhibition:
+
 * Navigation has been slightly improved
 * The current coat hanger is now displayed on the home page
 * The map is larger and has greater contrast

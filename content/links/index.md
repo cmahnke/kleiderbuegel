@@ -6,10 +6,12 @@ hideMeta: true
 ---
 
 ## Allgemein
+
 * [Kleiderbügel in der Wikipedia](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel)
 * [Kleiderbügel bei Strukturwalzen](https://www.strukturwalzen.de/sammler-kleiderbuegel-berlin-eberhard-rohde.htm)
 
 ## Museum
+
 * [Das Kleiderbügelmuseum von Dunkel-Service Basel](https://dunkel-service.ch/kleiderbuegel-museum/)
 
 ## Sammler
@@ -35,6 +37,7 @@ Die Anzahl an Kleiderbügelsammlern ist überschaubar, hier die medial präsente
 * [Tagesspiegel: Berlin: Aufgehängt (21.1.2006)](https://www.tagesspiegel.de/berlin/aufgehangt-1295527.html)
 
 ## Kleiderbügel in der Forschung
+
 * [Focke Museum: Über das Schicksal der Bremer Kaufmannsfamilie Silbermann](https://www.focke-museum.de/2021/01/28/ein-scheinbar-unscheinbarer-kleiderbuegel/)
 
 ## Kleiderbügel bedrucken lassen
@@ -44,6 +47,7 @@ Die Anzahl an Kleiderbügelsammlern ist überschaubar, hier die medial präsente
 * [weber Kleiderbügel](https://weber-kleiderbuegel.lwa-wip.de/produkte/kleiderbuegel-mit-druck/)
 
 ## Ausstellungen
+
 * [Kleiderbügel erzählen Geschichte](https://westerwaldmuseum.de/pressestimmen/kleiderbuegel-erzaehlen.html)
 * [Sammlungen Erzählen: Kleiderbügel](https://sammlungen-erzaehlen.gbv.de/kleiderbuegel/)
 

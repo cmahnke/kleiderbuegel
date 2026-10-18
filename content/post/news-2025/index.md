@@ -5,6 +5,7 @@ type: text
 ---
 
 Für eine kommende Ausstellung wurde diese Seite etwas überarbeitet:
+
 * Die Navigation wurde etwas verbessert
 * Der jeweils aktuelle Kleiderbügel wird nun auf der Startseite angezeigt
 * Die Karte ist größer und kontrastreicher

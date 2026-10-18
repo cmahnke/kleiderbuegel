@@ -1,5 +1,5 @@
 $border-radius: 1rem !default;
-$heading-font: 'Libre Baskerville', serif !default;
+$heading-font: "Libre Baskerville", serif !default;
 
 .hanger .content {
   margin: auto;
@@ -15,7 +15,7 @@ $heading-font: 'Libre Baskerville', serif !default;
   .back-content p,
   .top-content,
   .hanger-content {
-      font-weight: bolder;
+    font-weight: bolder;
   }
 
   .heading-back,
@@ -58,8 +58,8 @@ $heading-font: 'Libre Baskerville', serif !default;
     padding-inline-start: unset;
 
     .tag {
-      a:before {
-        content: '#';
+      a::before {
+        content: "#";
       }
     }
   }
@@ -80,7 +80,7 @@ $heading-font: 'Libre Baskerville', serif !default;
       .remarks,
       .related,
       .donation,
-      .source  {
+      .source {
         margin: 0 1rem;
       }
     }
@@ -98,7 +98,7 @@ $heading-font: 'Libre Baskerville', serif !default;
     .remarks,
     .related,
     .donation,
-    .source  {
+    .source {
       width: fit-content;
     }
 
@@ -109,7 +109,7 @@ $heading-font: 'Libre Baskerville', serif !default;
 
     .related {
       align-self: center;
-      order: 2
+      order: 2;
     }
 
     .donation {
@@ -125,7 +125,7 @@ $heading-font: 'Libre Baskerville', serif !default;
     .tag-content {
       flex-basis: 100%;
       order: 0;
-      margin-bottom: .6rem;
+      margin-bottom: 0.6rem;
     }
   }
 }

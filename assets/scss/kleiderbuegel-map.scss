@@ -1,12 +1,12 @@
 .iframe-wrapper {
   .opt-in-overlay .opt-in-overlay-content {
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgb(255 255 255 / 0.5);
   }
 
   .switch-wrapper {
     .opt-in-switch .opt-in-slider {
-      background-color: rgba(255, 255, 255, .5);
+      background-color: rgb(255 255 255 / 0.5);
 
       &::before {
         background-color: #ccc;
@@ -27,17 +27,17 @@
   }
 
   .ol-popup {
-    font-family: 'Nunito', sans-serif;
+    font-family: Nunito, sans-serif;
     min-width: 240px !important;
 
     h1 {
-      padding: .6rem 0 1rem 0 !important;
+      padding: 0.6rem 0 1rem !important;
     }
-    .geojsonPopup {
 
+    .geojsonPopup {
       .content {
         padding: unset !important;
-        padding-bottom: .6rem !important;
+        padding-bottom: 0.6rem !important;
 
         p {
           margin-block-start: unset;
@@ -49,15 +49,16 @@
 
   .ol-attribution {
     font-family: var(--body-font);
+
     .ul {
-      padding: unset; 
-      padding-left: .4rem;
+      padding: unset;
+      padding-left: 0.4rem;
     }
   }
 }
 
 .popup-address {
-  padding-bottom: .6rem; 
+  padding-bottom: 0.6rem;
   font-size: xx-small;
   text-align: end;
 }

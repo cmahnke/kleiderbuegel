@@ -5,22 +5,22 @@
     {{- .Site.Title -}}
   {{- end -}}
 {{- end }}
-{{- define "content" -}}
+{{ define "content" }}
   {{- partial "rail.html" . -}}
-  {{- $class := "search" -}}
+  {{ $class := "search" }}
   <div class="post {{ $class }}">
     <div class="content">
       <h1 class="post-title">{{ .Title }}</h1>
       <div class="post search">
-        <div class="search-box-container">
-          <input id="search-box" class="search-input" type="text" name="search-bar" value="">
-          <button id="search-button" class="search-button" type="button" name="search-button"><i class="search-icon"></i>{{ i18n "Search" }}</button>
+        <div class="search-box-container" role="search">
+          <input id="search-box" class="search-input" type="text" name="search-bar" value="" aria-label="{{ i18n "Search" }}">
+          <button id="search-button" class="search-button" type="button" name="search-button" aria-label="{{ i18n "Search" }}"><i class="search-icon" aria-hidden="true"></i>{{ i18n "Search" }}</button>
         </div>
         <div class="search-content">
           <div class="search-filter" id="search-filter"></div>
-          <div id="search-results" class="search-result-container"></div>
+          <div id="search-results" class="search-result-container" aria-live="polite"></div>
         </div>
       </div>
     </div>
   </div>
-{{- end -}}
+{{ end }}

@@ -21,12 +21,11 @@
   }
 
   &:not(.dir-iframes) {
-
     .post-title {
       display: none;
     }
 
-    .main>.post {
+    .main > .post {
       max-width: unset;
       margin: unset;
       width: unset;
@@ -35,14 +34,12 @@
         padding: unset;
       }
     }
-
   }
 
   .map-wrapper {
     height: 100vh;
     width: 100%;
   }
-
 }
 
 html:has(body.section-iframes) {

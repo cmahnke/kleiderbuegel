@@ -6,4 +6,5 @@ params:
 ---
 
 Links:
+
 * [Wikipedia article about Hettlage (German)](https://de.wikipedia.org/wiki/Hettlage_%28Unternehmen%29)

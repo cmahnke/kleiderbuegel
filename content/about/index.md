@@ -19,6 +19,7 @@ Die Kleiderbügel auf dieser Seite stehen nicht zum Verkauf! Allerdings bin ich 
 * Für Leihgaben werden eine Namensnennung, ein Belegexemplar des Katalogs bzw. ein Foto im Kontext (mit vollen und dauerhaften Nutzungs- und Verwertungsrechten) erwartet.
 
 Weitere Informationen finden sie in in entsprechenden Abschnitten meiner Homepage:
+
 * [Schenkungen / Spenden](https://christianmahnke.de/collections/#donations)
 * [Leihgaben](https://christianmahnke.de/collections/#loans)
 

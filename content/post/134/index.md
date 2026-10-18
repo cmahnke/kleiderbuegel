@@ -14,4 +14,4 @@ tags:
   - "Material: Holz"
   - Bekleidungsgeschäft
 ---
-*** Hettlage & Lampe ***
+***Hettlage & Lampe***

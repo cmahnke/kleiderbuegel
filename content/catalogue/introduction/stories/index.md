@@ -20,6 +20,7 @@ Eine ähnliche Entwicklung lässt sich auch in der Branche der Bekleidungsdienst
 Zudem sind ganze Industrie- und Handwerkszweige nahezu gänzlich weggebrochen. So sind beispielsweise Pelze infolge des gesellschaftlichen Wandels und der Verfügbarkeit alternativer Materialien während der Konjunktur der Tierschutzproteste der 1980er Jahre aus der Mode gefallen. In der Folge ist der Pelzhandel zu einem Randphänomen geworden und das Kürschnerhandwerk ist quasi ausgestorben. Somit tauchen auch aus solchen Häusern stammende Kleiderbügel praktisch nur noch auf Floh- und Vintagemärkten auf.
 
 {{< print/pb >}}
+
 ## Unrecht
 
 Aufgrund jahrhundertelanger Beschränkungen beim Landbesitz und im Handwerk (Ausschluss von Zünften) konzentrierten sich Juden auf den Handel, insbesondere auf den Fern- und Textilhandel. Später führte dies zu einer starken Präsenz jüdischer Unternehmer in der Bekleidungsbranche. Sie spielten eine Schlüsselrolle bei der Etablierung der Konfektionsindustrie im 19. Jahrhundert. Dadurch wurde Kleidung erstmals standardisiert und und als "Stangenware" für breite Bevölkerungsschichten erschwinglich. Aus dem Textilhandel gingen später viele große Warenhäuser wie Tietz (später Hertie) oder Wertheim hervor.
@@ -36,6 +37,7 @@ Unmittelbar nach der Machtergreifung im Jahr 1933 leiteten die Nationalsozialist
 Viele dieser erzwungenen Verkäufe wurden nach dem Zweiten Weltkrieg nicht direkt rückgängig gemacht oder die Vorbesitzer entschädigt. Es dauerte teilweise Jahrzehnte, besonders wenn z.B. Immobilien auf dem Gebiet der ehemaligen DDR betroffen waren.
 
 {{< print/pb >}}
+
 ### Kleiderbügel als Forschungsgegenstand
 
 Wie bei den zuvor gezeigten Beispielen werden Kleiderbügel auch von der (kultur-) geschichtlichen Forschung als Quellen verwendet: Exemplarisch sei hier ein Eintrag im Blog des Focke-Museums Bremen genannt. Dort berichtet Asmut Brückmann, wie ein gespendeter Kleiderbügel an das [Schicksal der Bremer Kaufmannsfamilie Silbermann](https://www.focke-museum.de/2021/01/28/ein-scheinbar-unscheinbarer-kleiderbuegel/ "Focke Museum: Über das Schicksal der Bremer Kaufmannsfamilie Silbermann") erinnert.

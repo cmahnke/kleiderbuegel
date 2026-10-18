@@ -23,9 +23,3 @@ notes: |
 ---
 
 Többens-Kleidung immer richtig
-
-
-
-
-
-

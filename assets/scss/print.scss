@@ -1,23 +1,23 @@
-@use 'sass:math';
+@use "sass:math";
 @use "npm-fonts/bodoni-moda" as * with (
-  $font-base-path: '../'
+  $font-base-path: "../"
 );
 @use "npm-fonts/space-grotesk-variable" as * with (
-  $font-base-path: '../'
+  $font-base-path: "../"
 );
 
 @use "leaflet/leaflet" as *;
 @use "print-map" as *;
 @use "hugo:vars" as v;
 
-$heading-font: 'Bodoni Moda', times;
-$body-font: 'Space Grotesk Variable', serif;
+$heading-font: "Bodoni Moda", times;
+$body-font: "Space Grotesk Variable", serif;
 
 $footnote-bottom-font-size: 6pt;
 $text-width: 38.2%;
 $image-width: 61.8%;
 
-@page  {
+@page {
   size: 210mm 210mm !important;
   margin-top: 1cm;
   margin-bottom: 1cm;
@@ -55,24 +55,21 @@ $image-width: 61.8%;
 }
 
 @page nonr {
-
   @bottom-right {
-    content: '';
+    content: "";
   }
 
   @bottom-left {
-    content: '';
+    content: "";
   }
 
-   @bottom-center {
-    content: '';
-   }
+  @bottom-center {
+    content: "";
+  }
 }
 
 /* Put translations in here */
 html[lang="de"] {
-
-
 }
 
 /*
@@ -95,7 +92,7 @@ p {
   .text {
     order: 1;
     text-align: left;
-    padding-right: .2cm;
+    padding-right: 0.2cm;
 
     .heading-top,
     .heading-front,
@@ -111,7 +108,7 @@ p {
     }
 
     .footnote-container {
-      &:before {
+      &::before {
         left: 0;
       }
     }
@@ -122,7 +119,7 @@ p {
   }
 }
 
-.verso ,
+.verso,
 .recto.two-sided .page:nth-child(2n),
 .recto.two-sided .page:has(.hanger-back) {
   page: entry-left;
@@ -130,7 +127,7 @@ p {
   .text {
     order: 2;
     text-align: right;
-    padding-left: .2cm;
+    padding-left: 0.2cm;
 
     .heading-top,
     .heading-front,
@@ -143,16 +140,16 @@ p {
 
     .additional-content {
       justify-content: flex-end;
-      align-items: unset
+      align-items: unset;
     }
 
     ul {
       direction: rtl;
-      padding-right: .5cm;
+      padding-right: 0.5cm;
     }
 
     .footnote-container {
-      &:before {
+      &::before {
         right: 0;
       }
     }
@@ -176,7 +173,6 @@ body {
 }
 
 article {
-
   &.entry {
     page: entry;
     position: relative;
@@ -196,8 +192,8 @@ article {
     .heading-back {
       bookmark-level: 3;
       -prince-bookmark-level: 3;
-      bookmark-label: content(text);;
-      -prince-bookmark-label: content(text);;
+      bookmark-label: content(text);
+      -prince-bookmark-label: content(text);
     }
 
     .page {
@@ -218,16 +214,22 @@ article {
           font-variant: all-small-caps;
 
           span {
-            padding: 0 .2rem;
-            border-radius: .2rem;
+            padding: 0 0.2rem;
+            border-radius: 0.2rem;
             background-color: white;
 
             @media screen {
               padding: unset;
               border-radius: unset;
               background-color: unset;
-              text-shadow: 0 0 3mm white, 0 0 1.5mm white, 0 0 2mm white, 0 0 2mm white,
-                         0 0 1mm white, 0 0 1mm white, 0 0 1.5mm white;
+              text-shadow:
+                0 0 3mm white,
+                0 0 1.5mm white,
+                0 0 2mm white,
+                0 0 2mm white,
+                0 0 1mm white,
+                0 0 1mm white,
+                0 0 1.5mm white;
             }
           }
         }
@@ -256,8 +258,8 @@ article {
         .place .additional-header {
           display: inline;
 
-          &:after {
-            content: ' ';
+          &::after {
+            content: " ";
             /* display: inline-block; */
           }
         }
@@ -269,8 +271,8 @@ article {
           .additional-header {
             display: inline;
 
-            &:after {
-              content: ' ';
+            &::after {
+              content: " ";
             }
           }
         }
@@ -299,7 +301,7 @@ article {
 
           .related-list {
             margin-top: 0;
-            
+
             .related-list-item {
               a {
                 font-style: italic;
@@ -307,11 +309,11 @@ article {
                 &::after {
                   word-break: keep-all;
                   text-wrap: nowrap;
-                  content: ' S. ' target-counter(attr(href), page);
+                  content: " S. " target-counter(attr(href), page);
                 }
               }
             }
-          } 
+          }
 
           .tag-content {
             p {
@@ -335,12 +337,12 @@ article {
         }
 
         .heading-imprint {
-          margin-top: .2cm;;     
+          margin-top: 0.2cm;
           font-style: italic;
 
           & + .hanger-content {
             min-height: 1.2cm;
-          } 
+          }
         }
 
         .heading-info,
@@ -353,17 +355,18 @@ article {
         }
 
         .heading-info {
-          margin-bottom: .2cm;
+          margin-bottom: 0.2cm;
         }
 
-        ul, p {
+        ul,
+        p {
           /* margin-block-start: 6pt; */
           margin-block-end: 6pt;
         }
 
         ul {
-          padding-inline-start: .5cm;
-          padding-left: .5cm;
+          padding-inline-start: 0.5cm;
+          padding-left: 0.5cm;
         }
 
         .text-content-top {
@@ -401,7 +404,7 @@ article {
           /* align-self: flex-end; */
 
           .footnote-container {
-            margin-top: .4cm;
+            margin-top: 0.4cm;
 
             a {
               hyphens: auto;
@@ -420,15 +423,16 @@ article {
       }
 
       .image {
-         width: $image-width;
-         height: 100vh;
+        width: $image-width;
+        height: 100vh;
 
         &:has(.hanger-top) {
           display: flex;
 
-          .hanger-front{
+          .hanger-front {
             flex-grow: 1;
           }
+
           .hanger-top {
             width: fit-content;
           }
@@ -439,14 +443,12 @@ article {
         .hanger-back {
           height: inherit;
         }
-
       }
     }
   }
 
   .page {
     counter-increment: pageNumber;
-    page-break-after: always;
     break-after: page;
   }
 
@@ -461,7 +463,6 @@ article {
       bookmark-label: attr(data-title);
       -prince-bookmark-label: attr(data-title);
     }
-
   }
 
   .post-title {
@@ -489,7 +490,6 @@ article {
 }
 
 section {
-  page-break-after: always;
   break-after: page;
 }
 
@@ -497,7 +497,9 @@ section {
   content: counter(pageNumber);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: $heading-font;
   font-weight: 200;
   margin-top: unset;
@@ -536,7 +538,7 @@ h1, h2, h3 {
   .index-entry {
     margin-left: 6pt;
 
-    &> .title {
+    & > .title {
       margin-top: 6pt;
       margin-bottom: 3pt;
       font-weight: bold;
@@ -548,7 +550,6 @@ h1, h2, h3 {
       }
     }
   }
-
 }
 
 section {
@@ -579,16 +580,12 @@ section {
         bookmark-label: attr(data-sub-heading-title);
         -prince-bookmark-label: attr(data-sub-heading-title);
       }
-
     }
 
     .description {
       font-style: italic;
-      margin-left: .2cm;
+      margin-left: 0.2cm;
     }
-
-
-
 
     a {
       text-decoration: none;
@@ -613,7 +610,7 @@ section {
   }
 
   &::footnote-marker {
-    content: counter(link) ' ';
+    content: counter(link) " ";
     list-style-position: inside;
     margin-right: 0.1cm;
   }
@@ -629,8 +626,8 @@ section {
   u {
     /* text-underline-offset: from-font; */
     text-underline-offset: 2.4pt;
-    text-decoration-color: rgba(0, 0, 0, 0.8);
-    text-decoration-thickness: .6pt;
+    text-decoration-color: rgb(0 0 0 / 0.8);
+    text-decoration-thickness: 0.6pt;
   }
 
   a,
@@ -671,7 +668,7 @@ section {
     }
 
     .content-image {
-      margin: .4cm auto;
+      margin: 0.4cm auto;
       max-height: 100vh;
       width: fit-content;
       height: fit-content;
@@ -680,7 +677,6 @@ section {
         $number: $i * 10;
         $height-value: $i * 10vh;
         &.height-#{$number} {
-          
           img {
             height: #{$height-value};
           }
@@ -754,7 +750,7 @@ section {
       display: flex;
       flex-direction: column;
       z-index: 10;
-      opacity: .7;
+      opacity: 0.7;
       margin-block-start: 0;
       margin-block-end: 0;
       height: inherit;
@@ -782,7 +778,7 @@ section {
       width: $text-width;
       min-width: $text-width;
       justify-content: center;
-      align-items: unset;    
+      align-items: unset;
       transform: rotate(90deg);
       align-self: center;
       display: inline-flex;
@@ -793,14 +789,12 @@ section {
     }
 
     .title-logo {
-
       margin-left: -3.5cm;
       margin-right: -3.5cm;
       position: unset;
       left: unset;
-      top: unset; 
+      top: unset;
       bottom: unset;
-
       flex-basis: $image-width;
 
       img {
@@ -832,7 +826,7 @@ section {
 
     .title-heading {
       h2 {
-        font-size: .8cm;
+        font-size: 0.8cm;
 
         &:nth-child(1) {
           margin-left: 1.3cm;
@@ -842,12 +836,10 @@ section {
 
         &:nth-child(3) {
           align-self: flex-end;
-          margin-top: -.4cm;
+          margin-top: -0.4cm;
         }
       }
     }
-
-
 
     .bg {
       list-style-type: none;
@@ -857,14 +849,13 @@ section {
       max-height: 100vh;
       font-family: $body-font;
 
-
       @for $i from 1 through 10 {
         li:nth-child(#{$i}) {
-          z-index: #{'-' + $i};
+          z-index: #{"-" + $i};
           font-size: #{$i * 3}rem;
-          opacity: #{1 - math.pow(math.log($i, 10), .25)};
+          opacity: #{1 - math.pow(math.log($i, 10), 0.25)};
           margin-bottom: #{($i - 1) * 1.6}rem;
-          margin-right: #{($i - 1) * .8}rem;
+          margin-right: #{($i - 1) * 0.8}rem;
           position: absolute;
           bottom: 0;
           right: 0;
@@ -879,7 +870,9 @@ section {
   &.collection,
   &.acknowledgements,
   &.colophon {
-    h1, h2 , h3 {
+    h1,
+    h2,
+    h3 {
       text-align: center;
     }
 
@@ -888,7 +881,6 @@ section {
   }
 
   &.statistics {
-
     ul {
       font-size: 10pt;
       columns: 2;
@@ -913,7 +905,7 @@ section {
         font-style: unset;
       }
 
-      &>li {
+      & > li {
         break-inside: avoid-column;
 
         p {
@@ -946,7 +938,7 @@ section {
       gap: 5%;
 
       &.ignore-first-level {
-        padding-left: .8cm;
+        padding-left: 0.8cm;
         list-style-type: none;
 
         ul {
@@ -977,7 +969,7 @@ section {
         }
       }
 
-      &>li {
+      & > li {
         break-inside: avoid-column;
       }
     }
@@ -985,34 +977,31 @@ section {
 
   &.maps {
     p {
-      margin-block-start: .3cm;
-      margin-block-end: .3cm;
+      margin-block-start: 0.3cm;
+      margin-block-end: 0.3cm;
     }
 
-    
     &.section {
       text-align: justify;
     }
-    
   }
 
   &.collections,
   &.acknowledgements,
   &.colophon {
     ul {
-      padding-left: .8cm;
+      padding-left: 0.8cm;
     }
   }
 
   &.acknowledgements {
-
   }
 
   &.stories {
-    ul, 
+    ul,
     ul + p {
       margin-top: 10pt;
-      margin-bottom: 10ptem;
+      margin-bottom: 10pt;
     }
   }
 
@@ -1035,7 +1024,7 @@ section {
 
       .content-image {
         width: inherit;
-        margin:  unset;
+        margin: unset;
         max-width: unset;
 
         svg {
@@ -1043,31 +1032,33 @@ section {
         }
       }
 
-      li {}
+      li {
+      }
     }
   }
 
   &.colophon {
     ul,
     p {
-      margin-bottom: .9em;
+      margin-bottom: 0.9em;
     }
   }
 
   &.toc {
-
     .inline-toc {
       font-size: 100%;
       /* padding-left: .8cm; */
     }
-    
-    ol, ul {
+
+    ol,
+    ul {
       list-style-type: none;
       columns: 1;
       margin-top: 3pt;
-      
-      ul, ol {
-        padding-left: .8cm;
+
+      ul,
+      ol {
+        padding-left: 0.8cm;
         margin-top: unset;
       }
     }
@@ -1081,13 +1072,12 @@ section {
         content: leader(dotted) target-counter(attr(href), page);
       }
     }
-
   }
 
   &.imprint {
     page: nonr;
 
-    .page{
+    .page {
       display: flex;
       justify-content: flex-end;
       flex-direction: column;
@@ -1095,7 +1085,6 @@ section {
       .imprint-container {
         text-align: center;
         font-size: 60%;
-
       }
     }
   }
@@ -1158,7 +1147,7 @@ nav[role="doc-toc"] {
   font-size: xx-small;
   width: 100%;
   text-align: center;
-  margin-top: .5cm;
+  margin-top: 0.5cm;
 }
 
 a {
@@ -1167,7 +1156,7 @@ a {
 }
 
 .footnote-number {
-  margin-left: .1cm;
+  margin-left: 0.1cm;
   font-size: 65%;
   vertical-align: super;
 }
@@ -1180,8 +1169,8 @@ a {
     margin-right: unset !important;
   }
 
-  &:before {
-    content: '';
+  &::before {
+    content: "";
     width: 5cm;
     height: 1pt;
     background: black;
@@ -1200,17 +1189,17 @@ a {
 
 a.page-ref {
   .page-ref-title {
-    &:before {
-      content: '„';
+    &::before {
+      content: "„";
     }
 
-    &:after {
-      content: '”';
+    &::after {
+      content: "”";
     }
   }
 
-  &:after {
-    content: ' ' target-counter(attr(href), page);
+  &::after {
+    content: " " target-counter(attr(href), page);
     margin-right: 1pt;
   }
 }
@@ -1222,7 +1211,7 @@ a.page-ref {
 
     .heading-back {
       margin-right: -1.3cm !important;
-      top: .8cm !important;
+      top: 0.8cm !important;
       margin-bottom: -3pt;
       left: unset;
     }
