@@ -2,7 +2,7 @@
 title: "Search"
 layout: search
 js:
-  - js/search.js
+  - ts/search.ts
 metaPage: true
 displayinlist: false
 archive: false
