@@ -7,6 +7,6 @@
 <li>Die Ladezeit wurde deutlich beschleunigt</li>
 <li>Es gibt nun Statistiken zu den Kleiderbügeln</li>
 <li>Es gibt eine englische Übersetzung</li>
-<li>jQuery wurde entfernt, die Visualisierung der Kleiderstange ist nun mit <a href="https://swiperjs.com/" target="_blank">Swiper JS</a> realisiert.</li>
+<li>jQuery wurde entfernt, die Visualisierung der Kleiderstange ist nun mit <a href="https://swiperjs.com/" target="_blank" rel="noopener noreferrer">Swiper JS</a> realisiert.</li>
 </ul>
 <p>Zu der Ausstellung gibt es weitere Informationen mehr ab 2026!</p>"}

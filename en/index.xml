@@ -17,7 +17,7 @@
       <author>mail@christianmahnke.de (Christian Mahnke)</author>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/206/</guid>
       <description></description>
-    </item>
+      </item>
     
     <item>
       <title>The Kleiderbügel Blog as a book</title>
@@ -35,7 +35,7 @@
       pdfOpenParams: {
         zoom: &#39;100%&#39;
       },
-      fallbackLink: &#34;&lt;p class=&#39;pdf-preview-download-fallback&#39;&gt;&lt;a href=&#39;\/post\/coat-hangers-book\/\/post\/coat-hangers-book\/kleiderbuegel-2025.pdf&#39;&gt;: PDF Download&lt;/a&gt;&lt;/p&gt;&#34;
+      fallbackLink: &#34;&lt;p class=&#39;pdf-preview-download-fallback&#39;&gt;&lt;a href=&#39;\/post\/coat-hangers-book\/\/post\/coat-hangers-book\/kleiderbuegel-2025.pdf&#39;&gt;Inline PDF display is not supported: PDF Download&lt;/a&gt;&lt;/p&gt;&#34;
     };
     window.addEventListener(&#39;DOMContentLoaded&#39;, (event) =&gt; {
       PDFObject.embed(&#34;\/post\/coat-hangers-book\/\/post\/coat-hangers-book\/kleiderbuegel-2025.pdf&#34;, &#34;#_pdf-8fec8ccc301218bf4738293910396d6f&#34;, options__pdf8fec8ccc301218bf4738293910396d6f);
@@ -43,7 +43,7 @@
   &lt;/script&gt;&lt;a class=&#34;pdf-preview-download&#34; href=&#34;https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/coat-hangers-book//post/coat-hangers-book/kleiderbuegel-2025.pdf&#34; download&gt;
       Download as PDF
     &lt;/a&gt;</description>
-    </item>
+      </item>
     
     <item>
       <title></title>
@@ -52,7 +52,7 @@
       <author>mail@christianmahnke.de (Christian Mahnke)</author>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/168/</guid>
       <description></description>
-    </item>
+      </item>
     
     <item>
       <title>Improvements 2025</title>
@@ -69,10 +69,10 @@
 &lt;li&gt;Loading time has been significantly reduced&lt;/li&gt;
 &lt;li&gt;Statistics on the coat hangers are now available&lt;/li&gt;
 &lt;li&gt;An English translation is available&lt;/li&gt;
-&lt;li&gt;jQuery has been removed; the clothes rail visualization is now implemented with &lt;a href=&#34;https://swiperjs.com/&#34; target=&#34;_blank&#34;&gt;Swiper JS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;jQuery has been removed; the clothes rail visualization is now implemented with &lt;a href=&#34;https://swiperjs.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Swiper JS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;More information about the exhibition will be available in 2026!&lt;/p&gt;</description>
-    </item>
+      </item>
     
     <item>
       <title></title>
@@ -81,7 +81,7 @@
       <author>mail@christianmahnke.de (Christian Mahnke)</author>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/158/</guid>
       <description></description>
-    </item>
+      </item>
     
     <item>
       <title></title>
@@ -90,7 +90,7 @@
       <author>mail@christianmahnke.de (Christian Mahnke)</author>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/140/</guid>
       <description></description>
-    </item>
+      </item>
     
     <item>
       <title></title>
@@ -99,7 +99,7 @@
       <author>mail@christianmahnke.de (Christian Mahnke)</author>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/124/</guid>
       <description></description>
-    </item>
+      </item>
     
     <item>
       <title></title>
@@ -108,7 +108,7 @@
       <author>mail@christianmahnke.de (Christian Mahnke)</author>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/112/</guid>
       <description></description>
-    </item>
+      </item>
     
     <item>
       <title></title>
@@ -117,7 +117,7 @@
       <author>mail@christianmahnke.de (Christian Mahnke)</author>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/100/</guid>
       <description></description>
-    </item>
+      </item>
     
     <item>
       <title></title>
@@ -126,7 +126,7 @@
       <author>mail@christianmahnke.de (Christian Mahnke)</author>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/81/</guid>
       <description></description>
-    </item>
+      </item>
     
     <item>
       <title>Improvements 2024</title>
@@ -135,7 +135,7 @@
       <author>mail@christianmahnke.de (Christian Mahnke)</author>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/news-2024/</guid>
       <description>&lt;p&gt;After this blog lay dormant for about two years, it was time for some “spring cleaning.” New posts will now appear weekly (until mid-2026, according to current estimates). In addition, there is now a &lt;a href=&#34;https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/map/&#34;&gt;map view&lt;/a&gt; that visualizes the origin of the hangers (where possible).&lt;/p&gt;</description>
-    </item>
+      </item>
     
     <item>
       <title>Spin-off &#34;Kleiderbügel&#34; launched</title>
@@ -143,8 +143,8 @@
       <pubDate>Fri, 28 Aug 2020 07:30:07 +0200</pubDate>
       <author>mail@christianmahnke.de (Christian Mahnke)</author>
       <guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/en/post/spinoff-gestartet/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&amp;bdquo;Kleiderbügel&amp;ldquo; (Clothes Hangers) started as a spin-off of &lt;a href=&#34;https://blaufusst%c3%b6lpel.de&#34; target=&#34;_blank&#34;&gt;Blaufußtölpel&lt;/a&gt;:&lt;/strong&gt; At some point, even the hottest fashion trends are ready for the closet, having exceeded their half-life or simply fallen out of favor. That&amp;rsquo;s when clothes hangers come into their own. Some of these practical helpers from days gone by are documented here. Many of the examples shown here also offer insight into local economic history and the past diversity of retail as advertising media.&lt;/p&gt;</description>
-    </item>
+      <description>&lt;p&gt;&lt;strong&gt;&amp;bdquo;Kleiderbügel&amp;ldquo; (Clothes Hangers) started as a spin-off of &lt;a href=&#34;https://blaufusst%c3%b6lpel.de&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Blaufußtölpel&lt;/a&gt;:&lt;/strong&gt; At some point, even the hottest fashion trends are ready for the closet, having exceeded their half-life or simply fallen out of favor. That&amp;rsquo;s when clothes hangers come into their own. Some of these practical helpers from days gone by are documented here. Many of the examples shown here also offer insight into local economic history and the past diversity of retail as advertising media.&lt;/p&gt;</description>
+      </item>
     
   </channel>
 </rss>

@@ -7,6 +7,6 @@
 <li>Loading time has been significantly reduced</li>
 <li>Statistics on the coat hangers are now available</li>
 <li>An English translation is available</li>
-<li>jQuery has been removed; the clothes rail visualization is now implemented with <a href="https://swiperjs.com/" target="_blank">Swiper JS</a></li>
+<li>jQuery has been removed; the clothes rail visualization is now implemented with <a href="https://swiperjs.com/" target="_blank" rel="noopener noreferrer">Swiper JS</a></li>
 </ul>
 <p>More information about the exhibition will be available in 2026!</p>"}
