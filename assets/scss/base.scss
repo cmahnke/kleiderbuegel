@@ -22,7 +22,9 @@ $heading-font: "Libre Baskerville", serif;
 $body-font: "Nunito", sans-serif;
 $kleidungsstueck-border-radius: $border-radius;
 
-@use "menu" with ($font-color-body: $font-color-body);
+@use "menu" with (
+  $font-color-body: $font-color-body
+);
 @use "swiper-slider" as *;
 @use "table" as *;
 @use "cabinet" as *;
@@ -355,6 +357,40 @@ strong {
 
     .navigation-link {
       padding: 1rem;
+    }
+  }
+
+  // The theme's menu.scss (pulled in via `@use "menu"`) styles `.top-menu`
+  // as a full-width bar for the theme's own header layout. Undo that for
+  // this site's `#head` so the menu sits compactly next to the logo.
+  // Scoped to the theme's burger breakpoint - below 45em the theme's
+  // mobile dropdown (burger + white panel) stays active.
+  @media screen and (min-width: 45em) {
+    .top-menu {
+      width: auto;
+      margin: 0;
+      background-color: transparent;
+    }
+
+    .navigation-list {
+      position: static;
+      transform: none;
+      padding: 0;
+      height: auto;
+      line-height: inherit;
+      font-size: inherit;
+
+      .navigation-item {
+        padding-left: 0;
+
+        a,
+        span {
+          font-size: inherit;
+          line-height: inherit;
+          text-transform: none;
+          font-weight: inherit;
+        }
+      }
     }
   }
 
