@@ -16,8 +16,8 @@
 {{- $tocEntries := slice -}}
 
 {{- $hangers := site.Pages -}}
-{{- range .Site.Home.Translations -}}
-  {{- $hangers = $hangers | lang.Merge .Site.RegularPages -}}
+{{- range site.Home.Translations -}}
+  {{- $hangers = $hangers | lang.Merge site.RegularPages -}}
 {{- end -}}
 
 {{- $id := "_entries" -}}

@@ -5,11 +5,11 @@
 {{- end -}}
 
 
-{{- $pages := .Site.Pages -}}
+{{- $pages := site.Pages -}}
 
 {{- if hugo.IsMultilingual -}}
-  {{- range .Site.Home.Translations -}}
-    {{- $pages = $pages | lang.Merge .Site.RegularPages -}}
+  {{- range site.Home.Translations -}}
+    {{- $pages = $pages | lang.Merge site.RegularPages -}}
   {{- end -}}
 {{- end -}}
 

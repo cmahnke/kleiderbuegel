@@ -1,12 +1,12 @@
 {{ define "title" -}}
   {{- if ne .Title "" -}}
-    {{- .Title }} · {{ .Site.Title -}}
+    {{- .Title }} · {{ site.Title -}}
   {{- else -}}
-    {{- .Site.Title -}}
+    {{- site.Title -}}
   {{- end -}}
 {{- end -}}
 {{ define "content" }}
-  {{ $hangers := .Site.Pages.ByDate }}
+  {{ $hangers := site.Pages.ByDate }}
   <div class="content-container single search">
     <table class="all-hangers">
       <thead>

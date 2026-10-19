@@ -88,7 +88,7 @@
         {{- end -}}
         <div class="meta-spacer">
             {{ if eq $class "hanger" }}
-              {{- $hangers := (where (where .Site.Pages "Section" "post") "Params.type" "hanger").Reverse -}}
+              {{- $hangers := (where (where site.Pages "Section" "post") "Params.type" "hanger").Reverse -}}
               {{- $position := 0 -}}
               {{- $search := .RelPermalink -}}
               {{- range $index, $element := $hangers -}}

@@ -77,11 +77,6 @@ other = "No pages found within the specified geographic bounding box."
 [generated]
 other = "Generated on"
 
-[revision]
-other = "Revision"
-
-# Classification
-
 [classification]
 other = "Type of keyword"
 
@@ -244,5 +239,3 @@ other = "Register of manufacturers"
 [otherIndex]
 other = "Register of special features"
 
-[pageAbbr]
-other = "p."

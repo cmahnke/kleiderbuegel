@@ -29,7 +29,7 @@
     {{ errorf "[check.html] No type for post" .RelPermalink }}
   {{- end -}}
 
-  {{- if and  (site.BuildDrafts) .Draft -}}
+  {{- if .Draft -}}
     {{- warnf "[check.html] Page is a draft %s" .RelPermalink -}}
   {{- end -}}
 

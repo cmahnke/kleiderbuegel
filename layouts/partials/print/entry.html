@@ -18,7 +18,7 @@
   {{- $doubleSided = true -}}
 {{- end -}}
 {{- $relative := 0 -}}
-{{- with .Site.Params.print.relative -}}
+{{- with site.Params.print.relative -}}
   {{- $relative = . -}}
 {{- end -}}
 {{- $title := .Title -}}
@@ -72,7 +72,7 @@
         <div class="hanger-top">
           <div class="full-height-image-container">
             {{- with .Resize (printf "%dx%d r270 webp picture" .Height .Width) -}}
-              <img class="buegel-top hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "top" }}" />
+              <img class="buegel-top hanger-img" src="{{ strings.Substr .RelPermalink $relative }}" alt="{{ i18n "top" }}" />
             {{- end }}
           </div>
         </div>
@@ -97,18 +97,18 @@
               {{- warnf "[print/entry.html] Large image detected (%dx%d) %d for %s, using png instead of webp." $front.Width $front.Height $size .RelPermalink -}}
             */}}
               {{- with $front.Resize (printf "%dx%d r270 png" $front.Height $front.Width) -}}
-                <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "front" }}" />
+                <img class="buegel-front hanger-img" src="{{ strings.Substr .RelPermalink $relative }}" alt="{{ i18n "front" }}" />
               {{- end }}
             {{/*
             {{- else -}}
               {{- with $front.Resize (printf "%dx%d r270 webp picture" $front.Height $front.Width) -}}
-                <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "front" }}" />
+                <img class="buegel-front hanger-img" src="{{ strings.Substr .RelPermalink $relative }}" alt="{{ i18n "front" }}" />
               {{- end }}
             {{- end }}
             */}}
           {{- else -}}
             {{- with $front -}}
-              <img class="buegel-front hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "front" }}" />
+              <img class="buegel-front hanger-img" src="{{ strings.Substr .RelPermalink $relative }}" alt="{{ i18n "front" }}" />
             {{- end }}
           {{- end -}}
         </div>
@@ -149,7 +149,7 @@
         <div class="hanger-back">
           <div class="full-height-image-container">
             {{- with .Resize (printf "%dx%d r90 png" .Height .Width) -}}
-              <img class="buegel-back hanger-img" src="{{ substr .RelPermalink $relative }}" alt="{{ i18n "back" }}" />
+              <img class="buegel-back hanger-img" src="{{ strings.Substr .RelPermalink $relative }}" alt="{{ i18n "back" }}" />
             {{- end }}
           </div>
         </div>

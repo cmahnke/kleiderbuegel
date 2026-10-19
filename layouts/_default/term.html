@@ -1,5 +1,5 @@
 {{ define "title" }}
-  {{- .Title }} · {{ .Site.Title -}}
+  {{- .Title }} · {{ site.Title -}}
 {{ end }}
 
 {{ define "content" }}
@@ -31,9 +31,9 @@
     </div>
   {{- end -}}
   {{- if ne .Language hugo.Sites.Default.Language -}}
-    {{- $termPages := .Site.Pages -}}
-    {{- range .Site.Home.Translations -}}
-      {{- $termPages = $termPages | lang.Merge .Site.RegularPages -}}
+    {{- $termPages := site.Pages -}}
+    {{- range site.Home.Translations -}}
+      {{- $termPages = $termPages | lang.Merge site.RegularPages -}}
     {{- end -}}
     {{- $defaultTitle := .Title -}}
     {{- if (isset .Params "tag") -}}

@@ -2,7 +2,7 @@
 {{- $page := false -}}
 {{- $hangers := site.Pages -}}
 {{- range site.Home.Translations -}}
-  {{- $hangers = $hangers | lang.Merge .Site.RegularPages -}}
+  {{- $hangers = $hangers | lang.Merge site.RegularPages -}}
 {{- end -}}
 {{- $hangers = where $hangers "Params.type" "eq" "hanger" -}}
 {{- $hangers = where $hangers ".Path" "eq" $path -}}

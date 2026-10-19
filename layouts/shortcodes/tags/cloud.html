@@ -1,6 +1,6 @@
-{{ $pages := .Site.Pages }}
-{{ range .Site.Home.Translations }}
-  {{ $pages = $pages | lang.Merge .Site.RegularPages }}
+{{ $pages := site.Pages }}
+{{ range site.Home.Translations }}
+  {{ $pages = $pages | lang.Merge site.RegularPages }}
 {{ end }}
 
 {{- $pages = where $pages "Params.type" "eq" "hanger" -}}
@@ -28,11 +28,11 @@
         {{- $tagUrl = printf "%s%s" (printf "/%s/" $taxonomy) ((replace (replace $tag "& " "-") " " "-") | urlize) -}}
       {{- end -}}
 
-      {{/* TODO: Check if this still works if .Site.BaseURL contains a path at the end - probably not */}}
+      {{/* TODO: Check if this still works if site.BaseURL contains a path at the end - probably not */}}
       {{- $tagPath := (urls.Parse $tagUrl).Path -}}
       {{- $sameAs := "" -}}
       {{- $definitionMissing := false -}}
-      {{- with $.Site.GetPage $tagPath -}}
+      {{- with site.GetPage $tagPath -}}
         {{- $termTitle = .Title -}}
 
         {{- $termPage := printf "content%s/_index.md" $tagPath -}}

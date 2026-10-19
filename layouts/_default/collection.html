@@ -1,10 +1,10 @@
 {{ define "title" }}
-  {{- .Title }} · {{ .Site.Title -}}
+  {{- .Title }} · {{ site.Title -}}
 {{ end }}
 {{ define "content" }}
-  {{- $hangers := where .Site.RegularPages "Section" "in" "post" -}}
-  {{ range .Site.Home.Translations }}
-    {{ $hangers = $hangers | lang.Merge .Site.RegularPages }}
+  {{- $hangers := where site.RegularPages "Section" "in" "post" -}}
+  {{ range site.Home.Translations }}
+    {{ $hangers = $hangers | lang.Merge site.RegularPages }}
   {{ end }}
   {{- $hangers = where $hangers "Params.type" "eq" "hanger" -}}
 

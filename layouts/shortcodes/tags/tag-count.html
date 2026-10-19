@@ -4,9 +4,9 @@
   {{- $link = . -}}
 {{- end -}}
 
-{{ $pages := .Site.RegularPages }}
-{{ range .Site.Home.AllTranslations }}
-  {{ $pages = $pages | lang.Merge .Site.RegularPages }}
+{{ $pages := site.RegularPages }}
+{{ range site.Home.AllTranslations }}
+  {{ $pages = $pages | lang.Merge site.RegularPages }}
 {{ end }}
 
 {{- $pages = where $pages "Params.tags" "intersect" (slice $tag) -}}
