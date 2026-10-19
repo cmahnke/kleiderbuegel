@@ -360,6 +360,27 @@ strong {
     }
   }
 
+  // Mobile counterpart to the desktop overrides below: the theme's burger
+  // menu expects `.top-menu` to span the full header row (the dropdown is
+  // positioned inside it), but this flex header shrinks the `.menu` item
+  // to the burger's width, breaking the panel. Give it the full row and
+  // right-align the burger - the theme's `float: right` is ignored inside
+  // the flex nav. Keep the nav transparent; the dropdown `<ul>` brings
+  // its own panel background.
+  @media screen and (max-width: 45em) {
+    .menu {
+      width: 100%;
+    }
+
+    nav.top {
+      justify-content: flex-end;
+    }
+
+    .top-menu {
+      background-color: transparent;
+    }
+  }
+
   // The theme's menu.scss (pulled in via `@use "menu"`) styles `.top-menu`
   // as a full-width bar for the theme's own header layout. Undo that for
   // this site's `#head` so the menu sits compactly next to the logo.
