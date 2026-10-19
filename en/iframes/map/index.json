@@ -6,7 +6,8 @@
   </div>
 </div>
 <script type="text/javascript">
-  var _a56fce4688ee0fb056cf1a7865d152df = window.projektemacherMap('a56fce4688ee0fb056cf1a7865d152df', '\/list\/map.geojson', 'https:\/\/tiles.versatiles.org\/tiles\/osm\/{z}\/{x}\/{y}', {
+  document.addEventListener('DOMContentLoaded', function() {
+    var _a56fce4688ee0fb056cf1a7865d152df = window.projektemacherMap('a56fce4688ee0fb056cf1a7865d152df', '\/list\/map.geojson', 'https:\/\/tiles.versatiles.org\/tiles\/osm\/{z}\/{x}\/{y}', {
 	"version": 8,
 	"name": "versatiles-colorful",
 	"metadata": {
@@ -4862,4 +4863,5 @@
 	]
 }
 , undefined, undefined, undefined, undefined, undefined, true, false, true, undefined, false, {src: '/images/geomarker.svg', scale: 0.1, anchorXUnits: 'fraction', anchorYUnits: 'fraction', anchor: [0.9, 1]});
+  });
 </script>"}
