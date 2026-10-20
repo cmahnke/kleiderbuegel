@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "@mapbox/vector-tile": "^1.3.1",
+    "@mapbox/vector-tile": "^3.0.0",
     "@maplibre/maplibre-gl-leaflet": "^0.1.3",
-    "@versatiles/style": "6.4.0",
+    "@versatiles/style": "7.0.1",
     "@vivliostyle/cli": "^11.0.1",
     "bootstrap": "^5.3.8",
     "commander": "^15.0.0",
@@ -10,9 +10,9 @@
     "leaflet-vector-tile-layer": "^0.16.3",
     "leaflet.markercluster": "^1.5.3",
     "leaflet.vectorgrid": "^1.3.0",
-    "maplibre-gl": "^5.13.0",
+    "maplibre-gl": "^6.14.0",
     "patch-package": "^8.0.1",
-    "pbf": "^3.2.1",
+    "pbf": "^5.1.2",
     "swiper": "^14.0.0"
   },
   "devDependencies": {
