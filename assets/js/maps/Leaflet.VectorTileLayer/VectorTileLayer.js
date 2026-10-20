@@ -57,7 +57,7 @@ import {
     featurePathLayer
 } from "./FeatureLayer.js";
 import {GridLayer, Util, latLngBounds} from "leaflet";
-import Pbf from "pbf";
+import {PbfReader} from "pbf";
 import {VectorTile} from "@mapbox/vector-tile";
 
 export {
@@ -175,7 +175,7 @@ export default Object.freeze(function vectorTileLayer(url, options) {
         m_featureTiles[id] = tile;
         load(self.getTileUrl(coords), options.fetchOptions).then(
             function (buffer) {
-                tile.addVectorTile(new VectorTile(new Pbf(buffer)));
+                tile.addVectorTile(new VectorTile(new PbfReader(buffer)));
                 done(null, tile);
             },
             function (exc) {
