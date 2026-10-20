@@ -44,3 +44,9 @@ ISOcoated_v2_eci.icc
 ISOcoated_v2_300_eci.icc
 print*.pdf
 content/**/ogPreview.en/*
+
+/package-lock.json
+
+/npm-shrinkwrap.json
+
+/yarn.lock
