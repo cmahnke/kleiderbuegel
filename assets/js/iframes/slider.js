@@ -66,3 +66,10 @@ function slider(elem, size) {
 }
 
 window.slider = slider;
+
+document.addEventListener('DOMContentLoaded', function () {
+  const elem = document.querySelector('.swiper');
+  if (elem) {
+    slider(elem);
+  }
+});
