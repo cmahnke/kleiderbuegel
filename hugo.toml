@@ -12,6 +12,7 @@ timeout = 120
 
 [params]
   productionIIIFURLPrefix="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"
+  js = 'esm'
 
 [languages]
   [languages.de]
