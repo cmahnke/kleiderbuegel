@@ -3,32 +3,32 @@ import { A11y, Navigation, Scrollbar, Keyboard, Mousewheel } from 'swiper/module
 
 const defaultSize = 330;
 
-function wrapInLink(element, url) {
+function wrapInLink(element: Element, url: string | undefined) {
   const link = document.createElement('a');
-  link.href = url;
+  link.href = url as string;
   link.setAttribute('target', '_blank');
 
-  element.parentNode.insertBefore(link, element);
+  element.parentNode!.insertBefore(link, element);
   link.appendChild(element);
 
   return link;
 }
 
-function slider(elem, size) {
+function slider(elem: Element | null, size?: number) {
   if (size === undefined) {
     size = defaultSize;
   }
 
-  elem.querySelectorAll('.swiper-slide picture').forEach(picture => {
-    const url = picture.parentNode.parentNode.dataset.link;
-    picture.parentNode.querySelector('source').remove();
+  elem!.querySelectorAll<HTMLPictureElement>('.swiper-slide picture').forEach(picture => {
+    const url = (picture.parentNode!.parentNode as HTMLElement).dataset.link;
+    picture.parentNode!.querySelector('source')!.remove();
     wrapInLink(picture, url);
   });
 
   const margin = size / 11;
   const spacing = margin * 7 * -1;
 
-  var swiper = new Swiper(elem, {
+  const swiper = new Swiper(elem as HTMLElement, {
     modules: [A11y, Scrollbar, Navigation, Keyboard, Mousewheel],
     slideToClickedSlide:true,
     grabCursor: true,

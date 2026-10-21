@@ -1,8 +1,10 @@
-import L from 'leaflet';
-import {SVG} from "leaflet";
-//from './Leaflet.VectorTileLayer/VectorTileLayer';
+import L, { SVG } from 'leaflet';
+import type { Map as LeafletMap, Icon as LeafletIconType, IconOptions } from 'leaflet';
+import type { VectorTileFeatureLike, VectorTileStyleFn, VectorTileStyleResult, VectorTileFeatureStyleFn, VectorTileFeatureLayerResult, VectorTileLayerOptions } from '../../js/maps/Leaflet.VectorTileLayer/VectorTileLayer';
 
-//import {VectorTileFeature} from "@mapbox/vector-tile";
+function isColorWithOpacity(value: StyleValue | undefined): value is ColorWithOpacity {
+  return typeof value === 'object' && value !== null && !Array.isArray(value) && Boolean(value.color);
+}
 
 // A custom L.Icon class that renders a provided SVG element.
 const SvgIcon = L.Icon.extend({
@@ -11,15 +13,15 @@ const SvgIcon = L.Icon.extend({
     svgElement: null,
   },
 
-  createIcon: function (oldIcon) {
+  createIcon: function (this: { options: IconOptions }, oldIcon?: HTMLElement) {
     const div = (oldIcon && oldIcon.tagName === 'DIV') ? oldIcon : document.createElement('div');
     const options = this.options;
 
     // The main container for the SVG.
     const svg = SVG.create('svg');
-    svg.setAttribute('width', options.iconSize[0]);
-    svg.setAttribute('height', options.iconSize[1]);
-    svg.appendChild(options.svgElement);
+    svg.setAttribute('width', String(options.iconSize![0]));
+    svg.setAttribute('height', String(options.iconSize![1]));
+    svg.appendChild(options.svgElement!);
 
     div.appendChild(svg);
     return div;
@@ -27,7 +29,7 @@ const SvgIcon = L.Icon.extend({
 });
 
 // TODO: This wil certainly fail with any other OpenLayers marker structure
-export function leafletIcon(olIconStyle) {
+export function leafletIcon(olIconStyle: OlIconStyle): Promise<LeafletIconType | null> {
   const src = olIconStyle.src;
   const scale = olIconStyle.scale || 1;
   const olAnchor = olIconStyle.anchor || [0.5, 0.5];
@@ -81,7 +83,7 @@ export function leafletIcon(olIconStyle) {
  * @param {Array} filter - The Mapbox filter array.
  * @returns {function(object): boolean} A function that takes feature properties and returns true if the feature matches the filter.
  */
-function createFilter(filter) {
+function createFilter(filter?: JsonValue[]): (properties: FeatureProperties, zoom: number) => boolean {
   if (!filter) {
     return () => true;
   }
@@ -98,54 +100,36 @@ function createFilter(filter) {
       case '<=': {
         const key = filter[1];
         const value = filter[2];
-        const propValue = Array.isArray(key) ? resolveValue(key, zoom, properties) : properties[key];
-        if (operator === '==') return propValue == value;
-        if (operator === '!=') return propValue != value;
-        if (operator === '>') return propValue > value;
-        if (operator === '>=') return propValue >= value;
-        if (operator === '<') return propValue < value;
-        if (operator === '<=') return propValue <= value;
+        const propValue = Array.isArray(key) ? resolveValue(key, zoom, properties) : properties[key as string];
+        const a = propValue as unknown as number;
+        const b = value as unknown as number;
+        if (operator === '==') return propValue == value as unknown as JsonValue;
+        if (operator === '!=') return propValue != value as unknown as JsonValue;
+        if (operator === '>') return a > b;
+        if (operator === '>=') return a >= b;
+        if (operator === '<') return a < b;
+        if (operator === '<=') return a <= b;
         return false;
       }
       case 'in':
       case '!in': {
         const key = filter[1];
-        const propValue = Array.isArray(key) ? resolveValue(key, zoom, properties) : properties[key];
+        const propValue = Array.isArray(key) ? resolveValue(key, zoom, properties) : properties[key as string];
         const values = filter.slice(2);
-        const hasMatch = values.includes(propValue);
+        const hasMatch = values.includes(propValue as JsonValue);
         return operator === 'in' ? hasMatch : !hasMatch;
       }
       case 'has':
-        return properties.hasOwnProperty(filter[1]);
+        return properties.hasOwnProperty(filter[1] as string);
       case '!has':
-        return !properties.hasOwnProperty(filter[1]);
+        return !properties.hasOwnProperty(filter[1] as string);
       case 'all':
-        return filter.slice(1).every(subFilter => createFilter(subFilter)(properties, zoom));
+        return filter.slice(1).every(subFilter => createFilter(subFilter as JsonValue[])(properties, zoom));
       default:
         console.warn(`Unsupported filter operator: ${operator}`);
         return true;
     }
   };
-}
-
-/**
- * A very basic Mapbox match expression evaluator.
- * @param {*} value The value to match.
- * @param {Array} args The arguments for the match expression.
- * @returns {*} The matched result or the default value.
- */
-function match(value, args) {
-  for (let i = 0; i < args.length - 1; i += 2) {
-    const caseValue = args[i];
-    const result = args[i + 1];
-    if (Array.isArray(caseValue)) { // e.g. ["val1", "val2"]
-      if (caseValue.includes(value)) return result;
-    } else if (value === caseValue) {
-      return result;
-    }
-  }
-  // Return the default value
-  return args[args.length - 1];
 }
 
 /**
@@ -155,7 +139,7 @@ function match(value, args) {
  * @param {object} properties The properties of the feature.
  * @returns {*} The resolved value.
  */
-function resolveValue(value, zoom, properties) {
+function resolveValue(value: JsonValue | undefined, zoom: number, properties: FeatureProperties): StyleValue | undefined {
   // Handle rgba/hsla color strings to extract opacity
   if (typeof value === 'string' && (value.startsWith('rgba') || value.startsWith('hsla'))) {
     const parts = value.split(',');
@@ -182,7 +166,7 @@ function resolveValue(value, zoom, properties) {
     const [op, ...args] = value;
     switch (op) {
       case 'get':
-        return properties[args[0]];
+        return properties[args[0] as string];
       case 'match': {
         const inputValue = resolveValue(args[0], zoom, properties);
         const branches = args.slice(1);
@@ -190,7 +174,7 @@ function resolveValue(value, zoom, properties) {
           const caseValue = branches[i];
           const result = branches[i + 1];
           if (Array.isArray(caseValue)) {
-            if (caseValue.includes(inputValue)) return resolveValue(result, zoom, properties);
+            if (caseValue.includes(inputValue as JsonValue)) return resolveValue(result, zoom, properties);
           } else if (inputValue === caseValue) {
             return resolveValue(result, zoom, properties);
           }
@@ -206,7 +190,7 @@ function resolveValue(value, zoom, properties) {
 
   if (value.stops) {
     // It's a zoom-based 'stops' expression
-    const stops = value.stops;
+    const stops = value.stops as [number, JsonValue][];
 
     // Find the two stops the current zoom is between
     let lowerStop = stops[0];
@@ -250,15 +234,15 @@ function resolveValue(value, zoom, properties) {
   return value;
 }
 
-export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
+export function mapboxToLeafletVectorGrid(mapboxStyle: MapboxStyle, map: LeafletMap, drawLabels = true): Record<string, VectorTileStyleFn> {
   const lang = map.options.lang;
-  const leafletStyle = {};
+  const leafletStyle: Record<string, VectorTileStyleFn> = {};
 
   if (!mapboxStyle || !mapboxStyle.layers) {
     return leafletStyle;
   }
-  
-  const layersBySourceLayer = {};
+
+  const layersBySourceLayer: Record<string, MapboxStyleLayer[]> = {};
 
   // Group layers by source-layer
   mapboxStyle.layers.forEach((layer) => {
@@ -281,11 +265,11 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
     const layers = layersBySourceLayer[sourceLayer];
 
     // For each source-layer, create a single function that iterates through all corresponding Mapbox layers.
-    leafletStyle[sourceLayer] = function(properties, zoom, geometry) {
+    leafletStyle[sourceLayer] = function(properties: FeatureProperties, zoom: number, geometry?: number[]): VectorTileStyleResult | VectorTileStyleResult[] {
       // The cache is passed via the '*' property in the style options for collision detection.
-      const labelCache = leafletStyle['*']?.cache;
+      const labelCache = (leafletStyle as Record<string, VectorTileStyleFn> & { '*'?: { cache?: unknown } })['*']?.cache as LabelBox[] | undefined;
 
-      const styles = [];
+      const styles: VectorTileStyleResult[] = [];
 
       // Iterate backwards to find the topmost layer that matches.
       // This correctly handles cases like 'road:outline' and 'road' where the top one should be rendered.
@@ -305,8 +289,8 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
 
         // If the filter for this layer matches the feature...
         if (filter(properties, zoom)) {
-          const style = {};
-          const paint = layer.paint || {}; 
+          const style: VectorTileStyleResult = {};
+          const paint = layer.paint || {};
           const layout = layer.layout || {};
 
           const visibility = resolveValue(layout.visibility, zoom, properties);
@@ -319,16 +303,16 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
             case 'fill': {
               style.fill = true;
               const fillColor = resolveValue(paint['fill-color'], zoom, properties);
-              if (typeof fillColor === 'object' && fillColor.color) {
+              if (isColorWithOpacity(fillColor)) {
                 style.fillColor = fillColor.color;
                 style.fillOpacity = fillColor.opacity;
               } else {
-                style.fillColor = fillColor;
+                style.fillColor = fillColor as string;
                 // Only resolve fill-opacity if it wasn't part of an rgba color
-                style.fillOpacity = resolveValue(paint['fill-opacity'], zoom, properties) ?? 1;
+                style.fillOpacity = (resolveValue(paint['fill-opacity'], zoom, properties) as number | undefined) ?? 1;
               }
               if (paint['fill-outline-color']) {
-                style.color = resolveValue(paint['fill-outline-color'], zoom, properties);
+                style.color = resolveValue(paint['fill-outline-color'], zoom, properties) as string;
                 style.weight = 1; // Default weight
               } else {
                 style.stroke = false;
@@ -337,31 +321,31 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
             }
             case 'line': {
               const lineColor = resolveValue(paint['line-color'], zoom, properties);
-              if (typeof lineColor === 'object' && lineColor.color) {
+              if (isColorWithOpacity(lineColor)) {
                 style.color = lineColor.color;
                 style.opacity = lineColor.opacity;
               } else {
-                style.color = lineColor;
+                style.color = lineColor as string;
                 // Only resolve line-opacity if it wasn't part of an rgba color
-                style.opacity = resolveValue(paint['line-opacity'], zoom, properties);
+                style.opacity = resolveValue(paint['line-opacity'], zoom, properties) as number | undefined;
               }
-              style.weight = resolveValue(paint['line-width'], zoom, properties);
+              style.weight = resolveValue(paint['line-width'], zoom, properties) as number;
               if (style.weight <= 0) {
                 continue;
               }
               const dashArray = resolveValue(paint['line-dasharray'], zoom, properties);
               if (Array.isArray(dashArray)) style.dashArray = dashArray.join(' ');
-              style.lineCap = resolveValue(layout['line-cap'], zoom, properties);
-              style.lineJoin = resolveValue(layout['line-join'], zoom, properties);
+              style.lineCap = resolveValue(layout['line-cap'], zoom, properties) as string | undefined;
+              style.lineJoin = resolveValue(layout['line-join'], zoom, properties) as string | undefined;
               break;
             }
             case 'circle':
-              style.radius = resolveValue(paint['circle-radius'], zoom, properties);
-              style.color = resolveValue(paint['circle-stroke-color'], zoom, properties);
-              style.weight = resolveValue(paint['circle-stroke-width'], zoom, properties);
-              style.opacity = resolveValue(paint['circle-stroke-opacity'], zoom, properties);
-              style.fillColor = resolveValue(paint['circle-color'], zoom, properties);
-              style.fillOpacity = resolveValue(paint['circle-opacity'], zoom, properties);
+              style.radius = resolveValue(paint['circle-radius'], zoom, properties) as number;
+              style.color = resolveValue(paint['circle-stroke-color'], zoom, properties) as string;
+              style.weight = resolveValue(paint['circle-stroke-width'], zoom, properties) as number;
+              style.opacity = resolveValue(paint['circle-stroke-opacity'], zoom, properties) as number | undefined;
+              style.fillColor = resolveValue(paint['circle-color'], zoom, properties) as string;
+              style.fillOpacity = resolveValue(paint['circle-opacity'], zoom, properties) as number | undefined;
               style.fill = true;
               break;
             case 'symbol': {
@@ -371,27 +355,27 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
                 if (drawLabels) {
                   return { stroke: false, fill: false };
                 }
-                
+
                 // See https://github.com/Leaflet/Leaflet.VectorGrid/issues/67
-                  let text = properties['name' + lang];
+                  let text = properties[`name${String(lang)}`];
                   if (text === undefined) {
                     text = properties['name'];
                   }
-                  const textFont = mapboxStyle["ol:webfonts"];
+                  const textFont = mapboxStyle['ol:webfonts'];
                   const fontFamily = Array.isArray(textFont) ? textFont.join(', ') : 'sans-serif';
-                  const fs = resolveValue(layout['text-size'], zoom, properties) || 0;
+                  const fs = (resolveValue(layout['text-size'], zoom, properties) as number | undefined) || 0;
 
                   const fill = resolveValue(paint['text-color'], zoom, properties);
                   const stroke = resolveValue(paint['text-halo-color'], zoom, properties);
                   const strokeWidth = resolveValue(paint['text-halo-width'], zoom, properties);
 
                   if (fs <= 0) {
-                    return { stroke: false, fill: false }; 
+                    return { stroke: false, fill: false };
                   }
 
                   // --- Label Collision Detection ---
                   if (labelCache && geometry) {
-                    const l = properties.name.length;
+                    const l = (properties['name'] as string).length;
                     const w = fs * l * 0.7; // Approximate width
                     const h = fs + 10;      // Approximate height
 
@@ -400,7 +384,7 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
 
                     // Calculate the bounding box of the label
                     const halfWidth = w / 2;
-                    const originalBox = {
+                    const originalBox: LabelBox = {
                       minX: point.x - halfWidth,
                       maxX: point.x + halfWidth,
                       minY: point.y - h, // Anchor is at the bottom
@@ -409,7 +393,7 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
 
                     // Create a slightly larger box for checking to enforce a margin.
                     const margin = 10; // 5-pixel margin on each side
-                    const checkBox = {
+                    const checkBox: LabelBox = {
                       minX: originalBox.minX - margin,
                       maxX: originalBox.maxX + margin,
                       minY: originalBox.minY - margin,
@@ -423,7 +407,7 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
                   }
 
                   // Calculate icon dimensions
-                  const w = fs * (text ? text.length : 0) * 0.8;
+                  const w = fs * (text ? (text as string).length : 0) * 0.8;
                   const h = fs + 10;
                   const anchorY = fs;
 
@@ -431,15 +415,15 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
                   const group = SVG.create('g');
 
                   const textElement = SVG.create('text');
-                  const attributes = {
-                    'paint-order': 'stroke fill', 'fill': fill, 'stroke': stroke,
-                    'stroke-width': strokeWidth, 'x': w / 2, 'y': fs,
+                  const attributes: Record<string, JsonValue> = {
+                    'paint-order': 'stroke fill', 'fill': fill as JsonValue, 'stroke': stroke as JsonValue,
+                    'stroke-width': strokeWidth as JsonValue, 'x': w / 2, 'y': fs,
                     'font-size': `${fs}px`, 'font-family': fontFamily, 'text-anchor': 'middle'
                   };
                   for (const key in attributes) {
-                    textElement.setAttribute(key, attributes[key]);
+                    textElement.setAttribute(key, attributes[key] as string);
                   }
-                  textElement.textContent = text;
+                  textElement.textContent = text as string;
                   group.appendChild(textElement);
 
                   const icon = new SvgIcon({
@@ -457,7 +441,8 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
                 }
                 // If we are in the geometry pass, we would handle the icon here.
               }
-              // falls through - unhandled icon symbols are reported by the default case
+              console.warn(`Unsupported layer type: ${layer.type}`);
+              continue;
             }
             default:
               console.warn(`Unsupported layer type: ${layer.type}`);
@@ -485,14 +470,14 @@ export function mapboxToLeafletVectorGrid(mapboxStyle, map, drawLabels = true) {
 // Use OffscreenCanvas for text measurement if available, otherwise fall back to a standard canvas.
 // This is slightly more performant and avoids creating a DOM element.
 const canvas = typeof OffscreenCanvas !== 'undefined' ? new OffscreenCanvas(0, 0) : document.createElement('canvas');
-const ctx = canvas.getContext('2d', { alpha: false });
+const ctx = canvas.getContext('2d', { alpha: false }) as OffscreenCanvasRenderingContext2D | CanvasRenderingContext2D;
 
-export function getFeatureLayer(mapboxStyle, map) {
+export function getFeatureLayer(mapboxStyle: MapboxStyle, map: LeafletMap): VectorTileFeatureStyleFn {
   //return function (feature, layerName, pxPerExtent, options) {
-    
-  return function (feature, layerName, zoom, tile) {
-    const properties = feature.properties;
-    const labelCache = this['*']?.cache;
+
+  return function (this: VectorTileLayerOptions, feature: VectorTileFeatureLike, layerName: string, zoom: number, tile: { x: number; y: number; z: number }): VectorTileFeatureLayerResult | null {
+    const properties = feature.properties as FeatureProperties;
+    const labelCache = this['*']?.cache as LabelCache | undefined;
 
     //const self = featureLayerBase(feature, layerName, pxPerExtent, options);
     // Find the corresponding layer style in the Mapbox style
@@ -520,14 +505,14 @@ export function getFeatureLayer(mapboxStyle, map) {
 
     // Resolve text properties from the style
     const lang = map.options.lang;
-    let text = properties['name_' + lang] || properties['name'];
-    const fs = resolveValue(layout['text-size'], zoom, properties) || 0;
+    const text = (properties[`name_${String(lang)}`] as string) || (properties['name'] as string);
+    const fs = (resolveValue(layout['text-size'], zoom, properties) as number | undefined) || 0;
 
     if (!text || fs <= 0) {
       return null;
     }
 
-    const fontFamily = (mapboxStyle["ol:webfonts"] || mapboxStyle.metadata["ol:webfonts"]) || 'sans-serif';
+    const fontFamily = (mapboxStyle['ol:webfonts'] || mapboxStyle.metadata!['ol:webfonts']) || 'sans-serif';
     ctx.font = `${fs}px ${fontFamily}`;
     const w = ctx.measureText(text).width;
 
@@ -550,7 +535,7 @@ export function getFeatureLayer(mapboxStyle, map) {
 
       // Calculate the bounding box of the label within the tile.
       const margin = 10; // 5px margin on each side
-      const box = {
+      const box: LabelBox = {
         minX: tileX - (w / 2) - margin,
         maxX: tileX + (w / 2) + margin,
         minY: tileY - anchorY - margin,
@@ -566,44 +551,44 @@ export function getFeatureLayer(mapboxStyle, map) {
 
     const h = fs * 1.5;
     const anchorY = h / 2;
-    
+
     const fill = resolveValue(paint['text-color'], zoom, properties);
     const stroke = resolveValue(paint['text-halo-color'], zoom, properties);
     const strokeWidth = resolveValue(paint['text-halo-width'], zoom, properties);
     const textElement = SVG.create('text');
-    const attributes = {
+    const attributes: Record<string, JsonValue> = {
       'paint-order': 'stroke fill',
-      'stroke-width': strokeWidth,
+      'stroke-width': strokeWidth as JsonValue,
       'font-size': `${fs}px`,
-      'font-family': fontFamily,
+      'font-family': fontFamily as JsonValue,
       'text-anchor': 'middle',
       'x': w / 2,
       'y': fs
     };
 
-    attributes.fill = (typeof fill === 'object' && fill.color) ? fill.color : fill;
-    attributes['fill-opacity'] = (typeof fill === 'object' && fill.opacity) ? fill.opacity : 1;
+    attributes.fill = (isColorWithOpacity(fill) ? fill.color : fill) as JsonValue;
+    attributes['fill-opacity'] = (isColorWithOpacity(fill) && fill.opacity ? fill.opacity : 1);
 
-    attributes.stroke = (typeof stroke === 'object' && stroke.color) ? stroke.color : stroke;
-    attributes['stroke-opacity'] = (typeof stroke === 'object' && stroke.opacity) ? stroke.opacity : 1;
+    attributes.stroke = (isColorWithOpacity(stroke) ? stroke.color : stroke) as JsonValue;
+    attributes['stroke-opacity'] = (isColorWithOpacity(stroke) && stroke.opacity ? stroke.opacity : 1);
 
     for (const key in attributes) {
-      textElement.setAttribute(key, attributes[key]);
+      textElement.setAttribute(key, attributes[key] as string);
     }
     textElement.textContent = text;
     const group = SVG.create("g");
     group.appendChild(textElement);
 
     const svg = SVG.create('svg');
-    svg.setAttribute('width', w);
-    svg.setAttribute('height', h);
+    svg.setAttribute('width', String(w));
+    svg.setAttribute('height', String(h));
     svg.setAttribute('viewBox', `0 0 ${w} ${h}`);
 
-    
+
     const styleElement = SVG.create('style');
     styleElement.textContent = `@font-face { font-family: "${fontFamily}"; src: local('${fontFamily}'), url("/fonts/space-grotesk-latin-ext-wght-normal.woff2") format("woff2-variations"); }`;
     svg.appendChild(styleElement);
-  
+
 
     svg.appendChild(group);
     const svgString = new XMLSerializer().serializeToString(svg);
@@ -615,14 +600,14 @@ export function getFeatureLayer(mapboxStyle, map) {
       iconSize: [w, h],
       iconAnchor: [w / 2, anchorY]
     });
-    
+
     // Return a divIcon so our custom applyImageStyle function can use it.
     //return { icon: L.divIcon({ html: svgString, iconSize: [w, h], iconAnchor: [w / 2, anchorY] })};
    //return { icon: icon };
     return svgIcon(group, w, h, w / 2, anchorY);
   };
 }
-function svgIcon(svg, width, height, anchorX, anchorY) {
+function svgIcon(svg: SVGElement, width: number, height: number, anchorX: number, anchorY: number): VectorTileFeatureLayerResult {
   return {
     icon : {
       options: {

@@ -1,6 +1,27 @@
+import type { Swiper } from 'swiper';
 import { getSlideTransformEl, effectTarget, effectInit, createShadow, getRotateFix } from 'swiper/effect-utils';
 
-export default function EffectCoverflow({ swiper, extendParams, on }) {
+export interface KleiderbuegelCoverflowEffectOptions {
+  rotate?: number;
+  stretch?: number | `${number}%`;
+  depth?: number;
+  scale?: number;
+  modifier?: number | ((centerOffset: number) => number);
+  fixedRotation?: boolean;
+  slideShadows?: boolean;
+  vanishingPointPerItem?: boolean;
+  activeMarginRight?: number;
+  activeMarginLeft?: number;
+  spacing?: number;
+}
+
+interface SwiperModuleContext {
+  swiper: Swiper;
+  extendParams: (obj: Record<string, unknown>) => void;
+  on: Swiper['on'];
+}
+
+export default function EffectCoverflow({ swiper, extendParams, on }: SwiperModuleContext) {
   extendParams({
     coverflowEffect: {
       rotate: 50,
@@ -18,27 +39,28 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
 
   const setTranslate = () => {
     const { width: swiperWidth, height: swiperHeight, slides, slidesSizesGrid } = swiper;
-    const params = swiper.params.coverflowEffect;
+    const params = swiper.params.coverflowEffect as KleiderbuegelCoverflowEffectOptions;
     const isHorizontal = swiper.isHorizontal();
     const transform = swiper.translate;
     const center = isHorizontal ? -transform + swiperWidth / 2 : -transform + swiperHeight / 2;
-    const rotate = isHorizontal ? params.rotate : -params.rotate;
-    const translate = params.depth;
+    const rotateValue = params.rotate as number;
+    const rotate = isHorizontal ? rotateValue : -rotateValue;
+    const translate = params.depth as number;
     const r = getRotateFix(swiper);
     // Each slide offset from center
     //for (let i = 0, length = slides.length; i < length; i += 1) {
     for (let i = 0, length = swiper.visibleSlidesIndexes.length; i < length; i += 1) {
-    
+
       //const slideEl = slides[i];
       const slideEl = slides[swiper.visibleSlidesIndexes[i]];
       //const slideSize = slidesSizesGrid[i];
       const slideSize = slidesSizesGrid[swiper.visibleSlidesIndexes[i]];
-      const slideOffset = slideEl.swiperSlideOffset;
+      const slideOffset = slideEl.swiperSlideOffset as number;
       const centerOffset = (center - slideOffset - slideSize / 2) / slideSize;
       const offsetMultiplier =
         typeof params.modifier === 'function'
           ? params.modifier(centerOffset)
-          : centerOffset * params.modifier;
+          : centerOffset * (params.modifier as number);
 
       let rotateY = isHorizontal ? rotate * offsetMultiplier : 0;
       let rotateX = isHorizontal ? 0 : rotate * offsetMultiplier;
@@ -47,29 +69,29 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
         rotateX = Math.max(Math.min(rotateX, rotate), -rotate);
         rotateY = Math.max(Math.min(rotateY, rotate), -rotate);
       }
-      
+
       // var rotateZ = 0
       let translateZ = -translate * Math.abs(offsetMultiplier);
 
       let stretch = params.stretch;
       // Allow percentage to make a relative stretch for responsive sliders
       if (typeof stretch === 'string' && stretch.indexOf('%') !== -1) {
-        stretch = (parseFloat(params.stretch) / 100) * slideSize;
+        stretch = (parseFloat(stretch) / 100) * slideSize;
       }
 
-      let translateY = isHorizontal ? 0 : stretch * offsetMultiplier;
-      let translateX = isHorizontal ? stretch * offsetMultiplier : 0;
+      let translateY = isHorizontal ? 0 : (stretch as number) * offsetMultiplier;
+      let translateX = isHorizontal ? (stretch as number) * offsetMultiplier : 0;
 
-      let scale = 1 - (1 - params.scale) * Math.abs(offsetMultiplier);
+      let scale = 1 - (1 - (params.scale as number)) * Math.abs(offsetMultiplier);
 
       // This is needed for (almost) correct spacing with negative spaceBetween value
       let correctionX = 0
       if ("spaceBetween" in swiper.params) {
         if (centerOffset < 0) {
-          correctionX = -1 * swiper.params.spaceBetween + params.activeMarginLeft;
+          correctionX = -1 * (swiper.params.spaceBetween as number) + (params.activeMarginLeft as number);
         } else if (centerOffset > 0) {
-          correctionX = swiper.params.spaceBetween - params.activeMarginRight;
-        } 
+          correctionX = (swiper.params.spaceBetween as number) - (params.activeMarginRight as number);
+        }
       }
       translateX = translateX + correctionX
 
@@ -89,17 +111,17 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
 
       // Calculate z-index correctly
       const zIndex = Math.round(swiper.slides.length - Math.abs(centerOffset * 4))
-      slideEl.style.zIndex = zIndex
+      slideEl.style.zIndex = String(zIndex)
       //slideEl.style.zIndex = -Math.abs(Math.round(offsetMultiplier)) + 1;
 
       if (params.slideShadows) {
         // Set shadows
         let shadowBeforeEl = isHorizontal
-          ? slideEl.querySelector('.swiper-slide-shadow-left')
-          : slideEl.querySelector('.swiper-slide-shadow-top');
+          ? slideEl.querySelector<HTMLElement>('.swiper-slide-shadow-left')
+          : slideEl.querySelector<HTMLElement>('.swiper-slide-shadow-top');
         let shadowAfterEl = isHorizontal
-          ? slideEl.querySelector('.swiper-slide-shadow-right')
-          : slideEl.querySelector('.swiper-slide-shadow-bottom');
+          ? slideEl.querySelector<HTMLElement>('.swiper-slide-shadow-right')
+          : slideEl.querySelector<HTMLElement>('.swiper-slide-shadow-bottom');
         if (!shadowBeforeEl) {
           shadowBeforeEl = createShadow('coverflow', slideEl, isHorizontal ? 'left' : 'top');
         }
@@ -107,18 +129,18 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
           shadowAfterEl = createShadow('coverflow', slideEl, isHorizontal ? 'right' : 'bottom');
         }
         if (shadowBeforeEl)
-          shadowBeforeEl.style.opacity = offsetMultiplier > 0 ? offsetMultiplier : 0;
+          shadowBeforeEl.style.opacity = String(offsetMultiplier > 0 ? offsetMultiplier : 0);
         if (shadowAfterEl)
-          shadowAfterEl.style.opacity = -offsetMultiplier > 0 ? -offsetMultiplier : 0;
+          shadowAfterEl.style.opacity = String(-offsetMultiplier > 0 ? -offsetMultiplier : 0);
       }
     }
   };
-  const setTransition = (duration) => {
+  const setTransition = (duration: number) => {
     const transformElements = swiper.slides.map((slideEl) => getSlideTransformEl(slideEl));
 
     transformElements.forEach((el) => {
       el.style.transitionDuration = `${duration}ms`;
-      el.querySelectorAll(
+      el.querySelectorAll<HTMLElement>(
         '.swiper-slide-shadow-top, .swiper-slide-shadow-right, .swiper-slide-shadow-bottom, .swiper-slide-shadow-left',
       ).forEach((shadowEl) => {
         shadowEl.style.transitionDuration = `${duration}ms`;
@@ -132,7 +154,7 @@ export default function EffectCoverflow({ swiper, extendParams, on }) {
     on,
     setTranslate,
     setTransition,
-    perspective: () => {return !swiper.params.coverflowEffect.vanishingPointPerItem},
+    perspective: () => {return !(swiper.params.coverflowEffect as KleiderbuegelCoverflowEffectOptions | undefined)?.vanishingPointPerItem},
     overwriteParams: () => ({
       watchSlidesProgress: true,
       centeredSlides: true,

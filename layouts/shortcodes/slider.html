@@ -5,5 +5,5 @@
 {{- partial "swiper.html" $hangers -}}
 
 {{- define "_partials/shortcodes/slider-metadata.html" -}}
-  {{- (dict "css" slice "js" (slice "js/iframes/slider.js") "scss" (slice "scss/iframes/slider.scss")) | jsonify -}}
+  {{- (dict "css" slice "js" (slice "ts/iframes/slider.ts") "scss" (slice "scss/iframes/slider.scss")) | jsonify -}}
 {{- end -}}

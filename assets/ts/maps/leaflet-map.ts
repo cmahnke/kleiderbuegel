@@ -1,14 +1,17 @@
 import L from 'leaflet';
 import 'leaflet.markercluster';
-import vectorTileLayer from './Leaflet.VectorTileLayer/VectorTileLayer';
+import vectorTileLayer, { VectorTileLayerOptions } from '../../js/maps/Leaflet.VectorTileLayer/VectorTileLayer';
 import '@maplibre/maplibre-gl-leaflet';
 import { leafletIcon, mapboxToLeafletVectorGrid, getFeatureLayer } from './leaflet-util';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import type { Map as LeafletMapType, LatLng as LeafletLatLng, Icon as LeafletIconType } from 'leaflet';
 
-import * as mapStyle from './kleiderbügel-style.json';
+import * as mapStyleJson from '../../js/maps/kleiderbügel-style.json';
 import cssStyle from "leaflet/dist/leaflet.css";
 import markerStyle from "../../scss/print-map-marker.scss";
 import fixesStyle from "../../scss/print-map-fixes.scss";
+
+const mapStyle = mapStyleJson as unknown as MapboxStyle;
 
 const fontPath = undefined;
 const defaultFonts = "'Space Grotesk', sans-serif";
@@ -20,22 +23,22 @@ const languageDetector = new LanguageDetector(null, {order: ['querystring',  'na
 languageDetector.detect();
 const lang = languageDetector.detect();
 
-var layers = {"shortbread": mapStyle};
+const layers: Record<string, MapboxStyle> = {"shortbread": mapStyle};
 
 if (fontPath !== undefined) {
     layers["shortbread"]["ol:webfonts"] = fontPath;
-    layers["shortbread"].metadata["ol:webfonts"] = fontPath;
+    layers["shortbread"].metadata!["ol:webfonts"] = fontPath;
 } else {
     layers["shortbread"]["ol:webfonts"] = defaultFonts;
-    layers["shortbread"].metadata["ol:webfonts"] = defaultFonts;
+    layers["shortbread"].metadata!["ol:webfonts"] = defaultFonts;
 }
 
-const padding = [30, 30];
+const padding: [number, number] = [30, 30];
 
-const vectorLayerImpl = "vectorgrid";
+const vectorLayerImpl: string = "vectorgrid";
 
 // See https://stackoverflow.com/a/61511955
-function waitForElm(selector) {
+function waitForElm(selector: string): Promise<Element | null> {
     return new Promise(resolve => {
         if (document.querySelector(selector)) {
             return resolve(document.querySelector(selector));
@@ -56,21 +59,21 @@ function waitForElm(selector) {
     });
 }
 
-export async function initMap(element, geojson, source, cluster, marker, style, bbox) {
-    if (!(style in layers)) {
+export async function initMap(element: string, geojson?: string, source?: string, cluster?: boolean, marker?: OlIconStyle | false, style?: string, bbox?: number[]): Promise<LeafletMapType> {
+    if (!style || !(style in layers)) {
         throw new Error(`'${style}' is not a valid style.`);
     }
 
-    let markerOptions = {};
+    const markerOptions: { icon?: LeafletIconType } = {};
 
     if (marker) {
         //TODO: Check if we need to be sync her to be not outrunned by the layout process.
-        let leafletMarker = await leafletIcon(marker)
+        const leafletMarker = await leafletIcon(marker)
 
-        markerOptions.icon = leafletMarker
+        markerOptions.icon = leafletMarker!
     }
 
-    let geoJsonLayer, center;
+    let geoJsonLayer, center: LeafletLatLng | undefined;
     if (geojson !== undefined) {
         geojson = JSON.parse(geojson);
         geoJsonLayer = L.geoJson(geojson, {
@@ -81,10 +84,10 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
                 if (feature.properties && (feature.properties.name || feature.properties.popupContent)) {
                     let popupContent = '';
                     if (feature.properties.name) {
-                        popupContent += '<h1>' + feature.properties.name + '</h1>';
+                        popupContent += feature.properties.name as string;
                     }
                     if (feature.properties.popupContent) {
-                        popupContent += feature.properties.popupContent;
+                        popupContent += feature.properties.popupContent as string;
                     }
                     layer.bindPopup(popupContent);
                 }
@@ -93,21 +96,20 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
         center = geoJsonLayer.getBounds().getCenter();
     }
 
-    let bounds, maxBounds= [[180, -Infinity], [-180, Infinity]];
+    let bounds: [number, number][] | undefined, maxBounds: [number, number][] = [[180, -Infinity], [-180, Infinity]];
     if (bbox && bbox.length === 4) {
         //bounds = [[bbox[1], bbox[0]], [bbox[3], bbox[2]]];
-        bounds = [[bbox[3], bbox[2]], [bbox[1], bbox[0]]];
+        bounds = [[bbox[3], bbox[2]], [bbox[1], bbox[0]]] as [number, number][];
 
         maxBounds = bounds;
     }
 
 
-    let map, mapElem;
-    mapElem = document.querySelector(element);
+    const mapElem = document.querySelector(element) as HTMLElement | null;
     //waitForElm(element).then((elm) => {
     //    console.log(`Found element ${elm}`);
     //    mapElem = elm;
-        map = L.map(mapElem, {
+    const map = L.map(mapElem, {
             maxBounds: maxBounds,
             //maxBoundsViscosity: 1,
             zoomControl: false,
@@ -123,39 +125,39 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
     //});
 
     if (bbox && bbox.length === 4) {
-        map.fitBounds(bounds, { padding: padding });
+        map.fitBounds(bounds!, { padding: padding });
     }
 
 
-    var vectorLayer;
+    let vectorLayer;
 
     if (vectorLayerImpl === "maplibre") {
       vectorLayer = L.maplibreGL({
           style: layers[style]
       }).addTo(map);
     } else if (vectorLayerImpl === "vectorgrid") {
-      const vectorTileUrl = layers[style].sources["versatiles-" + style].tiles[0];
+      const vectorTileUrl = layers[style].sources["versatiles-" + style].tiles![0];
       const vectorTileAttribution = layers[style].sources["versatiles-" + style].attribution;
 
 
       // Handle background layer
       const backgroundLayer = mapStyle.layers.find(l => l.type === 'background');
       if (backgroundLayer && backgroundLayer.paint?.['background-color']) {
-          mapElem.style.backgroundColor = backgroundLayer.paint['background-color'];
+          mapElem!.style.backgroundColor = backgroundLayer.paint['background-color'] as string;
       }
 
       map.createPane('labels');
-      map.getPane('labels').style.zIndex = 500;
-      map.getPane('labels').style.pointerEvents = 'none';
+      map.getPane('labels')!.style.zIndex = String(500);
+      map.getPane('labels')!.style.pointerEvents = 'none';
 
       map.createPane('clusters');
-      map.getPane('clusters').style.zIndex = 650;
+      map.getPane('clusters')!.style.zIndex = String(650);
 
       // First, create the styling for polygons and lines, but disable label drawing.
       const vectorTileStyling = mapboxToLeafletVectorGrid(mapStyle, map, false);
       //console.log(vectorTileStyling, `${Object.keys(vectorTileStyling)}`);
 
-      const vectorTileOptions = {
+      const vectorTileOptions: VectorTileLayerOptions = {
         attribution: vectorTileAttribution,
         vectorTileLayerStyles: vectorTileStyling,
         minDetailZoom: 4,
@@ -170,8 +172,8 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
 
       // Label layer - just a hack for GridTile
       const labelTileStyling = getFeatureLayer(mapStyle, map)
-      const labelCache = {};
-      const labelVectorTileOptions = {
+      const labelCache: LabelCache = {};
+      const labelVectorTileOptions: VectorTileLayerOptions = {
         style: labelTileStyling,
         //featureToLayer: labelsLayer,
         minDetailZoom: 7,
@@ -198,7 +200,7 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
     }
 
     if (cluster !== undefined && cluster) {
-        let markers = L.markerClusterGroup({
+        const markers = L.markerClusterGroup({
             //showCoverageOnHover: false,
             maxClusterRadius: 40,
             pane: 'clusters', // Assign clusters to the dedicated top pane.
@@ -211,7 +213,7 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
                 }
 
                 const iconUrl = icon.options.iconUrl;
-                const iconSize = icon.options.iconSize;
+                const iconSize = icon.options.iconSize!;
                 const additionalStyles = `transform: scale(${1 + (count / 20)});transform-origin: center center;`;
 
                 return L.divIcon({
@@ -221,21 +223,21 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
                 });
             }
         });
-        markers.addLayer(geoJsonLayer);
+        markers.addLayer(geoJsonLayer!);
         map.addLayer(markers);
     } else {
-        map.addLayer(geoJsonLayer);
+        map.addLayer(geoJsonLayer!);
     }
 
     if (bounds !== undefined) {
         map.fitBounds(bounds, { padding: padding });
     } else {
-        map.fitBounds(geoJsonLayer.getBounds(), { padding: padding });
+        map.fitBounds(geoJsonLayer!.getBounds(), { padding: padding });
     }
 
    const resizeObserver = new ResizeObserver(() => {
 
-        mapElem.querySelectorAll('.leaflet-control-container').forEach(controlContainer => {
+        mapElem!.querySelectorAll('.leaflet-control-container').forEach(controlContainer => {
             controlContainer.remove();
         });
 
@@ -246,9 +248,9 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
         console.log("Applying", leafletStyle, " to ", mapElem);
         //CCSUtil.inlineStyle(mapElem, leafletStyle);
 
-        const styleId = mapElem.id + '-leaflet-inline-style';
+        const styleId = mapElem!.id + '-leaflet-inline-style';
         if (document.getElementById(styleId)) {
-            document.getElementById(styleId).remove();
+            document.getElementById(styleId)!.remove();
         }
         const style = document.createElement('style');
         style.id = styleId;
@@ -259,7 +261,7 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
         map.invalidateSize();
         if (bounds !== undefined) {
             map.fitBounds(bounds, { padding: padding });
-            console.log("Resized map and fit to bounds: ", map.getBounds(), " expected: ", bounds, mapElem.clientWidth, mapElem.clientHeight);
+            console.log("Resized map and fit to bounds: ", map.getBounds(), " expected: ", bounds, mapElem!.clientWidth, mapElem!.clientHeight);
         }
     });
     if (mapElem !== null) {
@@ -273,7 +275,7 @@ export async function initMap(element, geojson, source, cluster, marker, style, 
 }
 
 /*
-function layerBbox(originalBBox, marginPercentage) {
+function layerBbox(originalBBox: { minX: number; minY: number; maxX: number; maxY: number }, marginPercentage: number) {
   const originalWidth = originalBBox.maxX - originalBBox.minX;
   const originalHeight = originalBBox.maxY - originalBBox.minY;
 
@@ -302,7 +304,7 @@ function layerBbox(originalBBox, marginPercentage) {
 */
 
 class CCSUtil {
-    static inlineStyle(targetElement, cssString) {
+    static inlineStyle(targetElement: HTMLElement, cssString: string) {
         const regex = /([^{]+)\{([\s\S]+?)\}/g;
         let match;
 
@@ -313,9 +315,9 @@ class CCSUtil {
             if (!selector) continue;
 
             try {
-                const descendants = targetElement.querySelectorAll(selector);
+                const descendants = targetElement.querySelectorAll<HTMLElement>(selector);
 
-                const properties = {};
+                const properties: Record<string, string> = {};
                 propertiesString.split(';').forEach(declaration => {
                     const parts = declaration.split(':').map(s => s.trim());
                     if (parts.length === 2 && parts[0]) {
@@ -326,7 +328,7 @@ class CCSUtil {
 
                 descendants.forEach(descendant => {
                     for (const prop in properties) {
-                        descendant.style[prop] = properties[prop];
+                        (descendant.style as unknown as Record<string, string>)[prop] = properties[prop];
                     }
                 });
             } catch (e) {
@@ -335,7 +337,7 @@ class CCSUtil {
         }
     }
 
-    static filterStylesByPrefix(cssString, prefix) {
+    static filterStylesByPrefix(cssString: string, prefix: string) {
         if (prefix !== '') {
             const filteredRules = [];
             const ruleMatchRegex = /([^{]+)\{([^}]+)\}/g;
@@ -358,7 +360,7 @@ class CCSUtil {
 
     }
 
-    static async getStyles(selectorPrefix = '', urls) {
+    static async getStyles(selectorPrefix = '', urls?: string | string[]) {
         if (urls !== undefined) {
             //if (Array.isArray(urls) && urls.length > 0) {
             if (typeof urls === 'string') {
@@ -367,9 +369,9 @@ class CCSUtil {
         } else {
             urls = [];
         }
-        document.querySelectorAll('link[rel="stylesheet"], link[rel="print-stylesheet"]').forEach(link => {
+        document.querySelectorAll<HTMLLinkElement>('link[rel="stylesheet"], link[rel="print-stylesheet"]').forEach(link => {
             if (link.href) {
-                urls.push(link.href);
+                urls!.push(link.href);
             }
         });
         const styleElements = document.querySelectorAll('style');
@@ -382,7 +384,7 @@ class CCSUtil {
 
         const prefix = String(selectorPrefix || '').trim();
 
-        const fetchPromises = urls.map(async (href) => {
+        const fetchPromises = urls.map(async (href): Promise<string | undefined> => {
             if (!href) return;
             let cssText;
             try {
@@ -399,27 +401,27 @@ class CCSUtil {
             return cssText;
         });
 
-        let cssParts = await Promise.all(fetchPromises);
+        const cssParts = await Promise.all(fetchPromises);
         styleElements.forEach(styleElement => {
-            cssParts.push(styleElement.textContent + '\n' || '');
+            cssParts.push((styleElement.textContent as string) + '\n' || '');
         });
 
         return CCSUtil.filterStylesByPrefix(cssParts.join('\n'), prefix);
     }
 
-    static cleanCss(cssString) {
+    static cleanCss(cssString: string) {
         const commentRegex = /\/\*[\s\S]*?\*\//g;
-        let cleanedCss = cssString.replace(commentRegex, '');
+        const cleanedCss = cssString.replace(commentRegex, '');
 
         let output = '';
         let i = 0;
 
         while (i < cleanedCss.length) {
-            let char = cleanedCss[i];
+            const char = cleanedCss[i];
 
             if (char === '@') {
 
-                let ruleStart = i;
+                const ruleStart = i;
                 let ruleEnd = cleanedCss.indexOf('{', ruleStart);
 
                 if (ruleEnd === -1) {
@@ -433,7 +435,7 @@ class CCSUtil {
                     let j = ruleEnd + 1;
 
                     while (j < cleanedCss.length) {
-                        let innerChar = cleanedCss[j];
+                        const innerChar = cleanedCss[j];
 
                         if (innerChar === '{') {
                             braceCount++;

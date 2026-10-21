@@ -23,11 +23,11 @@
   },
   "scripts": {
     "lint-scss": "stylelint 'assets/scss/**/*.scss'",
-    "lint-js": "eslint -c themes/projektemacher-base/eslint.config.mjs 'assets/js'",
+    "lint-ts": "eslint -c themes/projektemacher-base/eslint.config.mjs 'assets/js' 'assets/ts'",
     "lint-md": "markdownlint 'content/**/*.md'",
     "lint-toml": "eslint -c themes/projektemacher-base/eslint.config.mjs i18n",
     "typecheck": "tsc --noEmit",
-    "lint": "npm run lint-scss && npm run lint-js && npm run lint-md && npm run lint-toml",
+    "lint": "npm run lint-scss && npm run lint-ts && npm run lint-md && npm run lint-toml",
     "check-generated-css": "stylelint --config ./themes/projektemacher-base/.stylelintrc-postbuild.yaml 'docs/css/*.css'",
     "postbuild-lint": "npm run check-generated-css",
     "validate-iiif-gnu": "find docs -name manifest.json -print0 | xargs -r -0 -n1 npx eslint -c themes/projektemacher-base/eslint.config.mjs",

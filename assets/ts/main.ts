@@ -2,16 +2,16 @@ import 'ts/iframe-consent';
 //import { fullscreen } from './fullscreen.js';
 import Swiper from 'swiper';
 import { A11y, Navigation, Scrollbar, Keyboard, Mousewheel } from 'swiper/modules';
-import EffectCoverflow from './swiper-addons/effect-coverflow.mjs';
+import EffectCoverflow, { KleiderbuegelCoverflowEffectOptions } from './swiper-addons/effect-coverflow';
 import PDFObject from 'pdfobject/pdfobject.js';
 
 const defaultSize = 330;
 
 window.PDFObject = PDFObject;
 
-function hangerHandler (elem) {
+function hangerHandler (elem: HTMLElement) {
   const id = elem.dataset.contentId;
-  const contentContainer = document.getElementById(id);
+  const contentContainer = document.getElementById(id as string);
   const content = contentContainer ? contentContainer.innerHTML : '';
   const kleidungsstueck = document.querySelector('#kleidungsstueck');
   if (kleidungsstueck) {
@@ -37,15 +37,26 @@ function hangerHandler (elem) {
 }
 
 
-function initSlider(elem, size) {
+function initSlider(elem: Element | null, size?: number) {
   if (size === undefined) {
     size = defaultSize;
   }
 
   const margin = size / 11;
   const spacing = margin * 7 * -1;
+  const coverflowEffect: KleiderbuegelCoverflowEffectOptions = {
+    rotate: 65,
+    stretch: 1,
+    depth: 0,
+    modifier: 1,
+    slideShadows: false,
+    spacing: 0.7,
+    vanishingPointPerItem: true,
+    activeMarginRight:  margin,
+    activeMarginLeft:  margin,
+  };
 
-  var swiper = new Swiper(elem, {
+  const swiper = new Swiper(elem as HTMLElement, {
     modules: [A11y, Scrollbar, Navigation, Keyboard, Mousewheel, EffectCoverflow],
     effect: "coverflow",
     //cssMode: true,
@@ -59,15 +70,7 @@ function initSlider(elem, size) {
     slidesPerView: "auto",
     spaceBetween: spacing,
     coverflowEffect: {
-      rotate: 65,
-      stretch: 1,
-      depth: 0,
-      modifier: 1,
-      slideShadows: false,
-      spacing: 0.7,
-      vanishingPointPerItem: true,
-      activeMarginRight:  margin,
-      activeMarginLeft:  margin,
+      ...coverflowEffect,
     },
     navigation: {
       nextEl: ".swiper-button-next",
@@ -85,7 +88,7 @@ function initSlider(elem, size) {
 
     on: {
       click: function (swiper, event) {
-        hangerHandler(event.target);
+        hangerHandler(event.target as HTMLElement);
       },
       afterInit: function (swiper) {
         swiper.slideTo(0, 0)
@@ -102,7 +105,7 @@ function initSlider(elem, size) {
   swiper.init();
 }
 
-function initHome(elem) {
+function initHome(elem: Element | null) {
   let size = defaultSize;
 
   if (window.screen.width <= 740) {

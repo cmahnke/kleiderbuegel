@@ -12,8 +12,13 @@
     "useDefineForClassFields": false,
     "noUnusedLocals": false,
     "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
     "allowJs": true,
-    "checkJs": false
+    "checkJs": false,
+    "paths": {
+      "leaflet": ["./assets/ts/leaflet.d.ts"],
+      "ts/*": ["./themes/projektemacher-base/assets/ts/*", "./assets/ts/*"]
+    }
   },
-  "include": ["assets/ts/**/*.ts", "assets/js/**/*.js"]
+  "include": ["assets/ts/**/*.ts", "assets/js/**/*.js", "themes/projektemacher-base/assets/ts/*.d.ts"]
 }

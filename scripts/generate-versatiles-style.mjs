@@ -5,7 +5,7 @@
 //
 // Conventions (kept compatible with existing, unmodified callers):
 //   - source key stays "versatiles-shortbread" (as emitted by osm()),
-//     so assets/js/maps/leaflet-map.js `sources["versatiles-"+style]`
+//     so assets/ts/maps/leaflet-map.ts `sources["versatiles-"+style]`
 //     keeps working with style="shortbread".
 //   - tiles point to the projektemacher static central-europe PBFs.
 //   - sprites point to local /map-styles/sprites/{base,extras,icons}

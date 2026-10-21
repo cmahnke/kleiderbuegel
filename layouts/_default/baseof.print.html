@@ -27,7 +27,7 @@
     {{- end -}}
     {{- $cssOptions := dict "outputStyle" "compressed" "transpiler" "dartsass" "targetPath" "css/print.css" "includePaths" (slice "assets/css") "vars" $scssVars -}}
     {{- $css := resources.Get "scss/print.scss" | toCSS $cssOptions | fingerprint -}}
-    {{ with resources.Get "js/print.js" }}
+    {{ with resources.Get "ts/print.ts" }}
       {{$opts := dict
         "minify" (not hugo.IsDevelopment)
         "sourceMap" (cond hugo.IsDevelopment "external" "")

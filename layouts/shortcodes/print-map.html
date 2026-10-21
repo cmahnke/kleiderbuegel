@@ -19,5 +19,5 @@
 {{- partial "print/leaflet-map.html" (dict "context" . "section" $section "cluster" $cluster "marker" $marker "style" $style "bbox" $bbox) -}}
 
 {{- define "_partials/shortcodes/print-map-metadata.html" -}}
-  {{- (dict "css" slice "js" (slice "js/maps/leaflet-map.js") "scss" (slice "scss/print-map.scss")) | jsonify -}}
+  {{- (dict "css" slice "js" (slice "ts/maps/leaflet-map.ts") "scss" (slice "scss/print-map.scss")) | jsonify -}}
 {{- end -}}
