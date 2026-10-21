@@ -1013,3 +1013,22 @@ p.small {
 .popup-container.active .content {
   position: relative;
 }
+
+/*
+ * Skip link (baseof.html): visually hidden until focused. Fixed
+ * high-contrast colors, because the theme's palette variables are
+ * consumer-defined and must not affect this control (WCAG 2.4.1).
+ */
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 10000;
+    padding: 0.5em 1em;
+    background: #212121;
+    color: #fafafa;
+
+    &:focus {
+        left: 0;
+    }
+}

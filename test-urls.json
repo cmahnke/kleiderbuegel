@@ -1,3 +1,8 @@
 [
-  {"url": "index.html"}
+  {"url": "index.html"},
+  {"url": "map/"},
+  {"url": "post/coat-hangers-book/"},
+  {"url": "search/"},
+  {"url": "iframes/slider/"},
+  {"url": "catalogue/maps/central/"}
 ]

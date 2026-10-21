@@ -53,10 +53,11 @@
         {{- $class = printf "%s %s" $class "meta" -}}
       {{- end -}}
     {{- end -}}
-     <body class="{{ $class }}">
-       <div id="page">
-         {{ partial "header.html" . }}
-         <div class="main">
+    <body class="{{ $class }}">
+      <a class="skip-link" href="#main">{{ i18n "skipToContent" }}</a>
+      <div id="page">
+        {{ partial "header.html" . }}
+        <div class="main" id="main">
              {{ block "content" . }}{{ end }}
              {{- partial "footer.html" . -}}
          </div>

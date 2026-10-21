@@ -85,7 +85,7 @@ jobs:
           find docs/post -name "*_*.png" -size +1M -type f -exec rm {} \;
 
       - name: Puppeteer
-        run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh
+        run: ./themes/projektemacher-base/scripts/github/check-js-errors.sh -i
 
       # - name: Achive links
       #   run: python ./themes/projektemacher-base/scripts/archive.py -d docs/ -e kleiderbügel.blaufusstölpel.de,xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de,xn--blaufusstlpel-qmb.de -a 30 -o archived-urls.txt

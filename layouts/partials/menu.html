@@ -35,10 +35,10 @@
       {{- if hugo.IsMultilingual -}}
         {{- range (default site.Home.AllTranslations .Translations) -}}
           {{- if ne site.Language .Language -}}
-            {{/* Site customization: keep the 'lang-switch <lang>' classes the
-                flag styles in assets/scss/base.scss key on */}}
             <li class="navigation-item lang">
-              <a class="lang-switch {{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.Label }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}">{{ .Language.Label }}</a>
+              {{/* Site customization: keep the 'lang-switch <lang>' classes the
+                  flag styles in assets/scss/base.scss key on */}}
+              <a class="lang-switch {{ .Language.Name }}" href="{{ .Permalink }}" title="{{ .Language.Label }}" hreflang="{{ .Language.Name }}" lang="{{ .Language.Name }}">{{ .Language.Label }}</a>
             </li>
           {{- end -}}
         {{- end -}}
