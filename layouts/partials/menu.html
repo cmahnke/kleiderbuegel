@@ -46,7 +46,7 @@
     </ul>
   </nav>
   {{- with resources.Get "ts/menu.ts" -}}
-    {{- $menuJs := . | js.Build (dict "targetPath" "js/menu.js" "minify" (cond hugo.IsDevelopment false true) "sourceMap" (cond hugo.IsDevelopment "linked" "none")) | fingerprint -}}
-    <script defer src="{{ $menuJs.RelPermalink }}" integrity="{{ $menuJs.Data.Integrity | html }}"></script>
+    {{- $menuJs := . | js.Build (dict "targetPath" "js/menu.js" "minify" (cond hugo.IsDevelopment false true) "sourceMap" (cond hugo.IsDevelopment "linked" "none") "format" "esm") | fingerprint -}}
+    <script type="module" src="{{ $menuJs.RelPermalink }}" integrity="{{ $menuJs.Data.Integrity | html }}"></script>
   {{- end -}}
 {{- end -}}

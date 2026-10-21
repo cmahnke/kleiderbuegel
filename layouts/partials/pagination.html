@@ -1,6 +1,6 @@
 {{- $paginator := .paginator -}}
 {{- with .context -}}
-  <div class="navi">
+  <nav class="navi" aria-label="{{ i18n "paginationNavigation" }}">
     <div class="pagination">
       <div class="nextContainer">
         {{- if $paginator.HasNext -}}
@@ -16,5 +16,5 @@
         {{- end -}}
       </div>
     </div>
-  </div>
+  </nav>
 {{- end -}}

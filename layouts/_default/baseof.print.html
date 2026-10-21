@@ -34,13 +34,14 @@
         "targetPath" "js/print.js"
         "loaders" (dict ".json" "json" ".css" "text" ".scss" "text")
         "target" "es2018"
+        "format" "esm"
       }}
       {{ with . | js.Build $opts }}
         {{ if hugo.IsDevelopment }}
-          <script src="{{ strings.Substr .RelPermalink $relative }}"></script>
+          <script type="module" src="{{ strings.Substr .RelPermalink $relative }}"></script>
         {{ else }}
           {{ with . | fingerprint }}
-            <script src="{{ strings.Substr .RelPermalink $relative }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+            <script type="module" src="{{ strings.Substr .RelPermalink $relative }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
           {{ end }}
         {{ end }}
       {{ end }}
