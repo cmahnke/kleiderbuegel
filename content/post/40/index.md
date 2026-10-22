@@ -13,11 +13,12 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-address: Aken (Elbe)
-geojson:
-  coordinates:
-  - 12.0431
-  - 51.8539
-  precision: city
+params:
+  address: Aken (Elbe)
+  geojson:
+    coordinates:
+    - 12.0431
+    - 51.8539
+    precision: city
 ---
 Fritz Felgener, Feine Maßschneiderei, Aken a. d. Elbe.

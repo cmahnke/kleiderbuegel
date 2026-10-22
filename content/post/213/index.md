@@ -12,12 +12,13 @@ resources:
 tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
-address: Schildergasse & Hohe Straße, Köln
-geojson:
-  coordinates:
-  - 6.956274
-  - 50.936823
-  precision: exact
+params:
+  address: Schildergasse & Hohe Straße, Köln
+  geojson:
+    coordinates:
+    - 6.956274
+    - 50.936823
+    precision: exact
 ---
 Das große Spezialhaus CarsTens KÖLN HOHE STRASSE,
 ECKE SCHILDERGASSE

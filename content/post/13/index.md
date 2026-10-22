@@ -8,16 +8,17 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
-source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-address: Zwischen beiden Sielen 14, Emden
-geojson:
-  coordinates:
-  - 7.205323
-  - 53.368346
-  precision: exact
+params:
+  source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
+  address: Zwischen beiden Sielen 14, Emden
+  geojson:
+    coordinates:
+    - 7.205323
+    - 53.368346
+    precision: exact
 ---
 Brahms, Emden

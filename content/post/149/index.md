@@ -14,15 +14,16 @@ tags:
   - Hannover
   - Bekleidungsgeschäft
   - Erdmann
-address: Große Packhofstraße 34, Hannover
-geojson:
-  coordinates:
-  - 9.737054
-  - 52.373982
-  precision: exact
-related:
-  - 121
-  - 188
+params:
+  address: Große Packhofstraße 34, Hannover
+  related:
+    - 121
+    - 188
+  geojson:
+    coordinates:
+    - 9.737054
+    - 52.373982
+    precision: exact
 ---
 
 Erdmann Kleidung

@@ -13,15 +13,16 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Würzburg
-address: Ecke Sanderstr. 2, Würzburg
-geojson:
-  coordinates:
-  - 9.929780
-  - 49.789774
-  precision: exact
-remarks: |
-  * [Eintrag im Würzburg Wiki](https://wuerzburgwiki.de/wiki/Severin)
-  * [Heutige Webseite](https://www.severin-wuerzburg.de/)
+params:
+  address: Ecke Sanderstr. 2, Würzburg
+  remarks: |-
+    * [Eintrag im Würzburg Wiki](https://wuerzburgwiki.de/wiki/Severin)
+    * [Heutige Webseite](https://www.severin-wuerzburg.de/)
+  geojson:
+    coordinates:
+    - 9.929780
+    - 49.789774
+    precision: exact
 ---
 Herren- u. Knabenkleidung
 Fritz Severin

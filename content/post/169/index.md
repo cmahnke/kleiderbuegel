@@ -13,13 +13,14 @@ tags:
 - "Material: Holz"
 - München
 - Bekleidungsgeschäft
-address: Maffeistraße 7, München
-geojson:
-  coordinates:
-  - 11.573990
-  - 48.139696
-  precision: exact
-remarks: |
-  * [Heutige Webseite](https://www.lodenfrey.com/)
+params:
+  address: Maffeistraße 7, München
+  remarks: |-
+    * [Heutige Webseite](https://www.lodenfrey.com/)
+  geojson:
+    coordinates:
+    - 11.573990
+    - 48.139696
+    precision: exact
 ---
 Loden - Frey München

@@ -20,15 +20,16 @@ tags:
 - Stettin
 - Szczecin
 #address: Kl. Domstr. 181, Stettin
-address: Mariacka, Szczecin, Polen
-geojson:
-  coordinates:
-  - 14.55629
-  - 53.42648
-  precision: street
-remarks: |
-  * [Nordkurier: Verein sucht Kleiderbügel](https://www.nordkurier.de/regional/pasewalk/verein-sucht-kleiderbuegel-2302545)
-  * [Stadtplan Stettin 1943](https://www.pommerscher-greif.de/stadtplan-stettin-1943/)
+params:
+  address: Mariacka, Szczecin, Polen
+  remarks: |-
+    * [Nordkurier: Verein sucht Kleiderbügel](https://www.nordkurier.de/regional/pasewalk/verein-sucht-kleiderbuegel-2302545)
+    * [Stadtplan Stettin 1943](https://www.pommerscher-greif.de/stadtplan-stettin-1943/)
+  geojson:
+    coordinates:
+    - 14.55629
+    - 53.42648
+    precision: street
 ---
 
 Centralhaus elg. Herrenmode, Stettin, Kl. Domstr. 181

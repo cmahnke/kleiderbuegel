@@ -14,13 +14,14 @@ tags:
 - Warenhaus
 - "Material: Holz"
 - Fahning
-address: Neuer Wall 19, Hamburg
-geojson:
-  coordinates:
-  - 9.991803
-  - 53.552008
-  precision: exact
-related:
-  - 48
+params:
+  address: Neuer Wall 19, Hamburg
+  related:
+    - 48
+  geojson:
+    coordinates:
+    - 9.991803
+    - 53.552008
+    precision: exact
 ---
 fahning

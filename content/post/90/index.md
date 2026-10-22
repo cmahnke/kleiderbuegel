@@ -13,11 +13,12 @@ tags:
   - Reinigung
   - Essen
   - "Material: Holz"
-address: Frankenstraße 276, Essen
-geojson:
-  coordinates:
-  - 7.024995
-  - 51.420660
-  precision: exact
+params:
+  address: Frankenstraße 276, Essen
+  geojson:
+    coordinates:
+    - 7.024995
+    - 51.420660
+    precision: exact
 ---
 Chem. Reinigung Schulte Essen

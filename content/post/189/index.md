@@ -13,14 +13,15 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Düsseldorf
-address: Flinger Straße, Düsseldorf
-geojson:
-  coordinates:
-  - 6.77483
-  - 51.22535
-  precision: street
-remarks: |
-  * [Düsseldorfer Stadtchronik 1994 über die Schließung](https://www.duesseldorf.de/stadtarchiv/stadtgeschichte/chronik/1994)
+params:
+  address: Flinger Straße, Düsseldorf
+  remarks: |-
+    * [Düsseldorfer Stadtchronik 1994 über die Schließung](https://www.duesseldorf.de/stadtarchiv/stadtgeschichte/chronik/1994)
+  geojson:
+    coordinates:
+    - 6.77483
+    - 51.22535
+    precision: street
 ---
 Bekleidungshaus SORGE Düsseldorf
 Kauf ohne Sorge bei S O R G E

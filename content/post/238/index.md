@@ -15,12 +15,13 @@ tags:
 - Union
 - Warenhaus
 - Braunschweig
-address: Schuhstraße 29-34, Braunschweig
-geojson:
-  coordinates:
-  - 10.520361
-  - 52.263572
-  precision: exact
+params:
+  address: Schuhstraße 29-34, Braunschweig
+  geojson:
+    coordinates:
+    - 10.520361
+    - 52.263572
+    precision: exact
 ---
 
 UNION

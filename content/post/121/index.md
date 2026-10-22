@@ -14,17 +14,18 @@ tags:
   - Bekleidungsgeschäft
   - "Material: Holz"
   - Erdmann
-address: Große Packhofstraße 34/35, Hannover
-geojson:
-  coordinates:
-  - 9.736924
-  - 52.373986
-  precision: exact
-related:
-  - 188
-  - 149
-remarks: |
-  * [Haus Erdmann in der Wikipedia](https://de.wikipedia.org/wiki/Haus_Erdmann_(Hannover-Mitte))
+params:
+  address: Große Packhofstraße 34/35, Hannover
+  related:
+    - 188
+    - 149
+  remarks: |-
+    * [Haus Erdmann in der Wikipedia](https://de.wikipedia.org/wiki/Haus_Erdmann_(Hannover-Mitte))
+  geojson:
+    coordinates:
+    - 9.736924
+    - 52.373986
+    precision: exact
 ---
 Erdmann
 Kleidung

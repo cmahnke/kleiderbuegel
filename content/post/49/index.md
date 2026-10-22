@@ -12,15 +12,16 @@ resources:
 outputs:
 - html
 - iiif-manifest
-address: Ludwigstraße 2, Darmstadt
-geojson:
-  coordinates:
-  - 8.655507
-  - 49.871865
-  precision: exact
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
-remarks: |
-  * [Haus Stegmüller in der Wikipedia](https://de.wikipedia.org/wiki/Haus_Stegm%C3%BCller)
-  * [Stegmüller, Ernst bei der DFG-VK Damstadt](https://dfg-vk-darmstadt.de/Lexikon_Auflage_2/StegmuellerErnst.htm)
+params:
+  address: Ludwigstraße 2, Darmstadt
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+  remarks: |-
+    * [Haus Stegmüller in der Wikipedia](https://de.wikipedia.org/wiki/Haus_Stegm%C3%BCller)
+    * [Stegmüller, Ernst bei der DFG-VK Damstadt](https://dfg-vk-darmstadt.de/Lexikon_Auflage_2/StegmuellerErnst.htm)
+  geojson:
+    coordinates:
+    - 8.655507
+    - 49.871865
+    precision: exact
 ---
 Stegmüller Darmstadt Hinterm Schloss

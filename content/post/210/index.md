@@ -12,8 +12,9 @@ resources:
 tags:
 - "Material: Plastik"
 - Werbung
-remarks: |
-  * [Puma in der Wikipedia](https://de.wikipedia.org/wiki/Puma_(Sportartikelhersteller))
+params:
+  remarks: |
+    * [Puma in der Wikipedia](https://de.wikipedia.org/wiki/Puma_(Sportartikelhersteller))
 ---
 
 Puma

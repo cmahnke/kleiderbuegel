@@ -8,8 +8,19 @@ tags:
 - Beidseitig
 - Overmeyer
 type: hanger
-iiif:
-  behavior: individuals
+params:
+  address: Königsplatz 38–40, Kassel
+  related:
+    - 245
+    - 251
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+  iiif:
+    behavior: individuals
+  geojson:
+    coordinates:
+    - 9.498939
+    - 51.315785
+    precision: exact
 outputs:
 - html
 - iiif-manifest
@@ -21,15 +32,5 @@ resources:
   params:
     iiif: back/info.json
     content: "Herren- und Knabenbekleidung"
-address: Königsplatz 38–40, Kassel
-related:
-  - 245
-  - 251
-geojson:
-  coordinates:
-  - 9.498939
-  - 51.315785
-  precision: exact
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---
 Overmeyer Kassel, am Königsplatz

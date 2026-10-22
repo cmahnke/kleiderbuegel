@@ -1,7 +1,8 @@
 ---
 title: About this page
-displayInList: false
-metaPage: true
+params:
+  displayInList: false
+  metaPage: true
 ---
 
 This blog offers a look at old [clothes hangers](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel) (currently {{< post-count section="post" type="hanger" >}}) and is part of the [Blaufußtölpel](https://xn--blaufusstlpel-qmb.de). The hangers shown are tagged and otherwise not commented on, even those that might require distancing.

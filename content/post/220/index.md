@@ -13,15 +13,16 @@ tags:
 - Hamburg
 - Bekleidungsgeschäft
 - "Material: Holz"
-address: Admiralitätsstr. 1, Hamburg
-geojson:
-  coordinates:
-  - 9.984444
-  - 53.548438 
-  precision: exact
-remarks: |
-  * [Aktuelle Homepage](https://www.ernst-brendler.de/)
-  * Derzeit ist die Firma mehr als 140 Jahre alt, daher ist der Bügel über 60 Jahre alt
+params:
+  address: Admiralitätsstr. 1, Hamburg
+  remarks: |-
+    * [Aktuelle Homepage](https://www.ernst-brendler.de/)
+    * Derzeit ist die Firma mehr als 140 Jahre alt, daher ist der Bügel über 60 Jahre alt
+  geojson:
+    coordinates:
+    - 9.984444
+    - 53.548438 
+    precision: exact
 ---
 Ernst Brendler
 80

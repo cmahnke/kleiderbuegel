@@ -14,5 +14,6 @@ tags:
 - "Material: Holz"
 - "Material: Plastik"
 - Kinderbügel
-donation: Gisela Thöne
+params:
+  donation: Gisela Thöne
 ---

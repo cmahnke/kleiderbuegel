@@ -13,13 +13,14 @@ tags:
 - "Material: Holz"
 - Herford
 - Bekleidungsgeschäft
-address: Alter Markt 2, Herford
-geojson:
-  coordinates:
-  - 8.671006
-  - 52.114049
-  precision: exact
-remark: |
-  * [Standort im Architektur-Bildarchiv](https://www.architektur-bildarchiv.de/image/Gesch%C3%A4ftsh%C3%A4user-Alter-Markt-2-6-Herford-51207.html)
+params:
+  address: Alter Markt 2, Herford
+  remark: |-
+    * [Standort im Architektur-Bildarchiv](https://www.architektur-bildarchiv.de/image/Gesch%C3%A4ftsh%C3%A4user-Alter-Markt-2-6-Herford-51207.html)
+  geojson:
+    coordinates:
+    - 8.671006
+    - 52.114049
+    precision: exact
 ---
 August Wellhölter Herford, Alter Markt II

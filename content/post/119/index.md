@@ -12,11 +12,12 @@ resources:
 tags:
   - Augsburg
   - "Material: Holz"
-geojson:
-  coordinates:
-  - 10.892254
-  - 48.366147
-  precision: exact
-address: Bahnhofstr. 5, Augsburg
+params:
+  address: Bahnhofstr. 5, Augsburg
+  geojson:
+    coordinates:
+    - 10.892254
+    - 48.366147
+    precision: exact
 ---
 Heinrich Kuhn, Augsburg Bahnhofstr. 5.

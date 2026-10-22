@@ -6,8 +6,18 @@ tags:
 - "Material: Holz"
 - Beidseitig
 type: hanger
-iiif:
-  behavior: individuals
+params:
+  address: Johannistorstraße 7/9, Osterode
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+  remarks: |-
+    * [Alte Rechnungen und Werbung im Archiv Vegelahn](https://www.archiv-vegelahn.de/index.php/osterode-am-harz/12-osteroder-reklame/6786-schrader-theo-herrenausstattung)
+  iiif:
+    behavior: individuals
+  geojson:
+    coordinates:
+    - 10.253312
+    - 51.728256 
+    precision: exact
 outputs:
 - html
 - iiif-manifest
@@ -19,14 +29,5 @@ resources:
   params:
     iiif: back/info.json
     content: 25 Jahre Theo Schrader
-address: Johannistorstraße 7/9, Osterode
-geojson:
-  coordinates:
-  - 10.253312
-  - 51.728256 
-  precision: exact
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
-remarks: |
-  * [Alte Rechnungen und Werbung im Archiv Vegelahn](https://www.archiv-vegelahn.de/index.php/osterode-am-harz/12-osteroder-reklame/6786-schrader-theo-herrenausstattung)
 ---
 Theo Schrader Osterode/Harz

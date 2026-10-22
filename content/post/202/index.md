@@ -19,13 +19,14 @@ tags:
 - Reinigung
 - Hagen
 - Beidseitig
-address: Alexanderstraße 84, 58097 Hagen
-geojson:
-  coordinates:
-  - 7.468278
-  - 51.375889
-  precision: exact
-remarks: |
-  * [Weiß, weißer, Edelweiss!](https://nwbib.de/990212717590206441)
+params:
+  address: Alexanderstraße 84, 58097 Hagen
+  remarks: |-
+    * [Weiß, weißer, Edelweiss!](https://nwbib.de/990212717590206441)
+  geojson:
+    coordinates:
+    - 7.468278
+    - 51.375889
+    precision: exact
 ---
 Großwäscherei „Edelweiß“ Hagen i.W.

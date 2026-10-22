@@ -9,10 +9,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-doublesided: true
 tags:
   - "Material: Holz"
   - Bekleidungsgeschäft
+params:
+  doublesided: true
 ---
 Ihr Kleiderfachmann
 Bleyer

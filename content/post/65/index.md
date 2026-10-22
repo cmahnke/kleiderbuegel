@@ -14,16 +14,17 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - C. Louis Weber
-address: Große Packhofstr. 30, Hannover
-geojson:
-  coordinates:
-  - 9.737287
-  - 52.374366
-  precision: exact
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
-related:
-  - 214
-  - 215
+params:
+  address: Große Packhofstr. 30, Hannover
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  related:
+    - 214
+    - 215
+  geojson:
+    coordinates:
+    - 9.737287
+    - 52.374366
+    precision: exact
 ---
 
 C. Louis Weber Hannover

@@ -13,13 +13,14 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Steinheim
-address: Steinheim
-geojson:
-  coordinates:
-  - 9.0864
-  - 51.8698
-  precision: city
-remarks: |
-  * [Private Stadtgeschichte Steinheim](https://tourismus.steinheim.de/Stadtgeschichte/Private-Stadtgeschichte/index.php?object=tx,3276.49.1&NavID=3276.18&La=1)
+params:
+  address: Steinheim
+  remarks: |-
+    * [Private Stadtgeschichte Steinheim](https://tourismus.steinheim.de/Stadtgeschichte/Private-Stadtgeschichte/index.php?object=tx,3276.49.1&NavID=3276.18&La=1)
+  geojson:
+    coordinates:
+    - 9.0864
+    - 51.8698
+    precision: city
 ---
 Textil u. Modenhaus Gebr. Simon Steinheim

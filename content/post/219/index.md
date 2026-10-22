@@ -13,12 +13,13 @@ tags:
 - Bad Lauterberg
 - Reinigung
 - "Material: Holz"
-doublesided: true
-address: Scharzfelder Straße 87, Bad Lauterberg
-geojson:
-  coordinates:
-  - 10.449732
-  - 51.621001
-  precision: exact
+params:
+  doublesided: true
+  address: Scharzfelder Straße 87, Bad Lauterberg
+  geojson:
+    coordinates:
+    - 10.449732
+    - 51.621001
+    precision: exact
 ---
 Chemische Reinigung Sievers Bad Lauterberg

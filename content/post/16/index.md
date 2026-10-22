@@ -5,8 +5,10 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
-iiif:
-  behavior: individuals
+params:
+  source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
+  iiif:
+    behavior: individuals
 resources:
 - src: "front.png"
   params:
@@ -20,7 +22,6 @@ resources:
       <p>Herzliche Glückwünsche</p>
       <p>von Deinem</p>
       <p>Dietmar, Albert, Harald</p>
-source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 tags:
 - "Material: Holz"
 - Beidseitig

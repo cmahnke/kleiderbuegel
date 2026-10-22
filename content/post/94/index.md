@@ -12,12 +12,13 @@ resources:
 tags:
 - "Material: Holz"
 - Reinigung
-address: Helmstedt
-geojson:
-  coordinates:
-  - 11.0037
-  - 52.2273
-  precision: city
-remarks: |
-  * [Im niedersächsischen Landesarchiv](https://www.arcinsys.niedersachsen.de/arcinsys/detailAction.action?detailid=v5258036)
+params:
+  address: Helmstedt
+  remarks: |-
+    * [Im niedersächsischen Landesarchiv](https://www.arcinsys.niedersachsen.de/arcinsys/detailAction.action?detailid=v5258036)
+  geojson:
+    coordinates:
+    - 11.0037
+    - 52.2273
+    precision: city
 ---

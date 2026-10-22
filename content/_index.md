@@ -1,5 +1,6 @@
 ---
-displayinlist: false
+params:
+  displayinlist: false
 outputs:
   - iiif-collection
   - html

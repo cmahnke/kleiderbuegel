@@ -13,14 +13,15 @@ tags:
   - Reinigung
   - "Material: Holz"
   - Gelsenkirchen
-address: Engelbertstraße 2, Gelsenkirchen
-geojson:
-  coordinates:
-  - 7.113785
-  - 51.579522
-  precision: exact
-remarks: |
-  * [MOLLERUS in Gelsenkirchener Geschichten](https://www.gelsenkirchener-geschichten.de/forum/viewtopic.php?t=1691)
-  * [Institut für Stadtgeschichte Gelsenkirchen](https://digitaler-lesesaal-isg.gelsenkirchen.de/objekt_start.fau?prj=ifaust9&dm=Digitaler%20Lesesaal&ref=11571)
+params:
+  address: Engelbertstraße 2, Gelsenkirchen
+  remarks: |-
+    * [MOLLERUS in Gelsenkirchener Geschichten](https://www.gelsenkirchener-geschichten.de/forum/viewtopic.php?t=1691)
+    * [Institut für Stadtgeschichte Gelsenkirchen](https://digitaler-lesesaal-isg.gelsenkirchen.de/objekt_start.fau?prj=ifaust9&dm=Digitaler%20Lesesaal&ref=11571)
+  geojson:
+    coordinates:
+    - 7.113785
+    - 51.579522
+    precision: exact
 ---
 MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt

@@ -13,12 +13,13 @@ tags:
 - "Material: Holz"
 - Mainz
 - Bekleidungsgeschäft
-address: Markt 2-6, Mainz
-geojson:
-  coordinates:
-  - 8.273218
-  - 49.999251
-  precision: exact
+params:
+  address: Markt 2-6, Mainz
+  geojson:
+    coordinates:
+    - 8.273218
+    - 49.999251
+    precision: exact
 ---
 Damen- Herren- und Kinder-Kleidung
 Beckmann & Wortmann

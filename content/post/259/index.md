@@ -13,8 +13,9 @@ tags:
 - "Material: Holz"
 - Hettlage
 - Bekleidungsgeschäft
-related:
-  - 134
+params:
+  related:
+    - 134
 ---
 
 ***Hettlage & Lampe***

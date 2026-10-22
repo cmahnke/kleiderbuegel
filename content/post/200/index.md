@@ -13,15 +13,16 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Saarlouis
-geojson:
-  coordinates:
-  - 6.748973
-  - 49.315590
-  precision: exact
-address: Großer Markt, Saarlouis
-remarks: |
-  * [Eintrag in der Wikipedia](https://de.wikipedia.org/wiki/Ludwig_Pieper)
-  * [Heutige Webseite](https://pieper-saarlouis.de/)
+params:
+  address: Großer Markt, Saarlouis
+  remarks: |-
+    * [Eintrag in der Wikipedia](https://de.wikipedia.org/wiki/Ludwig_Pieper)
+    * [Heutige Webseite](https://pieper-saarlouis.de/)
+  geojson:
+    coordinates:
+    - 6.748973
+    - 49.315590
+    precision: exact
 ---
 
 Ludwig Piper, Saarlouis

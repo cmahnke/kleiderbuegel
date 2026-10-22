@@ -9,17 +9,18 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-doublesided: true
 tags:
   - "Material: Holz"
   - Witzenhausen
   - Repariert
   - Schneiderei
-address: Witzenhausen
-geojson:
-  coordinates:
-  - 9.8556
-  - 51.3400
-  precision: city
+params:
+  doublesided: true
+  address: Witzenhausen
+  geojson:
+    coordinates:
+    - 9.8556
+    - 51.3400
+    precision: city
 ---
 Karl Kühne, Mass-Schneiderei Unterrieden Witzenhausen

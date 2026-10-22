@@ -13,12 +13,13 @@ tags:
 - "Material: Holz"
 - Hannover
 - Reinigung
-doublesided: true
-address: Hannover
-geojson:
-  coordinates:
-  - 9.7320
-  - 52.3759
-  precision: city
+params:
+  doublesided: true
+  address: Hannover
+  geojson:
+    coordinates:
+    - 9.7320
+    - 52.3759
+    precision: city
 ---
 Reinigung Centralux Hannover

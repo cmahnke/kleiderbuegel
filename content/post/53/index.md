@@ -13,13 +13,14 @@ resources:
   params:
     iiif: front/info.json
 #https://www.perladesa.de/altes-halle.htm
-address: Große Ulrichstraße 4/5, Halle
-geojson:
-  coordinates:
-  - 11.969178
-  - 51.484483
-  precision: exact
-remarks: |
-  * [Gedenkbuch für die Toten des Holocaust in Halle](https://www.gedenkbuch.halle.de/gbdatensatz.php?num=18)
+params:
+  address: Große Ulrichstraße 4/5, Halle
+  remarks: |-
+    * [Gedenkbuch für die Toten des Holocaust in Halle](https://www.gedenkbuch.halle.de/gbdatensatz.php?num=18)
+  geojson:
+    coordinates:
+    - 11.969178
+    - 51.484483
+    precision: exact
 ---
 Moritz Cahn, Halle a.S.

@@ -12,13 +12,14 @@ resources:
 tags:
   - "Material: Holz"
   - Schloss Holte
-doublesided: true
-address: Schloss Holte
-geojson:
-  coordinates:
-  - 8.6360
-  - 51.9027
-  precision: city
+params:
+  doublesided: true
+  address: Schloss Holte
+  geojson:
+    coordinates:
+    - 8.6360
+    - 51.9027
+    precision: city
 ---
 Reinigung
 C.H. Wehmeyer, Schloss Holte

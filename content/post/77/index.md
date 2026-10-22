@@ -13,13 +13,14 @@ tags:
 - Northeim
 - Bekleidungsgeschäft
 - "Material: Holz"
-address: Breite Str. 8-9, Northeim
-geojson:
-  coordinates:
-  - 10.000146
-  - 51.705353
-  precision: exact
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+params:
+  address: Breite Str. 8-9, Northeim
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  geojson:
+    coordinates:
+    - 10.000146
+    - 51.705353
+    precision: exact
 ---
 
 Damen-Moden W. Renneberg Northeim

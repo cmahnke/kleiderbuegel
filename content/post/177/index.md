@@ -13,7 +13,8 @@ tags:
 - "Material: Holz"
 - Reinigung
 - Testorp
-related:
-  - 67
+params:
+  related:
+    - 67
 ---
 Teppich-Reinigung qm DM 4,50 • TESTORP • Ruf 611661

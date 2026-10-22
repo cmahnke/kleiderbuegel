@@ -1,7 +1,8 @@
 ---
 title: Über diese Seite
-displayInList: false
-metaPage: true
+params:
+  displayInList: false
+  metaPage: true
 ---
 
 Dieses Blog bietet einen Blick auf alte [Kleiderbügel](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel) (derzeit {{< post-count section="post" type="hanger" >}}) und ist ein Teil des [Blaufußtölpels](https://xn--blaufusstlpel-qmb.de). Die abgebildeten Kleiderbügel sind verschlagwortet und werden ansonsten nicht kommentiert, auch die nicht, die vielleicht einer Distanzierung bedürften.

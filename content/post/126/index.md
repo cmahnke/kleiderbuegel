@@ -9,10 +9,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-doublesided: true
 tags:
   - "Material: Holz"
   - Reinigung
+params:
+  doublesided: true
 ---
 FÄRBEREI - CHEM. REINIGUNG SCHREINER
 Johannesstr. 9 Ruf 3721

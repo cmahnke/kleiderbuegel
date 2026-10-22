@@ -9,8 +9,9 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 tags:
   - "Material: Holz"
+params:
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 Hallo D.R.G.M.

@@ -13,13 +13,14 @@ tags:
 - "Material: Holz"
 - Peine
 - Bekleidungsgeschäft
-address: Schützenstraße 4, Peine
-geojson:
-  coordinates:
-  - 10.230992
-  - 52.320145
-  precision: exact
-remarks: |
-  * [Peiner Bekleidungsgeschäfte](https://www.paz-online.de/lokales/peine-lk/peine/peek-und-cloppenburg-in-den-1980er-jahren-in-peine-DWZVK5QYGIXHGJ77RPEULUYHOA.html)
+params:
+  address: Schützenstraße 4, Peine
+  remarks: |-
+    * [Peiner Bekleidungsgeschäfte](https://www.paz-online.de/lokales/peine-lk/peine/peek-und-cloppenburg-in-den-1980er-jahren-in-peine-DWZVK5QYGIXHGJ77RPEULUYHOA.html)
+  geojson:
+    coordinates:
+    - 10.230992
+    - 52.320145
+    precision: exact
 ---
 Korbmacher

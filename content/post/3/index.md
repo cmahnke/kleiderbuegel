@@ -12,12 +12,13 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
-address: Steinstrasse 10, Offenburg
-geojson:
-  coordinates:
-  - 7.944887
-  - 48.469156
-  precision: exact
+params:
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  address: Steinstrasse 10, Offenburg
+  geojson:
+    coordinates:
+    - 7.944887
+    - 48.469156
+    precision: exact
 ---
 August Boschert, Offenburg, Steinstrasse 10

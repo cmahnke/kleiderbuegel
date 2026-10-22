@@ -19,11 +19,12 @@ tags:
 - Bekleidungsgeschäft
 - Frankfurt
 - Beidseitig
-address: Zeil 111, Frankfurt/M.
-geojson:
-  coordinates:
-  - 8.681483
-  - 50.113965
-  precision: exact
+params:
+  address: Zeil 111, Frankfurt/M.
+  geojson:
+    coordinates:
+    - 8.681483
+    - 50.113965
+    precision: exact
 ---
 Spezialhaus für Vetrix - Kleidung Sauer Frankfurt/M., Zeil 111, Tel. 27794

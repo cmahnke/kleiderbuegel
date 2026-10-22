@@ -12,8 +12,9 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Plastik"
-remarks: |
-  * Sticker: Design Danielo Silverstein
-related:
-  - 124
+params:
+  remarks: |
+    * Sticker: Design Danielo Silverstein
+  related:
+    - 124
 ---

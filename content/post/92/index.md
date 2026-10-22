@@ -14,13 +14,14 @@ tags:
 - Bekleidungsgeschäft
 - Schönlanke
 - Trzcianka
-address: Trzcianka
-geojson:
-  coordinates:
-  - 16.4617
-  - 53.0419
-  precision: city
-remarks: |
-  * [Der Netzekreis in der Wikipedia](https://de.wikipedia.org/wiki/Netzekreis)
+params:
+  address: Trzcianka
+  remarks: |-
+    * [Der Netzekreis in der Wikipedia](https://de.wikipedia.org/wiki/Netzekreis)
+  geojson:
+    coordinates:
+    - 16.4617
+    - 53.0419
+    precision: city
 ---
 Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)

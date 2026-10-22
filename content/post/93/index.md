@@ -13,11 +13,12 @@ tags:
   - Bekleidungsgeschäft
   - Warburg
   - "Material: Holz"
-address: Warburg
-geojson:
-  coordinates:
-  - 9.1452
-  - 51.4899
-  precision: city
+params:
+  address: Warburg
+  geojson:
+    coordinates:
+    - 9.1452
+    - 51.4899
+    precision: city
 ---
 Konfektionshaus Fritz Becker Warburg i. W.

@@ -2,8 +2,10 @@
 date: 2021-07-25T12:47:44+02:00
 title: "-„formtreu“-Kleidung - veredelte Kleidung!"
 type: hanger
-iiif:
-  behavior: individuals
+params:
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  iiif:
+    behavior: individuals
 outputs:
 - html
 - iiif-manifest
@@ -21,7 +23,6 @@ tags:
 - C&A
 - "Material: Holz"
 - Beidseitig
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 
 C&A -„formtreu“-Kleidung - veredelte Kleidung! C&A

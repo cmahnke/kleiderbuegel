@@ -12,6 +12,7 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Plastik"
-remarks: |
-  Presumably designed by Jürgen Lange for the "Quadro" wardrobe by Schönbuch
+params:
+  remarks: |
+    Presumably designed by Jürgen Lange for the "Quadro" wardrobe by Schönbuch
 ---

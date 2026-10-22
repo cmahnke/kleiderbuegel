@@ -12,13 +12,14 @@ resources:
 tags:
   - Köln
   - "Material: Holz"
-address: Tunisstraße 3, Köln
-geojson:
-  coordinates:
-  - 6.952874
-  - 50.938626
-  precision: exact
-remarks: |
-  * [Geschichte des heutigen Unternehmens](https://kriesel-a-d-oper.de/content/78/59/wir-ueber-uns)
+params:
+  address: Tunisstraße 3, Köln
+  remarks: |-
+    * [Geschichte des heutigen Unternehmens](https://kriesel-a-d-oper.de/content/78/59/wir-ueber-uns)
+  geojson:
+    coordinates:
+    - 6.952874
+    - 50.938626
+    precision: exact
 ---
 Sangermann Köln

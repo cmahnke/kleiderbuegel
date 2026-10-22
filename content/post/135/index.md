@@ -12,7 +12,8 @@ resources:
 tags:
   - "Material: Holz"
   - Schneiderei
-related:
-  - 51
+params:
+  related:
+    - 51
 ---
 Peters Masskonfektion

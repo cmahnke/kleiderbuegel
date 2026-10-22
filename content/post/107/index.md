@@ -13,11 +13,12 @@ tags:
 - "Material: Holz"
 - Northeim
 - Bekleidungsgeschäft
-address: Northeim
-geojson:
-  coordinates:
-  - 9.9959
-  - 51.7002
-  precision: city
+params:
+  address: Northeim
+  geojson:
+    coordinates:
+    - 9.9959
+    - 51.7002
+    precision: city
 ---
 Northeimer Rekort- Bekleidung P. Haase und Söhne

@@ -13,7 +13,8 @@ tags:
 - "Material: Holz"
 - "Material: Metall"
 - Klammern
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+params:
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---
 „Klips“
 D.B.G.M.

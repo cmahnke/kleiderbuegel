@@ -9,12 +9,13 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-doublesided: true
 tags:
   - "Material: Plastik"
   - Werbung
-related:
-  - 64
+params:
+  doublesided: true
+  related:
+    - 64
 ---
 Star Boutique
 Manuela

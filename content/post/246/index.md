@@ -18,13 +18,14 @@ tags:
 - Heidenheim
 - Bekleidungsgeschäft
 - Beidseitig
-address: Christianstraße 2, Heidenheim an der Brenz
-geojson:
-  coordinates:
-  - 10.15236
-  - 48.67681
-  precision: street
-remarks: |
-  * [Heidenheimer Zeitung: Wie Heidenheim das Shoppen lernte](https://www.pressreader.com/germany/heidenheimer-zeitung/20230225/282699051320500)
+params:
+  address: Christianstraße 2, Heidenheim an der Brenz
+  remarks: |-
+    * [Heidenheimer Zeitung: Wie Heidenheim das Shoppen lernte](https://www.pressreader.com/germany/heidenheimer-zeitung/20230225/282699051320500)
+  geojson:
+    coordinates:
+    - 10.15236
+    - 48.67681
+    precision: street
 ---
 Die gute  HAUX  Kleidung

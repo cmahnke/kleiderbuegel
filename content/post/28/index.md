@@ -14,12 +14,13 @@ resources:
 outputs:
 - html
 - iiif-manifest
-address: Groner Str. 43-47, Göttingen
-geojson:
-  coordinates:
-  - 9.933146
-  - 51.532157
-  precision: exact
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+params:
+  address: Groner Str. 43-47, Göttingen
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+  geojson:
+    coordinates:
+    - 9.933146
+    - 51.532157
+    precision: exact
 ---
 Lagerbügel Karstadt, Göttingen

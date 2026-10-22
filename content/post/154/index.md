@@ -14,8 +14,9 @@ tags:
   - Union
   - Cloppenburg
   - Bekleidungsgeschäft
-related:
-  - 64
+params:
+  related:
+    - 64
 ---
 Cloppenburg
 Union-

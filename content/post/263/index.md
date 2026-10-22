@@ -14,6 +14,7 @@ tags:
 - "Material: Metall"
 - "Material: Plastik"
 - Klappbar
-remarks: | 
-  Vier Bügel in einem, können entweder horizontal oder vertikal in den Schrank gehängt werden.
+params:
+  remarks: | 
+    Vier Bügel in einem, können entweder horizontal oder vertikal in den Schrank gehängt werden.
 ---

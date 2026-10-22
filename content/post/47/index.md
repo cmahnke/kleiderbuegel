@@ -6,7 +6,6 @@ tags:
 - Brenninkmayer
 - C&A
 - "Material: Holz"
-doublesided: true
 type: hanger
 resources:
 - src: "front.png"
@@ -15,6 +14,8 @@ resources:
 outputs:
 - html
 - iiif-manifest
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+params:
+  doublesided: true
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---
 C & A Brenninkmayer

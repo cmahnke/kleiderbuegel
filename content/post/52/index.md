@@ -12,12 +12,13 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-address: Frankfurt am Main
-geojson:
-  coordinates:
-  - 8.6821
-  - 50.1109
-  precision: city
-source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
+params:
+  address: Frankfurt am Main
+  source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
+  geojson:
+    coordinates:
+    - 8.6821
+    - 50.1109
+    precision: city
 ---
 Gebr. Schwieger, Frankfurt a/M.

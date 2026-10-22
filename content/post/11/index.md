@@ -19,14 +19,15 @@ resources:
   params:
     iiif: back/info.json
     content: Die gute Herrenkleidung
-address: Groner Str. 43-47, Göttingen
-geojson:
-  coordinates:
-  - 9.933146
-  - 51.532157
-  precision: exact
-related:
-  - 172
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+params:
+  address: Groner Str. 43-47, Göttingen
+  related:
+    - 172
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  geojson:
+    coordinates:
+    - 9.933146
+    - 51.532157
+    precision: exact
 ---
 Karstadt Göttingen

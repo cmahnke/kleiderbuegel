@@ -14,15 +14,16 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-address: Kamienna Góra, Polen
-geojson:
-  coordinates:
-  - 16.0303
-  - 50.7831
-  precision: city
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
-remarks: |
-  * [Kreis Landeshut in Schlesien in der Wikipedia](https://de.wikipedia.org/wiki/Kreis_Landeshut_i._Schles.)
+params:
+  address: Kamienna Góra, Polen
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  remarks: |-
+    * [Kreis Landeshut in Schlesien in der Wikipedia](https://de.wikipedia.org/wiki/Kreis_Landeshut_i._Schles.)
+  geojson:
+    coordinates:
+    - 16.0303
+    - 50.7831
+    precision: city
 ---
 
 Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)

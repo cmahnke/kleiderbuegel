@@ -1,8 +1,9 @@
 ---
 title: Links
-displayInList: false
-metaPage: true
-hideMeta: true
+params:
+  hideMeta: true
+  displayInList: false
+  metaPage: true
 ---
 
 All Links in German.

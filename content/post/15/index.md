@@ -9,18 +9,19 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-address: Weender Straße 75, Göttingen
-geojson:
-  coordinates:
-  - 9.934185
-  - 51.536453
-  precision: exact
-remarks: |
-  * [Eintrag bei NorthData](https://www.northdata.de/Bekleidungshaus+Diekmann+Inh.+Werner+Sauerwald,+G%C3%B6ttingen/HRA+1296)
+params:
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  address: Weender Straße 75, Göttingen
+  remarks: |-
+    * [Eintrag bei NorthData](https://www.northdata.de/Bekleidungshaus+Diekmann+Inh.+Werner+Sauerwald,+G%C3%B6ttingen/HRA+1296)
+  geojson:
+    coordinates:
+    - 9.934185
+    - 51.536453
+    precision: exact
 ---
 Diekmann Göttingen

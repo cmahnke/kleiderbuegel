@@ -14,11 +14,12 @@ tags:
   - Bekleidungsgeschäft
   - "Material: Holz"
   - Ketelsen
-geojson:
-  coordinates:
-  - 8.578613
-  - 53.543288
-  precision: exact
-address: Bürgermeister-Smidt-Straße 42, Bremerhaven
+params:
+  address: Bürgermeister-Smidt-Straße 42, Bremerhaven
+  geojson:
+    coordinates:
+    - 8.578613
+    - 53.543288
+    precision: exact
 ---
 Ketelsen Bremerhaven-Bürger 42

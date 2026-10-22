@@ -13,14 +13,15 @@ tags:
   - "Material: Holz"
   - Bekleidungsgeschäft
   - Niebüll
-address: Hauptstraße 22, Niebüll
-geojson:
-  coordinates:
-  - 8.827224
-  - 54.788115
-  precision: exact
-remarks: |
-  * [Aktuelle Webseite](https://www.arthur-johannsen.de/)
+params:
+  address: Hauptstraße 22, Niebüll
+  remarks: |-
+    * [Aktuelle Webseite](https://www.arthur-johannsen.de/)
+  geojson:
+    coordinates:
+    - 8.827224
+    - 54.788115
+    precision: exact
 ---
 
 Arthur

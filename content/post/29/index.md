@@ -7,8 +7,12 @@ tags:
 - Beidseitig
 - Kinderbügel
 type: hanger
-iiif:
-  behavior: individuals
+params:
+  source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
+  remarks: |-
+    * [Sanostol in der Wikipedia](https://de.wikipedia.org/wiki/Sanostol)
+  iiif:
+    behavior: individuals
 resources:
 - src: "front.png"
   params:
@@ -29,11 +33,8 @@ resources:
 
       ... und nicht zuletzt mit reichlich Proben!
       multi-Sanostol schmeckt Kindern gut.
-source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
 outputs:
 - html
 - iiif-manifest
-remarks: |
-  * [Sanostol in der Wikipedia](https://de.wikipedia.org/wiki/Sanostol)
 ---
 multi - Sanostol

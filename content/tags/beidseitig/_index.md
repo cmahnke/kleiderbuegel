@@ -1,6 +1,6 @@
 ---
 title: Beidseitig bedruckt
-tag: Beidseitig
 params:
+  tag: Beidseitig
   type: other
 ---

@@ -13,13 +13,14 @@ tags:
   - Hannover
   - Bekleidungsgeschäft
   - "Material: Holz"
-address: Karmarschstraße 27, Hannover
-geojson:
-  coordinates:
-  - 9.737967
-  - 52.372709
-  precision: exact
-related:
-  - 85
+params:
+  address: Karmarschstraße 27, Hannover
+  related:
+    - 85
+  geojson:
+    coordinates:
+    - 9.737967
+    - 52.372709
+    precision: exact
 ---
 Mäntelhaus Kaiser

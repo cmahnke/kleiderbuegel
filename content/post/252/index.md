@@ -6,13 +6,14 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
-doubleSided: true
 resources:
 - src: "front.png"
   params:
     iiif: front/info.json
 tags:
 - "Material: Plastik"
+params:
+  doubleSided: true
 ---
 ties • Krawatten • cravates
 belts • Gürtel • ceintures

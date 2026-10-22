@@ -14,15 +14,16 @@ tags:
 - Kassel
 - Overmeyer
 - Bekleidungsgeschäft
-address: Königsplatz 38–40, Kassel
-geojson:
-  coordinates:
-  - 9.498939
-  - 51.315785
-  precision: exact
-donation: Karsten Heck
-related:
-  - 45
-  - 245
+params:
+  address: Königsplatz 38–40, Kassel
+  donation: Karsten Heck
+  related:
+    - 45
+    - 245
+  geojson:
+    coordinates:
+    - 9.498939
+    - 51.315785
+    precision: exact
 ---
 Overmeyer  KASSEL, am Königsplatz  Herren-u.Juniorenkleidung

@@ -14,8 +14,9 @@ tags:
 - "Material: Metall"
 - Klappbar
 - Haken
-related:
-  - 225
+params:
+  related:
+    - 225
 ---
 
 Ideal

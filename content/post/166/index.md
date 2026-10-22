@@ -13,14 +13,15 @@ tags:
 - "Material: Holz"
 - Trier
 - Bekleidungsgeschäft
-address: Simeonstr. 43, Trier
-geojson:
-  coordinates:
-  - 6.641942
-  - 49.757637
-  precision: exact
-remarks: |
-  * [Trierischer Volksfreund: Spezialisten für die Mode unter der Kleidung](https://www.volksfreund.de/region/trier-trierer-land/spezialisten-fuer-die-mode-unter-der-kleidung_aid-5547252)
+params:
+  address: Simeonstr. 43, Trier
+  remarks: |-
+    * [Trierischer Volksfreund: Spezialisten für die Mode unter der Kleidung](https://www.volksfreund.de/region/trier-trierer-land/spezialisten-fuer-die-mode-unter-der-kleidung_aid-5547252)
+  geojson:
+    coordinates:
+    - 6.641942
+    - 49.757637
+    precision: exact
 ---
 <i>[unleserlich]</i>
 Hubertus

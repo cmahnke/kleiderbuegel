@@ -13,12 +13,13 @@ tags:
 - "Material: Holz"
 - Versandhandel
 - Hamburg
-geojson:
-  coordinates:
-  - 10.071455
-  - 53.601010 
-  precision: exact
-address: Werner-Otto-Straße 1-7, 22179 Hamburg
+params:
+  address: Werner-Otto-Straße 1-7, 22179 Hamburg
+  geojson:
+    coordinates:
+    - 10.071455
+    - 53.601010 
+    precision: exact
 ---
 
 Otto-Versand, Hamburg

@@ -1,8 +1,9 @@
 ---
 title: "Slider"
-metaPage: true
-displayinlist: false
-hideMeta: true
+params:
+  hideMeta: true
+  metaPage: true
+  displayinlist: false
 ---
 
 {{< slider >}}

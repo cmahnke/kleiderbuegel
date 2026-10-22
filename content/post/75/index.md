@@ -13,15 +13,16 @@ tags:
 - Berlin
 - Theater
 - "Material: Holz"
-address: Eisenzahnstraße 43-44, Berlin
-geojson:
-  coordinates:
-  - 13.305113
-  - 52.491295
-  precision: exact
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
-remarks: |
-  * [Theaterkunst GmbH in der Wikipedia](https://de.wikipedia.org/wiki/Theaterkunst)
+params:
+  address: Eisenzahnstraße 43-44, Berlin
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  remarks: |-
+    * [Theaterkunst GmbH in der Wikipedia](https://de.wikipedia.org/wiki/Theaterkunst)
+  geojson:
+    coordinates:
+    - 13.305113
+    - 52.491295
+    precision: exact
 ---
 
 Theaterkunst GMBH.

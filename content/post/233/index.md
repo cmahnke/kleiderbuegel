@@ -13,12 +13,13 @@ tags:
 - "Material: Holz"
 - Göttingen
 - Bekleidungsgeschäft
-address: Göttingen
-geojson:
-  coordinates:
-  - 9.9158
-  - 51.5413
-  precision: city
+params:
+  address: Göttingen
+  geojson:
+    coordinates:
+    - 9.9158
+    - 51.5413
+    precision: city
 ---
 W. Semmler, Göttingen
 Herren-u.Damenbekleidung

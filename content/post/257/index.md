@@ -13,16 +13,17 @@ tags:
 - "Material: Holz"
 - Heide
 - Bekleidungsgeschäft
-related:
-  - 142
-address: Friedrichstraße 9-13, Heide
-geojson:
-  coordinates:
-  - 9.095635
-  - 54.194716
-  precision: exact
-remarks: |
-  <a href="https://ansichtskarten-lexikon.de/ak-221752.html">Ansichtskarte</a>
+params:
+  related:
+    - 142
+  address: Friedrichstraße 9-13, Heide
+  remarks: |-
+    <a href="https://ansichtskarten-lexikon.de/ak-221752.html">Ansichtskarte</a>
+  geojson:
+    coordinates:
+    - 9.095635
+    - 54.194716
+    precision: exact
 ---
 
 Herrenspezialhaus <i>[Logo]</i> Arthur Wittke, Heide i. Holst.

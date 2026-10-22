@@ -13,15 +13,16 @@ tags:
 - Bad Nauheim
 - Klinik
 - "Material: Holz"
-address: Zanderstraße 30-32, Bad Nauheim
-geojson:
-  coordinates:
-  - 8.744969
-  - 50.359036
-  precision: exact
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
-remarks: |
-  * [Klinik Wetterau der BfA](https://wetterau.deutsche-rentenversicherung-reha-zentren.de/)
+params:
+  address: Zanderstraße 30-32, Bad Nauheim
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  remarks: |-
+    * [Klinik Wetterau der BfA](https://wetterau.deutsche-rentenversicherung-reha-zentren.de/)
+  geojson:
+    coordinates:
+    - 8.744969
+    - 50.359036
+    precision: exact
 ---
 
 Klinik Wetterau der BfA

@@ -9,14 +9,15 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-doublesided: true
 tags:
 - Werbung
 - "Material: Plastik"
-remarks: |
-  * [Manuela in der Wikipedia](https://de.wikipedia.org/wiki/Manuela_(S%C3%A4ngerin))
-related:
-  - 147
+params:
+  doublesided: true
+  remarks: |
+    * [Manuela in der Wikipedia](https://de.wikipedia.org/wiki/Manuela_(S%C3%A4ngerin))
+  related:
+    - 147
 ---
 
 STAR

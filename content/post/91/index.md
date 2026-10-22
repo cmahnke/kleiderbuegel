@@ -13,13 +13,14 @@ tags:
   - Uslar
   - Bekleidungsgeschäft
   - "Material: Holz"
-address: Kurze Str. 12, Uslar
-geojson:
-  coordinates:
-  - 9.635517
-  - 51.660711
-  precision: exact
-remarks: |
-  * [Heutige Webseite](https://www.modehaus-schefft.de/)
+params:
+  address: Kurze Str. 12, Uslar
+  remarks: |-
+    * [Heutige Webseite](https://www.modehaus-schefft.de/)
+  geojson:
+    coordinates:
+    - 9.635517
+    - 51.660711
+    precision: exact
 ---
 Friedrich Schefft OHG., Textilwaren Uslar

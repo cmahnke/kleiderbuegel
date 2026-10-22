@@ -15,10 +15,11 @@ tags:
 - "Material: Metall"
 - Klappbar
 - Haken
-related:
-  - 209
-remarks: |
-  Siehe Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, S. 135
+params:
+  related:
+    - 209
+  remarks: |
+    Siehe Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, S. 135
 ---
 Union
 D.R.W.Z.  D.R.W.Z.

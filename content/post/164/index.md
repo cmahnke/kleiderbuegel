@@ -11,13 +11,14 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
-doublesided: true
 draft: true
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
-remarks: |
-  Über den Gau XVII Niedersachsen-Mitte
-  * [Reichsarbeitsdienst](https://de.wikipedia.org/wiki/Reichsarbeitsdienst)
-  * [Dokumente zum Reichsarbeitsdienst im Bundesarchiv](https://www.bundesarchiv.de/DE/Content/Virtuelle-Ausstellungen/Vom-Braunen-In-Den-Grauen-Rock-Der-Reichsarbeitsdienst/vom-braunen-in-den-grauen-rock-der-reichsarbeitsdienst.html)
+params:
+  doublesided: true
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  remarks: |
+    Über den Gau XVII Niedersachsen-Mitte
+    * [Reichsarbeitsdienst](https://de.wikipedia.org/wiki/Reichsarbeitsdienst)
+    * [Dokumente zum Reichsarbeitsdienst im Bundesarchiv](https://www.bundesarchiv.de/DE/Content/Virtuelle-Ausstellungen/Vom-Braunen-In-Den-Grauen-Rock-Der-Reichsarbeitsdienst/vom-braunen-in-den-grauen-rock-der-reichsarbeitsdienst.html)
 ---
 
 RAD. - Gau XVII 4 39

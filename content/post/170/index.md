@@ -13,16 +13,17 @@ tags:
 - "Material: Holz"
 - Hannover
 - Bekleidungsgeschäft
-address: Große Packhofstraße 1, Hannover
-geojson:
-  coordinates:
-  - 9.737011
-  - 52.373109
-  precision: exact
-remarks: |
-  * [Wikipedia Eintrag](https://de.wikipedia.org/wiki/Bekleidungshaus_Otto_Werner)
-  * [Kleiderbügel in Wikipedia Commons](https://commons.wikimedia.org/wiki/File:B%C3%BCgel_Otto_Werner_zieht_Sie_richtig_an,_mit_Firmen-Emblem_W.jpg)
-  * Nicht zu verwechseln mit [Werner Otto](https://de.wikipedia.org/wiki/Werner_Otto_(Unternehmer))
+params:
+  address: Große Packhofstraße 1, Hannover
+  remarks: |-
+    * [Wikipedia Eintrag](https://de.wikipedia.org/wiki/Bekleidungshaus_Otto_Werner)
+    * [Kleiderbügel in Wikipedia Commons](https://commons.wikimedia.org/wiki/File:B%C3%BCgel_Otto_Werner_zieht_Sie_richtig_an,_mit_Firmen-Emblem_W.jpg)
+    * Nicht zu verwechseln mit [Werner Otto](https://de.wikipedia.org/wiki/Werner_Otto_(Unternehmer))
+  geojson:
+    coordinates:
+    - 9.737011
+    - 52.373109
+    precision: exact
 ---
 Otto Werner
 Zieht Sie richtig an!

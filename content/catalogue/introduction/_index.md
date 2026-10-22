@@ -3,9 +3,9 @@ title: Einführung
 layout: print
 weight: 6
 params:
+  notes:
   print: true
   show_title: true
-notes:
 ---
 
 Die Wikipedia definiert [Kleiderbügel](https://de.wikipedia.org/wiki/Kleiderb%C3%BCgel "Wikipedia-Artikel über Kleiderbügel") als "Haushaltsgeräte, die zum Aufhängen von Kleidungsstücken in Schränken oder in Garderoben dienen". Sie dienen primär der Lagerung, dem Transport oder der Präsentation von Kleidung.

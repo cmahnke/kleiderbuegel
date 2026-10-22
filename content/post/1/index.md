@@ -5,13 +5,15 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
-address: Friedrichstraße 1, Göttingen
-geojson:
-  coordinates:
-  - 9.939238
-  - 51.534399
-  precision: exact
-notes: "Nicht geprüft: In Göttinger Adressbüchern der 1950er–1970er Jahre als eigenständiges Bekleidungsgeschäft geführt."
+params:
+  address: Friedrichstraße 1, Göttingen
+  notes: "Nicht geprüft: In Göttinger Adressbüchern der 1950er–1970er Jahre als eigenständiges Bekleidungsgeschäft geführt."
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  geojson:
+    coordinates:
+    - 9.939238
+    - 51.534399
+    precision: exact
 resources:
 - src: "front.png"
   params:
@@ -21,6 +23,5 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - Haken
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 ---
 Bekleidungshaus Junge, Gegenüber Hauptpostamt Göttingen

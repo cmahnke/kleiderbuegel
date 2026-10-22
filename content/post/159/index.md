@@ -12,8 +12,9 @@ resources:
 tags:
   - "Material: Holz"
   - Werbung
-remarks: |
-  [Camel in der Wikipedia](https://de.wikipedia.org/wiki/Camel_(Zigarettenmarke))
+params:
+  remarks: |
+    [Camel in der Wikipedia](https://de.wikipedia.org/wiki/Camel_(Zigarettenmarke))
 ---
 
 <i>Nur das [Camel Logo]</i>

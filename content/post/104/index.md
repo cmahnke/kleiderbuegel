@@ -9,17 +9,18 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-doublesided: true
 tags:
 - "Material: Holz"
 - Braunschweig
 - Bekleidungsgeschäft
-address: Damm 1, Braunschweig
-geojson:
-  coordinates:
-  - 10.521782
-  - 52.262392
-  precision: exact
+params:
+  doublesided: true
+  address: Damm 1, Braunschweig
+  geojson:
+    coordinates:
+    - 10.521782
+    - 52.262392
+    precision: exact
 ---
 Braunschweig
 Poplau & Co.

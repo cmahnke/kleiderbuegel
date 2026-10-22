@@ -7,8 +7,21 @@ tags:
 - "Material: Holz"
 - Beidseitig
 type: hanger
-iiif:
-  behavior: individuals
+params:
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+  address: Bundesallee 104, Berlin
+  remarks: |-
+    * [Der Gründer in der Wikipedia](https://de.wikipedia.org/wiki/Willi_Ebbinghaus)
+    * [Tagesspiegel: Aus für Ebbinghaus](https://www.tagesspiegel.de/berlin/aus-fur-ebbinghaus-6702082.html)
+    * [Gebäude von Hans Schaefers](https://germanpostwarmodern.tumblr.com/post/183043684215/clothing-store-ebbinghaus-1962-in-berlin)
+    * [Das Gebäude ind der Berliner Denkmaldatenbank](https://denkmaldatenbank.berlin.de/daobj.php?obj_dok_nr=09066180)
+  iiif:
+    behavior: individuals
+  geojson:
+    coordinates:
+    - 13.328646
+    - 52.465640
+    precision: exact
 outputs:
 - html
 - iiif-manifest
@@ -20,18 +33,6 @@ resources:
   params:
     iiif: back/info.json
     content: Berlin hat es längst heraus . . . .
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
-address: Bundesallee 104, Berlin
-geojson:
-  coordinates:
-  - 13.328646
-  - 52.465640
-  precision: exact
-remarks: |
-  * [Der Gründer in der Wikipedia](https://de.wikipedia.org/wiki/Willi_Ebbinghaus)
-  * [Tagesspiegel: Aus für Ebbinghaus](https://www.tagesspiegel.de/berlin/aus-fur-ebbinghaus-6702082.html)
-  * [Gebäude von Hans Schaefers](https://germanpostwarmodern.tumblr.com/post/183043684215/clothing-store-ebbinghaus-1962-in-berlin)
-  * [Das Gebäude ind der Berliner Denkmaldatenbank](https://denkmaldatenbank.berlin.de/daobj.php?obj_dok_nr=09066180)
 ---
 
 Für gute Kleidung Ebbinghaus

@@ -19,12 +19,13 @@ tags:
 - Bekleidungsgeschäft
 - Beidseitig
 - Höhr-Grenzhausen
-address: Höhr-Grenzhausen
-geojson:
-  coordinates:
-  - 7.6578
-  - 50.4510
-  precision: city
+params:
+  address: Höhr-Grenzhausen
+  geojson:
+    coordinates:
+    - 7.6578
+    - 50.4510
+    precision: city
 ---
 
 Bleyle  Emil Velde, Höhr - Grenzhausen  Bleyle

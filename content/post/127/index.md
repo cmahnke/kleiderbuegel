@@ -14,15 +14,16 @@ tags:
   - Cuxhaven
   - Bekleidungsgeschäft
   - "Möller & Schade"
-address: Westerwischweg 15, Cuxhaven
-geojson:
-  coordinates:
-  - 8.692981
-  - 53.858865
-  precision: exact
-related:
-  - 216
-  - 226
+params:
+  address: Westerwischweg 15, Cuxhaven
+  related:
+    - 216
+    - 226
+  geojson:
+    coordinates:
+    - 8.692981
+    - 53.858865
+    precision: exact
 ---
 Möller & Schade
 Das Haus der guten Kleidung

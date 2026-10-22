@@ -13,14 +13,15 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
-address: Göttingen
-geojson:
-  coordinates:
-  - 9.9158
-  - 51.5413
-  precision: city
-related:
-  - 160
+params:
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+  address: Göttingen
+  related:
+    - 160
+  geojson:
+    coordinates:
+    - 9.9158
+    - 51.5413
+    precision: city
 ---
 Wäscherei MEYER Göttingen Ruf 58398

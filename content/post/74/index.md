@@ -13,15 +13,16 @@ tags:
 - Braunschweig
 - Bekleidungsgeschäft
 - "Material: Holz"
-address: Bohlweg 62/63, Braunschweig
-geojson:
-  coordinates:
-  - 10.5268
-  - 52.2689
-  precision: city
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
-remarks: |
-  * [Erwähnung der Eröffnung in der Stadtchronik Braunschweig](https://www.braunschweig.de/leben/stadtportraet/geschichte/stadtchronik.php?id4=1958&seite=8)
+params:
+  address: Bohlweg 62/63, Braunschweig
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  remarks: |-
+    * [Erwähnung der Eröffnung in der Stadtchronik Braunschweig](https://www.braunschweig.de/leben/stadtportraet/geschichte/stadtchronik.php?id4=1958&seite=8)
+  geojson:
+    coordinates:
+    - 10.5268
+    - 52.2689
+    precision: city
 ---
 
 Bekleidungshaus Manschott Haus der 5000 Hosen

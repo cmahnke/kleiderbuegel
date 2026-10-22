@@ -13,12 +13,13 @@ tags:
 - "Material: Holz"
 - Delmenhorst
 - Bekleidungsgeschäft
-address: Delmenhorst
-geojson:
-  coordinates:
-  - 8.6356
-  - 53.0522
-  precision: city
+params:
+  address: Delmenhorst
+  geojson:
+    coordinates:
+    - 8.6356
+    - 53.0522
+    precision: city
 ---
 30 Jahre
 Herren- und Damenbekleidung

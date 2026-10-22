@@ -13,14 +13,15 @@ tags:
 - "Material: Holz"
 - Norden
 - Warenhaus
-address: Neuer Weg 30-32 A, Norden
-geojson:
-  coordinates:
-  - 7.210507
-  - 53.593998
-  precision: exact
-remarks: |
-  * [Nordener Stadtgeschichte](https://www.norder-stadtgeschichte.de/Haus_Damm)
+params:
+  address: Neuer Weg 30-32 A, Norden
+  remarks: |-
+    * [Nordener Stadtgeschichte](https://www.norder-stadtgeschichte.de/Haus_Damm)
+  geojson:
+    coordinates:
+    - 7.210507
+    - 53.593998
+    precision: exact
 ---
 
 T.F. Damm, Norden

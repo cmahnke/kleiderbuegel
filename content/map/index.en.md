@@ -1,8 +1,9 @@
 ---
 title: "Map view"
-metaPage: true
-displayinlist: false
-hideMeta: true
+params:
+  hideMeta: true
+  metaPage: true
+  displayinlist: false
 ---
 
 This page displays the entries with (reconstructed) geo-information on a map. The map uses the external service [OpenStreetmap](https://www.openstreetmap.org/), so you have to consent to its use.

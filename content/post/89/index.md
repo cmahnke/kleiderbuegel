@@ -13,12 +13,13 @@ tags:
 - "Material: Holz"
 - Hotel
 - Grömitz
-geojson:
-  coordinates:
-  - 10.964317
-  - 54.150283
-  precision: exact
-address: Wiesengrund 12-14, Grömitz
+params:
+  address: Wiesengrund 12-14, Grömitz
+  geojson:
+    coordinates:
+    - 10.964317
+    - 54.150283
+    precision: exact
 ---
 
 Hotel Ruhwinkel

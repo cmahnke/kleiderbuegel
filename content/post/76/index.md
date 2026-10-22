@@ -13,13 +13,14 @@ tags:
 - Hildesheim
 - Reinigung
 - "Material: Holz"
-address: Hildesheim
-geojson:
-  coordinates:
-  - 9.9511
-  - 52.1507
-  precision: city
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+params:
+  address: Hildesheim
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  geojson:
+    coordinates:
+    - 9.9511
+    - 52.1507
+    precision: city
 ---
 
 perfekte Schnellreinigung W. Freitag Hildesheim Tel. 6782

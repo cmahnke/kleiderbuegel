@@ -9,16 +9,17 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-doublesided: true
 tags:
   - "Material: Holz"
   - Färberei
   - Osnabrück
-address: Osnabrück
-geojson:
-  coordinates:
-  - 8.0472
-  - 52.2799
-  precision: city
+params:
+  doublesided: true
+  address: Osnabrück
+  geojson:
+    coordinates:
+    - 8.0472
+    - 52.2799
+    precision: city
 ---
 Färberei Croon Osnabrück

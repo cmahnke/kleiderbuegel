@@ -5,8 +5,16 @@ type: hanger
 outputs:
 - html
 - iiif-manifest
-iiif:
-  behavior: individuals
+params:
+  address: Zindelstr. 6, Göttingen
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+  iiif:
+    behavior: individuals
+  geojson:
+    coordinates:
+    - 9.934293
+    - 51.532329 
+    precision: exact
 resources:
 - src: "front.png"
   params:
@@ -20,12 +28,5 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - Beidseitig
-address: Zindelstr. 6, Göttingen
-geojson:
-  coordinates:
-  - 9.934293
-  - 51.532329 
-  precision: exact
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
 ---
 Ernst Fricke Inh. Aug. Albrecht Göttingen Zindelstr. 6

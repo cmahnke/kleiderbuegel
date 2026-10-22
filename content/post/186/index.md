@@ -13,14 +13,15 @@ tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Schleswig
-address: Stadtweg 31, Schleswig
-geojson:
-  coordinates:
-  - 9.563291
-  - 54.516427 
-  precision: exact
-remarks: |
-  * [Artikel im "Nordschleswiger", dort ist auch die alte Adresse (Stadtweg 31) enthalten](https://www.nordschleswiger.dk/de/deutschland-wirtschaft-gesellschaft-suedschleswig/id-sievers-erweitert-seine-verkaufsflaeche)
+params:
+  address: Stadtweg 31, Schleswig
+  remarks: |-
+    * [Artikel im "Nordschleswiger", dort ist auch die alte Adresse (Stadtweg 31) enthalten](https://www.nordschleswiger.dk/de/deutschland-wirtschaft-gesellschaft-suedschleswig/id-sievers-erweitert-seine-verkaufsflaeche)
+  geojson:
+    coordinates:
+    - 9.563291
+    - 54.516427 
+    precision: exact
 ---
 Ihr Kleiderberater
 J. Clausen

@@ -11,7 +11,8 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
-remarks: |
-  Siehe Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, S. 54
+params:
+  remarks: |
+    Siehe Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, S. 54
 ---
 D.R.W.Z „FOX” D.R.W.Z

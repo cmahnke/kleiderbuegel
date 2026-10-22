@@ -13,14 +13,15 @@ tags:
 - "Material: Holz"
 - Speyer
 - Bekleidungsgeschäft
-address: Maximilianstr. 15, Speyer
-remarks: |
-  * [Aktuelle Homepage](https://schmitt-mode.de/)
-geojson:
-  precision: exact
-  coordinates:
-    - 8.4378432
-    - 49.317219 
+params:
+  address: Maximilianstr. 15, Speyer
+  remarks: |
+    * [Aktuelle Homepage](https://schmitt-mode.de/)
+  geojson:
+    precision: exact
+    coordinates:
+      - 8.4378432
+      - 49.317219 
 ---
 
 Schmitt-Kleidung Speyer-Neustadt

@@ -9,12 +9,13 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-doublesided: true
 tags:
 - Werbung
 - "Material: Plastik"
-remarks: |
-  * [Twiggy in der Wikipedia](https://de.wikipedia.org/wiki/Twiggy)
+params:
+  doublesided: true
+  remarks: |
+    * [Twiggy in der Wikipedia](https://de.wikipedia.org/wiki/Twiggy)
 ---
 Twiggy
 London Girl

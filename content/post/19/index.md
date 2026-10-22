@@ -1,8 +1,10 @@
 ---
 date: 2020-10-31T19:09:44+02:00
 title: "Nur bei Karstadt"
-iiif:
-  behavior: individuals
+params:
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  iiif:
+    behavior: individuals
 tags:
 - Karstadt
 - Warenhaus
@@ -17,7 +19,6 @@ resources:
   params:
     iiif: back/info.json
     content: Die Kleidung mit allen guten Eigenschaften
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
 outputs:
 - html
 - iiif-manifest

@@ -9,10 +9,11 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-doublesided: true
 tags:
 - "Material: Holz"
 - Bekleidungsgeschäft
 - Hettlage
+params:
+  doublesided: true
 ---
 hettlage

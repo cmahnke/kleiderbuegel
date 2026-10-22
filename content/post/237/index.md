@@ -12,8 +12,9 @@ resources:
 tags:
 - "Material: Holz"
 - Warenhaus
-remarks: |
-  * [Deutsches Familienkaufhaus in der Wikipedia](https://de.wikipedia.org/wiki/DeFaKa)
+params:
+  remarks: |
+    * [Deutsches Familienkaufhaus in der Wikipedia](https://de.wikipedia.org/wiki/DeFaKa)
 ---
 DEFAKA
 Deutsches Familienkaufhaus

@@ -14,13 +14,14 @@ tags:
 - Braunschweig
 - Bekleidungsgeschäft
 - Flebbe
-address: Bohlweg 1, Braunschweig
-geojson:
-  coordinates:
-  - 10.525400
-  - 52.262404
-  precision: exact
-related:
-  - 156
+params:
+  address: Bohlweg 1, Braunschweig
+  related:
+    - 156
+  geojson:
+    coordinates:
+    - 10.525400
+    - 52.262404
+    precision: exact
 ---
 flebbe

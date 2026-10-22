@@ -11,9 +11,10 @@ resources:
     iiif: front/info.json
 tags:
   - "Material: Holz"
-remarks: |
-  * Leider nicht vollständig lesbar, aber wohl aus Frankreich
-  * "Modèle déposé" bedeutet gesetzlich geschützt, vergleichbar mi einem Gebrauchsmuster in Deutschland
+params:
+  remarks: |
+    * Leider nicht vollständig lesbar, aber wohl aus Frankreich
+    * "Modèle déposé" bedeutet gesetzlich geschützt, vergleichbar mi einem Gebrauchsmuster in Deutschland
 ---
 CINTRES
 <i>[B]</i>EHLEB

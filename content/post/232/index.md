@@ -19,12 +19,13 @@ tags:
 - Göttingen
 - Beidseitig
 - Klammern
-address: Johannisstraße 27, Göttingen
-geojson:
-  coordinates:
-  - 9.932335
-  - 51.532922
-  precision: exact
+params:
+  address: Johannisstraße 27, Göttingen
+  geojson:
+    coordinates:
+    - 9.932335
+    - 51.532922
+    precision: exact
 ---
 
 DAMEN & HERREN • ATELIER FRIEDR. KINTSCHER

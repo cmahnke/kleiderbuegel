@@ -13,13 +13,14 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-address: Northeim
-geojson:
-  coordinates:
-  - 9.9959
-  - 51.7002
-  precision: city
-source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+params:
+  address: Northeim
+  source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+  geojson:
+    coordinates:
+    - 9.9959
+    - 51.7002
+    precision: city
 ---
 Northeim
 Hasse & Söhne Hosen u. Berufsbekleidung

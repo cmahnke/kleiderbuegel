@@ -14,14 +14,15 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - C. Louis Weber
-address: Große Packhofstr. 30, Hannover
-geojson:
-  coordinates:
-  - 9.737287
-  - 52.374366
-  precision: exact
-related:
-  - 65
-  - 215
+params:
+  address: Große Packhofstr. 30, Hannover
+  related:
+    - 65
+    - 215
+  geojson:
+    coordinates:
+    - 9.737287
+    - 52.374366
+    precision: exact
 ---
 Bekleidung C. Louis Weber Hannover Pelze

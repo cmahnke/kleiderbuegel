@@ -22,18 +22,19 @@ tags:
 - Bekleidungsgeschäft
 - Beidseitig
 - Karstadt
-address: Księdza Kardynała Stefana Wyszyńskiego 30, Szczecin, Polen
-#address: Breite Straße 23–28, Stettin
-geojson:
-  coordinates:
-  - 14.555894
-  - 53.423831
-  precision: exact
-related:
-  - 11
-remarks: |
-  * [Warenhaus Rudolph Karstadt (Stettin) in der Wikipedia](https://de.wikipedia.org/wiki/Warenhaus_Rudolph_Karstadt_(Stettin))
-  * Getauscht mit Holger-Philipp Bergt gegen den [Bügel Karstadt Göttingen (#11)](/post/11)
+params:
+  address: Księdza Kardynała Stefana Wyszyńskiego 30, Szczecin, Polen
+  related:
+    - 11
+  remarks: |-
+    * [Warenhaus Rudolph Karstadt (Stettin) in der Wikipedia](https://de.wikipedia.org/wiki/Warenhaus_Rudolph_Karstadt_(Stettin))
+    * Getauscht mit Holger-Philipp Bergt gegen den [Bügel Karstadt Göttingen (#11)](/post/11)
+  #address: Breite Straße 23–28, Stettin
+  geojson:
+    coordinates:
+    - 14.555894
+    - 53.423831
+    precision: exact
 ---
 Karstadt
 Stettin Breitestraße.

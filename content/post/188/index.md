@@ -22,9 +22,10 @@ tags:
 - "Union Globus"
 - Beidseitig
 - Erdmann
-related:
-  - 121
-  - 149
+params:
+  related:
+    - 121
+    - 149
 ---
 Hanover  Erdmann  Peine
          Kleidung

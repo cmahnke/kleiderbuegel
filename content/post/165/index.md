@@ -13,15 +13,16 @@ tags:
 - "Material: Holz"
 - Hamburg
 - Bekleidungsgeschäft
-doublesided: true
-address: Mundsburger Damm 4, Hamburg
-geojson:
-  coordinates:
-  - 10.018191
-  - 53.564269
-  precision: exact
-remarks: |
-  [Aktuelle Webseite](https://www.eggerthamburg.com/)
+params:
+  doublesided: true
+  address: Mundsburger Damm 4, Hamburg
+  remarks: |-
+    [Aktuelle Webseite](https://www.eggerthamburg.com/)
+  geojson:
+    coordinates:
+    - 10.018191
+    - 53.564269
+    precision: exact
 ---
 
 Mundsburger Damm 4 22007 Hamburg

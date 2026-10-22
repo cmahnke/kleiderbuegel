@@ -22,13 +22,14 @@ tags:
 - C&A
 - Repariert
 - Beidseitig
-address: Am Brill 8-12, Bremen
-geojson:
-  coordinates:
-  - 8.799752
-  - 53.078938 
-  precision: exact
-remarks: |
-  * Dieser Kleiderbügel wurde repariert
+params:
+  address: Am Brill 8-12, Bremen
+  remarks: |-
+    * Dieser Kleiderbügel wurde repariert
+  geojson:
+    coordinates:
+    - 8.799752
+    - 53.078938 
+    precision: exact
 ---
 C. & A. Brenninkmeyer, Bremen, Am Brill 8-12.

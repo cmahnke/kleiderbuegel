@@ -12,6 +12,7 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
-remarks: |
-  Der Holzstab unten kann hinter den Metallsteg geklemmt werden.
+params:
+  remarks: |
+    Der Holzstab unten kann hinter den Metallsteg geklemmt werden.
 ---

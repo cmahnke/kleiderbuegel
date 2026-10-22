@@ -1,10 +1,11 @@
 ---
 title: "iFrames"
-metaPage: true
-displayinlist: false
-archive: false
-news: false
-sectionContent: false
+params:
+  metaPage: true
+  displayinlist: false
+  archive: false
+  news: false
+  sectionContent: false
 layout: iframes-list
 sitemap:
   disable: true

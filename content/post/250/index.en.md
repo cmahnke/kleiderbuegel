@@ -18,7 +18,8 @@ tags:
 - "Material: Holz"
 - Beidseitig
 - Kleiderbürste
-donation: Karsten Heck
-remarks: |
-  * See Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, p. 184
+params:
+  donation: Karsten Heck
+  remarks: |
+    * See Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, p. 184
 ---

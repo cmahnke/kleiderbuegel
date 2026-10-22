@@ -13,14 +13,15 @@ tags:
 - "Material: Holz"
 - Celle
 - Bekleidungsgeschäft
-address: Westcellertorstr. 16-17, Celle
-geojson:
-  coordinates:
-  - 10.079931
-  - 52.622401
-  precision: exact
-remarks: |
-  * [Cellesche Zeitung: Diese Celler Läden gibt es nicht mehr](https://www.cz.de/lokales/celle-lk/celle/diese-celler-laeden-gibt-es-nicht-mehr-D3A7EACFC4EA5A76A65DBC3BAA.html)
+params:
+  address: Westcellertorstr. 16-17, Celle
+  remarks: |-
+    * [Cellesche Zeitung: Diese Celler Läden gibt es nicht mehr](https://www.cz.de/lokales/celle-lk/celle/diese-celler-laeden-gibt-es-nicht-mehr-D3A7EACFC4EA5A76A65DBC3BAA.html)
+  geojson:
+    coordinates:
+    - 10.079931
+    - 52.622401
+    precision: exact
 ---
 WARG
 Herrenkleidung

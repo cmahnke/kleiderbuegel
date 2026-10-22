@@ -13,16 +13,17 @@ tags:
 - "Material: Holz"
 - München
 - Bekleidungsgeschäft
-doublesided: true
-address: Marienplatz 11, München
-geojson:
-  coordinates:
-  - 11.576740
-  - 48.137144
-  precision: exact
-remarks: |
-  * [Ludwig Beck am Rathauseck in der Wikipedia](https://de.wikipedia.org/wiki/Ludwig_Beck_am_Rathauseck)
-  * [Heutige Webseite](https://www.ludwigbeck.de/)
+params:
+  doublesided: true
+  address: Marienplatz 11, München
+  remarks: |-
+    * [Ludwig Beck am Rathauseck in der Wikipedia](https://de.wikipedia.org/wiki/Ludwig_Beck_am_Rathauseck)
+    * [Heutige Webseite](https://www.ludwigbeck.de/)
+  geojson:
+    coordinates:
+    - 11.576740
+    - 48.137144
+    precision: exact
 ---
 Ludwig
 Beck

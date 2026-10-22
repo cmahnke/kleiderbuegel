@@ -12,11 +12,12 @@ resources:
 tags:
 - Bremerhaven
 - "Material: Holz"
-geojson:
-  coordinates:
-  - 8.582789
-  - 53.565860
-  precision: exact
-address: Jahnstr. 48, Bremerhaven
+params:
+  address: Jahnstr. 48, Bremerhaven
+  geojson:
+    coordinates:
+    - 8.582789
+    - 53.565860
+    precision: exact
 ---
 Arnold Hecht Bremerhaven-L. Jahnstr. 48
