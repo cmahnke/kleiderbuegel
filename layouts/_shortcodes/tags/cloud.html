@@ -6,7 +6,7 @@
 {{- $pages = where $pages "Params.type" "eq" "hanger" -}}
 {{- $pages = where $pages "Section" "in" "post" -}}
 
-{{- $lang := .Page.Language.Lang -}}
+{{- $lang := .Page.Language.Name -}}
 {{- $pages = where $pages "Params.displayinlist" "!=" false -}}
 {{- $debug := partialCached "functions/debug/enabled.html" . -}}
 

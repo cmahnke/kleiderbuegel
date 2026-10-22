@@ -60,7 +60,7 @@
     {{- end -}}
   {{- end -}}
 
-  {{- $link := index (where $wikiLinks "lang" "eq" $page.Language.Lang) 0 -}}
+  {{- $link := index (where $wikiLinks "lang" "eq" $page.Language.Name) 0 -}}
   {{- with (index $link "url") -}}
     {{- $link = index $link "url" -}}
   {{- else -}}
