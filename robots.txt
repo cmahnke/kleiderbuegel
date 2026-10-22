@@ -1,0 +1,15 @@
+User-agent: *
+
+Disallow: /privacy/
+
+
+Disallow: /*.bib$
+
+Disallow: /*.json$
+
+Disallow: /*.xml$
+
+Sitemap: https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/sitemap.xml
+
+
+llms-txt: https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/llms.txt
