@@ -10,6 +10,8 @@ copyright = "Kleiderbügel"
 enableGitInfo = true
 timeout = 120
 
+enableRobotsTXT = true
+
 [params]
   productionIIIFURLPrefix="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/"
   js = 'esm'
@@ -269,7 +271,10 @@ timeout = 120
 [security]
   [security.http]
     mediaTypes = ['^application/json$', '^application/json;\s?charset=[uU][tT][fF]-8$', '^application/sparql-results\+json;\s?charset=[uU][tT][fF]-8$', '^application/sparql-results\+json$']
-    urls = ['^https://query.wikidata.org/sparql.*', 'https://www.wikidata.org', '^https://christianmahnke.de/*']
+    urls = ['^https://query.wikidata.org/sparql.*', 'https://www.wikidata.org', '^https://christianmahnke.de/*', '^https://static\.projektemacher\.org/.*']
 
   [security.exec]
     allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^babel$', '^git$', '^node$', '^tailwindcss$']
+
+[params.robots]
+  llmsTXT = true
