@@ -20,13 +20,13 @@
 
 <meta name="keywords" content="Kleiderbügel, coat hangers, clothing storage"><meta name="dc.subject" content="Kleiderbügel"><meta name="dc.subject" content="coat hangers"><meta name="dc.subject" content="clothing storage">
 <meta name="generator" content="Hugo 0.168.0">
-<meta name="projektemacher.org:build-date" content="2026-10-22 23:59:46.972153841 &#43;0000 UTC m=&#43;10.783629389"><meta name="projektemacher.org:stats" content="{&#34;count&#34;:&#34;618&#34;,&#34;latest&#34;:&#34;2027-10-19T12:47:44&#43;02:00&#34;}">
+<meta name="projektemacher.org:build-date" content="2026-10-23 10:59:03.962565426 &#43;0000 UTC m=&#43;9.203753992"><meta name="projektemacher.org:stats" content="{&#34;count&#34;:&#34;618&#34;,&#34;latest&#34;:&#34;2027-10-19T12:47:44&#43;02:00&#34;}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
 
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/css/100b2dfc4d47ce6767d523e21f6cc331.min.d2d72d84585a48b4af8fccb5c1dcdb4da7a1dda9fd160925ac8f63721f20fa64.css" rel="stylesheet" integrity="sha256-0tcthFhaSLSvj8y1wdzbTaeh3an9FgklrI9jch8g&#43;mQ=">
-<script src="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/js/main.80451bc27ca0e47b0c634cd2960204b13ec425d00b86340f648cffb2dc2501e7.js" integrity="sha256-gEUbwnyg5HsMY0zSlgIEsT7EJdALhjQPZIz/stwlAec=" crossorigin="anonymous" type="module"></script><script src="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/ts/maps/mapWrapper.ec3096ddb0a356752157f30d0e9ed67265ed5caec9cd2f270a545dc2324134b4.js" integrity="sha256-7DCW3bCjVnUhV/MNDp7WcmXtXK7JzS8nClRdwjJBNLQ=" crossorigin="anonymous" type="module"></script><link rel="icon" type="image/png" href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/images/favicon-32.png" sizes="32x32">
+<script src="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/js/main.80451bc27ca0e47b0c634cd2960204b13ec425d00b86340f648cffb2dc2501e7.js" integrity="sha256-gEUbwnyg5HsMY0zSlgIEsT7EJdALhjQPZIz/stwlAec=" crossorigin="anonymous" type="module"></script><script src="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/ts/maps/mapWrapper.75b7c18477e2e77613c814f26ea618e16df1e325a72bbc556b1adbd82cd7e626.js" integrity="sha256-dbfBhHfi53YTyBTybqYY4W3x4yWnK7xVaxrb2CzX5iY=" crossorigin="anonymous" type="module"></script><link rel="icon" type="image/png" href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/images/favicon-32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/images/favicon-16.png" sizes="16x16">
     
 
@@ -66,8 +66,9 @@
   </div>
 </div>
 <script type="text/javascript">
-  document.addEventListener('DOMContentLoaded', function() {
-    var _a56fce4688ee0fb056cf1a7865d152df = window.projektemacherMap('a56fce4688ee0fb056cf1a7865d152df', '\/list\/map.geojson', 'https:\/\/tiles.versatiles.org\/tiles\/osm\/{z}\/{x}\/{y}', {
+  (function() {
+    var start = function() {
+      var _a56fce4688ee0fb056cf1a7865d152df = window.projektemacherMap('a56fce4688ee0fb056cf1a7865d152df', '\/list\/map.geojson', 'https:\/\/tiles.versatiles.org\/tiles\/osm\/{z}\/{x}\/{y}', {
 	"version": 8,
 	"name": "versatiles-colorful",
 	"metadata": {
@@ -4923,7 +4924,19 @@
 	]
 }
 , undefined, undefined, undefined, undefined, undefined, true, false, true, undefined, false, {src: '/images/geomarker.svg', scale: 0.1, anchorXUnits: 'fraction', anchorYUnits: 'fraction', anchor: [0.9, 1]});
-  });
+      document.getElementById('a56fce4688ee0fb056cf1a7865d152df-popup-closer').addEventListener('keydown', function(event) {
+        if (event.key === ' ' || event.key === 'Spacebar') {
+          event.preventDefault();
+          this.click();
+        }
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', start);
+    } else {
+      start();
+    }
+  })();
 </script>
 
 </div></div>

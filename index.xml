@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Kleiderbügel</title>
-    <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection.json</link>
+  <channel><title>Kleiderbügel</title>
+    <link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/</link>
     <description>Recent content on Kleiderbügel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>

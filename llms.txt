@@ -1,6 +1,11 @@
 # Kleiderbügel
 
-> Alte, schöne und fragwürdige Kleiderbügel- [Kartenansicht](https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/map/): 
+> Alte, schöne und fragwürdige Kleiderbügel
+
+## Author
+
+Christian Mahnke
+- [Kartenansicht](https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/map/): 
 - [Links](https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/links/): 
 - [Liste](https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/collection/): 
 - [Listenansicht](https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/list/): 
