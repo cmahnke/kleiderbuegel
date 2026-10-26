@@ -16,15 +16,29 @@
 			<copyright>Kleiderbügel</copyright>
 		
 		
-			<lastBuildDate>Mon, 26 Oct 2026 23:03:26 +0100</lastBuildDate>
+			<lastBuildDate>Tue, 27 Oct 2026 00:30:10 +0100</lastBuildDate>
 		
 			<atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title></title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/265/</link>
+				<pubDate>Mon, 26 Oct 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/265/</guid>
+				<description>&lt;p&gt;Julius Wolff, Lübtheen&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>C. &amp; A. Brenninkmeyer</title>
 				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/212/</link>
 				<pubDate>Tue, 20 Oct 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
 				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/212/</guid>
 				<description>&lt;p&gt;C. &amp;amp; A. Brenninkmeyer&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/266/</link>
+				<pubDate>Mon, 19 Oct 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/266/</guid>
+				<description>&lt;p&gt;Das führende Textilhaus  Gebr. Dobberkau Schöningen&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Friedrich Gronau</title>
@@ -179,20 +193,6 @@
 				<pubDate>Tue, 05 May 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
 				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/188/</guid>
 				<description>&lt;p&gt;Hanover  Erdmann  Peine&#xA;Kleidung&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>hettlage</title>
-				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/187/</link>
-				<pubDate>Tue, 28 Apr 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/187/</guid>
-				<description>&lt;p&gt;hettlage&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>J. Clausen</title>
-				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/186/</link>
-				<pubDate>Tue, 21 Apr 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/186/</guid>
-				<description>&lt;p&gt;Ihr Kleiderberater&#xA;J. Clausen&#xA;Schleswig&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
