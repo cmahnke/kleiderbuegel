@@ -1,5 +1,5 @@
 ---
-date: 2027-10-26T12:47:44+02:00
+date: 2026-10-26T12:47:44+02:00
 title: ""
 type: hanger
 description: "Julius Wolff, Lübtheen"
