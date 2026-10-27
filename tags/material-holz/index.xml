@@ -16,7 +16,7 @@
 			<copyright>Kleiderbügel</copyright>
 		
 		
-			<lastBuildDate>Tue, 27 Oct 2026 00:30:10 +0100</lastBuildDate>
+			<lastBuildDate>Tue, 27 Oct 2026 01:24:36 +0100</lastBuildDate>
 		
 			<atom:link href="https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/tags/material-holz/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -32,13 +32,6 @@
 				<pubDate>Tue, 20 Oct 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
 				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/212/</guid>
 				<description>&lt;p&gt;C. &amp;amp; A. Brenninkmeyer&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title></title>
-				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/266/</link>
-				<pubDate>Mon, 19 Oct 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
-				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/266/</guid>
-				<description>&lt;p&gt;Das führende Textilhaus  Gebr. Dobberkau Schöningen&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Friedrich Gronau</title>
@@ -193,6 +186,13 @@
 				<pubDate>Tue, 05 May 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
 				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/188/</guid>
 				<description>&lt;p&gt;Hanover  Erdmann  Peine&#xA;Kleidung&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>hettlage</title>
+				<link>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/187/</link>
+				<pubDate>Tue, 28 Apr 2026 12:47:44 +0200</pubDate><author>mail@christianmahnke.de (Christian Mahnke)</author>
+				<guid>https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/187/</guid>
+				<description>&lt;p&gt;hettlage&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

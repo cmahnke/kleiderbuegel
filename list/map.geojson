@@ -18,21 +18,6 @@
 ,{
   "type": "Feature",
   "properties": {
-      "name": "",
-      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eGebr. Dobberkau Schöningen\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eDas führende Textilhaus  Gebr. Dobberkau Schöningen\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eNiedernstraße 5, Schöningen\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/266/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [10.968957,52.138912]
-  }
-}
-
-
-
-
-,{
-  "type": "Feature",
-  "properties": {
       "name": "Kurt Hummel, Wolfsburg, Bebelstr. 9",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eKurt Hummel, Wolfsburg, Bebelstr. 9\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eKurt Hummel, Wolfsburg, Bebelstr. 9\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eBebelstr. 9, Wolfsburg\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/207/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
