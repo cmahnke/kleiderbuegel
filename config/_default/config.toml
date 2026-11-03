@@ -26,7 +26,10 @@
     [params.footer]
         privacy = true
 
+[params.webMcpSearch]
+  enabled = true
+
 [params.author]
-    email = 'mail@christianmahnke.de'
-    name = 'Christian Mahnke'
-    uri = 'http://www.wikidata.org/entity/Q137668638'
+  email = 'mail@christianmahnke.de'
+  name = 'Christian Mahnke'
+  uri = 'http://www.wikidata.org/entity/Q137668638'
