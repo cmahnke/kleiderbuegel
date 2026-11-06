@@ -2,7 +2,7 @@
   "dependencies": {
     "@mapbox/vector-tile": "^3.0.0",
     "@maplibre/maplibre-gl-leaflet": "^0.1.3",
-    "@versatiles/style": "7.1.0",
+    "@versatiles/style": "8.0.0",
     "@vivliostyle/cli": "^11.0.1",
     "bootstrap": "^5.3.8",
     "commander": "^15.0.0",
