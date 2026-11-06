@@ -1,7 +1,6 @@
 ---
 date: 2027-05-25T12:47:44+02:00
 title: "HÜTTEL GIFHORN"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 10.5508
     - 52.4809
     precision: city
+  itemType: hanger
 ---
 REINIGT HÜTTEL GIFHORN TELEF. 2311 FÄRBT

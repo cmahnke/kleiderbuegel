@@ -3,7 +3,7 @@ title: Szczecin / Stettin
 aliases:
   - /tags/stettin
 params:
-  type: place
+  itemType: place
   wikidata: Q393
   tag: Szczecin
   index:

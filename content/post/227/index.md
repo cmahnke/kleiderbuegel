@@ -1,7 +1,6 @@
 ---
 date: 2027-02-02T12:47:44+02:00
 title: "Emil Velde, Höhr - Grenzhausen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -26,6 +25,7 @@ params:
     - 7.6578
     - 50.4510
     precision: city
+  itemType: hanger
 ---
 
 Bleyle  Emil Velde, Höhr - Grenzhausen  Bleyle

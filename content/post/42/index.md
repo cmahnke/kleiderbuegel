@@ -5,7 +5,6 @@ tags:
 - Göttingen
 - Reinigung
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,5 +22,6 @@ params:
     - 9.9158
     - 51.5413
     precision: city
+  itemType: hanger
 ---
 Wäscherei MEYER Göttingen Ruf 58398

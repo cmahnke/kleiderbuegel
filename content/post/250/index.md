@@ -2,7 +2,6 @@
 date: 2027-07-13T12:47:44+02:00
 title: ""
 description: "Kleiderbügel mit Kleiderbürste"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
   remarks: |
     * Siehe Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, S. 184
   donation: Karsten Heck
+  itemType: hanger
 ---
 
 <i>Bürste</i>

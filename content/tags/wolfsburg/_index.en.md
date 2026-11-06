@@ -1,6 +1,6 @@
 ---
 title: Wolfsburg
 params:
-  type: place
+  itemType: place
   wikidata: Q3014
 ---

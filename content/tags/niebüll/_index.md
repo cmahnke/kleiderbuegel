@@ -1,6 +1,6 @@
 ---
 title: Niebüll
 params:
-  type: place
+  itemType: place
   wikidata: Q21014
 ---

@@ -1,6 +1,6 @@
 ---
 title: Delmenhorst
 params:
-  type: place
+  itemType: place
   wikidata: Q3907
 ---

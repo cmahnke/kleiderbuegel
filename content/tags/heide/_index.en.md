@@ -1,6 +1,6 @@
 ---
 title: Heide
 params:
-  type: place
+  itemType: place
   wikidata: Q492322
 ---

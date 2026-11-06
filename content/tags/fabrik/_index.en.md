@@ -1,7 +1,7 @@
 ---
 title: Clothing factory
 params:
-  type: type
+  itemType: type
   tag: Fabrik
   wikidata: Q55748823
 ---

@@ -4,7 +4,6 @@ title: "Stegmüller"
 tags:
 - Darmstadt
 - "Material: Holz"
-type: hanger
 resources:
 - src: "front.png"
   params:
@@ -23,5 +22,6 @@ params:
     - 8.655507
     - 49.871865
     precision: exact
+  itemType: hanger
 ---
 Stegmüller Darmstadt Hinterm Schloss

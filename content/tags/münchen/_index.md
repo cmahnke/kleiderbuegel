@@ -1,6 +1,6 @@
 ---
 title: München
 params:
-  type: place
+  itemType: place
   wikidata: Q1726
 ---

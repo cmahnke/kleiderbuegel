@@ -1,7 +1,6 @@
 ---
 date: 2025-06-10T12:47:44+02:00
 title: "Textil u. Modenhaus Gebr. Simon Steinheim"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 9.0864
     - 51.8698
     precision: city
+  itemType: hanger
 ---
 Textil u. Modenhaus Gebr. Simon Steinheim

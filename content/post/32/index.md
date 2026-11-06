@@ -1,7 +1,6 @@
 ---
 date: 2020-12-21T12:32:44+02:00
 title: "Bundeseigentum"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -14,5 +13,6 @@ resources:
     iiif: front/info.json
 params:
   source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+  itemType: hanger
 ---
 BUNDESEIGENTUM

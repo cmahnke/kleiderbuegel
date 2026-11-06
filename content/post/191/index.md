@@ -1,7 +1,6 @@
 ---
 date: 2026-05-26T12:47:44+02:00
 title: "Verzapfter Steg verbürgt Haltbarkeit"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -11,5 +10,7 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
+params:
+  itemType: hanger
 ---
 Verzapfter Steg verbürgt Haltbarkeit

@@ -1,6 +1,6 @@
 ---
 title: Möbelhaus
 params:
-  type: type
+  itemType: type
   wikidata: Q104817981
 ---

@@ -1,7 +1,7 @@
 ---
 title: Möller & Schade
 params:
-  type: store
+  itemType: store
 ---
 
 Möller & Schade was a clothing store in Cuxhaven.

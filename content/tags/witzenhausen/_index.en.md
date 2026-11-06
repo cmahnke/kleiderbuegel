@@ -1,6 +1,6 @@
 ---
 title: Witzenhausen
 params:
-  type: place
+  itemType: place
   wikidata: Q564827
 ---

@@ -1,7 +1,7 @@
 ---
 title: Schloß Holte-Stukenbrock
 params:
-  type: place
+  itemType: place
   wikidata: Q225432
   tag: Schloss Holte
 ---

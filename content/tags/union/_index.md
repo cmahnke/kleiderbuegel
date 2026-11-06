@@ -1,7 +1,7 @@
 ---
 title: Union
 params:
-  type: brand
+  itemType: brand
   wikidata: Q66818922
 ---
 

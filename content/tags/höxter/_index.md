@@ -1,6 +1,6 @@
 ---
 title: Höxter
 params:
-  type: place
+  itemType: place
   wikidata: Q16107
 ---

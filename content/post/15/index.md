@@ -5,7 +5,6 @@ tags:
 - Göttingen
 - Bekleidungsgeschäft
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,5 +22,6 @@ params:
     - 9.934185
     - 51.536453
     precision: exact
+  itemType: hanger
 ---
 Diekmann Göttingen

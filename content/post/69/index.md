@@ -1,7 +1,6 @@
 ---
 date: 2021-05-16T12:47:44+02:00
 title: "Breitling Stuttgart"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,6 +23,7 @@ params:
     - 9.178929
     - 48.774773
     precision: exact
+  itemType: hanger
 ---
 Breitling
 Das Haus der guten Kleidung

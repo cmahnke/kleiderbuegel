@@ -1,7 +1,6 @@
 ---
 date: 2026-01-27T12:47:44+02:00
 title: "Zechbauer Herrenausstatter"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 11.574598
     - 48.142985
     precision: exact
+  itemType: hanger
 ---
 Zechbauer Herrenausstatter

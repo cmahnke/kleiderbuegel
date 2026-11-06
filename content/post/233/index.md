@@ -1,7 +1,6 @@
 ---
 date: 2027-03-16T12:47:44+02:00
 title: "W. Semmler, Göttingen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,6 +19,7 @@ params:
     - 9.9158
     - 51.5413
     precision: city
+  itemType: hanger
 ---
 W. Semmler, Göttingen
 Herren-u.Damenbekleidung

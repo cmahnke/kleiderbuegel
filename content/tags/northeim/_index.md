@@ -1,6 +1,6 @@
 ---
 title: Northeim
 params:
-  type: place
+  itemType: place
   wikidata: Q498575
 ---

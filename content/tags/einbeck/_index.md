@@ -1,6 +1,6 @@
 ---
 title: Einbeck
 params:
-  type: place
+  itemType: place
   wikidata: Q47244
 ---

@@ -1,7 +1,6 @@
 ---
 date: 2026-09-22T12:47:44+02:00
 title: "FIX"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -14,6 +13,8 @@ tags:
 - "Material: Metall"
 - Verstellbar
 - Klammern
+params:
+  itemType: hanger
 ---
 
 FIX D. Wz.

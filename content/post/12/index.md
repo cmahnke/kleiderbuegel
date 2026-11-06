@@ -5,7 +5,6 @@ tags:
 - Göttingen
 - Hettlage
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,5 +23,6 @@ params:
     - 9.934862
     - 51.531813
     precision: exact
+  itemType: hanger
 ---
 H. Hettlage, Göttingen

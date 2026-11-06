@@ -6,7 +6,6 @@ tags:
 - Bekleidungsgeschäft
 - "Material: Holz"
 - Beidseitig
-type: hanger
 params:
   source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
   address: Bundesallee 104, Berlin
@@ -22,6 +21,7 @@ params:
     - 13.328646
     - 52.465640
     precision: exact
+  itemType: hanger
 outputs:
 - html
 - iiif-manifest

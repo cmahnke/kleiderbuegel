@@ -1,7 +1,6 @@
 ---
 date: 2027-04-06T12:47:44+02:00
 title: "Fritz Severin, Würzburg"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,6 +22,7 @@ params:
     - 9.929780
     - 49.789774
     precision: exact
+  itemType: hanger
 ---
 Herren- u. Knabenkleidung
 Fritz Severin

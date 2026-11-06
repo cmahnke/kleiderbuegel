@@ -1,7 +1,6 @@
 ---
 date: 2027-06-22T12:47:44+02:00
 title: "Ladage & Oelke"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,6 +22,7 @@ params:
     - 53.55050
     precision: street
   doubleSided: true
+  itemType: hanger
 ---
 
 GEGR 1845

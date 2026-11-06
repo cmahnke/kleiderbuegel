@@ -1,6 +1,6 @@
 ---
 title: Buxtehude
 params:
-  type: place
+  itemType: place
   wikidata: Q14868
 ---

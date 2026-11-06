@@ -1,7 +1,6 @@
 ---
 date: 2027-03-23T12:47:44+02:00
 title: "Willi Fiebinger"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,5 +23,6 @@ params:
     - 15.5379
     - 51.5669
     precision: city
+  itemType: hanger
 ---
 Willi Fiebinger, Sprottau & Neustädtel

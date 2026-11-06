@@ -6,7 +6,6 @@ tags:
 - "Material: Holz"
 - Schneiderei
 - Wilhelmshaven
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
     - 8.105416
     - 53.520103
     precision: exact
+  itemType: hanger
 ---
 Rob'. Eucken, Schillerstr. 1 Ecke W.havenerstr,
 Uniformen-Zivil-Maßkonfektion

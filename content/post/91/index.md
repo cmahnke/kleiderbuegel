@@ -1,7 +1,6 @@
 ---
 date: 2024-06-25T12:47:44+02:00
 title: "Friedrich Schefft OHG., Textilwaren Uslar"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 9.635517
     - 51.660711
     precision: exact
+  itemType: hanger
 ---
 Friedrich Schefft OHG., Textilwaren Uslar

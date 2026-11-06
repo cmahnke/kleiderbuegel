@@ -1,7 +1,6 @@
 ---
 date: 2025-12-30T12:47:44+02:00
 title: "Otto Werner"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,6 +23,7 @@ params:
     - 9.737011
     - 52.373109
     precision: exact
+  itemType: hanger
 ---
 Otto Werner
 Zieht Sie richtig an!

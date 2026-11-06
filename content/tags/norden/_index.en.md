@@ -1,6 +1,6 @@
 ---
 title: Norden
 params:
-  type: place
+  itemType: place
   wikidata: Q492366
 ---

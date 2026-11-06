@@ -1,6 +1,6 @@
 ---
 title: Cuxhaven
 params:
-  type: place
+  itemType: place
   wikidata: Q4197
 ---

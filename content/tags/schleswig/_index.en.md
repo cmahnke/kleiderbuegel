@@ -1,6 +1,6 @@
 ---
 title: Schleswig
 params:
-  type: place
+  itemType: place
   wikidata: Q501661
 ---

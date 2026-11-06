@@ -1,7 +1,6 @@
 ---
 date: 2026-09-01T12:47:44+02:00
 title: "Union elegant"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -13,5 +12,7 @@ tags:
 - "Material: Holz"
 - Union
 - Haken
+params:
+  itemType: hanger
 ---
 Union elegant

@@ -1,5 +1,5 @@
 ---
 title: Klappbar
 params:
-  type: feature
+  itemType: feature
 ---

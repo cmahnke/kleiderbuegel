@@ -1,6 +1,6 @@
 ---
 title: Heilbronn
 params:
-  type: place
+  itemType: place
   wikidata: Q715
 ---

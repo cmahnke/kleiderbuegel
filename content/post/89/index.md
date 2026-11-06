@@ -1,7 +1,6 @@
 ---
 date: 2024-06-11T12:47:44+02:00
 title: "Hotel Ruhwinkel Ostseebad Grömitz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,6 +19,7 @@ params:
     - 10.964317
     - 54.150283
     precision: exact
+  itemType: hanger
 ---
 
 Hotel Ruhwinkel

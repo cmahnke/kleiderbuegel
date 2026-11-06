@@ -1,6 +1,6 @@
 ---
 title: Versandhandel
 params:
-  type: type
+  itemType: type
   wikidata: Q425779
 ---

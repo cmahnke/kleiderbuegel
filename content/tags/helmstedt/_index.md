@@ -1,6 +1,6 @@
 ---
 title: Helmstedt
 params:
-  type: place
+  itemType: place
   wikidata: Q486562
 ---

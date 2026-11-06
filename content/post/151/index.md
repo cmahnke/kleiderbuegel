@@ -1,7 +1,6 @@
 ---
 date: 2025-08-19T12:47:44+02:00
 title: "Färberei Croon Osnabrück"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 8.0472
     - 52.2799
     precision: city
+  itemType: hanger
 ---
 Färberei Croon Osnabrück

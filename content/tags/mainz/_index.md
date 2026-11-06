@@ -1,6 +1,6 @@
 ---
 title: Mainz
 params:
-  type: place
+  itemType: place
   wikidata: Q1720
 ---

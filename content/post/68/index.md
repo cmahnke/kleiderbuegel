@@ -1,7 +1,6 @@
 ---
 date: 2021-05-09T12:47:44+02:00
 title: "Bekleidungshaus BUCHMANN Wolfhagen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
     - 9.1711
     - 51.3265
     precision: city
+  itemType: hanger
 ---
 
 Bekleidungshaus BUCHMANN Wolfhagen

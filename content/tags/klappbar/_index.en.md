@@ -1,6 +1,6 @@
 ---
 title: Foldable
 params:
-  type: feature
+  itemType: feature
   tag: Klappbar
 ---

@@ -1,7 +1,7 @@
 ---
 title: Bad Bederkesa
 params:
-  type: place
+  itemType: place
   tag: Bederkesa
   wikidata: Q509084
 ---

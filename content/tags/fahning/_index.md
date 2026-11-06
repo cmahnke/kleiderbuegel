@@ -1,7 +1,7 @@
 ---
 title: Fahning
 params:
-  type: store
+  itemType: store
 ---
 
 Fahning war ein Modehaus in Hamburg.

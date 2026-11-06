@@ -1,7 +1,6 @@
 ---
 date: 2024-10-09T12:47:44+02:00
 title: "Frank & Krause Delmenhorst"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,6 +19,7 @@ params:
     - 8.6356
     - 53.0522
     precision: city
+  itemType: hanger
 ---
 30 Jahre
 Herren- und Damenbekleidung

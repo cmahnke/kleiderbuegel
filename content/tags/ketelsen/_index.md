@@ -1,7 +1,7 @@
 ---
 title: Ketelsen
 params:
-  type: store
+  itemType: store
   geojson:
     coordinates:
     - 8.5815016

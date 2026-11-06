@@ -1,6 +1,6 @@
 ---
 title: Bad Mergentheim
 params:
-  type: place
+  itemType: place
   wikidata: Q61942
 ---

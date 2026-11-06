@@ -1,7 +1,6 @@
 ---
 date: 2026-07-07T12:47:44+02:00
 title: "Modehaus Wagner Göttingen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -31,4 +30,5 @@ params:
     - 9.93537
     - 51.53307
     precision: street
+  itemType: hanger
 ---

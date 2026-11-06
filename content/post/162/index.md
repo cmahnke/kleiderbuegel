@@ -1,7 +1,6 @@
 ---
 date: 2025-11-04T12:47:44+02:00
 title: "Arthur Johannsen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
     - 8.827224
     - 54.788115
     precision: exact
+  itemType: hanger
 ---
 
 Arthur

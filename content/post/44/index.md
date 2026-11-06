@@ -5,7 +5,6 @@ tags:
 - Osterode
 - "Material: Holz"
 - Beidseitig
-type: hanger
 params:
   address: Johannistorstraße 7/9, Osterode
   source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
@@ -18,6 +17,7 @@ params:
     - 10.253312
     - 51.728256 
     precision: exact
+  itemType: hanger
 outputs:
 - html
 - iiif-manifest

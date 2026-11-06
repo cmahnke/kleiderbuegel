@@ -1,7 +1,6 @@
 ---
 date: 2025-07-08T12:47:44+02:00
 title: "Weinhaus goldene Traube"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,6 @@ params:
     - 7.518492
     - 50.313391
     precision: exact
+  itemType: hanger
 ---
 Weinhaus goldene Traube

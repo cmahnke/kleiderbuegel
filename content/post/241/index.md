@@ -1,7 +1,6 @@
 ---
 date: 2027-05-11T12:47:44+02:00
 title: "Möbel von Döhlen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
     - 8.632319
     - 53.584014
     precision: exact
+  itemType: hanger
 ---
 Möbel
 von Döhlen

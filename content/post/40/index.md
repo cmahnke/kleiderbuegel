@@ -5,7 +5,6 @@ tags:
 - Aken an der Elbe
 - Schneiderei
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,6 @@ params:
     - 12.0431
     - 51.8539
     precision: city
+  itemType: hanger
 ---
 Fritz Felgener, Feine Maßschneiderei, Aken a. d. Elbe.

@@ -1,7 +1,6 @@
 ---
 date: 2026-05-19T12:47:44+02:00
 title: "Färberei ALT"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -25,5 +24,6 @@ params:
     - 9.203291
     - 49.144461
     precision: exact
+  itemType: hanger
 ---
 Färberei ALT, Heilbronn Tel. 858804 Chem. Reinigung

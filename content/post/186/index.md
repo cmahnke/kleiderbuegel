@@ -1,7 +1,6 @@
 ---
 date: 2026-04-21T12:47:44+02:00
 title: "J. Clausen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
     - 9.563291
     - 54.516427 
     precision: exact
+  itemType: hanger
 ---
 Ihr Kleiderberater
 J. Clausen

@@ -1,7 +1,6 @@
 ---
 date: 2025-12-23T12:47:44+02:00
 title: "Loden - Frey München"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 11.573990
     - 48.139696
     precision: exact
+  itemType: hanger
 ---
 Loden - Frey München

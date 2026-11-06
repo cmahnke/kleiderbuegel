@@ -4,7 +4,6 @@ title: "Brahms, Emden"
 tags:
 - Emden
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,6 @@ params:
     - 7.205323
     - 53.368346
     precision: exact
+  itemType: hanger
 ---
 Brahms, Emden

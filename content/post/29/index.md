@@ -6,13 +6,13 @@ tags:
 - "Material: Plastik"
 - Beidseitig
 - Kinderbügel
-type: hanger
 params:
   source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
   remarks: |-
     * [Sanostol in der Wikipedia](https://de.wikipedia.org/wiki/Sanostol)
   iiif:
     behavior: individuals
+  itemType: hanger
 resources:
 - src: "front.png"
   params:

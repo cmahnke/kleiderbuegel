@@ -1,7 +1,7 @@
 ---
 title: Clothespins
 params:
-  type: feature
+  itemType: feature
   wikidata: Q267290
   tag: Klammern
 ---

@@ -1,7 +1,6 @@
 ---
 date: 2025-06-17T12:47:44+02:00
 title: "Wittke Größtes Herren-Spezialhaus Dithmarschens"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 9.095635
     - 54.194716
     precision: exact
+  itemType: hanger
 ---
 Wittke Größtes Herren-Spezialhaus Dithmarschens

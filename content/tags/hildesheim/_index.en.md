@@ -1,6 +1,6 @@
 ---
 title: Hildesheim
 params:
-  type: place
+  itemType: place
   wikidata: Q3185
 ---

@@ -8,7 +8,6 @@ tags:
 - Rockbügel
 - Verstellbar
 - Klammern
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -18,6 +17,7 @@ resources:
     iiif: front/info.json
 params:
   source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
+  itemType: hanger
 ---
 Union Jon-Jon
 D. B. Wz.

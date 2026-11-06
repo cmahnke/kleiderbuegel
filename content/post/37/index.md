@@ -6,7 +6,6 @@ tags:
 - Versandhandel
 - "Material: Holz"
 - Haken
-type: hanger
 resources:
 - src: "front.png"
   params:
@@ -21,6 +20,7 @@ params:
     - 8.682956
     - 48.892845
     precision: exact
+  itemType: hanger
 ---
 Bader Moden
 Pforzheim

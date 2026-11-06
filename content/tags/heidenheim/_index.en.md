@@ -1,6 +1,6 @@
 ---
 title: Heidenheim
 params:
-  type: place
+  itemType: place
   wikidata: Q6869
 ---

@@ -1,7 +1,7 @@
 ---
 title: Warburg
 params:
-  type: place
+  itemType: place
   wikidata: Q968
   geojson:
     coordinates:

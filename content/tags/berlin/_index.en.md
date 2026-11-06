@@ -1,6 +1,6 @@
 ---
 title: Berlin
 params:
-  type: place
+  itemType: place
   wikidata: Q64
 ---

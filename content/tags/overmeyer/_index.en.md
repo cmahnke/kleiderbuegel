@@ -1,7 +1,7 @@
 ---
 title: Overmeyer
 params:
-  type: store
+  itemType: store
 ---
 
 Links:

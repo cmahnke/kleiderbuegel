@@ -1,6 +1,6 @@
 ---
 title: Freiburg
 params:
-  type: place
+  itemType: place
   wikidata: Q2833
 ---

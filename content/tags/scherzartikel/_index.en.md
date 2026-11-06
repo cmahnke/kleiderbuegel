@@ -1,7 +1,7 @@
 ---
 title: Novelty items
 params:
-  type: type
+  itemType: type
   wikidata: Q472134
   tag: Scherzartikel
 ---

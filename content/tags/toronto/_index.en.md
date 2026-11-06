@@ -1,6 +1,6 @@
 ---
 title: Toronto
 params:
-  type: place
+  itemType: place
   wikidata: Q172
 ---

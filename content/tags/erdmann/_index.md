@@ -1,7 +1,7 @@
 ---
 title: Erdmann
 params:
-  type: store
+  itemType: store
   wikidata: Q1616294
 ---
 

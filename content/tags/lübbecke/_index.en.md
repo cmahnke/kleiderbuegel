@@ -1,6 +1,6 @@
 ---
 title: Lübbecke
 params:
-  type: place
+  itemType: place
   wikidata: Q182805
 ---

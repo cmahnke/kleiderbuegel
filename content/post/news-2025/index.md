@@ -1,7 +1,8 @@
 ---
 title: 'Neuerungen 2025'
 date: 2025-10-19T07:30:07+02:00
-type: text
+params:
+  itemType: text
 ---
 
 Für eine kommende Ausstellung wurde diese Seite etwas überarbeitet:

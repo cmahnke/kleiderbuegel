@@ -1,7 +1,6 @@
 ---
 date: 2024-09-24T12:47:44+02:00
 title: "Hotel zu den vier Jahreszeiten Helmstedt"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 11.010117
     - 52.226248
     precision: exact
+  itemType: hanger
 ---
 Hotel zu den vier Jahreszeiten Helmstedt

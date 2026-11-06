@@ -1,6 +1,6 @@
 ---
 title: Gaststätte
 params:
-  type: type
+  itemType: type
   wikidata: Q11707
 ---

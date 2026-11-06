@@ -6,7 +6,6 @@ tags:
 - Kamienna Góra
 - Bekleidungsgeschäft
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,6 +23,7 @@ params:
     - 16.0303
     - 50.7831
     precision: city
+  itemType: hanger
 ---
 
 Herren . Bekleidung Ed. Birkes Ww. Landeshut (Schl.)

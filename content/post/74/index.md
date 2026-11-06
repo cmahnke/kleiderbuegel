@@ -1,7 +1,6 @@
 ---
 date: 2021-06-20T12:47:44+02:00
 title: "Bekleidungshaus Manschott Haus der 5000 Hosen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,6 +22,7 @@ params:
     - 10.5268
     - 52.2689
     precision: city
+  itemType: hanger
 ---
 
 Bekleidungshaus Manschott Haus der 5000 Hosen

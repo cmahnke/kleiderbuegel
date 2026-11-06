@@ -1,7 +1,6 @@
 ---
 date: 2027-06-15T12:47:44+02:00
 title: "C.F. HAUX HEIDENHEIM"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -27,5 +26,6 @@ params:
     - 10.15236
     - 48.67681
     precision: street
+  itemType: hanger
 ---
 Die gute  HAUX  Kleidung

@@ -1,7 +1,6 @@
 ---
 date: 2026-10-20T12:47:44+02:00
 title: "C. & A. Brenninkmeyer"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,7 @@ tags:
 - Brenninkmayer
 - C&A
 - Beidseitig
+params:
+  itemType: hanger
 ---
 C. & A. Brenninkmeyer

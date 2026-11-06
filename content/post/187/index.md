@@ -1,7 +1,6 @@
 ---
 date: 2026-04-28T12:47:44+02:00
 title: "hettlage"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -15,5 +14,6 @@ tags:
 - Hettlage
 params:
   doublesided: true
+  itemType: hanger
 ---
 hettlage

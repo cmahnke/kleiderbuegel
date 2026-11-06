@@ -1,7 +1,6 @@
 ---
 date: 2026-06-16T12:47:44+02:00
 title: "Modern"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -11,6 +10,8 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
+params:
+  itemType: hanger
 ---
 
  Modern

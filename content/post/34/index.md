@@ -5,7 +5,6 @@ tags:
 - Karlsruhe
 - Pelze
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,6 +20,7 @@ params:
     - 8.4037
     - 49.0069
     precision: city
+  itemType: hanger
 ---
 Pelz Dröge
 Karlsruhe

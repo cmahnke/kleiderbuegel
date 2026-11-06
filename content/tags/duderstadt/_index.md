@@ -1,6 +1,6 @@
 ---
 title: Duderstadt
 params:
-  type: place
+  itemType: place
   wikidata: Q498596
 ---

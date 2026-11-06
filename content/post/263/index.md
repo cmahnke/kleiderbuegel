@@ -1,7 +1,6 @@
 ---
 date: 2027-10-12T12:47:44+02:00
 title: ""
-type: hanger
 description: "Metallbügel zum Klappen" 
 outputs:
 - html
@@ -17,4 +16,5 @@ tags:
 params:
   remarks: | 
     Vier Bügel in einem, können entweder horizontal oder vertikal in den Schrank gehängt werden.
+  itemType: hanger
 ---

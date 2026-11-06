@@ -1,6 +1,6 @@
 ---
 title: Hagen
 params:
-  type: place
+  itemType: place
   wikidata: Q2871
 ---

@@ -1,7 +1,6 @@
 ---
 date: 2026-11-24T12:47:44+02:00
 title: "Kleidung Sauer Frankfurt/M."
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -26,5 +25,6 @@ params:
     - 8.681483
     - 50.113965
     precision: exact
+  itemType: hanger
 ---
 Spezialhaus für Vetrix - Kleidung Sauer Frankfurt/M., Zeil 111, Tel. 27794

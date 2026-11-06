@@ -1,7 +1,7 @@
 ---
 title: Clothes brush
 params:
-  type: feature
+  itemType: feature
   tag: Kleiderbürste
   wikidata: Q1746166
 ---

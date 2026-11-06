@@ -1,7 +1,6 @@
 ---
 date: 2021-03-04T12:32:44+02:00
 title: "Hasse & Söhne"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,6 +20,7 @@ params:
     - 9.9959
     - 51.7002
     precision: city
+  itemType: hanger
 ---
 Northeim
 Hasse & Söhne Hosen u. Berufsbekleidung

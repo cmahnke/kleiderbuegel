@@ -1,7 +1,6 @@
 ---
 date: 2026-07-28T12:47:44+02:00
 title: "Ludwig Piper, Saarlouis"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,6 +22,7 @@ params:
     - 6.748973
     - 49.315590
     precision: exact
+  itemType: hanger
 ---
 
 Ludwig Piper, Saarlouis

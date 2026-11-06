@@ -20,12 +20,12 @@
         <th>Remarks</th>
         <th>Source</th>
       </thead>
-      {{- range where $hangers "Params.type" "eq" "hanger" -}}
+      {{- range where $hangers "Params.itemType" "eq" "hanger" -}}
         <tr>
           <td class="id">
             <a href="{{ .RelPermalink }}">{{ path.BaseName .File.Dir }}</a>
           </td>
-          {{- $title := .Params.title -}}
+          {{- $title := .Title -}}
           {{- $front := .Resources.GetMatch "front*" -}}
           {{- $thumb := $front.Resize "300x webp picture" -}}
           {{- $content := (partial "page.html" .) -}}

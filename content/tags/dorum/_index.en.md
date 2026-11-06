@@ -1,6 +1,6 @@
 ---
 title: Dorum
 params:
-  type: place
+  itemType: place
   wikidata: Q664811
 ---

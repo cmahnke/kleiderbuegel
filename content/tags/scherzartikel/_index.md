@@ -1,6 +1,6 @@
 ---
 title: Scherzartikel
 params:
-  type: type
+  itemType: type
   wikidata: Q472134
 ---

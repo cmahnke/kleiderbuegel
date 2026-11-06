@@ -1,7 +1,6 @@
 ---
 date: 2026-03-31T12:47:44+02:00
 title: "Centralhaus elg. Herrenmode, Stettin"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -30,6 +29,7 @@ params:
     - 14.55629
     - 53.42648
     precision: street
+  itemType: hanger
 ---
 
 Centralhaus elg. Herrenmode, Stettin, Kl. Domstr. 181

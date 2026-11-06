@@ -1,7 +1,6 @@
 ---
 date: 2024-12-17T12:47:44+02:00
 title: "Mäntelhaus Kaiser"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 9.737967
     - 52.372709
     precision: exact
+  itemType: hanger
 ---
 Mäntelhaus Kaiser

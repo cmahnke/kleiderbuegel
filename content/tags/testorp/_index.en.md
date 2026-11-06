@@ -1,7 +1,7 @@
 ---
 title: Testorp
 params:
-  type: store
+  itemType: store
 ---
 
 Testorp was a chain of dry cleaners.

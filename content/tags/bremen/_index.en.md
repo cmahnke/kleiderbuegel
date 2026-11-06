@@ -1,6 +1,6 @@
 ---
 title: Bremen
 params:
-  type: place
+  itemType: place
   wikidata: Q24879
 ---

@@ -1,7 +1,7 @@
 ---
 title: Testorp
 params:
-  type: store
+  itemType: store
 ---
 
 Testorp war eine Kette von Reinigungen.

@@ -1,7 +1,6 @@
 ---
 date: 2026-09-29T12:47:44+02:00
 title: "Ideal"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -17,6 +16,7 @@ tags:
 params:
   related:
     - 225
+  itemType: hanger
 ---
 
 Ideal

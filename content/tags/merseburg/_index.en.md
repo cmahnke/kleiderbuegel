@@ -1,6 +1,6 @@
 ---
 title: Merseburg
 params:
-  type: place
+  itemType: place
   wikidata: Q14945
 ---

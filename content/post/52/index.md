@@ -4,7 +4,6 @@ title: "Gebr. Schwieger"
 tags:
 - Frankfurt
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,6 @@ params:
     - 8.6821
     - 50.1109
     precision: city
+  itemType: hanger
 ---
 Gebr. Schwieger, Frankfurt a/M.

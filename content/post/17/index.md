@@ -11,6 +11,7 @@ resources:
 tags:
   - "Material: Holz"
   - Staatliche Organisation
-type: hanger
+params:
+  itemType: hanger
 ---
 Bundesgrenzschutz

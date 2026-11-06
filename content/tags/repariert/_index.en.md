@@ -1,6 +1,6 @@
 ---
 title: Repaired
 params:
-  type: other
+  itemType: other
   tag: Repariert
 ---

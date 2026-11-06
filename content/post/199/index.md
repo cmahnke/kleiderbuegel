@@ -1,7 +1,6 @@
 ---
 date: 2026-07-21T12:47:44+02:00
 title: "Karl Busam Herrenbekleidung"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -25,6 +24,7 @@ params:
     - 9.292352
     - 51.366532
     precision: exact
+  itemType: hanger
 ---
 
 Karl Busam Herrenbekleidung

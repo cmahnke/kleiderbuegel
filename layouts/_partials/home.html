@@ -15,7 +15,7 @@
       </script>
 </div>
 
-{{- $hangers = where $hangers "Params.type" "eq" "hanger" -}}
+{{- $hangers = where $hangers "Params.itemType" "eq" "hanger" -}}
 {{- $hangers = where $hangers "Section" "in" "post" -}}
 {{- $latest := (where $hangers "Page.Date" "ge" (now.AddDate 0 0 -7)).ByDate.Reverse -}}
 
@@ -23,7 +23,7 @@
   {{- partial "week.html" . -}}
 {{- end -}}
 
-{{- $pages := where (where site.Pages "Params.displayInList" "!=" false) "Params.type" "eq" "text" -}}
+{{- $pages := where (where site.Pages "Params.displayInList" "!=" false) "Params.itemType" "eq" "text" -}}
 
 {{- $paginator := .Paginate $pages -}}
 <div class="post-list">

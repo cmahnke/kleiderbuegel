@@ -1,6 +1,6 @@
 ---
 title: Würzburg
 params:
-  type: place
+  itemType: place
   wikidata: Q2999
 ---

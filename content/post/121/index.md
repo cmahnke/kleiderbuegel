@@ -1,7 +1,6 @@
 ---
 date: 2025-01-28T12:47:44+02:00
 title: "Erdmann Kleidung"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -26,6 +25,7 @@ params:
     - 9.736924
     - 52.373986
     precision: exact
+  itemType: hanger
 ---
 Erdmann
 Kleidung

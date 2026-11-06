@@ -1,7 +1,6 @@
 ---
 date: 2026-03-17T12:47:44+02:00
 title: "WARG"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
     - 10.079931
     - 52.622401
     precision: exact
+  itemType: hanger
 ---
 WARG
 Herrenkleidung

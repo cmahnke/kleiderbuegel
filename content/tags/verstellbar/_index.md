@@ -1,5 +1,5 @@
 ---
 title: Verstellbar
 params:
-  type: feature
+  itemType: feature
 ---

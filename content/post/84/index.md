@@ -1,7 +1,6 @@
 ---
 date: 2024-05-07T12:47:44+02:00
 title: "Beckmann & Wortmann"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,6 +19,7 @@ params:
     - 8.273218
     - 49.999251
     precision: exact
+  itemType: hanger
 ---
 Damen- Herren- und Kinder-Kleidung
 Beckmann & Wortmann

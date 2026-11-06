@@ -1,6 +1,6 @@
 ---
 title: Gifhorn
 params:
-  type: place
+  itemType: place
   wikidata: Q14813
 ---

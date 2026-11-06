@@ -1,7 +1,6 @@
 ---
 date: 2024-04-30T12:47:44+02:00
 title: "Mau & Andresen Flensburg"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,6 @@ params:
     - 9.435610
     - 54.784454
     precision: exact
+  itemType: hanger
 ---
 Mau & Andresen Flensburg

@@ -1,6 +1,6 @@
 ---
 title: Jülich
 params:
-  type: place
+  itemType: place
   wikidata: Q16045
 ---

@@ -5,7 +5,6 @@ tags:
 - Hertie
 - Warenhaus
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -15,5 +14,6 @@ resources:
     iiif: front/info.json
 params:
   source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/gebrauchtmoebelkaufhaus/">Brockensammlung</a>
+  itemType: hanger
 ---
 Hertie

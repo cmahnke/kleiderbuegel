@@ -4,7 +4,6 @@ title: "Carl Schübeler"
 tags:
 - Warburg
 - "Material: Holz"
-type: hanger
 resources:
 - src: "front.png"
   params:
@@ -21,5 +20,6 @@ params:
     - 9.1452
     - 51.4899
     precision: city
+  itemType: hanger
 ---
 Carl Schübeler Warburg - Westf.

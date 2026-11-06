@@ -1,7 +1,6 @@
 ---
 date: 2026-01-06T12:47:44+02:00
 title: "DURELASTIC"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -17,4 +16,6 @@ resources:
       D.B. Patent   aus zähfestem Preßholz  keine querfalten      hält dauernd
 tags:
 - "Material: Holz"
+params:
+  itemType: hanger
 ---

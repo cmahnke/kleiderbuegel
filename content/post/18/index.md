@@ -6,7 +6,6 @@ tags:
 - "Material: Holz"
 - Herford
 - Färberei
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 8.694159
     - 52.121147
     precision: exact
+  itemType: hanger
 ---
 Chem. Reinigung Färberei Kotzenberg Kleiderbad

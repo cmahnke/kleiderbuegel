@@ -1,6 +1,6 @@
 ---
 title: Theater
 params:
-  type: type
+  itemType: type
   wikidata: Q11812394
 ---

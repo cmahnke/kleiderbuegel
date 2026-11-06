@@ -1,7 +1,6 @@
 ---
 date: 2021-07-04T12:47:44+02:00
 title: "Schnellreinigung W. Freitag Hildesheim"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,6 +20,7 @@ params:
     - 9.9511
     - 52.1507
     precision: city
+  itemType: hanger
 ---
 
 perfekte Schnellreinigung W. Freitag Hildesheim Tel. 6782

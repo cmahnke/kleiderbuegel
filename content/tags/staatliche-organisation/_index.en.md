@@ -1,7 +1,7 @@
 ---
 title: Government organization
 params:
-  type: type
+  itemType: type
   wikidata: Q2659904
   tag: Staatliche Organisation
 ---

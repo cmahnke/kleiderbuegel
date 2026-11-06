@@ -1,7 +1,6 @@
 ---
 date: 2026-12-08T12:47:44+02:00
 title: "Chemische Reinigung Sievers Bad Lauterberg"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 10.449732
     - 51.621001
     precision: exact
+  itemType: hanger
 ---
 Chemische Reinigung Sievers Bad Lauterberg

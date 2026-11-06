@@ -1,6 +1,6 @@
 ---
 title: Adjustable
 params:
-  type: feature
+  itemType: feature
   tag: Verstellbar
 ---

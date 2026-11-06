@@ -1,7 +1,6 @@
 ---
 date: 2027-03-02T12:47:44+02:00
 title: "Union"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -17,6 +16,7 @@ tags:
 params:
   remarks: |
     Siehe Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, S. 214
+  itemType: hanger
 ---
 Union
 

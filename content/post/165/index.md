@@ -1,7 +1,6 @@
 ---
 date: 2025-11-25T12:47:44+02:00
 title: "W.E. Eggert"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,6 +22,7 @@ params:
     - 10.018191
     - 53.564269
     precision: exact
+  itemType: hanger
 ---
 
 Mundsburger Damm 4 22007 Hamburg

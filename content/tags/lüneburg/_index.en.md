@@ -1,6 +1,6 @@
 ---
 title: Lüneburg
 params:
-  type: place
+  itemType: place
   wikidata: Q3920
 ---

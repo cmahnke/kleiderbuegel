@@ -1,7 +1,6 @@
 ---
 date: 2024-09-10T12:47:44+02:00
 title: "MOLLERUS reinigt MOLLERUS wäscht..."
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,5 +22,6 @@ params:
     - 7.113785
     - 51.579522
     precision: exact
+  itemType: hanger
 ---
 MOLLERUS reinigt MOLLERUS wäscht MOLLERUS färbt

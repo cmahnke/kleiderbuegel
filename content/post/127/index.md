@@ -1,7 +1,6 @@
 ---
 date: 2025-03-04T12:47:44+02:00
 title: "Möller & Schade"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,6 +23,7 @@ params:
     - 8.692981
     - 53.858865
     precision: exact
+  itemType: hanger
 ---
 Möller & Schade
 Das Haus der guten Kleidung

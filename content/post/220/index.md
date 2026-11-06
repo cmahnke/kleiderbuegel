@@ -1,7 +1,6 @@
 ---
 date: 2026-12-15T12:47:44+02:00
 title: "Ernst Brendler"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,6 +22,7 @@ params:
     - 9.984444
     - 53.548438 
     precision: exact
+  itemType: hanger
 ---
 Ernst Brendler
 80

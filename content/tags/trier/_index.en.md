@@ -1,6 +1,6 @@
 ---
 title: Trier
 params:
-  type: place
+  itemType: place
   wikidata: Q3138
 ---

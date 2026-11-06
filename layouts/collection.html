@@ -6,7 +6,7 @@
   {{ range site.Home.Translations }}
     {{ $hangers = $hangers | lang.Merge site.RegularPages }}
   {{ end }}
-  {{- $hangers = where $hangers "Params.type" "eq" "hanger" -}}
+  {{- $hangers = where $hangers "Params.itemType" "eq" "hanger" -}}
 
   {{- partial "rail.html" . -}}
   <div class="post-list">

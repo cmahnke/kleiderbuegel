@@ -1,7 +1,6 @@
 ---
 date: 2027-09-28T12:47:44+02:00
 title: ""
-type: hanger
 description: "Holzbügel mit Ösen für Krawatten" 
 outputs:
 - html
@@ -12,4 +11,6 @@ resources:
     iiif: front/info.json
 tags:
 - "Material: Holz"
+params:
+  itemType: hanger
 ---

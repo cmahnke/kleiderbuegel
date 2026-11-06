@@ -1,6 +1,6 @@
 ---
 title: Kiel
 params:
-  type: place
+  itemType: place
   wikidata: Q1707
 ---

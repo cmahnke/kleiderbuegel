@@ -1,7 +1,6 @@
 ---
 date: 2027-01-05T12:47:44+02:00
 title: "Mostafa Vakilzadeh"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,6 +23,7 @@ params:
     - 9.987838
     - 53.546422
     precision: exact
+  itemType: hanger
 ---
 Mostafa Vakilzadeh
 2 Hamburg 11  0411/366912

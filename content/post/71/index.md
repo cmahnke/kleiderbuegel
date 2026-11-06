@@ -1,7 +1,6 @@
 ---
 date: 2021-05-30T12:47:44+02:00
 title: "Esders Siegen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,6 +22,7 @@ params:
     - 8.02694
     - 50.87581
     precision: street
+  itemType: hanger
 ---
 
 Esders Siegen

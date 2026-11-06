@@ -1,6 +1,6 @@
 ---
 title: Klammern
 params:
-  type: feature
+  itemType: feature
   wikidata: Q267290
 ---

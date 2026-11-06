@@ -1,7 +1,6 @@
 ---
 date: 2021-06-13T12:47:44+02:00
 title: "J.Braun Gr. Johannisstraße 3"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,6 +20,7 @@ params:
     - 9.993150
     - 53.549793
     precision: exact
+  itemType: hanger
 ---
 
 Damen-Bekleidung Hamburg J.Braun Gr. Johannisstraße 3 Herren-Bekleidung

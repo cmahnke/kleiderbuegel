@@ -1,7 +1,6 @@
 ---
 date: 2024-10-22T12:47:44+02:00
 title: "Northeimer Rekort- Bekleidung P. Haase und Söhne"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,6 @@ params:
     - 9.9959
     - 51.7002
     precision: city
+  itemType: hanger
 ---
 Northeimer Rekort- Bekleidung P. Haase und Söhne

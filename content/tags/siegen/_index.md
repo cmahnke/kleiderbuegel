@@ -1,6 +1,6 @@
 ---
 title: Siegen
 params:
-  type: place
+  itemType: place
   wikidata: Q3167
 ---

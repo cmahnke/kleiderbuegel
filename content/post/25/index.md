@@ -4,7 +4,6 @@ title: "Rud. Behrmann Bremen"
 tags:
 - Bremen
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 8.8017
     - 53.0793
     precision: city
+  itemType: hanger
 ---
 Rud. Behrmann Bremen, Ruddestrasse 15

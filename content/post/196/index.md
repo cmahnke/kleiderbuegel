@@ -1,7 +1,6 @@
 ---
 date: 2026-06-30T12:47:44+02:00
 title: "Otto-Versand Hamburg"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,6 +19,7 @@ params:
     - 10.071455
     - 53.601010 
     precision: exact
+  itemType: hanger
 ---
 
 Otto-Versand, Hamburg

@@ -1,6 +1,6 @@
 ---
 title: Düsseldorf
 params:
-  type: place
+  itemType: place
   wikidata: Q1718
 ---

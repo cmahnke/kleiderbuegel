@@ -1,7 +1,6 @@
 ---
 date: 2026-12-29T12:47:44+02:00
 title: "C. & A. Brenninkmeyer, Bremen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -31,5 +30,6 @@ params:
     - 8.799752
     - 53.078938 
     precision: exact
+  itemType: hanger
 ---
 C. & A. Brenninkmeyer, Bremen, Am Brill 8-12.

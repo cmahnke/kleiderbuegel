@@ -1,6 +1,6 @@
 ---
 title: Hamburg
 params:
-  type: place
+  itemType: place
   wikidata: Q1055
 ---

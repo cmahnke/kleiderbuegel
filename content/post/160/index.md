@@ -1,7 +1,6 @@
 ---
 date: 2025-10-21T12:47:44+02:00
 title: "Wäscherei Kleiderbad Meyer Chem. Reinigung"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,6 +23,7 @@ params:
     - 9.9158
     - 51.5413
     precision: city
+  itemType: hanger
 ---
 Wäscherei Kleiderbad
 Meyer

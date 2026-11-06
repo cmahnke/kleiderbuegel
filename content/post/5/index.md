@@ -1,7 +1,6 @@
 ---
 date: 2020-09-02T19:02:44+02:00
 title: "Wäscherei - Reinigung Hübener & Kurre"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 9.937739
     - 51.534834 
     precision: exact
+  itemType: hanger
 ---
 Wäscherei - Reinigung Hübener & Kurre - Göttingen

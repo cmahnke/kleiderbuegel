@@ -1,7 +1,6 @@
 ---
 date: 2024-08-09T12:47:44+02:00
 title: "Ketelsen Bremerhaven-Bürger 42"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 8.578613
     - 53.543288
     precision: exact
+  itemType: hanger
 ---
 Ketelsen Bremerhaven-Bürger 42

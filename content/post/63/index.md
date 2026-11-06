@@ -1,7 +1,6 @@
 ---
 date: 2021-04-04T12:47:44+02:00
 title: "Twiggy London Girl"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -16,6 +15,7 @@ params:
   doublesided: true
   remarks: |
     * [Twiggy in der Wikipedia](https://de.wikipedia.org/wiki/Twiggy)
+  itemType: hanger
 ---
 Twiggy
 London Girl

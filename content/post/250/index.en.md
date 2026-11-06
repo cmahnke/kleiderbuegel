@@ -2,7 +2,6 @@
 date: 2027-07-13T12:47:44+02:00
 title: ""
 description: "Clothes hanger with clothes brush"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,4 +21,5 @@ params:
   donation: Karsten Heck
   remarks: |
     * See Rozensztroch, Daniel: Cintres / Hangers, Le Passage 2002, p. 184
+  itemType: hanger
 ---

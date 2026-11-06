@@ -1,6 +1,6 @@
 ---
 title: Osterode
 params:
-  type: place
+  itemType: place
   wikidata: Q327727
 ---

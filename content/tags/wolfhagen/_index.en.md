@@ -1,6 +1,6 @@
 ---
 title: Wolfhagen
 params:
-  type: place
+  itemType: place
   wikidata: Q539592
 ---

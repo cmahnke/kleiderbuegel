@@ -1,7 +1,6 @@
 ---
 date: 2027-03-09T12:47:44+02:00
 title: "DAMEN & HERREN • ATELIER FRIEDR. KINTSCHER"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -26,6 +25,7 @@ params:
     - 9.932335
     - 51.532922
     precision: exact
+  itemType: hanger
 ---
 
 DAMEN & HERREN • ATELIER FRIEDR. KINTSCHER

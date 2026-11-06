@@ -1,6 +1,6 @@
 ---
 title: Emden
 params:
-  type: place
+  itemType: place
   wikidata: Q4174
 ---

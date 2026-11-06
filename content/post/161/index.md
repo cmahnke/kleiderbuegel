@@ -1,7 +1,6 @@
 ---
 date: 2025-10-28T12:47:44+02:00
 title: "Damen- u. Herrenmoden Wilh. Deppe Einbeck"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
     - 9.866752
     - 51.816182
     precision: exact
+  itemType: hanger
 ---
 Damen- u. Herrenmoden
 Wilh. Deppe

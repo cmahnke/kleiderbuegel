@@ -1,7 +1,6 @@
 ---
 date: 2027-09-07T12:47:44+02:00
 title: "Schmitt-Kleidung Speyer-Neustadt"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
     coordinates:
       - 8.4378432
       - 49.317219 
+  itemType: hanger
 ---
 
 Schmitt-Kleidung Speyer-Neustadt

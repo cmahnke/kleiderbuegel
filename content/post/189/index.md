@@ -1,7 +1,6 @@
 ---
 date: 2026-05-12T12:47:44+02:00
 title: "Sorge"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
     - 6.77483
     - 51.22535
     precision: street
+  itemType: hanger
 ---
 Bekleidungshaus SORGE Düsseldorf
 Kauf ohne Sorge bei S O R G E

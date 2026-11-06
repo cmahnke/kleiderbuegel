@@ -1,7 +1,6 @@
 ---
 date: 2025-06-24T12:47:44+02:00
 title: "flebbe"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,5 +22,6 @@ params:
     - 10.525400
     - 52.262404
     precision: exact
+  itemType: hanger
 ---
 flebbe

@@ -26,7 +26,7 @@
 {{- $tocEntries = $tocEntries | append (dict "title" $title "href" (printf "#%s" $id)) -}}
 
 {{- $content := printf `<section id="%s" class="entries" data-section-title="%s">` $id (i18n "entries") -}}
-{{- $allPosts := (where $hangers "Params.type" "eq" "hanger").ByDate -}}
+{{- $allPosts := (where $hangers "Params.itemType" "eq" "hanger").ByDate -}}
 {{- $finalPosts := slice -}}
 {{- $processedPosts := slice -}}
 {{- $pageCount := 1 -}}
@@ -110,7 +110,7 @@
     {{- if eq $tocTitle "" -}}
       {{- $tocTitle = $page.Description -}}
     {{- end -}}
-    {{- $sectionToc = $sectionToc | append (dict "title" $tocTitle "href" $link "type" $page.Params.type) -}}
+    {{- $sectionToc = $sectionToc | append (dict "title" $tocTitle "href" $link "type" $page.Params.itemType) -}}
     {{- if (in $page.Params.tags "Beidseitig") -}}
       {{- $pageNr = add $pageNr 2 -}}
     {{- else -}}

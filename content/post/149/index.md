@@ -8,7 +8,6 @@ resources:
 - src: "front.png"
   params:
     iiif: front/info.json
-type: hanger
 tags:
   - "Material: Holz"
   - Hannover
@@ -24,6 +23,7 @@ params:
     - 9.737054
     - 52.373982
     precision: exact
+  itemType: hanger
 ---
 
 Erdmann Kleidung

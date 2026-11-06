@@ -6,7 +6,6 @@ tags:
 - Pelze
 - Heiligenstadt
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,5 +22,6 @@ params:
     - 10.133275
     - 51.377462
     precision: exact
+  itemType: hanger
 ---
 Kaufhaus J.G. Lurch, Heiligenstadt, Pelzwaren

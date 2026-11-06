@@ -1,7 +1,7 @@
 ---
 title: Flebbe
 params:
-  type: store
+  itemType: store
   wikidata: Q118205776
 ---
 

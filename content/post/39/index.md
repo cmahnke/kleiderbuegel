@@ -5,7 +5,6 @@ tags:
 - Merseburg
 - Schneiderei
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,6 @@ params:
     - 11.99752
     - 51.35641
     precision: street
+  itemType: hanger
 ---
 Günter Göhlitz Schneidermeister Merseburg Kl. Ritterstr.

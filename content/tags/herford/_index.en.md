@@ -1,6 +1,6 @@
 ---
 title: Herford
 params:
-  type: place
+  itemType: place
   wikidata: Q3971
 ---

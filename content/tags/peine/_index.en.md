@@ -1,6 +1,6 @@
 ---
 title: Peine
 params:
-  type: place
+  itemType: place
   wikidata: Q6850
 ---

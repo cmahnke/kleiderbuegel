@@ -1,6 +1,6 @@
 ---
 title: Hotel
 params:
-  type: type
+  itemType: type
   wikidata: Q27686
 ---

@@ -5,7 +5,6 @@ tags:
 - Göttingen
 - Pelze
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,6 +20,7 @@ params:
     - 9.936387
     - 51.545794
     precision: exact
+  itemType: hanger
 ---
 Pelz
 Quentin

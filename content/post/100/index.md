@@ -2,7 +2,6 @@
 date: 2024-09-03T12:47:44+02:00
 title: ""
 description: "Gelber 70er Jahre Plastikbügel"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -18,4 +17,5 @@ params:
     * Der Aufkleber beinhaltet das Logo von [Gunter Lambert](https://de.wikipedia.org/wiki/Gunther_Lambert)
   related:
     - 124
+  itemType: hanger
 ---

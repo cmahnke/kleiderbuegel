@@ -1,6 +1,6 @@
 ---
 title: Winningen
 params:
-  type: place
+  itemType: place
   wikidata: Q822358
 ---

@@ -1,6 +1,6 @@
 ---
 title: Färberei
 params:
-  type: type
+  itemType: type
   wikidata: Q67164479
 ---

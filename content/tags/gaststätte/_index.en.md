@@ -1,7 +1,7 @@
 ---
 title: Restaurant
 params:
-  type: type
+  itemType: type
   wikidata: Q11707
   tag: Gaststätte
 ---

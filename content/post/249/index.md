@@ -1,7 +1,6 @@
 ---
 date: 2027-07-06T12:47:44+02:00
 title: "Armin Ketelsen / Wesermünde - Cuxhaven"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -32,5 +31,6 @@ params:
 #   * [Bremerhaven Ketelsen Hafenstr. 76-80 (#114)](/post/114)
 #   * [Ketelsen (#122)](/post/122)
 #   * [Emil Velde, Höhr - Grenzhausen (#227)](/post/227)
+  itemType: hanger
 ---
 Armin Ketelsen / Wesermünde - Cuxhaven

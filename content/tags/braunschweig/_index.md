@@ -1,6 +1,6 @@
 ---
 title: Braunschweig
 params:
-  type: place
+  itemType: place
   wikidata: Q2773
 ---

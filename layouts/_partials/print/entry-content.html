@@ -1,6 +1,6 @@
 {{- $page := . -}}
 
-{{- if or (not (isset .Params "type")) (and (isset .Params "type") (ne .Params.type "hanger")) -}}
+{{- if or (not (isset .Params "itemtype")) (and (isset .Params "itemtype") (ne .Params.itemType "hanger")) -}}
   {{- .Content -}}
 {{- else -}}
 
@@ -48,16 +48,16 @@
       {{- end -}}
 
       {{- with $tagPage -}}
-        {{- if isset .Params "type" -}}
-          {{- if or (eq .Params.type "store") (eq .Params.type "retail_chain") -}}
+        {{- if isset .Params "itemtype" -}}
+          {{- if or (eq .Params.itemType "store") (eq .Params.itemType "retail_chain") -}}
             {{- if ne .Content "" -}}
               {{- $tagContent = printf `%s<div class="tag-content">%s</div>` $tagContent (.RawContent | $.Page.RenderString) -}}
             {{- end -}}
           {{- end -}}
-          {{- if eq .Params.type "place" -}}
+          {{- if eq .Params.itemType "place" -}}
             {{- $place = .Title -}}
           {{- end -}}
-          {{- if eq .Params.type "feature" -}}
+          {{- if eq .Params.itemType "feature" -}}
             {{- $features = $features | append .Title -}}
           {{- end -}}
         {{- end -}}

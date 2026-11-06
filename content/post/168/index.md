@@ -2,7 +2,6 @@
 date: 2025-12-16T12:47:44+02:00
 title: ""
 description: "Brauner 70er Jahre Plastikbügel"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -18,4 +17,5 @@ params:
     - 158
   remarks: |
     Vermutlich von [Ingo Maurer](https://de.wikipedia.org/wiki/Ingo_Maurer) entworfen
+  itemType: hanger
 ---

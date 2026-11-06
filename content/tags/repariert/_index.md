@@ -1,5 +1,5 @@
 ---
 title: Repariert
 params:
-  type: other
+  itemType: other
 ---

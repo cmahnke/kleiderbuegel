@@ -1,7 +1,6 @@
 ---
 date: 2024-05-21T12:47:44+02:00
 title: "Hotel zur Linde Spiekeroog"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,6 @@ params:
     - 7.694924
     - 53.770675
     precision: exact
+  itemType: hanger
 ---
 Hotel zur Linde Spiekeroog

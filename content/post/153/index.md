@@ -1,7 +1,6 @@
 ---
 date: 2025-09-02T12:47:44+02:00
 title: "ALANA FURS"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,5 +22,6 @@ params:
     - -79.385814
     - 43.667337 
     precision: exact
+  itemType: hanger
 ---
 Cold Fur Storage & Repairs ALANA FURS 676 Yonge St. WA 5-3441

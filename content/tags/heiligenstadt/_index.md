@@ -1,7 +1,7 @@
 ---
 title: Heilbad Heiligenstadt
 params:
-  type: place
+  itemType: place
   wikidata: Q564765
   tag: Heiligenstadt
 ---

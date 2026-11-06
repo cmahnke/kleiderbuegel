@@ -1,7 +1,6 @@
 ---
 date: 2021-04-25T12:47:44+02:00
 title: "Hotel - Pension Kardell"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,6 +23,7 @@ params:
     - 13.297131
     - 52.501992
     precision: exact
+  itemType: hanger
 ---
 
 Hotel - Pension Kardell 8875032

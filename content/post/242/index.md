@@ -1,7 +1,6 @@
 ---
 date: 2027-05-18T12:47:44+02:00
 title: "Arnold Hecht"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -19,5 +18,6 @@ params:
     - 8.582789
     - 53.565860
     precision: exact
+  itemType: hanger
 ---
 Arnold Hecht Bremerhaven-L. Jahnstr. 48

@@ -1,7 +1,6 @@
 ---
 date: 2024-12-31T12:47:44+02:00
 title: "Kassel Modehaus Schulz Witzenhausen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,6 +23,7 @@ params:
     - 9.856278
     - 51.342711
     precision: exact
+  itemType: hanger
 ---
 
 Kassel Modehaus Schulz Witzenhausen

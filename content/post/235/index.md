@@ -1,7 +1,6 @@
 ---
 date: 2027-03-30T12:47:44+02:00
 title: "ROCK-UNION"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -13,5 +12,7 @@ tags:
 - "Material: Holz"
 - Union
 - Rockbügel
+params:
+  itemType: hanger
 ---
 ROCK-UNION

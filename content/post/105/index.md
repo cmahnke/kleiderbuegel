@@ -1,7 +1,6 @@
 ---
 date: 2024-10-08T12:47:44+02:00
 title: "Mäntel und Pelze Eichmeyer & Co."
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,6 @@ params:
     - 9.99919
     - 53.55084
     precision: street
+  itemType: hanger
 ---
 Mäntel und Pelze Eichmeyer & Co., Hamburg Mönkebergstr.

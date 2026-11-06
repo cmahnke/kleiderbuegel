@@ -1,7 +1,6 @@
 ---
 date: 2026-01-13T12:47:44+02:00
 title: "Karstadt Stettin"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -35,6 +34,7 @@ params:
     - 14.555894
     - 53.423831
     precision: exact
+  itemType: hanger
 ---
 Karstadt
 Stettin Breitestraße.

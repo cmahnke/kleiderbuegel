@@ -1,7 +1,6 @@
 ---
 date: 2024-06-18T12:47:44+02:00
 title: "Chem. Reinigung Schulte Essen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,6 @@ params:
     - 7.024995
     - 51.420660
     precision: exact
+  itemType: hanger
 ---
 Chem. Reinigung Schulte Essen

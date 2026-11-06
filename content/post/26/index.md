@@ -4,7 +4,6 @@ title: "Hermann Bauchwitz"
 tags:
 - Halle (Saale)
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 11.9795
     - 51.4816
     precision: city
+  itemType: hanger
 ---
 Hermann Bauchwitz, Halle a. S.

@@ -1,7 +1,6 @@
 ---
 date: 2027-09-14T12:47:44+02:00
 title: "Hettlage & Lampe"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -16,6 +15,7 @@ tags:
 params:
   related:
     - 134
+  itemType: hanger
 ---
 
 ***Hettlage & Lampe***

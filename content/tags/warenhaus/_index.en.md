@@ -1,7 +1,7 @@
 ---
 title: Department store
 params:
-  type: type
+  itemType: type
   wikidata: Q216107
   tag: Warenhaus
 ---

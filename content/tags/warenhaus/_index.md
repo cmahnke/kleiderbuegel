@@ -1,6 +1,6 @@
 ---
 title: Warenhaus
 params:
-  type: type
+  itemType: type
   wikidata: Q216107
 ---

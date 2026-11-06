@@ -1,6 +1,6 @@
 ---
 title: Haken
 params:
-  type: feature
+  itemType: feature
   wikidata: Q4243098
 ---

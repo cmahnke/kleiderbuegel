@@ -1,7 +1,6 @@
 ---
 date: 2025-05-13T12:47:44+02:00
 title: "Herrenausstatter hagenah Heide • Markt 26"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,6 +20,7 @@ params:
     - 9.092478
     - 54.194006
     precision: exact
+  itemType: hanger
 ---
 Herrenausstatter
 hagenah

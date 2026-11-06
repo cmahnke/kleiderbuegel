@@ -1,7 +1,6 @@
 ---
 date: 2027-06-29T12:47:44+02:00
 title: "KARSTADT  Hamburg - Mönckebergstr."
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -28,6 +27,7 @@ params:
     - 9.998196
     - 53.551144
     precision: exact
+  itemType: hanger
 ---
 KARSTADT
 Hamburg - Mönckebergstr.

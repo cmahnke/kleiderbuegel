@@ -1,7 +1,7 @@
 ---
 title: Halle an der Saale
 params:
-  type: place
+  itemType: place
   wikidata: Q2814
   tag: Halle (Saale)
 ---

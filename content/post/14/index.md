@@ -6,7 +6,6 @@ tags:
 - "Material: Holz"
 - "Material: Metall"
 - Klammern
-type: hanger
 resources:
 - src: "front.png"
   params:
@@ -14,5 +13,7 @@ resources:
 outputs:
 - html
 - iiif-manifest
+params:
+  itemType: hanger
 ---
 Union für Kostüme

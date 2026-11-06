@@ -1,7 +1,6 @@
 ---
 date: 2027-08-24T12:47:44+02:00
 title: "Többens-Kleidung immer richtig"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,6 +20,7 @@ params:
     * https://www.maenner-toebbens.de/ Lange Str. 76, 27749 Delmenhorst
     * https://www.ceka-kaufhaus.de/wir-ueber-uns/
     * https://www.spurensuche-bremen.de/spur/walter-caspar-toebbens-ein-vegesacker-kaufmann/
+  itemType: hanger
 ---
 
 Többens-Kleidung immer richtig

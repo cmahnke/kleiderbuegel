@@ -1,7 +1,6 @@
 ---
 date: 2025-08-12T12:47:44+02:00
 title: "C.H. Wehmeyer, Schloss Holte"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,6 +19,7 @@ params:
     - 8.6360
     - 51.9027
     precision: city
+  itemType: hanger
 ---
 Reinigung
 C.H. Wehmeyer, Schloss Holte

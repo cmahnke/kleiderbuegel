@@ -1,7 +1,7 @@
 ---
 title: Cologne
 params:
-  type: place
+  itemType: place
   wikidata: Q365
   tag: Köln
 ---

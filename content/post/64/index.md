@@ -1,7 +1,6 @@
 ---
 date: 2021-04-11T12:47:44+02:00
 title: "STAR BOUTIQUE Manuela"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -18,6 +17,7 @@ params:
     * [Manuela in der Wikipedia](https://de.wikipedia.org/wiki/Manuela_(S%C3%A4ngerin))
   related:
     - 147
+  itemType: hanger
 ---
 
 STAR

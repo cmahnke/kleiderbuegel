@@ -1,7 +1,6 @@
 ---
 date: 2020-08-31T18:42:44+02:00
 title: "August Boschert"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,6 @@ params:
     - 7.944887
     - 48.469156
     precision: exact
+  itemType: hanger
 ---
 August Boschert, Offenburg, Steinstrasse 10

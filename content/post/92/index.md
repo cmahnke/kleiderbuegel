@@ -1,7 +1,6 @@
 ---
 date: 2024-07-02T12:47:44+02:00
 title: "Otto Plaumann Modewaren u. Ausstattung"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,5 +22,6 @@ params:
     - 16.4617
     - 53.0419
     precision: city
+  itemType: hanger
 ---
 Otto Plaumann Modewaren u. Ausstattung Schönlanke (Grenzmark)

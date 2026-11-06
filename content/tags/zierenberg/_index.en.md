@@ -1,6 +1,6 @@
 ---
 title: Zierenberg
 params:
-  type: place
+  itemType: place
   wikidata: Q199094
 ---

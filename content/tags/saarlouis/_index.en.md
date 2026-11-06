@@ -1,6 +1,6 @@
 ---
 title: Saarlouis
 params:
-  type: place
+  itemType: place
   wikidata: Q14912
 ---

@@ -1,5 +1,5 @@
 ---
 title: Rockbügel
 params:
-  type: purpose
+  itemType: purpose
 ---

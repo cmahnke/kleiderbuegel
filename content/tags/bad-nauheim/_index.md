@@ -1,6 +1,6 @@
 ---
 title: Bad Nauheim
 params:
-  type: place
+  itemType: place
   wikidata: Q16105
 ---

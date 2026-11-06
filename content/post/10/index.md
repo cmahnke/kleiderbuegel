@@ -5,7 +5,6 @@ tags:
 - Göttingen
 - Bekleidungsgeschäft
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 9.936941
     - 51.533547 
     precision: exact
+  itemType: hanger
 ---
 Fleischmann Göttingen Der Spezialist für Herren- und Knabenkleidung

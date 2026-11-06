@@ -1,6 +1,6 @@
 ---
 title: Neumünster
 params:
-  type: place
+  itemType: place
   wikidata: Q3879
 ---

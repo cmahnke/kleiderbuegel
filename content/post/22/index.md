@@ -4,7 +4,6 @@ title: "Schröder & Zn."
 tags:
 - Amsterdam
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,6 +19,7 @@ params:
     - 4.854847
     - 52.356812 
     precision: exact
+  itemType: hanger
 ---
 
 Schröder & Zn.

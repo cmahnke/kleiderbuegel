@@ -7,7 +7,6 @@ tags:
 - Karstadt
 - "Material: Holz"
 - Beidseitig
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -29,5 +28,6 @@ params:
     - 9.933146
     - 51.532157
     precision: exact
+  itemType: hanger
 ---
 Karstadt Göttingen

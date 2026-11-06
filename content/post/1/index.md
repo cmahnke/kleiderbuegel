@@ -1,7 +1,6 @@
 ---
 date: 2020-08-29T18:22:44+02:00
 title: "Bekleidungshaus Junge"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -14,6 +13,7 @@ params:
     - 9.939238
     - 51.534399
     precision: exact
+  itemType: hanger
 resources:
 - src: "front.png"
   params:

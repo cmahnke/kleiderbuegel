@@ -1,6 +1,6 @@
 ---
 title: Kassel
 params:
-  type: place
+  itemType: place
   wikidata: Q2865
 ---

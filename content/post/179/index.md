@@ -1,7 +1,6 @@
 ---
 date: 2026-03-03T12:47:44+02:00
 title: "Bollerer Freiburg/Br."
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,6 +22,7 @@ params:
     - 7.850401
     - 47.995679
     precision: exact
+  itemType: hanger
 ---
 Bollerer
 Freiburg/Br.

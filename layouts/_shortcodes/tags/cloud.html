@@ -3,7 +3,7 @@
   {{ $pages = $pages | lang.Merge site.RegularPages }}
 {{ end }}
 
-{{- $pages = where $pages "Params.type" "eq" "hanger" -}}
+{{- $pages = where $pages "Params.itemType" "eq" "hanger" -}}
 {{- $pages = where $pages "Section" "in" "post" -}}
 
 {{- $lang := .Page.Language.Name -}}

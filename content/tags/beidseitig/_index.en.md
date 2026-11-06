@@ -1,6 +1,6 @@
 ---
 title: Doublesided
 params:
-  type: other
+  itemType: other
   tag: Beidseitig
 ---

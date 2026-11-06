@@ -1,7 +1,6 @@
 ---
 date: 2027-07-20T12:47:44+02:00
 title: "Overmeyer  KASSEL, am Königsplatz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -25,5 +24,6 @@ params:
     - 9.498939
     - 51.315785
     precision: exact
+  itemType: hanger
 ---
 Overmeyer  KASSEL, am Königsplatz  Herren-u.Juniorenkleidung

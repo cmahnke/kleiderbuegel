@@ -1,6 +1,6 @@
 ---
 title: Klinik
 params:
-  type: type
+  itemType: type
   wikidata: Q1774898
 ---

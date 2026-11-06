@@ -1,7 +1,6 @@
 ---
 date: 2021-05-23T12:47:44+02:00
 title: "Hotel Bachmair am See"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,6 +22,7 @@ params:
     - 11.763924
     - 47.695523
     precision: exact
+  itemType: hanger
 ---
 
 Hotel Bachmair am See Rottach - Egern / Tegernsee

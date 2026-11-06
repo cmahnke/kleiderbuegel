@@ -1,7 +1,6 @@
 ---
 date: 2027-02-09T12:47:44+02:00
 title: "Elli Beumer"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 9.9959
     - 51.7002
     precision: city
+  itemType: hanger
 ---
 Damenmoden  Elli Beumer  Northeim

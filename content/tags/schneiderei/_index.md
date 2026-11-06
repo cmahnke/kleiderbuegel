@@ -1,6 +1,6 @@
 ---
 title: Schneiderei
 params:
-  type: type
+  itemType: type
   wikidata: Q47508085
 ---

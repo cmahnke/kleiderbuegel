@@ -1,7 +1,7 @@
 ---
 title: Rottach-Egern
 params:
-  type: place
+  itemType: place
   wikidata: Q504255
   tag: Rottach - Egern
 ---

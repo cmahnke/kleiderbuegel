@@ -1,6 +1,6 @@
 ---
 title: Karlsruhe
 params:
-  type: place
+  itemType: place
   wikidata: Q1040
 ---

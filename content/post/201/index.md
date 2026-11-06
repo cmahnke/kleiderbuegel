@@ -1,7 +1,6 @@
 ---
 date: 2026-08-04T12:47:44+02:00
 title: "Korbmacher"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 10.230992
     - 52.320145
     precision: exact
+  itemType: hanger
 ---
 Korbmacher

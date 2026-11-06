@@ -1,7 +1,7 @@
 ---
 title: Metall
 params:
-  type: material
+  itemType: material
   wikidata: Q11426
   tag: "Material: Metall"
 ---

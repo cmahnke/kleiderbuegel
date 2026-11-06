@@ -1,6 +1,6 @@
 ---
 title: Skirt hanger
 params:
-  type: purpose
+  itemType: purpose
   tag: Rockbügel
 ---

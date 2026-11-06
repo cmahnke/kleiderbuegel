@@ -1,5 +1,5 @@
 ---
 title: Reisekleiderbügel
 params:
-  type: purpose
+  itemType: purpose
 ---

@@ -15,7 +15,7 @@
 {{- end -}}
 
 {{- $pages = where $pages "Section" "in" "post" -}}
-{{- $pages = where $pages "Params.type" "eq" "hanger" -}}
+{{- $pages = where $pages "Params.itemType" "eq" "hanger" -}}
 {{- if eq $val "nil" -}}
   {{- $pages = where $pages $param $op nil -}}
 {{- else -}}

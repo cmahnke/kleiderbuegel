@@ -6,7 +6,6 @@ tags:
 - "Material: Holz"
 - Warenhaus
 - Fahning
-type: hanger
 resources:
 - src: "front.png"
   params:
@@ -25,5 +24,6 @@ params:
     - 9.991803
     - 53.552008 
     precision: exact
+  itemType: hanger
 ---
 Franz Fahning Hamburg Neuerwall

@@ -25,7 +25,7 @@
     {{- end -}}
   {{- end -}}
 
-  {{ if not (isset .Params "type") }}
+  {{ if not (isset .Params "itemtype") }}
     {{ errorf "[check.html] No type for post" .RelPermalink }}
   {{- end -}}
 
@@ -33,7 +33,7 @@
     {{- warnf "[check.html] Page is a draft %s" .RelPermalink -}}
   {{- end -}}
 
-  {{- if ne .Params.type "text" -}}
+  {{- if ne .Params.itemType "text" -}}
     {{- if not (isset .Params "geojson") -}}
       {{- warnf "[check.html] GeoJson missing for %s" .RelPermalink -}}
     {{- end -}}

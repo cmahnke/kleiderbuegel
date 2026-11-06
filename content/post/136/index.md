@@ -1,7 +1,6 @@
 ---
 date: 2025-05-06T12:47:44+02:00
 title: "Union Rock-Jon D.B.Wz."
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,6 +19,7 @@ params:
   donation: Helga Mahnke
   related:
     - 41
+  itemType: hanger
 ---
 Union Rock-Jon
 D.B.Wz.

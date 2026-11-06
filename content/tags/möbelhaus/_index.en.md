@@ -1,7 +1,7 @@
 ---
 title: Furniture store
 params:
-  type: type
+  itemType: type
   wikidata: Q104817981
   tag: Möbelhaus
 ---

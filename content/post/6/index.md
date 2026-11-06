@@ -8,7 +8,6 @@ tags:
 - Oldenburg
 - Hotel
 - "Material: Holz"
-type: hanger
 resources:
 - src: "front.png"
   params:
@@ -23,5 +22,6 @@ params:
     - 8.223064
     - 53.142814
     precision: exact
+  itemType: hanger
 ---
 Hotel Deus, Oldenburg

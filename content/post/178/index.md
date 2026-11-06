@@ -1,7 +1,6 @@
 ---
 date: 2026-02-24T12:47:44+02:00
 title: "Reinigung Centralux Hannover"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 9.7320
     - 52.3759
     precision: city
+  itemType: hanger
 ---
 Reinigung Centralux Hannover

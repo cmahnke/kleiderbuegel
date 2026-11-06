@@ -1,7 +1,6 @@
 ---
 date: 2021-05-02T12:47:44+02:00
 title: "Wäschepflege TESTORP"
-type: hanger
 params:
   address: Hamburg
   source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
@@ -16,6 +15,7 @@ params:
     - 9.9872
     - 53.5488
     precision: city
+  itemType: hanger
 outputs:
 - html
 - iiif-manifest

@@ -1,7 +1,7 @@
 ---
 title: Hanover
 params:
-  type: place
+  itemType: place
   wikidata: Q1715
   tag: Hannover
 ---

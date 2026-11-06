@@ -1,7 +1,6 @@
 ---
 date: 2024-07-09T12:47:44+02:00
 title: "Konfektionshaus Fritz Becker Warburg i. W."
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,5 +19,6 @@ params:
     - 9.1452
     - 51.4899
     precision: city
+  itemType: hanger
 ---
 Konfektionshaus Fritz Becker Warburg i. W.

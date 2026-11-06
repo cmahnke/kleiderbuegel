@@ -1,7 +1,6 @@
 ---
 date: 2021-06-27T12:47:44+02:00
 title: "Theaterkunst GMBH."
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,6 +22,7 @@ params:
     - 13.305113
     - 52.491295
     precision: exact
+  itemType: hanger
 ---
 
 Theaterkunst GMBH.

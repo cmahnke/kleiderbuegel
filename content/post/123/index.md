@@ -1,7 +1,6 @@
 ---
 date: 2025-02-04T12:47:44+02:00
 title: "Herrenbekleidung Hut-Weber Höxter Herrenaustattung"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,6 +23,7 @@ params:
     - 9.381629
     - 51.776680 
     precision: exact
+  itemType: hanger
 ---
 
 Herrenbekleidung

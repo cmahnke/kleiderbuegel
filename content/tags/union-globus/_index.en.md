@@ -1,6 +1,6 @@
 ---
 title: Union Globus
 params:
-  type: brand
+  itemType: brand
   wikidata: Q66818922
 ---

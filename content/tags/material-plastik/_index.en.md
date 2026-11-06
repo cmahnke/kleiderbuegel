@@ -1,7 +1,7 @@
 ---
 title: Plastic
 params:
-  type: material
+  itemType: material
   wikidata: Q11474
   tag: "Material: Plastik"
 ---

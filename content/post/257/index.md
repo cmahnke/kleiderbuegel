@@ -1,7 +1,6 @@
 ---
 date: 2027-08-31T12:47:44+02:00
 title: "Herrenspezialhaus Arthur Wittke"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,6 +23,7 @@ params:
     - 9.095635
     - 54.194716
     precision: exact
+  itemType: hanger
 ---
 
 Herrenspezialhaus <i>[Logo]</i> Arthur Wittke, Heide i. Holst.

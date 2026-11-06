@@ -1,7 +1,7 @@
 ---
 title: C. Louis Weber
 params:
-  type: store
+  itemType: store
 ---
 
 C. Louis Weber was a clothing manufacturer and retailer in Hanover.

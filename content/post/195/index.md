@@ -1,7 +1,6 @@
 ---
 date: 2026-06-23T12:47:44+02:00
 title: "Rosbach & Risse"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,5 +22,6 @@ params:
     - 10.520544
     - 52.262521
     precision: exact
+  itemType: hanger
 ---
 Rosbach & Risse

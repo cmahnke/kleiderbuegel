@@ -1,11 +1,11 @@
 ---
 date: 2021-07-25T12:47:44+02:00
 title: "-„formtreu“-Kleidung - veredelte Kleidung!"
-type: hanger
 params:
   source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
   iiif:
     behavior: individuals
+  itemType: hanger
 outputs:
 - html
 - iiif-manifest

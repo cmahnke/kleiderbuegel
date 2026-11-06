@@ -1,7 +1,6 @@
 ---
 date: 2024-08-06T12:47:44+02:00
 title: "Dorum Fritz von Geldern Bederkesa"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,6 +19,7 @@ params:
     - 8.841189
     - 53.625390
     precision: exact
+  itemType: hanger
 ---
 Dorum
 Fritz von Geldern

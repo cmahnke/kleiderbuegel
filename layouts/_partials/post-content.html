@@ -1,6 +1,6 @@
 {{- $page := . -}}
 
-{{- if or (not (isset .Params "type")) (and (isset .Params "type") (ne .Params.type "hanger")) -}}
+{{- if or (not (isset .Params "itemtype")) (and (isset .Params "itemtype") (ne .Params.itemType "hanger")) -}}
   {{- .Content -}}
 {{- else -}}
   {{- if ne .Content "" -}}
@@ -66,8 +66,8 @@
       {{- end -}}
 
       {{- with $tagPage -}}
-        {{- if isset .Params "type" -}}
-          {{- if or (eq .Params.type "store") (eq .Params.type "retail_chain") -}}
+        {{- if isset .Params "itemtype" -}}
+          {{- if or (eq .Params.itemType "store") (eq .Params.itemType "retail_chain") -}}
             {{- if ne .Content "" -}}
               {{- $additional = printf "%s%s%s%s" $additional `<div class="tag-content">` .Content `</div>` -}}
             {{- end -}}

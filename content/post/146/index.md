@@ -1,7 +1,6 @@
 ---
 date: 2025-07-15T12:47:44+02:00
 title: "CINTRES"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -15,6 +14,7 @@ params:
   remarks: |
     * Leider nicht vollständig lesbar, aber wohl aus Frankreich
     * "Modèle déposé" bedeutet gesetzlich geschützt, vergleichbar mi einem Gebrauchsmuster in Deutschland
+  itemType: hanger
 ---
 CINTRES
 <i>[B]</i>EHLEB

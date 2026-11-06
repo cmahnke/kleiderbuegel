@@ -1,5 +1,5 @@
 ---
 title: Hosenbügel
 params:
-  type: purpose
+  itemType: purpose
 ---

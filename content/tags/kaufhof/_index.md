@@ -1,7 +1,7 @@
 ---
 title: Kaufhof
 params:
-  type: retail_chain
+  itemType: retail_chain
   wikidata: Q322598
 ---
 

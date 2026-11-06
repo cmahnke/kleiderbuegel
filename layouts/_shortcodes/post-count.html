@@ -15,7 +15,7 @@
 
 {{- $posts := slice -}}
 {{- if ne $type "" -}}
-  {{- $posts = (where (where $pages "Section" $section) "Params.type" $type).Reverse -}}
+  {{- $posts = (where (where $pages "Section" $section) "Params.itemType" $type).Reverse -}}
 {{- else -}}
   {{- $posts = (where $pages "Section" $section) -}}
 {{- end -}}

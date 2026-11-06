@@ -5,7 +5,6 @@ tags:
 - Osterode
 - Bekleidungsgeschäft
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,5 +22,6 @@ params:
     - 10.252980
     - 51.727613
     precision: exact
+  itemType: hanger
 ---
 Modehaus Stark Osterode/Harz

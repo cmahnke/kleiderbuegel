@@ -1,7 +1,6 @@
 ---
 date: 2027-08-03T12:47:44+02:00
 title: "Hanse-Kleidung"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -29,5 +28,6 @@ params:
     - 8.605143
     - 53.045288
     precision: exact
+  itemType: hanger
 ---
 Hanse-Kleidung

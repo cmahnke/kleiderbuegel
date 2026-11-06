@@ -1,6 +1,6 @@
 ---
 title: Steinheim
 params:
-  type: place
+  itemType: place
   wikidata: Q202377
 ---

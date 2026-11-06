@@ -1,7 +1,6 @@
 ---
 date: 2024-12-24T12:47:44+02:00
 title: "Quick Shop"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,6 +19,7 @@ params:
     - 4.3517
     - 50.8467
     precision: city
+  itemType: hanger
 ---
 NIEUWKUIS IN 2 UUR
 BLANKENBERGE

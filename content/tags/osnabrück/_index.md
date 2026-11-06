@@ -1,6 +1,6 @@
 ---
 title: Osnabrück
 params:
-  type: place
+  itemType: place
   wikidata: Q2916
 ---

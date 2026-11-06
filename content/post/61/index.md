@@ -1,7 +1,6 @@
 ---
 date: 2021-03-21T12:47:44+02:00
 title: "Ernst Fricke"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -15,6 +14,7 @@ params:
     - 9.934293
     - 51.532329 
     precision: exact
+  itemType: hanger
 resources:
 - src: "front.png"
   params:

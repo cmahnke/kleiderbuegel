@@ -1,7 +1,6 @@
 ---
 date: 2024-11-05T12:47:44+02:00
 title: "W. Marwitz Lüneburg"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,6 +20,7 @@ params:
     - 10.476885
     - 53.243490 
     precision: exact
+  itemType: hanger
 ---
 Lüneburg
 W. Marwitz

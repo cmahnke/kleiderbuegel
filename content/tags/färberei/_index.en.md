@@ -1,7 +1,7 @@
 ---
 title: Dyeworks
 params:
-  type: type
+  itemType: type
   wikidata: Q67164479
   tag: Färberei
 ---

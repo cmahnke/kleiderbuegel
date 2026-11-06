@@ -5,12 +5,12 @@ params:
   source: <a href="https://www.neue-arbeit-brockensammlung.de/geschaefte/zweigstelle-kim/">KiM</a>
   iiif:
     behavior: individuals
+  itemType: hanger
 tags:
 - Karstadt
 - Warenhaus
 - "Material: Holz"
 - Beidseitig
-type: hanger
 resources:
 - src: "front.png"
   params:

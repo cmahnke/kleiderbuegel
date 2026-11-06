@@ -3,8 +3,8 @@
 {{- $hangers := . -}}
 <div class="swiper rail-container">
   <div class="swiper-wrapper">
-    {{- range where $hangers "Params.type" "eq" "hanger" -}}
-      {{- $title := .Params.title -}}
+    {{- range where $hangers "Params.itemType" "eq" "hanger" -}}
+      {{- $title := .Title -}}
       {{- $front := .Resources.GetMatch "front*" -}}
       {{- $thumbDesktop := $front.Resize (printf "%dx webp picture" $widthDesktop) -}}
       {{- $thumbMobile := $front.Resize (printf "%dx webp picture" $widthMobile) -}}

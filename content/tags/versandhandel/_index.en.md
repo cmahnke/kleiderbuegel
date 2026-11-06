@@ -1,7 +1,7 @@
 ---
 title: Mail order
 params:
-  type: type
+  itemType: type
   wikidata: Q425779
   tag: Versandhandel
 ---

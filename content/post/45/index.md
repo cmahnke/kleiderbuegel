@@ -7,7 +7,6 @@ tags:
 - "Material: Holz"
 - Beidseitig
 - Overmeyer
-type: hanger
 params:
   address: Königsplatz 38–40, Kassel
   related:
@@ -21,6 +20,7 @@ params:
     - 9.498939
     - 51.315785
     precision: exact
+  itemType: hanger
 outputs:
 - html
 - iiif-manifest

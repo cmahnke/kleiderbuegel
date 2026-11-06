@@ -1,6 +1,6 @@
 ---
 title: Celle
 params:
-  type: place
+  itemType: place
   wikidata: Q3933
 ---

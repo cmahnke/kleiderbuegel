@@ -1,7 +1,7 @@
 ---
 title: Holz
 params:
-  type: material
+  itemType: material
   wikidata: Q287
   tag: "Material: Holz"
 ---

@@ -1,7 +1,6 @@
 ---
 date: 2026-05-05T12:47:44+02:00
 title: "Erdmann Kleidung"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -26,6 +25,7 @@ params:
   related:
     - 121
     - 149
+  itemType: hanger
 ---
 Hanover  Erdmann  Peine
          Kleidung

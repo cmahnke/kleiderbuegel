@@ -1,7 +1,6 @@
 ---
 date: 2024-04-23T12:47:44+02:00
 title: "ALOYS BUNGE Bekleidungshaus HANNOVER"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
     - 9.745733
     - 52.382808
     precision: exact
+  itemType: hanger
 ---
 ALOYS BUNGE
 Bekleidungshaus

@@ -1,7 +1,6 @@
 ---
 date: 2020-08-30T18:32:44+02:00
 title: "Bekleidungshaus Jöris"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,5 +23,6 @@ params:
     - 6.357411
     - 50.922683
     precision: exact
+  itemType: hanger
 ---
 Bekleidungshaus Jöris, Jülich Düsseldorferstr.

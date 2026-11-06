@@ -5,7 +5,6 @@ tags:
 - Göttingen
 - Pelze
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 9.938803
     - 51.525090
     precision: exact
+  itemType: hanger
 ---
 Schillerstr. 30 Josef Henn Kürschnermeister Göttingen

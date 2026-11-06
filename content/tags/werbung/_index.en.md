@@ -1,7 +1,7 @@
 ---
 title: Advertising
 params:
-  type: type
+  itemType: type
   wikidata: Q37038
   tag: Werbung
 ---

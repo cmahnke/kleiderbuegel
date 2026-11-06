@@ -1,7 +1,6 @@
 ---
 date: 2021-03-14T12:32:44+02:00
 title: "Jordan"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,5 +23,6 @@ params:
     - 8.589586
     - 53.532690
     precision: exact
+  itemType: hanger
 ---
 „Herrenausstatter“ Jordan  Bremerhaven-G. Ruf 21332

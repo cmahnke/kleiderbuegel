@@ -5,7 +5,6 @@ tags:
 - Kassel
 - Bekleidungsgeschäft
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,5 +22,6 @@ params:
     - 9.491959
     - 51.313844
     precision: exact
+  itemType: hanger
 ---
 Modehaus Schulz Kassel

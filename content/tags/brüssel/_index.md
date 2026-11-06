@@ -1,6 +1,6 @@
 ---
 title: Brüssel
 params:
-  type: place
+  itemType: place
   wikidata: Q239
 ---

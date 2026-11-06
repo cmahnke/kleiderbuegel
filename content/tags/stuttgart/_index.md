@@ -1,6 +1,6 @@
 ---
 title: Stuttgart
 params:
-  type: place
+  itemType: place
   wikidata: Q1022
 ---

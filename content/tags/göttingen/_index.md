@@ -1,7 +1,7 @@
 ---
 title: Göttingen
 params:
-  type: place
+  itemType: place
   wikidata: Q3033
   geojson:
     coordinates:

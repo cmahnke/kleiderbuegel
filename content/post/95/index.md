@@ -1,7 +1,6 @@
 ---
 date: 2024-07-23T12:47:44+02:00
 title: "Ernst Stackmann Buxtehude"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 9.699113
     - 53.475498
     precision: exact
+  itemType: hanger
 ---
 Ernst Stackmann Buxtehude Ernst Stackmann Das Haus für gute Bekleidung

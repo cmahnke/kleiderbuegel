@@ -1,7 +1,6 @@
 ---
 date: 2026-11-03T12:47:44+02:00
 title: "C. Louis Weber Hannover"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,5 +23,6 @@ params:
     - 9.737287
     - 52.374366
     precision: exact
+  itemType: hanger
 ---
 Bekleidung C. Louis Weber Hannover Pelze

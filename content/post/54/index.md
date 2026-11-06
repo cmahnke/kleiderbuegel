@@ -1,7 +1,6 @@
 ---
 date: 2021-02-24T12:32:44+02:00
 title: "Printz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 8.46286
     - 49.02191
     precision: street
+  itemType: hanger
 ---
 Printz reinigt Kleidung richtig

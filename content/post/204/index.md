@@ -1,7 +1,6 @@
 ---
 date: 2026-08-25T12:47:44+02:00
 title: "T.F. Damm, Norden"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
     - 7.210507
     - 53.593998
     precision: exact
+  itemType: hanger
 ---
 
 T.F. Damm, Norden

@@ -1,7 +1,6 @@
 ---
 date: 2024-11-12T12:47:44+02:00
 title: "RASCH REINIG RÖSLER"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -12,5 +11,7 @@ resources:
 tags:
 - "Material: Holz"
 - Reinigung
+params:
+  itemType: hanger
 ---
 RASCH REINIG RÖSLER

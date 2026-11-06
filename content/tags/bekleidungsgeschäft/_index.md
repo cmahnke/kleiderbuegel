@@ -1,6 +1,6 @@
 ---
 title: Bekleidungsgeschäft
 params:
-  type: type
+  itemType: type
   wikidata: Q2090555
 ---

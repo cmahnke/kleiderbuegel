@@ -1,7 +1,6 @@
 ---
 date: 2026-10-27T12:47:44+02:00
 title: "Carstens Köln"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -19,6 +18,7 @@ params:
     - 6.956274
     - 50.936823
     precision: exact
+  itemType: hanger
 ---
 Das große Spezialhaus CarsTens KÖLN HOHE STRASSE,
 ECKE SCHILDERGASSE

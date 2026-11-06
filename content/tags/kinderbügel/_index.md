@@ -1,6 +1,6 @@
 ---
 title: Kinderkleiderbügel
 params:
-  type: purpose
+  itemType: purpose
   tag: Kinderbügel
 ---

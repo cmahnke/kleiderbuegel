@@ -17,7 +17,7 @@
     {{- $tagPath := (urls.Parse $tagUrl).Path -}}
 
     {{- with site.GetPage $tagPath -}}
-      {{- if and (eq .Params.type $type) (not (in $tagPages .)) -}}
+      {{- if and (eq .Params.itemType $type) (not (in $tagPages .)) -}}
         {{- $tagPages = $tagPages | append . -}}
       {{- end -}}
     {{- end -}}
@@ -33,7 +33,7 @@
     {{- end -}}
     {{- $termPages := slice -}}
     {{- $indexPages := slice -}}
-    {{- $pages := where $matchedPages "Params.type" "eq" "hanger" -}}
+    {{- $pages := where $matchedPages "Params.itemType" "eq" "hanger" -}}
 
     {{- $defaultTitle := .Title -}}
     {{- if (isset .Params "tag") -}}

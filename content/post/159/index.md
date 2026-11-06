@@ -1,7 +1,6 @@
 ---
 date: 2025-10-14T12:47:44+02:00
 title: "Camel"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -15,6 +14,7 @@ tags:
 params:
   remarks: |
     [Camel in der Wikipedia](https://de.wikipedia.org/wiki/Camel_(Zigarettenmarke))
+  itemType: hanger
 ---
 
 <i>Nur das [Camel Logo]</i>

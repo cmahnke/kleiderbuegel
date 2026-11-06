@@ -1,7 +1,6 @@
 ---
 date: 2026-02-10T12:47:44+02:00
 title: "August Wellhölter Herford"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 8.671006
     - 52.114049
     precision: exact
+  itemType: hanger
 ---
 August Wellhölter Herford, Alter Markt II

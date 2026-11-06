@@ -1,6 +1,6 @@
 ---
 title: Köln
 params:
-  type: place
+  itemType: place
   wikidata: Q365
 ---

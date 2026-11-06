@@ -1,7 +1,6 @@
 ---
 date: 2027-05-04T12:47:44+02:00
 title: "Schacke Göttingen"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,6 +22,7 @@ params:
     - 9.928363
     - 51.534346
     precision: exact
+  itemType: hanger
 ---
 
 Reinigung u. Färberei Schacke Göttingen

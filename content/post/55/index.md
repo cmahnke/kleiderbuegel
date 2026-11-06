@@ -1,7 +1,6 @@
 ---
 date: 2021-02-25T12:32:44+02:00
 title: "POL"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -16,6 +15,7 @@ tags:
 - Haken
 params:
   source: <a href="http://www.zeitzeug.de/">Zeitzeug</a>
+  itemType: hanger
 ---
 POL
 Eingetragene  Schutzmarke

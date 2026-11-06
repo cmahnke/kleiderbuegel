@@ -1,7 +1,6 @@
 ---
 date: 2027-10-19T12:47:44+02:00
 title: ""
-type: hanger
 description: "Gebr. Dobberkau Schöningen"
 outputs:
 - html
@@ -21,6 +20,7 @@ params:
     - 10.968957
     - 52.138912
     precision: exact
+  itemType: hanger
 ---
 
 Das führende Textilhaus  Gebr. Dobberkau Schöningen

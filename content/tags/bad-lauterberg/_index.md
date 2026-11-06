@@ -1,6 +1,6 @@
 ---
 title: Bad Lauterberg
 params:
-  type: place
+  itemType: place
   wikidata: Q309505
 ---

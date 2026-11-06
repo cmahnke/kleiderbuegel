@@ -1,7 +1,6 @@
 ---
 date: 2024-10-29T12:47:44+02:00
 title: "Sangermann Köln"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 6.952874
     - 50.938626
     precision: exact
+  itemType: hanger
 ---
 Sangermann Köln

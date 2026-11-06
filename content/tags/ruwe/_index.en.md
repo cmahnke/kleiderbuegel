@@ -1,5 +1,5 @@
 ---
 title: ruwe
 params:
-  type: brand
+  itemType: brand
 ---

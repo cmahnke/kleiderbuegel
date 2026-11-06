@@ -1,7 +1,8 @@
 ---
 title: 'Improvements 2025'
 date: 2025-10-19T07:30:07+02:00
-type: text
+params:
+  itemType: text
 ---
 
 This page has been slightly revised for an upcoming exhibition:

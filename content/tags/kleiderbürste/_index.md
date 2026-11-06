@@ -1,6 +1,6 @@
 ---
 title: Kleiderbürste
 params:
-  type: feature
+  itemType: feature
   wikidata: Q1746166
 ---

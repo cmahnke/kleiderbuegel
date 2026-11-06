@@ -1,6 +1,6 @@
 ---
 title: Trouser hanger
 params:
-  type: purpose
+  itemType: purpose
   tag: Hosenbügel
 ---

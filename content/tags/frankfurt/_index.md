@@ -1,7 +1,7 @@
 ---
 title: Frankfurt (Main)
 params:
-  type: place
+  itemType: place
   wikidata: Q1794
   tag: Frankfurt
 ---

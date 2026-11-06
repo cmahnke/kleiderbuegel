@@ -4,7 +4,6 @@ title: "Moritz Cahn"
 tags:
 - Halle (Saale)
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,5 +21,6 @@ params:
     - 11.969178
     - 51.484483
     precision: exact
+  itemType: hanger
 ---
 Moritz Cahn, Halle a.S.

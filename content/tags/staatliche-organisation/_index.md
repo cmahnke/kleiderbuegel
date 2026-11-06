@@ -1,6 +1,6 @@
 ---
 title: Staatliche Organisation
 params:
-  type: type
+  itemType: type
   wikidata: Q2659904
 ---

@@ -1,7 +1,6 @@
 ---
 date: 2026-10-06T12:47:44+02:00
 title: "Puma"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -15,6 +14,7 @@ tags:
 params:
   remarks: |
     * [Puma in der Wikipedia](https://de.wikipedia.org/wiki/Puma_(Sportartikelhersteller))
+  itemType: hanger
 ---
 
 Puma

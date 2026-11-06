@@ -1,7 +1,6 @@
 ---
 date: 2027-04-20T12:47:44+02:00
 title: "Lagerbügel Karstadt Braunschweig"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -22,6 +21,7 @@ params:
     - 10.520361
     - 52.263572
     precision: exact
+  itemType: hanger
 ---
 
 UNION

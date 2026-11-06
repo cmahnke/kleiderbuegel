@@ -1,7 +1,6 @@
 ---
 date: 2024-07-16T12:47:44+02:00
 title: "Wäscherei - Speck, Helmstedt - chem. Reinigung"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,4 +20,5 @@ params:
     - 11.0037
     - 52.2273
     precision: city
+  itemType: hanger
 ---

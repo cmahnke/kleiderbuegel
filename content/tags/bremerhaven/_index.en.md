@@ -1,6 +1,6 @@
 ---
 title: Bremerhaven
 params:
-  type: place
+  itemType: place
   wikidata: Q2706
 ---

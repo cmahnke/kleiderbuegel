@@ -1,6 +1,6 @@
 ---
 title: Children's hangers
 params:
-  type: purpose
+  itemType: purpose
   tag: Kinderbügel
 ---

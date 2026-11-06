@@ -1,7 +1,6 @@
 ---
 date: 2026-01-20T12:47:44+02:00
 title: "Geschw. Alsberg"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,5 +23,6 @@ params:
     - 7.59516
     - 50.36024
     precision: street
+  itemType: hanger
 ---
 1875 Geschw. Alsberg, Coblenz 1925

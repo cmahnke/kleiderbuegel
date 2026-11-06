@@ -1,6 +1,6 @@
 ---
 title: Uslar
 params:
-  type: place
+  itemType: place
   wikidata: Q159814
 ---

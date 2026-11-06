@@ -1,7 +1,6 @@
 ---
 date: 2024-06-04T12:47:44+02:00
 title: "P.A. Das modische Textilhaus, Bad Mergentheim"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -20,6 +19,7 @@ params:
     - 9.7704
     - 49.4885
     precision: city
+  itemType: hanger
 ---
 
 P.A. Das modische Textilhaus,

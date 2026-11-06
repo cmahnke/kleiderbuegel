@@ -1,6 +1,6 @@
 ---
 title: Höhr-Grenzhausen
 params:
-  type: place
+  itemType: place
   wikidata: Q50899
 ---

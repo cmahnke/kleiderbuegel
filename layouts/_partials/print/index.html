@@ -5,7 +5,7 @@
 {{- end -}}
 {{- $terms := where $pages "Section" "in" "tags" -}}
 {{- if ne $type "all" -}}
-  {{- $terms = (where $terms "Params.type" "eq" $type).ByTitle -}}
+  {{- $terms = (where $terms "Params.itemType" "eq" $type).ByTitle -}}
 {{- end -}}
 
 <ul data-type="{{ $type }}" class="{{ printf "index %s" $type | safeHTMLAttr }}">
@@ -16,7 +16,7 @@
     {{- end -}}
     {{- $termPages := slice -}}
     {{- $indexPages := slice -}}
-    {{- $pages = where $pages "Params.type" "eq" "hanger" -}}
+    {{- $pages = where $pages "Params.itemType" "eq" "hanger" -}}
     {{- if ne $type "all" -}}
       {{- $defaultTitle := .Title -}}
       {{- if (isset .Params "tag") -}}

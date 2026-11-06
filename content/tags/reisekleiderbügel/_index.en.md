@@ -1,6 +1,6 @@
 ---
 title: Travel clothes hanger
 params:
-  type: purpose
+  itemType: purpose
   tag: Reisekleiderbügel
 ---

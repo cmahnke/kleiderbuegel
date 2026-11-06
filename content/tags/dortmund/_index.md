@@ -1,6 +1,6 @@
 ---
 title: Dortmund
 params:
-  type: place
+  itemType: place
   wikidata: Q1295
 ---

@@ -1,6 +1,6 @@
 ---
 title: Koblenz
 params:
-  type: place
+  itemType: place
   wikidata: Q3104
 ---

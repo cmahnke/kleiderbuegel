@@ -1,7 +1,7 @@
 ---
 title: Hertie
 params:
-  type: retail_chain
+  itemType: retail_chain
   wikidata: Q1614727
 ---
 

@@ -1,7 +1,6 @@
 ---
 date: 2027-02-16T12:47:44+02:00
 title: "Heidenreich Kiel"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -24,6 +23,7 @@ params:
     - 10.134480
     - 54.320779
     precision: exact
+  itemType: hanger
 ---
 Heidenreich Kiel
 FEINE DAMENMODEN

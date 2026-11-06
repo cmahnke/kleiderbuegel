@@ -1,6 +1,6 @@
 ---
 title: Flensburg
 params:
-  type: place
+  itemType: place
   wikidata: Q3798
 ---

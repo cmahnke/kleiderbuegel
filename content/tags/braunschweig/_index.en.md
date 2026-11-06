@@ -1,7 +1,7 @@
 ---
 title: Braunswick
 params:
-  type: place
+  itemType: place
   wikidata: Q2773
   tag: Braunschweig
 ---

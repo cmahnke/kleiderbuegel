@@ -1,6 +1,6 @@
 ---
 title: Fabrik
 params:
-  type: type
+  itemType: type
   wikidata: Q55748823
 ---

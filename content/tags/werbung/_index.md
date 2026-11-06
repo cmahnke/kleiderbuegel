@@ -1,6 +1,6 @@
 ---
 title: Werbung
 params:
-  type: type
+  itemType: type
   wikidata: Q37038
 ---

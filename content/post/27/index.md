@@ -6,7 +6,6 @@ tags:
 - Karstadt
 - Warenhaus
 - "Material: Holz"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -21,5 +20,6 @@ params:
     - 9.933146
     - 51.532157
     precision: exact
+  itemType: hanger
 ---
 Rudolf Karstadt A.G., Göttingen

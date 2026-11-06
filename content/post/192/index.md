@@ -1,7 +1,6 @@
 ---
 date: 2026-06-02T12:47:44+02:00
 title: "Georg Dobert, Duderstadt"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -30,4 +29,5 @@ params:
     - 10.259998
     - 51.512409 
     precision: exact
+  itemType: hanger
 ---

@@ -1,7 +1,7 @@
 ---
 title: Pelze / Kürschner
 params:
-  type: type
+  itemType: type
   wikidata: Q2295938
   tag: Pelze
 ---

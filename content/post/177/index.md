@@ -1,7 +1,6 @@
 ---
 date: 2026-02-17T12:47:44+02:00
 title: "Teppich-Reinigung Testorp"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -16,5 +15,6 @@ tags:
 params:
   related:
     - 67
+  itemType: hanger
 ---
 Teppich-Reinigung qm DM 4,50 • TESTORP • Ruf 611661

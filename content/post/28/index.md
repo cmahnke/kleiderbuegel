@@ -6,7 +6,6 @@ tags:
 - Karstadt
 - Warenhaus
 - "Material: Holz"
-type: hanger
 resources:
 - src: "front.png"
   params:
@@ -22,5 +21,6 @@ params:
     - 9.933146
     - 51.532157
     precision: exact
+  itemType: hanger
 ---
 Lagerbügel Karstadt, Göttingen

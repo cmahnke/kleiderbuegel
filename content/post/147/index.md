@@ -1,7 +1,6 @@
 ---
 date: 2025-07-22T12:47:44+02:00
 title: "Star Boutique Manuela"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -16,6 +15,7 @@ params:
   doublesided: true
   related:
     - 64
+  itemType: hanger
 ---
 Star Boutique
 Manuela

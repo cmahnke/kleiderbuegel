@@ -1,6 +1,6 @@
 ---
 title: Grömitz
 params:
-  type: place
+  itemType: place
   wikidata: Q541739
 ---

@@ -3,7 +3,7 @@ title: C&A (Brenninkmayer)
 aliases:
   - /tags/ca
 params:
-  type: retail_chain
+  itemType: retail_chain
   wikidata: Q701338
   tag: Brenninkmayer
   index:

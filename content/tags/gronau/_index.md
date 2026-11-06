@@ -1,5 +1,5 @@
 ---
 title: Gronau
 params:
-  type: place
+  itemType: place
 ---

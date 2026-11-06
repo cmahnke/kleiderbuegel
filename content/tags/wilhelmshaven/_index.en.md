@@ -1,6 +1,6 @@
 ---
 title: Wilhelmshaven
 params:
-  type: place
+  itemType: place
   wikidata: Q3857
 ---

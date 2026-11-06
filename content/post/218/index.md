@@ -1,7 +1,6 @@
 ---
 date: 2026-12-01T12:47:44+02:00
 title: "fahning"
-type: hanger
 outputs:
 - html
 - iiif-manifest
@@ -23,5 +22,6 @@ params:
     - 9.991803
     - 53.552008
     precision: exact
+  itemType: hanger
 ---
 fahning
