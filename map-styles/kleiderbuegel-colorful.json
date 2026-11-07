@@ -928,6 +928,19 @@
           0.8,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          9,
+          0,
+          10,
+          1
         ]
       },
       "layout": {
@@ -983,6 +996,19 @@
           0.5,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          9,
+          0,
+          10,
+          1
         ]
       },
       "layout": {
@@ -1038,6 +1064,19 @@
           0.5,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          14,
+          0,
+          15,
+          1
         ]
       },
       "layout": {
@@ -1093,6 +1132,19 @@
           0.5,
           20,
           2
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          14,
+          0,
+          15,
+          1
         ]
       },
       "layout": {
@@ -4923,7 +4975,19 @@
       "paint": {
         "fill-color": "rgb(243,239,235)",
         "fill-antialias": true,
-        "fill-opacity": 0.8
+        "fill-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          12,
+          0,
+          13,
+          0.8
+        ]
       },
       "minzoom": 12,
       "source": "versatiles-shortbread"
@@ -8238,6 +8302,19 @@
       ],
       "paint": {
         "line-color": "rgb(177,187,196)",
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
+        ],
         "line-width": [
           "interpolate",
           [
@@ -8253,10 +8330,10 @@
           2.5
         ]
       },
-      "minzoom": 13,
       "layout": {
         "line-cap": "round"
       },
+      "minzoom": 13,
       "source": "versatiles-shortbread"
     },
     {
@@ -8672,6 +8749,19 @@
       ],
       "paint": {
         "line-color": "rgb(177,187,196)",
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
+        ],
         "line-width": [
           "interpolate",
           [
@@ -8691,10 +8781,10 @@
           3
         ]
       },
-      "minzoom": 13,
       "layout": {
         "line-cap": "round"
       },
+      "minzoom": 13,
       "source": "versatiles-shortbread"
     },
     {
@@ -9276,7 +9366,19 @@
       },
       "paint": {
         "line-color": "rgb(243,239,235)",
-        "line-opacity": 0.5,
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          0.5
+        ],
         "line-width": [
           "interpolate",
           [
@@ -9337,7 +9439,19 @@
       },
       "paint": {
         "line-color": "rgb(243,239,235)",
-        "line-opacity": 0.5,
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          0.5
+        ],
         "line-width": [
           "interpolate",
           [
@@ -9398,7 +9512,19 @@
       },
       "paint": {
         "line-color": "rgb(243,239,235)",
-        "line-opacity": 0.5,
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          12,
+          0,
+          13,
+          0.5
+        ],
         "line-width": [
           "interpolate",
           [
