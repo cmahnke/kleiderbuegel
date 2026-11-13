@@ -71,6 +71,12 @@ jobs:
       - name: Build Hugo site
         run: hugo --printI18nWarnings --printUnusedTemplates
 
+      - name: Install IIIF validator
+        run: pip install git+https://github.com/IIIF/presentation-validator
+
+      - name: Validate IIIF output
+        run: ./themes/projektemacher-base/scripts/validate-iiif.sh docs
+
       - name: Run post build script
         run: |
           ./scripts/post-build/index.sh

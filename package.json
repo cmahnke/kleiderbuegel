@@ -37,6 +37,7 @@
     "validate-iiif": "case $OSTYPE in darwin*) npm run validate-iiif-bsd ;; linux*) npm run validate-iiif-gnu ;; bsd*) npm run validate-iiif-bsd ;; *)  exit 100 ;; esac",
     "validate-gjson": "case $OSTYPE in darwin*) npm run validate-gjson-bsd ;; linux*) npm run validate-gjson-gnu ;; bsd*) npm run validate-gjson-bsd ;; *)  exit 100 ;; esac",
     "validate": "npm run validate-iiif && npm run validate-gjson",
+    "validate-iiif-api": "./themes/projektemacher-base/scripts/validate-iiif.sh docs",
     "postinstall": "patch-package"
   },
   "overrides": {
