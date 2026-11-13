@@ -1317,6 +1317,19 @@
           18,
           20,
           90
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          12,
+          0,
+          13,
+          1
         ]
       },
       "layout": {
@@ -1403,6 +1416,19 @@
           18,
           20,
           90
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          12,
+          0,
+          13,
+          1
         ]
       },
       "layout": {
@@ -1483,6 +1509,19 @@
           20,
           20,
           40
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -1532,6 +1571,19 @@
           160,
           20,
           300
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          0,
+          12,
+          1
         ]
       },
       "layout": {
@@ -1575,6 +1627,19 @@
           18,
           20,
           36
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -1650,6 +1715,14 @@
       "id": "building:outline",
       "type": "fill",
       "source-layer": "buildings",
+      "filter": [
+        "!=",
+        [
+          "get",
+          "part"
+        ],
+        true
+      ],
       "paint": {
         "fill-color": "rgb(223,219,215)",
         "fill-opacity": [
@@ -1673,6 +1746,14 @@
       "id": "building",
       "type": "fill",
       "source-layer": "buildings",
+      "filter": [
+        "!=",
+        [
+          "get",
+          "part"
+        ],
+        true
+      ],
       "paint": {
         "fill-color": "rgb(242,234,226)",
         "fill-translate": [
@@ -2487,7 +2568,19 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "rgb(225,223,219)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(207,205,202)",
+          12,
+          "rgb(225,223,219)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -2562,7 +2655,19 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "rgb(240,204,173)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(233,172,119)",
+          12,
+          "rgb(240,204,173)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -2637,7 +2742,19 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "rgb(240,204,173)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(233,172,119)",
+          12,
+          "rgb(240,204,173)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -2716,7 +2833,19 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "rgb(240,204,173)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(233,172,119)",
+          12,
+          "rgb(240,204,173)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -2795,7 +2924,19 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "rgb(240,204,173)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(233,172,119)",
+          12,
+          "rgb(240,204,173)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -2876,7 +3017,7 @@
             "zoom"
           ],
           13,
-          0,
+          1,
           14,
           1,
           15,
@@ -2885,6 +3026,19 @@
           4,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -2932,7 +3086,7 @@
             "zoom"
           ],
           13,
-          0,
+          1,
           14,
           1,
           15,
@@ -2941,6 +3095,19 @@
           4,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -2988,7 +3155,7 @@
             "zoom"
           ],
           13,
-          0,
+          1,
           14,
           1,
           15,
@@ -2997,6 +3164,19 @@
           4,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -3044,7 +3224,7 @@
             "zoom"
           ],
           13,
-          0,
+          1,
           14,
           1,
           15,
@@ -3053,6 +3233,19 @@
           4,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -3532,13 +3725,13 @@
           [
             "zoom"
           ],
-          12,
-          0,
           13,
+          0,
+          14,
           1
         ]
       },
-      "minzoom": 12,
+      "minzoom": 13,
       "source": "versatiles-shortbread"
     },
     {
@@ -3959,7 +4152,19 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "rgb(252,250,248)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(255,255,255)",
+          12,
+          "rgb(252,250,248)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -4034,7 +4239,19 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "rgb(252,241,202)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(255,238,170)",
+          12,
+          "rgb(252,241,202)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -4109,7 +4326,19 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "rgb(252,241,202)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(255,238,170)",
+          12,
+          "rgb(252,241,202)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -4188,7 +4417,19 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "rgb(252,241,202)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(255,238,170)",
+          12,
+          "rgb(252,241,202)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -4267,7 +4508,19 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "rgb(252,222,183)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(255,204,136)",
+          12,
+          "rgb(252,222,183)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -4347,7 +4600,19 @@
         ]
       ],
       "paint": {
-        "line-color": "rgb(209,213,216)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(177,187,196)",
+          12,
+          "rgb(209,213,216)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -4373,13 +4638,15 @@
           [
             "zoom"
           ],
-          11,
+          10,
           0,
+          11,
+          1,
           12,
           0.5
         ]
       },
-      "minzoom": 11,
+      "minzoom": 10,
       "source": "versatiles-shortbread"
     },
     {
@@ -4416,7 +4683,19 @@
         ]
       ],
       "paint": {
-        "line-color": "rgb(209,213,216)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(177,187,196)",
+          12,
+          "rgb(209,213,216)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -4425,8 +4704,16 @@
           [
             "zoom"
           ],
-          14,
+          10,
           0,
+          11,
+          0.1,
+          12,
+          0.15,
+          13,
+          0.2,
+          14,
+          0.4,
           15,
           1,
           16,
@@ -4434,9 +4721,25 @@
           20,
           14
         ],
-        "line-opacity": 0.5
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0,
+          11,
+          0.4,
+          12,
+          0.35,
+          13,
+          0.5
+        ]
       },
-      "minzoom": 14,
+      "minzoom": 10,
       "source": "versatiles-shortbread"
     },
     {
@@ -4619,7 +4922,7 @@
             "zoom"
           ],
           15,
-          0,
+          5,
           16,
           5,
           18,
@@ -4631,7 +4934,19 @@
           0.1,
           0.5
         ],
-        "line-opacity": 0.5
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          16,
+          0.5
+        ]
       },
       "minzoom": 14,
       "source": "versatiles-shortbread"
@@ -4687,7 +5002,7 @@
             "zoom"
           ],
           14,
-          0,
+          1,
           15,
           1,
           20,
@@ -4758,13 +5073,25 @@
             "zoom"
           ],
           15,
-          0,
+          1,
           16,
           1,
           20,
           10
         ],
-        "line-opacity": 0.5
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          16,
+          0.5
+        ]
       },
       "minzoom": 14,
       "source": "versatiles-shortbread"
@@ -4963,7 +5290,19 @@
           5
         ],
         "line-color": "rgb(209,213,216)",
-        "line-opacity": 0.5
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          0.5
+        ]
       },
       "minzoom": 13,
       "source": "versatiles-shortbread"
@@ -6301,7 +6640,7 @@
             "zoom"
           ],
           13,
-          0,
+          1,
           14,
           1,
           15,
@@ -6310,6 +6649,19 @@
           4,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -6365,7 +6717,7 @@
             "zoom"
           ],
           13,
-          0,
+          1,
           14,
           1,
           15,
@@ -6374,6 +6726,19 @@
           4,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -6429,7 +6794,7 @@
             "zoom"
           ],
           13,
-          0,
+          1,
           14,
           1,
           15,
@@ -6438,6 +6803,19 @@
           4,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -6493,7 +6871,7 @@
             "zoom"
           ],
           13,
-          0,
+          1,
           14,
           1,
           15,
@@ -6502,6 +6880,19 @@
           4,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -7037,13 +7428,13 @@
           [
             "zoom"
           ],
-          12,
-          0,
           13,
+          0,
+          14,
           1
         ]
       },
-      "minzoom": 12,
+      "minzoom": 13,
       "source": "versatiles-shortbread"
     },
     {
@@ -7966,13 +8357,13 @@
           [
             "zoom"
           ],
-          11,
+          10,
           0,
-          12,
+          11,
           1
         ]
       },
-      "minzoom": 11,
+      "minzoom": 10,
       "source": "versatiles-shortbread"
     },
     {
@@ -8026,17 +8417,40 @@
           [
             "zoom"
           ],
-          14,
+          10,
           0,
+          11,
+          0.1,
+          12,
+          0.15,
+          13,
+          0.2,
+          14,
+          0.4,
           15,
           1,
           16,
           1,
           20,
           14
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0,
+          11,
+          0.4,
+          13,
+          1
         ]
       },
-      "minzoom": 14,
+      "minzoom": 10,
       "source": "versatiles-shortbread"
     },
     {
@@ -8259,7 +8673,7 @@
             "zoom"
           ],
           15,
-          0,
+          5,
           16,
           5,
           18,
@@ -8270,6 +8684,19 @@
         "line-dasharray": [
           0.1,
           0.5
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          16,
+          1
         ]
       },
       "minzoom": 14,
@@ -8395,7 +8822,7 @@
             "zoom"
           ],
           14,
-          0,
+          1,
           15,
           1,
           20,
@@ -8474,11 +8901,24 @@
             "zoom"
           ],
           15,
-          0,
+          1,
           16,
           1,
           20,
           10
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          16,
+          1
         ]
       },
       "minzoom": 14,
@@ -8717,7 +9157,20 @@
           20,
           5
         ],
-        "line-color": "rgb(177,187,196)"
+        "line-color": "rgb(177,187,196)",
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
+        ]
       },
       "minzoom": 13,
       "source": "versatiles-shortbread"
@@ -8791,7 +9244,6 @@
       "id": "transport-ferry",
       "type": "line",
       "source-layer": "ferries",
-      "minzoom": 10,
       "paint": {
         "line-color": "rgb(119,152,184)",
         "line-width": 1.1,
@@ -8816,6 +9268,7 @@
       "layout": {
         "line-join": "round"
       },
+      "minzoom": 10,
       "source": "versatiles-shortbread"
     },
     {
@@ -8847,7 +9300,19 @@
       },
       "paint": {
         "line-color": "rgb(243,239,235)",
-        "line-opacity": 0.5,
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          16,
+          0.5
+        ],
         "line-width": [
           "interpolate",
           [
@@ -8898,7 +9363,19 @@
       },
       "paint": {
         "line-color": "rgb(243,239,235)",
-        "line-opacity": 0.5,
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          16,
+          0.5
+        ],
         "line-width": [
           "interpolate",
           [
@@ -8955,7 +9432,19 @@
       },
       "paint": {
         "line-color": "rgb(243,239,235)",
-        "line-opacity": 0.5,
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          16,
+          0.5
+        ],
         "line-width": [
           "interpolate",
           [
@@ -9735,7 +10224,19 @@
       },
       "paint": {
         "line-color": "rgb(243,239,235)",
-        "line-opacity": 0.5,
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          0,
+          12,
+          0.5
+        ],
         "line-width": [
           "interpolate",
           [
@@ -9762,7 +10263,7 @@
           202
         ]
       },
-      "minzoom": 8,
+      "minzoom": 11,
       "source": "versatiles-shortbread"
     },
     {
@@ -9802,7 +10303,19 @@
       },
       "paint": {
         "line-color": "rgb(243,239,235)",
-        "line-opacity": 0.5,
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          0,
+          12,
+          0.5
+        ],
         "line-width": [
           "interpolate",
           [
@@ -9829,7 +10342,7 @@
           202
         ]
       },
-      "minzoom": 7,
+      "minzoom": 11,
       "source": "versatiles-shortbread"
     },
     {
@@ -9869,7 +10382,19 @@
       },
       "paint": {
         "line-color": "rgb(243,239,235)",
-        "line-opacity": 0.5,
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          0,
+          12,
+          0.5
+        ],
         "line-width": [
           "interpolate",
           [
@@ -9896,7 +10421,7 @@
           235
         ]
       },
-      "minzoom": 5,
+      "minzoom": 11,
       "source": "versatiles-shortbread"
     },
     {
@@ -10683,7 +11208,19 @@
         "line-cap": "butt"
       },
       "paint": {
-        "line-color": "rgb(217,217,217)",
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          11,
+          "rgb(207,205,202)",
+          12,
+          "rgb(217,217,217)"
+        ],
         "line-width": [
           "interpolate",
           [
@@ -11072,7 +11609,7 @@
             "zoom"
           ],
           13,
-          0,
+          1,
           14,
           1,
           15,
@@ -11081,6 +11618,19 @@
           4,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -11128,7 +11678,7 @@
             "zoom"
           ],
           13,
-          0,
+          1,
           14,
           1,
           15,
@@ -11137,6 +11687,19 @@
           4,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -11184,7 +11747,7 @@
             "zoom"
           ],
           13,
-          0,
+          1,
           14,
           1,
           15,
@@ -11193,6 +11756,19 @@
           4,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -11240,7 +11816,7 @@
             "zoom"
           ],
           13,
-          0,
+          1,
           14,
           1,
           15,
@@ -11249,6 +11825,19 @@
           4,
           20,
           6
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
         ]
       },
       "layout": {
@@ -11728,13 +12317,13 @@
           [
             "zoom"
           ],
-          12,
-          0,
           13,
+          0,
+          14,
           1
         ]
       },
-      "minzoom": 12,
+      "minzoom": 13,
       "source": "versatiles-shortbread"
     },
     {
@@ -12569,16 +13158,16 @@
           [
             "zoom"
           ],
-          11,
+          10,
           0,
-          12,
+          11,
           1
         ]
       },
       "layout": {
         "line-cap": "butt"
       },
-      "minzoom": 11,
+      "minzoom": 10,
       "source": "versatiles-shortbread"
     },
     {
@@ -12624,20 +13213,43 @@
           [
             "zoom"
           ],
-          14,
+          10,
           0,
+          11,
+          0.1,
+          12,
+          0.15,
+          13,
+          0.2,
+          14,
+          0.4,
           15,
           1,
           16,
           1,
           20,
           14
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          10,
+          0,
+          11,
+          0.4,
+          13,
+          1
         ]
       },
       "layout": {
         "line-cap": "butt"
       },
-      "minzoom": 14,
+      "minzoom": 10,
       "source": "versatiles-shortbread"
     },
     {
@@ -12823,7 +13435,7 @@
             "zoom"
           ],
           15,
-          0,
+          5,
           16,
           5,
           18,
@@ -12834,6 +13446,19 @@
         "line-dasharray": [
           0.1,
           0.5
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          16,
+          1
         ]
       },
       "layout": {
@@ -12893,7 +13518,7 @@
             "zoom"
           ],
           14,
-          0,
+          1,
           15,
           1,
           20,
@@ -12967,11 +13592,24 @@
             "zoom"
           ],
           15,
-          0,
+          1,
           16,
           1,
           20,
           10
+        ],
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          15,
+          0,
+          16,
+          1
         ]
       },
       "layout": {
@@ -13176,7 +13814,20 @@
           20,
           5
         ],
-        "line-color": "rgb(177,187,196)"
+        "line-color": "rgb(177,187,196)",
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14,
+          1
+        ]
       },
       "layout": {
         "line-cap": "butt"
@@ -13338,8 +13989,7 @@
       ],
       "paint": {
         "line-color": "rgb(248,244,240)",
-        "line-opacity": 0.75,
-        "line-width": [
+        "line-opacity": [
           "interpolate",
           [
             "linear"
@@ -13349,6 +13999,19 @@
           ],
           7,
           0,
+          8,
+          0.75
+        ],
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          7,
+          2,
           8,
           2,
           10,
@@ -13519,7 +14182,7 @@
             "zoom"
           ],
           7,
-          0,
+          1,
           8,
           1,
           10,
