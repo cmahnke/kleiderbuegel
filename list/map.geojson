@@ -3,6 +3,21 @@
   "features": [{
   "type": "Feature",
   "properties": {
+      "name": "Möller &amp; Schade",
+      "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eMöller \u0026amp; Schade\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eMöller \u0026amp; Schade\nDas Haus der guten Bekleidung\nCuxhaven\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eWesterwischweg 15, Cuxhaven\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/216/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.692981,53.858865]
+  }
+}
+
+
+
+
+,{
+  "type": "Feature",
+  "properties": {
       "name": "C. Louis Weber Hannover",
       "popupContent": "\u003cdiv class=\"geojsonPopup\"\u003e\n    \u003cdiv class=\"title\"\u003eC. Louis Weber Hannover\u003c/div\u003e\n    \u003cdiv class=\"content\"\u003eÜber 100 Jahre\nC. Louis Weber\nHannover\u003c/div\u003e\u003cdiv class=\"popup-address certainty\"\u003eGroße Packhofstr. 30, Hannover\u003c/div\u003e\u003cdiv class=\"link\"\u003e\n      \u003ca target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://xn--kleiderbgel-0hb.xn--blaufusstlpel-qmb.de/post/215/\"\u003eMehr lesen...\u003c/a\u003e\n    \u003c/div\u003e\n\u003c/div\u003e\n"
   },
