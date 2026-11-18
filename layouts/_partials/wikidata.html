@@ -13,35 +13,27 @@
   {{- $id := "" -}}
 
   {{- if hasPrefix . "http" -}}
-    {{- $id = replaceRE `(?m)https://www.wikidata.org/wiki/(Q\d+)` "$1" . -}} -}}
+    {{- $id = replaceRE `(?m)https://www.wikidata.org/wiki/(Q\d+)` "$1" . -}}
   {{- else if hasPrefix . "Q" -}}
     {{- $id =  . -}}
   {{- else -}}
     {{- errorf "[wikidata.html] Malformed Wikidata identifier: %s" . -}}
   {{- end -}}
 
-  {{- $queryURL := "https://query.wikidata.org/sparql" -}}
   {{- $queryOpts := dict
     "method" "get"
     "headers" (dict "Accept" "application/sparql-results+json")
   -}}
+  {{- with site.Params.useragent -}}
+    {{- $queryOpts = merge $queryOpts (dict "headers" (merge (index $queryOpts "headers") (dict "User-Agent" .))) -}}
+  {{- end -}}
 
-  {{- $query := printf `SELECT ?lang ?url  WHERE {
-        BIND(wd:%s AS ?item) ?url schema:about ?item ; schema:isPartOf ?wiki .
-        FILTER (REGEX(STR(?wiki), "wikipedia\\.org"))
-        BIND(REPLACE(STR(?wiki), "https://([a-z-]+)\\.wikipedia\\.org", "$1") AS ?lang) }` $id -}}
-
-  {{- $queryURL = printf "%s?query=%s" $queryURL (urlquery $query) -}}
+  {{- $queryURL := partialCached "data/functions/wikidata/sitelinks-query.html" (dict "id" $id) $id -}}
   {{- if $debug -}}
-    {{ warnf "[wikidata.html] Generated query for id %s is: %s" . $query }}
-    {{ warnf "[wikidata.html] Generated query url id %s is: %s" . $queryURL }}
+    {{- warnf "[wikidata.html] Generated query url for id %s is: %s" $id $queryURL -}}
   {{- end -}}
 
   {{- $wikiLinks := slice -}}
-
-  {{- with site.Params.useragent -}}
-    {{- $queryOpts = $queryOpts | merge (dict "User-Agent" .) -}}
-  {{- end -}}
 
   {{- with try (resources.GetRemote $queryURL $queryOpts) -}}
     {{- with .Err -}}

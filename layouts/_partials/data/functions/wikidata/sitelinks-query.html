@@ -1,0 +1,29 @@
+{{- /*
+Builds the fully encoded SPARQL query URL for the Wikipedia sitelinks of a
+Wikidata entity. Input: dict "id" (QID string).
+Config (mirrors the theme's data/functions/wikidata/sparql-query.html):
+  site.Params.wikidatasparqlbackend: "qlever" (site default) or "wdqs"
+  site.Params.wikidatasparqlendpoint: optional endpoint override
+The sitelinks query uses no Blazegraph-only SERVICE wikibase:label clause, so a
+single query dialect works for both backends.
+*/ -}}
+{{- $id := .id -}}
+{{- $backend := "qlever" -}}
+{{- with site.Params.wikidatasparqlbackend -}}
+  {{- $backend = lower . -}}
+{{- end -}}
+
+{{- $endpoint := "https://qlever.dev/api/wikidata" -}}
+{{- if eq $backend "wdqs" -}}
+  {{- $endpoint = "https://query.wikidata.org/sparql" -}}
+{{- end -}}
+{{- with site.Params.wikidatasparqlendpoint -}}
+  {{- $endpoint = . -}}
+{{- end -}}
+
+{{- $query := printf `SELECT ?lang ?url WHERE {
+        BIND(wd:%s AS ?item) ?url schema:about ?item ; schema:isPartOf ?wiki .
+        FILTER (REGEX(STR(?wiki), "wikipedia\\.org"))
+        BIND(REPLACE(STR(?wiki), "https://([a-z-]+)\\.wikipedia\\.org", "$1") AS ?lang) }` $id -}}
+
+{{- return printf "%s?query=%s" $endpoint (replace (urlquery $query) "+" "%20") -}}
